@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface Route53ResolverResolverRuleConfig extends cdktn.TerraformMetaAr
   /**
   * The name server domain for queries to be delegated to if a query matches the delegation record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#delegation_record Route53ResolverResolverRule#delegation_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#delegation_record Route53ResolverResolverRule#delegation_record}
   */
   readonly delegationRecord?: string;
   /**
   * DNS queries for this domain name are forwarded to the IP addresses that are specified in TargetIps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#domain_name Route53ResolverResolverRule#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#domain_name Route53ResolverResolverRule#domain_name}
   */
   readonly domainName?: string;
   /**
   * The name for the Resolver rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#name Route53ResolverResolverRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#name Route53ResolverResolverRule#name}
   */
   readonly name?: string;
   /**
   * The ID of the endpoint that the rule is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#resolver_endpoint_id Route53ResolverResolverRule#resolver_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#resolver_endpoint_id Route53ResolverResolverRule#resolver_endpoint_id}
   */
   readonly resolverEndpointId?: string;
   /**
   * When you want to forward DNS queries for specified domain name to resolvers on your network, specify FORWARD. When you have a forwarding rule to forward DNS queries for a domain to your network and you want Resolver to process queries for a subdomain of that domain, specify SYSTEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#rule_type Route53ResolverResolverRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#rule_type Route53ResolverResolverRule#rule_type}
   */
   readonly ruleType: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#tags Route53ResolverResolverRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#tags Route53ResolverResolverRule#tags}
   */
   readonly tags?: Route53ResolverResolverRuleTags[] | cdktn.IResolvable;
   /**
   * An array that contains the IP addresses and ports that an outbound endpoint forwards DNS queries to. Typically, these are the IP addresses of DNS resolvers on your network. Specify IPv4 addresses. IPv6 is not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#target_ips Route53ResolverResolverRule#target_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#target_ips Route53ResolverResolverRule#target_ips}
   */
   readonly targetIps?: Route53ResolverResolverRuleTargetIps[] | cdktn.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface Route53ResolverResolverRuleTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#key Route53ResolverResolverRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#key Route53ResolverResolverRule#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#value Route53ResolverResolverRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#value Route53ResolverResolverRule#value}
   */
   readonly value?: string;
 }
@@ -207,31 +207,31 @@ export interface Route53ResolverResolverRuleTargetIps {
   /**
   * One IP address that you want to forward DNS queries to. You can specify only IPv4 addresses. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#ip Route53ResolverResolverRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#ip Route53ResolverResolverRule#ip}
   */
   readonly ip?: string;
   /**
   * One IPv6 address that you want to forward DNS queries to. You can specify only IPv6 addresses. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#ipv_6 Route53ResolverResolverRule#ipv_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#ipv_6 Route53ResolverResolverRule#ipv_6}
   */
   readonly ipv6?: string;
   /**
   * The port at Ip that you want to forward DNS queries to. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#port Route53ResolverResolverRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#port Route53ResolverResolverRule#port}
   */
   readonly port?: string;
   /**
   * The protocol that you want to use to forward DNS queries. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#protocol Route53ResolverResolverRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#protocol Route53ResolverResolverRule#protocol}
   */
   readonly protocol?: string;
   /**
   * The SNI of the target name servers for DoH/DoH-FIPS outbound endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#server_name_indication Route53ResolverResolverRule#server_name_indication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#server_name_indication Route53ResolverResolverRule#server_name_indication}
   */
   readonly serverNameIndication?: string;
 }
@@ -463,7 +463,7 @@ export class Route53ResolverResolverRuleTargetIpsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule}
 */
 export class Route53ResolverResolverRule extends cdktn.TerraformResource {
 
@@ -479,7 +479,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53ResolverResolverRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverResolverRule to import
-  * @param importFromId The id of the existing Route53ResolverResolverRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverResolverRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverResolverRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -491,7 +491,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,7 +502,7 @@ export class Route53ResolverResolverRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53resolver_resolver_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

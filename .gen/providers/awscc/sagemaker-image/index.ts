@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SagemakerImageConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#image_description SagemakerImage#image_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#image_description SagemakerImage#image_description}
   */
   readonly imageDescription?: string;
   /**
   * The display name of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#image_display_name SagemakerImage#image_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#image_display_name SagemakerImage#image_display_name}
   */
   readonly imageDisplayName?: string;
   /**
   * The name of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#image_name SagemakerImage#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#image_name SagemakerImage#image_name}
   */
   readonly imageName: string;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that enables Amazon SageMaker to perform tasks on behalf of the customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#image_role_arn SagemakerImage#image_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#image_role_arn SagemakerImage#image_role_arn}
   */
   readonly imageRoleArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#tags SagemakerImage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#tags SagemakerImage#tags}
   */
   readonly tags?: SagemakerImageTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface SagemakerImageTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#key SagemakerImage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#key SagemakerImage#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#value SagemakerImage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#value SagemakerImage#value}
   */
   readonly value?: string;
 }
@@ -193,7 +193,7 @@ export class SagemakerImageTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image awscc_sagemaker_image}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image awscc_sagemaker_image}
 */
 export class SagemakerImage extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class SagemakerImage extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerImage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerImage to import
-  * @param importFromId The id of the existing SagemakerImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class SagemakerImage extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_image awscc_sagemaker_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_image awscc_sagemaker_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class SagemakerImage extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_image',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

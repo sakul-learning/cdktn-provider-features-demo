@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface CeAnomalySubscriptionConfig extends cdktn.TerraformMetaArgument
   /**
   * The frequency at which anomaly reports are sent over email. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#frequency CeAnomalySubscription#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#frequency CeAnomalySubscription#frequency}
   */
   readonly frequency: string;
   /**
   * A list of cost anomaly monitors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#monitor_arn_list CeAnomalySubscription#monitor_arn_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#monitor_arn_list CeAnomalySubscription#monitor_arn_list}
   */
   readonly monitorArnList: string[];
   /**
   * Tags to assign to subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#resource_tags CeAnomalySubscription#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#resource_tags CeAnomalySubscription#resource_tags}
   */
   readonly resourceTags?: CeAnomalySubscriptionResourceTags[] | cdktn.IResolvable;
   /**
   * A list of subscriber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#subscribers CeAnomalySubscription#subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#subscribers CeAnomalySubscription#subscribers}
   */
   readonly subscribers: CeAnomalySubscriptionSubscribers[] | cdktn.IResolvable;
   /**
   * The name of the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#subscription_name CeAnomalySubscription#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#subscription_name CeAnomalySubscription#subscription_name}
   */
   readonly subscriptionName: string;
   /**
   * The dollar value that triggers a notification if the threshold is exceeded. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#threshold CeAnomalySubscription#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#threshold CeAnomalySubscription#threshold}
   */
   readonly threshold?: number;
   /**
   * An Expression object in JSON String format used to specify the anomalies that you want to generate alerts for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#threshold_expression CeAnomalySubscription#threshold_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#threshold_expression CeAnomalySubscription#threshold_expression}
   */
   readonly thresholdExpression?: string;
 }
@@ -54,13 +54,13 @@ export interface CeAnomalySubscriptionResourceTags {
   /**
   * The key name for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#key CeAnomalySubscription#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#key CeAnomalySubscription#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#value CeAnomalySubscription#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#value CeAnomalySubscription#value}
   */
   readonly value?: string;
 }
@@ -205,15 +205,15 @@ export class CeAnomalySubscriptionResourceTagsList extends cdktn.ComplexList {
 }
 export interface CeAnomalySubscriptionSubscribers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#address CeAnomalySubscription#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#status CeAnomalySubscription#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#status CeAnomalySubscription#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#type CeAnomalySubscription#type}
   */
   readonly type: string;
 }
@@ -381,7 +381,7 @@ export class CeAnomalySubscriptionSubscribersList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription awscc_ce_anomaly_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription awscc_ce_anomaly_subscription}
 */
 export class CeAnomalySubscription extends cdktn.TerraformResource {
 
@@ -397,7 +397,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CeAnomalySubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CeAnomalySubscription to import
-  * @param importFromId The id of the existing CeAnomalySubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CeAnomalySubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CeAnomalySubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -409,7 +409,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_subscription awscc_ce_anomaly_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_subscription awscc_ce_anomaly_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,7 +420,7 @@ export class CeAnomalySubscription extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ce_anomaly_subscription',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

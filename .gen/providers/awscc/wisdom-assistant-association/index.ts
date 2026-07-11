@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface WisdomAssistantAssociationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#assistant_id WisdomAssistantAssociation#assistant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#assistant_id WisdomAssistantAssociation#assistant_id}
   */
   readonly assistantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#association WisdomAssistantAssociation#association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#association WisdomAssistantAssociation#association}
   */
   readonly association: WisdomAssistantAssociationAssociation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#association_type WisdomAssistantAssociation#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#association_type WisdomAssistantAssociation#association_type}
   */
   readonly associationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#tags WisdomAssistantAssociation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#tags WisdomAssistantAssociation#tags}
   */
   readonly tags?: WisdomAssistantAssociationTags[] | cdktn.IResolvable;
 }
 export interface WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}
   */
   readonly accessRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}
   */
   readonly bedrockKnowledgeBaseArn?: string;
 }
@@ -153,11 +153,11 @@ export class WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseCo
 }
 export interface WisdomAssistantAssociationAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#external_bedrock_knowledge_base_config WisdomAssistantAssociation#external_bedrock_knowledge_base_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#external_bedrock_knowledge_base_config WisdomAssistantAssociation#external_bedrock_knowledge_base_config}
   */
   readonly externalBedrockKnowledgeBaseConfig?: WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#knowledge_base_id WisdomAssistantAssociation#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#knowledge_base_id WisdomAssistantAssociation#knowledge_base_id}
   */
   readonly knowledgeBaseId?: string;
 }
@@ -280,11 +280,11 @@ export class WisdomAssistantAssociationAssociationOutputReference extends cdktn.
 }
 export interface WisdomAssistantAssociationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}
   */
   readonly value?: string;
 }
@@ -429,7 +429,7 @@ export class WisdomAssistantAssociationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association}
 */
 export class WisdomAssistantAssociation extends cdktn.TerraformResource {
 
@@ -445,7 +445,7 @@ export class WisdomAssistantAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomAssistantAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomAssistantAssociation to import
-  * @param importFromId The id of the existing WisdomAssistantAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomAssistantAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomAssistantAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -457,7 +457,7 @@ export class WisdomAssistantAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,7 +468,7 @@ export class WisdomAssistantAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_assistant_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

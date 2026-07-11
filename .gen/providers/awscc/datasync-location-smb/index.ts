@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DatasyncLocationSmbConfig extends cdktn.TerraformMetaArguments 
   /**
   * The Amazon Resource Names (ARNs) of agents to use for a Simple Message Block (SMB) location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#agent_arns DatasyncLocationSmb#agent_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#agent_arns DatasyncLocationSmb#agent_arns}
   */
   readonly agentArns: string[];
   /**
   * The authentication mode used to determine identity of user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#authentication_type DatasyncLocationSmb#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#authentication_type DatasyncLocationSmb#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Specifies configuration information for a DataSync-managed secret, such as a password or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#cmk_secret_config DatasyncLocationSmb#cmk_secret_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#cmk_secret_config DatasyncLocationSmb#cmk_secret_config}
   */
   readonly cmkSecretConfig?: DatasyncLocationSmbCmkSecretConfig;
   /**
   * Specifies configuration information for a customer-managed secret, such as a password or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#custom_secret_config DatasyncLocationSmb#custom_secret_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#custom_secret_config DatasyncLocationSmb#custom_secret_config}
   */
   readonly customSecretConfig?: DatasyncLocationSmbCustomSecretConfig;
   /**
   * Specifies the IPv4 addresses for the DNS servers that your SMB file server belongs to. This parameter applies only if AuthenticationType is set to KERBEROS. If you have multiple domains in your environment, configuring this parameter makes sure that DataSync connects to the right SMB file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#dns_ip_addresses DatasyncLocationSmb#dns_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#dns_ip_addresses DatasyncLocationSmb#dns_ip_addresses}
   */
   readonly dnsIpAddresses?: string[];
   /**
   * The name of the Windows domain that the SMB server belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#domain DatasyncLocationSmb#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#domain DatasyncLocationSmb#domain}
   */
   readonly domain?: string;
   /**
   * The Base64 string representation of the Keytab file. Specifies your Kerberos key table (keytab) file, which includes mappings between your service principal name (SPN) and encryption keys. To avoid task execution errors, make sure that the SPN in the keytab file matches exactly what you specify for KerberosPrincipal and in your krb5.conf file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#kerberos_keytab DatasyncLocationSmb#kerberos_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#kerberos_keytab DatasyncLocationSmb#kerberos_keytab}
   */
   readonly kerberosKeytab?: string;
   /**
   * The string representation of the Krb5Conf file, or the presigned URL to access the Krb5.conf file within an S3 bucket. Specifies a Kerberos configuration file (krb5.conf) that defines your Kerberos realm configuration. To avoid task execution errors, make sure that the service principal name (SPN) in the krb5.conf file matches exactly what you specify for KerberosPrincipal and in your keytab file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#kerberos_krb_5_conf DatasyncLocationSmb#kerberos_krb_5_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#kerberos_krb_5_conf DatasyncLocationSmb#kerberos_krb_5_conf}
   */
   readonly kerberosKrb5Conf?: string;
   /**
   * Specifies a service principal name (SPN), which is an identity in your Kerberos realm that has permission to access the files, folders, and file metadata in your SMB file server. SPNs are case sensitive and must include a prepended cifs/. For example, an SPN might look like cifs/kerberosuser@EXAMPLE.COM. Your task execution will fail if the SPN that you provide for this parameter doesn't match exactly what's in your keytab or krb5.conf files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#kerberos_principal DatasyncLocationSmb#kerberos_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#kerberos_principal DatasyncLocationSmb#kerberos_principal}
   */
   readonly kerberosPrincipal?: string;
   /**
   * The mount options used by DataSync to access the SMB server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#mount_options DatasyncLocationSmb#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#mount_options DatasyncLocationSmb#mount_options}
   */
   readonly mountOptions?: DatasyncLocationSmbMountOptions;
   /**
   * The password of the user who can mount the share and has the permissions to access files and folders in the SMB share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#password DatasyncLocationSmb#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#password DatasyncLocationSmb#password}
   */
   readonly password?: string;
   /**
   * The name of the SMB server. This value is the IP address or Domain Name Service (DNS) name of the SMB server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#server_hostname DatasyncLocationSmb#server_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#server_hostname DatasyncLocationSmb#server_hostname}
   */
   readonly serverHostname?: string;
   /**
   * The subdirectory in the SMB file system that is used to read data from the SMB source location or write data to the SMB destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#subdirectory DatasyncLocationSmb#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#subdirectory DatasyncLocationSmb#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#tags DatasyncLocationSmb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#tags DatasyncLocationSmb#tags}
   */
   readonly tags?: DatasyncLocationSmbTags[] | cdktn.IResolvable;
   /**
   * The user who can mount the share, has the permissions to access files and folders in the SMB share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#user DatasyncLocationSmb#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#user DatasyncLocationSmb#user}
   */
   readonly user?: string;
 }
@@ -102,7 +102,7 @@ export interface DatasyncLocationSmbCmkSecretConfig {
   /**
   * Specifies the ARN for the customer-managed AWS KMS key used to encrypt the secret specified for SecretArn. DataSync provides this key to AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#kms_key_arn DatasyncLocationSmb#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#kms_key_arn DatasyncLocationSmb#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -203,13 +203,13 @@ export interface DatasyncLocationSmbCustomSecretConfig {
   /**
   * Specifies the ARN for the AWS Identity and Access Management role that DataSync uses to access the secret specified for SecretArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#secret_access_role_arn DatasyncLocationSmb#secret_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#secret_access_role_arn DatasyncLocationSmb#secret_access_role_arn}
   */
   readonly secretAccessRoleArn?: string;
   /**
   * Specifies the ARN for a customer created AWS Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#secret_arn DatasyncLocationSmb#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#secret_arn DatasyncLocationSmb#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -388,7 +388,7 @@ export interface DatasyncLocationSmbMountOptions {
   /**
   * The specific SMB version that you want DataSync to use to mount your SMB share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#version DatasyncLocationSmb#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#version DatasyncLocationSmb#version}
   */
   readonly version?: string;
 }
@@ -484,13 +484,13 @@ export interface DatasyncLocationSmbTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#key DatasyncLocationSmb#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#key DatasyncLocationSmb#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#value DatasyncLocationSmb#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#value DatasyncLocationSmb#value}
   */
   readonly value?: string;
 }
@@ -635,7 +635,7 @@ export class DatasyncLocationSmbTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb awscc_datasync_location_smb}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb awscc_datasync_location_smb}
 */
 export class DatasyncLocationSmb extends cdktn.TerraformResource {
 
@@ -651,7 +651,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationSmb resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationSmb to import
-  * @param importFromId The id of the existing DatasyncLocationSmb that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationSmb that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationSmb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -663,7 +663,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_smb awscc_datasync_location_smb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_smb awscc_datasync_location_smb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -674,7 +674,7 @@ export class DatasyncLocationSmb extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_smb',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

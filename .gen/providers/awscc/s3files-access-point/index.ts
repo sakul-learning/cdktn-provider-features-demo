@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface S3FilesAccessPointConfig extends cdktn.TerraformMetaArguments {
   /**
   * (optional) A string of up to 64 ASCII characters that Amazon EFS uses to ensure idempotent creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#client_token S3FilesAccessPoint#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#client_token S3FilesAccessPoint#client_token}
   */
   readonly clientToken?: string;
   /**
   * The ID of the S3 Files file system that the access point provides access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
   */
   readonly fileSystemId: string;
   /**
   * The operating system user and group applied to all compute drive requests made using the access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
   */
   readonly posixUser?: S3FilesAccessPointPosixUser;
   /**
   * Specifies the directory on the Amazon EFS file system that the access point exposes as the root directory of your file system to NFS clients using the access point. The clients using the access point can only access the root directory and below. If the RootDirectory>Path specified does not exist, EFS creates it and applies the CreationPermissions settings when a client connects to an access point. When specifying a RootDirectory, you need to provide the Path, and the CreationPermissions is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
   */
   readonly rootDirectory?: S3FilesAccessPointRootDirectory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}
   */
   readonly tags?: S3FilesAccessPointTags[] | cdktn.IResolvable;
 }
@@ -40,19 +40,19 @@ export interface S3FilesAccessPointPosixUser {
   /**
   * The POSIX group ID used for all file system operations using this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#gid S3FilesAccessPoint#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#gid S3FilesAccessPoint#gid}
   */
   readonly gid?: string;
   /**
   * Secondary POSIX group IDs used for all file system operations using this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#secondary_gids S3FilesAccessPoint#secondary_gids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#secondary_gids S3FilesAccessPoint#secondary_gids}
   */
   readonly secondaryGids?: string[];
   /**
   * The POSIX user ID used for all file system operations using this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#uid S3FilesAccessPoint#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#uid S3FilesAccessPoint#uid}
   */
   readonly uid?: string;
 }
@@ -206,19 +206,19 @@ export interface S3FilesAccessPointRootDirectoryCreationPermissions {
   /**
   * Specifies the POSIX group ID to apply to the RootDirectory. Accepts values from 0 to 2^32 (4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#owner_gid S3FilesAccessPoint#owner_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#owner_gid S3FilesAccessPoint#owner_gid}
   */
   readonly ownerGid?: string;
   /**
   * Specifies the POSIX user ID to apply to the RootDirectory. Accepts values from 0 to 2^32 (4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#owner_uid S3FilesAccessPoint#owner_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#owner_uid S3FilesAccessPoint#owner_uid}
   */
   readonly ownerUid?: string;
   /**
   * Specifies the POSIX permissions to apply to the RootDirectory, in the format of an octal number representing the file's mode bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#permissions S3FilesAccessPoint#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#permissions S3FilesAccessPoint#permissions}
   */
   readonly permissions?: string;
 }
@@ -372,13 +372,13 @@ export interface S3FilesAccessPointRootDirectory {
   /**
   * (Optional) Specifies the POSIX IDs and permissions to apply to the access point's RootDirectory. If the RootDirectory>Path specified does not exist, EFS creates the root directory using the CreationPermissions settings when a client connects to an access point. When specifying the CreationPermissions, you must provide values for all properties.   If you do not provide CreationPermissions and the specified RootDirectory>Path does not exist, attempts to mount the file system using the access point will fail. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#creation_permissions S3FilesAccessPoint#creation_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#creation_permissions S3FilesAccessPoint#creation_permissions}
   */
   readonly creationPermissions?: S3FilesAccessPointRootDirectoryCreationPermissions;
   /**
   * Specifies the path on the EFS file system to expose as the root directory to NFS clients using the access point to access the EFS file system. A path can have up to four subdirectories. If the specified path does not exist, you are required to provide the CreationPermissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#path S3FilesAccessPoint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#path S3FilesAccessPoint#path}
   */
   readonly path?: string;
 }
@@ -501,11 +501,11 @@ export class S3FilesAccessPointRootDirectoryOutputReference extends cdktn.Comple
 }
 export interface S3FilesAccessPointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#key S3FilesAccessPoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#key S3FilesAccessPoint#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#value S3FilesAccessPoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#value S3FilesAccessPoint#value}
   */
   readonly value?: string;
 }
@@ -650,7 +650,7 @@ export class S3FilesAccessPointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point awscc_s3files_access_point}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point awscc_s3files_access_point}
 */
 export class S3FilesAccessPoint extends cdktn.TerraformResource {
 
@@ -666,7 +666,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3FilesAccessPoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3FilesAccessPoint to import
-  * @param importFromId The id of the existing S3FilesAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3FilesAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3FilesAccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -678,7 +678,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,7 +689,7 @@ export class S3FilesAccessPoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3files_access_point',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

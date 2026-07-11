@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Ec2CapacityManagerDataExportConfig extends cdktn.TerraformMetaA
   /**
   * The format of the exported capacity manager data. Choose 'csv' for comma-separated values or 'parquet' for optimized columnar storage format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#output_format Ec2CapacityManagerDataExport#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#output_format Ec2CapacityManagerDataExport#output_format}
   */
   readonly outputFormat: string;
   /**
   * The name of the Amazon S3 bucket where the capacity manager data export will be stored. The bucket must exist and be accessible by EC2 Capacity Manager service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_name Ec2CapacityManagerDataExport#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_name Ec2CapacityManagerDataExport#s3_bucket_name}
   */
   readonly s3BucketName: string;
   /**
   * The prefix for the S3 bucket location where exported files will be placed. If not specified, files will be placed in the root of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_prefix Ec2CapacityManagerDataExport#s3_bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#s3_bucket_prefix Ec2CapacityManagerDataExport#s3_bucket_prefix}
   */
   readonly s3BucketPrefix?: string;
   /**
   * The schedule for the capacity manager data export. Currently supports hourly exports that provide periodic snapshots of capacity manager data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#schedule Ec2CapacityManagerDataExport#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#schedule Ec2CapacityManagerDataExport#schedule}
   */
   readonly schedule: string;
   /**
   * An array of key-value pairs to apply to the capacity manager data export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#tags Ec2CapacityManagerDataExport#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#tags Ec2CapacityManagerDataExport#tags}
   */
   readonly tags?: Ec2CapacityManagerDataExportTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface Ec2CapacityManagerDataExportTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#key Ec2CapacityManagerDataExport#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#key Ec2CapacityManagerDataExport#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#value Ec2CapacityManagerDataExport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#value Ec2CapacityManagerDataExport#value}
   */
   readonly value?: string;
 }
@@ -193,7 +193,7 @@ export class Ec2CapacityManagerDataExportTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}
 */
 export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2CapacityManagerDataExport resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2CapacityManagerDataExport to import
-  * @param importFromId The id of the existing Ec2CapacityManagerDataExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2CapacityManagerDataExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2CapacityManagerDataExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class Ec2CapacityManagerDataExport extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_capacity_manager_data_export',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

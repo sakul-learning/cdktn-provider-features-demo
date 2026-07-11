@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_input
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccMediaconnectRouterInputConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_input#id DataAwsccMediaconnectRouterInput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_input#id DataAwsccMediaconnectRouterInput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2128,6 +2128,305 @@ export class DataAwsccMediaconnectRouterInputConfigurationOutputReference extend
     return this._standard;
   }
 }
+export interface DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames {
+}
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFramesToTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFramesToHclTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFramesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // threshold_seconds - computed: true, optional: false, required: false
+  public get thresholdSeconds() {
+    return this.getNumberAttribute('threshold_seconds');
+  }
+}
+export interface DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames {
+}
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFramesToTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFramesToHclTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFramesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // threshold_seconds - computed: true, optional: false, required: false
+  public get thresholdSeconds() {
+    return this.getNumberAttribute('threshold_seconds');
+  }
+}
+export interface DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio {
+}
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudioToTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudioToHclTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudioOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // threshold_seconds - computed: true, optional: false, required: false
+  public get thresholdSeconds() {
+    return this.getNumberAttribute('threshold_seconds');
+  }
+}
+export interface DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel {
+}
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelToTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelToHclTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // black_frames - computed: true, optional: false, required: false
+  private _blackFrames = new DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFramesOutputReference(this, "black_frames");
+  public get blackFrames() {
+    return this._blackFrames;
+  }
+
+  // frozen_frames - computed: true, optional: false, required: false
+  private _frozenFrames = new DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFramesOutputReference(this, "frozen_frames");
+  public get frozenFrames() {
+    return this._frozenFrames;
+  }
+
+  // silent_audio - computed: true, optional: false, required: false
+  private _silentAudio = new DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudioOutputReference(this, "silent_audio");
+  public get silentAudio() {
+    return this._silentAudio;
+  }
+}
+export interface DataAwsccMediaconnectRouterInputContentQualityAnalysisConfiguration {
+}
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationToTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationToHclTerraform(struct?: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputContentQualityAnalysisConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputContentQualityAnalysisConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // content_level - computed: true, optional: false, required: false
+  private _contentLevel = new DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelOutputReference(this, "content_level");
+  public get contentLevel() {
+    return this._contentLevel;
+  }
+}
 export interface DataAwsccMediaconnectRouterInputMaintenanceConfigurationPreferredDayTime {
 }
 
@@ -2508,7 +2807,7 @@ export class DataAwsccMediaconnectRouterInputTransitEncryptionOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input}
 */
 export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource {
 
@@ -2524,7 +2823,7 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccMediaconnectRouterInput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediaconnectRouterInput to import
-  * @param importFromId The id of the existing DataAwsccMediaconnectRouterInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediaconnectRouterInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediaconnectRouterInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2536,7 +2835,7 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2547,7 +2846,7 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_mediaconnect_router_input',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2578,6 +2877,17 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
   private _configuration = new DataAwsccMediaconnectRouterInputConfigurationOutputReference(this, "configuration");
   public get configuration() {
     return this._configuration;
+  }
+
+  // content_quality_analysis_configuration - computed: true, optional: false, required: false
+  private _contentQualityAnalysisConfiguration = new DataAwsccMediaconnectRouterInputContentQualityAnalysisConfigurationOutputReference(this, "content_quality_analysis_configuration");
+  public get contentQualityAnalysisConfiguration() {
+    return this._contentQualityAnalysisConfiguration;
+  }
+
+  // content_quality_analysis_type - computed: true, optional: false, required: false
+  public get contentQualityAnalysisType() {
+    return this.getStringAttribute('content_quality_analysis_type');
   }
 
   // created_at - computed: true, optional: false, required: false

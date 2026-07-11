@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LogsQueryDefinitionConfig extends cdktn.TerraformMetaArguments 
   /**
   * Optionally define specific log groups as part of your query definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#log_group_names LogsQueryDefinition#log_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#log_group_names LogsQueryDefinition#log_group_names}
   */
   readonly logGroupNames?: string[];
   /**
   * A name for the saved query definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
   */
   readonly name: string;
   /**
   * Use this parameter to include specific query parameters as part of your query definition. Query parameters are supported only for Logs Insights QL queries. Query parameters allow you to use placeholder variables in your query string that are substituted with values at execution time. Use the {{parameterName}} syntax in your query string to reference a parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#parameters LogsQueryDefinition#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#parameters LogsQueryDefinition#parameters}
   */
   readonly parameters?: LogsQueryDefinitionParameters[] | cdktn.IResolvable;
   /**
   * Query language of the query string. Possible values are CWLI, SQL, PPL, with CWLI being the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#query_language LogsQueryDefinition#query_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#query_language LogsQueryDefinition#query_language}
   */
   readonly queryLanguage?: string;
   /**
   * The query string to use for this definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#query_string LogsQueryDefinition#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#query_string LogsQueryDefinition#query_string}
   */
   readonly queryString: string;
 }
@@ -42,19 +42,19 @@ export interface LogsQueryDefinitionParameters {
   /**
   * The default value to use for this query parameter if no value is supplied at execution time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#default_value LogsQueryDefinition#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#default_value LogsQueryDefinition#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A description of the query parameter that explains its purpose or expected values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#description LogsQueryDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#description LogsQueryDefinition#description}
   */
   readonly description?: string;
   /**
   * The name of the query parameter. A query parameter name must start with a letter or underscore, and contain only letters, digits, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#name LogsQueryDefinition#name}
   */
   readonly name?: string;
 }
@@ -228,7 +228,7 @@ export class LogsQueryDefinitionParametersList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition awscc_logs_query_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition awscc_logs_query_definition}
 */
 export class LogsQueryDefinition extends cdktn.TerraformResource {
 
@@ -244,7 +244,7 @@ export class LogsQueryDefinition extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LogsQueryDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogsQueryDefinition to import
-  * @param importFromId The id of the existing LogsQueryDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogsQueryDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogsQueryDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -256,7 +256,7 @@ export class LogsQueryDefinition extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/logs_query_definition awscc_logs_query_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/logs_query_definition awscc_logs_query_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,7 +267,7 @@ export class LogsQueryDefinition extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_logs_query_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

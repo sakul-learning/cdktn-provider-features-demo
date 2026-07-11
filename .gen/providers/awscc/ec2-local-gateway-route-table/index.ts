@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface Ec2LocalGatewayRouteTableConfig extends cdktn.TerraformMetaArgu
   /**
   * The ID of the local gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table#local_gateway_id Ec2LocalGatewayRouteTable#local_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table#local_gateway_id Ec2LocalGatewayRouteTable#local_gateway_id}
   */
   readonly localGatewayId: string;
   /**
   * The mode of the local gateway route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table#mode Ec2LocalGatewayRouteTable#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table#mode Ec2LocalGatewayRouteTable#mode}
   */
   readonly mode?: string;
   /**
   * The tags for the local gateway route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table#tags Ec2LocalGatewayRouteTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table#tags Ec2LocalGatewayRouteTable#tags}
   */
   readonly tags?: Ec2LocalGatewayRouteTableTags[] | cdktn.IResolvable;
 }
 export interface Ec2LocalGatewayRouteTableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table#key Ec2LocalGatewayRouteTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table#key Ec2LocalGatewayRouteTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table#value Ec2LocalGatewayRouteTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table#value Ec2LocalGatewayRouteTable#value}
   */
   readonly value?: string;
 }
@@ -177,7 +177,7 @@ export class Ec2LocalGatewayRouteTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table}
 */
 export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2LocalGatewayRouteTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2LocalGatewayRouteTable to import
-  * @param importFromId The id of the existing Ec2LocalGatewayRouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2LocalGatewayRouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2LocalGatewayRouteTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class Ec2LocalGatewayRouteTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_local_gateway_route_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

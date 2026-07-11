@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/medialive_multiplexes
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/medialive_multiplexes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccMedialiveMultiplexesConfig extends cdktn.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}
 */
 export class DataAwsccMedialiveMultiplexes extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccMedialiveMultiplexes extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMedialiveMultiplexes resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMedialiveMultiplexes to import
-  * @param importFromId The id of the existing DataAwsccMedialiveMultiplexes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/medialive_multiplexes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMedialiveMultiplexes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/medialive_multiplexes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMedialiveMultiplexes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccMedialiveMultiplexes extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccMedialiveMultiplexes extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_medialive_multiplexes',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

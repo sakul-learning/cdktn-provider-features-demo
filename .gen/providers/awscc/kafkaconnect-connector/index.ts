@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface KafkaconnectConnectorConfig extends cdktn.TerraformMetaArgument
   /**
   * Information about the capacity allocated to the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#capacity KafkaconnectConnector#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#capacity KafkaconnectConnector#capacity}
   */
   readonly capacity: KafkaconnectConnectorCapacity;
   /**
   * The configuration for the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#connector_configuration KafkaconnectConnector#connector_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#connector_configuration KafkaconnectConnector#connector_configuration}
   */
   readonly connectorConfiguration: { [key: string]: string };
   /**
   * A summary description of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#connector_description KafkaconnectConnector#connector_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#connector_description KafkaconnectConnector#connector_description}
   */
   readonly connectorDescription?: string;
   /**
   * The name of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#connector_name KafkaconnectConnector#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#connector_name KafkaconnectConnector#connector_name}
   */
   readonly connectorName: string;
   /**
   * Details of how to connect to the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#kafka_cluster KafkaconnectConnector#kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#kafka_cluster KafkaconnectConnector#kafka_cluster}
   */
   readonly kafkaCluster: KafkaconnectConnectorKafkaCluster;
   /**
   * Details of the client authentication used by the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#kafka_cluster_client_authentication KafkaconnectConnector#kafka_cluster_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#kafka_cluster_client_authentication KafkaconnectConnector#kafka_cluster_client_authentication}
   */
   readonly kafkaClusterClientAuthentication: KafkaconnectConnectorKafkaClusterClientAuthentication;
   /**
   * Details of encryption in transit to the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#kafka_cluster_encryption_in_transit KafkaconnectConnector#kafka_cluster_encryption_in_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#kafka_cluster_encryption_in_transit KafkaconnectConnector#kafka_cluster_encryption_in_transit}
   */
   readonly kafkaClusterEncryptionInTransit: KafkaconnectConnectorKafkaClusterEncryptionInTransit;
   /**
   * The version of Kafka Connect. It has to be compatible with both the Kafka cluster's version and the plugins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#kafka_connect_version KafkaconnectConnector#kafka_connect_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#kafka_connect_version KafkaconnectConnector#kafka_connect_version}
   */
   readonly kafkaConnectVersion: string;
   /**
   * Details of what logs are delivered and where they are delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#log_delivery KafkaconnectConnector#log_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#log_delivery KafkaconnectConnector#log_delivery}
   */
   readonly logDelivery?: KafkaconnectConnectorLogDelivery;
   /**
   * The network type of the Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#network_type KafkaconnectConnector#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#network_type KafkaconnectConnector#network_type}
   */
   readonly networkType?: string;
   /**
   * List of plugins to use with the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#plugins KafkaconnectConnector#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#plugins KafkaconnectConnector#plugins}
   */
   readonly plugins: KafkaconnectConnectorPlugins[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the IAM role used by the connector to access Amazon S3 objects and other external resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#service_execution_role_arn KafkaconnectConnector#service_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#service_execution_role_arn KafkaconnectConnector#service_execution_role_arn}
   */
   readonly serviceExecutionRoleArn: string;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#tags KafkaconnectConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#tags KafkaconnectConnector#tags}
   */
   readonly tags?: KafkaconnectConnectorTags[] | cdktn.IResolvable;
   /**
   * Specifies the worker configuration to use with the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#worker_configuration KafkaconnectConnector#worker_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#worker_configuration KafkaconnectConnector#worker_configuration}
   */
   readonly workerConfiguration?: KafkaconnectConnectorWorkerConfiguration;
 }
@@ -96,7 +96,7 @@ export interface KafkaconnectConnectorCapacityAutoScalingScaleInPolicy {
   /**
   * Specifies the CPU utilization percentage threshold at which connector scale in should trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
   */
   readonly cpuUtilizationPercentage?: number;
 }
@@ -192,7 +192,7 @@ export interface KafkaconnectConnectorCapacityAutoScalingScaleOutPolicy {
   /**
   * Specifies the CPU utilization percentage threshold at which connector scale out should trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#cpu_utilization_percentage KafkaconnectConnector#cpu_utilization_percentage}
   */
   readonly cpuUtilizationPercentage?: number;
 }
@@ -288,37 +288,37 @@ export interface KafkaconnectConnectorCapacityAutoScaling {
   /**
   * The maximum number of tasks allocated to the connector during autoscaling operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#max_autoscaling_task_count KafkaconnectConnector#max_autoscaling_task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#max_autoscaling_task_count KafkaconnectConnector#max_autoscaling_task_count}
   */
   readonly maxAutoscalingTaskCount?: number;
   /**
   * The maximum number of workers for a connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#max_worker_count KafkaconnectConnector#max_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#max_worker_count KafkaconnectConnector#max_worker_count}
   */
   readonly maxWorkerCount?: number;
   /**
   * Specifies how many MSK Connect Units (MCU) as the minimum scaling unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
   */
   readonly mcuCount?: number;
   /**
   * The minimum number of workers for a connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#min_worker_count KafkaconnectConnector#min_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#min_worker_count KafkaconnectConnector#min_worker_count}
   */
   readonly minWorkerCount?: number;
   /**
   * Information about the scale in policy of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#scale_in_policy KafkaconnectConnector#scale_in_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#scale_in_policy KafkaconnectConnector#scale_in_policy}
   */
   readonly scaleInPolicy?: KafkaconnectConnectorCapacityAutoScalingScaleInPolicy;
   /**
   * Information about the scale out policy of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#scale_out_policy KafkaconnectConnector#scale_out_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#scale_out_policy KafkaconnectConnector#scale_out_policy}
   */
   readonly scaleOutPolicy?: KafkaconnectConnectorCapacityAutoScalingScaleOutPolicy;
 }
@@ -559,13 +559,13 @@ export interface KafkaconnectConnectorCapacityProvisionedCapacity {
   /**
   * Specifies how many MSK Connect Units (MCU) are allocated to the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#mcu_count KafkaconnectConnector#mcu_count}
   */
   readonly mcuCount?: number;
   /**
   * Number of workers for a connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#worker_count KafkaconnectConnector#worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#worker_count KafkaconnectConnector#worker_count}
   */
   readonly workerCount?: number;
 }
@@ -690,13 +690,13 @@ export interface KafkaconnectConnectorCapacity {
   /**
   * Details about auto scaling of a connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#auto_scaling KafkaconnectConnector#auto_scaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#auto_scaling KafkaconnectConnector#auto_scaling}
   */
   readonly autoScaling?: KafkaconnectConnectorCapacityAutoScaling;
   /**
   * Details about a fixed capacity allocated to a connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#provisioned_capacity KafkaconnectConnector#provisioned_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#provisioned_capacity KafkaconnectConnector#provisioned_capacity}
   */
   readonly provisionedCapacity?: KafkaconnectConnectorCapacityProvisionedCapacity;
 }
@@ -821,13 +821,13 @@ export interface KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc {
   /**
   * The AWS security groups to associate with the elastic network interfaces in order to specify what the connector has access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#security_groups KafkaconnectConnector#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#security_groups KafkaconnectConnector#security_groups}
   */
   readonly securityGroups: string[];
   /**
   * The list of subnets to connect to in the virtual private cloud (VPC). AWS creates elastic network interfaces inside these subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#subnets KafkaconnectConnector#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#subnets KafkaconnectConnector#subnets}
   */
   readonly subnets: string[];
 }
@@ -946,13 +946,13 @@ export interface KafkaconnectConnectorKafkaClusterApacheKafkaCluster {
   /**
   * The bootstrap servers string of the Apache Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#bootstrap_servers KafkaconnectConnector#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#bootstrap_servers KafkaconnectConnector#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * Information about a VPC used with the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#vpc KafkaconnectConnector#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#vpc KafkaconnectConnector#vpc}
   */
   readonly vpc: KafkaconnectConnectorKafkaClusterApacheKafkaClusterVpc;
 }
@@ -1071,7 +1071,7 @@ export interface KafkaconnectConnectorKafkaCluster {
   /**
   * Details of how to connect to an Apache Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#apache_kafka_cluster KafkaconnectConnector#apache_kafka_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#apache_kafka_cluster KafkaconnectConnector#apache_kafka_cluster}
   */
   readonly apacheKafkaCluster: KafkaconnectConnectorKafkaClusterApacheKafkaCluster;
 }
@@ -1164,7 +1164,7 @@ export interface KafkaconnectConnectorKafkaClusterClientAuthentication {
   /**
   * The type of client authentication used to connect to the Kafka cluster. Value NONE means that no client authentication is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#authentication_type KafkaconnectConnector#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#authentication_type KafkaconnectConnector#authentication_type}
   */
   readonly authenticationType: string;
 }
@@ -1257,7 +1257,7 @@ export interface KafkaconnectConnectorKafkaClusterEncryptionInTransit {
   /**
   * The type of encryption in transit to the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#encryption_type KafkaconnectConnector#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#encryption_type KafkaconnectConnector#encryption_type}
   */
   readonly encryptionType: string;
 }
@@ -1350,13 +1350,13 @@ export interface KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs
   /**
   * Specifies whether the logs get sent to the specified CloudWatch Logs destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The CloudWatch log group that is the destination for log delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#log_group KafkaconnectConnector#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#log_group KafkaconnectConnector#log_group}
   */
   readonly logGroup?: string;
 }
@@ -1481,13 +1481,13 @@ export interface KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose {
   /**
   * The Kinesis Data Firehose delivery stream that is the destination for log delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#delivery_stream KafkaconnectConnector#delivery_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#delivery_stream KafkaconnectConnector#delivery_stream}
   */
   readonly deliveryStream?: string;
   /**
   * Specifies whether the logs get sent to the specified Kinesis Data Firehose delivery stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -1612,19 +1612,19 @@ export interface KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3 {
   /**
   * The name of the S3 bucket that is the destination for log delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#bucket KafkaconnectConnector#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#bucket KafkaconnectConnector#bucket}
   */
   readonly bucket?: string;
   /**
   * Specifies whether the logs get sent to the specified Amazon S3 destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * The S3 prefix that is the destination for log delivery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#prefix KafkaconnectConnector#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#prefix KafkaconnectConnector#prefix}
   */
   readonly prefix?: string;
 }
@@ -1778,19 +1778,19 @@ export interface KafkaconnectConnectorLogDeliveryWorkerLogDelivery {
   /**
   * Details about delivering logs to Amazon CloudWatch Logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#cloudwatch_logs KafkaconnectConnector#cloudwatch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#cloudwatch_logs KafkaconnectConnector#cloudwatch_logs}
   */
   readonly cloudwatchLogs?: KafkaconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs;
   /**
   * Details about delivering logs to Amazon Kinesis Data Firehose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#firehose KafkaconnectConnector#firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#firehose KafkaconnectConnector#firehose}
   */
   readonly firehose?: KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose;
   /**
   * Details about delivering logs to Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#s3 KafkaconnectConnector#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#s3 KafkaconnectConnector#s3}
   */
   readonly s3?: KafkaconnectConnectorLogDeliveryWorkerLogDeliveryS3;
 }
@@ -1944,7 +1944,7 @@ export interface KafkaconnectConnectorLogDelivery {
   /**
   * Specifies where worker logs are delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#worker_log_delivery KafkaconnectConnector#worker_log_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#worker_log_delivery KafkaconnectConnector#worker_log_delivery}
   */
   readonly workerLogDelivery?: KafkaconnectConnectorLogDeliveryWorkerLogDelivery;
 }
@@ -2040,13 +2040,13 @@ export interface KafkaconnectConnectorPluginsCustomPlugin {
   /**
   * The Amazon Resource Name (ARN) of the custom plugin to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#custom_plugin_arn KafkaconnectConnector#custom_plugin_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#custom_plugin_arn KafkaconnectConnector#custom_plugin_arn}
   */
   readonly customPluginArn: string;
   /**
   * The revision of the custom plugin to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
   */
   readonly revision: number;
 }
@@ -2165,7 +2165,7 @@ export interface KafkaconnectConnectorPlugins {
   /**
   * Details about a custom plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#custom_plugin KafkaconnectConnector#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#custom_plugin KafkaconnectConnector#custom_plugin}
   */
   readonly customPlugin: KafkaconnectConnectorPluginsCustomPlugin;
 }
@@ -2278,11 +2278,11 @@ export class KafkaconnectConnectorPluginsList extends cdktn.ComplexList {
 }
 export interface KafkaconnectConnectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}
   */
   readonly value?: string;
 }
@@ -2429,13 +2429,13 @@ export interface KafkaconnectConnectorWorkerConfiguration {
   /**
   * The revision of the worker configuration to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#revision KafkaconnectConnector#revision}
   */
   readonly revision?: number;
   /**
   * The Amazon Resource Name (ARN) of the worker configuration to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#worker_configuration_arn KafkaconnectConnector#worker_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#worker_configuration_arn KafkaconnectConnector#worker_configuration_arn}
   */
   readonly workerConfigurationArn?: string;
 }
@@ -2558,7 +2558,7 @@ export class KafkaconnectConnectorWorkerConfigurationOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector awscc_kafkaconnect_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector awscc_kafkaconnect_connector}
 */
 export class KafkaconnectConnector extends cdktn.TerraformResource {
 
@@ -2574,7 +2574,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KafkaconnectConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaconnectConnector to import
-  * @param importFromId The id of the existing KafkaconnectConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaconnectConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaconnectConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2586,7 +2586,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kafkaconnect_connector awscc_kafkaconnect_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_connector awscc_kafkaconnect_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2597,7 +2597,7 @@ export class KafkaconnectConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kafkaconnect_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface RobomakerSimulationApplicationConfig extends cdktn.TerraformMet
   /**
   * The current revision id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#current_revision_id RobomakerSimulationApplication#current_revision_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#current_revision_id RobomakerSimulationApplication#current_revision_id}
   */
   readonly currentRevisionId?: string;
   /**
   * The URI of the Docker image for the robot application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#environment RobomakerSimulationApplication#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#environment RobomakerSimulationApplication#environment}
   */
   readonly environment?: string;
   /**
   * The name of the simulation application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
   */
   readonly name?: string;
   /**
   * The rendering engine for the simulation application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#rendering_engine RobomakerSimulationApplication#rendering_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#rendering_engine RobomakerSimulationApplication#rendering_engine}
   */
   readonly renderingEngine?: RobomakerSimulationApplicationRenderingEngine;
   /**
   * The robot software suite used by the simulation application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#robot_software_suite RobomakerSimulationApplication#robot_software_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#robot_software_suite RobomakerSimulationApplication#robot_software_suite}
   */
   readonly robotSoftwareSuite: RobomakerSimulationApplicationRobotSoftwareSuite;
   /**
   * The simulation software suite used by the simulation application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#simulation_software_suite RobomakerSimulationApplication#simulation_software_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#simulation_software_suite RobomakerSimulationApplication#simulation_software_suite}
   */
   readonly simulationSoftwareSuite: RobomakerSimulationApplicationSimulationSoftwareSuite;
   /**
   * The sources of the simulation application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#sources RobomakerSimulationApplication#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#sources RobomakerSimulationApplication#sources}
   */
   readonly sources?: RobomakerSimulationApplicationSources[] | cdktn.IResolvable;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#tags RobomakerSimulationApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#tags RobomakerSimulationApplication#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -60,13 +60,13 @@ export interface RobomakerSimulationApplicationRenderingEngine {
   /**
   * The name of the rendering engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
   */
   readonly name?: string;
   /**
   * The version of the rendering engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
   */
   readonly version?: string;
 }
@@ -191,13 +191,13 @@ export interface RobomakerSimulationApplicationRobotSoftwareSuite {
   /**
   * The name of the robot software suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
   */
   readonly name: string;
   /**
   * The version of the robot software suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
   */
   readonly version?: string;
 }
@@ -319,13 +319,13 @@ export interface RobomakerSimulationApplicationSimulationSoftwareSuite {
   /**
   * The name of the simulation software suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#name RobomakerSimulationApplication#name}
   */
   readonly name: string;
   /**
   * The version of the simulation software suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#version RobomakerSimulationApplication#version}
   */
   readonly version?: string;
 }
@@ -447,19 +447,19 @@ export interface RobomakerSimulationApplicationSources {
   /**
   * The target processor architecture for the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#architecture RobomakerSimulationApplication#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#architecture RobomakerSimulationApplication#architecture}
   */
   readonly architecture?: string;
   /**
   * The Amazon S3 bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#s3_bucket RobomakerSimulationApplication#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#s3_bucket RobomakerSimulationApplication#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
   * The s3 object key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#s3_key RobomakerSimulationApplication#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#s3_key RobomakerSimulationApplication#s3_key}
   */
   readonly s3Key?: string;
 }
@@ -633,7 +633,7 @@ export class RobomakerSimulationApplicationSourcesList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application awscc_robomaker_simulation_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application awscc_robomaker_simulation_application}
 */
 export class RobomakerSimulationApplication extends cdktn.TerraformResource {
 
@@ -649,7 +649,7 @@ export class RobomakerSimulationApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RobomakerSimulationApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RobomakerSimulationApplication to import
-  * @param importFromId The id of the existing RobomakerSimulationApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RobomakerSimulationApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RobomakerSimulationApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -661,7 +661,7 @@ export class RobomakerSimulationApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/robomaker_simulation_application awscc_robomaker_simulation_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/robomaker_simulation_application awscc_robomaker_simulation_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -672,7 +672,7 @@ export class RobomakerSimulationApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_robomaker_simulation_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

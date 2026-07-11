@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Ec2RouteServerConfig extends cdktn.TerraformMetaArguments {
   /**
   * The Amazon-side ASN of the Route Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#amazon_side_asn Ec2RouteServer#amazon_side_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#amazon_side_asn Ec2RouteServer#amazon_side_asn}
   */
   readonly amazonSideAsn: number;
   /**
   * Whether to enable persistent routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#persist_routes Ec2RouteServer#persist_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#persist_routes Ec2RouteServer#persist_routes}
   */
   readonly persistRoutes?: string;
   /**
   * The duration of persistent routes in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#persist_routes_duration Ec2RouteServer#persist_routes_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#persist_routes_duration Ec2RouteServer#persist_routes_duration}
   */
   readonly persistRoutesDuration?: number;
   /**
   * Whether to enable SNS notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#sns_notifications_enabled Ec2RouteServer#sns_notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#sns_notifications_enabled Ec2RouteServer#sns_notifications_enabled}
   */
   readonly snsNotificationsEnabled?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#tags Ec2RouteServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#tags Ec2RouteServer#tags}
   */
   readonly tags?: Ec2RouteServerTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface Ec2RouteServerTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#key Ec2RouteServer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#key Ec2RouteServer#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#value Ec2RouteServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#value Ec2RouteServer#value}
   */
   readonly value?: string;
 }
@@ -193,7 +193,7 @@ export class Ec2RouteServerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server awscc_ec2_route_server}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server awscc_ec2_route_server}
 */
 export class Ec2RouteServer extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class Ec2RouteServer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2RouteServer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2RouteServer to import
-  * @param importFromId The id of the existing Ec2RouteServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2RouteServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2RouteServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class Ec2RouteServer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_route_server awscc_ec2_route_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server awscc_ec2_route_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class Ec2RouteServer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_route_server',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

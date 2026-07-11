@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DmsInstanceProfileConfig extends cdktn.TerraformMetaArguments {
   /**
   * The property describes an availability zone of the instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#availability_zone DmsInstanceProfile#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#availability_zone DmsInstanceProfile#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The optional description of the instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#description DmsInstanceProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#description DmsInstanceProfile#description}
   */
   readonly description?: string;
   /**
   * The property describes an identifier for the instance profile. It is used for describing/deleting/modifying. Can be name/arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#instance_profile_identifier DmsInstanceProfile#instance_profile_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#instance_profile_identifier DmsInstanceProfile#instance_profile_identifier}
   */
   readonly instanceProfileIdentifier?: string;
   /**
   * The property describes a name for the instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#instance_profile_name DmsInstanceProfile#instance_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#instance_profile_name DmsInstanceProfile#instance_profile_name}
   */
   readonly instanceProfileName?: string;
   /**
   * The property describes kms key arn for the instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#kms_key_arn DmsInstanceProfile#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#kms_key_arn DmsInstanceProfile#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The property describes a network type for the instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#network_type DmsInstanceProfile#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#network_type DmsInstanceProfile#network_type}
   */
   readonly networkType?: string;
   /**
   * The property describes the publicly accessible of the instance profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#publicly_accessible DmsInstanceProfile#publicly_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#publicly_accessible DmsInstanceProfile#publicly_accessible}
   */
   readonly publiclyAccessible?: boolean | cdktn.IResolvable;
   /**
   * The property describes a subnet group identifier for the instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#subnet_group_identifier DmsInstanceProfile#subnet_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#subnet_group_identifier DmsInstanceProfile#subnet_group_identifier}
   */
   readonly subnetGroupIdentifier?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#tags DmsInstanceProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#tags DmsInstanceProfile#tags}
   */
   readonly tags?: DmsInstanceProfileTags[] | cdktn.IResolvable;
   /**
   * The property describes vps security groups for the instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#vpc_security_groups DmsInstanceProfile#vpc_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#vpc_security_groups DmsInstanceProfile#vpc_security_groups}
   */
   readonly vpcSecurityGroups?: string[];
 }
@@ -72,13 +72,13 @@ export interface DmsInstanceProfileTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#key DmsInstanceProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#key DmsInstanceProfile#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#value DmsInstanceProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#value DmsInstanceProfile#value}
   */
   readonly value?: string;
 }
@@ -223,7 +223,7 @@ export class DmsInstanceProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile awscc_dms_instance_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile awscc_dms_instance_profile}
 */
 export class DmsInstanceProfile extends cdktn.TerraformResource {
 
@@ -239,7 +239,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsInstanceProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsInstanceProfile to import
-  * @param importFromId The id of the existing DmsInstanceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsInstanceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsInstanceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -251,7 +251,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/dms_instance_profile awscc_dms_instance_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_instance_profile awscc_dms_instance_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,7 +262,7 @@ export class DmsInstanceProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dms_instance_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

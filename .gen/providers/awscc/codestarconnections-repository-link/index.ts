@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CodestarconnectionsRepositoryLinkConfig extends cdktn.Terraform
   /**
   * The Amazon Resource Name (ARN) of the CodeStarConnection. The ARN is used as the connection reference when the connection is shared between AWS services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#connection_arn CodestarconnectionsRepositoryLink#connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#connection_arn CodestarconnectionsRepositoryLink#connection_arn}
   */
   readonly connectionArn: string;
   /**
   * The ARN of the KMS key that the customer can optionally specify to use to encrypt RepositoryLink properties. If not specified, a default key will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#encryption_key_arn CodestarconnectionsRepositoryLink#encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#encryption_key_arn CodestarconnectionsRepositoryLink#encryption_key_arn}
   */
   readonly encryptionKeyArn?: string;
   /**
   * the ID of the entity that owns the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#owner_id CodestarconnectionsRepositoryLink#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#owner_id CodestarconnectionsRepositoryLink#owner_id}
   */
   readonly ownerId: string;
   /**
   * The repository for which the link is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#repository_name CodestarconnectionsRepositoryLink#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#repository_name CodestarconnectionsRepositoryLink#repository_name}
   */
   readonly repositoryName: string;
   /**
   * Specifies the tags applied to a RepositoryLink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#tags CodestarconnectionsRepositoryLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#tags CodestarconnectionsRepositoryLink#tags}
   */
   readonly tags?: CodestarconnectionsRepositoryLinkTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface CodestarconnectionsRepositoryLinkTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, , ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#key CodestarconnectionsRepositoryLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#key CodestarconnectionsRepositoryLink#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, , ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#value CodestarconnectionsRepositoryLink#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#value CodestarconnectionsRepositoryLink#value}
   */
   readonly value?: string;
 }
@@ -193,7 +193,7 @@ export class CodestarconnectionsRepositoryLinkTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link}
 */
 export class CodestarconnectionsRepositoryLink extends cdktn.TerraformResource {
 
@@ -209,7 +209,7 @@ export class CodestarconnectionsRepositoryLink extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodestarconnectionsRepositoryLink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodestarconnectionsRepositoryLink to import
-  * @param importFromId The id of the existing CodestarconnectionsRepositoryLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodestarconnectionsRepositoryLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodestarconnectionsRepositoryLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -221,7 +221,7 @@ export class CodestarconnectionsRepositoryLink extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,7 @@ export class CodestarconnectionsRepositoryLink extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codestarconnections_repository_link',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

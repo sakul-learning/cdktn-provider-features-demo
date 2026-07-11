@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface ProtonEnvironmentTemplateConfig extends cdktn.TerraformMetaArgu
   /**
   * <p>A description of the environment template.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
   */
   readonly description?: string;
   /**
   * <p>The environment template name as displayed in the developer interface.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
   */
   readonly displayName?: string;
   /**
   * <p>A customer provided encryption key that Proton uses to encrypt data.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}
   */
   readonly provisioning?: string;
   /**
@@ -38,7 +38,7 @@ export interface ProtonEnvironmentTemplateConfig extends cdktn.TerraformMetaArgu
   *          <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
   *         <i>Proton User Guide</i>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
   */
   readonly tags?: ProtonEnvironmentTemplateTags[] | cdktn.IResolvable;
 }
@@ -46,13 +46,13 @@ export interface ProtonEnvironmentTemplateTags {
   /**
   * <p>The key of the resource tag.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#key ProtonEnvironmentTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#key ProtonEnvironmentTemplate#key}
   */
   readonly key?: string;
   /**
   * <p>The value of the resource tag.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#value ProtonEnvironmentTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#value ProtonEnvironmentTemplate#value}
   */
   readonly value?: string;
 }
@@ -197,7 +197,7 @@ export class ProtonEnvironmentTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template awscc_proton_environment_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template awscc_proton_environment_template}
 */
 export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
 
@@ -213,7 +213,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ProtonEnvironmentTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtonEnvironmentTemplate to import
-  * @param importFromId The id of the existing ProtonEnvironmentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtonEnvironmentTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtonEnvironmentTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -225,7 +225,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/proton_environment_template awscc_proton_environment_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/proton_environment_template awscc_proton_environment_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,7 +236,7 @@ export class ProtonEnvironmentTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_proton_environment_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

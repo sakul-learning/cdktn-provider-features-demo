@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface CognitoUserPoolUserConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#client_metadata CognitoUserPoolUser#client_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#client_metadata CognitoUserPoolUser#client_metadata}
   */
   readonly clientMetadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#desired_delivery_mediums CognitoUserPoolUser#desired_delivery_mediums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#desired_delivery_mediums CognitoUserPoolUser#desired_delivery_mediums}
   */
   readonly desiredDeliveryMediums?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#force_alias_creation CognitoUserPoolUser#force_alias_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#force_alias_creation CognitoUserPoolUser#force_alias_creation}
   */
   readonly forceAliasCreation?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#message_action CognitoUserPoolUser#message_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#message_action CognitoUserPoolUser#message_action}
   */
   readonly messageAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#user_attributes CognitoUserPoolUser#user_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#user_attributes CognitoUserPoolUser#user_attributes}
   */
   readonly userAttributes?: CognitoUserPoolUserUserAttributes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#user_pool_id CognitoUserPoolUser#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#user_pool_id CognitoUserPoolUser#user_pool_id}
   */
   readonly userPoolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#username CognitoUserPoolUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#username CognitoUserPoolUser#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#validation_data CognitoUserPoolUser#validation_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#validation_data CognitoUserPoolUser#validation_data}
   */
   readonly validationData?: CognitoUserPoolUserValidationData[] | cdktn.IResolvable;
 }
 export interface CognitoUserPoolUserUserAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#name CognitoUserPoolUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#name CognitoUserPoolUser#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#value CognitoUserPoolUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#value CognitoUserPoolUser#value}
   */
   readonly value?: string;
 }
@@ -191,11 +191,11 @@ export class CognitoUserPoolUserUserAttributesList extends cdktn.ComplexList {
 }
 export interface CognitoUserPoolUserValidationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#name CognitoUserPoolUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#name CognitoUserPoolUser#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#value CognitoUserPoolUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#value CognitoUserPoolUser#value}
   */
   readonly value?: string;
 }
@@ -340,7 +340,7 @@ export class CognitoUserPoolUserValidationDataList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user}
 */
 export class CognitoUserPoolUser extends cdktn.TerraformResource {
 
@@ -356,7 +356,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CognitoUserPoolUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CognitoUserPoolUser to import
-  * @param importFromId The id of the existing CognitoUserPoolUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CognitoUserPoolUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CognitoUserPoolUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -368,7 +368,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,7 +379,7 @@ export class CognitoUserPoolUser extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cognito_user_pool_user',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -18,7 +18,7 @@ It also includes an `examples/l2-*` set that ports real `aws-cdk-lib` L2 constru
 
 - `pnpm`
 - `mise` with `terraform@1.15.7` and `opentofu@1.12.3` available
-- a built cdk-terrain PR checkout; by default scripts expect `/Users/vincentdesmet/cdktn/cdk-terrain` (override with `CDKTN_REPO`)
+- a built cdk-terrain PR checkout, supplied via `CDKTN_REPO`; this is intentionally required so validation always targets the exact worktree under test
 - AWS credentials/profile for Terraform planning; default profile is `tcons-hermes`, override with `AWS_PROFILE=...`. If you're using `aws-vault exec <profile> --no-session -- ...` instead, see the credential-precedence note below — don't also set `AWS_PROFILE` to a profile Terraform should resolve itself.
 
 ## Quick check
@@ -34,7 +34,7 @@ pnpm run schema:aws
 pnpm run generate:aws
 pnpm run inspect:schema
 pnpm run assert:generated-features
-pnpm exec tsc --noEmit
+pnpm run typecheck
 pnpm run synth:all
 pnpm run plan:all
 ```
@@ -49,7 +49,7 @@ pnpm run schema:aws
 pnpm run generate:aws
 pnpm run inspect:schema
 pnpm run assert:generated-features
-pnpm exec tsc --noEmit
+pnpm run typecheck
 pnpm run synth:all
 pnpm run plan:all
 ```
@@ -90,6 +90,7 @@ These are intentionally documented because they are feedback on how the new gene
   - `./.gen/providers/aws/provider`
   - `./.gen/providers/aws/provider-functions`
   - `./.gen/providers/aws/ephemeral-aws-secretsmanager-random-password`
+- `cdktn get` does emit `lazy-index.ts` for CommonJS consumers, using property getters and `require()` to defer module loading. ESM consumers instead resolve the provider package's `import` condition to the normal `index.ts`, which eagerly re-exports every generated module. That lazy runtime path does not reduce TypeScript's type-check memory here either: this demo's `tsconfig.json` explicitly includes all `.gen/**/*.ts`. This repository uses the native TypeScript 7 compiler and `--checkers 1` for the full generated-tree check; direct generated-module imports remain the right synth-time UX.
 - After switching away from the barrel import, the examples also had to replace the remaining namespace-style references (`provider.*`, `providerFunctions.*`, and `ephemeral...*`) with direct class references such as `AwsProvider`, `AwsProviderFunctions`, and `EphemeralAwsSecretsmanagerRandomPassword`.
 - The ephemeral output uses `Fn.ephemeralasnull(generatedPassword.randomPassword)` and marks the output `sensitive: true`. Without the helper, Terraform/OpenTofu reject using an ephemeral value in a non-ephemeral context; without `sensitive`, the output still fails because the value is derived from secret ephemeral data.
 - The examples intentionally do **not** call `AwsProviderFunctions.userAgent(...)` inside `AwsProvider` configuration. That first seemed like a natural provider-function smoke test, but OpenTofu treated it as a provider self-reference during provider configuration evaluation. The incorrect assumption was that provider-defined functions are just pure string helpers that can safely be used while configuring the same provider. In practice, the generated call is still namespaced as a provider function (`provider::aws::user_agent`), so using it inside the `aws` provider block asks Terraform/OpenTofu to evaluate an AWS-provider function while constructing/configuring that same AWS provider. OpenTofu rejected that cycle. The demo therefore exercises provider functions in outputs, after provider configuration exists, and keeps provider configuration static. `functions-only` now calls `userAgent(...)` in an output to confirm this works once the self-reference constraint is respected; PR #296 has since added a JSDoc caveat on generated methods and `TerraformProviderFunction.invoke` documenting this.
@@ -140,7 +141,7 @@ Still open:
 Portability notes:
 
 - This demo's `package.json` points `cdktn` at a local PR-head worktree via a `file:` dependency. `pnpm-lock.yaml` resolves `file:` deps as paths *relative to this repo's parent directory* — if you clone/move this repo, `pnpm install` will fail with an `ENOENT` on a stale relative path baked into the lockfile. Re-run `pnpm run use:prhead` with `CDKTN_REPO` set to regenerate it (delete `pnpm-lock.yaml` first if the stale entry blocks `pnpm add`'s own pre-install dependency check).
-- `scripts/cdktn.js` and `scripts/assert-prhead-deps.js` fall back to `CDKTN_REPO`'s default path when the env var isn't set; that default is a local convenience path and should be treated as a hint, not a guarantee — always set `CDKTN_REPO` explicitly.
+- `scripts/cdktn.js` and `scripts/assert-prhead-deps.js` require `CDKTN_REPO`; there is deliberately no cwd-relative fallback. A `file:` dependency itself cannot interpolate an environment variable, so `pnpm run use:prhead` remains the supported command that retargets it and refreshes the lockfile.
 
 ## Notes
 

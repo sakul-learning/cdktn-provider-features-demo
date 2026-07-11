@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/gamelift_builds
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/gamelift_builds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccGameliftBuildsConfig extends cdktn.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/gamelift_builds awscc_gamelift_builds}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/gamelift_builds awscc_gamelift_builds}
 */
 export class DataAwsccGameliftBuilds extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccGameliftBuilds extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccGameliftBuilds resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccGameliftBuilds to import
-  * @param importFromId The id of the existing DataAwsccGameliftBuilds that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/gamelift_builds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccGameliftBuilds that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/gamelift_builds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccGameliftBuilds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccGameliftBuilds extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/gamelift_builds awscc_gamelift_builds} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/gamelift_builds awscc_gamelift_builds} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccGameliftBuilds extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_gamelift_builds',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

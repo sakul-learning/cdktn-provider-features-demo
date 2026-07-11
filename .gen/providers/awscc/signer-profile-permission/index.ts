@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface SignerProfilePermissionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission#action SignerProfilePermission#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission#action SignerProfilePermission#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission#principal SignerProfilePermission#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission#principal SignerProfilePermission#principal}
   */
   readonly principal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission#profile_name SignerProfilePermission#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission#profile_name SignerProfilePermission#profile_name}
   */
   readonly profileName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission#profile_version SignerProfilePermission#profile_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission#profile_version SignerProfilePermission#profile_version}
   */
   readonly profileVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission#statement_id SignerProfilePermission#statement_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission#statement_id SignerProfilePermission#statement_id}
   */
   readonly statementId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission awscc_signer_profile_permission}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission awscc_signer_profile_permission}
 */
 export class SignerProfilePermission extends cdktn.TerraformResource {
 
@@ -46,7 +46,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SignerProfilePermission resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SignerProfilePermission to import
-  * @param importFromId The id of the existing SignerProfilePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SignerProfilePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SignerProfilePermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -58,7 +58,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/signer_profile_permission awscc_signer_profile_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/signer_profile_permission awscc_signer_profile_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,7 @@ export class SignerProfilePermission extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_signer_profile_permission',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

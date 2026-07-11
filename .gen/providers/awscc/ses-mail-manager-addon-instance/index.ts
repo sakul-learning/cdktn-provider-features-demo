@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface SesMailManagerAddonInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance#addon_subscription_id SesMailManagerAddonInstance#addon_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance#addon_subscription_id SesMailManagerAddonInstance#addon_subscription_id}
   */
   readonly addonSubscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance#tags SesMailManagerAddonInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance#tags SesMailManagerAddonInstance#tags}
   */
   readonly tags?: SesMailManagerAddonInstanceTags[] | cdktn.IResolvable;
 }
 export interface SesMailManagerAddonInstanceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance#key SesMailManagerAddonInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance#key SesMailManagerAddonInstance#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance#value SesMailManagerAddonInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance#value SesMailManagerAddonInstance#value}
   */
   readonly value?: string;
 }
@@ -167,7 +167,7 @@ export class SesMailManagerAddonInstanceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance}
 */
 export class SesMailManagerAddonInstance extends cdktn.TerraformResource {
 
@@ -183,7 +183,7 @@ export class SesMailManagerAddonInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesMailManagerAddonInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesMailManagerAddonInstance to import
-  * @param importFromId The id of the existing SesMailManagerAddonInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesMailManagerAddonInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesMailManagerAddonInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -195,7 +195,7 @@ export class SesMailManagerAddonInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,7 +206,7 @@ export class SesMailManagerAddonInstance extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_mail_manager_addon_instance',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

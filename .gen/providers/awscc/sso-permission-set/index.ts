@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktn from 'cdktn';
 
 export interface SsoPermissionSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#customer_managed_policy_references SsoPermissionSet#customer_managed_policy_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#customer_managed_policy_references SsoPermissionSet#customer_managed_policy_references}
   */
   readonly customerManagedPolicyReferences?: SsoPermissionSetCustomerManagedPolicyReferences[] | cdktn.IResolvable;
   /**
   * The permission set description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#description SsoPermissionSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#description SsoPermissionSet#description}
   */
   readonly description?: string;
   /**
   * The inline policy to put in permission set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#inline_policy SsoPermissionSet#inline_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#inline_policy SsoPermissionSet#inline_policy}
   */
   readonly inlinePolicy?: string;
   /**
   * The sso instance arn that the permission set is owned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#instance_arn SsoPermissionSet#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#instance_arn SsoPermissionSet#instance_arn}
   */
   readonly instanceArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#managed_policies SsoPermissionSet#managed_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#managed_policies SsoPermissionSet#managed_policies}
   */
   readonly managedPolicies?: string[];
   /**
   * The name you want to assign to this permission set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#permissions_boundary SsoPermissionSet#permissions_boundary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#permissions_boundary SsoPermissionSet#permissions_boundary}
   */
   readonly permissionsBoundary?: SsoPermissionSetPermissionsBoundary;
   /**
   * The relay state URL that redirect links to any service in the AWS Management Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#relay_state_type SsoPermissionSet#relay_state_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#relay_state_type SsoPermissionSet#relay_state_type}
   */
   readonly relayStateType?: string;
   /**
   * The length of time that a user can be signed in to an AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#session_duration SsoPermissionSet#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#session_duration SsoPermissionSet#session_duration}
   */
   readonly sessionDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#tags SsoPermissionSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#tags SsoPermissionSet#tags}
   */
   readonly tags?: SsoPermissionSetTags[] | cdktn.IResolvable;
 }
 export interface SsoPermissionSetCustomerManagedPolicyReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}
   */
   readonly path?: string;
 }
@@ -211,11 +211,11 @@ export class SsoPermissionSetCustomerManagedPolicyReferencesList extends cdktn.C
 }
 export interface SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#name SsoPermissionSet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#path SsoPermissionSet#path}
   */
   readonly path?: string;
 }
@@ -338,13 +338,13 @@ export class SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReferenceOu
 }
 export interface SsoPermissionSetPermissionsBoundary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#customer_managed_policy_reference SsoPermissionSet#customer_managed_policy_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#customer_managed_policy_reference SsoPermissionSet#customer_managed_policy_reference}
   */
   readonly customerManagedPolicyReference?: SsoPermissionSetPermissionsBoundaryCustomerManagedPolicyReference;
   /**
   * The managed policy to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#managed_policy_arn SsoPermissionSet#managed_policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#managed_policy_arn SsoPermissionSet#managed_policy_arn}
   */
   readonly managedPolicyArn?: string;
 }
@@ -467,11 +467,11 @@ export class SsoPermissionSetPermissionsBoundaryOutputReference extends cdktn.Co
 }
 export interface SsoPermissionSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#key SsoPermissionSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#key SsoPermissionSet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#value SsoPermissionSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#value SsoPermissionSet#value}
   */
   readonly value?: string;
 }
@@ -616,7 +616,7 @@ export class SsoPermissionSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set awscc_sso_permission_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set awscc_sso_permission_set}
 */
 export class SsoPermissionSet extends cdktn.TerraformResource {
 
@@ -632,7 +632,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsoPermissionSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsoPermissionSet to import
-  * @param importFromId The id of the existing SsoPermissionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsoPermissionSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsoPermissionSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -644,7 +644,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sso_permission_set awscc_sso_permission_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_permission_set awscc_sso_permission_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -655,7 +655,7 @@ export class SsoPermissionSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sso_permission_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

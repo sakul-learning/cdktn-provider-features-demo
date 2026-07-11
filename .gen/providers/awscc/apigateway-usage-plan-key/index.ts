@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_usage_plan_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_usage_plan_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApigatewayUsagePlanKeyConfig extends cdktn.TerraformMetaArgumen
   /**
   * The Id of the UsagePlanKey resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
   */
   readonly keyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}
   */
   readonly keyType: string;
   /**
   * The Id of the UsagePlan resource representing the usage plan containing the UsagePlanKey resource representing a plan customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
   */
   readonly usagePlanId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}
 */
 export class ApigatewayUsagePlanKey extends cdktn.TerraformResource {
 
@@ -42,7 +42,7 @@ export class ApigatewayUsagePlanKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayUsagePlanKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayUsagePlanKey to import
-  * @param importFromId The id of the existing ApigatewayUsagePlanKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_usage_plan_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayUsagePlanKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_usage_plan_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayUsagePlanKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -54,7 +54,7 @@ export class ApigatewayUsagePlanKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -65,7 +65,7 @@ export class ApigatewayUsagePlanKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_usage_plan_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

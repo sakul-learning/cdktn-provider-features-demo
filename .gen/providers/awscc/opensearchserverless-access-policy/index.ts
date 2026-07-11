@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OpensearchserverlessAccessPolicyConfig extends cdktn.TerraformM
   /**
   * The description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy#description OpensearchserverlessAccessPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy#description OpensearchserverlessAccessPolicy#description}
   */
   readonly description?: string;
   /**
   * The name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy#name OpensearchserverlessAccessPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy#name OpensearchserverlessAccessPolicy#name}
   */
   readonly name: string;
   /**
   * The JSON policy document that is the content for the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy#policy OpensearchserverlessAccessPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy#policy OpensearchserverlessAccessPolicy#policy}
   */
   readonly policy: string;
   /**
   * The possible types for the access policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy#type OpensearchserverlessAccessPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy#type OpensearchserverlessAccessPolicy#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}
 */
 export class OpensearchserverlessAccessPolicy extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class OpensearchserverlessAccessPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OpensearchserverlessAccessPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchserverlessAccessPolicy to import
-  * @param importFromId The id of the existing OpensearchserverlessAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchserverlessAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchserverlessAccessPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class OpensearchserverlessAccessPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class OpensearchserverlessAccessPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_opensearchserverless_access_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

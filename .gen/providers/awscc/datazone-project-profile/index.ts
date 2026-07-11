@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktn from 'cdktn';
 
 export interface DatazoneProjectProfileConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#allow_custom_project_resource_tags DatazoneProjectProfile#allow_custom_project_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#allow_custom_project_resource_tags DatazoneProjectProfile#allow_custom_project_resource_tags}
   */
   readonly allowCustomProjectResourceTags?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#domain_identifier DatazoneProjectProfile#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#domain_identifier DatazoneProjectProfile#domain_identifier}
   */
   readonly domainIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#domain_unit_identifier DatazoneProjectProfile#domain_unit_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#domain_unit_identifier DatazoneProjectProfile#domain_unit_identifier}
   */
   readonly domainUnitIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#environment_configurations DatazoneProjectProfile#environment_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#environment_configurations DatazoneProjectProfile#environment_configurations}
   */
   readonly environmentConfigurations?: DatazoneProjectProfileEnvironmentConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#project_resource_tags DatazoneProjectProfile#project_resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#project_resource_tags DatazoneProjectProfile#project_resource_tags}
   */
   readonly projectResourceTags?: DatazoneProjectProfileProjectResourceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#project_resource_tags_description DatazoneProjectProfile#project_resource_tags_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#project_resource_tags_description DatazoneProjectProfile#project_resource_tags_description}
   */
   readonly projectResourceTagsDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#status DatazoneProjectProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#status DatazoneProjectProfile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#use_default_configurations DatazoneProjectProfile#use_default_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#use_default_configurations DatazoneProjectProfile#use_default_configurations}
   */
   readonly useDefaultConfigurations?: boolean | cdktn.IResolvable;
 }
 export interface DatazoneProjectProfileEnvironmentConfigurationsAwsAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}
   */
   readonly awsAccountId?: string;
 }
@@ -144,7 +144,7 @@ export class DatazoneProjectProfileEnvironmentConfigurationsAwsAccountOutputRefe
 }
 export interface DatazoneProjectProfileEnvironmentConfigurationsAwsRegion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}
   */
   readonly regionName?: string;
 }
@@ -238,15 +238,15 @@ export class DatazoneProjectProfileEnvironmentConfigurationsAwsRegionOutputRefer
 }
 export interface DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}
   */
   readonly isEditable?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}
   */
   readonly value?: string;
 }
@@ -420,15 +420,15 @@ export class DatazoneProjectProfileEnvironmentConfigurationsConfigurationParamet
 }
 export interface DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#is_editable DatazoneProjectProfile#is_editable}
   */
   readonly isEditable?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}
   */
   readonly value?: string;
 }
@@ -602,15 +602,15 @@ export class DatazoneProjectProfileEnvironmentConfigurationsConfigurationParamet
 }
 export interface DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#parameter_overrides DatazoneProjectProfile#parameter_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#parameter_overrides DatazoneProjectProfile#parameter_overrides}
   */
   readonly parameterOverrides?: DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersParameterOverrides[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#resolved_parameters DatazoneProjectProfile#resolved_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#resolved_parameters DatazoneProjectProfile#resolved_parameters}
   */
   readonly resolvedParameters?: DatazoneProjectProfileEnvironmentConfigurationsConfigurationParametersResolvedParameters[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#ssm_path DatazoneProjectProfile#ssm_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#ssm_path DatazoneProjectProfile#ssm_path}
   */
   readonly ssmPath?: string;
 }
@@ -762,39 +762,39 @@ export class DatazoneProjectProfileEnvironmentConfigurationsConfigurationParamet
 }
 export interface DatazoneProjectProfileEnvironmentConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#aws_account DatazoneProjectProfile#aws_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#aws_account DatazoneProjectProfile#aws_account}
   */
   readonly awsAccount?: DatazoneProjectProfileEnvironmentConfigurationsAwsAccount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#aws_region DatazoneProjectProfile#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#aws_region DatazoneProjectProfile#aws_region}
   */
   readonly awsRegion?: DatazoneProjectProfileEnvironmentConfigurationsAwsRegion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#configuration_parameters DatazoneProjectProfile#configuration_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#configuration_parameters DatazoneProjectProfile#configuration_parameters}
   */
   readonly configurationParameters?: DatazoneProjectProfileEnvironmentConfigurationsConfigurationParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#deployment_mode DatazoneProjectProfile#deployment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#deployment_mode DatazoneProjectProfile#deployment_mode}
   */
   readonly deploymentMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#deployment_order DatazoneProjectProfile#deployment_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#deployment_order DatazoneProjectProfile#deployment_order}
   */
   readonly deploymentOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#description DatazoneProjectProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#environment_blueprint_id DatazoneProjectProfile#environment_blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#environment_blueprint_id DatazoneProjectProfile#environment_blueprint_id}
   */
   readonly environmentBlueprintId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#environment_configuration_id DatazoneProjectProfile#environment_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#environment_configuration_id DatazoneProjectProfile#environment_configuration_id}
   */
   readonly environmentConfigurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#name DatazoneProjectProfile#name}
   */
   readonly name?: string;
 }
@@ -1142,15 +1142,15 @@ export class DatazoneProjectProfileEnvironmentConfigurationsList extends cdktn.C
 }
 export interface DatazoneProjectProfileProjectResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#is_value_editable DatazoneProjectProfile#is_value_editable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#is_value_editable DatazoneProjectProfile#is_value_editable}
   */
   readonly isValueEditable?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#key DatazoneProjectProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#key DatazoneProjectProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#value DatazoneProjectProfile#value}
   */
   readonly value?: string;
 }
@@ -1324,7 +1324,7 @@ export class DatazoneProjectProfileProjectResourceTagsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile awscc_datazone_project_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile awscc_datazone_project_profile}
 */
 export class DatazoneProjectProfile extends cdktn.TerraformResource {
 
@@ -1340,7 +1340,7 @@ export class DatazoneProjectProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneProjectProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneProjectProfile to import
-  * @param importFromId The id of the existing DatazoneProjectProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneProjectProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneProjectProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1352,7 +1352,7 @@ export class DatazoneProjectProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_project_profile awscc_datazone_project_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_profile awscc_datazone_project_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1363,7 +1363,7 @@ export class DatazoneProjectProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_project_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

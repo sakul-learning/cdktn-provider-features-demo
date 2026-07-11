@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface OdbOdbPeeringConnectionConfig extends cdktn.TerraformMetaArgume
   /**
   * The additional CIDR blocks for the ODB peering connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#additional_peer_network_cidrs OdbOdbPeeringConnection#additional_peer_network_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#additional_peer_network_cidrs OdbOdbPeeringConnection#additional_peer_network_cidrs}
   */
   readonly additionalPeerNetworkCidrs?: string[];
   /**
   * The name of the ODB peering connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#display_name OdbOdbPeeringConnection#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#display_name OdbOdbPeeringConnection#display_name}
   */
   readonly displayName?: string;
   /**
   * The unique identifier of the ODB network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#odb_network_id OdbOdbPeeringConnection#odb_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#odb_network_id OdbOdbPeeringConnection#odb_network_id}
   */
   readonly odbNetworkId?: string;
   /**
   * The unique identifier of the peer network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#peer_network_id OdbOdbPeeringConnection#peer_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#peer_network_id OdbOdbPeeringConnection#peer_network_id}
   */
   readonly peerNetworkId?: string;
   /**
   * The unique identifier of the VPC route table for which a route to the ODB network is automatically created during peering connection establishment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#peer_network_route_table_ids OdbOdbPeeringConnection#peer_network_route_table_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#peer_network_route_table_ids OdbOdbPeeringConnection#peer_network_route_table_ids}
   */
   readonly peerNetworkRouteTableIds?: string[];
   /**
   * Tags to assign to the Odb peering connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#tags OdbOdbPeeringConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#tags OdbOdbPeeringConnection#tags}
   */
   readonly tags?: OdbOdbPeeringConnectionTags[] | cdktn.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface OdbOdbPeeringConnectionTags {
   /**
   * The key name of the tag. You can specify a value that's 1 to 128 Unicode characters in length and can't be prefixed with aws:. You can use any of the following characters: Unicode letters, digits, whitespace, _, ., :, /, =, +, @, -, and ".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#key OdbOdbPeeringConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#key OdbOdbPeeringConnection#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that's 1 to 256 characters in length. You can use any of the following characters: Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#value OdbOdbPeeringConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#value OdbOdbPeeringConnection#value}
   */
   readonly value?: string;
 }
@@ -199,7 +199,7 @@ export class OdbOdbPeeringConnectionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection}
 */
 export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
 
@@ -215,7 +215,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OdbOdbPeeringConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OdbOdbPeeringConnection to import
-  * @param importFromId The id of the existing OdbOdbPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OdbOdbPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OdbOdbPeeringConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -227,7 +227,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +238,7 @@ export class OdbOdbPeeringConnection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_odb_odb_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

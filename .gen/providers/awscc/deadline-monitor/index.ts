@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface DeadlineMonitorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}
   */
   readonly identityCenterInstanceArn: string;
   /**
   * The AWS region where IAM Identity Center is enabled. Required when Identity Center is in a different region than the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
   */
   readonly identityCenterRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}
   */
   readonly subdomain: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
   */
   readonly tags?: DeadlineMonitorTags[] | cdktn.IResolvable;
 }
@@ -40,13 +40,13 @@ export interface DeadlineMonitorTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#key DeadlineMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#key DeadlineMonitor#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#value DeadlineMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#value DeadlineMonitor#value}
   */
   readonly value?: string;
 }
@@ -191,7 +191,7 @@ export class DeadlineMonitorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor awscc_deadline_monitor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor awscc_deadline_monitor}
 */
 export class DeadlineMonitor extends cdktn.TerraformResource {
 
@@ -207,7 +207,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DeadlineMonitor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeadlineMonitor to import
-  * @param importFromId The id of the existing DeadlineMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeadlineMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeadlineMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -219,7 +219,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_monitor awscc_deadline_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_monitor awscc_deadline_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,7 +230,7 @@ export class DeadlineMonitor extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_deadline_monitor',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

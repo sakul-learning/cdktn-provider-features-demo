@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_resource_specific_logging
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_resource_specific_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IotResourceSpecificLoggingConfig extends cdktn.TerraformMetaArg
   /**
   * The log level for a specific target. Valid values are: ERROR, WARN, INFO, DEBUG, or DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_resource_specific_logging#log_level IotResourceSpecificLogging#log_level}
   */
   readonly logLevel: string;
   /**
   * The target name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_resource_specific_logging#target_name IotResourceSpecificLogging#target_name}
   */
   readonly targetName: string;
   /**
   * The target type. Value must be THING_GROUP, CLIENT_ID, SOURCE_IP, PRINCIPAL_ID, or EVENT_TYPE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_resource_specific_logging#target_type IotResourceSpecificLogging#target_type}
   */
   readonly targetType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}
 */
 export class IotResourceSpecificLogging extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class IotResourceSpecificLogging extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotResourceSpecificLogging resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotResourceSpecificLogging to import
-  * @param importFromId The id of the existing IotResourceSpecificLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotResourceSpecificLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_resource_specific_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotResourceSpecificLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class IotResourceSpecificLogging extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class IotResourceSpecificLogging extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_resource_specific_logging',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

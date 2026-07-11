@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,14 +14,14 @@ export interface IamGroupConfig extends cdktn.TerraformMetaArguments {
   *   If you specify a name, you must specify the ``CAPABILITY_NAMED_IAM`` value to acknowledge your template's capabilities. For more information, see [Acknowledging Resources in Templates](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-template.html#using-iam-capabilities).
   *   Naming an IAM resource can cause an unrecoverable error if you reuse the same template in multiple Regions. To prevent this, we recommend using ``Fn::Join`` and ``AWS::Region`` to create a Region-specific name, as in the following example: ``{"Fn::Join": ["", [{"Ref": "AWS::Region"}, {"Ref": "MyResourceName"}]]}``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group#group_name IamGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group#group_name IamGroup#group_name}
   */
   readonly groupName?: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM policy you want to attach.
   *  For more information about ARNs, see [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) in the *General Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group#managed_policy_arns IamGroup#managed_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group#managed_policy_arns IamGroup#managed_policy_arns}
   */
   readonly managedPolicyArns?: string[];
   /**
@@ -29,7 +29,7 @@ export interface IamGroupConfig extends cdktn.TerraformMetaArguments {
   *  This parameter is optional. If it is not included, it defaults to a slash (/).
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (``\u0021``) through the DEL character (``\u007F``), including most punctuation characters, digits, and upper and lowercased letters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group#path IamGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group#path IamGroup#path}
   */
   readonly path?: string;
   /**
@@ -37,7 +37,7 @@ export interface IamGroupConfig extends cdktn.TerraformMetaArguments {
   *   The name of each inline policy for a role, user, or group must be unique. If you don't choose unique names, updates to the IAM identity will fail. 
   *   For information about limits on the number of inline policies that you can embed in a group, see [Limitations on Entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html) in the *User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group#policies IamGroup#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group#policies IamGroup#policies}
   */
   readonly policies?: IamGroupPolicies[] | cdktn.IResolvable;
 }
@@ -45,13 +45,13 @@ export interface IamGroupPolicies {
   /**
   * The policy document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group#policy_document IamGroup#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group#policy_document IamGroup#policy_document}
   */
   readonly policyDocument?: string;
   /**
   * The friendly name (not ARN) identifying the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group#policy_name IamGroup#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group#policy_name IamGroup#policy_name}
   */
   readonly policyName?: string;
 }
@@ -196,7 +196,7 @@ export class IamGroupPoliciesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group awscc_iam_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group awscc_iam_group}
 */
 export class IamGroup extends cdktn.TerraformResource {
 
@@ -212,7 +212,7 @@ export class IamGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamGroup to import
-  * @param importFromId The id of the existing IamGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -224,7 +224,7 @@ export class IamGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_group awscc_iam_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_group awscc_iam_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,7 +235,7 @@ export class IamGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

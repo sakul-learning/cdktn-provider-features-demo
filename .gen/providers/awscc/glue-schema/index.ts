@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface GlueSchemaConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specify checkpoint version for update. This is only required to update the Compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#checkpoint_version GlueSchema#checkpoint_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#checkpoint_version GlueSchema#checkpoint_version}
   */
   readonly checkpointVersion?: GlueSchemaCheckpointVersion;
   /**
   * Compatibility setting for the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#compatibility GlueSchema#compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#compatibility GlueSchema#compatibility}
   */
   readonly compatibility: string;
   /**
   * Data format name to use for the schema. Accepted values: 'AVRO', 'JSON', 'PROTOBUF'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#data_format GlueSchema#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#data_format GlueSchema#data_format}
   */
   readonly dataFormat: string;
   /**
   * A description of the schema. If description is not provided, there will not be any default value for this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#description GlueSchema#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#description GlueSchema#description}
   */
   readonly description?: string;
   /**
   * Name of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#name GlueSchema#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#name GlueSchema#name}
   */
   readonly name: string;
   /**
   * Identifier for the registry which the schema is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#registry GlueSchema#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#registry GlueSchema#registry}
   */
   readonly registry?: GlueSchemaRegistry;
   /**
   * Definition for the initial schema version in plain-text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#schema_definition GlueSchema#schema_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#schema_definition GlueSchema#schema_definition}
   */
   readonly schemaDefinition?: string;
   /**
   * List of tags to tag the schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#tags GlueSchema#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#tags GlueSchema#tags}
   */
   readonly tags?: GlueSchemaTags[] | cdktn.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface GlueSchemaCheckpointVersion {
   /**
   * Indicates if the latest version needs to be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#is_latest GlueSchema#is_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#is_latest GlueSchema#is_latest}
   */
   readonly isLatest?: boolean | cdktn.IResolvable;
   /**
   * Indicates the version number in the schema to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#version_number GlueSchema#version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#version_number GlueSchema#version_number}
   */
   readonly versionNumber?: number;
 }
@@ -191,13 +191,13 @@ export interface GlueSchemaRegistry {
   /**
   * Amazon Resource Name for the Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#arn GlueSchema#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#arn GlueSchema#arn}
   */
   readonly arn?: string;
   /**
   * Name of the registry in which the schema will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#name GlueSchema#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#name GlueSchema#name}
   */
   readonly name?: string;
 }
@@ -322,13 +322,13 @@ export interface GlueSchemaTags {
   /**
   * A key to identify the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#key GlueSchema#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#key GlueSchema#key}
   */
   readonly key?: string;
   /**
   * Corresponding tag value for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#value GlueSchema#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#value GlueSchema#value}
   */
   readonly value?: string;
 }
@@ -473,7 +473,7 @@ export class GlueSchemaTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema awscc_glue_schema}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema awscc_glue_schema}
 */
 export class GlueSchema extends cdktn.TerraformResource {
 
@@ -489,7 +489,7 @@ export class GlueSchema extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueSchema resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueSchema to import
-  * @param importFromId The id of the existing GlueSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -501,7 +501,7 @@ export class GlueSchema extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_schema awscc_glue_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_schema awscc_glue_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,7 +512,7 @@ export class GlueSchema extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_schema',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

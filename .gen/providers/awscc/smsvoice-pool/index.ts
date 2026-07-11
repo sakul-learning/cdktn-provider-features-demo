@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SmsvoicePoolConfig extends cdktn.TerraformMetaArguments {
   /**
   * When set to true the pool can't be deleted. By default this is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#deletion_protection_enabled SmsvoicePool#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#deletion_protection_enabled SmsvoicePool#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#mandatory_keywords SmsvoicePool#mandatory_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#mandatory_keywords SmsvoicePool#mandatory_keywords}
   */
   readonly mandatoryKeywords: SmsvoicePoolMandatoryKeywords;
   /**
   * The name of the OptOutList to associate with the pool. You can use the OptOutListName or OptOutListArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#opt_out_list_name SmsvoicePool#opt_out_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#opt_out_list_name SmsvoicePool#opt_out_list_name}
   */
   readonly optOutListName?: string;
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#optional_keywords SmsvoicePool#optional_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#optional_keywords SmsvoicePool#optional_keywords}
   */
   readonly optionalKeywords?: SmsvoicePoolOptionalKeywords[] | cdktn.IResolvable;
   /**
   * The origination identity to use such as a PhoneNumberId, PhoneNumberArn, SenderId or SenderIdArn and it's IsoCountryCode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#origination_identities SmsvoicePool#origination_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#origination_identities SmsvoicePool#origination_identities}
   */
   readonly originationIdentities: string[];
   /**
   * By default this is set to false. When an end recipient sends a message that begins with HELP or STOP to one of your dedicated numbers, AWS End User Messaging SMS and Voice automatically replies with a customizable message and adds the end recipient to the OptOutList. When set to true you're responsible for responding to HELP and STOP requests. You're also responsible for tracking and honoring opt-out requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#self_managed_opt_outs_enabled SmsvoicePool#self_managed_opt_outs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#self_managed_opt_outs_enabled SmsvoicePool#self_managed_opt_outs_enabled}
   */
   readonly selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether shared routes are enabled for the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#shared_routes_enabled SmsvoicePool#shared_routes_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#shared_routes_enabled SmsvoicePool#shared_routes_enabled}
   */
   readonly sharedRoutesEnabled?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#tags SmsvoicePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#tags SmsvoicePool#tags}
   */
   readonly tags?: SmsvoicePoolTags[] | cdktn.IResolvable;
   /**
   * When you set up two-way SMS, you can receive incoming messages from your customers. When one of your customers sends a message to your phone number, the message body is sent to an Amazon SNS topic or Amazon Connect for processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#two_way SmsvoicePool#two_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#two_way SmsvoicePool#two_way}
   */
   readonly twoWay?: SmsvoicePoolTwoWay;
 }
 export interface SmsvoicePoolMandatoryKeywordsHelp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}
   */
   readonly message: string;
 }
@@ -155,7 +155,7 @@ export class SmsvoicePoolMandatoryKeywordsHelpOutputReference extends cdktn.Comp
 }
 export interface SmsvoicePoolMandatoryKeywordsStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}
   */
   readonly message: string;
 }
@@ -248,13 +248,13 @@ export interface SmsvoicePoolMandatoryKeywords {
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#help SmsvoicePool#help}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#help SmsvoicePool#help}
   */
   readonly help: SmsvoicePoolMandatoryKeywordsHelp;
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#stop SmsvoicePool#stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#stop SmsvoicePool#stop}
   */
   readonly stop: SmsvoicePoolMandatoryKeywordsStop;
 }
@@ -371,15 +371,15 @@ export class SmsvoicePoolMandatoryKeywordsOutputReference extends cdktn.ComplexO
 }
 export interface SmsvoicePoolOptionalKeywords {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#action SmsvoicePool#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#action SmsvoicePool#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#keyword SmsvoicePool#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#keyword SmsvoicePool#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#message SmsvoicePool#message}
   */
   readonly message?: string;
 }
@@ -555,13 +555,13 @@ export interface SmsvoicePoolTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#key SmsvoicePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#key SmsvoicePool#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#value SmsvoicePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#value SmsvoicePool#value}
   */
   readonly value?: string;
 }
@@ -708,19 +708,19 @@ export interface SmsvoicePoolTwoWay {
   /**
   * The Amazon Resource Name (ARN) of the two way channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#channel_arn SmsvoicePool#channel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#channel_arn SmsvoicePool#channel_arn}
   */
   readonly channelArn?: string;
   /**
   * An optional IAM Role Arn for a service to assume, to be able to post inbound SMS messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#channel_role SmsvoicePool#channel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#channel_role SmsvoicePool#channel_role}
   */
   readonly channelRole?: string;
   /**
   * By default this is set to false. When set to true you can receive incoming text messages from your end recipients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#enabled SmsvoicePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#enabled SmsvoicePool#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -872,7 +872,7 @@ export class SmsvoicePoolTwoWayOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool awscc_smsvoice_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool awscc_smsvoice_pool}
 */
 export class SmsvoicePool extends cdktn.TerraformResource {
 
@@ -888,7 +888,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SmsvoicePool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsvoicePool to import
-  * @param importFromId The id of the existing SmsvoicePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsvoicePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsvoicePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -900,7 +900,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_pool awscc_smsvoice_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_pool awscc_smsvoice_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -911,7 +911,7 @@ export class SmsvoicePool extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_smsvoice_pool',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

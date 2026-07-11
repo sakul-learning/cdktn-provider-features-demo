@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Route53ProfilesProfileResourceAssociationConfig extends cdktn.T
   /**
   * The name of an association between the  Profile and resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association#name Route53ProfilesProfileResourceAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association#name Route53ProfilesProfileResourceAssociation#name}
   */
   readonly name: string;
   /**
   * The ID of the  profile that you associated the resource to that is specified by ResourceArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association#profile_id Route53ProfilesProfileResourceAssociation#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association#profile_id Route53ProfilesProfileResourceAssociation#profile_id}
   */
   readonly profileId: string;
   /**
   * The arn of the resource that you associated to the  Profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association#resource_arn Route53ProfilesProfileResourceAssociation#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association#resource_arn Route53ProfilesProfileResourceAssociation#resource_arn}
   */
   readonly resourceArn: string;
   /**
   * A JSON-formatted string with key-value pairs specifying the properties of the associated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association#resource_properties Route53ProfilesProfileResourceAssociation#resource_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association#resource_properties Route53ProfilesProfileResourceAssociation#resource_properties}
   */
   readonly resourceProperties?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}
 */
 export class Route53ProfilesProfileResourceAssociation extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Route53ProfilesProfileResourceAssociation extends cdktn.TerraformRe
   * Generates CDKTN code for importing a Route53ProfilesProfileResourceAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ProfilesProfileResourceAssociation to import
-  * @param importFromId The id of the existing Route53ProfilesProfileResourceAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ProfilesProfileResourceAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ProfilesProfileResourceAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Route53ProfilesProfileResourceAssociation extends cdktn.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class Route53ProfilesProfileResourceAssociation extends cdktn.TerraformRe
       terraformResourceType: 'awscc_route53profiles_profile_resource_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

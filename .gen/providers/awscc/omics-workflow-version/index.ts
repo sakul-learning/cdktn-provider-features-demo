@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface OmicsWorkflowVersionConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#accelerators OmicsWorkflowVersion#accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#accelerators OmicsWorkflowVersion#accelerators}
   */
   readonly accelerators?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#definition_uri OmicsWorkflowVersion#definition_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#definition_uri OmicsWorkflowVersion#definition_uri}
   */
   readonly definitionUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#engine OmicsWorkflowVersion#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#engine OmicsWorkflowVersion#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#main OmicsWorkflowVersion#main}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#main OmicsWorkflowVersion#main}
   */
   readonly main?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#parameter_template OmicsWorkflowVersion#parameter_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#parameter_template OmicsWorkflowVersion#parameter_template}
   */
   readonly parameterTemplate?: { [key: string]: OmicsWorkflowVersionParameterTemplate } | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#storage_capacity OmicsWorkflowVersion#storage_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#storage_capacity OmicsWorkflowVersion#storage_capacity}
   */
   readonly storageCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#storage_type OmicsWorkflowVersion#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#storage_type OmicsWorkflowVersion#storage_type}
   */
   readonly storageType?: string;
   /**
   * A map of resource tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#tags OmicsWorkflowVersion#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#tags OmicsWorkflowVersion#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#version_name OmicsWorkflowVersion#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#version_name OmicsWorkflowVersion#version_name}
   */
   readonly versionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#workflow_bucket_owner_id OmicsWorkflowVersion#workflow_bucket_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#workflow_bucket_owner_id OmicsWorkflowVersion#workflow_bucket_owner_id}
   */
   readonly workflowBucketOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#workflow_id OmicsWorkflowVersion#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#workflow_id OmicsWorkflowVersion#workflow_id}
   */
   readonly workflowId: string;
 }
 export interface OmicsWorkflowVersionParameterTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#description OmicsWorkflowVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#optional OmicsWorkflowVersion#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#optional OmicsWorkflowVersion#optional}
   */
   readonly optional?: boolean | cdktn.IResolvable;
 }
@@ -207,7 +207,7 @@ export class OmicsWorkflowVersionParameterTemplateMap extends cdktn.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version awscc_omics_workflow_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version awscc_omics_workflow_version}
 */
 export class OmicsWorkflowVersion extends cdktn.TerraformResource {
 
@@ -223,7 +223,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OmicsWorkflowVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmicsWorkflowVersion to import
-  * @param importFromId The id of the existing OmicsWorkflowVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmicsWorkflowVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmicsWorkflowVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -235,7 +235,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,7 +246,7 @@ export class OmicsWorkflowVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_omics_workflow_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

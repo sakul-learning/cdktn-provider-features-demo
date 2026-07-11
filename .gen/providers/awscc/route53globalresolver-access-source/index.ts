@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface Route53GlobalresolverAccessSourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}
   */
   readonly cidr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}
   */
   readonly dnsViewId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}
   */
   readonly tags?: Route53GlobalresolverAccessSourceTags[] | cdktn.IResolvable;
 }
 export interface Route53GlobalresolverAccessSourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}
   */
   readonly value?: string;
 }
@@ -187,7 +187,7 @@ export class Route53GlobalresolverAccessSourceTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source}
 */
 export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53GlobalresolverAccessSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53GlobalresolverAccessSource to import
-  * @param importFromId The id of the existing Route53GlobalresolverAccessSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53GlobalresolverAccessSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53GlobalresolverAccessSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53globalresolver_access_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

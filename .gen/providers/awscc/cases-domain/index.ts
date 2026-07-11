@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CasesDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name for your Cases domain. It must be unique for your AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain#name CasesDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain#name CasesDomain#name}
   */
   readonly name: string;
   /**
   * The tags that you attach to this domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain#tags CasesDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain#tags CasesDomain#tags}
   */
   readonly tags?: CasesDomainTags[] | cdktn.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface CasesDomainTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain#key CasesDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain#key CasesDomain#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain#value CasesDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain#value CasesDomain#value}
   */
   readonly value?: string;
 }
@@ -175,7 +175,7 @@ export class CasesDomainTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain awscc_cases_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain awscc_cases_domain}
 */
 export class CasesDomain extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class CasesDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CasesDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CasesDomain to import
-  * @param importFromId The id of the existing CasesDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CasesDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CasesDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class CasesDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cases_domain awscc_cases_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cases_domain awscc_cases_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class CasesDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cases_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

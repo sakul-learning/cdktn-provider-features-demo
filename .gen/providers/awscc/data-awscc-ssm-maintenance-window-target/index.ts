@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ssm_maintenance_window_target
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ssm_maintenance_window_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccSsmMaintenanceWindowTargetConfig extends cdktn.Terrafo
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ssm_maintenance_window_target#id DataAwsccSsmMaintenanceWindowTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ssm_maintenance_window_target#id DataAwsccSsmMaintenanceWindowTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ export class DataAwsccSsmMaintenanceWindowTargetTargetsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}
 */
 export class DataAwsccSsmMaintenanceWindowTarget extends cdktn.TerraformDataSource {
 
@@ -115,7 +115,7 @@ export class DataAwsccSsmMaintenanceWindowTarget extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccSsmMaintenanceWindowTarget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSsmMaintenanceWindowTarget to import
-  * @param importFromId The id of the existing DataAwsccSsmMaintenanceWindowTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSsmMaintenanceWindowTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ssm_maintenance_window_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSsmMaintenanceWindowTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -127,7 +127,7 @@ export class DataAwsccSsmMaintenanceWindowTarget extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,7 +138,7 @@ export class DataAwsccSsmMaintenanceWindowTarget extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_ssm_maintenance_window_target',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

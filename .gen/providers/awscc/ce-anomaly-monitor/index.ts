@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface CeAnomalyMonitorConfig extends cdktn.TerraformMetaArguments {
   /**
   * The dimensions to evaluate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#monitor_dimension CeAnomalyMonitor#monitor_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#monitor_dimension CeAnomalyMonitor#monitor_dimension}
   */
   readonly monitorDimension?: string;
   /**
   * The name of the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#monitor_name CeAnomalyMonitor#monitor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#monitor_name CeAnomalyMonitor#monitor_name}
   */
   readonly monitorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#monitor_specification CeAnomalyMonitor#monitor_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#monitor_specification CeAnomalyMonitor#monitor_specification}
   */
   readonly monitorSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#monitor_type CeAnomalyMonitor#monitor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#monitor_type CeAnomalyMonitor#monitor_type}
   */
   readonly monitorType: string;
   /**
   * Tags to assign to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#resource_tags CeAnomalyMonitor#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#resource_tags CeAnomalyMonitor#resource_tags}
   */
   readonly resourceTags?: CeAnomalyMonitorResourceTags[] | cdktn.IResolvable;
 }
@@ -38,13 +38,13 @@ export interface CeAnomalyMonitorResourceTags {
   /**
   * The key name for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#key CeAnomalyMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#key CeAnomalyMonitor#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#value CeAnomalyMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#value CeAnomalyMonitor#value}
   */
   readonly value?: string;
 }
@@ -189,7 +189,7 @@ export class CeAnomalyMonitorResourceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor}
 */
 export class CeAnomalyMonitor extends cdktn.TerraformResource {
 
@@ -205,7 +205,7 @@ export class CeAnomalyMonitor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CeAnomalyMonitor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CeAnomalyMonitor to import
-  * @param importFromId The id of the existing CeAnomalyMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CeAnomalyMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CeAnomalyMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -217,7 +217,7 @@ export class CeAnomalyMonitor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,7 +228,7 @@ export class CeAnomalyMonitor extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ce_anomaly_monitor',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

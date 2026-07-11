@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_policy_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_policy_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecurityhubPolicyAssociationConfig extends cdktn.TerraformMetaA
   /**
   * The universally unique identifier (UUID) of the configuration policy or a value of SELF_MANAGED_SECURITY_HUB for a self-managed configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_policy_association#configuration_policy_id SecurityhubPolicyAssociation#configuration_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_policy_association#configuration_policy_id SecurityhubPolicyAssociation#configuration_policy_id}
   */
   readonly configurationPolicyId: string;
   /**
   * The identifier of the target account, organizational unit, or the root
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_policy_association#target_id SecurityhubPolicyAssociation#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_policy_association#target_id SecurityhubPolicyAssociation#target_id}
   */
   readonly targetId: string;
   /**
   * Indicates whether the target is an AWS account, organizational unit, or the organization root
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_policy_association#target_type SecurityhubPolicyAssociation#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_policy_association#target_type SecurityhubPolicyAssociation#target_type}
   */
   readonly targetType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_policy_association awscc_securityhub_policy_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_policy_association awscc_securityhub_policy_association}
 */
 export class SecurityhubPolicyAssociation extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SecurityhubPolicyAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubPolicyAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubPolicyAssociation to import
-  * @param importFromId The id of the existing SecurityhubPolicyAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_policy_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubPolicyAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_policy_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubPolicyAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SecurityhubPolicyAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_policy_association awscc_securityhub_policy_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_policy_association awscc_securityhub_policy_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class SecurityhubPolicyAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_policy_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,57 +8,57 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayDomainNameConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#certificate_arn ApigatewayDomainName#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#certificate_arn ApigatewayDomainName#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#domain_name ApigatewayDomainName#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#domain_name ApigatewayDomainName#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#endpoint_access_mode ApigatewayDomainName#endpoint_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#endpoint_access_mode ApigatewayDomainName#endpoint_access_mode}
   */
   readonly endpointAccessMode?: string;
   /**
   * The endpoint configuration of this DomainName showing the endpoint types and IP address types of the domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#endpoint_configuration ApigatewayDomainName#endpoint_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#endpoint_configuration ApigatewayDomainName#endpoint_configuration}
   */
   readonly endpointConfiguration?: ApigatewayDomainNameEndpointConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#mutual_tls_authentication ApigatewayDomainName#mutual_tls_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#mutual_tls_authentication ApigatewayDomainName#mutual_tls_authentication}
   */
   readonly mutualTlsAuthentication?: ApigatewayDomainNameMutualTlsAuthentication;
   /**
   * The ARN of the public certificate issued by ACM to validate ownership of your custom domain. Only required when configuring mutual TLS and using an ACM imported or private CA certificate ARN as the RegionalCertificateArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#ownership_verification_certificate_arn ApigatewayDomainName#ownership_verification_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#ownership_verification_certificate_arn ApigatewayDomainName#ownership_verification_certificate_arn}
   */
   readonly ownershipVerificationCertificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#regional_certificate_arn ApigatewayDomainName#regional_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#regional_certificate_arn ApigatewayDomainName#regional_certificate_arn}
   */
   readonly regionalCertificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#routing_mode ApigatewayDomainName#routing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#routing_mode ApigatewayDomainName#routing_mode}
   */
   readonly routingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#security_policy ApigatewayDomainName#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#security_policy ApigatewayDomainName#security_policy}
   */
   readonly securityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#tags ApigatewayDomainName#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#tags ApigatewayDomainName#tags}
   */
   readonly tags?: ApigatewayDomainNameTags[] | cdktn.IResolvable;
 }
 export interface ApigatewayDomainNameEndpointConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#ip_address_type ApigatewayDomainName#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#ip_address_type ApigatewayDomainName#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#types ApigatewayDomainName#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#types ApigatewayDomainName#types}
   */
   readonly types?: string[];
 }
@@ -181,11 +181,11 @@ export class ApigatewayDomainNameEndpointConfigurationOutputReference extends cd
 }
 export interface ApigatewayDomainNameMutualTlsAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#truststore_uri ApigatewayDomainName#truststore_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#truststore_uri ApigatewayDomainName#truststore_uri}
   */
   readonly truststoreUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#truststore_version ApigatewayDomainName#truststore_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#truststore_version ApigatewayDomainName#truststore_version}
   */
   readonly truststoreVersion?: string;
 }
@@ -310,13 +310,13 @@ export interface ApigatewayDomainNameTags {
   /**
   * A string you can use to assign a value. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#key ApigatewayDomainName#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#key ApigatewayDomainName#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#value ApigatewayDomainName#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#value ApigatewayDomainName#value}
   */
   readonly value?: string;
 }
@@ -461,7 +461,7 @@ export class ApigatewayDomainNameTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name}
 */
 export class ApigatewayDomainName extends cdktn.TerraformResource {
 
@@ -477,7 +477,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayDomainName resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayDomainName to import
-  * @param importFromId The id of the existing ApigatewayDomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayDomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayDomainName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -489,7 +489,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,7 +500,7 @@ export class ApigatewayDomainName extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_domain_name',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

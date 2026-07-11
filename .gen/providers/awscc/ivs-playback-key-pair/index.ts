@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface IvsPlaybackKeyPairConfig extends cdktn.TerraformMetaArguments {
   /**
   * An arbitrary string (a nickname) assigned to a playback key pair that helps the customer identify that resource. The value does not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
   */
   readonly name?: string;
   /**
   * The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PlaybackKeyPair resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
   */
   readonly publicKeyMaterial?: string;
   /**
   * A list of key-value pairs that contain metadata for the asset model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
   */
   readonly tags?: IvsPlaybackKeyPairTags[] | cdktn.IResolvable;
 }
 export interface IvsPlaybackKeyPairTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair#key IvsPlaybackKeyPair#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair#value IvsPlaybackKeyPair#value}
   */
   readonly value?: string;
 }
@@ -177,7 +177,7 @@ export class IvsPlaybackKeyPairTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair}
 */
 export class IvsPlaybackKeyPair extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class IvsPlaybackKeyPair extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvsPlaybackKeyPair resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvsPlaybackKeyPair to import
-  * @param importFromId The id of the existing IvsPlaybackKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvsPlaybackKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvsPlaybackKeyPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class IvsPlaybackKeyPair extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_playback_key_pair awscc_ivs_playback_key_pair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class IvsPlaybackKeyPair extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivs_playback_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

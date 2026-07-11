@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CustomerprofilesSegmentDefinitionConfig extends cdktn.Terraform
   /**
   * The description of the segment definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#description CustomerprofilesSegmentDefinition#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#description CustomerprofilesSegmentDefinition#description}
   */
   readonly description?: string;
   /**
   * The display name of the segment definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#display_name CustomerprofilesSegmentDefinition#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#display_name CustomerprofilesSegmentDefinition#display_name}
   */
   readonly displayName: string;
   /**
   * The unique name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#domain_name CustomerprofilesSegmentDefinition#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#domain_name CustomerprofilesSegmentDefinition#domain_name}
   */
   readonly domainName: string;
   /**
   * The unique name of the segment definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
   */
   readonly segmentDefinitionName: string;
   /**
   * An array that defines the set of segment criteria to evaluate when handling segment groups for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#segment_groups CustomerprofilesSegmentDefinition#segment_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#segment_groups CustomerprofilesSegmentDefinition#segment_groups}
   */
   readonly segmentGroups?: CustomerprofilesSegmentDefinitionSegmentGroups;
   /**
   * The segment sort configuration for ordering segment results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#segment_sort CustomerprofilesSegmentDefinition#segment_sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#segment_sort CustomerprofilesSegmentDefinition#segment_sort}
   */
   readonly segmentSort?: CustomerprofilesSegmentDefinitionSegmentSort;
   /**
   * The SQL query that defines the segment criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#segment_sql_query CustomerprofilesSegmentDefinition#segment_sql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#segment_sql_query CustomerprofilesSegmentDefinition#segment_sql_query}
   */
   readonly segmentSqlQuery?: string;
   /**
   * The tags used to organize, track, or control access for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#tags CustomerprofilesSegmentDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#tags CustomerprofilesSegmentDefinition#tags}
   */
   readonly tags?: CustomerprofilesSegmentDefinitionTags[] | cdktn.IResolvable;
 }
@@ -60,19 +60,19 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsC
   /**
   * The ending point for this overridden range. Positive numbers indicate how many days in the past data should be included, and negative numbers indicate how many days in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#end CustomerprofilesSegmentDefinition#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#end CustomerprofilesSegmentDefinition#end}
   */
   readonly end?: number;
   /**
   * The starting point for this overridden range. Positive numbers indicate how many days in the past data should be included, and negative numbers indicate how many days in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#start CustomerprofilesSegmentDefinition#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#start CustomerprofilesSegmentDefinition#start}
   */
   readonly start?: number;
   /**
   * The unit to be applied to the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#unit CustomerprofilesSegmentDefinition#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#unit CustomerprofilesSegmentDefinition#unit}
   */
   readonly unit?: string;
 }
@@ -226,7 +226,7 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsC
   /**
   * Defines the range to be applied to the calculated attribute definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#range CustomerprofilesSegmentDefinition#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#range CustomerprofilesSegmentDefinition#range}
   */
   readonly range?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverridesRange;
 }
@@ -322,17 +322,17 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsC
   /**
   * Overrides the condition block within the original calculated attribute definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#condition_overrides CustomerprofilesSegmentDefinition#condition_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#condition_overrides CustomerprofilesSegmentDefinition#condition_overrides}
   */
   readonly conditionOverrides?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides;
   /**
   * The type of segment dimension to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -506,11 +506,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -635,11 +635,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -764,11 +764,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -893,11 +893,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -1022,11 +1022,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -1151,11 +1151,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -1280,11 +1280,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -1409,11 +1409,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -1538,37 +1538,37 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
   */
   readonly city?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCity;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
   */
   readonly country?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCountry;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
   */
   readonly county?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressCounty;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
   */
   readonly postalCode?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressPostalCode;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
   */
   readonly province?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressProvince;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
   */
   readonly state?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddressState;
 }
@@ -1809,11 +1809,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -1958,11 +1958,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -2087,11 +2087,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -2216,11 +2216,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -2345,11 +2345,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -2474,11 +2474,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -2603,11 +2603,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -2732,37 +2732,37 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
   */
   readonly city?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCity;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
   */
   readonly country?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCountry;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
   */
   readonly county?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressCounty;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
   */
   readonly postalCode?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressPostalCode;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
   */
   readonly province?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressProvince;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
   */
   readonly state?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddressState;
 }
@@ -3003,11 +3003,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a date dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -3132,11 +3132,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -3261,11 +3261,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -3390,11 +3390,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -3519,11 +3519,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -3648,11 +3648,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -3777,11 +3777,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -3906,11 +3906,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4035,11 +4035,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4164,11 +4164,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4293,11 +4293,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4422,11 +4422,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4551,11 +4551,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4680,11 +4680,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4809,11 +4809,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -4938,37 +4938,37 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
   */
   readonly city?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCity;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
   */
   readonly country?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCountry;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
   */
   readonly county?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressCounty;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
   */
   readonly postalCode?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
   */
   readonly province?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressProvince;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
   */
   readonly state?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressState;
 }
@@ -5209,11 +5209,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -5338,11 +5338,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -5467,11 +5467,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -5596,11 +5596,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -5725,11 +5725,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -5854,11 +5854,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a profile type dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -5983,11 +5983,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -6112,11 +6112,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -6241,11 +6241,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -6370,11 +6370,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -6499,11 +6499,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -6628,11 +6628,11 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * The type of segment dimension to use for a string dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
   */
   readonly dimensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}
   */
   readonly values?: string[];
 }
@@ -6757,37 +6757,37 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#city CustomerprofilesSegmentDefinition#city}
   */
   readonly city?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCity;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#country CustomerprofilesSegmentDefinition#country}
   */
   readonly country?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCountry;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#county CustomerprofilesSegmentDefinition#county}
   */
   readonly county?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressCounty;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#postal_code CustomerprofilesSegmentDefinition#postal_code}
   */
   readonly postalCode?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressPostalCode;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#province CustomerprofilesSegmentDefinition#province}
   */
   readonly province?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressProvince;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#state CustomerprofilesSegmentDefinition#state}
   */
   readonly state?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddressState;
 }
@@ -7028,133 +7028,133 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsP
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#account_number CustomerprofilesSegmentDefinition#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#account_number CustomerprofilesSegmentDefinition#account_number}
   */
   readonly accountNumber?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAccountNumber;
   /**
   * Specifies criteria for a segment using extended-length string values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#additional_information CustomerprofilesSegmentDefinition#additional_information}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#additional_information CustomerprofilesSegmentDefinition#additional_information}
   */
   readonly additionalInformation?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAdditionalInformation;
   /**
   * The address based criteria for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#address CustomerprofilesSegmentDefinition#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#address CustomerprofilesSegmentDefinition#address}
   */
   readonly address?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAddress;
   /**
   * One or more custom attributes to use as criteria for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
   */
   readonly attributes?: { [key: string]: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesAttributes } | cdktn.IResolvable;
   /**
   * The address based criteria for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#billing_address CustomerprofilesSegmentDefinition#billing_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#billing_address CustomerprofilesSegmentDefinition#billing_address}
   */
   readonly billingAddress?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBillingAddress;
   /**
   * Specifies date based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#birth_date CustomerprofilesSegmentDefinition#birth_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#birth_date CustomerprofilesSegmentDefinition#birth_date}
   */
   readonly birthDate?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBirthDate;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#business_email_address CustomerprofilesSegmentDefinition#business_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#business_email_address CustomerprofilesSegmentDefinition#business_email_address}
   */
   readonly businessEmailAddress?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessEmailAddress;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#business_name CustomerprofilesSegmentDefinition#business_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#business_name CustomerprofilesSegmentDefinition#business_name}
   */
   readonly businessName?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessName;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#business_phone_number CustomerprofilesSegmentDefinition#business_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#business_phone_number CustomerprofilesSegmentDefinition#business_phone_number}
   */
   readonly businessPhoneNumber?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesBusinessPhoneNumber;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#email_address CustomerprofilesSegmentDefinition#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#email_address CustomerprofilesSegmentDefinition#email_address}
   */
   readonly emailAddress?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesEmailAddress;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#first_name CustomerprofilesSegmentDefinition#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#first_name CustomerprofilesSegmentDefinition#first_name}
   */
   readonly firstName?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesFirstName;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#gender_string CustomerprofilesSegmentDefinition#gender_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#gender_string CustomerprofilesSegmentDefinition#gender_string}
   */
   readonly genderString?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesGenderString;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#home_phone_number CustomerprofilesSegmentDefinition#home_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#home_phone_number CustomerprofilesSegmentDefinition#home_phone_number}
   */
   readonly homePhoneNumber?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesHomePhoneNumber;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#last_name CustomerprofilesSegmentDefinition#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#last_name CustomerprofilesSegmentDefinition#last_name}
   */
   readonly lastName?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesLastName;
   /**
   * The address based criteria for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#mailing_address CustomerprofilesSegmentDefinition#mailing_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#mailing_address CustomerprofilesSegmentDefinition#mailing_address}
   */
   readonly mailingAddress?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddress;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#middle_name CustomerprofilesSegmentDefinition#middle_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#middle_name CustomerprofilesSegmentDefinition#middle_name}
   */
   readonly middleName?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMiddleName;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#mobile_phone_number CustomerprofilesSegmentDefinition#mobile_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#mobile_phone_number CustomerprofilesSegmentDefinition#mobile_phone_number}
   */
   readonly mobilePhoneNumber?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMobilePhoneNumber;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#party_type_string CustomerprofilesSegmentDefinition#party_type_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#party_type_string CustomerprofilesSegmentDefinition#party_type_string}
   */
   readonly partyTypeString?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPartyTypeString;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#personal_email_address CustomerprofilesSegmentDefinition#personal_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#personal_email_address CustomerprofilesSegmentDefinition#personal_email_address}
   */
   readonly personalEmailAddress?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPersonalEmailAddress;
   /**
   * Specifies profile based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#phone_number CustomerprofilesSegmentDefinition#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#phone_number CustomerprofilesSegmentDefinition#phone_number}
   */
   readonly phoneNumber?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesPhoneNumber;
   /**
   * Specifies profile type based criteria for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#profile_type CustomerprofilesSegmentDefinition#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#profile_type CustomerprofilesSegmentDefinition#profile_type}
   */
   readonly profileType?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesProfileType;
   /**
   * The address based criteria for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#shipping_address CustomerprofilesSegmentDefinition#shipping_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#shipping_address CustomerprofilesSegmentDefinition#shipping_address}
   */
   readonly shippingAddress?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesShippingAddress;
 }
@@ -7859,13 +7859,13 @@ export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions 
   /**
   * One or more calculated attributes to use as criteria for the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#calculated_attributes CustomerprofilesSegmentDefinition#calculated_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#calculated_attributes CustomerprofilesSegmentDefinition#calculated_attributes}
   */
   readonly calculatedAttributes?: { [key: string]: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes } | cdktn.IResolvable;
   /**
   * Specifies the dimension settings within profile attributes for a segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#profile_attributes CustomerprofilesSegmentDefinition#profile_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#profile_attributes CustomerprofilesSegmentDefinition#profile_attributes}
   */
   readonly profileAttributes?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributes;
 }
@@ -8010,7 +8010,7 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsList 
 }
 export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
   */
   readonly segmentDefinitionName?: string;
 }
@@ -8126,23 +8126,23 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegmentsL
 }
 export interface CustomerprofilesSegmentDefinitionSegmentGroupsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#dimensions CustomerprofilesSegmentDefinition#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#dimensions CustomerprofilesSegmentDefinition#dimensions}
   */
   readonly dimensions?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#source_segments CustomerprofilesSegmentDefinition#source_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#source_segments CustomerprofilesSegmentDefinition#source_segments}
   */
   readonly sourceSegments?: CustomerprofilesSegmentDefinitionSegmentGroupsGroupsSourceSegments[] | cdktn.IResolvable;
   /**
   * Specifies the operator on how to handle multiple groups within the same segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#source_type CustomerprofilesSegmentDefinition#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#source_type CustomerprofilesSegmentDefinition#source_type}
   */
   readonly sourceType?: string;
   /**
   * Specifies the operator on how to handle multiple groups within the same segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
   */
   readonly type?: string;
 }
@@ -8345,13 +8345,13 @@ export class CustomerprofilesSegmentDefinitionSegmentGroupsGroupsList extends cd
 }
 export interface CustomerprofilesSegmentDefinitionSegmentGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#groups CustomerprofilesSegmentDefinition#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#groups CustomerprofilesSegmentDefinition#groups}
   */
   readonly groups?: CustomerprofilesSegmentDefinitionSegmentGroupsGroups[] | cdktn.IResolvable;
   /**
   * Specifies the operator on how to handle multiple groups within the same segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#include CustomerprofilesSegmentDefinition#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#include CustomerprofilesSegmentDefinition#include}
   */
   readonly include?: string;
 }
@@ -8476,25 +8476,25 @@ export interface CustomerprofilesSegmentDefinitionSegmentSortAttributes {
   /**
   * The data type of the sort attribute (e.g., string, number, date).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#data_type CustomerprofilesSegmentDefinition#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#data_type CustomerprofilesSegmentDefinition#data_type}
   */
   readonly dataType?: string;
   /**
   * The name of the attribute to sort by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#name CustomerprofilesSegmentDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#name CustomerprofilesSegmentDefinition#name}
   */
   readonly name?: string;
   /**
   * The sort order for the attribute (ascending or descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#order CustomerprofilesSegmentDefinition#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#order CustomerprofilesSegmentDefinition#order}
   */
   readonly order?: string;
   /**
   * The type of attribute (e.g., profile, calculated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#type CustomerprofilesSegmentDefinition#type}
   */
   readonly type?: string;
 }
@@ -8699,7 +8699,7 @@ export interface CustomerprofilesSegmentDefinitionSegmentSort {
   /**
   * A list of attributes used to sort the segments and their ordering preferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
   */
   readonly attributes?: CustomerprofilesSegmentDefinitionSegmentSortAttributes[] | cdktn.IResolvable;
 }
@@ -8795,13 +8795,13 @@ export interface CustomerprofilesSegmentDefinitionTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#key CustomerprofilesSegmentDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#key CustomerprofilesSegmentDefinition#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#value CustomerprofilesSegmentDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#value CustomerprofilesSegmentDefinition#value}
   */
   readonly value?: string;
 }
@@ -8946,7 +8946,7 @@ export class CustomerprofilesSegmentDefinitionTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}
 */
 export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
 
@@ -8962,7 +8962,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CustomerprofilesSegmentDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerprofilesSegmentDefinition to import
-  * @param importFromId The id of the existing CustomerprofilesSegmentDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerprofilesSegmentDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerprofilesSegmentDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -8974,7 +8974,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8985,7 +8985,7 @@ export class CustomerprofilesSegmentDefinition extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_customerprofiles_segment_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

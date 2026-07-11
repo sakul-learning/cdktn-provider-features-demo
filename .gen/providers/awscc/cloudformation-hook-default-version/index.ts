@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_default_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,25 +12,25 @@ export interface CloudformationHookDefaultVersionConfig extends cdktn.TerraformM
   * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version#type_name CloudformationHookDefaultVersion#type_name}
   */
   readonly typeName?: string;
   /**
   * The Amazon Resource Name (ARN) of the type version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version#type_version_arn CloudformationHookDefaultVersion#type_version_arn}
   */
   readonly typeVersionArn?: string;
   /**
   * The ID of an existing version of the hook to set as the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version#version_id CloudformationHookDefaultVersion#version_id}
   */
   readonly versionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}
 */
 export class CloudformationHookDefaultVersion extends cdktn.TerraformResource {
 
@@ -46,7 +46,7 @@ export class CloudformationHookDefaultVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationHookDefaultVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationHookDefaultVersion to import
-  * @param importFromId The id of the existing CloudformationHookDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_default_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationHookDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationHookDefaultVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -58,7 +58,7 @@ export class CloudformationHookDefaultVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,7 @@ export class CloudformationHookDefaultVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_hook_default_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

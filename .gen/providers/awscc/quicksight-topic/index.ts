@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,51 +8,51 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightTopicConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#aws_account_id QuicksightTopic#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#aws_account_id QuicksightTopic#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
   * Model for configuration of a Topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#config_options QuicksightTopic#config_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#config_options QuicksightTopic#config_options}
   */
   readonly configOptions?: QuicksightTopicConfigOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#custom_instructions QuicksightTopic#custom_instructions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#custom_instructions QuicksightTopic#custom_instructions}
   */
   readonly customInstructions?: QuicksightTopicCustomInstructions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#data_sets QuicksightTopic#data_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#data_sets QuicksightTopic#data_sets}
   */
   readonly dataSets?: QuicksightTopicDataSets[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#description QuicksightTopic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#description QuicksightTopic#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#folder_arns QuicksightTopic#folder_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#folder_arns QuicksightTopic#folder_arns}
   */
   readonly folderArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#name QuicksightTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#name QuicksightTopic#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#tags QuicksightTopic#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#tags QuicksightTopic#tags}
   */
   readonly tags?: QuicksightTopicTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#topic_id QuicksightTopic#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#topic_id QuicksightTopic#topic_id}
   */
   readonly topicId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#user_experience_version QuicksightTopic#user_experience_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#user_experience_version QuicksightTopic#user_experience_version}
   */
   readonly userExperienceVersion?: string;
 }
 export interface QuicksightTopicConfigOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#q_business_insights_enabled QuicksightTopic#q_business_insights_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#q_business_insights_enabled QuicksightTopic#q_business_insights_enabled}
   */
   readonly qBusinessInsightsEnabled?: boolean | cdktn.IResolvable;
 }
@@ -146,7 +146,7 @@ export class QuicksightTopicConfigOptionsOutputReference extends cdktn.ComplexOb
 }
 export interface QuicksightTopicCustomInstructions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#custom_instructions_string QuicksightTopic#custom_instructions_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#custom_instructions_string QuicksightTopic#custom_instructions_string}
   */
   readonly customInstructionsString?: string;
 }
@@ -240,11 +240,11 @@ export class QuicksightTopicCustomInstructionsOutputReference extends cdktn.Comp
 }
 export interface QuicksightTopicDataSetsCalculatedFieldsCellValueSynonyms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#cell_value QuicksightTopic#cell_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#cell_value QuicksightTopic#cell_value}
   */
   readonly cellValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#synonyms QuicksightTopic#synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#synonyms QuicksightTopic#synonyms}
   */
   readonly synonyms?: string[];
 }
@@ -389,15 +389,15 @@ export class QuicksightTopicDataSetsCalculatedFieldsCellValueSynonymsList extend
 }
 export interface QuicksightTopicDataSetsCalculatedFieldsComparativeOrder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#specifed_order QuicksightTopic#specifed_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#specifed_order QuicksightTopic#specifed_order}
   */
   readonly specifedOrder?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#treat_undefined_specified_values QuicksightTopic#treat_undefined_specified_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#treat_undefined_specified_values QuicksightTopic#treat_undefined_specified_values}
   */
   readonly treatUndefinedSpecifiedValues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#use_ordering QuicksightTopic#use_ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#use_ordering QuicksightTopic#use_ordering}
   */
   readonly useOrdering?: string;
 }
@@ -549,11 +549,11 @@ export class QuicksightTopicDataSetsCalculatedFieldsComparativeOrderOutputRefere
 }
 export interface QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsNegativeFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
   */
   readonly suffix?: string;
 }
@@ -676,51 +676,51 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
 }
 export interface QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#blank_cell_format QuicksightTopic#blank_cell_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#blank_cell_format QuicksightTopic#blank_cell_format}
   */
   readonly blankCellFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#currency_symbol QuicksightTopic#currency_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#currency_symbol QuicksightTopic#currency_symbol}
   */
   readonly currencySymbol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#date_format QuicksightTopic#date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#date_format QuicksightTopic#date_format}
   */
   readonly dateFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#decimal_separator QuicksightTopic#decimal_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#decimal_separator QuicksightTopic#decimal_separator}
   */
   readonly decimalSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#fraction_digits QuicksightTopic#fraction_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#fraction_digits QuicksightTopic#fraction_digits}
   */
   readonly fractionDigits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#grouping_separator QuicksightTopic#grouping_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#grouping_separator QuicksightTopic#grouping_separator}
   */
   readonly groupingSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#negative_format QuicksightTopic#negative_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#negative_format QuicksightTopic#negative_format}
   */
   readonly negativeFormat?: QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptionsNegativeFormat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
   */
   readonly suffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#unit_scaler QuicksightTopic#unit_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#unit_scaler QuicksightTopic#unit_scaler}
   */
   readonly unitScaler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#use_blank_cell_format QuicksightTopic#use_blank_cell_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#use_blank_cell_format QuicksightTopic#use_blank_cell_format}
   */
   readonly useBlankCellFormat?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#use_grouping QuicksightTopic#use_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#use_grouping QuicksightTopic#use_grouping}
   */
   readonly useGrouping?: boolean | cdktn.IResolvable;
 }
@@ -1133,11 +1133,11 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayForm
 }
 export interface QuicksightTopicDataSetsCalculatedFieldsDefaultFormatting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#display_format QuicksightTopic#display_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#display_format QuicksightTopic#display_format}
   */
   readonly displayFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#display_format_options QuicksightTopic#display_format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#display_format_options QuicksightTopic#display_format_options}
   */
   readonly displayFormatOptions?: QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptions;
 }
@@ -1260,31 +1260,31 @@ export class QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingOutputRefer
 }
 export interface QuicksightTopicDataSetsCalculatedFieldsSemanticType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#falsey_cell_value QuicksightTopic#falsey_cell_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#falsey_cell_value QuicksightTopic#falsey_cell_value}
   */
   readonly falseyCellValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#falsey_cell_value_synonyms QuicksightTopic#falsey_cell_value_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#falsey_cell_value_synonyms QuicksightTopic#falsey_cell_value_synonyms}
   */
   readonly falseyCellValueSynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#sub_type_name QuicksightTopic#sub_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#sub_type_name QuicksightTopic#sub_type_name}
   */
   readonly subTypeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#truthy_cell_value QuicksightTopic#truthy_cell_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#truthy_cell_value QuicksightTopic#truthy_cell_value}
   */
   readonly truthyCellValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#truthy_cell_value_synonyms QuicksightTopic#truthy_cell_value_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#truthy_cell_value_synonyms QuicksightTopic#truthy_cell_value_synonyms}
   */
   readonly truthyCellValueSynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#type_name QuicksightTopic#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#type_name QuicksightTopic#type_name}
   */
   readonly typeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#type_parameters QuicksightTopic#type_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#type_parameters QuicksightTopic#type_parameters}
   */
   readonly typeParameters?: { [key: string]: string };
 }
@@ -1552,71 +1552,71 @@ export class QuicksightTopicDataSetsCalculatedFieldsSemanticTypeOutputReference 
 }
 export interface QuicksightTopicDataSetsCalculatedFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#allowed_aggregations QuicksightTopic#allowed_aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#allowed_aggregations QuicksightTopic#allowed_aggregations}
   */
   readonly allowedAggregations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#calculated_field_description QuicksightTopic#calculated_field_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#calculated_field_description QuicksightTopic#calculated_field_description}
   */
   readonly calculatedFieldDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#calculated_field_name QuicksightTopic#calculated_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#calculated_field_name QuicksightTopic#calculated_field_name}
   */
   readonly calculatedFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#calculated_field_synonyms QuicksightTopic#calculated_field_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#calculated_field_synonyms QuicksightTopic#calculated_field_synonyms}
   */
   readonly calculatedFieldSynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#cell_value_synonyms QuicksightTopic#cell_value_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#cell_value_synonyms QuicksightTopic#cell_value_synonyms}
   */
   readonly cellValueSynonyms?: QuicksightTopicDataSetsCalculatedFieldsCellValueSynonyms[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#column_data_role QuicksightTopic#column_data_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#column_data_role QuicksightTopic#column_data_role}
   */
   readonly columnDataRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#comparative_order QuicksightTopic#comparative_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#comparative_order QuicksightTopic#comparative_order}
   */
   readonly comparativeOrder?: QuicksightTopicDataSetsCalculatedFieldsComparativeOrder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#default_formatting QuicksightTopic#default_formatting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#default_formatting QuicksightTopic#default_formatting}
   */
   readonly defaultFormatting?: QuicksightTopicDataSetsCalculatedFieldsDefaultFormatting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#disable_indexing QuicksightTopic#disable_indexing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#disable_indexing QuicksightTopic#disable_indexing}
   */
   readonly disableIndexing?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#expression QuicksightTopic#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#expression QuicksightTopic#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#is_included_in_topic QuicksightTopic#is_included_in_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#is_included_in_topic QuicksightTopic#is_included_in_topic}
   */
   readonly isIncludedInTopic?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#never_aggregate_in_filter QuicksightTopic#never_aggregate_in_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#never_aggregate_in_filter QuicksightTopic#never_aggregate_in_filter}
   */
   readonly neverAggregateInFilter?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#non_additive QuicksightTopic#non_additive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#non_additive QuicksightTopic#non_additive}
   */
   readonly nonAdditive?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#not_allowed_aggregations QuicksightTopic#not_allowed_aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#not_allowed_aggregations QuicksightTopic#not_allowed_aggregations}
   */
   readonly notAllowedAggregations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#semantic_type QuicksightTopic#semantic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#semantic_type QuicksightTopic#semantic_type}
   */
   readonly semanticType?: QuicksightTopicDataSetsCalculatedFieldsSemanticType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#time_granularity QuicksightTopic#time_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#time_granularity QuicksightTopic#time_granularity}
   */
   readonly timeGranularity?: string;
 }
@@ -2196,11 +2196,11 @@ export class QuicksightTopicDataSetsCalculatedFieldsList extends cdktn.ComplexLi
 }
 export interface QuicksightTopicDataSetsColumnsCellValueSynonyms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#cell_value QuicksightTopic#cell_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#cell_value QuicksightTopic#cell_value}
   */
   readonly cellValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#synonyms QuicksightTopic#synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#synonyms QuicksightTopic#synonyms}
   */
   readonly synonyms?: string[];
 }
@@ -2345,15 +2345,15 @@ export class QuicksightTopicDataSetsColumnsCellValueSynonymsList extends cdktn.C
 }
 export interface QuicksightTopicDataSetsColumnsComparativeOrder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#specifed_order QuicksightTopic#specifed_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#specifed_order QuicksightTopic#specifed_order}
   */
   readonly specifedOrder?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#treat_undefined_specified_values QuicksightTopic#treat_undefined_specified_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#treat_undefined_specified_values QuicksightTopic#treat_undefined_specified_values}
   */
   readonly treatUndefinedSpecifiedValues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#use_ordering QuicksightTopic#use_ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#use_ordering QuicksightTopic#use_ordering}
   */
   readonly useOrdering?: string;
 }
@@ -2505,11 +2505,11 @@ export class QuicksightTopicDataSetsColumnsComparativeOrderOutputReference exten
 }
 export interface QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsNegativeFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
   */
   readonly suffix?: string;
 }
@@ -2632,51 +2632,51 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
 }
 export interface QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#blank_cell_format QuicksightTopic#blank_cell_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#blank_cell_format QuicksightTopic#blank_cell_format}
   */
   readonly blankCellFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#currency_symbol QuicksightTopic#currency_symbol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#currency_symbol QuicksightTopic#currency_symbol}
   */
   readonly currencySymbol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#date_format QuicksightTopic#date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#date_format QuicksightTopic#date_format}
   */
   readonly dateFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#decimal_separator QuicksightTopic#decimal_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#decimal_separator QuicksightTopic#decimal_separator}
   */
   readonly decimalSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#fraction_digits QuicksightTopic#fraction_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#fraction_digits QuicksightTopic#fraction_digits}
   */
   readonly fractionDigits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#grouping_separator QuicksightTopic#grouping_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#grouping_separator QuicksightTopic#grouping_separator}
   */
   readonly groupingSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#negative_format QuicksightTopic#negative_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#negative_format QuicksightTopic#negative_format}
   */
   readonly negativeFormat?: QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptionsNegativeFormat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#prefix QuicksightTopic#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#suffix QuicksightTopic#suffix}
   */
   readonly suffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#unit_scaler QuicksightTopic#unit_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#unit_scaler QuicksightTopic#unit_scaler}
   */
   readonly unitScaler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#use_blank_cell_format QuicksightTopic#use_blank_cell_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#use_blank_cell_format QuicksightTopic#use_blank_cell_format}
   */
   readonly useBlankCellFormat?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#use_grouping QuicksightTopic#use_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#use_grouping QuicksightTopic#use_grouping}
   */
   readonly useGrouping?: boolean | cdktn.IResolvable;
 }
@@ -3089,11 +3089,11 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions
 }
 export interface QuicksightTopicDataSetsColumnsDefaultFormatting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#display_format QuicksightTopic#display_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#display_format QuicksightTopic#display_format}
   */
   readonly displayFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#display_format_options QuicksightTopic#display_format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#display_format_options QuicksightTopic#display_format_options}
   */
   readonly displayFormatOptions?: QuicksightTopicDataSetsColumnsDefaultFormattingDisplayFormatOptions;
 }
@@ -3216,31 +3216,31 @@ export class QuicksightTopicDataSetsColumnsDefaultFormattingOutputReference exte
 }
 export interface QuicksightTopicDataSetsColumnsSemanticType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#falsey_cell_value QuicksightTopic#falsey_cell_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#falsey_cell_value QuicksightTopic#falsey_cell_value}
   */
   readonly falseyCellValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#falsey_cell_value_synonyms QuicksightTopic#falsey_cell_value_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#falsey_cell_value_synonyms QuicksightTopic#falsey_cell_value_synonyms}
   */
   readonly falseyCellValueSynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#sub_type_name QuicksightTopic#sub_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#sub_type_name QuicksightTopic#sub_type_name}
   */
   readonly subTypeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#truthy_cell_value QuicksightTopic#truthy_cell_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#truthy_cell_value QuicksightTopic#truthy_cell_value}
   */
   readonly truthyCellValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#truthy_cell_value_synonyms QuicksightTopic#truthy_cell_value_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#truthy_cell_value_synonyms QuicksightTopic#truthy_cell_value_synonyms}
   */
   readonly truthyCellValueSynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#type_name QuicksightTopic#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#type_name QuicksightTopic#type_name}
   */
   readonly typeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#type_parameters QuicksightTopic#type_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#type_parameters QuicksightTopic#type_parameters}
   */
   readonly typeParameters?: { [key: string]: string };
 }
@@ -3508,71 +3508,71 @@ export class QuicksightTopicDataSetsColumnsSemanticTypeOutputReference extends c
 }
 export interface QuicksightTopicDataSetsColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#allowed_aggregations QuicksightTopic#allowed_aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#allowed_aggregations QuicksightTopic#allowed_aggregations}
   */
   readonly allowedAggregations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#cell_value_synonyms QuicksightTopic#cell_value_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#cell_value_synonyms QuicksightTopic#cell_value_synonyms}
   */
   readonly cellValueSynonyms?: QuicksightTopicDataSetsColumnsCellValueSynonyms[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#column_data_role QuicksightTopic#column_data_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#column_data_role QuicksightTopic#column_data_role}
   */
   readonly columnDataRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#column_description QuicksightTopic#column_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#column_description QuicksightTopic#column_description}
   */
   readonly columnDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#column_friendly_name QuicksightTopic#column_friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#column_friendly_name QuicksightTopic#column_friendly_name}
   */
   readonly columnFriendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#column_name QuicksightTopic#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#column_name QuicksightTopic#column_name}
   */
   readonly columnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#column_synonyms QuicksightTopic#column_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#column_synonyms QuicksightTopic#column_synonyms}
   */
   readonly columnSynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#comparative_order QuicksightTopic#comparative_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#comparative_order QuicksightTopic#comparative_order}
   */
   readonly comparativeOrder?: QuicksightTopicDataSetsColumnsComparativeOrder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#default_formatting QuicksightTopic#default_formatting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#default_formatting QuicksightTopic#default_formatting}
   */
   readonly defaultFormatting?: QuicksightTopicDataSetsColumnsDefaultFormatting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#disable_indexing QuicksightTopic#disable_indexing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#disable_indexing QuicksightTopic#disable_indexing}
   */
   readonly disableIndexing?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#is_included_in_topic QuicksightTopic#is_included_in_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#is_included_in_topic QuicksightTopic#is_included_in_topic}
   */
   readonly isIncludedInTopic?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#never_aggregate_in_filter QuicksightTopic#never_aggregate_in_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#never_aggregate_in_filter QuicksightTopic#never_aggregate_in_filter}
   */
   readonly neverAggregateInFilter?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#non_additive QuicksightTopic#non_additive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#non_additive QuicksightTopic#non_additive}
   */
   readonly nonAdditive?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#not_allowed_aggregations QuicksightTopic#not_allowed_aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#not_allowed_aggregations QuicksightTopic#not_allowed_aggregations}
   */
   readonly notAllowedAggregations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#semantic_type QuicksightTopic#semantic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#semantic_type QuicksightTopic#semantic_type}
   */
   readonly semanticType?: QuicksightTopicDataSetsColumnsSemanticType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#time_granularity QuicksightTopic#time_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#time_granularity QuicksightTopic#time_granularity}
   */
   readonly timeGranularity?: string;
 }
@@ -4152,11 +4152,11 @@ export class QuicksightTopicDataSetsColumnsList extends cdktn.ComplexList {
 }
 export interface QuicksightTopicDataSetsDataAggregation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#dataset_row_date_granularity QuicksightTopic#dataset_row_date_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#dataset_row_date_granularity QuicksightTopic#dataset_row_date_granularity}
   */
   readonly datasetRowDateGranularity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#default_date_column_name QuicksightTopic#default_date_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#default_date_column_name QuicksightTopic#default_date_column_name}
   */
   readonly defaultDateColumnName?: string;
 }
@@ -4279,7 +4279,7 @@ export class QuicksightTopicDataSetsDataAggregationOutputReference extends cdktn
 }
 export interface QuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#value_list QuicksightTopic#value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#value_list QuicksightTopic#value_list}
   */
   readonly valueList?: string[];
 }
@@ -4373,15 +4373,15 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConst
 }
 export interface QuicksightTopicDataSetsFiltersCategoryFilterConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#collective_constant QuicksightTopic#collective_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#collective_constant QuicksightTopic#collective_constant}
   */
   readonly collectiveConstant?: QuicksightTopicDataSetsFiltersCategoryFilterConstantCollectiveConstant;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
   */
   readonly constantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#singular_constant QuicksightTopic#singular_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#singular_constant QuicksightTopic#singular_constant}
   */
   readonly singularConstant?: string;
 }
@@ -4533,19 +4533,19 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterConstantOutputReference
 }
 export interface QuicksightTopicDataSetsFiltersCategoryFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#category_filter_function QuicksightTopic#category_filter_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#category_filter_function QuicksightTopic#category_filter_function}
   */
   readonly categoryFilterFunction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#category_filter_type QuicksightTopic#category_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#category_filter_type QuicksightTopic#category_filter_type}
   */
   readonly categoryFilterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
   */
   readonly constant?: QuicksightTopicDataSetsFiltersCategoryFilterConstant;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#inverse QuicksightTopic#inverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#inverse QuicksightTopic#inverse}
   */
   readonly inverse?: boolean | cdktn.IResolvable;
 }
@@ -4726,11 +4726,11 @@ export class QuicksightTopicDataSetsFiltersCategoryFilterOutputReference extends
 }
 export interface QuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#maximum QuicksightTopic#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#maximum QuicksightTopic#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#minimum QuicksightTopic#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#minimum QuicksightTopic#minimum}
   */
   readonly minimum?: string;
 }
@@ -4853,11 +4853,11 @@ export class QuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstantO
 }
 export interface QuicksightTopicDataSetsFiltersDateRangeFilterConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
   */
   readonly constantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#range_constant QuicksightTopic#range_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#range_constant QuicksightTopic#range_constant}
   */
   readonly rangeConstant?: QuicksightTopicDataSetsFiltersDateRangeFilterConstantRangeConstant;
 }
@@ -4980,11 +4980,11 @@ export class QuicksightTopicDataSetsFiltersDateRangeFilterConstantOutputReferenc
 }
 export interface QuicksightTopicDataSetsFiltersDateRangeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
   */
   readonly constant?: QuicksightTopicDataSetsFiltersDateRangeFilterConstant;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#inclusive QuicksightTopic#inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#inclusive QuicksightTopic#inclusive}
   */
   readonly inclusive?: boolean | cdktn.IResolvable;
 }
@@ -5107,11 +5107,11 @@ export class QuicksightTopicDataSetsFiltersDateRangeFilterOutputReference extend
 }
 export interface QuicksightTopicDataSetsFiltersNumericEqualityFilterConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
   */
   readonly constantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#singular_constant QuicksightTopic#singular_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#singular_constant QuicksightTopic#singular_constant}
   */
   readonly singularConstant?: string;
 }
@@ -5234,11 +5234,11 @@ export class QuicksightTopicDataSetsFiltersNumericEqualityFilterConstantOutputRe
 }
 export interface QuicksightTopicDataSetsFiltersNumericEqualityFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
   */
   readonly constant?: QuicksightTopicDataSetsFiltersNumericEqualityFilterConstant;
 }
@@ -5361,11 +5361,11 @@ export class QuicksightTopicDataSetsFiltersNumericEqualityFilterOutputReference 
 }
 export interface QuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#maximum QuicksightTopic#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#maximum QuicksightTopic#maximum}
   */
   readonly maximum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#minimum QuicksightTopic#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#minimum QuicksightTopic#minimum}
   */
   readonly minimum?: string;
 }
@@ -5488,11 +5488,11 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConsta
 }
 export interface QuicksightTopicDataSetsFiltersNumericRangeFilterConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
   */
   readonly constantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#range_constant QuicksightTopic#range_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#range_constant QuicksightTopic#range_constant}
   */
   readonly rangeConstant?: QuicksightTopicDataSetsFiltersNumericRangeFilterConstantRangeConstant;
 }
@@ -5615,15 +5615,15 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterConstantOutputRefer
 }
 export interface QuicksightTopicDataSetsFiltersNumericRangeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
   */
   readonly constant?: QuicksightTopicDataSetsFiltersNumericRangeFilterConstant;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#inclusive QuicksightTopic#inclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#inclusive QuicksightTopic#inclusive}
   */
   readonly inclusive?: boolean | cdktn.IResolvable;
 }
@@ -5775,11 +5775,11 @@ export class QuicksightTopicDataSetsFiltersNumericRangeFilterOutputReference ext
 }
 export interface QuicksightTopicDataSetsFiltersRelativeDateFilterConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant_type QuicksightTopic#constant_type}
   */
   readonly constantType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#singular_constant QuicksightTopic#singular_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#singular_constant QuicksightTopic#singular_constant}
   */
   readonly singularConstant?: string;
 }
@@ -5902,15 +5902,15 @@ export class QuicksightTopicDataSetsFiltersRelativeDateFilterConstantOutputRefer
 }
 export interface QuicksightTopicDataSetsFiltersRelativeDateFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#constant QuicksightTopic#constant}
   */
   readonly constant?: QuicksightTopicDataSetsFiltersRelativeDateFilterConstant;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#relative_date_filter_function QuicksightTopic#relative_date_filter_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#relative_date_filter_function QuicksightTopic#relative_date_filter_function}
   */
   readonly relativeDateFilterFunction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#time_granularity QuicksightTopic#time_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#time_granularity QuicksightTopic#time_granularity}
   */
   readonly timeGranularity?: string;
 }
@@ -6062,47 +6062,47 @@ export class QuicksightTopicDataSetsFiltersRelativeDateFilterOutputReference ext
 }
 export interface QuicksightTopicDataSetsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#category_filter QuicksightTopic#category_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#category_filter QuicksightTopic#category_filter}
   */
   readonly categoryFilter?: QuicksightTopicDataSetsFiltersCategoryFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#date_range_filter QuicksightTopic#date_range_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#date_range_filter QuicksightTopic#date_range_filter}
   */
   readonly dateRangeFilter?: QuicksightTopicDataSetsFiltersDateRangeFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#filter_class QuicksightTopic#filter_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#filter_class QuicksightTopic#filter_class}
   */
   readonly filterClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#filter_description QuicksightTopic#filter_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#filter_description QuicksightTopic#filter_description}
   */
   readonly filterDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#filter_name QuicksightTopic#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#filter_name QuicksightTopic#filter_name}
   */
   readonly filterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#filter_synonyms QuicksightTopic#filter_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#filter_synonyms QuicksightTopic#filter_synonyms}
   */
   readonly filterSynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#filter_type QuicksightTopic#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#filter_type QuicksightTopic#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#numeric_equality_filter QuicksightTopic#numeric_equality_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#numeric_equality_filter QuicksightTopic#numeric_equality_filter}
   */
   readonly numericEqualityFilter?: QuicksightTopicDataSetsFiltersNumericEqualityFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#numeric_range_filter QuicksightTopic#numeric_range_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#numeric_range_filter QuicksightTopic#numeric_range_filter}
   */
   readonly numericRangeFilter?: QuicksightTopicDataSetsFiltersNumericRangeFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#operand_field_name QuicksightTopic#operand_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#operand_field_name QuicksightTopic#operand_field_name}
   */
   readonly operandFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#relative_date_filter QuicksightTopic#relative_date_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#relative_date_filter QuicksightTopic#relative_date_filter}
   */
   readonly relativeDateFilter?: QuicksightTopicDataSetsFiltersRelativeDateFilter;
 }
@@ -6508,11 +6508,11 @@ export class QuicksightTopicDataSetsFiltersList extends cdktn.ComplexList {
 }
 export interface QuicksightTopicDataSetsNamedEntitiesDefinitionMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#aggregation QuicksightTopic#aggregation}
   */
   readonly aggregation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#aggregation_function_parameters QuicksightTopic#aggregation_function_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#aggregation_function_parameters QuicksightTopic#aggregation_function_parameters}
   */
   readonly aggregationFunctionParameters?: { [key: string]: string };
 }
@@ -6635,23 +6635,23 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionMetricOutputReference
 }
 export interface QuicksightTopicDataSetsNamedEntitiesDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#field_name QuicksightTopic#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#field_name QuicksightTopic#field_name}
   */
   readonly fieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#metric QuicksightTopic#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#metric QuicksightTopic#metric}
   */
   readonly metric?: QuicksightTopicDataSetsNamedEntitiesDefinitionMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#property_name QuicksightTopic#property_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#property_name QuicksightTopic#property_name}
   */
   readonly propertyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#property_role QuicksightTopic#property_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#property_role QuicksightTopic#property_role}
   */
   readonly propertyRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#property_usage QuicksightTopic#property_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#property_usage QuicksightTopic#property_usage}
   */
   readonly propertyUsage?: string;
 }
@@ -6883,15 +6883,15 @@ export class QuicksightTopicDataSetsNamedEntitiesDefinitionList extends cdktn.Co
 }
 export interface QuicksightTopicDataSetsNamedEntitiesSemanticEntityType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#sub_type_name QuicksightTopic#sub_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#sub_type_name QuicksightTopic#sub_type_name}
   */
   readonly subTypeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#type_name QuicksightTopic#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#type_name QuicksightTopic#type_name}
   */
   readonly typeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#type_parameters QuicksightTopic#type_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#type_parameters QuicksightTopic#type_parameters}
   */
   readonly typeParameters?: { [key: string]: string };
 }
@@ -7043,23 +7043,23 @@ export class QuicksightTopicDataSetsNamedEntitiesSemanticEntityTypeOutputReferen
 }
 export interface QuicksightTopicDataSetsNamedEntities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#definition QuicksightTopic#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#definition QuicksightTopic#definition}
   */
   readonly definition?: QuicksightTopicDataSetsNamedEntitiesDefinition[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#entity_description QuicksightTopic#entity_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#entity_description QuicksightTopic#entity_description}
   */
   readonly entityDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#entity_name QuicksightTopic#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#entity_name QuicksightTopic#entity_name}
   */
   readonly entityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#entity_synonyms QuicksightTopic#entity_synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#entity_synonyms QuicksightTopic#entity_synonyms}
   */
   readonly entitySynonyms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#semantic_entity_type QuicksightTopic#semantic_entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#semantic_entity_type QuicksightTopic#semantic_entity_type}
   */
   readonly semanticEntityType?: QuicksightTopicDataSetsNamedEntitiesSemanticEntityType;
 }
@@ -7291,35 +7291,35 @@ export class QuicksightTopicDataSetsNamedEntitiesList extends cdktn.ComplexList 
 }
 export interface QuicksightTopicDataSets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#calculated_fields QuicksightTopic#calculated_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#calculated_fields QuicksightTopic#calculated_fields}
   */
   readonly calculatedFields?: QuicksightTopicDataSetsCalculatedFields[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#columns QuicksightTopic#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#columns QuicksightTopic#columns}
   */
   readonly columns?: QuicksightTopicDataSetsColumns[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#data_aggregation QuicksightTopic#data_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#data_aggregation QuicksightTopic#data_aggregation}
   */
   readonly dataAggregation?: QuicksightTopicDataSetsDataAggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#dataset_arn QuicksightTopic#dataset_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#dataset_arn QuicksightTopic#dataset_arn}
   */
   readonly datasetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#dataset_description QuicksightTopic#dataset_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#dataset_description QuicksightTopic#dataset_description}
   */
   readonly datasetDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#dataset_name QuicksightTopic#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#dataset_name QuicksightTopic#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#filters QuicksightTopic#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#filters QuicksightTopic#filters}
   */
   readonly filters?: QuicksightTopicDataSetsFilters[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#named_entities QuicksightTopic#named_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#named_entities QuicksightTopic#named_entities}
   */
   readonly namedEntities?: QuicksightTopicDataSetsNamedEntities[] | cdktn.IResolvable;
 }
@@ -7640,13 +7640,13 @@ export interface QuicksightTopicTags {
   /**
   * <p>Tag key.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#key QuicksightTopic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#key QuicksightTopic#key}
   */
   readonly key?: string;
   /**
   * <p>Tag value.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#value QuicksightTopic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#value QuicksightTopic#value}
   */
   readonly value?: string;
 }
@@ -7791,7 +7791,7 @@ export class QuicksightTopicTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic awscc_quicksight_topic}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic awscc_quicksight_topic}
 */
 export class QuicksightTopic extends cdktn.TerraformResource {
 
@@ -7807,7 +7807,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightTopic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightTopic to import
-  * @param importFromId The id of the existing QuicksightTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -7819,7 +7819,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/quicksight_topic awscc_quicksight_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_topic awscc_quicksight_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7830,7 +7830,7 @@ export class QuicksightTopic extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_topic',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

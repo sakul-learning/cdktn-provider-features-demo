@@ -378,18 +378,18 @@ SecurityhubInsightFiltersThreatIntelIndicatorTypeList,
 SecurityhubInsightFiltersThreatIntelIndicatorValue,
 securityhubInsightFiltersThreatIntelIndicatorValueToTerraform,
 securityhubInsightFiltersThreatIntelIndicatorValueToHclTerraform,
-SecurityhubInsightFiltersThreatIntelIndicatorValueList } from './structs0';
+SecurityhubInsightFiltersThreatIntelIndicatorValueList } from './structs0.js';
 export interface SecurityhubInsightFiltersTitle {
   /**
   * The condition to apply to a string value when filtering Security Hub findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -536,13 +536,13 @@ export interface SecurityhubInsightFiltersType {
   /**
   * The condition to apply to a string value when filtering Security Hub findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -689,13 +689,13 @@ export interface SecurityhubInsightFiltersUpdatedAtDateRange {
   /**
   * A date range unit for the date filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#unit SecurityhubInsight#unit}
   */
   readonly unit?: string;
   /**
   * A date range value for the date filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: number;
 }
@@ -820,19 +820,19 @@ export interface SecurityhubInsightFiltersUpdatedAt {
   /**
   * A date range for the date filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
   */
   readonly dateRange?: SecurityhubInsightFiltersUpdatedAtDateRange;
   /**
   * The date and time, in UTC and ISO 8601 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
   */
   readonly end?: string;
   /**
   * The date and time, in UTC and ISO 8601 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
   */
   readonly start?: string;
 }
@@ -1008,19 +1008,19 @@ export interface SecurityhubInsightFiltersUserDefinedFields {
   /**
   * The condition to apply to the key value when filtering Security Hub findings with a map filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#key SecurityhubInsight#key}
   */
   readonly key?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -1196,13 +1196,13 @@ export interface SecurityhubInsightFiltersVerificationState {
   /**
   * The condition to apply to a string value when filtering Security Hub findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -1349,13 +1349,13 @@ export interface SecurityhubInsightFiltersVulnerabilitiesExploitAvailable {
   /**
   * The condition to apply to a string value when filtering Security Hub findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -1502,13 +1502,13 @@ export interface SecurityhubInsightFiltersVulnerabilitiesFixAvailable {
   /**
   * The condition to apply to a string value when filtering Security Hub findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -1655,13 +1655,13 @@ export interface SecurityhubInsightFiltersWorkflowState {
   /**
   * The condition to apply to a string value when filtering Security Hub findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -1808,13 +1808,13 @@ export interface SecurityhubInsightFiltersWorkflowStatus {
   /**
   * The condition to apply to a string value when filtering Security Hub findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#comparison SecurityhubInsight#comparison}
   */
   readonly comparison?: string;
   /**
   * Non-empty string definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#value SecurityhubInsight#value}
   */
   readonly value?: string;
 }
@@ -1961,133 +1961,133 @@ export interface SecurityhubInsightFilters {
   /**
   * The AWS account ID in which a finding is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#aws_account_id SecurityhubInsight#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#aws_account_id SecurityhubInsight#aws_account_id}
   */
   readonly awsAccountId?: SecurityhubInsightFiltersAwsAccountId[] | cdktn.IResolvable;
   /**
   * The name of the AWS account in which a finding is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#aws_account_name SecurityhubInsight#aws_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#aws_account_name SecurityhubInsight#aws_account_name}
   */
   readonly awsAccountName?: SecurityhubInsightFiltersAwsAccountName[] | cdktn.IResolvable;
   /**
   * The name of the findings provider (company) that owns the solution (product) that generates findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#company_name SecurityhubInsight#company_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#company_name SecurityhubInsight#company_name}
   */
   readonly companyName?: SecurityhubInsightFiltersCompanyName[] | cdktn.IResolvable;
   /**
   * The unique identifier of a standard in which a control is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#compliance_associated_standards_id SecurityhubInsight#compliance_associated_standards_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#compliance_associated_standards_id SecurityhubInsight#compliance_associated_standards_id}
   */
   readonly complianceAssociatedStandardsId?: SecurityhubInsightFiltersComplianceAssociatedStandardsId[] | cdktn.IResolvable;
   /**
   * The unique identifier of a control across standards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#compliance_security_control_id SecurityhubInsight#compliance_security_control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#compliance_security_control_id SecurityhubInsight#compliance_security_control_id}
   */
   readonly complianceSecurityControlId?: SecurityhubInsightFiltersComplianceSecurityControlId[] | cdktn.IResolvable;
   /**
   * The name of a security control parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#compliance_security_control_parameters_name SecurityhubInsight#compliance_security_control_parameters_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#compliance_security_control_parameters_name SecurityhubInsight#compliance_security_control_parameters_name}
   */
   readonly complianceSecurityControlParametersName?: SecurityhubInsightFiltersComplianceSecurityControlParametersName[] | cdktn.IResolvable;
   /**
   * The current value of a security control parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#compliance_security_control_parameters_value SecurityhubInsight#compliance_security_control_parameters_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#compliance_security_control_parameters_value SecurityhubInsight#compliance_security_control_parameters_value}
   */
   readonly complianceSecurityControlParametersValue?: SecurityhubInsightFiltersComplianceSecurityControlParametersValue[] | cdktn.IResolvable;
   /**
   * Exclusive to findings that are generated as the result of a check run against a specific rule in a supported standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#compliance_status SecurityhubInsight#compliance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#compliance_status SecurityhubInsight#compliance_status}
   */
   readonly complianceStatus?: SecurityhubInsightFiltersComplianceStatus[] | cdktn.IResolvable;
   /**
   * A finding's confidence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#confidence SecurityhubInsight#confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#confidence SecurityhubInsight#confidence}
   */
   readonly confidence?: SecurityhubInsightFiltersConfidence[] | cdktn.IResolvable;
   /**
   * An ISO8601-formatted timestamp that indicates when the security findings provider captured the potential security issue that a finding captured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#created_at SecurityhubInsight#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#created_at SecurityhubInsight#created_at}
   */
   readonly createdAt?: SecurityhubInsightFiltersCreatedAt[] | cdktn.IResolvable;
   /**
   * The level of importance assigned to the resources associated with the finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#criticality SecurityhubInsight#criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#criticality SecurityhubInsight#criticality}
   */
   readonly criticality?: SecurityhubInsightFiltersCriticality[] | cdktn.IResolvable;
   /**
   * A finding's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#description SecurityhubInsight#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#description SecurityhubInsight#description}
   */
   readonly description?: SecurityhubInsightFiltersDescription[] | cdktn.IResolvable;
   /**
   * The finding provider value for the finding confidence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#finding_provider_fields_confidence SecurityhubInsight#finding_provider_fields_confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#finding_provider_fields_confidence SecurityhubInsight#finding_provider_fields_confidence}
   */
   readonly findingProviderFieldsConfidence?: SecurityhubInsightFiltersFindingProviderFieldsConfidence[] | cdktn.IResolvable;
   /**
   * The finding provider value for the level of importance assigned to the resources associated with the findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#finding_provider_fields_criticality SecurityhubInsight#finding_provider_fields_criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#finding_provider_fields_criticality SecurityhubInsight#finding_provider_fields_criticality}
   */
   readonly findingProviderFieldsCriticality?: SecurityhubInsightFiltersFindingProviderFieldsCriticality[] | cdktn.IResolvable;
   /**
   * The finding identifier of a related finding that is identified by the finding provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_id SecurityhubInsight#finding_provider_fields_related_findings_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_id SecurityhubInsight#finding_provider_fields_related_findings_id}
   */
   readonly findingProviderFieldsRelatedFindingsId?: SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsId[] | cdktn.IResolvable;
   /**
   * The ARN of the solution that generated a related finding that is identified by the finding provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_product_arn SecurityhubInsight#finding_provider_fields_related_findings_product_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#finding_provider_fields_related_findings_product_arn SecurityhubInsight#finding_provider_fields_related_findings_product_arn}
   */
   readonly findingProviderFieldsRelatedFindingsProductArn?: SecurityhubInsightFiltersFindingProviderFieldsRelatedFindingsProductArn[] | cdktn.IResolvable;
   /**
   * The finding provider value for the severity label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#finding_provider_fields_severity_label SecurityhubInsight#finding_provider_fields_severity_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#finding_provider_fields_severity_label SecurityhubInsight#finding_provider_fields_severity_label}
   */
   readonly findingProviderFieldsSeverityLabel?: SecurityhubInsightFiltersFindingProviderFieldsSeverityLabel[] | cdktn.IResolvable;
   /**
   * The finding provider's original value for the severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#finding_provider_fields_severity_original SecurityhubInsight#finding_provider_fields_severity_original}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#finding_provider_fields_severity_original SecurityhubInsight#finding_provider_fields_severity_original}
   */
   readonly findingProviderFieldsSeverityOriginal?: SecurityhubInsightFiltersFindingProviderFieldsSeverityOriginal[] | cdktn.IResolvable;
   /**
   * One or more finding types that the finding provider assigned to the finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#finding_provider_fields_types SecurityhubInsight#finding_provider_fields_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#finding_provider_fields_types SecurityhubInsight#finding_provider_fields_types}
   */
   readonly findingProviderFieldsTypes?: SecurityhubInsightFiltersFindingProviderFieldsTypes[] | cdktn.IResolvable;
   /**
   * An ISO8601-formatted timestamp that indicates when the security findings provider first observed the potential security issue that a finding captured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#first_observed_at SecurityhubInsight#first_observed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#first_observed_at SecurityhubInsight#first_observed_at}
   */
   readonly firstObservedAt?: SecurityhubInsightFiltersFirstObservedAt[] | cdktn.IResolvable;
   /**
   * The identifier for the solution-specific component (a discrete unit of logic) that generated a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#generator_id SecurityhubInsight#generator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#generator_id SecurityhubInsight#generator_id}
   */
   readonly generatorId?: SecurityhubInsightFiltersGeneratorId[] | cdktn.IResolvable;
   /**
   * The security findings provider-specific identifier for a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#id SecurityhubInsight#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#id SecurityhubInsight#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2096,493 +2096,493 @@ export interface SecurityhubInsightFilters {
   /**
   * A keyword for a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#keyword SecurityhubInsight#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#keyword SecurityhubInsight#keyword}
   */
   readonly keyword?: SecurityhubInsightFiltersKeyword[] | cdktn.IResolvable;
   /**
   * An ISO8601-formatted timestamp that indicates when the security findings provider most recently observed the potential security issue that a finding captured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#last_observed_at SecurityhubInsight#last_observed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#last_observed_at SecurityhubInsight#last_observed_at}
   */
   readonly lastObservedAt?: SecurityhubInsightFiltersLastObservedAt[] | cdktn.IResolvable;
   /**
   * The name of the malware that was observed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#malware_name SecurityhubInsight#malware_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#malware_name SecurityhubInsight#malware_name}
   */
   readonly malwareName?: SecurityhubInsightFiltersMalwareName[] | cdktn.IResolvable;
   /**
   * The filesystem path of the malware that was observed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#malware_path SecurityhubInsight#malware_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#malware_path SecurityhubInsight#malware_path}
   */
   readonly malwarePath?: SecurityhubInsightFiltersMalwarePath[] | cdktn.IResolvable;
   /**
   * The state of the malware that was observed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#malware_state SecurityhubInsight#malware_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#malware_state SecurityhubInsight#malware_state}
   */
   readonly malwareState?: SecurityhubInsightFiltersMalwareState[] | cdktn.IResolvable;
   /**
   * The type of the malware that was observed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#malware_type SecurityhubInsight#malware_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#malware_type SecurityhubInsight#malware_type}
   */
   readonly malwareType?: SecurityhubInsightFiltersMalwareType[] | cdktn.IResolvable;
   /**
   * The destination domain of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_destination_domain SecurityhubInsight#network_destination_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_destination_domain SecurityhubInsight#network_destination_domain}
   */
   readonly networkDestinationDomain?: SecurityhubInsightFiltersNetworkDestinationDomain[] | cdktn.IResolvable;
   /**
   * The destination IPv4 address of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_destination_ip_v4 SecurityhubInsight#network_destination_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_destination_ip_v4 SecurityhubInsight#network_destination_ip_v4}
   */
   readonly networkDestinationIpV4?: SecurityhubInsightFiltersNetworkDestinationIpV4[] | cdktn.IResolvable;
   /**
   * The destination IPv6 address of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_destination_ip_v6 SecurityhubInsight#network_destination_ip_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_destination_ip_v6 SecurityhubInsight#network_destination_ip_v6}
   */
   readonly networkDestinationIpV6?: SecurityhubInsightFiltersNetworkDestinationIpV6[] | cdktn.IResolvable;
   /**
   * The destination port of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_destination_port SecurityhubInsight#network_destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_destination_port SecurityhubInsight#network_destination_port}
   */
   readonly networkDestinationPort?: SecurityhubInsightFiltersNetworkDestinationPort[] | cdktn.IResolvable;
   /**
   * Indicates the direction of network traffic associated with a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_direction SecurityhubInsight#network_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_direction SecurityhubInsight#network_direction}
   */
   readonly networkDirection?: SecurityhubInsightFiltersNetworkDirection[] | cdktn.IResolvable;
   /**
   * The protocol of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_protocol SecurityhubInsight#network_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_protocol SecurityhubInsight#network_protocol}
   */
   readonly networkProtocol?: SecurityhubInsightFiltersNetworkProtocol[] | cdktn.IResolvable;
   /**
   * The source domain of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_source_domain SecurityhubInsight#network_source_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_source_domain SecurityhubInsight#network_source_domain}
   */
   readonly networkSourceDomain?: SecurityhubInsightFiltersNetworkSourceDomain[] | cdktn.IResolvable;
   /**
   * The source IPv4 address of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_source_ip_v4 SecurityhubInsight#network_source_ip_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_source_ip_v4 SecurityhubInsight#network_source_ip_v4}
   */
   readonly networkSourceIpV4?: SecurityhubInsightFiltersNetworkSourceIpV4[] | cdktn.IResolvable;
   /**
   * The source IPv6 address of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_source_ip_v6 SecurityhubInsight#network_source_ip_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_source_ip_v6 SecurityhubInsight#network_source_ip_v6}
   */
   readonly networkSourceIpV6?: SecurityhubInsightFiltersNetworkSourceIpV6[] | cdktn.IResolvable;
   /**
   * The source media access control (MAC) address of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_source_mac SecurityhubInsight#network_source_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_source_mac SecurityhubInsight#network_source_mac}
   */
   readonly networkSourceMac?: SecurityhubInsightFiltersNetworkSourceMac[] | cdktn.IResolvable;
   /**
   * The source port of network-related information about a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#network_source_port SecurityhubInsight#network_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#network_source_port SecurityhubInsight#network_source_port}
   */
   readonly networkSourcePort?: SecurityhubInsightFiltersNetworkSourcePort[] | cdktn.IResolvable;
   /**
   * The text of a note.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#note_text SecurityhubInsight#note_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#note_text SecurityhubInsight#note_text}
   */
   readonly noteText?: SecurityhubInsightFiltersNoteText[] | cdktn.IResolvable;
   /**
   * The timestamp of when the note was updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#note_updated_at SecurityhubInsight#note_updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#note_updated_at SecurityhubInsight#note_updated_at}
   */
   readonly noteUpdatedAt?: SecurityhubInsightFiltersNoteUpdatedAt[] | cdktn.IResolvable;
   /**
   * The principal that created a note.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#note_updated_by SecurityhubInsight#note_updated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#note_updated_by SecurityhubInsight#note_updated_by}
   */
   readonly noteUpdatedBy?: SecurityhubInsightFiltersNoteUpdatedBy[] | cdktn.IResolvable;
   /**
   * A timestamp that identifies when the process was launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#process_launched_at SecurityhubInsight#process_launched_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#process_launched_at SecurityhubInsight#process_launched_at}
   */
   readonly processLaunchedAt?: SecurityhubInsightFiltersProcessLaunchedAt[] | cdktn.IResolvable;
   /**
   * The name of the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#process_name SecurityhubInsight#process_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#process_name SecurityhubInsight#process_name}
   */
   readonly processName?: SecurityhubInsightFiltersProcessName[] | cdktn.IResolvable;
   /**
   * The parent process ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#process_parent_pid SecurityhubInsight#process_parent_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#process_parent_pid SecurityhubInsight#process_parent_pid}
   */
   readonly processParentPid?: SecurityhubInsightFiltersProcessParentPid[] | cdktn.IResolvable;
   /**
   * The path to the process executable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#process_path SecurityhubInsight#process_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#process_path SecurityhubInsight#process_path}
   */
   readonly processPath?: SecurityhubInsightFiltersProcessPath[] | cdktn.IResolvable;
   /**
   * The process ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#process_pid SecurityhubInsight#process_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#process_pid SecurityhubInsight#process_pid}
   */
   readonly processPid?: SecurityhubInsightFiltersProcessPid[] | cdktn.IResolvable;
   /**
   * A timestamp that identifies when the process was terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#process_terminated_at SecurityhubInsight#process_terminated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#process_terminated_at SecurityhubInsight#process_terminated_at}
   */
   readonly processTerminatedAt?: SecurityhubInsightFiltersProcessTerminatedAt[] | cdktn.IResolvable;
   /**
   * The ARN generated by Security Hub that uniquely identifies a third-party company (security findings provider) after this provider's product (solution that generates findings) is registered with Security Hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#product_arn SecurityhubInsight#product_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#product_arn SecurityhubInsight#product_arn}
   */
   readonly productArn?: SecurityhubInsightFiltersProductArn[] | cdktn.IResolvable;
   /**
   * A data type where security findings providers can include additional solution-specific details that aren't part of the defined AwsSecurityFinding format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#product_fields SecurityhubInsight#product_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#product_fields SecurityhubInsight#product_fields}
   */
   readonly productFields?: SecurityhubInsightFiltersProductFields[] | cdktn.IResolvable;
   /**
   * The name of the solution (product) that generates findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#product_name SecurityhubInsight#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#product_name SecurityhubInsight#product_name}
   */
   readonly productName?: SecurityhubInsightFiltersProductName[] | cdktn.IResolvable;
   /**
   * The recommendation of what to do about the issue described in a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#recommendation_text SecurityhubInsight#recommendation_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#recommendation_text SecurityhubInsight#recommendation_text}
   */
   readonly recommendationText?: SecurityhubInsightFiltersRecommendationText[] | cdktn.IResolvable;
   /**
   * The updated record state for the finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#record_state SecurityhubInsight#record_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#record_state SecurityhubInsight#record_state}
   */
   readonly recordState?: SecurityhubInsightFiltersRecordState[] | cdktn.IResolvable;
   /**
   * The Region from which the finding was generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#region SecurityhubInsight#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#region SecurityhubInsight#region}
   */
   readonly region?: SecurityhubInsightFiltersRegion[] | cdktn.IResolvable;
   /**
   * The solution-generated identifier for a related finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#related_findings_id SecurityhubInsight#related_findings_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#related_findings_id SecurityhubInsight#related_findings_id}
   */
   readonly relatedFindingsId?: SecurityhubInsightFiltersRelatedFindingsId[] | cdktn.IResolvable;
   /**
   * The ARN of the solution that generated a related finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#related_findings_product_arn SecurityhubInsight#related_findings_product_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#related_findings_product_arn SecurityhubInsight#related_findings_product_arn}
   */
   readonly relatedFindingsProductArn?: SecurityhubInsightFiltersRelatedFindingsProductArn[] | cdktn.IResolvable;
   /**
   * The ARN of the application that is related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_application_arn SecurityhubInsight#resource_application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_application_arn SecurityhubInsight#resource_application_arn}
   */
   readonly resourceApplicationArn?: SecurityhubInsightFiltersResourceApplicationArn[] | cdktn.IResolvable;
   /**
   * The name of the application that is related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_application_name SecurityhubInsight#resource_application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_application_name SecurityhubInsight#resource_application_name}
   */
   readonly resourceApplicationName?: SecurityhubInsightFiltersResourceApplicationName[] | cdktn.IResolvable;
   /**
   * The IAM profile ARN of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_iam_instance_profile_arn SecurityhubInsight#resource_aws_ec_2_instance_iam_instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_iam_instance_profile_arn SecurityhubInsight#resource_aws_ec_2_instance_iam_instance_profile_arn}
   */
   readonly resourceAwsEc2InstanceIamInstanceProfileArn?: SecurityhubInsightFiltersResourceAwsEc2InstanceIamInstanceProfileArn[] | cdktn.IResolvable;
   /**
   * The Amazon Machine Image (AMI) ID of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_image_id SecurityhubInsight#resource_aws_ec_2_instance_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_image_id SecurityhubInsight#resource_aws_ec_2_instance_image_id}
   */
   readonly resourceAwsEc2InstanceImageId?: SecurityhubInsightFiltersResourceAwsEc2InstanceImageId[] | cdktn.IResolvable;
   /**
   * The IPv4 addresses associated with the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v4_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v4_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v4_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v4_addresses}
   */
   readonly resourceAwsEc2InstanceIpV4Addresses?: SecurityhubInsightFiltersResourceAwsEc2InstanceIpV4Addresses[] | cdktn.IResolvable;
   /**
   * The IPv6 addresses associated with the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v6_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_ip_v6_addresses SecurityhubInsight#resource_aws_ec_2_instance_ip_v6_addresses}
   */
   readonly resourceAwsEc2InstanceIpV6Addresses?: SecurityhubInsightFiltersResourceAwsEc2InstanceIpV6Addresses[] | cdktn.IResolvable;
   /**
   * The key name associated with the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_key_name SecurityhubInsight#resource_aws_ec_2_instance_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_key_name SecurityhubInsight#resource_aws_ec_2_instance_key_name}
   */
   readonly resourceAwsEc2InstanceKeyName?: SecurityhubInsightFiltersResourceAwsEc2InstanceKeyName[] | cdktn.IResolvable;
   /**
   * The date and time the instance was launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_launched_at SecurityhubInsight#resource_aws_ec_2_instance_launched_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_launched_at SecurityhubInsight#resource_aws_ec_2_instance_launched_at}
   */
   readonly resourceAwsEc2InstanceLaunchedAt?: SecurityhubInsightFiltersResourceAwsEc2InstanceLaunchedAt[] | cdktn.IResolvable;
   /**
   * The identifier of the subnet that the instance was launched in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_subnet_id SecurityhubInsight#resource_aws_ec_2_instance_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_subnet_id SecurityhubInsight#resource_aws_ec_2_instance_subnet_id}
   */
   readonly resourceAwsEc2InstanceSubnetId?: SecurityhubInsightFiltersResourceAwsEc2InstanceSubnetId[] | cdktn.IResolvable;
   /**
   * The instance type of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_type SecurityhubInsight#resource_aws_ec_2_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_type SecurityhubInsight#resource_aws_ec_2_instance_type}
   */
   readonly resourceAwsEc2InstanceType?: SecurityhubInsightFiltersResourceAwsEc2InstanceType[] | cdktn.IResolvable;
   /**
   * The identifier of the VPC that the instance was launched in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_vpc_id SecurityhubInsight#resource_aws_ec_2_instance_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_ec_2_instance_vpc_id SecurityhubInsight#resource_aws_ec_2_instance_vpc_id}
   */
   readonly resourceAwsEc2InstanceVpcId?: SecurityhubInsightFiltersResourceAwsEc2InstanceVpcId[] | cdktn.IResolvable;
   /**
   * The creation date/time of the IAM access key related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_created_at SecurityhubInsight#resource_aws_iam_access_key_created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_created_at SecurityhubInsight#resource_aws_iam_access_key_created_at}
   */
   readonly resourceAwsIamAccessKeyCreatedAt?: SecurityhubInsightFiltersResourceAwsIamAccessKeyCreatedAt[] | cdktn.IResolvable;
   /**
   * The name of the principal that is associated with an IAM access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_principal_name SecurityhubInsight#resource_aws_iam_access_key_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_principal_name SecurityhubInsight#resource_aws_iam_access_key_principal_name}
   */
   readonly resourceAwsIamAccessKeyPrincipalName?: SecurityhubInsightFiltersResourceAwsIamAccessKeyPrincipalName[] | cdktn.IResolvable;
   /**
   * The status of the IAM access key related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_status SecurityhubInsight#resource_aws_iam_access_key_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_status SecurityhubInsight#resource_aws_iam_access_key_status}
   */
   readonly resourceAwsIamAccessKeyStatus?: SecurityhubInsightFiltersResourceAwsIamAccessKeyStatus[] | cdktn.IResolvable;
   /**
   * The user associated with the IAM access key related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_user_name SecurityhubInsight#resource_aws_iam_access_key_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_iam_access_key_user_name SecurityhubInsight#resource_aws_iam_access_key_user_name}
   */
   readonly resourceAwsIamAccessKeyUserName?: SecurityhubInsightFiltersResourceAwsIamAccessKeyUserName[] | cdktn.IResolvable;
   /**
   * The name of an IAM user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_iam_user_user_name SecurityhubInsight#resource_aws_iam_user_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_iam_user_user_name SecurityhubInsight#resource_aws_iam_user_user_name}
   */
   readonly resourceAwsIamUserUserName?: SecurityhubInsightFiltersResourceAwsIamUserUserName[] | cdktn.IResolvable;
   /**
   * The canonical user ID of the owner of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_id SecurityhubInsight#resource_aws_s3_bucket_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_id SecurityhubInsight#resource_aws_s3_bucket_owner_id}
   */
   readonly resourceAwsS3BucketOwnerId?: SecurityhubInsightFiltersResourceAwsS3BucketOwnerId[] | cdktn.IResolvable;
   /**
   * The display name of the owner of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_name SecurityhubInsight#resource_aws_s3_bucket_owner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_aws_s3_bucket_owner_name SecurityhubInsight#resource_aws_s3_bucket_owner_name}
   */
   readonly resourceAwsS3BucketOwnerName?: SecurityhubInsightFiltersResourceAwsS3BucketOwnerName[] | cdktn.IResolvable;
   /**
   * The identifier of the image related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_container_image_id SecurityhubInsight#resource_container_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_container_image_id SecurityhubInsight#resource_container_image_id}
   */
   readonly resourceContainerImageId?: SecurityhubInsightFiltersResourceContainerImageId[] | cdktn.IResolvable;
   /**
   * The name of the image related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_container_image_name SecurityhubInsight#resource_container_image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_container_image_name SecurityhubInsight#resource_container_image_name}
   */
   readonly resourceContainerImageName?: SecurityhubInsightFiltersResourceContainerImageName[] | cdktn.IResolvable;
   /**
   * A timestamp that identifies when the container was started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_container_launched_at SecurityhubInsight#resource_container_launched_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_container_launched_at SecurityhubInsight#resource_container_launched_at}
   */
   readonly resourceContainerLaunchedAt?: SecurityhubInsightFiltersResourceContainerLaunchedAt[] | cdktn.IResolvable;
   /**
   * The name of the container related to a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_container_name SecurityhubInsight#resource_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_container_name SecurityhubInsight#resource_container_name}
   */
   readonly resourceContainerName?: SecurityhubInsightFiltersResourceContainerName[] | cdktn.IResolvable;
   /**
   * The details of a resource that doesn't have a specific subfield for the resource type defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_details_other SecurityhubInsight#resource_details_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_details_other SecurityhubInsight#resource_details_other}
   */
   readonly resourceDetailsOther?: SecurityhubInsightFiltersResourceDetailsOther[] | cdktn.IResolvable;
   /**
   * The canonical identifier for the given resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_id SecurityhubInsight#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_id SecurityhubInsight#resource_id}
   */
   readonly resourceId?: SecurityhubInsightFiltersResourceId[] | cdktn.IResolvable;
   /**
   * The canonical AWS partition name that the Region is assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_partition SecurityhubInsight#resource_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_partition SecurityhubInsight#resource_partition}
   */
   readonly resourcePartition?: SecurityhubInsightFiltersResourcePartition[] | cdktn.IResolvable;
   /**
   * The canonical AWS external Region name where this resource is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_region SecurityhubInsight#resource_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_region SecurityhubInsight#resource_region}
   */
   readonly resourceRegion?: SecurityhubInsightFiltersResourceRegion[] | cdktn.IResolvable;
   /**
   * A list of AWS tags associated with a resource at the time the finding was processed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_tags SecurityhubInsight#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_tags SecurityhubInsight#resource_tags}
   */
   readonly resourceTags?: SecurityhubInsightFiltersResourceTags[] | cdktn.IResolvable;
   /**
   * Specifies the type of the resource that details are provided for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#resource_type SecurityhubInsight#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#resource_type SecurityhubInsight#resource_type}
   */
   readonly resourceType?: SecurityhubInsightFiltersResourceType[] | cdktn.IResolvable;
   /**
   * Indicates whether or not sample findings are included in the filter results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#sample SecurityhubInsight#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#sample SecurityhubInsight#sample}
   */
   readonly sample?: SecurityhubInsightFiltersSample[] | cdktn.IResolvable;
   /**
   * The label of a finding's severity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#severity_label SecurityhubInsight#severity_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#severity_label SecurityhubInsight#severity_label}
   */
   readonly severityLabel?: SecurityhubInsightFiltersSeverityLabel[] | cdktn.IResolvable;
   /**
   * The normalized severity of a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#severity_normalized SecurityhubInsight#severity_normalized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#severity_normalized SecurityhubInsight#severity_normalized}
   */
   readonly severityNormalized?: SecurityhubInsightFiltersSeverityNormalized[] | cdktn.IResolvable;
   /**
   * The native severity as defined by the security findings provider's solution that generated the finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#severity_product SecurityhubInsight#severity_product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#severity_product SecurityhubInsight#severity_product}
   */
   readonly severityProduct?: SecurityhubInsightFiltersSeverityProduct[] | cdktn.IResolvable;
   /**
   * A URL that links to a page about the current finding in the security findings provider's solution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#source_url SecurityhubInsight#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#source_url SecurityhubInsight#source_url}
   */
   readonly sourceUrl?: SecurityhubInsightFiltersSourceUrl[] | cdktn.IResolvable;
   /**
   * The category of a threat intelligence indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#threat_intel_indicator_category SecurityhubInsight#threat_intel_indicator_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#threat_intel_indicator_category SecurityhubInsight#threat_intel_indicator_category}
   */
   readonly threatIntelIndicatorCategory?: SecurityhubInsightFiltersThreatIntelIndicatorCategory[] | cdktn.IResolvable;
   /**
   * A timestamp that identifies the last observation of a threat intelligence indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#threat_intel_indicator_last_observed_at SecurityhubInsight#threat_intel_indicator_last_observed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#threat_intel_indicator_last_observed_at SecurityhubInsight#threat_intel_indicator_last_observed_at}
   */
   readonly threatIntelIndicatorLastObservedAt?: SecurityhubInsightFiltersThreatIntelIndicatorLastObservedAt[] | cdktn.IResolvable;
   /**
   * The source of the threat intelligence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#threat_intel_indicator_source SecurityhubInsight#threat_intel_indicator_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#threat_intel_indicator_source SecurityhubInsight#threat_intel_indicator_source}
   */
   readonly threatIntelIndicatorSource?: SecurityhubInsightFiltersThreatIntelIndicatorSource[] | cdktn.IResolvable;
   /**
   * The URL for more details from the source of the threat intelligence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#threat_intel_indicator_source_url SecurityhubInsight#threat_intel_indicator_source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#threat_intel_indicator_source_url SecurityhubInsight#threat_intel_indicator_source_url}
   */
   readonly threatIntelIndicatorSourceUrl?: SecurityhubInsightFiltersThreatIntelIndicatorSourceUrl[] | cdktn.IResolvable;
   /**
   * The type of a threat intelligence indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#threat_intel_indicator_type SecurityhubInsight#threat_intel_indicator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#threat_intel_indicator_type SecurityhubInsight#threat_intel_indicator_type}
   */
   readonly threatIntelIndicatorType?: SecurityhubInsightFiltersThreatIntelIndicatorType[] | cdktn.IResolvable;
   /**
   * The value of a threat intelligence indicator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#threat_intel_indicator_value SecurityhubInsight#threat_intel_indicator_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#threat_intel_indicator_value SecurityhubInsight#threat_intel_indicator_value}
   */
   readonly threatIntelIndicatorValue?: SecurityhubInsightFiltersThreatIntelIndicatorValue[] | cdktn.IResolvable;
   /**
   * A finding's title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#title SecurityhubInsight#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#title SecurityhubInsight#title}
   */
   readonly title?: SecurityhubInsightFiltersTitle[] | cdktn.IResolvable;
   /**
   * A finding type in the format of namespace/category/classifier that classifies a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#type SecurityhubInsight#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#type SecurityhubInsight#type}
   */
   readonly type?: SecurityhubInsightFiltersType[] | cdktn.IResolvable;
   /**
   * An ISO8601-formatted timestamp that indicates when the security findings provider last updated the finding record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#updated_at SecurityhubInsight#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#updated_at SecurityhubInsight#updated_at}
   */
   readonly updatedAt?: SecurityhubInsightFiltersUpdatedAt[] | cdktn.IResolvable;
   /**
   * A list of name/value string pairs associated with the finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#user_defined_fields SecurityhubInsight#user_defined_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#user_defined_fields SecurityhubInsight#user_defined_fields}
   */
   readonly userDefinedFields?: SecurityhubInsightFiltersUserDefinedFields[] | cdktn.IResolvable;
   /**
   * The veracity of a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#verification_state SecurityhubInsight#verification_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#verification_state SecurityhubInsight#verification_state}
   */
   readonly verificationState?: SecurityhubInsightFiltersVerificationState[] | cdktn.IResolvable;
   /**
   * Indicates whether a software vulnerability in your environment has a known exploit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#vulnerabilities_exploit_available SecurityhubInsight#vulnerabilities_exploit_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#vulnerabilities_exploit_available SecurityhubInsight#vulnerabilities_exploit_available}
   */
   readonly vulnerabilitiesExploitAvailable?: SecurityhubInsightFiltersVulnerabilitiesExploitAvailable[] | cdktn.IResolvable;
   /**
   * Indicates whether a vulnerability is fixed in a newer version of the affected software packages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#vulnerabilities_fix_available SecurityhubInsight#vulnerabilities_fix_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#vulnerabilities_fix_available SecurityhubInsight#vulnerabilities_fix_available}
   */
   readonly vulnerabilitiesFixAvailable?: SecurityhubInsightFiltersVulnerabilitiesFixAvailable[] | cdktn.IResolvable;
   /**
   * The workflow state of a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#workflow_state SecurityhubInsight#workflow_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#workflow_state SecurityhubInsight#workflow_state}
   */
   readonly workflowState?: SecurityhubInsightFiltersWorkflowState[] | cdktn.IResolvable;
   /**
   * The status of the investigation into a finding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityhub_insight#workflow_status SecurityhubInsight#workflow_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_insight#workflow_status SecurityhubInsight#workflow_status}
   */
   readonly workflowStatus?: SecurityhubInsightFiltersWorkflowStatus[] | cdktn.IResolvable;
 }

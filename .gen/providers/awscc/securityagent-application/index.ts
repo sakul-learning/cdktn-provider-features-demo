@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface SecurityagentApplicationConfig extends cdktn.TerraformMetaArgum
   /**
   * Identifier of a KMS key. Can be a key ID, key ARN, alias name, or alias ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#default_kms_key_id SecurityagentApplication#default_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#default_kms_key_id SecurityagentApplication#default_kms_key_id}
   */
   readonly defaultKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#id_c_configuration SecurityagentApplication#id_c_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#id_c_configuration SecurityagentApplication#id_c_configuration}
   */
   readonly idCConfiguration?: SecurityagentApplicationIdCConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#role_arn SecurityagentApplication#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#role_arn SecurityagentApplication#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Tags for the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#tags SecurityagentApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#tags SecurityagentApplication#tags}
   */
   readonly tags?: SecurityagentApplicationTags[] | cdktn.IResolvable;
 }
 export interface SecurityagentApplicationIdCConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#id_c_instance_arn SecurityagentApplication#id_c_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#id_c_instance_arn SecurityagentApplication#id_c_instance_arn}
   */
   readonly idCInstanceArn?: string;
 }
@@ -131,13 +131,13 @@ export interface SecurityagentApplicationTags {
   /**
   * The key name of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#key SecurityagentApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#key SecurityagentApplication#key}
   */
   readonly key?: string;
   /**
   * The value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#value SecurityagentApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#value SecurityagentApplication#value}
   */
   readonly value?: string;
 }
@@ -282,7 +282,7 @@ export class SecurityagentApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application awscc_securityagent_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application awscc_securityagent_application}
 */
 export class SecurityagentApplication extends cdktn.TerraformResource {
 
@@ -298,7 +298,7 @@ export class SecurityagentApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityagentApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityagentApplication to import
-  * @param importFromId The id of the existing SecurityagentApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityagentApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityagentApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -310,7 +310,7 @@ export class SecurityagentApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_application awscc_securityagent_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_application awscc_securityagent_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,7 +321,7 @@ export class SecurityagentApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityagent_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DirectoryserviceSimpleAdConfig extends cdktn.TerraformMetaArgum
   /**
   * The name of the configuration set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#create_alias DirectoryserviceSimpleAd#create_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#create_alias DirectoryserviceSimpleAd#create_alias}
   */
   readonly createAlias?: boolean | cdktn.IResolvable;
   /**
   * Description for the directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#description DirectoryserviceSimpleAd#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#description DirectoryserviceSimpleAd#description}
   */
   readonly description?: string;
   /**
   * Whether to enable single sign-on for a Simple Active Directory in AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#enable_sso DirectoryserviceSimpleAd#enable_sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#enable_sso DirectoryserviceSimpleAd#enable_sso}
   */
   readonly enableSso?: boolean | cdktn.IResolvable;
   /**
   * The fully qualified domain name for the AWS Managed Simple AD directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#name DirectoryserviceSimpleAd#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#name DirectoryserviceSimpleAd#name}
   */
   readonly name: string;
   /**
   * The password for the default administrative user named Admin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#password DirectoryserviceSimpleAd#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#password DirectoryserviceSimpleAd#password}
   */
   readonly password?: string;
   /**
   * The NetBIOS name for your domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#short_name DirectoryserviceSimpleAd#short_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#short_name DirectoryserviceSimpleAd#short_name}
   */
   readonly shortName?: string;
   /**
   * The size of the directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#size DirectoryserviceSimpleAd#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#size DirectoryserviceSimpleAd#size}
   */
   readonly size: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#tags DirectoryserviceSimpleAd#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#tags DirectoryserviceSimpleAd#tags}
   */
   readonly tags?: DirectoryserviceSimpleAdTags[] | cdktn.IResolvable;
   /**
   * VPC settings of the Simple AD directory server in AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#vpc_settings DirectoryserviceSimpleAd#vpc_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#vpc_settings DirectoryserviceSimpleAd#vpc_settings}
   */
   readonly vpcSettings: DirectoryserviceSimpleAdVpcSettings;
 }
@@ -64,13 +64,13 @@ export interface DirectoryserviceSimpleAdTags {
   /**
   * The key name of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#key DirectoryserviceSimpleAd#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#key DirectoryserviceSimpleAd#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#value DirectoryserviceSimpleAd#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#value DirectoryserviceSimpleAd#value}
   */
   readonly value?: string;
 }
@@ -217,13 +217,13 @@ export interface DirectoryserviceSimpleAdVpcSettings {
   /**
   * The identifiers of the subnets for the directory servers. The two subnets must be in different Availability Zones. AWS Directory Service specifies a directory server and a DNS server in each of these subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#subnet_ids DirectoryserviceSimpleAd#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#subnet_ids DirectoryserviceSimpleAd#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * The identifier of the VPC in which to create the directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#vpc_id DirectoryserviceSimpleAd#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#vpc_id DirectoryserviceSimpleAd#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -340,7 +340,7 @@ export class DirectoryserviceSimpleAdVpcSettingsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad}
 */
 export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
 
@@ -356,7 +356,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DirectoryserviceSimpleAd resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectoryserviceSimpleAd to import
-  * @param importFromId The id of the existing DirectoryserviceSimpleAd that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectoryserviceSimpleAd that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectoryserviceSimpleAd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -368,7 +368,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,7 +379,7 @@ export class DirectoryserviceSimpleAd extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_directoryservice_simple_ad',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

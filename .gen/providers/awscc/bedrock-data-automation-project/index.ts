@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface BedrockDataAutomationProjectConfig extends cdktn.TerraformMetaA
   /**
   * Custom output configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
   */
   readonly customOutputConfiguration?: BedrockDataAutomationProjectCustomOutputConfiguration;
   /**
   * KMS encryption context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
   * KMS key identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Override configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
   */
   readonly overrideConfiguration?: BedrockDataAutomationProjectOverrideConfiguration;
   /**
   * Description of the DataAutomationProject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
   */
   readonly projectDescription?: string;
   /**
   * Name of the DataAutomationProject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
   */
   readonly projectName: string;
   /**
   * Type of the DataAutomationProject - Sync or Async
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
   */
   readonly projectType?: string;
   /**
   * Standard output configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
   */
   readonly standardOutputConfiguration?: BedrockDataAutomationProjectStandardOutputConfiguration;
   /**
   * List of Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
   */
   readonly tags?: BedrockDataAutomationProjectTags[] | cdktn.IResolvable;
 }
@@ -66,19 +66,19 @@ export interface BedrockDataAutomationProjectCustomOutputConfigurationBlueprints
   /**
   * ARN of a Blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#blueprint_arn BedrockDataAutomationProject#blueprint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#blueprint_arn BedrockDataAutomationProject#blueprint_arn}
   */
   readonly blueprintArn?: string;
   /**
   * Stage of the Blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#blueprint_stage BedrockDataAutomationProject#blueprint_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#blueprint_stage BedrockDataAutomationProject#blueprint_stage}
   */
   readonly blueprintStage?: string;
   /**
   * Blueprint Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#blueprint_version BedrockDataAutomationProject#blueprint_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#blueprint_version BedrockDataAutomationProject#blueprint_version}
   */
   readonly blueprintVersion?: string;
 }
@@ -252,7 +252,7 @@ export class BedrockDataAutomationProjectCustomOutputConfigurationBlueprintsList
 }
 export interface BedrockDataAutomationProjectCustomOutputConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#blueprints BedrockDataAutomationProject#blueprints}
   */
   readonly blueprints?: BedrockDataAutomationProjectCustomOutputConfigurationBlueprints[] | cdktn.IResolvable;
 }
@@ -346,15 +346,15 @@ export class BedrockDataAutomationProjectCustomOutputConfigurationOutputReferenc
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#generative_output_language BedrockDataAutomationProject#generative_output_language}
   */
   readonly generativeOutputLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#identify_multiple_languages BedrockDataAutomationProject#identify_multiple_languages}
   */
   readonly identifyMultipleLanguages?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#input_languages BedrockDataAutomationProject#input_languages}
   */
   readonly inputLanguages?: string[];
 }
@@ -506,7 +506,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfi
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -600,11 +600,11 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioModalityProce
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
   */
   readonly piiEntityTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
   */
   readonly redactionMaskMode?: string;
 }
@@ -727,15 +727,15 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveData
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
   */
   readonly detectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
   */
   readonly detectionScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
   */
   readonly piiEntitiesConfiguration?: BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfigurationPiiEntitiesConfiguration;
 }
@@ -887,15 +887,15 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveData
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationAudio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#language_configuration BedrockDataAutomationProject#language_configuration}
   */
   readonly languageConfiguration?: BedrockDataAutomationProjectOverrideConfigurationAudioLanguageConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
   */
   readonly modalityProcessing?: BedrockDataAutomationProjectOverrideConfigurationAudioModalityProcessing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
   */
   readonly sensitiveDataConfiguration?: BedrockDataAutomationProjectOverrideConfigurationAudioSensitiveDataConfiguration;
 }
@@ -1047,7 +1047,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationAudioOutputReferen
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -1141,11 +1141,11 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentModalityPr
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
   */
   readonly piiEntityTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
   */
   readonly redactionMaskMode?: string;
 }
@@ -1268,15 +1268,15 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveD
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
   */
   readonly detectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
   */
   readonly detectionScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
   */
   readonly piiEntitiesConfiguration?: BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration;
 }
@@ -1428,7 +1428,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveD
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -1522,15 +1522,15 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentSplitterOu
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
   */
   readonly modalityProcessing?: BedrockDataAutomationProjectOverrideConfigurationDocumentModalityProcessing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
   */
   readonly sensitiveDataConfiguration?: BedrockDataAutomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#splitter BedrockDataAutomationProject#splitter}
   */
   readonly splitter?: BedrockDataAutomationProjectOverrideConfigurationDocumentSplitter;
 }
@@ -1682,7 +1682,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationDocumentOutputRefe
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -1776,11 +1776,11 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageModalityProce
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
   */
   readonly piiEntityTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
   */
   readonly redactionMaskMode?: string;
 }
@@ -1903,15 +1903,15 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageSensitiveData
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
   */
   readonly detectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
   */
   readonly detectionScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
   */
   readonly piiEntitiesConfiguration?: BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfigurationPiiEntitiesConfiguration;
 }
@@ -2063,11 +2063,11 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageSensitiveData
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
   */
   readonly modalityProcessing?: BedrockDataAutomationProjectOverrideConfigurationImageModalityProcessing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
   */
   readonly sensitiveDataConfiguration?: BedrockDataAutomationProjectOverrideConfigurationImageSensitiveDataConfiguration;
 }
@@ -2190,19 +2190,19 @@ export class BedrockDataAutomationProjectOverrideConfigurationImageOutputReferen
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationModalityRouting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#jpeg BedrockDataAutomationProject#jpeg}
   */
   readonly jpeg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#mov BedrockDataAutomationProject#mov}
   */
   readonly mov?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#mp_4 BedrockDataAutomationProject#mp_4}
   */
   readonly mp4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#png BedrockDataAutomationProject#png}
   */
   readonly png?: string;
 }
@@ -2383,7 +2383,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationModalityRoutingOut
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -2477,11 +2477,11 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoModalityProce
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entity_types BedrockDataAutomationProject#pii_entity_types}
   */
   readonly piiEntityTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#redaction_mask_mode BedrockDataAutomationProject#redaction_mask_mode}
   */
   readonly redactionMaskMode?: string;
 }
@@ -2604,15 +2604,15 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveData
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_mode BedrockDataAutomationProject#detection_mode}
   */
   readonly detectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#detection_scope BedrockDataAutomationProject#detection_scope}
   */
   readonly detectionScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#pii_entities_configuration BedrockDataAutomationProject#pii_entities_configuration}
   */
   readonly piiEntitiesConfiguration?: BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfigurationPiiEntitiesConfiguration;
 }
@@ -2764,11 +2764,11 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveData
 }
 export interface BedrockDataAutomationProjectOverrideConfigurationVideo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#modality_processing BedrockDataAutomationProject#modality_processing}
   */
   readonly modalityProcessing?: BedrockDataAutomationProjectOverrideConfigurationVideoModalityProcessing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#sensitive_data_configuration BedrockDataAutomationProject#sensitive_data_configuration}
   */
   readonly sensitiveDataConfiguration?: BedrockDataAutomationProjectOverrideConfigurationVideoSensitiveDataConfiguration;
 }
@@ -2891,25 +2891,25 @@ export class BedrockDataAutomationProjectOverrideConfigurationVideoOutputReferen
 }
 export interface BedrockDataAutomationProjectOverrideConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}
   */
   readonly audio?: BedrockDataAutomationProjectOverrideConfigurationAudio;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}
   */
   readonly document?: BedrockDataAutomationProjectOverrideConfigurationDocument;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}
   */
   readonly image?: BedrockDataAutomationProjectOverrideConfigurationImage;
   /**
   * Modality routing configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#modality_routing BedrockDataAutomationProject#modality_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#modality_routing BedrockDataAutomationProject#modality_routing}
   */
   readonly modalityRouting?: BedrockDataAutomationProjectOverrideConfigurationModalityRouting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}
   */
   readonly video?: BedrockDataAutomationProjectOverrideConfigurationVideo;
 }
@@ -3119,7 +3119,7 @@ export class BedrockDataAutomationProjectOverrideConfigurationOutputReference ex
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -3213,7 +3213,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -3307,11 +3307,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#channel_labeling BedrockDataAutomationProject#channel_labeling}
   */
   readonly channelLabeling?: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptChannelLabeling;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#speaker_labeling BedrockDataAutomationProject#speaker_labeling}
   */
   readonly speakerLabeling?: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscriptSpeakerLabeling;
 }
@@ -3434,7 +3434,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}
   */
   readonly transcript?: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript;
 }
@@ -3528,15 +3528,15 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#type_configuration BedrockDataAutomationProject#type_configuration}
   */
   readonly typeConfiguration?: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -3688,7 +3688,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}
   */
   readonly category?: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategory;
 }
@@ -3782,11 +3782,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -3909,11 +3909,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerat
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationAudio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
   */
   readonly extraction?: BedrockDataAutomationProjectStandardOutputConfigurationAudioExtraction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
   */
   readonly generativeField?: BedrockDataAutomationProjectStandardOutputConfigurationAudioGenerativeField;
 }
@@ -4036,7 +4036,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationAudioOutputR
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -4130,7 +4130,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtr
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -4224,11 +4224,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtr
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}
   */
   readonly boundingBox?: BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionBoundingBox;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#granularity BedrockDataAutomationProject#granularity}
   */
   readonly granularity?: BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity;
 }
@@ -4351,7 +4351,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtr
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -4445,7 +4445,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentGene
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -4539,7 +4539,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutp
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -4633,11 +4633,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutp
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#additional_file_format BedrockDataAutomationProject#additional_file_format}
   */
   readonly additionalFileFormat?: BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatAdditionalFileFormat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#text_format BedrockDataAutomationProject#text_format}
   */
   readonly textFormat?: BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormatTextFormat;
 }
@@ -4760,15 +4760,15 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutp
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationDocument {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
   */
   readonly extraction?: BedrockDataAutomationProjectStandardOutputConfigurationDocumentExtraction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
   */
   readonly generativeField?: BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#output_format BedrockDataAutomationProject#output_format}
   */
   readonly outputFormat?: BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutputFormat;
 }
@@ -4920,7 +4920,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationDocumentOutp
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -5014,11 +5014,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -5141,11 +5141,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}
   */
   readonly boundingBox?: BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionBoundingBox;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}
   */
   readonly category?: BedrockDataAutomationProjectStandardOutputConfigurationImageExtractionCategory;
 }
@@ -5268,11 +5268,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -5395,11 +5395,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageGenerat
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
   */
   readonly extraction?: BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
   */
   readonly generativeField?: BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField;
 }
@@ -5522,7 +5522,7 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationImageOutputR
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
 }
@@ -5616,11 +5616,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -5743,11 +5743,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#bounding_box BedrockDataAutomationProject#bounding_box}
   */
   readonly boundingBox?: BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionBoundingBox;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#category BedrockDataAutomationProject#category}
   */
   readonly category?: BedrockDataAutomationProjectStandardOutputConfigurationVideoExtractionCategory;
 }
@@ -5870,11 +5870,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoExtract
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#types BedrockDataAutomationProject#types}
   */
   readonly types?: string[];
 }
@@ -5997,11 +5997,11 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerat
 }
 export interface BedrockDataAutomationProjectStandardOutputConfigurationVideo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}
   */
   readonly extraction?: BedrockDataAutomationProjectStandardOutputConfigurationVideoExtraction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}
   */
   readonly generativeField?: BedrockDataAutomationProjectStandardOutputConfigurationVideoGenerativeField;
 }
@@ -6124,19 +6124,19 @@ export class BedrockDataAutomationProjectStandardOutputConfigurationVideoOutputR
 }
 export interface BedrockDataAutomationProjectStandardOutputConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#audio BedrockDataAutomationProject#audio}
   */
   readonly audio?: BedrockDataAutomationProjectStandardOutputConfigurationAudio;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#document BedrockDataAutomationProject#document}
   */
   readonly document?: BedrockDataAutomationProjectStandardOutputConfigurationDocument;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#image BedrockDataAutomationProject#image}
   */
   readonly image?: BedrockDataAutomationProjectStandardOutputConfigurationImage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#video BedrockDataAutomationProject#video}
   */
   readonly video?: BedrockDataAutomationProjectStandardOutputConfigurationVideo;
 }
@@ -6319,13 +6319,13 @@ export interface BedrockDataAutomationProjectTags {
   /**
   * Key for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#key BedrockDataAutomationProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#key BedrockDataAutomationProject#key}
   */
   readonly key?: string;
   /**
   * Value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#value BedrockDataAutomationProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#value BedrockDataAutomationProject#value}
   */
   readonly value?: string;
 }
@@ -6470,7 +6470,7 @@ export class BedrockDataAutomationProjectTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project}
 */
 export class BedrockDataAutomationProject extends cdktn.TerraformResource {
 
@@ -6486,7 +6486,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockDataAutomationProject resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockDataAutomationProject to import
-  * @param importFromId The id of the existing BedrockDataAutomationProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockDataAutomationProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockDataAutomationProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6498,7 +6498,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6509,7 +6509,7 @@ export class BedrockDataAutomationProject extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_data_automation_project',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

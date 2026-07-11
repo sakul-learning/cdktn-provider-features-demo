@@ -1,15 +1,16 @@
-import { Construct, IConstruct, IMixin } from "constructs";
+import { Construct } from "constructs";
+import type { IConstruct, IMixin } from "constructs";
 import {
   Annotations,
   App,
   Aspects,
-  IAspect,
   LocalBackend,
   TerraformStack,
   Testing,
 } from "cdktn";
-import { AwsProvider } from "./.gen/providers/aws/provider";
-import { Instance } from "./.gen/providers/aws/instance";
+import type { IAspect } from "cdktn";
+import { AwsProvider } from "./.gen/providers/aws/provider/index.ts";
+import { Instance } from "./.gen/providers/aws/instance/index.ts";
 
 /**
  * Verifies the docs' "configure with a mixin, validate with an aspect" pairing.

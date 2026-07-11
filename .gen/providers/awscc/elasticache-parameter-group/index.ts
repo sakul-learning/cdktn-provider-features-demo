@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ElasticacheParameterGroupConfig extends cdktn.TerraformMetaArgu
   /**
   * The name of the cache parameter group family that this cache parameter group is compatible with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group#cache_parameter_group_family ElasticacheParameterGroup#cache_parameter_group_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group#cache_parameter_group_family ElasticacheParameterGroup#cache_parameter_group_family}
   */
   readonly cacheParameterGroupFamily: string;
   /**
   * The description for this cache parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group#description ElasticacheParameterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group#description ElasticacheParameterGroup#description}
   */
   readonly description: string;
   /**
   * A comma-delimited list of parameter name/value pairs. For more information see ModifyCacheParameterGroup in the Amazon ElastiCache API Reference Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group#properties ElasticacheParameterGroup#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group#properties ElasticacheParameterGroup#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Tags are composed of a Key/Value pair. You can use tags to categorize and track each parameter group. The tag value null is permitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group#tags ElasticacheParameterGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group#tags ElasticacheParameterGroup#tags}
   */
   readonly tags?: ElasticacheParameterGroupTags[] | cdktn.IResolvable;
 }
 export interface ElasticacheParameterGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group#key ElasticacheParameterGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group#key ElasticacheParameterGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group#value ElasticacheParameterGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group#value ElasticacheParameterGroup#value}
   */
   readonly value?: string;
 }
@@ -183,7 +183,7 @@ export class ElasticacheParameterGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group}
 */
 export class ElasticacheParameterGroup extends cdktn.TerraformResource {
 
@@ -199,7 +199,7 @@ export class ElasticacheParameterGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticacheParameterGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticacheParameterGroup to import
-  * @param importFromId The id of the existing ElasticacheParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticacheParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticacheParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +211,7 @@ export class ElasticacheParameterGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,7 @@ export class ElasticacheParameterGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticache_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,55 @@ import * as cdktn from 'cdktn';
 
 export interface SecurityhubAutomationRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#description SecurityhubAutomationRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#description SecurityhubAutomationRule#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#is_terminal SecurityhubAutomationRule#is_terminal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#is_terminal SecurityhubAutomationRule#is_terminal}
   */
   readonly isTerminal?: boolean | cdktn.IResolvable;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#region SecurityhubAutomationRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#region SecurityhubAutomationRule#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#rule_name SecurityhubAutomationRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#rule_name SecurityhubAutomationRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#rule_order SecurityhubAutomationRule#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#rule_order SecurityhubAutomationRule#rule_order}
   */
   readonly ruleOrder: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#rule_status SecurityhubAutomationRule#rule_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#rule_status SecurityhubAutomationRule#rule_status}
   */
   readonly ruleStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#tags SecurityhubAutomationRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#tags SecurityhubAutomationRule#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#actions SecurityhubAutomationRule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#actions SecurityhubAutomationRule#actions}
   */
   readonly actions?: SecurityhubAutomationRuleActions[] | cdktn.IResolvable;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#criteria SecurityhubAutomationRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#criteria SecurityhubAutomationRule#criteria}
   */
   readonly criteria?: SecurityhubAutomationRuleCriteria[] | cdktn.IResolvable;
 }
 export interface SecurityhubAutomationRuleActionsFindingFieldsUpdateNote {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#text SecurityhubAutomationRule#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#text SecurityhubAutomationRule#text}
   */
   readonly text: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#updated_by SecurityhubAutomationRule#updated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#updated_by SecurityhubAutomationRule#updated_by}
   */
   readonly updatedBy: string;
 }
@@ -195,14 +195,14 @@ export class SecurityhubAutomationRuleActionsFindingFieldsUpdateNoteList extends
 }
 export interface SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#id SecurityhubAutomationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#id SecurityhubAutomationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#product_arn SecurityhubAutomationRule#product_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#product_arn SecurityhubAutomationRule#product_arn}
   */
   readonly productArn: string;
 }
@@ -341,11 +341,11 @@ export class SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindingsL
 }
 export interface SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#label SecurityhubAutomationRule#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#product SecurityhubAutomationRule#product}
   */
   readonly product?: number;
 }
@@ -490,7 +490,7 @@ export class SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverityList ext
 }
 export interface SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#status SecurityhubAutomationRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#status SecurityhubAutomationRule#status}
   */
   readonly status?: string;
 }
@@ -606,47 +606,47 @@ export class SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflowList ext
 }
 export interface SecurityhubAutomationRuleActionsFindingFieldsUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#confidence SecurityhubAutomationRule#confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#confidence SecurityhubAutomationRule#confidence}
   */
   readonly confidence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#criticality SecurityhubAutomationRule#criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#criticality SecurityhubAutomationRule#criticality}
   */
   readonly criticality?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#types SecurityhubAutomationRule#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#types SecurityhubAutomationRule#types}
   */
   readonly types?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#user_defined_fields SecurityhubAutomationRule#user_defined_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#user_defined_fields SecurityhubAutomationRule#user_defined_fields}
   */
   readonly userDefinedFields?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#verification_state SecurityhubAutomationRule#verification_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#verification_state SecurityhubAutomationRule#verification_state}
   */
   readonly verificationState?: string;
   /**
   * note block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#note SecurityhubAutomationRule#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#note SecurityhubAutomationRule#note}
   */
   readonly note?: SecurityhubAutomationRuleActionsFindingFieldsUpdateNote[] | cdktn.IResolvable;
   /**
   * related_findings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#related_findings SecurityhubAutomationRule#related_findings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#related_findings SecurityhubAutomationRule#related_findings}
   */
   readonly relatedFindings?: SecurityhubAutomationRuleActionsFindingFieldsUpdateRelatedFindings[] | cdktn.IResolvable;
   /**
   * severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#severity SecurityhubAutomationRule#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#severity SecurityhubAutomationRule#severity}
   */
   readonly severity?: SecurityhubAutomationRuleActionsFindingFieldsUpdateSeverity[] | cdktn.IResolvable;
   /**
   * workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#workflow SecurityhubAutomationRule#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#workflow SecurityhubAutomationRule#workflow}
   */
   readonly workflow?: SecurityhubAutomationRuleActionsFindingFieldsUpdateWorkflow[] | cdktn.IResolvable;
 }
@@ -994,13 +994,13 @@ export class SecurityhubAutomationRuleActionsFindingFieldsUpdateList extends cdk
 }
 export interface SecurityhubAutomationRuleActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#type SecurityhubAutomationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#type SecurityhubAutomationRule#type}
   */
   readonly type?: string;
   /**
   * finding_fields_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#finding_fields_update SecurityhubAutomationRule#finding_fields_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#finding_fields_update SecurityhubAutomationRule#finding_fields_update}
   */
   readonly findingFieldsUpdate?: SecurityhubAutomationRuleActionsFindingFieldsUpdate[] | cdktn.IResolvable;
 }
@@ -1145,11 +1145,11 @@ export class SecurityhubAutomationRuleActionsList extends cdktn.ComplexList {
 }
 export interface SecurityhubAutomationRuleCriteriaAwsAccountId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -1288,11 +1288,11 @@ export class SecurityhubAutomationRuleCriteriaAwsAccountIdList extends cdktn.Com
 }
 export interface SecurityhubAutomationRuleCriteriaAwsAccountName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -1431,11 +1431,11 @@ export class SecurityhubAutomationRuleCriteriaAwsAccountNameList extends cdktn.C
 }
 export interface SecurityhubAutomationRuleCriteriaCompanyName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -1574,11 +1574,11 @@ export class SecurityhubAutomationRuleCriteriaCompanyNameList extends cdktn.Comp
 }
 export interface SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -1717,11 +1717,11 @@ export class SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsIdLis
 }
 export interface SecurityhubAutomationRuleCriteriaComplianceSecurityControlId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -1860,11 +1860,11 @@ export class SecurityhubAutomationRuleCriteriaComplianceSecurityControlIdList ex
 }
 export interface SecurityhubAutomationRuleCriteriaComplianceStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -2003,23 +2003,23 @@ export class SecurityhubAutomationRuleCriteriaComplianceStatusList extends cdktn
 }
 export interface SecurityhubAutomationRuleCriteriaConfidence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#eq SecurityhubAutomationRule#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#eq SecurityhubAutomationRule#eq}
   */
   readonly eq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#gt SecurityhubAutomationRule#gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#gt SecurityhubAutomationRule#gt}
   */
   readonly gt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#gte SecurityhubAutomationRule#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#gte SecurityhubAutomationRule#gte}
   */
   readonly gte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#lt SecurityhubAutomationRule#lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#lt SecurityhubAutomationRule#lt}
   */
   readonly lt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#lte SecurityhubAutomationRule#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#lte SecurityhubAutomationRule#lte}
   */
   readonly lte?: number;
 }
@@ -2251,11 +2251,11 @@ export class SecurityhubAutomationRuleCriteriaConfidenceList extends cdktn.Compl
 }
 export interface SecurityhubAutomationRuleCriteriaCreatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: number;
 }
@@ -2394,17 +2394,17 @@ export class SecurityhubAutomationRuleCriteriaCreatedAtDateRangeList extends cdk
 }
 export interface SecurityhubAutomationRuleCriteriaCreatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
   */
   readonly dateRange?: SecurityhubAutomationRuleCriteriaCreatedAtDateRange[] | cdktn.IResolvable;
 }
@@ -2578,23 +2578,23 @@ export class SecurityhubAutomationRuleCriteriaCreatedAtList extends cdktn.Comple
 }
 export interface SecurityhubAutomationRuleCriteriaCriticality {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#eq SecurityhubAutomationRule#eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#eq SecurityhubAutomationRule#eq}
   */
   readonly eq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#gt SecurityhubAutomationRule#gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#gt SecurityhubAutomationRule#gt}
   */
   readonly gt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#gte SecurityhubAutomationRule#gte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#gte SecurityhubAutomationRule#gte}
   */
   readonly gte?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#lt SecurityhubAutomationRule#lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#lt SecurityhubAutomationRule#lt}
   */
   readonly lt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#lte SecurityhubAutomationRule#lte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#lte SecurityhubAutomationRule#lte}
   */
   readonly lte?: number;
 }
@@ -2826,11 +2826,11 @@ export class SecurityhubAutomationRuleCriteriaCriticalityList extends cdktn.Comp
 }
 export interface SecurityhubAutomationRuleCriteriaDescription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -2969,11 +2969,11 @@ export class SecurityhubAutomationRuleCriteriaDescriptionList extends cdktn.Comp
 }
 export interface SecurityhubAutomationRuleCriteriaFirstObservedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: number;
 }
@@ -3112,17 +3112,17 @@ export class SecurityhubAutomationRuleCriteriaFirstObservedAtDateRangeList exten
 }
 export interface SecurityhubAutomationRuleCriteriaFirstObservedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
   */
   readonly dateRange?: SecurityhubAutomationRuleCriteriaFirstObservedAtDateRange[] | cdktn.IResolvable;
 }
@@ -3296,11 +3296,11 @@ export class SecurityhubAutomationRuleCriteriaFirstObservedAtList extends cdktn.
 }
 export interface SecurityhubAutomationRuleCriteriaGeneratorId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -3439,11 +3439,11 @@ export class SecurityhubAutomationRuleCriteriaGeneratorIdList extends cdktn.Comp
 }
 export interface SecurityhubAutomationRuleCriteriaId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -3582,11 +3582,11 @@ export class SecurityhubAutomationRuleCriteriaIdList extends cdktn.ComplexList {
 }
 export interface SecurityhubAutomationRuleCriteriaLastObservedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: number;
 }
@@ -3725,17 +3725,17 @@ export class SecurityhubAutomationRuleCriteriaLastObservedAtDateRangeList extend
 }
 export interface SecurityhubAutomationRuleCriteriaLastObservedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
   */
   readonly dateRange?: SecurityhubAutomationRuleCriteriaLastObservedAtDateRange[] | cdktn.IResolvable;
 }
@@ -3909,11 +3909,11 @@ export class SecurityhubAutomationRuleCriteriaLastObservedAtList extends cdktn.C
 }
 export interface SecurityhubAutomationRuleCriteriaNoteText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -4052,11 +4052,11 @@ export class SecurityhubAutomationRuleCriteriaNoteTextList extends cdktn.Complex
 }
 export interface SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: number;
 }
@@ -4195,17 +4195,17 @@ export class SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRangeList extends
 }
 export interface SecurityhubAutomationRuleCriteriaNoteUpdatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
   */
   readonly dateRange?: SecurityhubAutomationRuleCriteriaNoteUpdatedAtDateRange[] | cdktn.IResolvable;
 }
@@ -4379,11 +4379,11 @@ export class SecurityhubAutomationRuleCriteriaNoteUpdatedAtList extends cdktn.Co
 }
 export interface SecurityhubAutomationRuleCriteriaNoteUpdatedBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -4522,11 +4522,11 @@ export class SecurityhubAutomationRuleCriteriaNoteUpdatedByList extends cdktn.Co
 }
 export interface SecurityhubAutomationRuleCriteriaProductArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -4665,11 +4665,11 @@ export class SecurityhubAutomationRuleCriteriaProductArnList extends cdktn.Compl
 }
 export interface SecurityhubAutomationRuleCriteriaProductName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -4808,11 +4808,11 @@ export class SecurityhubAutomationRuleCriteriaProductNameList extends cdktn.Comp
 }
 export interface SecurityhubAutomationRuleCriteriaRecordState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -4951,11 +4951,11 @@ export class SecurityhubAutomationRuleCriteriaRecordStateList extends cdktn.Comp
 }
 export interface SecurityhubAutomationRuleCriteriaRelatedFindingsId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -5094,11 +5094,11 @@ export class SecurityhubAutomationRuleCriteriaRelatedFindingsIdList extends cdkt
 }
 export interface SecurityhubAutomationRuleCriteriaRelatedFindingsProductArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -5237,11 +5237,11 @@ export class SecurityhubAutomationRuleCriteriaRelatedFindingsProductArnList exte
 }
 export interface SecurityhubAutomationRuleCriteriaResourceApplicationArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -5380,11 +5380,11 @@ export class SecurityhubAutomationRuleCriteriaResourceApplicationArnList extends
 }
 export interface SecurityhubAutomationRuleCriteriaResourceApplicationName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -5523,15 +5523,15 @@ export class SecurityhubAutomationRuleCriteriaResourceApplicationNameList extend
 }
 export interface SecurityhubAutomationRuleCriteriaResourceDetailsOther {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#key SecurityhubAutomationRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#key SecurityhubAutomationRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -5696,11 +5696,11 @@ export class SecurityhubAutomationRuleCriteriaResourceDetailsOtherList extends c
 }
 export interface SecurityhubAutomationRuleCriteriaResourceId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -5839,11 +5839,11 @@ export class SecurityhubAutomationRuleCriteriaResourceIdList extends cdktn.Compl
 }
 export interface SecurityhubAutomationRuleCriteriaResourcePartition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -5982,11 +5982,11 @@ export class SecurityhubAutomationRuleCriteriaResourcePartitionList extends cdkt
 }
 export interface SecurityhubAutomationRuleCriteriaResourceRegion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -6125,15 +6125,15 @@ export class SecurityhubAutomationRuleCriteriaResourceRegionList extends cdktn.C
 }
 export interface SecurityhubAutomationRuleCriteriaResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#key SecurityhubAutomationRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#key SecurityhubAutomationRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -6298,11 +6298,11 @@ export class SecurityhubAutomationRuleCriteriaResourceTagsList extends cdktn.Com
 }
 export interface SecurityhubAutomationRuleCriteriaResourceType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -6441,11 +6441,11 @@ export class SecurityhubAutomationRuleCriteriaResourceTypeList extends cdktn.Com
 }
 export interface SecurityhubAutomationRuleCriteriaSeverityLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -6584,11 +6584,11 @@ export class SecurityhubAutomationRuleCriteriaSeverityLabelList extends cdktn.Co
 }
 export interface SecurityhubAutomationRuleCriteriaSourceUrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -6727,11 +6727,11 @@ export class SecurityhubAutomationRuleCriteriaSourceUrlList extends cdktn.Comple
 }
 export interface SecurityhubAutomationRuleCriteriaTitle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -6870,11 +6870,11 @@ export class SecurityhubAutomationRuleCriteriaTitleList extends cdktn.ComplexLis
 }
 export interface SecurityhubAutomationRuleCriteriaType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -7013,11 +7013,11 @@ export class SecurityhubAutomationRuleCriteriaTypeList extends cdktn.ComplexList
 }
 export interface SecurityhubAutomationRuleCriteriaUpdatedAtDateRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#unit SecurityhubAutomationRule#unit}
   */
   readonly unit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: number;
 }
@@ -7156,17 +7156,17 @@ export class SecurityhubAutomationRuleCriteriaUpdatedAtDateRangeList extends cdk
 }
 export interface SecurityhubAutomationRuleCriteriaUpdatedAt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#end SecurityhubAutomationRule#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#start SecurityhubAutomationRule#start}
   */
   readonly start?: string;
   /**
   * date_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#date_range SecurityhubAutomationRule#date_range}
   */
   readonly dateRange?: SecurityhubAutomationRuleCriteriaUpdatedAtDateRange[] | cdktn.IResolvable;
 }
@@ -7340,15 +7340,15 @@ export class SecurityhubAutomationRuleCriteriaUpdatedAtList extends cdktn.Comple
 }
 export interface SecurityhubAutomationRuleCriteriaUserDefinedFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#key SecurityhubAutomationRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#key SecurityhubAutomationRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -7513,11 +7513,11 @@ export class SecurityhubAutomationRuleCriteriaUserDefinedFieldsList extends cdkt
 }
 export interface SecurityhubAutomationRuleCriteriaVerificationState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -7656,11 +7656,11 @@ export class SecurityhubAutomationRuleCriteriaVerificationStateList extends cdkt
 }
 export interface SecurityhubAutomationRuleCriteriaWorkflowStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#comparison SecurityhubAutomationRule#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#value SecurityhubAutomationRule#value}
   */
   readonly value: string;
 }
@@ -7801,79 +7801,79 @@ export interface SecurityhubAutomationRuleCriteria {
   /**
   * aws_account_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#aws_account_id SecurityhubAutomationRule#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#aws_account_id SecurityhubAutomationRule#aws_account_id}
   */
   readonly awsAccountId?: SecurityhubAutomationRuleCriteriaAwsAccountId[] | cdktn.IResolvable;
   /**
   * aws_account_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#aws_account_name SecurityhubAutomationRule#aws_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#aws_account_name SecurityhubAutomationRule#aws_account_name}
   */
   readonly awsAccountName?: SecurityhubAutomationRuleCriteriaAwsAccountName[] | cdktn.IResolvable;
   /**
   * company_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#company_name SecurityhubAutomationRule#company_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#company_name SecurityhubAutomationRule#company_name}
   */
   readonly companyName?: SecurityhubAutomationRuleCriteriaCompanyName[] | cdktn.IResolvable;
   /**
   * compliance_associated_standards_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#compliance_associated_standards_id SecurityhubAutomationRule#compliance_associated_standards_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#compliance_associated_standards_id SecurityhubAutomationRule#compliance_associated_standards_id}
   */
   readonly complianceAssociatedStandardsId?: SecurityhubAutomationRuleCriteriaComplianceAssociatedStandardsId[] | cdktn.IResolvable;
   /**
   * compliance_security_control_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#compliance_security_control_id SecurityhubAutomationRule#compliance_security_control_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#compliance_security_control_id SecurityhubAutomationRule#compliance_security_control_id}
   */
   readonly complianceSecurityControlId?: SecurityhubAutomationRuleCriteriaComplianceSecurityControlId[] | cdktn.IResolvable;
   /**
   * compliance_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#compliance_status SecurityhubAutomationRule#compliance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#compliance_status SecurityhubAutomationRule#compliance_status}
   */
   readonly complianceStatus?: SecurityhubAutomationRuleCriteriaComplianceStatus[] | cdktn.IResolvable;
   /**
   * confidence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#confidence SecurityhubAutomationRule#confidence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#confidence SecurityhubAutomationRule#confidence}
   */
   readonly confidence?: SecurityhubAutomationRuleCriteriaConfidence[] | cdktn.IResolvable;
   /**
   * created_at block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#created_at SecurityhubAutomationRule#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#created_at SecurityhubAutomationRule#created_at}
   */
   readonly createdAt?: SecurityhubAutomationRuleCriteriaCreatedAt[] | cdktn.IResolvable;
   /**
   * criticality block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#criticality SecurityhubAutomationRule#criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#criticality SecurityhubAutomationRule#criticality}
   */
   readonly criticality?: SecurityhubAutomationRuleCriteriaCriticality[] | cdktn.IResolvable;
   /**
   * description block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#description SecurityhubAutomationRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#description SecurityhubAutomationRule#description}
   */
   readonly description?: SecurityhubAutomationRuleCriteriaDescription[] | cdktn.IResolvable;
   /**
   * first_observed_at block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#first_observed_at SecurityhubAutomationRule#first_observed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#first_observed_at SecurityhubAutomationRule#first_observed_at}
   */
   readonly firstObservedAt?: SecurityhubAutomationRuleCriteriaFirstObservedAt[] | cdktn.IResolvable;
   /**
   * generator_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#generator_id SecurityhubAutomationRule#generator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#generator_id SecurityhubAutomationRule#generator_id}
   */
   readonly generatorId?: SecurityhubAutomationRuleCriteriaGeneratorId[] | cdktn.IResolvable;
   /**
   * id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#id SecurityhubAutomationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#id SecurityhubAutomationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7882,151 +7882,151 @@ export interface SecurityhubAutomationRuleCriteria {
   /**
   * last_observed_at block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#last_observed_at SecurityhubAutomationRule#last_observed_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#last_observed_at SecurityhubAutomationRule#last_observed_at}
   */
   readonly lastObservedAt?: SecurityhubAutomationRuleCriteriaLastObservedAt[] | cdktn.IResolvable;
   /**
   * note_text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#note_text SecurityhubAutomationRule#note_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#note_text SecurityhubAutomationRule#note_text}
   */
   readonly noteText?: SecurityhubAutomationRuleCriteriaNoteText[] | cdktn.IResolvable;
   /**
   * note_updated_at block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#note_updated_at SecurityhubAutomationRule#note_updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#note_updated_at SecurityhubAutomationRule#note_updated_at}
   */
   readonly noteUpdatedAt?: SecurityhubAutomationRuleCriteriaNoteUpdatedAt[] | cdktn.IResolvable;
   /**
   * note_updated_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#note_updated_by SecurityhubAutomationRule#note_updated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#note_updated_by SecurityhubAutomationRule#note_updated_by}
   */
   readonly noteUpdatedBy?: SecurityhubAutomationRuleCriteriaNoteUpdatedBy[] | cdktn.IResolvable;
   /**
   * product_arn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#product_arn SecurityhubAutomationRule#product_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#product_arn SecurityhubAutomationRule#product_arn}
   */
   readonly productArn?: SecurityhubAutomationRuleCriteriaProductArn[] | cdktn.IResolvable;
   /**
   * product_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#product_name SecurityhubAutomationRule#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#product_name SecurityhubAutomationRule#product_name}
   */
   readonly productName?: SecurityhubAutomationRuleCriteriaProductName[] | cdktn.IResolvable;
   /**
   * record_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#record_state SecurityhubAutomationRule#record_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#record_state SecurityhubAutomationRule#record_state}
   */
   readonly recordState?: SecurityhubAutomationRuleCriteriaRecordState[] | cdktn.IResolvable;
   /**
   * related_findings_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#related_findings_id SecurityhubAutomationRule#related_findings_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#related_findings_id SecurityhubAutomationRule#related_findings_id}
   */
   readonly relatedFindingsId?: SecurityhubAutomationRuleCriteriaRelatedFindingsId[] | cdktn.IResolvable;
   /**
   * related_findings_product_arn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#related_findings_product_arn SecurityhubAutomationRule#related_findings_product_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#related_findings_product_arn SecurityhubAutomationRule#related_findings_product_arn}
   */
   readonly relatedFindingsProductArn?: SecurityhubAutomationRuleCriteriaRelatedFindingsProductArn[] | cdktn.IResolvable;
   /**
   * resource_application_arn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_application_arn SecurityhubAutomationRule#resource_application_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_application_arn SecurityhubAutomationRule#resource_application_arn}
   */
   readonly resourceApplicationArn?: SecurityhubAutomationRuleCriteriaResourceApplicationArn[] | cdktn.IResolvable;
   /**
   * resource_application_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_application_name SecurityhubAutomationRule#resource_application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_application_name SecurityhubAutomationRule#resource_application_name}
   */
   readonly resourceApplicationName?: SecurityhubAutomationRuleCriteriaResourceApplicationName[] | cdktn.IResolvable;
   /**
   * resource_details_other block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_details_other SecurityhubAutomationRule#resource_details_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_details_other SecurityhubAutomationRule#resource_details_other}
   */
   readonly resourceDetailsOther?: SecurityhubAutomationRuleCriteriaResourceDetailsOther[] | cdktn.IResolvable;
   /**
   * resource_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_id SecurityhubAutomationRule#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_id SecurityhubAutomationRule#resource_id}
   */
   readonly resourceId?: SecurityhubAutomationRuleCriteriaResourceId[] | cdktn.IResolvable;
   /**
   * resource_partition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_partition SecurityhubAutomationRule#resource_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_partition SecurityhubAutomationRule#resource_partition}
   */
   readonly resourcePartition?: SecurityhubAutomationRuleCriteriaResourcePartition[] | cdktn.IResolvable;
   /**
   * resource_region block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_region SecurityhubAutomationRule#resource_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_region SecurityhubAutomationRule#resource_region}
   */
   readonly resourceRegion?: SecurityhubAutomationRuleCriteriaResourceRegion[] | cdktn.IResolvable;
   /**
   * resource_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_tags SecurityhubAutomationRule#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_tags SecurityhubAutomationRule#resource_tags}
   */
   readonly resourceTags?: SecurityhubAutomationRuleCriteriaResourceTags[] | cdktn.IResolvable;
   /**
   * resource_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#resource_type SecurityhubAutomationRule#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#resource_type SecurityhubAutomationRule#resource_type}
   */
   readonly resourceType?: SecurityhubAutomationRuleCriteriaResourceType[] | cdktn.IResolvable;
   /**
   * severity_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#severity_label SecurityhubAutomationRule#severity_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#severity_label SecurityhubAutomationRule#severity_label}
   */
   readonly severityLabel?: SecurityhubAutomationRuleCriteriaSeverityLabel[] | cdktn.IResolvable;
   /**
   * source_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#source_url SecurityhubAutomationRule#source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#source_url SecurityhubAutomationRule#source_url}
   */
   readonly sourceUrl?: SecurityhubAutomationRuleCriteriaSourceUrl[] | cdktn.IResolvable;
   /**
   * title block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#title SecurityhubAutomationRule#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#title SecurityhubAutomationRule#title}
   */
   readonly title?: SecurityhubAutomationRuleCriteriaTitle[] | cdktn.IResolvable;
   /**
   * type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#type SecurityhubAutomationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#type SecurityhubAutomationRule#type}
   */
   readonly type?: SecurityhubAutomationRuleCriteriaType[] | cdktn.IResolvable;
   /**
   * updated_at block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#updated_at SecurityhubAutomationRule#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#updated_at SecurityhubAutomationRule#updated_at}
   */
   readonly updatedAt?: SecurityhubAutomationRuleCriteriaUpdatedAt[] | cdktn.IResolvable;
   /**
   * user_defined_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#user_defined_fields SecurityhubAutomationRule#user_defined_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#user_defined_fields SecurityhubAutomationRule#user_defined_fields}
   */
   readonly userDefinedFields?: SecurityhubAutomationRuleCriteriaUserDefinedFields[] | cdktn.IResolvable;
   /**
   * verification_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#verification_state SecurityhubAutomationRule#verification_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#verification_state SecurityhubAutomationRule#verification_state}
   */
   readonly verificationState?: SecurityhubAutomationRuleCriteriaVerificationState[] | cdktn.IResolvable;
   /**
   * workflow_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#workflow_status SecurityhubAutomationRule#workflow_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#workflow_status SecurityhubAutomationRule#workflow_status}
   */
   readonly workflowStatus?: SecurityhubAutomationRuleCriteriaWorkflowStatus[] | cdktn.IResolvable;
 }
@@ -9215,7 +9215,7 @@ export class SecurityhubAutomationRuleCriteriaList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule}
 */
 export class SecurityhubAutomationRule extends cdktn.TerraformResource {
 
@@ -9231,7 +9231,7 @@ export class SecurityhubAutomationRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubAutomationRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubAutomationRule to import
-  * @param importFromId The id of the existing SecurityhubAutomationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubAutomationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubAutomationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -9243,7 +9243,7 @@ export class SecurityhubAutomationRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/securityhub_automation_rule aws_securityhub_automation_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9254,7 +9254,7 @@ export class SecurityhubAutomationRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_securityhub_automation_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

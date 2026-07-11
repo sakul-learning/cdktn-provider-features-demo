@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface EcsDaemonConfig extends cdktn.TerraformMetaArguments {
   /**
   * The Amazon Resource Names (ARNs) of the capacity providers associated with the daemon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
   */
   readonly capacityProviderArns?: string[];
   /**
   * The Amazon Resource Name (ARN) of the cluster that the daemon is running in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
   */
   readonly clusterArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}
   */
   readonly daemonName?: string;
   /**
   * The Amazon Resource Name (ARN) of the daemon task definition used by this revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
   */
   readonly daemonTaskDefinitionArn?: string;
   /**
   * The deployment configuration used for this daemon deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
   */
   readonly deploymentConfiguration?: EcsDaemonDeploymentConfiguration;
   /**
   * Specifies whether Amazon ECS managed tags are turned on for the daemon tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether the execute command functionality is turned on for the daemon tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether tags are propagated from the daemon to the daemon tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}
   */
   readonly tags?: EcsDaemonTags[] | cdktn.IResolvable;
 }
@@ -62,13 +62,13 @@ export interface EcsDaemonDeploymentConfigurationAlarms {
   /**
   * The CloudWatch alarm names to monitor during a daemon deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}
   */
   readonly alarmNames?: string[];
   /**
   * Determines whether to use the CloudWatch alarm option in the daemon deployment process. The default value is ``false``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}
   */
   readonly enable?: boolean | cdktn.IResolvable;
 }
@@ -193,19 +193,19 @@ export interface EcsDaemonDeploymentConfiguration {
   /**
   * The CloudWatch alarm configuration for the daemon deployment. When alarms are triggered during a deployment, the deployment can be automatically rolled back.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
   */
   readonly alarms?: EcsDaemonDeploymentConfigurationAlarms;
   /**
   * The amount of time (in minutes) to wait after a successful deployment step before proceeding. This allows time to monitor for issues before continuing. The default value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}
   */
   readonly bakeTimeInMinutes?: number;
   /**
   * The percentage of container instances to drain simultaneously during a daemon deployment. Valid values are between 0.0 and 100.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}
   */
   readonly drainPercent?: number;
 }
@@ -359,13 +359,13 @@ export interface EcsDaemonTags {
   /**
   * One part of a key-value pair that make up a tag. A ``key`` is a general label that acts like a category for more specific tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#key EcsDaemon#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#key EcsDaemon#key}
   */
   readonly key?: string;
   /**
   * The optional part of a key-value pair that make up a tag. A ``value`` acts as a descriptor within a tag category (key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#value EcsDaemon#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#value EcsDaemon#value}
   */
   readonly value?: string;
 }
@@ -510,7 +510,7 @@ export class EcsDaemonTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon awscc_ecs_daemon}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon awscc_ecs_daemon}
 */
 export class EcsDaemon extends cdktn.TerraformResource {
 
@@ -526,7 +526,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcsDaemon resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsDaemon to import
-  * @param importFromId The id of the existing EcsDaemon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsDaemon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsDaemon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -538,7 +538,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,7 +549,7 @@ export class EcsDaemon extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ecs_daemon',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

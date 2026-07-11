@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Ec2InstanceConnectEndpointConfig extends cdktn.TerraformMetaArg
   /**
   * The client token of the instance connect endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#client_token Ec2InstanceConnectEndpoint#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#client_token Ec2InstanceConnectEndpoint#client_token}
   */
   readonly clientToken?: string;
   /**
   * Indicates whether your client's IP address is preserved as the source when you connect to a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#preserve_client_ip Ec2InstanceConnectEndpoint#preserve_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#preserve_client_ip Ec2InstanceConnectEndpoint#preserve_client_ip}
   */
   readonly preserveClientIp?: boolean | cdktn.IResolvable;
   /**
   * The security groups associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#security_group_ids Ec2InstanceConnectEndpoint#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#security_group_ids Ec2InstanceConnectEndpoint#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnet in which the EC2 Instance Connect Endpoint was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#subnet_id Ec2InstanceConnectEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#subnet_id Ec2InstanceConnectEndpoint#subnet_id}
   */
   readonly subnetId: string;
   /**
   * The tags assigned to the EC2 Instance Connect Endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#tags Ec2InstanceConnectEndpoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#tags Ec2InstanceConnectEndpoint#tags}
   */
   readonly tags?: Ec2InstanceConnectEndpointTags[] | cdktn.IResolvable;
 }
@@ -219,11 +219,11 @@ export class Ec2InstanceConnectEndpointPublicDnsNamesOutputReference extends cdk
 }
 export interface Ec2InstanceConnectEndpointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#key Ec2InstanceConnectEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#key Ec2InstanceConnectEndpoint#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#value Ec2InstanceConnectEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#value Ec2InstanceConnectEndpoint#value}
   */
   readonly value?: string;
 }
@@ -368,7 +368,7 @@ export class Ec2InstanceConnectEndpointTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}
 */
 export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
 
@@ -384,7 +384,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2InstanceConnectEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2InstanceConnectEndpoint to import
-  * @param importFromId The id of the existing Ec2InstanceConnectEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2InstanceConnectEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2InstanceConnectEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -396,7 +396,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,7 +407,7 @@ export class Ec2InstanceConnectEndpoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_instance_connect_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ConnectPredefinedAttributeConfig extends cdktn.TerraformMetaArg
   /**
   * Custom metadata associated to a Predefined attribute that controls how the attribute behaves when used by upstream services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
   */
   readonly attributeConfiguration?: ConnectPredefinedAttributeAttributeConfiguration;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name of the predefined attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
   */
   readonly name: string;
   /**
   * The assigned purposes of the predefined attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
   */
   readonly purposes?: string[];
   /**
   * The values of a predefined attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
   */
   readonly values?: ConnectPredefinedAttributeValues;
 }
@@ -42,13 +42,13 @@ export interface ConnectPredefinedAttributeAttributeConfiguration {
   /**
   * Enables customers to enforce strict validation on the specific values that this predefined attribute can hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#enable_value_validation_on_association ConnectPredefinedAttribute#enable_value_validation_on_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#enable_value_validation_on_association ConnectPredefinedAttribute#enable_value_validation_on_association}
   */
   readonly enableValueValidationOnAssociation?: boolean | cdktn.IResolvable;
   /**
   * Allows the predefined attribute to show up and be managed in the Amazon Connect UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#is_read_only ConnectPredefinedAttribute#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#is_read_only ConnectPredefinedAttribute#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktn.IResolvable;
 }
@@ -173,7 +173,7 @@ export interface ConnectPredefinedAttributeValues {
   /**
   * Predefined attribute values of type string list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#string_list ConnectPredefinedAttribute#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#string_list ConnectPredefinedAttribute#string_list}
   */
   readonly stringList?: string[];
 }
@@ -267,7 +267,7 @@ export class ConnectPredefinedAttributeValuesOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}
 */
 export class ConnectPredefinedAttribute extends cdktn.TerraformResource {
 
@@ -283,7 +283,7 @@ export class ConnectPredefinedAttribute extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectPredefinedAttribute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectPredefinedAttribute to import
-  * @param importFromId The id of the existing ConnectPredefinedAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectPredefinedAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectPredefinedAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -295,7 +295,7 @@ export class ConnectPredefinedAttribute extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,7 +306,7 @@ export class ConnectPredefinedAttribute extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_predefined_attribute',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface PersonalizeDatasetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of the dataset group to add the dataset to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#dataset_group_arn PersonalizeDataset#dataset_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#dataset_group_arn PersonalizeDataset#dataset_group_arn}
   */
   readonly datasetGroupArn: string;
   /**
   * Initial DatasetImportJob for the created dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#dataset_import_job PersonalizeDataset#dataset_import_job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#dataset_import_job PersonalizeDataset#dataset_import_job}
   */
   readonly datasetImportJob?: PersonalizeDatasetDatasetImportJob;
   /**
   * The type of dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#dataset_type PersonalizeDataset#dataset_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#dataset_type PersonalizeDataset#dataset_type}
   */
   readonly datasetType: string;
   /**
   * The name for the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#name PersonalizeDataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#name PersonalizeDataset#name}
   */
   readonly name: string;
   /**
   * The ARN of the schema to associate with the dataset. The schema defines the dataset fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#schema_arn PersonalizeDataset#schema_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#schema_arn PersonalizeDataset#schema_arn}
   */
   readonly schemaArn: string;
 }
@@ -42,7 +42,7 @@ export interface PersonalizeDatasetDatasetImportJobDataSource {
   /**
   * The path to the Amazon S3 bucket where the data that you want to upload to your dataset is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#data_location PersonalizeDataset#data_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#data_location PersonalizeDataset#data_location}
   */
   readonly dataLocation?: string;
 }
@@ -138,31 +138,31 @@ export interface PersonalizeDatasetDatasetImportJob {
   /**
   * The Amazon S3 bucket that contains the training data to import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#data_source PersonalizeDataset#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#data_source PersonalizeDataset#data_source}
   */
   readonly dataSource?: PersonalizeDatasetDatasetImportJobDataSource;
   /**
   * The ARN of the dataset that receives the imported data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#dataset_arn PersonalizeDataset#dataset_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#dataset_arn PersonalizeDataset#dataset_arn}
   */
   readonly datasetArn?: string;
   /**
   * The ARN of the dataset import job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#dataset_import_job_arn PersonalizeDataset#dataset_import_job_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#dataset_import_job_arn PersonalizeDataset#dataset_import_job_arn}
   */
   readonly datasetImportJobArn?: string;
   /**
   * The name for the dataset import job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#job_name PersonalizeDataset#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#job_name PersonalizeDataset#job_name}
   */
   readonly jobName?: string;
   /**
   * The ARN of the IAM role that has permissions to read from the Amazon S3 data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#role_arn PersonalizeDataset#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#role_arn PersonalizeDataset#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -372,7 +372,7 @@ export class PersonalizeDatasetDatasetImportJobOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset awscc_personalize_dataset}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset awscc_personalize_dataset}
 */
 export class PersonalizeDataset extends cdktn.TerraformResource {
 
@@ -388,7 +388,7 @@ export class PersonalizeDataset extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PersonalizeDataset resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PersonalizeDataset to import
-  * @param importFromId The id of the existing PersonalizeDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PersonalizeDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PersonalizeDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -400,7 +400,7 @@ export class PersonalizeDataset extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/personalize_dataset awscc_personalize_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/personalize_dataset awscc_personalize_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -411,7 +411,7 @@ export class PersonalizeDataset extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_personalize_dataset',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

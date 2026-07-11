@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface ControltowerLandingZoneConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}
   */
   readonly manifest: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}
   */
   readonly remediationTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}
   */
   readonly tags?: ControltowerLandingZoneTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}
   */
   readonly version: string;
 }
 export interface ControltowerLandingZoneTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}
   */
   readonly value?: string;
 }
@@ -175,7 +175,7 @@ export class ControltowerLandingZoneTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone awscc_controltower_landing_zone}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone awscc_controltower_landing_zone}
 */
 export class ControltowerLandingZone extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ControltowerLandingZone resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ControltowerLandingZone to import
-  * @param importFromId The id of the existing ControltowerLandingZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ControltowerLandingZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ControltowerLandingZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/controltower_landing_zone awscc_controltower_landing_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_landing_zone awscc_controltower_landing_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class ControltowerLandingZone extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_controltower_landing_zone',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

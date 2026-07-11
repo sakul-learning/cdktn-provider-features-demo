@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEc2LocalGatewayVirtualInterfaceGroupsConfig extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups}
 */
 export class DataAwsccEc2LocalGatewayVirtualInterfaceGroups extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEc2LocalGatewayVirtualInterfaceGroups extends cdktn.Terraf
   * Generates CDKTN code for importing a DataAwsccEc2LocalGatewayVirtualInterfaceGroups resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2LocalGatewayVirtualInterfaceGroups to import
-  * @param importFromId The id of the existing DataAwsccEc2LocalGatewayVirtualInterfaceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2LocalGatewayVirtualInterfaceGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2LocalGatewayVirtualInterfaceGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEc2LocalGatewayVirtualInterfaceGroups extends cdktn.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEc2LocalGatewayVirtualInterfaceGroups extends cdktn.Terraf
       terraformResourceType: 'awscc_ec2_local_gateway_virtual_interface_groups',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

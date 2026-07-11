@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppsyncApiConfig extends cdktn.TerraformMetaArguments {
   /**
   * The configuration for an Event Api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
   */
   readonly eventConfig?: AppsyncApiEventConfig;
   /**
   * The name of the AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#name AppsyncApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#name AppsyncApi#name}
   */
   readonly name: string;
   /**
   * The owner contact information for an API resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
   */
   readonly ownerContact?: string;
   /**
   * An arbitrary set of tags (key-value pairs) for this AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#tags AppsyncApi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#tags AppsyncApi#tags}
   */
   readonly tags?: AppsyncApiTags[] | cdktn.IResolvable;
 }
@@ -93,15 +93,15 @@ export class AppsyncApiDnsOutputReference extends cdktn.ComplexObject {
 }
 export interface AppsyncApiEventConfigAuthProvidersCognitoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#app_id_client_regex AppsyncApi#app_id_client_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#app_id_client_regex AppsyncApi#app_id_client_regex}
   */
   readonly appIdClientRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#aws_region AppsyncApi#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#aws_region AppsyncApi#aws_region}
   */
   readonly awsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#user_pool_id AppsyncApi#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#user_pool_id AppsyncApi#user_pool_id}
   */
   readonly userPoolId?: string;
 }
@@ -253,15 +253,15 @@ export class AppsyncApiEventConfigAuthProvidersCognitoConfigOutputReference exte
 }
 export interface AppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#authorizer_result_ttl_in_seconds AppsyncApi#authorizer_result_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#authorizer_result_ttl_in_seconds AppsyncApi#authorizer_result_ttl_in_seconds}
   */
   readonly authorizerResultTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#authorizer_uri AppsyncApi#authorizer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#authorizer_uri AppsyncApi#authorizer_uri}
   */
   readonly authorizerUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#identity_validation_expression AppsyncApi#identity_validation_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#identity_validation_expression AppsyncApi#identity_validation_expression}
   */
   readonly identityValidationExpression?: string;
 }
@@ -413,19 +413,19 @@ export class AppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfigOutputRefer
 }
 export interface AppsyncApiEventConfigAuthProvidersOpenIdConnectConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#auth_ttl AppsyncApi#auth_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#auth_ttl AppsyncApi#auth_ttl}
   */
   readonly authTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#client_id AppsyncApi#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#client_id AppsyncApi#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#iat_ttl AppsyncApi#iat_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#iat_ttl AppsyncApi#iat_ttl}
   */
   readonly iatTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#issuer AppsyncApi#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#issuer AppsyncApi#issuer}
   */
   readonly issuer?: string;
 }
@@ -608,25 +608,25 @@ export interface AppsyncApiEventConfigAuthProviders {
   /**
   * Security configuration for your AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType?: string;
   /**
   * Optional authorization configuration for using Amazon Cognito user pools with your API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
   */
   readonly cognitoConfig?: AppsyncApiEventConfigAuthProvidersCognitoConfig;
   /**
   * A LambdaAuthorizerConfig holds configuration on how to authorize AWS AppSync API access when using the AWS_LAMBDA authorizer mode. Be aware that an AWS AppSync API may have only one Lambda authorizer configured at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
   */
   readonly lambdaAuthorizerConfig?: AppsyncApiEventConfigAuthProvidersLambdaAuthorizerConfig;
   /**
   * The OpenID Connect configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#open_id_connect_config AppsyncApi#open_id_connect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#open_id_connect_config AppsyncApi#open_id_connect_config}
   */
   readonly openIdConnectConfig?: AppsyncApiEventConfigAuthProvidersOpenIdConnectConfig;
 }
@@ -831,7 +831,7 @@ export interface AppsyncApiEventConfigConnectionAuthModes {
   /**
   * Security configuration for your AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType?: string;
 }
@@ -949,7 +949,7 @@ export interface AppsyncApiEventConfigDefaultPublishAuthModes {
   /**
   * Security configuration for your AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType?: string;
 }
@@ -1067,7 +1067,7 @@ export interface AppsyncApiEventConfigDefaultSubscribeAuthModes {
   /**
   * Security configuration for your AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType?: string;
 }
@@ -1183,13 +1183,13 @@ export class AppsyncApiEventConfigDefaultSubscribeAuthModesList extends cdktn.Co
 }
 export interface AppsyncApiEventConfigLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}
   */
   readonly cloudwatchLogsRoleArn?: string;
   /**
   * Logging level for the AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}
   */
   readonly logLevel?: string;
 }
@@ -1314,31 +1314,31 @@ export interface AppsyncApiEventConfig {
   /**
   * A list of auth providers for the AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#auth_providers AppsyncApi#auth_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#auth_providers AppsyncApi#auth_providers}
   */
   readonly authProviders?: AppsyncApiEventConfigAuthProviders[] | cdktn.IResolvable;
   /**
   * A list of auth modes for the AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#connection_auth_modes AppsyncApi#connection_auth_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#connection_auth_modes AppsyncApi#connection_auth_modes}
   */
   readonly connectionAuthModes?: AppsyncApiEventConfigConnectionAuthModes[] | cdktn.IResolvable;
   /**
   * A list of auth modes for the AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#default_publish_auth_modes AppsyncApi#default_publish_auth_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#default_publish_auth_modes AppsyncApi#default_publish_auth_modes}
   */
   readonly defaultPublishAuthModes?: AppsyncApiEventConfigDefaultPublishAuthModes[] | cdktn.IResolvable;
   /**
   * A list of auth modes for the AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#default_subscribe_auth_modes AppsyncApi#default_subscribe_auth_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#default_subscribe_auth_modes AppsyncApi#default_subscribe_auth_modes}
   */
   readonly defaultSubscribeAuthModes?: AppsyncApiEventConfigDefaultSubscribeAuthModes[] | cdktn.IResolvable;
   /**
   * The log config for the AppSync API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
   */
   readonly logConfig?: AppsyncApiEventConfigLogConfig;
 }
@@ -1550,13 +1550,13 @@ export interface AppsyncApiTags {
   /**
   * A string used to identify this tag. You can specify a maximum of 128 characters for a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#key AppsyncApi#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#key AppsyncApi#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for this tag. You can specify a maximum of 256 characters for a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#value AppsyncApi#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#value AppsyncApi#value}
   */
   readonly value?: string;
 }
@@ -1701,7 +1701,7 @@ export class AppsyncApiTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api awscc_appsync_api}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api awscc_appsync_api}
 */
 export class AppsyncApi extends cdktn.TerraformResource {
 
@@ -1717,7 +1717,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncApi resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncApi to import
-  * @param importFromId The id of the existing AppsyncApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1729,7 +1729,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appsync_api awscc_appsync_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_api awscc_appsync_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1740,7 +1740,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_api',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,119 +10,119 @@ export interface Apigatewayv2IntegrationConfig extends cdktn.TerraformMetaArgume
   /**
   * The API identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#api_id Apigatewayv2Integration#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#api_id Apigatewayv2Integration#api_id}
   */
   readonly apiId: string;
   /**
   * The ID of the VPC link for a private integration. Supported only for HTTP APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#connection_id Apigatewayv2Integration#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#connection_id Apigatewayv2Integration#connection_id}
   */
   readonly connectionId?: string;
   /**
   * The type of the network connection to the integration endpoint. Specify INTERNET for connections through the public routable internet or VPC_LINK for private connections between API Gateway and resources in a VPC. The default value is INTERNET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#connection_type Apigatewayv2Integration#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#connection_type Apigatewayv2Integration#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Supported only for WebSocket APIs. Specifies how to handle response payload content type conversions. Supported values are CONVERT_TO_BINARY and CONVERT_TO_TEXT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#content_handling_strategy Apigatewayv2Integration#content_handling_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#content_handling_strategy Apigatewayv2Integration#content_handling_strategy}
   */
   readonly contentHandlingStrategy?: string;
   /**
   * Specifies the credentials required for the integration, if any. For AWS integrations, three options are available. To specify an IAM Role for API Gateway to assume, use the role's Amazon Resource Name (ARN). To require that the caller's identity be passed through from the request, specify the string arn:aws:iam::*:user/*. To use resource-based permissions on supported AWS services, don't specify this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#credentials_arn Apigatewayv2Integration#credentials_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#credentials_arn Apigatewayv2Integration#credentials_arn}
   */
   readonly credentialsArn?: string;
   /**
   * The description of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#description Apigatewayv2Integration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#description Apigatewayv2Integration#description}
   */
   readonly description?: string;
   /**
   * Specifies the integration's HTTP method type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#integration_method Apigatewayv2Integration#integration_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#integration_method Apigatewayv2Integration#integration_method}
   */
   readonly integrationMethod?: string;
   /**
   * Supported only for HTTP API AWS_PROXY integrations. Specifies the AWS service action to invoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#integration_subtype Apigatewayv2Integration#integration_subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#integration_subtype Apigatewayv2Integration#integration_subtype}
   */
   readonly integrationSubtype?: string;
   /**
   * The integration type of an integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#integration_type Apigatewayv2Integration#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#integration_type Apigatewayv2Integration#integration_type}
   */
   readonly integrationType: string;
   /**
   * For a Lambda integration, specify the URI of a Lambda function. For an HTTP integration, specify a fully-qualified URL. For an HTTP API private integration, specify the ARN of an Application Load Balancer listener, Network Load Balancer listener, or AWS Cloud Map service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#integration_uri Apigatewayv2Integration#integration_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#integration_uri Apigatewayv2Integration#integration_uri}
   */
   readonly integrationUri?: string;
   /**
   * Specifies the pass-through behavior for incoming requests based on the Content-Type header in the request, and the available mapping templates specified as the requestTemplates property on the Integration resource. There are three valid values: WHEN_NO_MATCH, WHEN_NO_TEMPLATES, and NEVER. Supported only for WebSocket APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#passthrough_behavior Apigatewayv2Integration#passthrough_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#passthrough_behavior Apigatewayv2Integration#passthrough_behavior}
   */
   readonly passthroughBehavior?: string;
   /**
   * Specifies the format of the payload sent to an integration. Required for HTTP APIs. For HTTP APIs, supported values for Lambda proxy integrations are 1.0 and 2.0 For all other integrations, 1.0 is the only supported value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#payload_format_version Apigatewayv2Integration#payload_format_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#payload_format_version Apigatewayv2Integration#payload_format_version}
   */
   readonly payloadFormatVersion?: string;
   /**
   * A key-value map specifying parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#request_parameters Apigatewayv2Integration#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#request_parameters Apigatewayv2Integration#request_parameters}
   */
   readonly requestParameters?: { [key: string]: string };
   /**
   * A map of Velocity templates that are applied on the request payload based on the value of the Content-Type header sent by the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#request_templates Apigatewayv2Integration#request_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#request_templates Apigatewayv2Integration#request_templates}
   */
   readonly requestTemplates?: { [key: string]: string };
   /**
   * Parameters that transform the HTTP response from a backend integration before returning the response to clients. Supported only for HTTP APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#response_parameters Apigatewayv2Integration#response_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#response_parameters Apigatewayv2Integration#response_parameters}
   */
   readonly responseParameters?: { [key: string]: Apigatewayv2IntegrationResponseParameters } | cdktn.IResolvable;
   /**
   * The template selection expression for the integration. Supported only for WebSocket APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#template_selection_expression Apigatewayv2Integration#template_selection_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#template_selection_expression Apigatewayv2Integration#template_selection_expression}
   */
   readonly templateSelectionExpression?: string;
   /**
   * Custom timeout between 50 and 29000 milliseconds for WebSocket APIs and between 50 and 30000 milliseconds for HTTP APIs. The default timeout is 29 seconds for WebSocket APIs and 30 seconds for HTTP APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#timeout_in_millis Apigatewayv2Integration#timeout_in_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#timeout_in_millis Apigatewayv2Integration#timeout_in_millis}
   */
   readonly timeoutInMillis?: number;
   /**
   * The TLS configuration for a private integration. If you specify a TLS configuration, private integration traffic uses the HTTPS protocol. Supported only for HTTP APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#tls_config Apigatewayv2Integration#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#tls_config Apigatewayv2Integration#tls_config}
   */
   readonly tlsConfig?: Apigatewayv2IntegrationTlsConfig;
 }
 export interface Apigatewayv2IntegrationResponseParametersResponseParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#destination Apigatewayv2Integration#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#destination Apigatewayv2Integration#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#source Apigatewayv2Integration#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#source Apigatewayv2Integration#source}
   */
   readonly source?: string;
 }
@@ -269,7 +269,7 @@ export interface Apigatewayv2IntegrationResponseParameters {
   /**
   * list of response parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#response_parameters Apigatewayv2Integration#response_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#response_parameters Apigatewayv2Integration#response_parameters}
   */
   readonly responseParameters?: Apigatewayv2IntegrationResponseParametersResponseParameters[] | cdktn.IResolvable;
 }
@@ -383,7 +383,7 @@ export class Apigatewayv2IntegrationResponseParametersMap extends cdktn.ComplexM
 }
 export interface Apigatewayv2IntegrationTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#server_name_to_verify Apigatewayv2Integration#server_name_to_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#server_name_to_verify Apigatewayv2Integration#server_name_to_verify}
   */
   readonly serverNameToVerify?: string;
 }
@@ -477,7 +477,7 @@ export class Apigatewayv2IntegrationTlsConfigOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration awscc_apigatewayv2_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration awscc_apigatewayv2_integration}
 */
 export class Apigatewayv2Integration extends cdktn.TerraformResource {
 
@@ -493,7 +493,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Apigatewayv2Integration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apigatewayv2Integration to import
-  * @param importFromId The id of the existing Apigatewayv2Integration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apigatewayv2Integration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apigatewayv2Integration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -505,7 +505,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigatewayv2_integration awscc_apigatewayv2_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigatewayv2_integration awscc_apigatewayv2_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -516,7 +516,7 @@ export class Apigatewayv2Integration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigatewayv2_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

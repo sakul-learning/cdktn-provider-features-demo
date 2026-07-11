@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface WisdomMessageTemplateVersionConfig extends cdktn.TerraformMetaA
   /**
   * The unqualified Amazon Resource Name (ARN) of the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
   */
   readonly messageTemplateArn: string;
   /**
   * The content SHA256 of the message template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
   */
   readonly messageTemplateContentSha256?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version}
 */
 export class WisdomMessageTemplateVersion extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class WisdomMessageTemplateVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomMessageTemplateVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomMessageTemplateVersion to import
-  * @param importFromId The id of the existing WisdomMessageTemplateVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomMessageTemplateVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomMessageTemplateVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class WisdomMessageTemplateVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_message_template_version awscc_wisdom_message_template_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class WisdomMessageTemplateVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_message_template_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

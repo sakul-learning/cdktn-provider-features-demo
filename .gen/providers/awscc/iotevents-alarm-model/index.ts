@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface IoteventsAlarmModelConfig extends cdktn.TerraformMetaArguments 
   /**
   * Contains the configuration information of alarm state changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#alarm_capabilities IoteventsAlarmModel#alarm_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#alarm_capabilities IoteventsAlarmModel#alarm_capabilities}
   */
   readonly alarmCapabilities?: IoteventsAlarmModelAlarmCapabilities;
   /**
   * Contains information about one or more alarm actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#alarm_event_actions IoteventsAlarmModel#alarm_event_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#alarm_event_actions IoteventsAlarmModel#alarm_event_actions}
   */
   readonly alarmEventActions?: IoteventsAlarmModelAlarmEventActions;
   /**
   * The description of the alarm model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#alarm_model_description IoteventsAlarmModel#alarm_model_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#alarm_model_description IoteventsAlarmModel#alarm_model_description}
   */
   readonly alarmModelDescription?: string;
   /**
   * The name of the alarm model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#alarm_model_name IoteventsAlarmModel#alarm_model_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#alarm_model_name IoteventsAlarmModel#alarm_model_name}
   */
   readonly alarmModelName?: string;
   /**
   * Defines when your alarm is invoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#alarm_rule IoteventsAlarmModel#alarm_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#alarm_rule IoteventsAlarmModel#alarm_rule}
   */
   readonly alarmRule: IoteventsAlarmModelAlarmRule;
   /**
   * An input attribute used as a key to create an alarm. ITE routes [inputs](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Input.html) associated with this key to the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#key IoteventsAlarmModel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#key IoteventsAlarmModel#key}
   */
   readonly key?: string;
   /**
   * The ARN of the IAM role that allows the alarm to perform actions and access AWS resources. For more information, see [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) in the *General Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#role_arn IoteventsAlarmModel#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#role_arn IoteventsAlarmModel#role_arn}
   */
   readonly roleArn: string;
   /**
   * A non-negative integer that reflects the severity level of the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#severity IoteventsAlarmModel#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#severity IoteventsAlarmModel#severity}
   */
   readonly severity?: number;
   /**
   * A list of key-value pairs that contain metadata for the alarm model. The tags help you manage the alarm model. For more information, see [Tagging your resources](https://docs.aws.amazon.com/iotevents/latest/developerguide/tagging-iotevents.html) in the *Developer Guide*.
   *  You can create up to 50 tags for one alarm model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#tags IoteventsAlarmModel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#tags IoteventsAlarmModel#tags}
   */
   readonly tags?: IoteventsAlarmModelTags[] | cdktn.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface IoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlow {
   /**
   * The value must be ``TRUE`` or ``FALSE``. If ``TRUE``, you receive a notification when the alarm state changes. You must choose to acknowledge the notification before the alarm state can return to ``NORMAL``. If ``FALSE``, you won't receive notifications. The alarm automatically changes to the ``NORMAL`` state when the input property value returns to the specified range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#enabled IoteventsAlarmModel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#enabled IoteventsAlarmModel#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -163,7 +163,7 @@ export interface IoteventsAlarmModelAlarmCapabilitiesInitializationConfiguration
   /**
   * The value must be ``TRUE`` or ``FALSE``. If ``FALSE``, all alarm instances created based on the alarm model are activated. The default value is ``TRUE``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#disabled_on_initialization IoteventsAlarmModel#disabled_on_initialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#disabled_on_initialization IoteventsAlarmModel#disabled_on_initialization}
   */
   readonly disabledOnInitialization?: boolean | cdktn.IResolvable;
 }
@@ -259,13 +259,13 @@ export interface IoteventsAlarmModelAlarmCapabilities {
   /**
   * Specifies whether to get notified for alarm state changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#acknowledge_flow IoteventsAlarmModel#acknowledge_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#acknowledge_flow IoteventsAlarmModel#acknowledge_flow}
   */
   readonly acknowledgeFlow?: IoteventsAlarmModelAlarmCapabilitiesAcknowledgeFlow;
   /**
   * Specifies the default alarm state. The configuration applies to all alarms that were created based on this alarm model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#initialization_configuration IoteventsAlarmModel#initialization_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#initialization_configuration IoteventsAlarmModel#initialization_configuration}
   */
   readonly initializationConfiguration?: IoteventsAlarmModelAlarmCapabilitiesInitializationConfiguration;
 }
@@ -390,13 +390,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2Paylo
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -522,13 +522,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2 {
   * Information needed to configure the payload.
   *  By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use ``contentExpression``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2Payload;
   /**
   * The name of the DynamoDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#table_name IoteventsAlarmModel#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#table_name IoteventsAlarmModel#table_name}
   */
   readonly tableName?: string;
 }
@@ -653,13 +653,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayload
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -784,7 +784,7 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
   /**
   * The name of the hash key (also called the partition key). The ``hashKeyField`` value must match the partition key of the target DynamoDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#hash_key_field IoteventsAlarmModel#hash_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#hash_key_field IoteventsAlarmModel#hash_key_field}
   */
   readonly hashKeyField?: string;
   /**
@@ -794,13 +794,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
   *   
   *  If you don't specify ``hashKeyType``, the default value is ``'STRING'``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#hash_key_type IoteventsAlarmModel#hash_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#hash_key_type IoteventsAlarmModel#hash_key_type}
   */
   readonly hashKeyType?: string;
   /**
   * The value of the hash key (also called the partition key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#hash_key_value IoteventsAlarmModel#hash_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#hash_key_value IoteventsAlarmModel#hash_key_value}
   */
   readonly hashKeyValue?: string;
   /**
@@ -811,27 +811,27 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
   *   
   *  If you don't specify this parameter, ITE triggers the ``'INSERT'`` operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#operation IoteventsAlarmModel#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#operation IoteventsAlarmModel#operation}
   */
   readonly operation?: string;
   /**
   * Information needed to configure the payload.
   *  By default, ITE generates a standard payload in JSON for any action. This action payload contains all attribute-value pairs that have the information about the detector model instance and the event triggered the action. To configure the action payload, you can use ``contentExpression``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDbPayload;
   /**
   * The name of the DynamoDB column that receives the action payload.
   *  If you don't specify this parameter, the name of the DynamoDB column is ``payload``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload_field IoteventsAlarmModel#payload_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload_field IoteventsAlarmModel#payload_field}
   */
   readonly payloadField?: string;
   /**
   * The name of the range key (also called the sort key). The ``rangeKeyField`` value must match the sort key of the target DynamoDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#range_key_field IoteventsAlarmModel#range_key_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#range_key_field IoteventsAlarmModel#range_key_field}
   */
   readonly rangeKeyField?: string;
   /**
@@ -841,19 +841,19 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb {
   *   
   *  If you don't specify ``rangeKeyField``, the default value is ``'STRING'``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#range_key_type IoteventsAlarmModel#range_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#range_key_type IoteventsAlarmModel#range_key_type}
   */
   readonly rangeKeyType?: string;
   /**
   * The value of the range key (also called the sort key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#range_key_value IoteventsAlarmModel#range_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#range_key_value IoteventsAlarmModel#range_key_value}
   */
   readonly rangeKeyValue?: string;
   /**
   * The name of the DynamoDB table. The ``tableName`` value must match the table name of the target DynamoDB table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#table_name IoteventsAlarmModel#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#table_name IoteventsAlarmModel#table_name}
   */
   readonly tableName?: string;
 }
@@ -1210,13 +1210,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayload
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -1341,19 +1341,19 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehose {
   /**
   * The name of the Kinesis Data Firehose delivery stream where the data is written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#delivery_stream_name IoteventsAlarmModel#delivery_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#delivery_stream_name IoteventsAlarmModel#delivery_stream_name}
   */
   readonly deliveryStreamName?: string;
   /**
   * You can configure the action payload when you send a message to an Amazon Data Firehose delivery stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehosePayload;
   /**
   * A character separator that is used to separate records written to the Kinesis Data Firehose delivery stream. Valid values are: '\n' (newline), '\t' (tab), '\r\n' (Windows newline), ',' (comma).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#separator IoteventsAlarmModel#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#separator IoteventsAlarmModel#separator}
   */
   readonly separator?: string;
 }
@@ -1507,13 +1507,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayloa
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -1638,13 +1638,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEvents {
   /**
   * The name of the ITE input where the data is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#input_name IoteventsAlarmModel#input_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#input_name IoteventsAlarmModel#input_name}
   */
   readonly inputName?: string;
   /**
   * You can configure the action payload when you send a message to an ITE input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEventsPayload;
 }
@@ -1769,13 +1769,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProp
   /**
   * The nanosecond offset converted from ``timeInSeconds``. The valid range is between 0-999999999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#offset_in_nanos IoteventsAlarmModel#offset_in_nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#offset_in_nanos IoteventsAlarmModel#offset_in_nanos}
   */
   readonly offsetInNanos?: string;
   /**
   * The timestamp, in seconds, in the Unix epoch format. The valid range is between 1-31556889864403199.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#time_in_seconds IoteventsAlarmModel#time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#time_in_seconds IoteventsAlarmModel#time_in_seconds}
   */
   readonly timeInSeconds?: string;
 }
@@ -1900,25 +1900,25 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProp
   /**
   * The asset property value is a Boolean value that must be ``'TRUE'`` or ``'FALSE'``. You must use an expression, and the evaluated result should be a Boolean value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#boolean_value IoteventsAlarmModel#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#boolean_value IoteventsAlarmModel#boolean_value}
   */
   readonly booleanValue?: string;
   /**
   * The asset property value is a double. You must use an expression, and the evaluated result should be a double.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#double_value IoteventsAlarmModel#double_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#double_value IoteventsAlarmModel#double_value}
   */
   readonly doubleValue?: string;
   /**
   * The asset property value is an integer. You must use an expression, and the evaluated result should be an integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#integer_value IoteventsAlarmModel#integer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#integer_value IoteventsAlarmModel#integer_value}
   */
   readonly integerValue?: string;
   /**
   * The asset property value is a string. You must use an expression, and the evaluated result should be a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#string_value IoteventsAlarmModel#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#string_value IoteventsAlarmModel#string_value}
   */
   readonly stringValue?: string;
 }
@@ -2101,19 +2101,19 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWiseProp
   /**
   * The quality of the asset property value. The value must be ``'GOOD'``, ``'BAD'``, or ``'UNCERTAIN'``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#quality IoteventsAlarmModel#quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#quality IoteventsAlarmModel#quality}
   */
   readonly quality?: string;
   /**
   * The timestamp associated with the asset property value. The default is the current event time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#timestamp IoteventsAlarmModel#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#timestamp IoteventsAlarmModel#timestamp}
   */
   readonly timestamp?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueTimestamp;
   /**
   * The value to send to an asset property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#value IoteventsAlarmModel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#value IoteventsAlarmModel#value}
   */
   readonly value?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValueValue;
 }
@@ -2267,31 +2267,31 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWise {
   /**
   * The ID of the asset that has the specified property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#asset_id IoteventsAlarmModel#asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#asset_id IoteventsAlarmModel#asset_id}
   */
   readonly assetId?: string;
   /**
   * A unique identifier for this entry. You can use the entry ID to track which data entry causes an error in case of failure. The default is a new unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#entry_id IoteventsAlarmModel#entry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#entry_id IoteventsAlarmModel#entry_id}
   */
   readonly entryId?: string;
   /**
   * The alias of the asset property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#property_alias IoteventsAlarmModel#property_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#property_alias IoteventsAlarmModel#property_alias}
   */
   readonly propertyAlias?: string;
   /**
   * The ID of the asset property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#property_id IoteventsAlarmModel#property_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#property_id IoteventsAlarmModel#property_id}
   */
   readonly propertyId?: string;
   /**
   * The value to send to the asset property. This value contains timestamp, quality, and value (TQV) information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#property_value IoteventsAlarmModel#property_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#property_value IoteventsAlarmModel#property_value}
   */
   readonly propertyValue?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWisePropertyValue;
 }
@@ -2503,13 +2503,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublish
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -2634,13 +2634,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublish
   /**
   * The MQTT topic of the message. You can use a string expression that includes variables (``$variable.<variable-name>``) and input values (``$input.<input-name>.<path-to-datum>``) as the topic string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#mqtt_topic IoteventsAlarmModel#mqtt_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#mqtt_topic IoteventsAlarmModel#mqtt_topic}
   */
   readonly mqttTopic?: string;
   /**
   * You can configure the action payload when you publish a message to an IoTCore topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayload;
 }
@@ -2765,13 +2765,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayload {
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -2896,13 +2896,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsLambda {
   /**
   * The ARN of the Lambda function that is executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#function_arn IoteventsAlarmModel#function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#function_arn IoteventsAlarmModel#function_arn}
   */
   readonly functionArn?: string;
   /**
   * You can configure the action payload when you send a message to a Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsLambdaPayload;
 }
@@ -3027,13 +3027,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayload {
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -3158,13 +3158,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsSns {
   /**
   * You can configure the action payload when you send a message as an Amazon SNS push notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsSnsPayload;
   /**
   * The ARN of the Amazon SNS target where the message is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#target_arn IoteventsAlarmModel#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#target_arn IoteventsAlarmModel#target_arn}
   */
   readonly targetArn?: string;
 }
@@ -3289,13 +3289,13 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayload {
   /**
   * The content of the payload. You can use a string expression that includes quoted strings (``'<string>'``), variables (``$variable.<variable-name>``), input values (``$input.<input-name>.<path-to-datum>``), string concatenations, and quoted strings that contain ``${}`` as the content. The recommended maximum size of a content expression is 1 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#content_expression IoteventsAlarmModel#content_expression}
   */
   readonly contentExpression?: string;
   /**
   * The value of the payload type can be either ``STRING`` or ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#type IoteventsAlarmModel#type}
   */
   readonly type?: string;
 }
@@ -3420,19 +3420,19 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActionsSqs {
   /**
   * You can configure the action payload when you send a message to an Amazon SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
   */
   readonly payload?: IoteventsAlarmModelAlarmEventActionsAlarmActionsSqsPayload;
   /**
   * The URL of the SQS queue where the data is written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#queue_url IoteventsAlarmModel#queue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#queue_url IoteventsAlarmModel#queue_url}
   */
   readonly queueUrl?: string;
   /**
   * Set this to TRUE if you want the data to be base-64 encoded before it is written to the queue. Otherwise, set this to FALSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#use_base_64 IoteventsAlarmModel#use_base_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#use_base_64 IoteventsAlarmModel#use_base_64}
   */
   readonly useBase64?: boolean | cdktn.IResolvable;
 }
@@ -3599,7 +3599,7 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActions {
   *  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
   *  The value for the ``type`` parameter in ``Payload`` must be ``JSON``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#dynamo_d_bv_2 IoteventsAlarmModel#dynamo_d_bv_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#dynamo_d_bv_2 IoteventsAlarmModel#dynamo_d_bv_2}
   */
   readonly dynamoDBv2?: IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2;
   /**
@@ -3618,19 +3618,19 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActions {
   *  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
   *  If the defined payload type is a string, ``DynamoDBAction`` writes non-JSON data to the DynamoDB table as binary data. The DynamoDB console displays the data as Base64-encoded text. The value for the ``payloadField`` parameter is ``<payload-field>_raw``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#dynamo_db IoteventsAlarmModel#dynamo_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#dynamo_db IoteventsAlarmModel#dynamo_db}
   */
   readonly dynamoDb?: IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb;
   /**
   * Sends information about the detector model instance and the event that triggered the action to an Amazon Kinesis Data Firehose delivery stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#firehose IoteventsAlarmModel#firehose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#firehose IoteventsAlarmModel#firehose}
   */
   readonly firehose?: IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehose;
   /**
   * Sends an ITE input, passing in information about the detector model instance and the event that triggered the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#iot_events IoteventsAlarmModel#iot_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#iot_events IoteventsAlarmModel#iot_events}
   */
   readonly iotEvents?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEvents;
   /**
@@ -3646,31 +3646,31 @@ export interface IoteventsAlarmModelAlarmEventActionsAlarmActions {
   *  You must specify either ``propertyAlias`` or both ``assetId`` and ``propertyId`` to identify the target asset property in ITSW.
   *  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#iot_site_wise IoteventsAlarmModel#iot_site_wise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#iot_site_wise IoteventsAlarmModel#iot_site_wise}
   */
   readonly iotSiteWise?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWise;
   /**
   * Information required to publish the MQTT message through the IoT message broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#iot_topic_publish IoteventsAlarmModel#iot_topic_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#iot_topic_publish IoteventsAlarmModel#iot_topic_publish}
   */
   readonly iotTopicPublish?: IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublish;
   /**
   * Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#lambda IoteventsAlarmModel#lambda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#lambda IoteventsAlarmModel#lambda}
   */
   readonly lambda?: IoteventsAlarmModelAlarmEventActionsAlarmActionsLambda;
   /**
   * Information required to publish the Amazon SNS message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#sns IoteventsAlarmModel#sns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#sns IoteventsAlarmModel#sns}
   */
   readonly sns?: IoteventsAlarmModelAlarmEventActionsAlarmActionsSns;
   /**
   * Sends information about the detector model instance and the event that triggered the action to an Amazon SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#sqs IoteventsAlarmModel#sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#sqs IoteventsAlarmModel#sqs}
   */
   readonly sqs?: IoteventsAlarmModelAlarmEventActionsAlarmActionsSqs;
 }
@@ -4020,7 +4020,7 @@ export interface IoteventsAlarmModelAlarmEventActions {
   /**
   * Specifies one or more supported actions to receive notifications when the alarm state changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#alarm_actions IoteventsAlarmModel#alarm_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#alarm_actions IoteventsAlarmModel#alarm_actions}
   */
   readonly alarmActions?: IoteventsAlarmModelAlarmEventActionsAlarmActions[] | cdktn.IResolvable;
 }
@@ -4116,19 +4116,19 @@ export interface IoteventsAlarmModelAlarmRuleSimpleRule {
   /**
   * The comparison operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#comparison_operator IoteventsAlarmModel#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#comparison_operator IoteventsAlarmModel#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
   * The value on the left side of the comparison operator. You can specify an ITE input attribute as an input property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#input_property IoteventsAlarmModel#input_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#input_property IoteventsAlarmModel#input_property}
   */
   readonly inputProperty?: string;
   /**
   * The value on the right side of the comparison operator. You can enter a number or specify an ITE input attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#threshold IoteventsAlarmModel#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#threshold IoteventsAlarmModel#threshold}
   */
   readonly threshold?: string;
 }
@@ -4282,7 +4282,7 @@ export interface IoteventsAlarmModelAlarmRule {
   /**
   * A rule that compares an input property value to a threshold value with a comparison operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#simple_rule IoteventsAlarmModel#simple_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#simple_rule IoteventsAlarmModel#simple_rule}
   */
   readonly simpleRule?: IoteventsAlarmModelAlarmRuleSimpleRule;
 }
@@ -4378,13 +4378,13 @@ export interface IoteventsAlarmModelTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#key IoteventsAlarmModel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#key IoteventsAlarmModel#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#value IoteventsAlarmModel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#value IoteventsAlarmModel#value}
   */
   readonly value?: string;
 }
@@ -4529,7 +4529,7 @@ export class IoteventsAlarmModelTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model}
 */
 export class IoteventsAlarmModel extends cdktn.TerraformResource {
 
@@ -4545,7 +4545,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IoteventsAlarmModel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IoteventsAlarmModel to import
-  * @param importFromId The id of the existing IoteventsAlarmModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IoteventsAlarmModel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IoteventsAlarmModel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4557,7 +4557,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4568,7 +4568,7 @@ export class IoteventsAlarmModel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotevents_alarm_model',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

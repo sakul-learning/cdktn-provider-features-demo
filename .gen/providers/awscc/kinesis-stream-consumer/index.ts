@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface KinesisStreamConsumerConfig extends cdktn.TerraformMetaArgument
   /**
   * The name of the Kinesis Stream Consumer. For a given Kinesis data stream, each consumer must have a unique name. However, consumer names don't have to be unique across data streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer#consumer_name KinesisStreamConsumer#consumer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer#consumer_name KinesisStreamConsumer#consumer_name}
   */
   readonly consumerName: string;
   /**
   * The Amazon resource name (ARN) of the Kinesis data stream that you want to register the consumer with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer#stream_arn KinesisStreamConsumer#stream_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer#stream_arn KinesisStreamConsumer#stream_arn}
   */
   readonly streamArn: string;
   /**
   * An arbitrary set of tags (key–value pairs) to associate with the Kinesis consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer#tags KinesisStreamConsumer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer#tags KinesisStreamConsumer#tags}
   */
   readonly tags?: KinesisStreamConsumerTags[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface KinesisStreamConsumerTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer#key KinesisStreamConsumer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer#key KinesisStreamConsumer#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer#value KinesisStreamConsumer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer#value KinesisStreamConsumer#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class KinesisStreamConsumerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}
 */
 export class KinesisStreamConsumer extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class KinesisStreamConsumer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KinesisStreamConsumer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KinesisStreamConsumer to import
-  * @param importFromId The id of the existing KinesisStreamConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KinesisStreamConsumer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KinesisStreamConsumer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class KinesisStreamConsumer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class KinesisStreamConsumer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kinesis_stream_consumer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

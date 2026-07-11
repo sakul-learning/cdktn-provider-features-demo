@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface AmazonmqConfigurationConfig extends cdktn.TerraformMetaArgument
   /**
   * The authentication strategy associated with the configuration. The default is SIMPLE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#authentication_strategy AmazonmqConfiguration#authentication_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#authentication_strategy AmazonmqConfiguration#authentication_strategy}
   */
   readonly authenticationStrategy?: string;
   /**
   * The base64-encoded XML configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#data AmazonmqConfiguration#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#data AmazonmqConfiguration#data}
   */
   readonly data?: string;
   /**
   * The description of the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#description AmazonmqConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#description AmazonmqConfiguration#description}
   */
   readonly description?: string;
   /**
   * The type of broker engine. Note: Currently, Amazon MQ only supports ACTIVEMQ for creating and editing broker configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#engine_type AmazonmqConfiguration#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#engine_type AmazonmqConfiguration#engine_type}
   */
   readonly engineType: string;
   /**
   * The version of the broker engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#engine_version AmazonmqConfiguration#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#engine_version AmazonmqConfiguration#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * The name of the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#name AmazonmqConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#name AmazonmqConfiguration#name}
   */
   readonly name: string;
   /**
   * Create tags when creating the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#tags AmazonmqConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#tags AmazonmqConfiguration#tags}
   */
   readonly tags?: AmazonmqConfigurationTags[] | cdktn.IResolvable;
 }
 export interface AmazonmqConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#key AmazonmqConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#value AmazonmqConfiguration#value}
   */
   readonly value?: string;
 }
@@ -201,7 +201,7 @@ export class AmazonmqConfigurationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}
 */
 export class AmazonmqConfiguration extends cdktn.TerraformResource {
 
@@ -217,7 +217,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AmazonmqConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmazonmqConfiguration to import
-  * @param importFromId The id of the existing AmazonmqConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmazonmqConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmazonmqConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -229,7 +229,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,7 +240,7 @@ export class AmazonmqConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_amazonmq_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

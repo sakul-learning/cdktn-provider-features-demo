@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KinesisvideoSignalingChannelConfig extends cdktn.TerraformMetaA
   /**
   * The period of time a signaling channel retains undelivered messages before they are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel#message_ttl_seconds KinesisvideoSignalingChannel#message_ttl_seconds}
   */
   readonly messageTtlSeconds?: number;
   /**
   * The name of the Kinesis Video Signaling Channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel#name KinesisvideoSignalingChannel#name}
   */
   readonly name?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel#tags KinesisvideoSignalingChannel#tags}
   */
   readonly tags?: KinesisvideoSignalingChannelTags[] | cdktn.IResolvable;
   /**
   * The type of the Kinesis Video Signaling Channel to create. Currently, SINGLE_MASTER is the only supported channel type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel#type KinesisvideoSignalingChannel#type}
   */
   readonly type?: string;
 }
@@ -36,13 +36,13 @@ export interface KinesisvideoSignalingChannelTags {
   /**
   * The key name of the tag. Specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel#key KinesisvideoSignalingChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel#key KinesisvideoSignalingChannel#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. Specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.  The following characters can be used: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel#value KinesisvideoSignalingChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel#value KinesisvideoSignalingChannel#value}
   */
   readonly value?: string;
 }
@@ -187,7 +187,7 @@ export class KinesisvideoSignalingChannelTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}
 */
 export class KinesisvideoSignalingChannel extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class KinesisvideoSignalingChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KinesisvideoSignalingChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KinesisvideoSignalingChannel to import
-  * @param importFromId The id of the existing KinesisvideoSignalingChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KinesisvideoSignalingChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KinesisvideoSignalingChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class KinesisvideoSignalingChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class KinesisvideoSignalingChannel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kinesisvideo_signaling_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

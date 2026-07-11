@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/resourcegroupstaggingapi_required_tags
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/resourcegroupstaggingapi_required_tags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsResourcegroupstaggingapiRequiredTagsConfig extends cdktn
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/resourcegroupstaggingapi_required_tags#region DataAwsResourcegroupstaggingapiRequiredTags#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/resourcegroupstaggingapi_required_tags#region DataAwsResourcegroupstaggingapiRequiredTags#region}
   */
   readonly region?: string;
 }
@@ -101,7 +101,7 @@ export class DataAwsResourcegroupstaggingapiRequiredTagsRequiredTagsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags}
 */
 export class DataAwsResourcegroupstaggingapiRequiredTags extends cdktn.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataAwsResourcegroupstaggingapiRequiredTags extends cdktn.Terraform
   * Generates CDKTN code for importing a DataAwsResourcegroupstaggingapiRequiredTags resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsResourcegroupstaggingapiRequiredTags to import
-  * @param importFromId The id of the existing DataAwsResourcegroupstaggingapiRequiredTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/resourcegroupstaggingapi_required_tags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsResourcegroupstaggingapiRequiredTags that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/resourcegroupstaggingapi_required_tags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsResourcegroupstaggingapiRequiredTags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataAwsResourcegroupstaggingapiRequiredTags extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/resourcegroupstaggingapi_required_tags aws_resourcegroupstaggingapi_required_tags} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,7 +140,7 @@ export class DataAwsResourcegroupstaggingapiRequiredTags extends cdktn.Terraform
       terraformResourceType: 'aws_resourcegroupstaggingapi_required_tags',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

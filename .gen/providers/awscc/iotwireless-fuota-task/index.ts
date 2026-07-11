@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface IotwirelessFuotaTaskConfig extends cdktn.TerraformMetaArguments
   /**
   * Multicast group to associate. Only for update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#associate_multicast_group IotwirelessFuotaTask#associate_multicast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#associate_multicast_group IotwirelessFuotaTask#associate_multicast_group}
   */
   readonly associateMulticastGroup?: string;
   /**
   * Wireless device to associate. Only for update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#associate_wireless_device IotwirelessFuotaTask#associate_wireless_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#associate_wireless_device IotwirelessFuotaTask#associate_wireless_device}
   */
   readonly associateWirelessDevice?: string;
   /**
   * FUOTA task description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#description IotwirelessFuotaTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#description IotwirelessFuotaTask#description}
   */
   readonly description?: string;
   /**
   * Multicast group to disassociate. Only for update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#disassociate_multicast_group IotwirelessFuotaTask#disassociate_multicast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#disassociate_multicast_group IotwirelessFuotaTask#disassociate_multicast_group}
   */
   readonly disassociateMulticastGroup?: string;
   /**
   * Wireless device to disassociate. Only for update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#disassociate_wireless_device IotwirelessFuotaTask#disassociate_wireless_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#disassociate_wireless_device IotwirelessFuotaTask#disassociate_wireless_device}
   */
   readonly disassociateWirelessDevice?: string;
   /**
   * FUOTA task firmware update image binary S3 link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#firmware_update_image IotwirelessFuotaTask#firmware_update_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#firmware_update_image IotwirelessFuotaTask#firmware_update_image}
   */
   readonly firmwareUpdateImage: string;
   /**
   * FUOTA task firmware IAM role for reading S3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#firmware_update_role IotwirelessFuotaTask#firmware_update_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#firmware_update_role IotwirelessFuotaTask#firmware_update_role}
   */
   readonly firmwareUpdateRole: string;
   /**
   * FUOTA task LoRaWAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#lo_ra_wan IotwirelessFuotaTask#lo_ra_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#lo_ra_wan IotwirelessFuotaTask#lo_ra_wan}
   */
   readonly loRaWan: IotwirelessFuotaTaskLoRaWan;
   /**
   * Name of FUOTA task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#name IotwirelessFuotaTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#name IotwirelessFuotaTask#name}
   */
   readonly name?: string;
   /**
   * A list of key-value pairs that contain metadata for the FUOTA task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#tags IotwirelessFuotaTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#tags IotwirelessFuotaTask#tags}
   */
   readonly tags?: IotwirelessFuotaTaskTags[] | cdktn.IResolvable;
 }
@@ -72,7 +72,7 @@ export interface IotwirelessFuotaTaskLoRaWan {
   /**
   * FUOTA task LoRaWAN RF region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#rf_region IotwirelessFuotaTask#rf_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#rf_region IotwirelessFuotaTask#rf_region}
   */
   readonly rfRegion: string;
 }
@@ -168,11 +168,11 @@ export class IotwirelessFuotaTaskLoRaWanOutputReference extends cdktn.ComplexObj
 }
 export interface IotwirelessFuotaTaskTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#key IotwirelessFuotaTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#key IotwirelessFuotaTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#value IotwirelessFuotaTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#value IotwirelessFuotaTask#value}
   */
   readonly value?: string;
 }
@@ -317,7 +317,7 @@ export class IotwirelessFuotaTaskTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}
 */
 export class IotwirelessFuotaTask extends cdktn.TerraformResource {
 
@@ -333,7 +333,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessFuotaTask resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessFuotaTask to import
-  * @param importFromId The id of the existing IotwirelessFuotaTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessFuotaTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessFuotaTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -345,7 +345,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,7 +356,7 @@ export class IotwirelessFuotaTask extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_fuota_task',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

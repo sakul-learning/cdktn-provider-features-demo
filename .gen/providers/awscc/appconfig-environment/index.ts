@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface AppconfigEnvironmentConfig extends cdktn.TerraformMetaArguments
   /**
   * The application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#application_id AppconfigEnvironment#application_id}
   */
   readonly applicationId: string;
   /**
   * On resource deletion this controls whether the Deletion Protection check should be applied, bypassed, or (the default) whether the behavior should be controlled by the account-level Deletion Protection setting. See https://docs.aws.amazon.com/appconfig/latest/userguide/deletion-protection.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#deletion_protection_check AppconfigEnvironment#deletion_protection_check}
   */
   readonly deletionProtectionCheck?: string;
   /**
   * A description of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#description AppconfigEnvironment#description}
   */
   readonly description?: string;
   /**
   * Amazon CloudWatch alarms to monitor during the deployment process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#monitors AppconfigEnvironment#monitors}
   */
   readonly monitors?: AppconfigEnvironmentMonitors[] | cdktn.IResolvable;
   /**
   * A name for the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#name AppconfigEnvironment#name}
   */
   readonly name: string;
   /**
   * Metadata to assign to the environment. Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#tags AppconfigEnvironment#tags}
   */
   readonly tags?: AppconfigEnvironmentTags[] | cdktn.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface AppconfigEnvironmentMonitors {
   /**
   * Amazon Resource Name (ARN) of the Amazon CloudWatch alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#alarm_arn AppconfigEnvironment#alarm_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#alarm_arn AppconfigEnvironment#alarm_arn}
   */
   readonly alarmArn?: string;
   /**
   * ARN of an AWS Identity and Access Management (IAM) role for AWS AppConfig to monitor AlarmArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#alarm_role_arn AppconfigEnvironment#alarm_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#alarm_role_arn AppconfigEnvironment#alarm_role_arn}
   */
   readonly alarmRoleArn?: string;
 }
@@ -201,13 +201,13 @@ export interface AppconfigEnvironmentTags {
   /**
   * The key-value string map. The valid character set is [a-zA-Z1-9+-=._:/]. The tag key can be up to 128 characters and must not start with aws:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#key AppconfigEnvironment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#key AppconfigEnvironment#key}
   */
   readonly key?: string;
   /**
   * The tag value can be up to 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#value AppconfigEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#value AppconfigEnvironment#value}
   */
   readonly value?: string;
 }
@@ -352,7 +352,7 @@ export class AppconfigEnvironmentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment awscc_appconfig_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment awscc_appconfig_environment}
 */
 export class AppconfigEnvironment extends cdktn.TerraformResource {
 
@@ -368,7 +368,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppconfigEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppconfigEnvironment to import
-  * @param importFromId The id of the existing AppconfigEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppconfigEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppconfigEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -380,7 +380,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/appconfig_environment awscc_appconfig_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appconfig_environment awscc_appconfig_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -391,7 +391,7 @@ export class AppconfigEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appconfig_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

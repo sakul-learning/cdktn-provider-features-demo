@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GlueIntegrationResourcePropertyConfig extends cdktn.TerraformMe
   /**
   * The connection ARN of the source, or the database ARN of the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#resource_arn GlueIntegrationResourceProperty#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#resource_arn GlueIntegrationResourceProperty#resource_arn}
   */
   readonly resourceArn: string;
   /**
   * The resource properties associated with the integration source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#source_processing_properties GlueIntegrationResourceProperty#source_processing_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#source_processing_properties GlueIntegrationResourceProperty#source_processing_properties}
   */
   readonly sourceProcessingProperties?: GlueIntegrationResourcePropertySourceProcessingProperties;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#tags GlueIntegrationResourceProperty#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#tags GlueIntegrationResourceProperty#tags}
   */
   readonly tags?: GlueIntegrationResourcePropertyTags[] | cdktn.IResolvable;
   /**
   * The resource properties associated with the integration target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#target_processing_properties GlueIntegrationResourceProperty#target_processing_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#target_processing_properties GlueIntegrationResourceProperty#target_processing_properties}
   */
   readonly targetProcessingProperties?: GlueIntegrationResourcePropertyTargetProcessingProperties;
 }
@@ -36,7 +36,7 @@ export interface GlueIntegrationResourcePropertySourceProcessingProperties {
   /**
   * The IAM role to access the Glue connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -132,13 +132,13 @@ export interface GlueIntegrationResourcePropertyTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#key GlueIntegrationResourceProperty#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#key GlueIntegrationResourceProperty#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#value GlueIntegrationResourceProperty#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#value GlueIntegrationResourceProperty#value}
   */
   readonly value?: string;
 }
@@ -285,25 +285,25 @@ export interface GlueIntegrationResourcePropertyTargetProcessingProperties {
   /**
   * The Glue network connection to configure the Glue job running in the customer VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#connection_name GlueIntegrationResourceProperty#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#connection_name GlueIntegrationResourceProperty#connection_name}
   */
   readonly connectionName?: string;
   /**
   * The ARN of an Eventbridge event bus to receive the integration status notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#event_bus_arn GlueIntegrationResourceProperty#event_bus_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#event_bus_arn GlueIntegrationResourceProperty#event_bus_arn}
   */
   readonly eventBusArn?: string;
   /**
   * The ARN of the KMS key used for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#kms_arn GlueIntegrationResourceProperty#kms_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#kms_arn GlueIntegrationResourceProperty#kms_arn}
   */
   readonly kmsArn?: string;
   /**
   * The IAM role to access the Glue database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -484,7 +484,7 @@ export class GlueIntegrationResourcePropertyTargetProcessingPropertiesOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property awscc_glue_integration_resource_property}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property awscc_glue_integration_resource_property}
 */
 export class GlueIntegrationResourceProperty extends cdktn.TerraformResource {
 
@@ -500,7 +500,7 @@ export class GlueIntegrationResourceProperty extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueIntegrationResourceProperty resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueIntegrationResourceProperty to import
-  * @param importFromId The id of the existing GlueIntegrationResourceProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueIntegrationResourceProperty that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueIntegrationResourceProperty to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -512,7 +512,7 @@ export class GlueIntegrationResourceProperty extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_integration_resource_property awscc_glue_integration_resource_property} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration_resource_property awscc_glue_integration_resource_property} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -523,7 +523,7 @@ export class GlueIntegrationResourceProperty extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_integration_resource_property',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

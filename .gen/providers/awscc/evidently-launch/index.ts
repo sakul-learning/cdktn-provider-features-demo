@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface EvidentlyLaunchConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
   */
   readonly description?: string;
   /**
   * Start or Stop Launch Launch. Default is not started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#execution_status EvidentlyLaunch#execution_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#execution_status EvidentlyLaunch#execution_status}
   */
   readonly executionStatus?: EvidentlyLaunchExecutionStatus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#groups EvidentlyLaunch#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#groups EvidentlyLaunch#groups}
   */
   readonly groups: EvidentlyLaunchGroups[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#metric_monitors EvidentlyLaunch#metric_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#metric_monitors EvidentlyLaunch#metric_monitors}
   */
   readonly metricMonitors?: EvidentlyLaunchMetricMonitors[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#name EvidentlyLaunch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#project EvidentlyLaunch#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#project EvidentlyLaunch#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#randomization_salt EvidentlyLaunch#randomization_salt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#randomization_salt EvidentlyLaunch#randomization_salt}
   */
   readonly randomizationSalt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#scheduled_splits_config EvidentlyLaunch#scheduled_splits_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#scheduled_splits_config EvidentlyLaunch#scheduled_splits_config}
   */
   readonly scheduledSplitsConfig: EvidentlyLaunchScheduledSplitsConfig[] | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#tags EvidentlyLaunch#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#tags EvidentlyLaunch#tags}
   */
   readonly tags?: EvidentlyLaunchTags[] | cdktn.IResolvable;
 }
@@ -52,19 +52,19 @@ export interface EvidentlyLaunchExecutionStatus {
   /**
   * Provide CANCELLED or COMPLETED as the launch desired state. Defaults to Completed if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#desired_state EvidentlyLaunch#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#desired_state EvidentlyLaunch#desired_state}
   */
   readonly desiredState?: string;
   /**
   * Provide a reason for stopping the launch. Defaults to empty if not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#reason EvidentlyLaunch#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#reason EvidentlyLaunch#reason}
   */
   readonly reason?: string;
   /**
   * Provide START or STOP action to apply on a launch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#status EvidentlyLaunch#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#status EvidentlyLaunch#status}
   */
   readonly status?: string;
 }
@@ -216,19 +216,19 @@ export class EvidentlyLaunchExecutionStatusOutputReference extends cdktn.Complex
 }
 export interface EvidentlyLaunchGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#description EvidentlyLaunch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#feature EvidentlyLaunch#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#feature EvidentlyLaunch#feature}
   */
   readonly feature: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#group_name EvidentlyLaunch#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#group_name EvidentlyLaunch#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#variation EvidentlyLaunch#variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#variation EvidentlyLaunch#variation}
   */
   readonly variation: string;
 }
@@ -424,27 +424,27 @@ export interface EvidentlyLaunchMetricMonitors {
   /**
   * The JSON path to reference the entity id in the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#entity_id_key EvidentlyLaunch#entity_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#entity_id_key EvidentlyLaunch#entity_id_key}
   */
   readonly entityIdKey?: string;
   /**
   * Event patterns have the same structure as the events they match. Rules use event patterns to select events. An event pattern either matches an event or it doesn't.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#event_pattern EvidentlyLaunch#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#event_pattern EvidentlyLaunch#event_pattern}
   */
   readonly eventPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#metric_name EvidentlyLaunch#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#metric_name EvidentlyLaunch#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#unit_label EvidentlyLaunch#unit_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#unit_label EvidentlyLaunch#unit_label}
   */
   readonly unitLabel?: string;
   /**
   * The JSON path to reference the numerical metric value in the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#value_key EvidentlyLaunch#value_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#value_key EvidentlyLaunch#value_key}
   */
   readonly valueKey?: string;
 }
@@ -676,11 +676,11 @@ export class EvidentlyLaunchMetricMonitorsList extends cdktn.ComplexList {
 }
 export interface EvidentlyLaunchScheduledSplitsConfigGroupWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#group_name EvidentlyLaunch#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#group_name EvidentlyLaunch#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#split_weight EvidentlyLaunch#split_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#split_weight EvidentlyLaunch#split_weight}
   */
   readonly splitWeight: number;
 }
@@ -819,11 +819,11 @@ export class EvidentlyLaunchScheduledSplitsConfigGroupWeightsList extends cdktn.
 }
 export interface EvidentlyLaunchScheduledSplitsConfigSegmentOverridesWeights {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#group_name EvidentlyLaunch#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#group_name EvidentlyLaunch#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#split_weight EvidentlyLaunch#split_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#split_weight EvidentlyLaunch#split_weight}
   */
   readonly splitWeight?: number;
 }
@@ -968,15 +968,15 @@ export class EvidentlyLaunchScheduledSplitsConfigSegmentOverridesWeightsList ext
 }
 export interface EvidentlyLaunchScheduledSplitsConfigSegmentOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#evaluation_order EvidentlyLaunch#evaluation_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#evaluation_order EvidentlyLaunch#evaluation_order}
   */
   readonly evaluationOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#segment EvidentlyLaunch#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#segment EvidentlyLaunch#segment}
   */
   readonly segment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#weights EvidentlyLaunch#weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#weights EvidentlyLaunch#weights}
   */
   readonly weights?: EvidentlyLaunchScheduledSplitsConfigSegmentOverridesWeights[] | cdktn.IResolvable;
 }
@@ -1150,15 +1150,15 @@ export class EvidentlyLaunchScheduledSplitsConfigSegmentOverridesList extends cd
 }
 export interface EvidentlyLaunchScheduledSplitsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#group_weights EvidentlyLaunch#group_weights}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#group_weights EvidentlyLaunch#group_weights}
   */
   readonly groupWeights: EvidentlyLaunchScheduledSplitsConfigGroupWeights[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#segment_overrides EvidentlyLaunch#segment_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#segment_overrides EvidentlyLaunch#segment_overrides}
   */
   readonly segmentOverrides?: EvidentlyLaunchScheduledSplitsConfigSegmentOverrides[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#start_time EvidentlyLaunch#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#start_time EvidentlyLaunch#start_time}
   */
   readonly startTime: string;
 }
@@ -1328,13 +1328,13 @@ export interface EvidentlyLaunchTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#key EvidentlyLaunch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#key EvidentlyLaunch#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#value EvidentlyLaunch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#value EvidentlyLaunch#value}
   */
   readonly value?: string;
 }
@@ -1479,7 +1479,7 @@ export class EvidentlyLaunchTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch awscc_evidently_launch}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch awscc_evidently_launch}
 */
 export class EvidentlyLaunch extends cdktn.TerraformResource {
 
@@ -1495,7 +1495,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EvidentlyLaunch resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvidentlyLaunch to import
-  * @param importFromId The id of the existing EvidentlyLaunch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvidentlyLaunch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvidentlyLaunch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1507,7 +1507,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/evidently_launch awscc_evidently_launch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_launch awscc_evidently_launch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1518,7 +1518,7 @@ export class EvidentlyLaunch extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_evidently_launch',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

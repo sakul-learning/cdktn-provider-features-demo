@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface IvsEncoderConfigurationConfig extends cdktn.TerraformMetaArgume
   /**
   * Encoder configuration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
   */
   readonly name?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
   */
   readonly tags?: IvsEncoderConfigurationTags[] | cdktn.IResolvable;
   /**
   * Video configuration. Default: video resolution 1280x720, bitrate 2500 kbps, 30 fps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
   */
   readonly video?: IvsEncoderConfigurationVideo;
 }
@@ -30,13 +30,13 @@ export interface IvsEncoderConfigurationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#key IvsEncoderConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#key IvsEncoderConfiguration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#value IvsEncoderConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#value IvsEncoderConfiguration#value}
   */
   readonly value?: string;
 }
@@ -183,25 +183,25 @@ export interface IvsEncoderConfigurationVideo {
   /**
   * Bitrate for generated output, in bps. Default: 2500000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#bitrate IvsEncoderConfiguration#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#bitrate IvsEncoderConfiguration#bitrate}
   */
   readonly bitrate?: number;
   /**
   * Video frame rate, in fps. Default: 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#framerate IvsEncoderConfiguration#framerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#framerate IvsEncoderConfiguration#framerate}
   */
   readonly framerate?: number;
   /**
   * Video-resolution height. This must be an even number. Note that the maximum value is determined by width times height, such that the maximum total pixels is 2073600 (1920x1080 or 1080x1920). Default: 720.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#height IvsEncoderConfiguration#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#height IvsEncoderConfiguration#height}
   */
   readonly height?: number;
   /**
   * Video-resolution width. This must be an even number. Note that the maximum value is determined by width times height, such that the maximum total pixels is 2073600 (1920x1080 or 1080x1920). Default: 1280.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#width IvsEncoderConfiguration#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#width IvsEncoderConfiguration#width}
   */
   readonly width?: number;
 }
@@ -382,7 +382,7 @@ export class IvsEncoderConfigurationVideoOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration}
 */
 export class IvsEncoderConfiguration extends cdktn.TerraformResource {
 
@@ -398,7 +398,7 @@ export class IvsEncoderConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvsEncoderConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvsEncoderConfiguration to import
-  * @param importFromId The id of the existing IvsEncoderConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvsEncoderConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvsEncoderConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -410,7 +410,7 @@ export class IvsEncoderConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,7 +421,7 @@ export class IvsEncoderConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivs_encoder_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

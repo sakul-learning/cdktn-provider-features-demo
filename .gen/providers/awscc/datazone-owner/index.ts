@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DatazoneOwnerConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the domain in which you want to add the entity owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * The ID of the entity to which you want to add an owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
   */
   readonly entityIdentifier: string;
   /**
   * The type of an entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
   */
   readonly entityType: string;
   /**
   * The owner that you want to add to the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
   */
   readonly owner: DatazoneOwnerOwner;
 }
@@ -36,7 +36,7 @@ export interface DatazoneOwnerOwnerGroup {
   /**
   * The ID of the domain unit owners group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#group_identifier DatazoneOwner#group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#group_identifier DatazoneOwner#group_identifier}
   */
   readonly groupIdentifier?: string;
 }
@@ -132,7 +132,7 @@ export interface DatazoneOwnerOwnerUser {
   /**
   * The ID of the owner user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#user_identifier DatazoneOwner#user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#user_identifier DatazoneOwner#user_identifier}
   */
   readonly userIdentifier?: string;
 }
@@ -228,13 +228,13 @@ export interface DatazoneOwnerOwner {
   /**
   * The properties of the domain unit owners group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#group DatazoneOwner#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#group DatazoneOwner#group}
   */
   readonly group?: DatazoneOwnerOwnerGroup;
   /**
   * The properties of the owner user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#user DatazoneOwner#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#user DatazoneOwner#user}
   */
   readonly user?: DatazoneOwnerOwnerUser;
 }
@@ -357,7 +357,7 @@ export class DatazoneOwnerOwnerOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner awscc_datazone_owner}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner awscc_datazone_owner}
 */
 export class DatazoneOwner extends cdktn.TerraformResource {
 
@@ -373,7 +373,7 @@ export class DatazoneOwner extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneOwner resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneOwner to import
-  * @param importFromId The id of the existing DatazoneOwner that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneOwner that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneOwner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -385,7 +385,7 @@ export class DatazoneOwner extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datazone_owner awscc_datazone_owner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_owner awscc_datazone_owner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,7 +396,7 @@ export class DatazoneOwner extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_owner',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

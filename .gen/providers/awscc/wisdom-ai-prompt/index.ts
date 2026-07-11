@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface WisdomAiPromptConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}
   */
   readonly apiFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}
   */
   readonly assistantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}
   */
   readonly modelId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}
   */
   readonly templateConfiguration: WisdomAiPromptTemplateConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}
   */
   readonly templateType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}
   */
   readonly type: string;
 }
 export interface WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}
   */
   readonly text?: string;
 }
@@ -140,7 +140,7 @@ export class WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConf
 }
 export interface WisdomAiPromptTemplateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}
   */
   readonly textFullAiPromptEditTemplateConfiguration?: WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration;
 }
@@ -234,7 +234,7 @@ export class WisdomAiPromptTemplateConfigurationOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt}
 */
 export class WisdomAiPrompt extends cdktn.TerraformResource {
 
@@ -250,7 +250,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomAiPrompt resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomAiPrompt to import
-  * @param importFromId The id of the existing WisdomAiPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomAiPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomAiPrompt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -262,7 +262,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,7 +273,7 @@ export class WisdomAiPrompt extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_ai_prompt',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

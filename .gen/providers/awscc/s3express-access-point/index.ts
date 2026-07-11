@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface S3ExpressAccessPointConfig extends cdktn.TerraformMetaArguments
   /**
   * The name of the bucket that you want to associate this Access Point with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#bucket S3ExpressAccessPoint#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#bucket S3ExpressAccessPoint#bucket}
   */
   readonly bucket: string;
   /**
   * The AWS account ID associated with the S3 bucket associated with this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#bucket_account_id S3ExpressAccessPoint#bucket_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#bucket_account_id S3ExpressAccessPoint#bucket_account_id}
   */
   readonly bucketAccountId?: string;
   /**
   * The name you want to assign to this Access Point. If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the access point name. For directory buckets, the access point name must consist of a base name that you provide and su?x that includes the ZoneID (AWS Availability Zone or Local Zone) of your bucket location, followed by --xa-s3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#name S3ExpressAccessPoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#name S3ExpressAccessPoint#name}
   */
   readonly name?: string;
   /**
   * The Access Point Policy you want to apply to this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#policy S3ExpressAccessPoint#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#policy S3ExpressAccessPoint#policy}
   */
   readonly policy?: string;
   /**
   * The PublicAccessBlock configuration that you want to apply to this Access Point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#public_access_block_configuration S3ExpressAccessPoint#public_access_block_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#public_access_block_configuration S3ExpressAccessPoint#public_access_block_configuration}
   */
   readonly publicAccessBlockConfiguration?: S3ExpressAccessPointPublicAccessBlockConfiguration;
   /**
   * For directory buckets, you can ?lter access control to speci?c pre?xes, API operations, or a combination of both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#scope S3ExpressAccessPoint#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#scope S3ExpressAccessPoint#scope}
   */
   readonly scope?: S3ExpressAccessPointScope;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#tags S3ExpressAccessPoint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#tags S3ExpressAccessPoint#tags}
   */
   readonly tags?: S3ExpressAccessPointTags[] | cdktn.IResolvable;
   /**
   * If you include this field, Amazon S3 restricts access to this Access Point to requests from the specified Virtual Private Cloud (VPC).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#vpc_configuration S3ExpressAccessPoint#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#vpc_configuration S3ExpressAccessPoint#vpc_configuration}
   */
   readonly vpcConfiguration?: S3ExpressAccessPointVpcConfiguration;
 }
@@ -62,26 +62,26 @@ export interface S3ExpressAccessPointPublicAccessBlockConfiguration {
   * . - PUT Bucket calls fail if the request includes a public ACL.
   * Enabling this setting doesn't affect existing policies or ACLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#block_public_acls S3ExpressAccessPoint#block_public_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#block_public_acls S3ExpressAccessPoint#block_public_acls}
   */
   readonly blockPublicAcls?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether Amazon S3 should block public bucket policies for buckets in this account. Setting this element to TRUE causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access. Enabling this setting doesn't affect existing bucket policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#block_public_policy S3ExpressAccessPoint#block_public_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#block_public_policy S3ExpressAccessPoint#block_public_policy}
   */
   readonly blockPublicPolicy?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether Amazon S3 should ignore public ACLs for buckets in this account. Setting this element to TRUE causes Amazon S3 to ignore all public ACLs on buckets in this account and any objects that they contain. Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#ignore_public_acls S3ExpressAccessPoint#ignore_public_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#ignore_public_acls S3ExpressAccessPoint#ignore_public_acls}
   */
   readonly ignorePublicAcls?: boolean | cdktn.IResolvable;
   /**
   * Specifies whether Amazon S3 should restrict public bucket policies for this bucket. Setting this element to TRUE restricts access to this bucket to only AWS services and authorized users within this account if the bucket has a public policy.
   * Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#restrict_public_buckets S3ExpressAccessPoint#restrict_public_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#restrict_public_buckets S3ExpressAccessPoint#restrict_public_buckets}
   */
   readonly restrictPublicBuckets?: boolean | cdktn.IResolvable;
 }
@@ -264,13 +264,13 @@ export interface S3ExpressAccessPointScope {
   /**
   * You can include one or more API operations as permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#permissions S3ExpressAccessPoint#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#permissions S3ExpressAccessPoint#permissions}
   */
   readonly permissions?: string[];
   /**
   * You can specify any amount of pre?xes, but the total length of characters of all pre?xes must be less than 256 bytes in size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#prefixes S3ExpressAccessPoint#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#prefixes S3ExpressAccessPoint#prefixes}
   */
   readonly prefixes?: string[];
 }
@@ -393,11 +393,11 @@ export class S3ExpressAccessPointScopeOutputReference extends cdktn.ComplexObjec
 }
 export interface S3ExpressAccessPointTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}
   */
   readonly value?: string;
 }
@@ -544,7 +544,7 @@ export interface S3ExpressAccessPointVpcConfiguration {
   /**
   * If this field is specified, this access point will only allow connections from the specified VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#vpc_id S3ExpressAccessPoint#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#vpc_id S3ExpressAccessPoint#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -638,7 +638,7 @@ export class S3ExpressAccessPointVpcConfigurationOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point awscc_s3express_access_point}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point awscc_s3express_access_point}
 */
 export class S3ExpressAccessPoint extends cdktn.TerraformResource {
 
@@ -654,7 +654,7 @@ export class S3ExpressAccessPoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3ExpressAccessPoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3ExpressAccessPoint to import
-  * @param importFromId The id of the existing S3ExpressAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3ExpressAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3ExpressAccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -666,7 +666,7 @@ export class S3ExpressAccessPoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3express_access_point awscc_s3express_access_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3express_access_point awscc_s3express_access_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -677,7 +677,7 @@ export class S3ExpressAccessPoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3express_access_point',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

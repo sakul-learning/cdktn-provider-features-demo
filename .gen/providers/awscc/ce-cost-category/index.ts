@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface CeCostCategoryConfig extends cdktn.TerraformMetaArguments {
   /**
   * The default value for the cost category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#default_value CeCostCategory#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#default_value CeCostCategory#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#name CeCostCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#name CeCostCategory#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#rule_version CeCostCategory#rule_version}
   */
   readonly ruleVersion: string;
   /**
   * JSON array format of Expression in Billing and Cost Management API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#rules CeCostCategory#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#rules CeCostCategory#rules}
   */
   readonly rules: string;
   /**
   * Json array format of CostCategorySplitChargeRule in Billing and Cost Management API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#split_charge_rules CeCostCategory#split_charge_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#split_charge_rules CeCostCategory#split_charge_rules}
   */
   readonly splitChargeRules?: string;
   /**
   * Tags to assign to the cost category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#tags CeCostCategory#tags}
   */
   readonly tags?: CeCostCategoryTags[] | cdktn.IResolvable;
 }
@@ -44,13 +44,13 @@ export interface CeCostCategoryTags {
   /**
   * The key name for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#key CeCostCategory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#key CeCostCategory#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#value CeCostCategory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#value CeCostCategory#value}
   */
   readonly value?: string;
 }
@@ -195,7 +195,7 @@ export class CeCostCategoryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category awscc_ce_cost_category}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category awscc_ce_cost_category}
 */
 export class CeCostCategory extends cdktn.TerraformResource {
 
@@ -211,7 +211,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CeCostCategory resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CeCostCategory to import
-  * @param importFromId The id of the existing CeCostCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CeCostCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CeCostCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -223,7 +223,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ce_cost_category awscc_ce_cost_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ce_cost_category awscc_ce_cost_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,7 +234,7 @@ export class CeCostCategory extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ce_cost_category',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,27 +11,27 @@ export interface Route53HostedZoneConfig extends cdktn.TerraformMetaArguments {
   * A complex type that contains an optional comment.
   *  If you don't want to specify a comment, omit the ``HostedZoneConfig`` and ``Comment`` elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#hosted_zone_config Route53HostedZone#hosted_zone_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#hosted_zone_config Route53HostedZone#hosted_zone_config}
   */
   readonly hostedZoneConfig?: Route53HostedZoneHostedZoneConfig;
   /**
   * The features configuration for the hosted zone, including accelerated recovery settings and status information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#hosted_zone_features Route53HostedZone#hosted_zone_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#hosted_zone_features Route53HostedZone#hosted_zone_features}
   */
   readonly hostedZoneFeatures?: Route53HostedZoneHostedZoneFeatures;
   /**
   * Adds, edits, or deletes tags for a health check or a hosted zone.
   *  For information about using tags for cost allocation, see [Using Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html) in the *User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#hosted_zone_tags Route53HostedZone#hosted_zone_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#hosted_zone_tags Route53HostedZone#hosted_zone_tags}
   */
   readonly hostedZoneTags?: Route53HostedZoneHostedZoneTags[] | cdktn.IResolvable;
   /**
   * The name of the domain. Specify a fully qualified domain name, for example, *www.example.com*. The trailing dot is optional; Amazon Route 53 assumes that the domain name is fully qualified. This means that Route 53 treats *www.example.com* (without a trailing dot) and *www.example.com.* (with a trailing dot) as identical.
   *  If you're creating a public hosted zone, this is the name you have registered with your DNS registrar. If your domain name is registered with a registrar other than Route 53, change the name servers for your domain to the set of ``NameServers`` that are returned by the ``Fn::GetAtt`` intrinsic function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#name Route53HostedZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#name Route53HostedZone#name}
   */
   readonly name?: string;
   /**
@@ -44,14 +44,14 @@ export interface Route53HostedZoneConfig extends cdktn.TerraformMetaArguments {
   *   
   *   + Log Group and Resource Policy Before you create a query logging configuration, perform the following operations. If you create a query logging configuration using the Route 53 console, Route 53 performs these operations automatically. Create a CloudWatch Logs log group, and make note of the ARN, which you specify when you create a query logging configuration. Note the following: You must create the log group in the us-east-1 region. You must use the same to create the log group and the hosted zone that you want to configure query logging for. When you create log groups for query logging, we recommend that you use a consistent prefix, for example: /aws/route53/hosted zone name In the next step, you'll create a resource policy, which controls access to one or more log groups and the associated resources, such as Route 53 hosted zones. There's a limit on the number of resource policies that you can create, so we recommend that you use a consistent prefix so you can use the same resource policy for all the log groups that you create for query logging. Create a CloudWatch Logs resource policy, and give it the permissions that Route 53 needs to create log streams and to send query logs to log streams. You must create the CloudWatch Logs resource policy in the us-east-1 region. For the value of Resource, specify the ARN for the log group that you created in the previous step. To use the same resource policy for all the CloudWatch Logs log groups that you created for query logging configurations, replace the hosted zone name with *, for example: arn:aws:logs:us-east-1:123412341234:log-group:/aws/route53/* To avoid the confused deputy problem, a security issue where an entity without a permission for an action can coerce a more-privileged entity to perform it, you can optionally limit the permissions that a service has to a resource in a resource-based policy by supplying the following values: For aws:SourceArn, supply the hosted zone ARN used in creating the query logging configuration. For example, aws:SourceArn: arn:aws:route53:::hostedzone/hosted zone ID. For aws:SourceAccount, supply the account ID for the account that creates the query logging configuration. For example, aws:SourceAccount:111111111111. For more information, see The confused deputy problem in the IAM User Guide. You can't use the CloudWatch console to create or edit a resource policy. You must use the CloudWatch API, one of the SDKs, or the . + Log Streams and Edge Locations When Route 53 finishes creating the configuration for DNS query logging, it does the following: Creates a log stream for an edge location the first time that the edge location responds to DNS queries for the specified hosted zone. That log stream is used to log all queries that Route 53 responds to for that edge location. Begins to send query logs to the applicable log stream. The name of each log stream is in the following format: hosted zone ID/edge location code The edge location code is a three-letter code and an arbitrarily assigned number, for example, DFW3. The three-letter code typically corresponds with the International Air Transport Association airport code for an airport near the edge location. (These abbreviations might change in the future.) For a list of edge locations, see "The Route 53 Global Network" on the Route 53 Product Details page. + Queries That Are Logged Query logs contain only the queries that DNS resolvers forward to Route 53. If a DNS resolver has already cached the response to a query (such as the IP address for a load balancer for example.com), the resolver will continue to return the cached response. It doesn't forward another query to Route 53 until the TTL for the corresponding resource record set expires. Depending on how many DNS queries are submitted for a resource record set, and depending on the TTL for that resource record set, query logs might contain information about only one query out of every several thousand queries that are submitted to DNS. For more information about how DNS works, see Routing Internet Traffic to Your Website or Web Application in the Amazon Route 53 Developer Guide. + Log File Format For a list of the values in each query log and the format of each value, see Logging DNS Queries in the Amazon Route 53 Developer Guide. + Pricing For information about charges for query logs, see Amazon CloudWatch Pricing. + How to Stop Logging If you want Route 53 to stop sending query logs to CloudWatch Logs, delete the query logging configuration. For more information, see DeleteQueryLoggingConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#query_logging_config Route53HostedZone#query_logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#query_logging_config Route53HostedZone#query_logging_config}
   */
   readonly queryLoggingConfig?: Route53HostedZoneQueryLoggingConfig;
   /**
   * *Private hosted zones:* A complex type that contains information about the VPCs that are associated with the specified hosted zone.
   *   For public hosted zones, omit ``VPCs``, ``VPCId``, and ``VPCRegion``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#vp_cs Route53HostedZone#vp_cs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#vp_cs Route53HostedZone#vp_cs}
   */
   readonly vpCs?: Route53HostedZoneVpCs[] | cdktn.IResolvable;
 }
@@ -59,7 +59,7 @@ export interface Route53HostedZoneHostedZoneConfig {
   /**
   * Any comments that you want to include about the hosted zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#comment Route53HostedZone#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#comment Route53HostedZone#comment}
   */
   readonly comment?: string;
 }
@@ -153,7 +153,7 @@ export class Route53HostedZoneHostedZoneConfigOutputReference extends cdktn.Comp
 }
 export interface Route53HostedZoneHostedZoneFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#enable_accelerated_recovery Route53HostedZone#enable_accelerated_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#enable_accelerated_recovery Route53HostedZone#enable_accelerated_recovery}
   */
   readonly enableAcceleratedRecovery?: boolean | cdktn.IResolvable;
 }
@@ -253,7 +253,7 @@ export interface Route53HostedZoneHostedZoneTags {
   *   +  *Delete a key*: ``Key`` is the name of the tag you want to remove.
   *   +  *Give a name to a health check*: Edit the default ``Name`` tag. In the Amazon Route 53 console, the list of your health checks includes a *Name* column that lets you see the name that you've given to each health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#key Route53HostedZone#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#key Route53HostedZone#key}
   */
   readonly key?: string;
   /**
@@ -261,7 +261,7 @@ export interface Route53HostedZoneHostedZoneTags {
   *   +  *Add a tag to a health check or hosted zone*: ``Value`` is the value that you want to give the new tag.
   *   +  *Edit a tag*: ``Value`` is the new value that you want to assign the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#value Route53HostedZone#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#value Route53HostedZone#value}
   */
   readonly value?: string;
 }
@@ -408,7 +408,7 @@ export interface Route53HostedZoneQueryLoggingConfig {
   /**
   * The Amazon Resource Name (ARN) of the CloudWatch Logs log group that Amazon Route 53 is publishing logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#cloudwatch_logs_log_group_arn Route53HostedZone#cloudwatch_logs_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#cloudwatch_logs_log_group_arn Route53HostedZone#cloudwatch_logs_log_group_arn}
   */
   readonly cloudwatchLogsLogGroupArn?: string;
 }
@@ -505,14 +505,14 @@ export interface Route53HostedZoneVpCs {
   * *Private hosted zones only:* The ID of an Amazon VPC.
   *   For public hosted zones, omit ``VPCs``, ``VPCId``, and ``VPCRegion``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#vpc_id Route53HostedZone#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#vpc_id Route53HostedZone#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * *Private hosted zones only:* The region that an Amazon VPC was created in.
   *   For public hosted zones, omit ``VPCs``, ``VPCId``, and ``VPCRegion``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#vpc_region Route53HostedZone#vpc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#vpc_region Route53HostedZone#vpc_region}
   */
   readonly vpcRegion?: string;
 }
@@ -657,7 +657,7 @@ export class Route53HostedZoneVpCsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone}
 */
 export class Route53HostedZone extends cdktn.TerraformResource {
 
@@ -673,7 +673,7 @@ export class Route53HostedZone extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53HostedZone resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53HostedZone to import
-  * @param importFromId The id of the existing Route53HostedZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53HostedZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53HostedZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -685,7 +685,7 @@ export class Route53HostedZone extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -696,7 +696,7 @@ export class Route53HostedZone extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53_hosted_zone',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

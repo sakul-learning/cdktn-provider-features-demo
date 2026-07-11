@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,77 +8,77 @@ import * as cdktn from 'cdktn';
 
 export interface KendraDataSourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#custom_document_enrichment_configuration KendraDataSource#custom_document_enrichment_configuration}
   */
   readonly customDocumentEnrichmentConfiguration?: KendraDataSourceCustomDocumentEnrichmentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_configuration KendraDataSource#data_source_configuration}
   */
   readonly dataSourceConfiguration?: KendraDataSourceDataSourceConfiguration;
   /**
   * Description of data source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#description KendraDataSource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#description KendraDataSource#description}
   */
   readonly description?: string;
   /**
   * ID of Index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_id KendraDataSource#index_id}
   */
   readonly indexId: string;
   /**
   * The code for a language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#language_code KendraDataSource#language_code}
   */
   readonly languageCode?: string;
   /**
   * Name of data source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#name KendraDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#name KendraDataSource#name}
   */
   readonly name: string;
   /**
   * Role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#schedule KendraDataSource#schedule}
   */
   readonly schedule?: string;
   /**
   * Tags for labeling the data source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#tags KendraDataSource#tags}
   */
   readonly tags?: KendraDataSourceTags[] | cdktn.IResolvable;
   /**
   * Data source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#type KendraDataSource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#type KendraDataSource#type}
   */
   readonly type: string;
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -259,15 +259,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
   */
   readonly conditionDocumentAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
   */
   readonly conditionOnValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsConditionConditionOnValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
   */
   readonly operator?: string;
 }
@@ -419,19 +419,19 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -612,15 +612,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#target_document_attribute_key KendraDataSource#target_document_attribute_key}
   */
   readonly targetDocumentAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#target_document_attribute_value KendraDataSource#target_document_attribute_value}
   */
   readonly targetDocumentAttributeValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetTargetDocumentAttributeValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#target_document_attribute_value_deletion KendraDataSource#target_document_attribute_value_deletion}
   */
   readonly targetDocumentAttributeValueDeletion?: boolean | cdktn.IResolvable;
 }
@@ -772,15 +772,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#condition KendraDataSource#condition}
   */
   readonly condition?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_content_deletion KendraDataSource#document_content_deletion}
   */
   readonly documentContentDeletion?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#target KendraDataSource#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#target KendraDataSource#target}
   */
   readonly target?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget;
 }
@@ -954,19 +954,19 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigur
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1147,15 +1147,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
   */
   readonly conditionDocumentAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
   */
   readonly conditionOnValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
   */
   readonly operator?: string;
 }
@@ -1307,15 +1307,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
   */
   readonly invocationCondition?: KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
   */
   readonly lambdaArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
   */
   readonly s3Bucket?: string;
 }
@@ -1467,19 +1467,19 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtraction
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_value KendraDataSource#date_value}
   */
   readonly dateValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#long_value KendraDataSource#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_list_value KendraDataSource#string_list_value}
   */
   readonly stringListValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#string_value KendraDataSource#string_value}
   */
   readonly stringValue?: string;
 }
@@ -1660,15 +1660,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#condition_document_attribute_key KendraDataSource#condition_document_attribute_key}
   */
   readonly conditionDocumentAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#condition_on_value KendraDataSource#condition_on_value}
   */
   readonly conditionOnValue?: KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationConditionConditionOnValue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#operator KendraDataSource#operator}
   */
   readonly operator?: string;
 }
@@ -1820,15 +1820,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionH
 }
 export interface KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}
   */
   readonly invocationCondition?: KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfigurationInvocationCondition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}
   */
   readonly lambdaArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}
   */
   readonly s3Bucket?: string;
 }
@@ -1982,21 +1982,21 @@ export interface KendraDataSourceCustomDocumentEnrichmentConfiguration {
   /**
   * List of InlineCustomDocumentEnrichmentConfigurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inline_configurations KendraDataSource#inline_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inline_configurations KendraDataSource#inline_configurations}
   */
   readonly inlineConfigurations?: KendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#post_extraction_hook_configuration KendraDataSource#post_extraction_hook_configuration}
   */
   readonly postExtractionHookConfiguration?: KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#pre_extraction_hook_configuration KendraDataSource#pre_extraction_hook_configuration}
   */
   readonly preExtractionHookConfiguration?: KendraDataSourceCustomDocumentEnrichmentConfigurationPreExtractionHookConfiguration;
   /**
   * Role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#role_arn KendraDataSource#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -2177,15 +2177,15 @@ export class KendraDataSourceCustomDocumentEnrichmentConfigurationOutputReferenc
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -2359,11 +2359,11 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttac
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#attachment_field_mappings KendraDataSource#attachment_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#attachment_field_mappings KendraDataSource#attachment_field_mappings}
   */
   readonly attachmentFieldMappings?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfigurationAttachmentFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
   */
   readonly crawlAttachments?: boolean | cdktn.IResolvable;
 }
@@ -2486,15 +2486,15 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttac
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -2668,7 +2668,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogC
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#blog_field_mappings KendraDataSource#blog_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#blog_field_mappings KendraDataSource#blog_field_mappings}
   */
   readonly blogFieldMappings?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfigurationBlogFieldMappings[] | cdktn.IResolvable;
 }
@@ -2762,15 +2762,15 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogC
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -2944,7 +2944,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageC
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#page_field_mappings KendraDataSource#page_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#page_field_mappings KendraDataSource#page_field_mappings}
   */
   readonly pageFieldMappings?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings[] | cdktn.IResolvable;
 }
@@ -3038,15 +3038,15 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageC
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -3220,23 +3220,23 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_archived_spaces KendraDataSource#crawl_archived_spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_archived_spaces KendraDataSource#crawl_archived_spaces}
   */
   readonly crawlArchivedSpaces?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_personal_spaces KendraDataSource#crawl_personal_spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_personal_spaces KendraDataSource#crawl_personal_spaces}
   */
   readonly crawlPersonalSpaces?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclude_spaces KendraDataSource#exclude_spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclude_spaces KendraDataSource#exclude_spaces}
   */
   readonly excludeSpaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#include_spaces KendraDataSource#include_spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#include_spaces KendraDataSource#include_spaces}
   */
   readonly includeSpaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#space_field_mappings KendraDataSource#space_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#space_field_mappings KendraDataSource#space_field_mappings}
   */
   readonly spaceFieldMappings?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfigurationSpaceFieldMappings[] | cdktn.IResolvable;
 }
@@ -3446,11 +3446,11 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpace
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -3573,43 +3573,43 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcCo
 }
 export interface KendraDataSourceDataSourceConfigurationConfluenceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#attachment_configuration KendraDataSource#attachment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#attachment_configuration KendraDataSource#attachment_configuration}
   */
   readonly attachmentConfiguration?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationAttachmentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#blog_configuration KendraDataSource#blog_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#blog_configuration KendraDataSource#blog_configuration}
   */
   readonly blogConfiguration?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationBlogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
   */
   readonly exclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
   */
   readonly inclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#page_configuration KendraDataSource#page_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#page_configuration KendraDataSource#page_configuration}
   */
   readonly pageConfiguration?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}
   */
   readonly serverUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#space_configuration KendraDataSource#space_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#space_configuration KendraDataSource#space_configuration}
   */
   readonly spaceConfiguration?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationSpaceConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#version KendraDataSource#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#version KendraDataSource#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}
   */
   readonly vpcConfiguration?: KendraDataSourceDataSourceConfigurationConfluenceConfigurationVpcConfiguration;
 }
@@ -3964,7 +3964,7 @@ export class KendraDataSourceDataSourceConfigurationConfluenceConfigurationOutpu
 }
 export interface KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}
   */
   readonly allowedGroupsColumnName?: string;
 }
@@ -4058,15 +4058,15 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConf
 }
 export interface KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -4240,23 +4240,23 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
 }
 export interface KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#change_detecting_columns KendraDataSource#change_detecting_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#change_detecting_columns KendraDataSource#change_detecting_columns}
   */
   readonly changeDetectingColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_data_column_name KendraDataSource#document_data_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_data_column_name KendraDataSource#document_data_column_name}
   */
   readonly documentDataColumnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_id_column_name KendraDataSource#document_id_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_id_column_name KendraDataSource#document_id_column_name}
   */
   readonly documentIdColumnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_column_name KendraDataSource#document_title_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_column_name KendraDataSource#document_title_column_name}
   */
   readonly documentTitleColumnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationFieldMappings[] | cdktn.IResolvable;
 }
@@ -4466,23 +4466,23 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnC
 }
 export interface KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#database_host KendraDataSource#database_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#database_host KendraDataSource#database_host}
   */
   readonly databaseHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#database_name KendraDataSource#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#database_name KendraDataSource#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#database_port KendraDataSource#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#database_port KendraDataSource#database_port}
   */
   readonly databasePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#table_name KendraDataSource#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#table_name KendraDataSource#table_name}
   */
   readonly tableName?: string;
 }
@@ -4692,7 +4692,7 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnect
 }
 export interface KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}
   */
   readonly queryIdentifiersEnclosingOption?: string;
 }
@@ -4786,11 +4786,11 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConf
 }
 export interface KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -4913,27 +4913,27 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConf
 }
 export interface KendraDataSourceDataSourceConfigurationDatabaseConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#acl_configuration KendraDataSource#acl_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#acl_configuration KendraDataSource#acl_configuration}
   */
   readonly aclConfiguration?: KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#column_configuration KendraDataSource#column_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#column_configuration KendraDataSource#column_configuration}
   */
   readonly columnConfiguration?: KendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#connection_configuration KendraDataSource#connection_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#connection_configuration KendraDataSource#connection_configuration}
   */
   readonly connectionConfiguration?: KendraDataSourceDataSourceConfigurationDatabaseConfigurationConnectionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#database_engine_type KendraDataSource#database_engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#database_engine_type KendraDataSource#database_engine_type}
   */
   readonly databaseEngineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#sql_configuration KendraDataSource#sql_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#sql_configuration KendraDataSource#sql_configuration}
   */
   readonly sqlConfiguration?: KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}
   */
   readonly vpcConfiguration?: KendraDataSourceDataSourceConfigurationDatabaseConfigurationVpcConfiguration;
 }
@@ -5172,15 +5172,15 @@ export class KendraDataSourceDataSourceConfigurationDatabaseConfigurationOutputR
 }
 export interface KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -5354,31 +5354,31 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFiel
 }
 export interface KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclude_mime_types KendraDataSource#exclude_mime_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclude_mime_types KendraDataSource#exclude_mime_types}
   */
   readonly excludeMimeTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclude_shared_drives KendraDataSource#exclude_shared_drives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclude_shared_drives KendraDataSource#exclude_shared_drives}
   */
   readonly excludeSharedDrives?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclude_user_accounts KendraDataSource#exclude_user_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclude_user_accounts KendraDataSource#exclude_user_accounts}
   */
   readonly excludeUserAccounts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
   */
   readonly exclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
   */
   readonly inclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -5646,15 +5646,15 @@ export class KendraDataSourceDataSourceConfigurationGoogleDriveConfigurationOutp
 }
 export interface KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -5828,11 +5828,11 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMa
 }
 export interface KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#key KendraDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#key KendraDataSource#key}
   */
   readonly key?: string;
 }
@@ -5955,11 +5955,11 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriv
 }
 export interface KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#one_drive_user_list KendraDataSource#one_drive_user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#one_drive_user_list KendraDataSource#one_drive_user_list}
   */
   readonly oneDriveUserList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#one_drive_user_s3_path KendraDataSource#one_drive_user_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#one_drive_user_s3_path KendraDataSource#one_drive_user_s3_path}
   */
   readonly oneDriveUserS3Path?: KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsersOneDriveUserS3Path;
 }
@@ -6082,31 +6082,31 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriv
 }
 export interface KendraDataSourceDataSourceConfigurationOneDriveConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}
   */
   readonly disableLocalGroups?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
   */
   readonly exclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationOneDriveConfigurationFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
   */
   readonly inclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#one_drive_users KendraDataSource#one_drive_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#one_drive_users KendraDataSource#one_drive_users}
   */
   readonly oneDriveUsers?: KendraDataSourceDataSourceConfigurationOneDriveConfigurationOneDriveUsers;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#tenant_domain KendraDataSource#tenant_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#tenant_domain KendraDataSource#tenant_domain}
   */
   readonly tenantDomain?: string;
 }
@@ -6374,7 +6374,7 @@ export class KendraDataSourceDataSourceConfigurationOneDriveConfigurationOutputR
 }
 export interface KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#key_path KendraDataSource#key_path}
   */
   readonly keyPath?: string;
 }
@@ -6468,7 +6468,7 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControl
 }
 export interface KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#s3_prefix KendraDataSource#s3_prefix}
   */
   readonly s3Prefix?: string;
 }
@@ -6562,27 +6562,27 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMeta
 }
 export interface KendraDataSourceDataSourceConfigurationS3Configuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#access_control_list_configuration KendraDataSource#access_control_list_configuration}
   */
   readonly accessControlListConfiguration?: KendraDataSourceDataSourceConfigurationS3ConfigurationAccessControlListConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#bucket_name KendraDataSource#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#documents_metadata_configuration KendraDataSource#documents_metadata_configuration}
   */
   readonly documentsMetadataConfiguration?: KendraDataSourceDataSourceConfigurationS3ConfigurationDocumentsMetadataConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
   */
   readonly exclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
   */
   readonly inclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inclusion_prefixes KendraDataSource#inclusion_prefixes}
   */
   readonly inclusionPrefixes?: string[];
 }
@@ -6821,15 +6821,15 @@ export class KendraDataSourceDataSourceConfigurationS3ConfigurationOutputReferen
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -7003,19 +7003,19 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
   */
   readonly documentDataFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfigurationFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#include_filter_types KendraDataSource#include_filter_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#include_filter_types KendraDataSource#include_filter_types}
   */
   readonly includeFilterTypes?: string[];
 }
@@ -7196,15 +7196,15 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatt
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -7378,19 +7378,19 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
   */
   readonly documentDataFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurationsFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#name KendraDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#name KendraDataSource#name}
   */
   readonly name?: string;
 }
@@ -7593,15 +7593,15 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -7775,15 +7775,15 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
   */
   readonly documentDataFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfigurationFieldMappings[] | cdktn.IResolvable;
 }
@@ -7935,15 +7935,15 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#custom_knowledge_article_type_configurations KendraDataSource#custom_knowledge_article_type_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#custom_knowledge_article_type_configurations KendraDataSource#custom_knowledge_article_type_configurations}
   */
   readonly customKnowledgeArticleTypeConfigurations?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationCustomKnowledgeArticleTypeConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#included_states KendraDataSource#included_states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#included_states KendraDataSource#included_states}
   */
   readonly includedStates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#standard_knowledge_article_type_configuration KendraDataSource#standard_knowledge_article_type_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#standard_knowledge_article_type_configuration KendraDataSource#standard_knowledge_article_type_configuration}
   */
   readonly standardKnowledgeArticleTypeConfiguration?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfigurationStandardKnowledgeArticleTypeConfiguration;
 }
@@ -8095,15 +8095,15 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowl
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -8277,11 +8277,11 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfigurationFieldMappings[] | cdktn.IResolvable;
 }
@@ -8404,15 +8404,15 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -8586,19 +8586,19 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
   */
   readonly documentDataFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurationsFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#name KendraDataSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#name KendraDataSource#name}
   */
   readonly name?: string;
 }
@@ -8801,39 +8801,39 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationStand
 }
 export interface KendraDataSourceDataSourceConfigurationSalesforceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#chatter_feed_configuration KendraDataSource#chatter_feed_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#chatter_feed_configuration KendraDataSource#chatter_feed_configuration}
   */
   readonly chatterFeedConfiguration?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationChatterFeedConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
   */
   readonly crawlAttachments?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}
   */
   readonly excludeAttachmentFilePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}
   */
   readonly includeAttachmentFilePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}
   */
   readonly knowledgeArticleConfiguration?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationKnowledgeArticleConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#server_url KendraDataSource#server_url}
   */
   readonly serverUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#standard_object_attachment_configuration KendraDataSource#standard_object_attachment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#standard_object_attachment_configuration KendraDataSource#standard_object_attachment_configuration}
   */
   readonly standardObjectAttachmentConfiguration?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectAttachmentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#standard_object_configurations KendraDataSource#standard_object_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#standard_object_configurations KendraDataSource#standard_object_configurations}
   */
   readonly standardObjectConfigurations?: KendraDataSourceDataSourceConfigurationSalesforceConfigurationStandardObjectConfigurations[] | cdktn.IResolvable;
 }
@@ -9159,15 +9159,15 @@ export class KendraDataSourceDataSourceConfigurationSalesforceConfigurationOutpu
 }
 export interface KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -9341,31 +9341,31 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
 }
 export interface KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
   */
   readonly crawlAttachments?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
   */
   readonly documentDataFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}
   */
   readonly excludeAttachmentFilePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfigurationFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#filter_query KendraDataSource#filter_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#filter_query KendraDataSource#filter_query}
   */
   readonly filterQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}
   */
   readonly includeAttachmentFilePatterns?: string[];
 }
@@ -9633,15 +9633,15 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowl
 }
 export interface KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -9815,27 +9815,27 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
 }
 export interface KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
   */
   readonly crawlAttachments?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_data_field_name KendraDataSource#document_data_field_name}
   */
   readonly documentDataFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclude_attachment_file_patterns KendraDataSource#exclude_attachment_file_patterns}
   */
   readonly excludeAttachmentFilePatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfigurationFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#include_attachment_file_patterns KendraDataSource#include_attachment_file_patterns}
   */
   readonly includeAttachmentFilePatterns?: string[];
 }
@@ -10074,27 +10074,27 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationServi
 }
 export interface KendraDataSourceDataSourceConfigurationServiceNowConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#authentication_type KendraDataSource#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#authentication_type KendraDataSource#authentication_type}
   */
   readonly authenticationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#host_url KendraDataSource#host_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#host_url KendraDataSource#host_url}
   */
   readonly hostUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#knowledge_article_configuration KendraDataSource#knowledge_article_configuration}
   */
   readonly knowledgeArticleConfiguration?: KendraDataSourceDataSourceConfigurationServiceNowConfigurationKnowledgeArticleConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#service_catalog_configuration KendraDataSource#service_catalog_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#service_catalog_configuration KendraDataSource#service_catalog_configuration}
   */
   readonly serviceCatalogConfiguration?: KendraDataSourceDataSourceConfigurationServiceNowConfigurationServiceCatalogConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#service_now_build_version KendraDataSource#service_now_build_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#service_now_build_version KendraDataSource#service_now_build_version}
   */
   readonly serviceNowBuildVersion?: string;
 }
@@ -10333,15 +10333,15 @@ export class KendraDataSourceDataSourceConfigurationServiceNowConfigurationOutpu
 }
 export interface KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -10515,11 +10515,11 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationField
 }
 export interface KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#bucket KendraDataSource#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#key KendraDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#key KendraDataSource#key}
   */
   readonly key?: string;
 }
@@ -10642,11 +10642,11 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCe
 }
 export interface KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#security_group_ids KendraDataSource#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#subnet_ids KendraDataSource#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -10769,51 +10769,51 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcCo
 }
 export interface KendraDataSourceDataSourceConfigurationSharePointConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_attachments KendraDataSource#crawl_attachments}
   */
   readonly crawlAttachments?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#disable_local_groups KendraDataSource#disable_local_groups}
   */
   readonly disableLocalGroups?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#document_title_field_name KendraDataSource#document_title_field_name}
   */
   readonly documentTitleFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
   */
   readonly exclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationSharePointConfigurationFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
   */
   readonly inclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#secret_arn KendraDataSource#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#share_point_version KendraDataSource#share_point_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#share_point_version KendraDataSource#share_point_version}
   */
   readonly sharePointVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#ssl_certificate_s3_path KendraDataSource#ssl_certificate_s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#ssl_certificate_s3_path KendraDataSource#ssl_certificate_s3_path}
   */
   readonly sslCertificateS3Path?: KendraDataSourceDataSourceConfigurationSharePointConfigurationSslCertificateS3Path;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}
   */
   readonly urls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}
   */
   readonly useChangeLog?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#vpc_configuration KendraDataSource#vpc_configuration}
   */
   readonly vpcConfiguration?: KendraDataSourceDataSourceConfigurationSharePointConfigurationVpcConfiguration;
 }
@@ -11226,7 +11226,7 @@ export class KendraDataSourceDataSourceConfigurationSharePointConfigurationOutpu
 }
 export interface KendraDataSourceDataSourceConfigurationTemplateConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#template KendraDataSource#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#template KendraDataSource#template}
   */
   readonly template?: string;
 }
@@ -11320,15 +11320,15 @@ export class KendraDataSourceDataSourceConfigurationTemplateConfigurationOutputR
 }
 export interface KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
   */
   readonly credentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#host KendraDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#host KendraDataSource#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#port KendraDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#port KendraDataSource#port}
   */
   readonly port?: number;
 }
@@ -11502,7 +11502,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthe
 }
 export interface KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
   */
   readonly basicAuthentication?: KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication[] | cdktn.IResolvable;
 }
@@ -11596,15 +11596,15 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthe
 }
 export interface KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#credentials KendraDataSource#credentials}
   */
   readonly credentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#host KendraDataSource#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#host KendraDataSource#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#port KendraDataSource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#port KendraDataSource#port}
   */
   readonly port?: number;
 }
@@ -11756,11 +11756,11 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxy
 }
 export interface KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#seed_urls KendraDataSource#seed_urls}
   */
   readonly seedUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#web_crawler_mode KendraDataSource#web_crawler_mode}
   */
   readonly webCrawlerMode?: string;
 }
@@ -11883,7 +11883,7 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsS
 }
 export interface KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#site_maps KendraDataSource#site_maps}
   */
   readonly siteMaps?: string[];
 }
@@ -11977,11 +11977,11 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsS
 }
 export interface KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#seed_url_configuration KendraDataSource#seed_url_configuration}
   */
   readonly seedUrlConfiguration?: KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSeedUrlConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#site_maps_configuration KendraDataSource#site_maps_configuration}
   */
   readonly siteMapsConfiguration?: KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsSiteMapsConfiguration;
 }
@@ -12104,39 +12104,39 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrlsO
 }
 export interface KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#authentication_configuration KendraDataSource#authentication_configuration}
   */
   readonly authenticationConfiguration?: KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_depth KendraDataSource#crawl_depth}
   */
   readonly crawlDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#max_content_size_per_page_in_mega_bytes KendraDataSource#max_content_size_per_page_in_mega_bytes}
   */
   readonly maxContentSizePerPageInMegaBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#max_links_per_page KendraDataSource#max_links_per_page}
   */
   readonly maxLinksPerPage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#max_urls_per_minute_crawl_rate KendraDataSource#max_urls_per_minute_crawl_rate}
   */
   readonly maxUrlsPerMinuteCrawlRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#proxy_configuration KendraDataSource#proxy_configuration}
   */
   readonly proxyConfiguration?: KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationProxyConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#url_exclusion_patterns KendraDataSource#url_exclusion_patterns}
   */
   readonly urlExclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#url_inclusion_patterns KendraDataSource#url_inclusion_patterns}
   */
   readonly urlInclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#urls KendraDataSource#urls}
   */
   readonly urls?: KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationUrls;
 }
@@ -12462,15 +12462,15 @@ export class KendraDataSourceDataSourceConfigurationWebCrawlerConfigurationOutpu
 }
 export interface KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#data_source_field_name KendraDataSource#data_source_field_name}
   */
   readonly dataSourceFieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#date_field_format KendraDataSource#date_field_format}
   */
   readonly dateFieldFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#index_field_name KendraDataSource#index_field_name}
   */
   readonly indexFieldName?: string;
 }
@@ -12644,27 +12644,27 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMa
 }
 export interface KendraDataSourceDataSourceConfigurationWorkDocsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#crawl_comments KendraDataSource#crawl_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#crawl_comments KendraDataSource#crawl_comments}
   */
   readonly crawlComments?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#exclusion_patterns KendraDataSource#exclusion_patterns}
   */
   readonly exclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#field_mappings KendraDataSource#field_mappings}
   */
   readonly fieldMappings?: KendraDataSourceDataSourceConfigurationWorkDocsConfigurationFieldMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#inclusion_patterns KendraDataSource#inclusion_patterns}
   */
   readonly inclusionPatterns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#organization_id KendraDataSource#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#organization_id KendraDataSource#organization_id}
   */
   readonly organizationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#use_change_log KendraDataSource#use_change_log}
   */
   readonly useChangeLog?: boolean | cdktn.IResolvable;
 }
@@ -12903,51 +12903,51 @@ export class KendraDataSourceDataSourceConfigurationWorkDocsConfigurationOutputR
 }
 export interface KendraDataSourceDataSourceConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#confluence_configuration KendraDataSource#confluence_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#confluence_configuration KendraDataSource#confluence_configuration}
   */
   readonly confluenceConfiguration?: KendraDataSourceDataSourceConfigurationConfluenceConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#database_configuration KendraDataSource#database_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#database_configuration KendraDataSource#database_configuration}
   */
   readonly databaseConfiguration?: KendraDataSourceDataSourceConfigurationDatabaseConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#google_drive_configuration KendraDataSource#google_drive_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#google_drive_configuration KendraDataSource#google_drive_configuration}
   */
   readonly googleDriveConfiguration?: KendraDataSourceDataSourceConfigurationGoogleDriveConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#one_drive_configuration KendraDataSource#one_drive_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#one_drive_configuration KendraDataSource#one_drive_configuration}
   */
   readonly oneDriveConfiguration?: KendraDataSourceDataSourceConfigurationOneDriveConfiguration;
   /**
   * S3 data source configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#s3_configuration KendraDataSource#s3_configuration}
   */
   readonly s3Configuration?: KendraDataSourceDataSourceConfigurationS3Configuration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#salesforce_configuration KendraDataSource#salesforce_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#salesforce_configuration KendraDataSource#salesforce_configuration}
   */
   readonly salesforceConfiguration?: KendraDataSourceDataSourceConfigurationSalesforceConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#service_now_configuration KendraDataSource#service_now_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#service_now_configuration KendraDataSource#service_now_configuration}
   */
   readonly serviceNowConfiguration?: KendraDataSourceDataSourceConfigurationServiceNowConfiguration;
   /**
   * SharePoint configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#share_point_configuration KendraDataSource#share_point_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#share_point_configuration KendraDataSource#share_point_configuration}
   */
   readonly sharePointConfiguration?: KendraDataSourceDataSourceConfigurationSharePointConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#template_configuration KendraDataSource#template_configuration}
   */
   readonly templateConfiguration?: KendraDataSourceDataSourceConfigurationTemplateConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#web_crawler_configuration KendraDataSource#web_crawler_configuration}
   */
   readonly webCrawlerConfiguration?: KendraDataSourceDataSourceConfigurationWebCrawlerConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#work_docs_configuration KendraDataSource#work_docs_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#work_docs_configuration KendraDataSource#work_docs_configuration}
   */
   readonly workDocsConfiguration?: KendraDataSourceDataSourceConfigurationWorkDocsConfiguration;
 }
@@ -13333,13 +13333,13 @@ export interface KendraDataSourceTags {
   /**
   * A string used to identify this tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#key KendraDataSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#key KendraDataSource#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#value KendraDataSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#value KendraDataSource#value}
   */
   readonly value?: string;
 }
@@ -13484,7 +13484,7 @@ export class KendraDataSourceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source awscc_kendra_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source awscc_kendra_data_source}
 */
 export class KendraDataSource extends cdktn.TerraformResource {
 
@@ -13500,7 +13500,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KendraDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KendraDataSource to import
-  * @param importFromId The id of the existing KendraDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KendraDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KendraDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -13512,7 +13512,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/kendra_data_source awscc_kendra_data_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kendra_data_source awscc_kendra_data_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13523,7 +13523,7 @@ export class KendraDataSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kendra_data_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

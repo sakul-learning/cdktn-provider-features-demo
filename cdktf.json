@@ -11,5 +11,8 @@
     "opentofu": ">=1.11.0"
   },
   "context": {},
+  "languageOptions": {
+    "importExtension": ".js"
+  },
   "projectId": "f4ab29da-7953-48d9-ad6e-4e0e39d8ed5f"
 }

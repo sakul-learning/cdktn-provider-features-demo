@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_block_public_access_options
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_block_public_access_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface Ec2VpcBlockPublicAccessOptionsConfig extends cdktn.TerraformMet
   /**
   * The desired Block Public Access mode for Internet Gateways in your account. We do not allow to create in a off mode as this is the default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_block_public_access_options#internet_gateway_block_mode Ec2VpcBlockPublicAccessOptions#internet_gateway_block_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_block_public_access_options#internet_gateway_block_mode Ec2VpcBlockPublicAccessOptions#internet_gateway_block_mode}
   */
   readonly internetGatewayBlockMode: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}
 */
 export class Ec2VpcBlockPublicAccessOptions extends cdktn.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Ec2VpcBlockPublicAccessOptions extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpcBlockPublicAccessOptions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpcBlockPublicAccessOptions to import
-  * @param importFromId The id of the existing Ec2VpcBlockPublicAccessOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_block_public_access_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpcBlockPublicAccessOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_block_public_access_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpcBlockPublicAccessOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Ec2VpcBlockPublicAccessOptions extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,7 @@ export class Ec2VpcBlockPublicAccessOptions extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpc_block_public_access_options',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

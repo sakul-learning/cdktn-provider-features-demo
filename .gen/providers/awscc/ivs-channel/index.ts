@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface IvsChannelConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether the channel is authorized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#authorized IvsChannel#authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#authorized IvsChannel#authorized}
   */
   readonly authorized?: boolean | cdktn.IResolvable;
   /**
   * Indicates which content-packaging format is used (MPEG-TS or fMP4). If multitrackInputConfiguration is specified and enabled is true, then containerFormat is required and must be set to FRAGMENTED_MP4. Otherwise, containerFormat may be set to TS or FRAGMENTED_MP4. Default: TS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#container_format IvsChannel#container_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#container_format IvsChannel#container_format}
   */
   readonly containerFormat?: string;
   /**
   * Whether the channel allows insecure ingest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#insecure_ingest IvsChannel#insecure_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#insecure_ingest IvsChannel#insecure_ingest}
   */
   readonly insecureIngest?: boolean | cdktn.IResolvable;
   /**
   * Channel latency mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#latency_mode IvsChannel#latency_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#latency_mode IvsChannel#latency_mode}
   */
   readonly latencyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#multitrack_input_configuration IvsChannel#multitrack_input_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#multitrack_input_configuration IvsChannel#multitrack_input_configuration}
   */
   readonly multitrackInputConfiguration?: IvsChannelMultitrackInputConfiguration;
   /**
   * Channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#name IvsChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#name IvsChannel#name}
   */
   readonly name?: string;
   /**
   * Optional transcode preset for the channel. This is selectable only for ADVANCED_HD and ADVANCED_SD channel types. For those channel types, the default preset is HIGHER_BANDWIDTH_DELIVERY. For other channel types (BASIC and STANDARD), preset is the empty string ("").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#preset IvsChannel#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#preset IvsChannel#preset}
   */
   readonly preset?: string;
   /**
   * Recording Configuration ARN. A value other than an empty string indicates that recording is enabled. Default: "" (recording is disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#recording_configuration_arn IvsChannel#recording_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#recording_configuration_arn IvsChannel#recording_configuration_arn}
   */
   readonly recordingConfigurationArn?: string;
   /**
   * A list of key-value pairs that contain metadata for the asset model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#tags IvsChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#tags IvsChannel#tags}
   */
   readonly tags?: IvsChannelTags[] | cdktn.IResolvable;
   /**
   * Channel type, which determines the allowable resolution and bitrate. If you exceed the allowable resolution or bitrate, the stream probably will disconnect immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#type IvsChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#type IvsChannel#type}
   */
   readonly type?: string;
 }
@@ -70,19 +70,19 @@ export interface IvsChannelMultitrackInputConfiguration {
   /**
   * Indicates whether multitrack input is enabled. Can be set to true only if channel type is STANDARD. Setting enabled to true with any other channel type will cause an exception. If true, then policy, maximumResolution, and containerFormat are required, and containerFormat must be set to FRAGMENTED_MP4. Default: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#enabled IvsChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#enabled IvsChannel#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Maximum resolution for multitrack input. Required if enabled is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#maximum_resolution IvsChannel#maximum_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#maximum_resolution IvsChannel#maximum_resolution}
   */
   readonly maximumResolution?: string;
   /**
   * Indicates whether multitrack input is allowed or required. Required if enabled is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#policy IvsChannel#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#policy IvsChannel#policy}
   */
   readonly policy?: string;
 }
@@ -236,13 +236,13 @@ export interface IvsChannelTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#key IvsChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#key IvsChannel#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#value IvsChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#value IvsChannel#value}
   */
   readonly value?: string;
 }
@@ -387,7 +387,7 @@ export class IvsChannelTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel awscc_ivs_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel awscc_ivs_channel}
 */
 export class IvsChannel extends cdktn.TerraformResource {
 
@@ -403,7 +403,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvsChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvsChannel to import
-  * @param importFromId The id of the existing IvsChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvsChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvsChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -415,7 +415,7 @@ export class IvsChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ivs_channel awscc_ivs_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_channel awscc_ivs_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,7 +426,7 @@ export class IvsChannel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivs_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

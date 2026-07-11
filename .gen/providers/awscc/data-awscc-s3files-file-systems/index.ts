@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/s3files_file_systems
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3files_file_systems
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccS3FilesFileSystemsConfig extends cdktn.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems}
 */
 export class DataAwsccS3FilesFileSystems extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccS3FilesFileSystems extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccS3FilesFileSystems resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccS3FilesFileSystems to import
-  * @param importFromId The id of the existing DataAwsccS3FilesFileSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/s3files_file_systems#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccS3FilesFileSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3files_file_systems#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccS3FilesFileSystems to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccS3FilesFileSystems extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3files_file_systems awscc_s3files_file_systems} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccS3FilesFileSystems extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_s3files_file_systems',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

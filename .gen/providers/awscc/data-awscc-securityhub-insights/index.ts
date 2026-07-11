@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_insights
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_insights
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccSecurityhubInsightsConfig extends cdktn.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_insights awscc_securityhub_insights}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_insights awscc_securityhub_insights}
 */
 export class DataAwsccSecurityhubInsights extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccSecurityhubInsights extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccSecurityhubInsights resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSecurityhubInsights to import
-  * @param importFromId The id of the existing DataAwsccSecurityhubInsights that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_insights#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSecurityhubInsights that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_insights#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSecurityhubInsights to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccSecurityhubInsights extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/securityhub_insights awscc_securityhub_insights} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/securityhub_insights awscc_securityhub_insights} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccSecurityhubInsights extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_securityhub_insights',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

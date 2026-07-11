@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SmsvoiceResourcePolicyConfig extends cdktn.TerraformMetaArgumen
   /**
   * The JSON formatted resource-based policy to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
   */
   readonly policyDocument: string;
   /**
   * The Amazon Resource Name (ARN) of the AWS End User Messaging SMS and Voice resource to attach the resource-based policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
   */
   readonly resourceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}
 */
 export class SmsvoiceResourcePolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SmsvoiceResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SmsvoiceResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsvoiceResourcePolicy to import
-  * @param importFromId The id of the existing SmsvoiceResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsvoiceResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsvoiceResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SmsvoiceResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class SmsvoiceResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_smsvoice_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

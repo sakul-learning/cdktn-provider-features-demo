@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface CodepipelineWebhookConfig extends cdktn.TerraformMetaArguments 
   /**
   * Supported options are GITHUB_HMAC, IP, and UNAUTHENTICATED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#authentication CodepipelineWebhook#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#authentication CodepipelineWebhook#authentication}
   */
   readonly authentication: string;
   /**
   * Properties that configure the authentication applied to incoming webhook trigger requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#authentication_configuration CodepipelineWebhook#authentication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#authentication_configuration CodepipelineWebhook#authentication_configuration}
   */
   readonly authenticationConfiguration: CodepipelineWebhookAuthenticationConfiguration;
   /**
   * A list of rules applied to the body/payload sent in the POST request to a webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#filters CodepipelineWebhook#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#filters CodepipelineWebhook#filters}
   */
   readonly filters: CodepipelineWebhookFilters[] | cdktn.IResolvable;
   /**
   * The name of the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#name CodepipelineWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#name CodepipelineWebhook#name}
   */
   readonly name?: string;
   /**
   * Configures a connection between the webhook that was created and the external tool with events to be detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#register_with_third_party CodepipelineWebhook#register_with_third_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#register_with_third_party CodepipelineWebhook#register_with_third_party}
   */
   readonly registerWithThirdParty?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#tags CodepipelineWebhook#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#tags CodepipelineWebhook#tags}
   */
   readonly tags?: CodepipelineWebhookTags[] | cdktn.IResolvable;
   /**
   * The name of the action in a pipeline you want to connect to the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#target_action CodepipelineWebhook#target_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#target_action CodepipelineWebhook#target_action}
   */
   readonly targetAction: string;
   /**
   * The name of the pipeline you want to connect to the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#target_pipeline CodepipelineWebhook#target_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#target_pipeline CodepipelineWebhook#target_pipeline}
   */
   readonly targetPipeline: string;
   /**
   * The version number of the pipeline to be connected to the trigger request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#target_pipeline_version CodepipelineWebhook#target_pipeline_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#target_pipeline_version CodepipelineWebhook#target_pipeline_version}
   */
   readonly targetPipelineVersion?: number;
 }
@@ -66,13 +66,13 @@ export interface CodepipelineWebhookAuthenticationConfiguration {
   /**
   * The property used to configure acceptance of webhooks in an IP address range. For IP, only the AllowedIPRange property must be set. This property must be set to a valid CIDR range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#allowed_ip_range CodepipelineWebhook#allowed_ip_range}
   */
   readonly allowedIpRange?: string;
   /**
   * The property used to configure GitHub authentication. For GITHUB_HMAC, only the SecretToken property must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#secret_token CodepipelineWebhook#secret_token}
   */
   readonly secretToken?: string;
 }
@@ -197,13 +197,13 @@ export interface CodepipelineWebhookFilters {
   /**
   * A JsonPath expression that is applied to the body/payload of the webhook. The value selected by the JsonPath expression must match the value specified in the MatchEquals field. Otherwise, the request is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}
   */
   readonly jsonPath: string;
   /**
   * The value selected by the JsonPath expression must match what is supplied in the MatchEquals field. Otherwise, the request is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}
   */
   readonly matchEquals?: string;
 }
@@ -347,13 +347,13 @@ export interface CodepipelineWebhookTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#key CodepipelineWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#key CodepipelineWebhook#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#value CodepipelineWebhook#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#value CodepipelineWebhook#value}
   */
   readonly value?: string;
 }
@@ -498,7 +498,7 @@ export class CodepipelineWebhookTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook}
 */
 export class CodepipelineWebhook extends cdktn.TerraformResource {
 
@@ -514,7 +514,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodepipelineWebhook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodepipelineWebhook to import
-  * @param importFromId The id of the existing CodepipelineWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodepipelineWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodepipelineWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -526,7 +526,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -537,7 +537,7 @@ export class CodepipelineWebhook extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codepipeline_webhook',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

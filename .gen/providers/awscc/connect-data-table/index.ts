@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ConnectDataTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the Data Table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#description ConnectDataTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#description ConnectDataTable#description}
   */
   readonly description?: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
   */
   readonly instanceArn?: string;
   /**
   * The name of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#name ConnectDataTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#name ConnectDataTable#name}
   */
   readonly name?: string;
   /**
   * The status of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#status ConnectDataTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#status ConnectDataTable#status}
   */
   readonly status?: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
   */
   readonly tags?: ConnectDataTableTags[] | cdktn.IResolvable;
   /**
   * The time zone of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
   */
   readonly timeZone?: string;
   /**
   * The value lock level of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
   */
   readonly valueLockLevel?: string;
 }
@@ -108,13 +108,13 @@ export interface ConnectDataTableTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#key ConnectDataTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#key ConnectDataTable#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#value ConnectDataTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#value ConnectDataTable#value}
   */
   readonly value?: string;
 }
@@ -259,7 +259,7 @@ export class ConnectDataTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table awscc_connect_data_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table awscc_connect_data_table}
 */
 export class ConnectDataTable extends cdktn.TerraformResource {
 
@@ -275,7 +275,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectDataTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectDataTable to import
-  * @param importFromId The id of the existing ConnectDataTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectDataTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectDataTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -287,7 +287,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/connect_data_table awscc_connect_data_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table awscc_connect_data_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,7 +298,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_data_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

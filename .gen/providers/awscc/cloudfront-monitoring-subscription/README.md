@@ -1,3 +1,3 @@
 # `awscc_cloudfront_monitoring_subscription`
 
-Refer to the Terraform Registry for docs: [`awscc_cloudfront_monitoring_subscription`](https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/cloudfront_monitoring_subscription).
+Refer to the Terraform Registry for docs: [`awscc_cloudfront_monitoring_subscription`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_monitoring_subscription).

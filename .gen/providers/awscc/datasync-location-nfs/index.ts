@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DatasyncLocationNfsConfig extends cdktn.TerraformMetaArguments 
   /**
   * The NFS mount options that DataSync can use to mount your NFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#mount_options DatasyncLocationNfs#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#mount_options DatasyncLocationNfs#mount_options}
   */
   readonly mountOptions?: DatasyncLocationNfsMountOptions;
   /**
   * Contains a list of Amazon Resource Names (ARNs) of agents that are used to connect an NFS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#on_prem_config DatasyncLocationNfs#on_prem_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#on_prem_config DatasyncLocationNfs#on_prem_config}
   */
   readonly onPremConfig: DatasyncLocationNfsOnPremConfig;
   /**
   * The name of the NFS server. This value is the IP address or DNS name of the NFS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#server_hostname DatasyncLocationNfs#server_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#server_hostname DatasyncLocationNfs#server_hostname}
   */
   readonly serverHostname?: string;
   /**
   * The subdirectory in the NFS file system that is used to read data from the NFS source location or write data to the NFS destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#subdirectory DatasyncLocationNfs#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#subdirectory DatasyncLocationNfs#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#tags DatasyncLocationNfs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#tags DatasyncLocationNfs#tags}
   */
   readonly tags?: DatasyncLocationNfsTags[] | cdktn.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface DatasyncLocationNfsMountOptions {
   /**
   * The specific NFS version that you want DataSync to use to mount your NFS share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#version DatasyncLocationNfs#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#version DatasyncLocationNfs#version}
   */
   readonly version?: string;
 }
@@ -138,7 +138,7 @@ export interface DatasyncLocationNfsOnPremConfig {
   /**
   * ARN(s) of the agent(s) to use for an NFS location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#agent_arns DatasyncLocationNfs#agent_arns}
   */
   readonly agentArns: string[];
 }
@@ -231,13 +231,13 @@ export interface DatasyncLocationNfsTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#key DatasyncLocationNfs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#key DatasyncLocationNfs#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#value DatasyncLocationNfs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#value DatasyncLocationNfs#value}
   */
   readonly value?: string;
 }
@@ -382,7 +382,7 @@ export class DatasyncLocationNfsTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs}
 */
 export class DatasyncLocationNfs extends cdktn.TerraformResource {
 
@@ -398,7 +398,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationNfs resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationNfs to import
-  * @param importFromId The id of the existing DatasyncLocationNfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationNfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationNfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -410,7 +410,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -421,7 +421,7 @@ export class DatasyncLocationNfs extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_nfs',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

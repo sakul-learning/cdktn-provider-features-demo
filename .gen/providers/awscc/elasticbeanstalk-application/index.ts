@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ElasticbeanstalkApplicationConfig extends cdktn.TerraformMetaAr
   /**
   * A name for the Elastic Beanstalk application. If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#application_name ElasticbeanstalkApplication#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#application_name ElasticbeanstalkApplication#application_name}
   */
   readonly applicationName?: string;
   /**
   * Your description of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#description ElasticbeanstalkApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#description ElasticbeanstalkApplication#description}
   */
   readonly description?: string;
   /**
   * Specifies an application resource lifecycle configuration to prevent your application from accumulating too many versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#resource_lifecycle_config ElasticbeanstalkApplication#resource_lifecycle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#resource_lifecycle_config ElasticbeanstalkApplication#resource_lifecycle_config}
   */
   readonly resourceLifecycleConfig?: ElasticbeanstalkApplicationResourceLifecycleConfig;
 }
@@ -30,19 +30,19 @@ export interface ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecy
   /**
   * Set to true to delete a version's source bundle from Amazon S3 when Elastic Beanstalk deletes the application version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
   */
   readonly deleteSourceFromS3?: boolean | cdktn.IResolvable;
   /**
   * Specify true to apply the rule, or false to disable it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Specify the number of days to retain an application versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#max_age_in_days ElasticbeanstalkApplication#max_age_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#max_age_in_days ElasticbeanstalkApplication#max_age_in_days}
   */
   readonly maxAgeInDays?: number;
 }
@@ -196,19 +196,19 @@ export interface ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecy
   /**
   * Set to true to delete a version's source bundle from Amazon S3 when Elastic Beanstalk deletes the application version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#delete_source_from_s3 ElasticbeanstalkApplication#delete_source_from_s3}
   */
   readonly deleteSourceFromS3?: boolean | cdktn.IResolvable;
   /**
   * Specify true to apply the rule, or false to disable it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#enabled ElasticbeanstalkApplication#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Specify the maximum number of application versions to retain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#max_count ElasticbeanstalkApplication#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#max_count ElasticbeanstalkApplication#max_count}
   */
   readonly maxCount?: number;
 }
@@ -362,13 +362,13 @@ export interface ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecy
   /**
   * Specify a max age rule to restrict the length of time that application versions are retained for an application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#max_age_rule ElasticbeanstalkApplication#max_age_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#max_age_rule ElasticbeanstalkApplication#max_age_rule}
   */
   readonly maxAgeRule?: ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxAgeRule;
   /**
   * Specify a max count rule to restrict the number of application versions that are retained for an application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#max_count_rule ElasticbeanstalkApplication#max_count_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#max_count_rule ElasticbeanstalkApplication#max_count_rule}
   */
   readonly maxCountRule?: ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfigMaxCountRule;
 }
@@ -493,13 +493,13 @@ export interface ElasticbeanstalkApplicationResourceLifecycleConfig {
   /**
   * The ARN of an IAM service role that Elastic Beanstalk has permission to assume. The ServiceRole property is required the first time that you provide a ResourceLifecycleConfig for the application. After you provide it once, Elastic Beanstalk persists the Service Role with the application, and you don't need to specify it again. You can, however, specify it in subsequent updates to change the Service Role to another value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#service_role ElasticbeanstalkApplication#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#service_role ElasticbeanstalkApplication#service_role}
   */
   readonly serviceRole?: string;
   /**
   * Defines lifecycle settings for application versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#version_lifecycle_config ElasticbeanstalkApplication#version_lifecycle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#version_lifecycle_config ElasticbeanstalkApplication#version_lifecycle_config}
   */
   readonly versionLifecycleConfig?: ElasticbeanstalkApplicationResourceLifecycleConfigVersionLifecycleConfig;
 }
@@ -622,7 +622,7 @@ export class ElasticbeanstalkApplicationResourceLifecycleConfigOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application awscc_elasticbeanstalk_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application awscc_elasticbeanstalk_application}
 */
 export class ElasticbeanstalkApplication extends cdktn.TerraformResource {
 
@@ -638,7 +638,7 @@ export class ElasticbeanstalkApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticbeanstalkApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticbeanstalkApplication to import
-  * @param importFromId The id of the existing ElasticbeanstalkApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticbeanstalkApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticbeanstalkApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -650,7 +650,7 @@ export class ElasticbeanstalkApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/elasticbeanstalk_application awscc_elasticbeanstalk_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/elasticbeanstalk_application awscc_elasticbeanstalk_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -661,7 +661,7 @@ export class ElasticbeanstalkApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticbeanstalk_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

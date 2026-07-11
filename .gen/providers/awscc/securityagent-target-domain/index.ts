@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SecurityagentTargetDomainConfig extends cdktn.TerraformMetaArgu
   /**
   * Tags for the target domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
   */
   readonly tags?: SecurityagentTargetDomainTags[] | cdktn.IResolvable;
   /**
   * Domain name of the target domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
   */
   readonly targetDomainName: string;
   /**
   * Verification method for the target domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
   */
   readonly verificationMethod: string;
 }
@@ -30,13 +30,13 @@ export interface SecurityagentTargetDomainTags {
   /**
   * The key name of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain#key SecurityagentTargetDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain#key SecurityagentTargetDomain#key}
   */
   readonly key?: string;
   /**
   * The value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain#value SecurityagentTargetDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain#value SecurityagentTargetDomain#value}
   */
   readonly value?: string;
 }
@@ -370,7 +370,7 @@ export class SecurityagentTargetDomainVerificationDetailsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}
 */
 export class SecurityagentTargetDomain extends cdktn.TerraformResource {
 
@@ -386,7 +386,7 @@ export class SecurityagentTargetDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityagentTargetDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityagentTargetDomain to import
-  * @param importFromId The id of the existing SecurityagentTargetDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityagentTargetDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityagentTargetDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -398,7 +398,7 @@ export class SecurityagentTargetDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,7 +409,7 @@ export class SecurityagentTargetDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityagent_target_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

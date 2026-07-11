@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_identity_center_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_identity_center_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GlueIdentityCenterConfigurationConfig extends cdktn.TerraformMe
   /**
   * The IAM identity center instance arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_identity_center_configuration#instance_arn GlueIdentityCenterConfiguration#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_identity_center_configuration#instance_arn GlueIdentityCenterConfiguration#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The downstream scopes that Glue identity center configuration can access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_identity_center_configuration#scopes GlueIdentityCenterConfiguration#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_identity_center_configuration#scopes GlueIdentityCenterConfiguration#scopes}
   */
   readonly scopes?: string[];
   /**
   * Enable or disable user background sessions for Glue Identity Center
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_identity_center_configuration#user_background_sessions_enabled GlueIdentityCenterConfiguration#user_background_sessions_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_identity_center_configuration#user_background_sessions_enabled GlueIdentityCenterConfiguration#user_background_sessions_enabled}
   */
   readonly userBackgroundSessionsEnabled?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration}
 */
 export class GlueIdentityCenterConfiguration extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class GlueIdentityCenterConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueIdentityCenterConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueIdentityCenterConfiguration to import
-  * @param importFromId The id of the existing GlueIdentityCenterConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_identity_center_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueIdentityCenterConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_identity_center_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueIdentityCenterConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class GlueIdentityCenterConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class GlueIdentityCenterConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_identity_center_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

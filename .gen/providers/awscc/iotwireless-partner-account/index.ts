@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IotwirelessPartnerAccountConfig extends cdktn.TerraformMetaArgu
   /**
   * Whether the partner account is linked to the AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#account_linked IotwirelessPartnerAccount#account_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#account_linked IotwirelessPartnerAccount#account_linked}
   */
   readonly accountLinked?: boolean | cdktn.IResolvable;
   /**
   * The partner account ID to disassociate from the AWS account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#partner_account_id IotwirelessPartnerAccount#partner_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#partner_account_id IotwirelessPartnerAccount#partner_account_id}
   */
   readonly partnerAccountId?: string;
   /**
   * The partner type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#partner_type IotwirelessPartnerAccount#partner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#partner_type IotwirelessPartnerAccount#partner_type}
   */
   readonly partnerType?: string;
   /**
   * The Sidewalk account credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#sidewalk IotwirelessPartnerAccount#sidewalk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#sidewalk IotwirelessPartnerAccount#sidewalk}
   */
   readonly sidewalk?: IotwirelessPartnerAccountSidewalk;
   /**
   * The Sidewalk account credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#sidewalk_response IotwirelessPartnerAccount#sidewalk_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#sidewalk_response IotwirelessPartnerAccount#sidewalk_response}
   */
   readonly sidewalkResponse?: IotwirelessPartnerAccountSidewalkResponse;
   /**
   * The Sidewalk account credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#sidewalk_update IotwirelessPartnerAccount#sidewalk_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#sidewalk_update IotwirelessPartnerAccount#sidewalk_update}
   */
   readonly sidewalkUpdate?: IotwirelessPartnerAccountSidewalkUpdate;
   /**
   * A list of key-value pairs that contain metadata for the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#tags IotwirelessPartnerAccount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#tags IotwirelessPartnerAccount#tags}
   */
   readonly tags?: IotwirelessPartnerAccountTags[] | cdktn.IResolvable;
 }
 export interface IotwirelessPartnerAccountSidewalk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}
   */
   readonly appServerPrivateKey?: string;
 }
@@ -146,15 +146,15 @@ export class IotwirelessPartnerAccountSidewalkOutputReference extends cdktn.Comp
 }
 export interface IotwirelessPartnerAccountSidewalkResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#amazon_id IotwirelessPartnerAccount#amazon_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#amazon_id IotwirelessPartnerAccount#amazon_id}
   */
   readonly amazonId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#arn IotwirelessPartnerAccount#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#arn IotwirelessPartnerAccount#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#fingerprint IotwirelessPartnerAccount#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#fingerprint IotwirelessPartnerAccount#fingerprint}
   */
   readonly fingerprint?: string;
 }
@@ -306,7 +306,7 @@ export class IotwirelessPartnerAccountSidewalkResponseOutputReference extends cd
 }
 export interface IotwirelessPartnerAccountSidewalkUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#app_server_private_key IotwirelessPartnerAccount#app_server_private_key}
   */
   readonly appServerPrivateKey?: string;
 }
@@ -400,11 +400,11 @@ export class IotwirelessPartnerAccountSidewalkUpdateOutputReference extends cdkt
 }
 export interface IotwirelessPartnerAccountTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#key IotwirelessPartnerAccount#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#key IotwirelessPartnerAccount#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#value IotwirelessPartnerAccount#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#value IotwirelessPartnerAccount#value}
   */
   readonly value?: string;
 }
@@ -549,7 +549,7 @@ export class IotwirelessPartnerAccountTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account}
 */
 export class IotwirelessPartnerAccount extends cdktn.TerraformResource {
 
@@ -565,7 +565,7 @@ export class IotwirelessPartnerAccount extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessPartnerAccount resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessPartnerAccount to import
-  * @param importFromId The id of the existing IotwirelessPartnerAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessPartnerAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessPartnerAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -577,7 +577,7 @@ export class IotwirelessPartnerAccount extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -588,7 +588,7 @@ export class IotwirelessPartnerAccount extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_partner_account',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

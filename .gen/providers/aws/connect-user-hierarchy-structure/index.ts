@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktn from 'cdktn';
 
 export interface ConnectUserHierarchyStructureConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#id ConnectUserHierarchyStructure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#id ConnectUserHierarchyStructure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#instance_id ConnectUserHierarchyStructure#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#instance_id ConnectUserHierarchyStructure#instance_id}
   */
   readonly instanceId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#region ConnectUserHierarchyStructure#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#region ConnectUserHierarchyStructure#region}
   */
   readonly region?: string;
   /**
   * hierarchy_structure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#hierarchy_structure ConnectUserHierarchyStructure#hierarchy_structure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#hierarchy_structure ConnectUserHierarchyStructure#hierarchy_structure}
   */
   readonly hierarchyStructure: ConnectUserHierarchyStructureHierarchyStructure;
 }
 export interface ConnectUserHierarchyStructureHierarchyStructureLevelFive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
   */
   readonly name: string;
 }
@@ -124,7 +124,7 @@ export class ConnectUserHierarchyStructureHierarchyStructureLevelFiveOutputRefer
 }
 export interface ConnectUserHierarchyStructureHierarchyStructureLevelFour {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
   */
   readonly name: string;
 }
@@ -215,7 +215,7 @@ export class ConnectUserHierarchyStructureHierarchyStructureLevelFourOutputRefer
 }
 export interface ConnectUserHierarchyStructureHierarchyStructureLevelOne {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
   */
   readonly name: string;
 }
@@ -306,7 +306,7 @@ export class ConnectUserHierarchyStructureHierarchyStructureLevelOneOutputRefere
 }
 export interface ConnectUserHierarchyStructureHierarchyStructureLevelThree {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
   */
   readonly name: string;
 }
@@ -397,7 +397,7 @@ export class ConnectUserHierarchyStructureHierarchyStructureLevelThreeOutputRefe
 }
 export interface ConnectUserHierarchyStructureHierarchyStructureLevelTwo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#name ConnectUserHierarchyStructure#name}
   */
   readonly name: string;
 }
@@ -490,31 +490,31 @@ export interface ConnectUserHierarchyStructureHierarchyStructure {
   /**
   * level_five block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#level_five ConnectUserHierarchyStructure#level_five}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#level_five ConnectUserHierarchyStructure#level_five}
   */
   readonly levelFive?: ConnectUserHierarchyStructureHierarchyStructureLevelFive;
   /**
   * level_four block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#level_four ConnectUserHierarchyStructure#level_four}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#level_four ConnectUserHierarchyStructure#level_four}
   */
   readonly levelFour?: ConnectUserHierarchyStructureHierarchyStructureLevelFour;
   /**
   * level_one block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#level_one ConnectUserHierarchyStructure#level_one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#level_one ConnectUserHierarchyStructure#level_one}
   */
   readonly levelOne?: ConnectUserHierarchyStructureHierarchyStructureLevelOne;
   /**
   * level_three block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#level_three ConnectUserHierarchyStructure#level_three}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#level_three ConnectUserHierarchyStructure#level_three}
   */
   readonly levelThree?: ConnectUserHierarchyStructureHierarchyStructureLevelThree;
   /**
   * level_two block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#level_two ConnectUserHierarchyStructure#level_two}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#level_two ConnectUserHierarchyStructure#level_two}
   */
   readonly levelTwo?: ConnectUserHierarchyStructureHierarchyStructureLevelTwo;
 }
@@ -714,7 +714,7 @@ export class ConnectUserHierarchyStructureHierarchyStructureOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure}
 */
 export class ConnectUserHierarchyStructure extends cdktn.TerraformResource {
 
@@ -730,7 +730,7 @@ export class ConnectUserHierarchyStructure extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectUserHierarchyStructure resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectUserHierarchyStructure to import
-  * @param importFromId The id of the existing ConnectUserHierarchyStructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectUserHierarchyStructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectUserHierarchyStructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -742,7 +742,7 @@ export class ConnectUserHierarchyStructure extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/connect_user_hierarchy_structure aws_connect_user_hierarchy_structure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -753,7 +753,7 @@ export class ConnectUserHierarchyStructure extends cdktn.TerraformResource {
       terraformResourceType: 'aws_connect_user_hierarchy_structure',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

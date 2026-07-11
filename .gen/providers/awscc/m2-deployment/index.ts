@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_deployment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface M2DeploymentConfig extends cdktn.TerraformMetaArguments {
   /**
   * The application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
   */
   readonly applicationId: string;
   /**
   * The version number of the application to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
   */
   readonly applicationVersion: number;
   /**
   * The environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
   */
   readonly environmentId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_deployment awscc_m2_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_deployment awscc_m2_deployment}
 */
 export class M2Deployment extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a M2Deployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the M2Deployment to import
-  * @param importFromId The id of the existing M2Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing M2Deployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the M2Deployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class M2Deployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/m2_deployment awscc_m2_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/m2_deployment awscc_m2_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class M2Deployment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_m2_deployment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

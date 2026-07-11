@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/b2bi_profiles
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/b2bi_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccB2BiProfilesConfig extends cdktn.TerraformMetaArgument
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/b2bi_profiles awscc_b2bi_profiles}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/b2bi_profiles awscc_b2bi_profiles}
 */
 export class DataAwsccB2BiProfiles extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccB2BiProfiles extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccB2BiProfiles resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccB2BiProfiles to import
-  * @param importFromId The id of the existing DataAwsccB2BiProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/b2bi_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccB2BiProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/b2bi_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccB2BiProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccB2BiProfiles extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/b2bi_profiles awscc_b2bi_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/b2bi_profiles awscc_b2bi_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccB2BiProfiles extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_b2bi_profiles',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

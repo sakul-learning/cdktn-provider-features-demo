@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3outposts_bucket_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3outposts_bucket_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface S3OutpostsBucketPolicyConfig extends cdktn.TerraformMetaArgumen
   /**
   * The Amazon Resource Name (ARN) of the specified bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
   */
   readonly bucket: string;
   /**
   * A policy document containing permissions to add to the specified bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
   */
   readonly policyDocument: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}
 */
 export class S3OutpostsBucketPolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class S3OutpostsBucketPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3OutpostsBucketPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3OutpostsBucketPolicy to import
-  * @param importFromId The id of the existing S3OutpostsBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3outposts_bucket_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3OutpostsBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3outposts_bucket_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3OutpostsBucketPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class S3OutpostsBucketPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class S3OutpostsBucketPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3outposts_bucket_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SesDedicatedIpPoolConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the dedicated IP pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool#pool_name SesDedicatedIpPool#pool_name}
   */
   readonly poolName?: string;
   /**
   * Specifies whether the dedicated IP pool is managed or not. The default value is STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool#scaling_mode SesDedicatedIpPool#scaling_mode}
   */
   readonly scalingMode?: string;
   /**
   * The tags (keys and values) associated with the dedicated IP pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool#tags SesDedicatedIpPool#tags}
   */
   readonly tags?: SesDedicatedIpPoolTags[] | cdktn.IResolvable;
 }
 export interface SesDedicatedIpPoolTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}
   */
   readonly value?: string;
 }
@@ -177,7 +177,7 @@ export class SesDedicatedIpPoolTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}
 */
 export class SesDedicatedIpPool extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class SesDedicatedIpPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesDedicatedIpPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesDedicatedIpPool to import
-  * @param importFromId The id of the existing SesDedicatedIpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesDedicatedIpPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesDedicatedIpPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class SesDedicatedIpPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class SesDedicatedIpPool extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_dedicated_ip_pool',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

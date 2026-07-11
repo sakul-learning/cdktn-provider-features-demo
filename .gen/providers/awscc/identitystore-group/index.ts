@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/identitystore_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/identitystore_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IdentitystoreGroupConfig extends cdktn.TerraformMetaArguments {
   /**
   * A string containing the description of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
   */
   readonly description?: string;
   /**
   * A string containing the name of the group. This value is commonly displayed when the group is referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
   */
   readonly displayName: string;
   /**
   * The globally unique identifier for the identity store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
   */
   readonly identityStoreId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/identitystore_group awscc_identitystore_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/identitystore_group awscc_identitystore_group}
 */
 export class IdentitystoreGroup extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class IdentitystoreGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IdentitystoreGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentitystoreGroup to import
-  * @param importFromId The id of the existing IdentitystoreGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/identitystore_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentitystoreGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/identitystore_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentitystoreGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class IdentitystoreGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/identitystore_group awscc_identitystore_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/identitystore_group awscc_identitystore_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class IdentitystoreGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_identitystore_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

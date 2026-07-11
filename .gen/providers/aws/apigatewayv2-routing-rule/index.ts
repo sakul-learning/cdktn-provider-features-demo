@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface Apigatewayv2RoutingRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#domain_name Apigatewayv2RoutingRule#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#domain_name Apigatewayv2RoutingRule#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#priority Apigatewayv2RoutingRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#priority Apigatewayv2RoutingRule#priority}
   */
   readonly priority: number;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#region Apigatewayv2RoutingRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#region Apigatewayv2RoutingRule#region}
   */
   readonly region?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#action Apigatewayv2RoutingRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#action Apigatewayv2RoutingRule#action}
   */
   readonly action?: Apigatewayv2RoutingRuleAction[] | cdktn.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#condition Apigatewayv2RoutingRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#condition Apigatewayv2RoutingRule#condition}
   */
   readonly condition?: Apigatewayv2RoutingRuleCondition[] | cdktn.IResolvable;
 }
 export interface Apigatewayv2RoutingRuleActionInvokeApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#api_id Apigatewayv2RoutingRule#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#api_id Apigatewayv2RoutingRule#api_id}
   */
   readonly apiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#stage Apigatewayv2RoutingRule#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#stage Apigatewayv2RoutingRule#stage}
   */
   readonly stage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#strip_base_path Apigatewayv2RoutingRule#strip_base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#strip_base_path Apigatewayv2RoutingRule#strip_base_path}
   */
   readonly stripBasePath?: boolean | cdktn.IResolvable;
 }
@@ -214,7 +214,7 @@ export interface Apigatewayv2RoutingRuleAction {
   /**
   * invoke_api block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#invoke_api Apigatewayv2RoutingRule#invoke_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#invoke_api Apigatewayv2RoutingRule#invoke_api}
   */
   readonly invokeApi?: Apigatewayv2RoutingRuleActionInvokeApi[] | cdktn.IResolvable;
 }
@@ -330,7 +330,7 @@ export class Apigatewayv2RoutingRuleActionList extends cdktn.ComplexList {
 }
 export interface Apigatewayv2RoutingRuleConditionMatchBasePaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}
   */
   readonly anyOf: string[];
 }
@@ -443,11 +443,11 @@ export class Apigatewayv2RoutingRuleConditionMatchBasePathsList extends cdktn.Co
 }
 export interface Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#header Apigatewayv2RoutingRule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#header Apigatewayv2RoutingRule#header}
   */
   readonly header: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#value_glob Apigatewayv2RoutingRule#value_glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#value_glob Apigatewayv2RoutingRule#value_glob}
   */
   readonly valueGlob: string;
 }
@@ -588,7 +588,7 @@ export interface Apigatewayv2RoutingRuleConditionMatchHeaders {
   /**
   * any_of block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}
   */
   readonly anyOf?: Apigatewayv2RoutingRuleConditionMatchHeadersAnyOf[] | cdktn.IResolvable;
 }
@@ -706,13 +706,13 @@ export interface Apigatewayv2RoutingRuleCondition {
   /**
   * match_base_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#match_base_paths Apigatewayv2RoutingRule#match_base_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#match_base_paths Apigatewayv2RoutingRule#match_base_paths}
   */
   readonly matchBasePaths?: Apigatewayv2RoutingRuleConditionMatchBasePaths[] | cdktn.IResolvable;
   /**
   * match_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#match_headers Apigatewayv2RoutingRule#match_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#match_headers Apigatewayv2RoutingRule#match_headers}
   */
   readonly matchHeaders?: Apigatewayv2RoutingRuleConditionMatchHeaders[] | cdktn.IResolvable;
 }
@@ -857,7 +857,7 @@ export class Apigatewayv2RoutingRuleConditionList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}
 */
 export class Apigatewayv2RoutingRule extends cdktn.TerraformResource {
 
@@ -873,7 +873,7 @@ export class Apigatewayv2RoutingRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Apigatewayv2RoutingRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Apigatewayv2RoutingRule to import
-  * @param importFromId The id of the existing Apigatewayv2RoutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Apigatewayv2RoutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Apigatewayv2RoutingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -885,7 +885,7 @@ export class Apigatewayv2RoutingRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -896,7 +896,7 @@ export class Apigatewayv2RoutingRule extends cdktn.TerraformResource {
       terraformResourceType: 'aws_apigatewayv2_routing_rule',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

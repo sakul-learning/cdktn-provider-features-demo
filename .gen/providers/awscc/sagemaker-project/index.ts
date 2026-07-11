@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SagemakerProjectConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#project_description SagemakerProject#project_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#project_description SagemakerProject#project_description}
   */
   readonly projectDescription?: string;
   /**
   * The name of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#project_name SagemakerProject#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#project_name SagemakerProject#project_name}
   */
   readonly projectName: string;
   /**
   * Provisioned ServiceCatalog  Details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#service_catalog_provisioned_product_details SagemakerProject#service_catalog_provisioned_product_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#service_catalog_provisioned_product_details SagemakerProject#service_catalog_provisioned_product_details}
   */
   readonly serviceCatalogProvisionedProductDetails?: SagemakerProjectServiceCatalogProvisionedProductDetails;
   /**
   * Input ServiceCatalog Provisioning Details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#service_catalog_provisioning_details SagemakerProject#service_catalog_provisioning_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#service_catalog_provisioning_details SagemakerProject#service_catalog_provisioning_details}
   */
   readonly serviceCatalogProvisioningDetails?: SagemakerProjectServiceCatalogProvisioningDetails;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#tags SagemakerProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#tags SagemakerProject#tags}
   */
   readonly tags?: SagemakerProjectTags[] | cdktn.IResolvable;
   /**
   * An array of template providers associated with the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#template_provider_details SagemakerProject#template_provider_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#template_provider_details SagemakerProject#template_provider_details}
   */
   readonly templateProviderDetails?: SagemakerProjectTemplateProviderDetails[] | cdktn.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface SagemakerProjectServiceCatalogProvisionedProductDetails {
   /**
   * The identifier of the provisioning artifact (also known as a version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#provisioned_product_id SagemakerProject#provisioned_product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#provisioned_product_id SagemakerProject#provisioned_product_id}
   */
   readonly provisionedProductId?: string;
   /**
   * Provisioned Product Status Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#provisioned_product_status_message SagemakerProject#provisioned_product_status_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#provisioned_product_status_message SagemakerProject#provisioned_product_status_message}
   */
   readonly provisionedProductStatusMessage?: string;
 }
@@ -179,13 +179,13 @@ export interface SagemakerProjectServiceCatalogProvisioningDetailsProvisioningPa
   /**
   * The parameter key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#key SagemakerProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#key SagemakerProject#key}
   */
   readonly key?: string;
   /**
   * The parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#value SagemakerProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#value SagemakerProject#value}
   */
   readonly value?: string;
 }
@@ -332,25 +332,25 @@ export interface SagemakerProjectServiceCatalogProvisioningDetails {
   /**
   * The path identifier of the product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#path_id SagemakerProject#path_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#path_id SagemakerProject#path_id}
   */
   readonly pathId?: string;
   /**
   * Service Catalog product identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#product_id SagemakerProject#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#product_id SagemakerProject#product_id}
   */
   readonly productId?: string;
   /**
   * The identifier of the provisioning artifact (also known as a version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#provisioning_artifact_id SagemakerProject#provisioning_artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#provisioning_artifact_id SagemakerProject#provisioning_artifact_id}
   */
   readonly provisioningArtifactId?: string;
   /**
   * Parameters specified by the administrator that are required for provisioning the product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#provisioning_parameters SagemakerProject#provisioning_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#provisioning_parameters SagemakerProject#provisioning_parameters}
   */
   readonly provisioningParameters?: SagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameters[] | cdktn.IResolvable;
 }
@@ -533,13 +533,13 @@ export interface SagemakerProjectTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#key SagemakerProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#key SagemakerProject#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#value SagemakerProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#value SagemakerProject#value}
   */
   readonly value?: string;
 }
@@ -686,13 +686,13 @@ export interface SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetai
   /**
   * The key of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#key SagemakerProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#key SagemakerProject#key}
   */
   readonly key?: string;
   /**
   * The value of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#value SagemakerProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#value SagemakerProject#value}
   */
   readonly value?: string;
 }
@@ -839,25 +839,25 @@ export interface SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetai
   /**
   * A list of parameters used in the CloudFormation template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#parameters SagemakerProject#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#parameters SagemakerProject#parameters}
   */
   readonly parameters?: SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetailParameters[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the IAM role used by the template provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#role_arn SagemakerProject#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#role_arn SagemakerProject#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The name of the template used for the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#template_name SagemakerProject#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#template_name SagemakerProject#template_name}
   */
   readonly templateName?: string;
   /**
   * The URL of the CloudFormation template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#template_url SagemakerProject#template_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#template_url SagemakerProject#template_url}
   */
   readonly templateUrl?: string;
 }
@@ -1040,7 +1040,7 @@ export interface SagemakerProjectTemplateProviderDetails {
   /**
   * CloudFormation template provider details for a SageMaker project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#cfn_template_provider_detail SagemakerProject#cfn_template_provider_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#cfn_template_provider_detail SagemakerProject#cfn_template_provider_detail}
   */
   readonly cfnTemplateProviderDetail?: SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetail;
 }
@@ -1156,7 +1156,7 @@ export class SagemakerProjectTemplateProviderDetailsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project awscc_sagemaker_project}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project awscc_sagemaker_project}
 */
 export class SagemakerProject extends cdktn.TerraformResource {
 
@@ -1172,7 +1172,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerProject resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerProject to import
-  * @param importFromId The id of the existing SagemakerProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1184,7 +1184,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/sagemaker_project awscc_sagemaker_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sagemaker_project awscc_sagemaker_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1195,7 +1195,7 @@ export class SagemakerProject extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_project',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

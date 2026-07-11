@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,127 +8,127 @@ import * as cdktn from 'cdktn';
 
 export interface DatabrewJobConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#data_catalog_outputs DatabrewJob#data_catalog_outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#data_catalog_outputs DatabrewJob#data_catalog_outputs}
   */
   readonly dataCatalogOutputs?: DatabrewJobDataCatalogOutputs[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#database_outputs DatabrewJob#database_outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#database_outputs DatabrewJob#database_outputs}
   */
   readonly databaseOutputs?: DatabrewJobDatabaseOutputs[] | cdktn.IResolvable;
   /**
   * Dataset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#dataset_name DatabrewJob#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#dataset_name DatabrewJob#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * Encryption Key Arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#encryption_key_arn DatabrewJob#encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#encryption_key_arn DatabrewJob#encryption_key_arn}
   */
   readonly encryptionKeyArn?: string;
   /**
   * Encryption mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#encryption_mode DatabrewJob#encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#encryption_mode DatabrewJob#encryption_mode}
   */
   readonly encryptionMode?: string;
   /**
   * Job Sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#job_sample DatabrewJob#job_sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#job_sample DatabrewJob#job_sample}
   */
   readonly jobSample?: DatabrewJobJobSample;
   /**
   * Log subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#log_subscription DatabrewJob#log_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#log_subscription DatabrewJob#log_subscription}
   */
   readonly logSubscription?: string;
   /**
   * Max capacity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#max_capacity DatabrewJob#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#max_capacity DatabrewJob#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
   * Max retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#max_retries DatabrewJob#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#max_retries DatabrewJob#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Job name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#name DatabrewJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#name DatabrewJob#name}
   */
   readonly name: string;
   /**
   * Output location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#output_location DatabrewJob#output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#output_location DatabrewJob#output_location}
   */
   readonly outputLocation?: DatabrewJobOutputLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#outputs DatabrewJob#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#outputs DatabrewJob#outputs}
   */
   readonly outputs?: DatabrewJobOutputs[] | cdktn.IResolvable;
   /**
   * Profile Job configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#profile_configuration DatabrewJob#profile_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#profile_configuration DatabrewJob#profile_configuration}
   */
   readonly profileConfiguration?: DatabrewJobProfileConfiguration;
   /**
   * Project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#project_name DatabrewJob#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#project_name DatabrewJob#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#recipe DatabrewJob#recipe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#recipe DatabrewJob#recipe}
   */
   readonly recipe?: DatabrewJobRecipe;
   /**
   * Role arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#role_arn DatabrewJob#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#role_arn DatabrewJob#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#tags DatabrewJob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#tags DatabrewJob#tags}
   */
   readonly tags?: DatabrewJobTags[] | cdktn.IResolvable;
   /**
   * Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#timeout DatabrewJob#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#timeout DatabrewJob#timeout}
   */
   readonly timeout?: number;
   /**
   * Job type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#type DatabrewJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#type DatabrewJob#type}
   */
   readonly type: string;
   /**
   * Data quality rules configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#validation_configurations DatabrewJob#validation_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#validation_configurations DatabrewJob#validation_configurations}
   */
   readonly validationConfigurations?: DatabrewJobValidationConfigurations[] | cdktn.IResolvable;
 }
 export interface DatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#key DatabrewJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#key DatabrewJob#key}
   */
   readonly key?: string;
 }
@@ -280,13 +280,13 @@ export class DatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectoryOutputRefe
 }
 export interface DatabrewJobDataCatalogOutputsDatabaseOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#table_name DatabrewJob#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#table_name DatabrewJob#table_name}
   */
   readonly tableName?: string;
   /**
   * S3 Output location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#temp_directory DatabrewJob#temp_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#temp_directory DatabrewJob#temp_directory}
   */
   readonly tempDirectory?: DatabrewJobDataCatalogOutputsDatabaseOptionsTempDirectory;
 }
@@ -409,15 +409,15 @@ export class DatabrewJobDataCatalogOutputsDatabaseOptionsOutputReference extends
 }
 export interface DatabrewJobDataCatalogOutputsS3OptionsLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#key DatabrewJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#key DatabrewJob#key}
   */
   readonly key?: string;
 }
@@ -571,7 +571,7 @@ export interface DatabrewJobDataCatalogOutputsS3Options {
   /**
   * S3 Output location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#location DatabrewJob#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#location DatabrewJob#location}
   */
   readonly location?: DatabrewJobDataCatalogOutputsS3OptionsLocation;
 }
@@ -665,27 +665,27 @@ export class DatabrewJobDataCatalogOutputsS3OptionsOutputReference extends cdktn
 }
 export interface DatabrewJobDataCatalogOutputs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#catalog_id DatabrewJob#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#catalog_id DatabrewJob#catalog_id}
   */
   readonly catalogId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#database_name DatabrewJob#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#database_name DatabrewJob#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#database_options DatabrewJob#database_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#database_options DatabrewJob#database_options}
   */
   readonly databaseOptions?: DatabrewJobDataCatalogOutputsDatabaseOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#overwrite DatabrewJob#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#overwrite DatabrewJob#overwrite}
   */
   readonly overwrite?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#s3_options DatabrewJob#s3_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#s3_options DatabrewJob#s3_options}
   */
   readonly s3Options?: DatabrewJobDataCatalogOutputsS3Options;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#table_name DatabrewJob#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#table_name DatabrewJob#table_name}
   */
   readonly tableName?: string;
 }
@@ -946,15 +946,15 @@ export class DatabrewJobDataCatalogOutputsList extends cdktn.ComplexList {
 }
 export interface DatabrewJobDatabaseOutputsDatabaseOptionsTempDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#key DatabrewJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#key DatabrewJob#key}
   */
   readonly key?: string;
 }
@@ -1106,13 +1106,13 @@ export class DatabrewJobDatabaseOutputsDatabaseOptionsTempDirectoryOutputReferen
 }
 export interface DatabrewJobDatabaseOutputsDatabaseOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#table_name DatabrewJob#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#table_name DatabrewJob#table_name}
   */
   readonly tableName?: string;
   /**
   * S3 Output location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#temp_directory DatabrewJob#temp_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#temp_directory DatabrewJob#temp_directory}
   */
   readonly tempDirectory?: DatabrewJobDatabaseOutputsDatabaseOptionsTempDirectory;
 }
@@ -1235,19 +1235,19 @@ export class DatabrewJobDatabaseOutputsDatabaseOptionsOutputReference extends cd
 }
 export interface DatabrewJobDatabaseOutputs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#database_options DatabrewJob#database_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#database_options DatabrewJob#database_options}
   */
   readonly databaseOptions?: DatabrewJobDatabaseOutputsDatabaseOptions;
   /**
   * Database table name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#database_output_mode DatabrewJob#database_output_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#database_output_mode DatabrewJob#database_output_mode}
   */
   readonly databaseOutputMode?: string;
   /**
   * Glue connection name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#glue_connection_name DatabrewJob#glue_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#glue_connection_name DatabrewJob#glue_connection_name}
   */
   readonly glueConnectionName?: string;
 }
@@ -1423,13 +1423,13 @@ export interface DatabrewJobJobSample {
   /**
   * Sample configuration mode for profile jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#mode DatabrewJob#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#mode DatabrewJob#mode}
   */
   readonly mode?: string;
   /**
   * Sample configuration size for profile jobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#size DatabrewJob#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#size DatabrewJob#size}
   */
   readonly size?: number;
 }
@@ -1552,15 +1552,15 @@ export class DatabrewJobJobSampleOutputReference extends cdktn.ComplexObject {
 }
 export interface DatabrewJobOutputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#key DatabrewJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#key DatabrewJob#key}
   */
   readonly key?: string;
 }
@@ -1712,7 +1712,7 @@ export class DatabrewJobOutputLocationOutputReference extends cdktn.ComplexObjec
 }
 export interface DatabrewJobOutputsFormatOptionsCsv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#delimiter DatabrewJob#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#delimiter DatabrewJob#delimiter}
   */
   readonly delimiter?: string;
 }
@@ -1808,7 +1808,7 @@ export interface DatabrewJobOutputsFormatOptions {
   /**
   * Output Csv options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#csv DatabrewJob#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#csv DatabrewJob#csv}
   */
   readonly csv?: DatabrewJobOutputsFormatOptionsCsv;
 }
@@ -1902,15 +1902,15 @@ export class DatabrewJobOutputsFormatOptionsOutputReference extends cdktn.Comple
 }
 export interface DatabrewJobOutputsLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket DatabrewJob#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#bucket_owner DatabrewJob#bucket_owner}
   */
   readonly bucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#key DatabrewJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#key DatabrewJob#key}
   */
   readonly key?: string;
 }
@@ -2062,35 +2062,35 @@ export class DatabrewJobOutputsLocationOutputReference extends cdktn.ComplexObje
 }
 export interface DatabrewJobOutputs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#compression_format DatabrewJob#compression_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#compression_format DatabrewJob#compression_format}
   */
   readonly compressionFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#format DatabrewJob#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#format DatabrewJob#format}
   */
   readonly format?: string;
   /**
   * Format options for job Output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#format_options DatabrewJob#format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#format_options DatabrewJob#format_options}
   */
   readonly formatOptions?: DatabrewJobOutputsFormatOptions;
   /**
   * S3 Output location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#location DatabrewJob#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#location DatabrewJob#location}
   */
   readonly location?: DatabrewJobOutputsLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#max_output_files DatabrewJob#max_output_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#max_output_files DatabrewJob#max_output_files}
   */
   readonly maxOutputFiles?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#overwrite DatabrewJob#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#overwrite DatabrewJob#overwrite}
   */
   readonly overwrite?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#partition_columns DatabrewJob#partition_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#partition_columns DatabrewJob#partition_columns}
   */
   readonly partitionColumns?: string[];
 }
@@ -2380,11 +2380,11 @@ export class DatabrewJobOutputsList extends cdktn.ComplexList {
 }
 export interface DatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#name DatabrewJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#name DatabrewJob#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#regex DatabrewJob#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#regex DatabrewJob#regex}
   */
   readonly regex?: string;
 }
@@ -2529,11 +2529,11 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelect
 }
 export interface DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#parameters DatabrewJob#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#parameters DatabrewJob#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#statistic DatabrewJob#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#statistic DatabrewJob#statistic}
   */
   readonly statistic?: string;
 }
@@ -2678,11 +2678,11 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatis
 }
 export interface DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#included_statistics DatabrewJob#included_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#included_statistics DatabrewJob#included_statistics}
   */
   readonly includedStatistics?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#overrides DatabrewJob#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#overrides DatabrewJob#overrides}
   */
   readonly overrides?: DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatisticsOverrides[] | cdktn.IResolvable;
 }
@@ -2805,11 +2805,11 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatis
 }
 export interface DatabrewJobProfileConfigurationColumnStatisticsConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#selectors DatabrewJob#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#selectors DatabrewJob#selectors}
   */
   readonly selectors?: DatabrewJobProfileConfigurationColumnStatisticsConfigurationsSelectors[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#statistics DatabrewJob#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#statistics DatabrewJob#statistics}
   */
   readonly statistics?: DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatistics;
 }
@@ -2954,11 +2954,11 @@ export class DatabrewJobProfileConfigurationColumnStatisticsConfigurationsList e
 }
 export interface DatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#parameters DatabrewJob#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#parameters DatabrewJob#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#statistic DatabrewJob#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#statistic DatabrewJob#statistic}
   */
   readonly statistic?: string;
 }
@@ -3103,11 +3103,11 @@ export class DatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverri
 }
 export interface DatabrewJobProfileConfigurationDatasetStatisticsConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#included_statistics DatabrewJob#included_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#included_statistics DatabrewJob#included_statistics}
   */
   readonly includedStatistics?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#overrides DatabrewJob#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#overrides DatabrewJob#overrides}
   */
   readonly overrides?: DatabrewJobProfileConfigurationDatasetStatisticsConfigurationOverrides[] | cdktn.IResolvable;
 }
@@ -3230,7 +3230,7 @@ export class DatabrewJobProfileConfigurationDatasetStatisticsConfigurationOutput
 }
 export interface DatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#statistics DatabrewJob#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#statistics DatabrewJob#statistics}
   */
   readonly statistics?: string[];
 }
@@ -3324,11 +3324,11 @@ export class DatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedSt
 }
 export interface DatabrewJobProfileConfigurationEntityDetectorConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#allowed_statistics DatabrewJob#allowed_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#allowed_statistics DatabrewJob#allowed_statistics}
   */
   readonly allowedStatistics?: DatabrewJobProfileConfigurationEntityDetectorConfigurationAllowedStatistics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#entity_types DatabrewJob#entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#entity_types DatabrewJob#entity_types}
   */
   readonly entityTypes?: string[];
 }
@@ -3451,11 +3451,11 @@ export class DatabrewJobProfileConfigurationEntityDetectorConfigurationOutputRef
 }
 export interface DatabrewJobProfileConfigurationProfileColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#name DatabrewJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#name DatabrewJob#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#regex DatabrewJob#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#regex DatabrewJob#regex}
   */
   readonly regex?: string;
 }
@@ -3600,19 +3600,19 @@ export class DatabrewJobProfileConfigurationProfileColumnsList extends cdktn.Com
 }
 export interface DatabrewJobProfileConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#column_statistics_configurations DatabrewJob#column_statistics_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#column_statistics_configurations DatabrewJob#column_statistics_configurations}
   */
   readonly columnStatisticsConfigurations?: DatabrewJobProfileConfigurationColumnStatisticsConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#dataset_statistics_configuration DatabrewJob#dataset_statistics_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#dataset_statistics_configuration DatabrewJob#dataset_statistics_configuration}
   */
   readonly datasetStatisticsConfiguration?: DatabrewJobProfileConfigurationDatasetStatisticsConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#entity_detector_configuration DatabrewJob#entity_detector_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#entity_detector_configuration DatabrewJob#entity_detector_configuration}
   */
   readonly entityDetectorConfiguration?: DatabrewJobProfileConfigurationEntityDetectorConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#profile_columns DatabrewJob#profile_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#profile_columns DatabrewJob#profile_columns}
   */
   readonly profileColumns?: DatabrewJobProfileConfigurationProfileColumns[] | cdktn.IResolvable;
 }
@@ -3795,13 +3795,13 @@ export interface DatabrewJobRecipe {
   /**
   * Recipe name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#name DatabrewJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#name DatabrewJob#name}
   */
   readonly name?: string;
   /**
   * Recipe version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#version DatabrewJob#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#version DatabrewJob#version}
   */
   readonly version?: string;
 }
@@ -3924,11 +3924,11 @@ export class DatabrewJobRecipeOutputReference extends cdktn.ComplexObject {
 }
 export interface DatabrewJobTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#key DatabrewJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#key DatabrewJob#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#value DatabrewJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#value DatabrewJob#value}
   */
   readonly value?: string;
 }
@@ -4075,11 +4075,11 @@ export interface DatabrewJobValidationConfigurations {
   /**
   * Arn of the Ruleset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#ruleset_arn DatabrewJob#ruleset_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#ruleset_arn DatabrewJob#ruleset_arn}
   */
   readonly rulesetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#validation_mode DatabrewJob#validation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#validation_mode DatabrewJob#validation_mode}
   */
   readonly validationMode?: string;
 }
@@ -4224,7 +4224,7 @@ export class DatabrewJobValidationConfigurationsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job awscc_databrew_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job awscc_databrew_job}
 */
 export class DatabrewJob extends cdktn.TerraformResource {
 
@@ -4240,7 +4240,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatabrewJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabrewJob to import
-  * @param importFromId The id of the existing DatabrewJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabrewJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabrewJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4252,7 +4252,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/databrew_job awscc_databrew_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/databrew_job awscc_databrew_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4263,7 +4263,7 @@ export class DatabrewJob extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_databrew_job',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

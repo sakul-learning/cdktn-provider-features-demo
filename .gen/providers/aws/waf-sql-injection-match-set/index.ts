@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktn from 'cdktn';
 
 export interface WafSqlInjectionMatchSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#id WafSqlInjectionMatchSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#id WafSqlInjectionMatchSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#name WafSqlInjectionMatchSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#name WafSqlInjectionMatchSet#name}
   */
   readonly name: string;
   /**
   * sql_injection_match_tuples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#sql_injection_match_tuples WafSqlInjectionMatchSet#sql_injection_match_tuples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#sql_injection_match_tuples WafSqlInjectionMatchSet#sql_injection_match_tuples}
   */
   readonly sqlInjectionMatchTuples?: WafSqlInjectionMatchSetSqlInjectionMatchTuples[] | cdktn.IResolvable;
 }
 export interface WafSqlInjectionMatchSetSqlInjectionMatchTuplesFieldToMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#data WafSqlInjectionMatchSet#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#data WafSqlInjectionMatchSet#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#type WafSqlInjectionMatchSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#type WafSqlInjectionMatchSet#type}
   */
   readonly type: string;
 }
@@ -141,13 +141,13 @@ export class WafSqlInjectionMatchSetSqlInjectionMatchTuplesFieldToMatchOutputRef
 }
 export interface WafSqlInjectionMatchSetSqlInjectionMatchTuples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#text_transformation WafSqlInjectionMatchSet#text_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#text_transformation WafSqlInjectionMatchSet#text_transformation}
   */
   readonly textTransformation: string;
   /**
   * field_to_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#field_to_match WafSqlInjectionMatchSet#field_to_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#field_to_match WafSqlInjectionMatchSet#field_to_match}
   */
   readonly fieldToMatch: WafSqlInjectionMatchSetSqlInjectionMatchTuplesFieldToMatch;
 }
@@ -286,7 +286,7 @@ export class WafSqlInjectionMatchSetSqlInjectionMatchTuplesList extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set}
 */
 export class WafSqlInjectionMatchSet extends cdktn.TerraformResource {
 
@@ -302,7 +302,7 @@ export class WafSqlInjectionMatchSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WafSqlInjectionMatchSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafSqlInjectionMatchSet to import
-  * @param importFromId The id of the existing WafSqlInjectionMatchSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafSqlInjectionMatchSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafSqlInjectionMatchSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -314,7 +314,7 @@ export class WafSqlInjectionMatchSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,7 +325,7 @@ export class WafSqlInjectionMatchSet extends cdktn.TerraformResource {
       terraformResourceType: 'aws_waf_sql_injection_match_set',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

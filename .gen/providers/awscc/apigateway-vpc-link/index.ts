@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayVpcLinkConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link#description ApigatewayVpcLink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link#description ApigatewayVpcLink#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link#name ApigatewayVpcLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link#name ApigatewayVpcLink#name}
   */
   readonly name: string;
   /**
   * An array of arbitrary tags (key-value pairs) to associate with the VPC link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link#tags ApigatewayVpcLink#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link#tags ApigatewayVpcLink#tags}
   */
   readonly tags?: ApigatewayVpcLinkTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link#target_arns ApigatewayVpcLink#target_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link#target_arns ApigatewayVpcLink#target_arns}
   */
   readonly targetArns: string[];
 }
@@ -30,13 +30,13 @@ export interface ApigatewayVpcLinkTags {
   /**
   * A string you can use to assign a value. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link#key ApigatewayVpcLink#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link#key ApigatewayVpcLink#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link#value ApigatewayVpcLink#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link#value ApigatewayVpcLink#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class ApigatewayVpcLinkTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link}
 */
 export class ApigatewayVpcLink extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class ApigatewayVpcLink extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayVpcLink resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayVpcLink to import
-  * @param importFromId The id of the existing ApigatewayVpcLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayVpcLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayVpcLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class ApigatewayVpcLink extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class ApigatewayVpcLink extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_vpc_link',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

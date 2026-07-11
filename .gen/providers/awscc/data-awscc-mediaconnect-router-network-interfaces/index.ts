@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_network_interfaces
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_network_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccMediaconnectRouterNetworkInterfacesConfig extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces}
 */
 export class DataAwsccMediaconnectRouterNetworkInterfaces extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccMediaconnectRouterNetworkInterfaces extends cdktn.Terrafor
   * Generates CDKTN code for importing a DataAwsccMediaconnectRouterNetworkInterfaces resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediaconnectRouterNetworkInterfaces to import
-  * @param importFromId The id of the existing DataAwsccMediaconnectRouterNetworkInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_network_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediaconnectRouterNetworkInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_network_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediaconnectRouterNetworkInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccMediaconnectRouterNetworkInterfaces extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccMediaconnectRouterNetworkInterfaces extends cdktn.Terrafor
       terraformResourceType: 'awscc_mediaconnect_router_network_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

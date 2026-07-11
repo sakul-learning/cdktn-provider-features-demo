@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktn from 'cdktn';
 
 export interface B2BiTransformerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#edi_type B2BiTransformer#edi_type}
   */
   readonly ediType?: B2BiTransformerEdiType;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#file_format B2BiTransformer#file_format}
   */
   readonly fileFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#input_conversion B2BiTransformer#input_conversion}
   */
   readonly inputConversion?: B2BiTransformerInputConversion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#mapping B2BiTransformer#mapping}
   */
   readonly mapping?: B2BiTransformerMapping;
   /**
   * This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#mapping_template B2BiTransformer#mapping_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#mapping_template B2BiTransformer#mapping_template}
   */
   readonly mappingTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#name B2BiTransformer#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#output_conversion B2BiTransformer#output_conversion}
   */
   readonly outputConversion?: B2BiTransformerOutputConversion;
   /**
   * This shape is deprecated: This is a legacy trait. Please use input-conversion or output-conversion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#sample_document B2BiTransformer#sample_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#sample_document B2BiTransformer#sample_document}
   */
   readonly sampleDocument?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#sample_documents B2BiTransformer#sample_documents}
   */
   readonly sampleDocuments?: B2BiTransformerSampleDocuments;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#status B2BiTransformer#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#tags B2BiTransformer#tags}
   */
   readonly tags?: B2BiTransformerTags[] | cdktn.IResolvable;
 }
 export interface B2BiTransformerEdiTypeX12Details {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}
   */
   readonly transactionSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}
   */
   readonly version?: string;
 }
@@ -185,7 +185,7 @@ export class B2BiTransformerEdiTypeX12DetailsOutputReference extends cdktn.Compl
 }
 export interface B2BiTransformerEdiType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#x12_details B2BiTransformer#x12_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#x12_details B2BiTransformer#x12_details}
   */
   readonly x12Details?: B2BiTransformerEdiTypeX12Details;
 }
@@ -279,7 +279,7 @@ export class B2BiTransformerEdiTypeOutputReference extends cdktn.ComplexObject {
 }
 export interface B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}
   */
   readonly splitBy?: string;
 }
@@ -373,15 +373,15 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12SplitOptionsOutputR
 }
 export interface B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}
   */
   readonly codesToAdd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}
   */
   readonly codesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
   */
   readonly elementId?: string;
 }
@@ -533,15 +533,15 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
 }
 export interface B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
   */
   readonly elementId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}
   */
   readonly minLength?: number;
 }
@@ -693,11 +693,11 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
 }
 export interface B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}
   */
   readonly elementPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}
   */
   readonly requirement?: string;
 }
@@ -820,15 +820,15 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
 }
 export interface B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}
   */
   readonly codeListValidationRule?: B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}
   */
   readonly elementLengthValidationRule?: B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}
   */
   readonly elementRequirementValidationRule?: B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule;
 }
@@ -1002,7 +1002,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsVa
 }
 export interface B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}
   */
   readonly validationRules?: B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRules[] | cdktn.IResolvable;
 }
@@ -1096,11 +1096,11 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsOu
 }
 export interface B2BiTransformerInputConversionAdvancedOptionsX12 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}
   */
   readonly splitOptions?: B2BiTransformerInputConversionAdvancedOptionsX12SplitOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}
   */
   readonly validationOptions?: B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptions;
 }
@@ -1223,7 +1223,7 @@ export class B2BiTransformerInputConversionAdvancedOptionsX12OutputReference ext
 }
 export interface B2BiTransformerInputConversionAdvancedOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
   */
   readonly x12?: B2BiTransformerInputConversionAdvancedOptionsX12;
 }
@@ -1317,11 +1317,11 @@ export class B2BiTransformerInputConversionAdvancedOptionsOutputReference extend
 }
 export interface B2BiTransformerInputConversionFormatOptionsX12 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}
   */
   readonly transactionSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}
   */
   readonly version?: string;
 }
@@ -1444,7 +1444,7 @@ export class B2BiTransformerInputConversionFormatOptionsX12OutputReference exten
 }
 export interface B2BiTransformerInputConversionFormatOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
   */
   readonly x12?: B2BiTransformerInputConversionFormatOptionsX12;
 }
@@ -1538,15 +1538,15 @@ export class B2BiTransformerInputConversionFormatOptionsOutputReference extends 
 }
 export interface B2BiTransformerInputConversion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}
   */
   readonly advancedOptions?: B2BiTransformerInputConversionAdvancedOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}
   */
   readonly formatOptions?: B2BiTransformerInputConversionFormatOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#from_format B2BiTransformer#from_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#from_format B2BiTransformer#from_format}
   */
   readonly fromFormat?: string;
 }
@@ -1698,11 +1698,11 @@ export class B2BiTransformerInputConversionOutputReference extends cdktn.Complex
 }
 export interface B2BiTransformerMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}
   */
   readonly templateLanguage?: string;
 }
@@ -1825,7 +1825,7 @@ export class B2BiTransformerMappingOutputReference extends cdktn.ComplexObject {
 }
 export interface B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#split_by B2BiTransformer#split_by}
   */
   readonly splitBy?: string;
 }
@@ -1919,15 +1919,15 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptionsOutput
 }
 export interface B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#codes_to_add B2BiTransformer#codes_to_add}
   */
   readonly codesToAdd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#codes_to_remove B2BiTransformer#codes_to_remove}
   */
   readonly codesToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
   */
   readonly elementId?: string;
 }
@@ -2079,15 +2079,15 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
 }
 export interface B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_id B2BiTransformer#element_id}
   */
   readonly elementId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#max_length B2BiTransformer#max_length}
   */
   readonly maxLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#min_length B2BiTransformer#min_length}
   */
   readonly minLength?: number;
 }
@@ -2239,11 +2239,11 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
 }
 export interface B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}
   */
   readonly elementPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}
   */
   readonly requirement?: string;
 }
@@ -2366,15 +2366,15 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
 }
 export interface B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#code_list_validation_rule B2BiTransformer#code_list_validation_rule}
   */
   readonly codeListValidationRule?: B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesCodeListValidationRule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_length_validation_rule B2BiTransformer#element_length_validation_rule}
   */
   readonly elementLengthValidationRule?: B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementLengthValidationRule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#element_requirement_validation_rule B2BiTransformer#element_requirement_validation_rule}
   */
   readonly elementRequirementValidationRule?: B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule;
 }
@@ -2548,7 +2548,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsV
 }
 export interface B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#validation_rules B2BiTransformer#validation_rules}
   */
   readonly validationRules?: B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsValidationRules[] | cdktn.IResolvable;
 }
@@ -2642,11 +2642,11 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptionsO
 }
 export interface B2BiTransformerOutputConversionAdvancedOptionsX12 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#split_options B2BiTransformer#split_options}
   */
   readonly splitOptions?: B2BiTransformerOutputConversionAdvancedOptionsX12SplitOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#validation_options B2BiTransformer#validation_options}
   */
   readonly validationOptions?: B2BiTransformerOutputConversionAdvancedOptionsX12ValidationOptions;
 }
@@ -2769,7 +2769,7 @@ export class B2BiTransformerOutputConversionAdvancedOptionsX12OutputReference ex
 }
 export interface B2BiTransformerOutputConversionAdvancedOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
   */
   readonly x12?: B2BiTransformerOutputConversionAdvancedOptionsX12;
 }
@@ -2863,11 +2863,11 @@ export class B2BiTransformerOutputConversionAdvancedOptionsOutputReference exten
 }
 export interface B2BiTransformerOutputConversionFormatOptionsX12 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}
   */
   readonly transactionSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}
   */
   readonly version?: string;
 }
@@ -2990,7 +2990,7 @@ export class B2BiTransformerOutputConversionFormatOptionsX12OutputReference exte
 }
 export interface B2BiTransformerOutputConversionFormatOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#x12 B2BiTransformer#x12}
   */
   readonly x12?: B2BiTransformerOutputConversionFormatOptionsX12;
 }
@@ -3084,15 +3084,15 @@ export class B2BiTransformerOutputConversionFormatOptionsOutputReference extends
 }
 export interface B2BiTransformerOutputConversion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#advanced_options B2BiTransformer#advanced_options}
   */
   readonly advancedOptions?: B2BiTransformerOutputConversionAdvancedOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#format_options B2BiTransformer#format_options}
   */
   readonly formatOptions?: B2BiTransformerOutputConversionFormatOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#to_format B2BiTransformer#to_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#to_format B2BiTransformer#to_format}
   */
   readonly toFormat?: string;
 }
@@ -3244,11 +3244,11 @@ export class B2BiTransformerOutputConversionOutputReference extends cdktn.Comple
 }
 export interface B2BiTransformerSampleDocumentsKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}
   */
   readonly input?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}
   */
   readonly output?: string;
 }
@@ -3393,11 +3393,11 @@ export class B2BiTransformerSampleDocumentsKeysList extends cdktn.ComplexList {
 }
 export interface B2BiTransformerSampleDocuments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#bucket_name B2BiTransformer#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#bucket_name B2BiTransformer#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#keys B2BiTransformer#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#keys B2BiTransformer#keys}
   */
   readonly keys?: B2BiTransformerSampleDocumentsKeys[] | cdktn.IResolvable;
 }
@@ -3520,11 +3520,11 @@ export class B2BiTransformerSampleDocumentsOutputReference extends cdktn.Complex
 }
 export interface B2BiTransformerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#key B2BiTransformer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#key B2BiTransformer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#value B2BiTransformer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#value B2BiTransformer#value}
   */
   readonly value?: string;
 }
@@ -3669,7 +3669,7 @@ export class B2BiTransformerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer awscc_b2bi_transformer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer awscc_b2bi_transformer}
 */
 export class B2BiTransformer extends cdktn.TerraformResource {
 
@@ -3685,7 +3685,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a B2BiTransformer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the B2BiTransformer to import
-  * @param importFromId The id of the existing B2BiTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing B2BiTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the B2BiTransformer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3697,7 +3697,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/b2bi_transformer awscc_b2bi_transformer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/b2bi_transformer awscc_b2bi_transformer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3708,7 +3708,7 @@ export class B2BiTransformer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_b2bi_transformer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

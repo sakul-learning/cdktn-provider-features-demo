@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface Route53RecoveryreadinessCellConfig extends cdktn.TerraformMetaA
   /**
   * The name of the cell to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell#cell_name Route53RecoveryreadinessCell#cell_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell#cell_name Route53RecoveryreadinessCell#cell_name}
   */
   readonly cellName?: string;
   /**
   * A list of cell Amazon Resource Names (ARNs) contained within this cell, for use in nested cells. For example, Availability Zones within specific Regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell#cells Route53RecoveryreadinessCell#cells}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell#cells Route53RecoveryreadinessCell#cells}
   */
   readonly cells?: string[];
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell#tags Route53RecoveryreadinessCell#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell#tags Route53RecoveryreadinessCell#tags}
   */
   readonly tags?: Route53RecoveryreadinessCellTags[] | cdktn.IResolvable;
 }
 export interface Route53RecoveryreadinessCellTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell#key Route53RecoveryreadinessCell#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell#key Route53RecoveryreadinessCell#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell#value Route53RecoveryreadinessCell#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell#value Route53RecoveryreadinessCell#value}
   */
   readonly value?: string;
 }
@@ -177,7 +177,7 @@ export class Route53RecoveryreadinessCellTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell awscc_route53recoveryreadiness_cell}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell awscc_route53recoveryreadiness_cell}
 */
 export class Route53RecoveryreadinessCell extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class Route53RecoveryreadinessCell extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53RecoveryreadinessCell resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecoveryreadinessCell to import
-  * @param importFromId The id of the existing Route53RecoveryreadinessCell that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecoveryreadinessCell that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecoveryreadinessCell to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class Route53RecoveryreadinessCell extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/route53recoveryreadiness_cell awscc_route53recoveryreadiness_cell} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53recoveryreadiness_cell awscc_route53recoveryreadiness_cell} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class Route53RecoveryreadinessCell extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53recoveryreadiness_cell',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/cloudformation_hook_versions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/cloudformation_hook_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccCloudformationHookVersionsConfig extends cdktn.Terrafo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/cloudformation_hook_versions awscc_cloudformation_hook_versions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/cloudformation_hook_versions awscc_cloudformation_hook_versions}
 */
 export class DataAwsccCloudformationHookVersions extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccCloudformationHookVersions extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccCloudformationHookVersions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCloudformationHookVersions to import
-  * @param importFromId The id of the existing DataAwsccCloudformationHookVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/cloudformation_hook_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCloudformationHookVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/cloudformation_hook_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCloudformationHookVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccCloudformationHookVersions extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/cloudformation_hook_versions awscc_cloudformation_hook_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/cloudformation_hook_versions awscc_cloudformation_hook_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccCloudformationHookVersions extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_cloudformation_hook_versions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

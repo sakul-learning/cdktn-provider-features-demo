@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface OmicsAnnotationStoreConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}
   */
   readonly reference?: OmicsAnnotationStoreReference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}
   */
   readonly sseConfig?: OmicsAnnotationStoreSseConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}
   */
   readonly storeFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}
   */
   readonly storeOptions?: OmicsAnnotationStoreStoreOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface OmicsAnnotationStoreReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#reference_arn OmicsAnnotationStore#reference_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#reference_arn OmicsAnnotationStore#reference_arn}
   */
   readonly referenceArn?: string;
 }
@@ -132,11 +132,11 @@ export class OmicsAnnotationStoreReferenceOutputReference extends cdktn.ComplexO
 }
 export interface OmicsAnnotationStoreSseConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}
   */
   readonly keyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}
   */
   readonly type?: string;
 }
@@ -259,15 +259,15 @@ export class OmicsAnnotationStoreSseConfigOutputReference extends cdktn.ComplexO
 }
 export interface OmicsAnnotationStoreStoreOptionsTsvStoreOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#annotation_type OmicsAnnotationStore#annotation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#annotation_type OmicsAnnotationStore#annotation_type}
   */
   readonly annotationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#format_to_header OmicsAnnotationStore#format_to_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#format_to_header OmicsAnnotationStore#format_to_header}
   */
   readonly formatToHeader?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#schema OmicsAnnotationStore#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#schema OmicsAnnotationStore#schema}
   */
   readonly schema?: { [key: string]: string }[] | cdktn.IResolvable;
 }
@@ -419,7 +419,7 @@ export class OmicsAnnotationStoreStoreOptionsTsvStoreOptionsOutputReference exte
 }
 export interface OmicsAnnotationStoreStoreOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}
   */
   readonly tsvStoreOptions?: OmicsAnnotationStoreStoreOptionsTsvStoreOptions;
 }
@@ -513,7 +513,7 @@ export class OmicsAnnotationStoreStoreOptionsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store awscc_omics_annotation_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store awscc_omics_annotation_store}
 */
 export class OmicsAnnotationStore extends cdktn.TerraformResource {
 
@@ -529,7 +529,7 @@ export class OmicsAnnotationStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OmicsAnnotationStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmicsAnnotationStore to import
-  * @param importFromId The id of the existing OmicsAnnotationStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmicsAnnotationStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmicsAnnotationStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -541,7 +541,7 @@ export class OmicsAnnotationStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/omics_annotation_store awscc_omics_annotation_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/omics_annotation_store awscc_omics_annotation_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -552,7 +552,7 @@ export class OmicsAnnotationStore extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_omics_annotation_store',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

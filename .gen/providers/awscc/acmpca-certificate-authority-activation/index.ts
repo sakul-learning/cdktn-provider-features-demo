@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AcmpcaCertificateAuthorityActivationConfig extends cdktn.Terraf
   /**
   * Certificate Authority certificate that will be installed in the Certificate Authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation#certificate AcmpcaCertificateAuthorityActivation#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation#certificate AcmpcaCertificateAuthorityActivation#certificate}
   */
   readonly certificate: string;
   /**
   * Arn of the Certificate Authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation#certificate_authority_arn AcmpcaCertificateAuthorityActivation#certificate_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation#certificate_authority_arn AcmpcaCertificateAuthorityActivation#certificate_authority_arn}
   */
   readonly certificateAuthorityArn: string;
   /**
   * Certificate chain for the Certificate Authority certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation#certificate_chain AcmpcaCertificateAuthorityActivation#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation#certificate_chain AcmpcaCertificateAuthorityActivation#certificate_chain}
   */
   readonly certificateChain?: string;
   /**
   * The status of the Certificate Authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation#status AcmpcaCertificateAuthorityActivation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation#status AcmpcaCertificateAuthorityActivation#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}
 */
 export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a AcmpcaCertificateAuthorityActivation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcmpcaCertificateAuthorityActivation to import
-  * @param importFromId The id of the existing AcmpcaCertificateAuthorityActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcmpcaCertificateAuthorityActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcmpcaCertificateAuthorityActivation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class AcmpcaCertificateAuthorityActivation extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_acmpca_certificate_authority_activation',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

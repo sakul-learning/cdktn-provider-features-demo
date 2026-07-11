@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/networkmanager_core_network
+// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/networkmanager_core_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsNetworkmanagerCoreNetworkConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/networkmanager_core_network#core_network_id DataAwsNetworkmanagerCoreNetwork#core_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/networkmanager_core_network#core_network_id DataAwsNetworkmanagerCoreNetwork#core_network_id}
   */
   readonly coreNetworkId: string;
 }
@@ -350,7 +350,7 @@ export class DataAwsNetworkmanagerCoreNetworkSegmentsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/networkmanager_core_network aws_networkmanager_core_network}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/networkmanager_core_network aws_networkmanager_core_network}
 */
 export class DataAwsNetworkmanagerCoreNetwork extends cdktn.TerraformDataSource {
 
@@ -366,7 +366,7 @@ export class DataAwsNetworkmanagerCoreNetwork extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsNetworkmanagerCoreNetwork resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsNetworkmanagerCoreNetwork to import
-  * @param importFromId The id of the existing DataAwsNetworkmanagerCoreNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsNetworkmanagerCoreNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsNetworkmanagerCoreNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -378,7 +378,7 @@ export class DataAwsNetworkmanagerCoreNetwork extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/networkmanager_core_network aws_networkmanager_core_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/networkmanager_core_network aws_networkmanager_core_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -389,7 +389,7 @@ export class DataAwsNetworkmanagerCoreNetwork extends cdktn.TerraformDataSource 
       terraformResourceType: 'aws_networkmanager_core_network',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.53.0'
+        providerVersion: '6.54.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

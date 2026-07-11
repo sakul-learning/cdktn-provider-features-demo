@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AthenaPreparedStatementConfig extends cdktn.TerraformMetaArgume
   /**
   * The description of the prepared statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement#description AthenaPreparedStatement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement#description AthenaPreparedStatement#description}
   */
   readonly description?: string;
   /**
   * The query string for the prepared statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement#query_statement AthenaPreparedStatement#query_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement#query_statement AthenaPreparedStatement#query_statement}
   */
   readonly queryStatement: string;
   /**
   * The name of the prepared statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement#statement_name AthenaPreparedStatement#statement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement#statement_name AthenaPreparedStatement#statement_name}
   */
   readonly statementName: string;
   /**
   * The name of the workgroup to which the prepared statement belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement#work_group AthenaPreparedStatement#work_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement#work_group AthenaPreparedStatement#work_group}
   */
   readonly workGroup: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement}
 */
 export class AthenaPreparedStatement extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AthenaPreparedStatement resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AthenaPreparedStatement to import
-  * @param importFromId The id of the existing AthenaPreparedStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AthenaPreparedStatement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AthenaPreparedStatement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/athena_prepared_statement awscc_athena_prepared_statement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class AthenaPreparedStatement extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_athena_prepared_statement',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

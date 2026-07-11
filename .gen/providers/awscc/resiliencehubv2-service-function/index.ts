@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Resiliencehubv2ServiceFunctionConfig extends cdktn.TerraformMet
   /**
   * The criticality of the service function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function#criticality Resiliencehubv2ServiceFunction#criticality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function#criticality Resiliencehubv2ServiceFunction#criticality}
   */
   readonly criticality: string;
   /**
   * The description of the service function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function#description Resiliencehubv2ServiceFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function#description Resiliencehubv2ServiceFunction#description}
   */
   readonly description?: string;
   /**
   * The name of the service function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function#name Resiliencehubv2ServiceFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function#name Resiliencehubv2ServiceFunction#name}
   */
   readonly name: string;
   /**
   * The ARN of the parent service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function#service_arn Resiliencehubv2ServiceFunction#service_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function#service_arn Resiliencehubv2ServiceFunction#service_arn}
   */
   readonly serviceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function}
 */
 export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Resiliencehubv2ServiceFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resiliencehubv2ServiceFunction to import
-  * @param importFromId The id of the existing Resiliencehubv2ServiceFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resiliencehubv2ServiceFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resiliencehubv2ServiceFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehubv2_service_function awscc_resiliencehubv2_service_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class Resiliencehubv2ServiceFunction extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resiliencehubv2_service_function',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

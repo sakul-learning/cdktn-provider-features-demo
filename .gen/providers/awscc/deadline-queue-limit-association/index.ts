@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue_limit_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue_limit_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface DeadlineQueueLimitAssociationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue_limit_association#farm_id DeadlineQueueLimitAssociation#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue_limit_association#farm_id DeadlineQueueLimitAssociation#farm_id}
   */
   readonly farmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue_limit_association#limit_id DeadlineQueueLimitAssociation#limit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue_limit_association#limit_id DeadlineQueueLimitAssociation#limit_id}
   */
   readonly limitId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue_limit_association#queue_id DeadlineQueueLimitAssociation#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue_limit_association#queue_id DeadlineQueueLimitAssociation#queue_id}
   */
   readonly queueId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association}
 */
 export class DeadlineQueueLimitAssociation extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class DeadlineQueueLimitAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DeadlineQueueLimitAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeadlineQueueLimitAssociation to import
-  * @param importFromId The id of the existing DeadlineQueueLimitAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue_limit_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeadlineQueueLimitAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue_limit_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeadlineQueueLimitAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DeadlineQueueLimitAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class DeadlineQueueLimitAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_deadline_queue_limit_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

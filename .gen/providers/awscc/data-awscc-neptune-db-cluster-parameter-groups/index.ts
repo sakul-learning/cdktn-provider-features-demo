@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/neptune_db_cluster_parameter_groups
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/neptune_db_cluster_parameter_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccNeptuneDbClusterParameterGroupsConfig extends cdktn.Te
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/neptune_db_cluster_parameter_groups awscc_neptune_db_cluster_parameter_groups}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/neptune_db_cluster_parameter_groups awscc_neptune_db_cluster_parameter_groups}
 */
 export class DataAwsccNeptuneDbClusterParameterGroups extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccNeptuneDbClusterParameterGroups extends cdktn.TerraformDat
   * Generates CDKTN code for importing a DataAwsccNeptuneDbClusterParameterGroups resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNeptuneDbClusterParameterGroups to import
-  * @param importFromId The id of the existing DataAwsccNeptuneDbClusterParameterGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/neptune_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNeptuneDbClusterParameterGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/neptune_db_cluster_parameter_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNeptuneDbClusterParameterGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccNeptuneDbClusterParameterGroups extends cdktn.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/data-sources/neptune_db_cluster_parameter_groups awscc_neptune_db_cluster_parameter_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/neptune_db_cluster_parameter_groups awscc_neptune_db_cluster_parameter_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccNeptuneDbClusterParameterGroups extends cdktn.TerraformDat
       terraformResourceType: 'awscc_neptune_db_cluster_parameter_groups',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

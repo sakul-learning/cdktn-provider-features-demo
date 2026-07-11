@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_directory_registration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_directory_registration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktn from 'cdktn';
 
 export interface PcaconnectoradDirectoryRegistrationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_directory_registration#directory_id PcaconnectoradDirectoryRegistration#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_directory_registration#directory_id PcaconnectoradDirectoryRegistration#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_directory_registration#tags PcaconnectoradDirectoryRegistration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_directory_registration#tags PcaconnectoradDirectoryRegistration#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration}
 */
 export class PcaconnectoradDirectoryRegistration extends cdktn.TerraformResource {
 
@@ -34,7 +34,7 @@ export class PcaconnectoradDirectoryRegistration extends cdktn.TerraformResource
   * Generates CDKTN code for importing a PcaconnectoradDirectoryRegistration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcaconnectoradDirectoryRegistration to import
-  * @param importFromId The id of the existing PcaconnectoradDirectoryRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_directory_registration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcaconnectoradDirectoryRegistration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_directory_registration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcaconnectoradDirectoryRegistration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -46,7 +46,7 @@ export class PcaconnectoradDirectoryRegistration extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,7 +57,7 @@ export class PcaconnectoradDirectoryRegistration extends cdktn.TerraformResource
       terraformResourceType: 'awscc_pcaconnectorad_directory_registration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

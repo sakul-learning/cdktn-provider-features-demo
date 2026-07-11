@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface IamVirtualMfaDeviceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device#path IamVirtualMfaDevice#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device#tags IamVirtualMfaDevice#tags}
   */
   readonly tags?: IamVirtualMfaDeviceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device#users IamVirtualMfaDevice#users}
   */
   readonly users: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device#virtual_mfa_device_name IamVirtualMfaDevice#virtual_mfa_device_name}
   */
   readonly virtualMfaDeviceName?: string;
 }
@@ -28,13 +28,13 @@ export interface IamVirtualMfaDeviceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device#key IamVirtualMfaDevice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device#key IamVirtualMfaDevice#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device#value IamVirtualMfaDevice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device#value IamVirtualMfaDevice#value}
   */
   readonly value?: string;
 }
@@ -179,7 +179,7 @@ export class IamVirtualMfaDeviceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}
 */
 export class IamVirtualMfaDevice extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamVirtualMfaDevice resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamVirtualMfaDevice to import
-  * @param importFromId The id of the existing IamVirtualMfaDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamVirtualMfaDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamVirtualMfaDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class IamVirtualMfaDevice extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_virtual_mfa_device',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task
+// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ResourcegroupsTagSyncTaskConfig extends cdktn.TerraformMetaArgu
   /**
   * The Amazon resource name (ARN) or name of the application group for which you want to create a tag-sync task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task#group ResourcegroupsTagSyncTask#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task#group ResourcegroupsTagSyncTask#group}
   */
   readonly group: string;
   /**
   * The Amazon resource name (ARN) of the role assumed by the service to tag and untag resources on your behalf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task#role_arn ResourcegroupsTagSyncTask#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task#role_arn ResourcegroupsTagSyncTask#role_arn}
   */
   readonly roleArn: string;
   /**
   * The tag key. Resources tagged with this tag key-value pair will be added to the application. If a resource with this tag is later untagged, the tag-sync task removes the resource from the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task#tag_key ResourcegroupsTagSyncTask#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task#tag_key ResourcegroupsTagSyncTask#tag_key}
   */
   readonly tagKey: string;
   /**
   * The tag value. Resources tagged with this tag key-value pair will be added to the application. If a resource with this tag is later untagged, the tag-sync task removes the resource from the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task#tag_value ResourcegroupsTagSyncTask#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task#tag_value ResourcegroupsTagSyncTask#tag_value}
   */
   readonly tagValue: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}
 */
 export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ResourcegroupsTagSyncTask resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcegroupsTagSyncTask to import
-  * @param importFromId The id of the existing ResourcegroupsTagSyncTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcegroupsTagSyncTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcegroupsTagSyncTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.91.0/docs/resources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class ResourcegroupsTagSyncTask extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resourcegroups_tag_sync_task',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.91.0'
+        providerVersion: '1.92.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
