@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       cdktn:
-        specifier: file:/data/repos/hermes-pr-reviewer/worktrees/cdk-terrain/open-constructs__cdk-terrain/pr-296/packages/cdktn
-        version: file:../hermes-pr-reviewer/worktrees/cdk-terrain/open-constructs__cdk-terrain/pr-296/packages/cdktn(constructs@10.6.0)
+        specifier: file:/data/pr-check/cdk-terrain-296-latest/packages/cdktn
+        version: file:../../pr-check/cdk-terrain-296-latest/packages/cdktn(constructs@10.6.0)
       constructs:
         specifier: 10.6.0
         version: 10.6.0
@@ -147,8 +147,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  cdktn@file:../hermes-pr-reviewer/worktrees/cdk-terrain/open-constructs__cdk-terrain/pr-296/packages/cdktn:
-    resolution: {directory: ../hermes-pr-reviewer/worktrees/cdk-terrain/open-constructs__cdk-terrain/pr-296/packages/cdktn, type: directory}
+  cdktn@file:../../pr-check/cdk-terrain-296-latest/packages/cdktn:
+    resolution: {directory: ../../pr-check/cdk-terrain-296-latest/packages/cdktn, type: directory}
     peerDependencies:
       constructs: ^10.6.0
     bundledDependencies:
@@ -233,7 +233,7 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  cdktn@file:../hermes-pr-reviewer/worktrees/cdk-terrain/open-constructs__cdk-terrain/pr-296/packages/cdktn(constructs@10.6.0):
+  cdktn@file:../../pr-check/cdk-terrain-296-latest/packages/cdktn(constructs@10.6.0):
     dependencies:
       constructs: 10.6.0
 

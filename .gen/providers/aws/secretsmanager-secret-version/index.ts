@@ -102,7 +102,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
     this._secretId = config.secretId;
     this._secretString = config.secretString;
     this._secretStringWo = config.secretStringWo;
-    if (config.secretStringWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.secretStringWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._secretStringWoVersion = config.secretStringWoVersion;
     this._versionStages = config.versionStages;
   }
@@ -212,7 +212,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
     return this.getStringAttribute('secret_string_wo');
   }
   public set secretStringWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._secretStringWo = value;
   }
   public resetSecretStringWo() {

@@ -580,7 +580,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
     this._keyAlgorithm = config.keyAlgorithm;
     this._privateKey = config.privateKey;
     this._privateKeyWo = config.privateKeyWo;
-    if (config.privateKeyWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.privateKeyWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._privateKeyWoVersion = config.privateKeyWoVersion;
     this._region = config.region;
     this._subjectAlternativeNames = config.subjectAlternativeNames;
@@ -758,7 +758,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
     return this.getStringAttribute('private_key_wo');
   }
   public set privateKeyWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._privateKeyWo = value;
   }
   public resetPrivateKeyWo() {

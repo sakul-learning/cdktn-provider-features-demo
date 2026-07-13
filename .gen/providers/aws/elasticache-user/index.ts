@@ -442,7 +442,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
     this._noPasswordRequired = config.noPasswordRequired;
     this._passwords = config.passwords;
     this._passwordsWo = config.passwordsWo;
-    if (config.passwordsWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.passwordsWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._passwordsWoVersion = config.passwordsWoVersion;
     this._region = config.region;
     this._tags = config.tags;
@@ -545,7 +545,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
     return this.getStringAttribute('passwords_wo');
   }
   public set passwordsWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._passwordsWo = value;
   }
   public resetPasswordsWo() {
