@@ -7,10 +7,10 @@ import {
   TerraformVariable,
   Testing,
 } from "cdktn";
-import { AwsProvider } from "./.gen/providers/aws/provider";
-import { EphemeralAwsSecretsmanagerRandomPassword } from "./.gen/providers/aws/ephemeral-aws-secretsmanager-random-password";
-import { SecretsmanagerSecret } from "./.gen/providers/aws/secretsmanager-secret";
-import { SecretsmanagerSecretVersion } from "./.gen/providers/aws/secretsmanager-secret-version";
+import { AwsProvider } from "./.gen/providers/aws/provider/index.ts";
+import { EphemeralAwsSecretsmanagerRandomPassword } from "./.gen/providers/aws/ephemeral-aws-secretsmanager-random-password/index.ts";
+import { SecretsmanagerSecret } from "./.gen/providers/aws/secretsmanager-secret/index.ts";
+import { SecretsmanagerSecretVersion } from "./.gen/providers/aws/secretsmanager-secret-version/index.ts";
 
 /**
  * Demonstrates the Terraform 1.10+/1.11+ ephemerality migration pattern:

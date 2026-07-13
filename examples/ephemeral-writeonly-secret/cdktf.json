@@ -1,6 +1,6 @@
 {
   "language": "typescript",
-  "app": "../../node_modules/.bin/ts-node main.ts",
+  "app": "node main.ts",
   "terraformProviders": [
     "aws"
   ],
