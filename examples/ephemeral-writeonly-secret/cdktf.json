@@ -1,0 +1,13 @@
+{
+  "language": "typescript",
+  "app": "node main.ts",
+  "terraformProviders": [
+    "aws"
+  ],
+  "targetVersions": {
+    "terraform": ">=1.15.0",
+    "opentofu": ">=1.11.0"
+  },
+  "context": {},
+  "projectId": "4e882a97-6fa1-4749-8dfb-3b2c84f38d0e"
+}
