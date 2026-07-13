@@ -148,7 +148,7 @@ export class SsmParameter extends cdktn.TerraformResource {
     this._type = config.type;
     this._value = config.value;
     this._valueWo = config.valueWo;
-    if (config.valueWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.valueWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._valueWoVersion = config.valueWoVersion;
   }
 
@@ -404,7 +404,7 @@ export class SsmParameter extends cdktn.TerraformResource {
     return this.getStringAttribute('value_wo');
   }
   public set valueWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._valueWo = value;
   }
   public resetValueWo() {

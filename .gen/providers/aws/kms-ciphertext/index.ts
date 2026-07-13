@@ -97,7 +97,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
     this._keyId = config.keyId;
     this._plaintext = config.plaintext;
     this._plaintextWo = config.plaintextWo;
-    if (config.plaintextWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.plaintextWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._plaintextWoVersion = config.plaintextWoVersion;
     this._region = config.region;
   }
@@ -181,7 +181,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
     return this.getStringAttribute('plaintext_wo');
   }
   public set plaintextWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._plaintextWo = value;
   }
   public resetPlaintextWo() {

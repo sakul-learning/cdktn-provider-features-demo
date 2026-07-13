@@ -131,7 +131,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
     this._adminPasswordSecretKmsKeyId = config.adminPasswordSecretKmsKeyId;
     this._adminUserPassword = config.adminUserPassword;
     this._adminUserPasswordWo = config.adminUserPasswordWo;
-    if (config.adminUserPasswordWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.adminUserPasswordWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._adminUserPasswordWoVersion = config.adminUserPasswordWoVersion;
     this._adminUsername = config.adminUsername;
     this._dbName = config.dbName;
@@ -197,7 +197,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
     return this.getStringAttribute('admin_user_password_wo');
   }
   public set adminUserPasswordWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._adminUserPasswordWo = value;
   }
   public resetAdminUserPasswordWo() {

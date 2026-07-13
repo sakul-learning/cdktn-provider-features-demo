@@ -34,7 +34,7 @@
     "check": "pnpm run generate:aws && pnpm run synth:all"
   },
   "dependencies": {
-    "cdktn": "file:/data/repos/hermes-pr-reviewer/worktrees/cdk-terrain/open-constructs__cdk-terrain/pr-296/packages/cdktn",
+    "cdktn": "file:/data/pr-check/cdk-terrain-296-latest/packages/cdktn",
     "constructs": "10.6.0"
   },
   "devDependencies": {

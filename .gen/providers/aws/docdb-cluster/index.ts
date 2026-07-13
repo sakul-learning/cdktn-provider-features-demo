@@ -774,7 +774,7 @@ export class DocdbCluster extends cdktn.TerraformResource {
     this._manageMasterUserPassword = config.manageMasterUserPassword;
     this._masterPassword = config.masterPassword;
     this._masterPasswordWo = config.masterPasswordWo;
-    if (config.masterPasswordWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.masterPasswordWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._masterPasswordWoVersion = config.masterPasswordWoVersion;
     this._masterUsername = config.masterUsername;
     this._networkType = config.networkType;
@@ -1131,7 +1131,7 @@ export class DocdbCluster extends cdktn.TerraformResource {
     return this.getStringAttribute('master_password_wo');
   }
   public set masterPasswordWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._masterPasswordWo = value;
   }
   public resetMasterPasswordWo() {

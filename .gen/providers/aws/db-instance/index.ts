@@ -1257,7 +1257,7 @@ export class DbInstance extends cdktn.TerraformResource {
     this._parameterGroupName = config.parameterGroupName;
     this._password = config.password;
     this._passwordWo = config.passwordWo;
-    if (config.passwordWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.passwordWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._passwordWoVersion = config.passwordWoVersion;
     this._performanceInsightsEnabled = config.performanceInsightsEnabled;
     this._performanceInsightsKmsKeyId = config.performanceInsightsKmsKeyId;
@@ -2136,7 +2136,7 @@ export class DbInstance extends cdktn.TerraformResource {
     return this.getStringAttribute('password_wo');
   }
   public set passwordWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._passwordWo = value;
   }
   public resetPasswordWo() {

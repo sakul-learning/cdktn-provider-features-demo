@@ -106,11 +106,11 @@ These are intentionally documented because they are feedback on how the new gene
 
 ## Current verification results
 
-Against cdk-terrain PR #296 head `181864467dfff5cf4477083b94c890e66d90f40a` (branch `feat/provider-feature-availability`, rebased onto `main` post-#300):
+Against cdk-terrain PR #296 head `30b172423c3e96b149ca3ad56a1948f73dee82ba` (branch `feat/provider-feature-availability`):
 
-- Terraform `1.15.7`: `assert:prhead-deps`, `schema:aws`, `generate:aws`, `inspect:schema`, `assert:generated-features`, `tsc --noEmit`, `synth:all`, and `plan:all` (via `aws-vault exec tcons-vincent --no-session`) passed.
+- Terraform `1.15.7`: `assert:prhead-deps`, `generate:aws`, TypeScript 7 `tsc --noEmit --checkers 1`, and `synth:all` passed. This refresh did not re-run schema capture or Terraform plans.
   - AWS provider schema exposed `functions: 4`, `ephemeral_resource_schemas: 10`, `list_resource_schemas: 153`, `action_schemas: 11`, and `resource_identity_schemas: 437` — unchanged from the PR #296 head recorded previously (same AWS provider `6.53.0`).
-  - Generated bindings confirmed: provider functions and ephemeral resources. `.gen/` is byte-identical to the previously committed bindings — the three fixes landed since the last recorded run (see below) are behavioral/type-level, not codegen-output changes.
+  - Generated bindings confirmed: provider functions and ephemeral resources. The refresh changes twelve generated AWS resource bindings to use `cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES` rather than the hard-coded `"writeOnlyAttributes"` string. No handwritten sample changes were needed because the samples do not call `registerProviderFeatureUsage(...)` directly.
   - No first-class generated directories/classes were emitted for list resources, provider actions, or resource identity schemas; keep the schema counts visible so this gap is easy to see on future PR heads.
   - `functions-only` and `functions-ephemeral` now additionally exercise `AwsProviderFunctions.userAgent(...)` and an ephemeral `lifecycle.postcondition`, respectively (see UX notes and Example projects above).
   - `mixins-s3`, `mixins-data-recovery`, and `mixins-aspect-instance` verify the `IMixin`/`construct.with(...)` primitive shipped in `cdktn@0.23.4` via the `constructs@10.6.0` bump (confirmed present in the published npm packages, not just this checkout), against the [proposed "Mixins" concept doc](https://github.com/open-constructs/cdk-terrain/tree/docs/concept-mixins): all three mixin patterns (provider-agnostic, provider-specific via `addOverride`, multi-resource-type via typed setters) and the mixin+aspect pairing all synthesize and plan correctly — see Example projects and UX notes above.

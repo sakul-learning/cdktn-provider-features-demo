@@ -162,7 +162,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
     });
     this._apiKey = config.apiKey;
     this._apiKeyWo = config.apiKeyWo;
-    if (config.apiKeyWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.apiKeyWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._apiKeyWoVersion = config.apiKeyWoVersion;
     this._name = config.name;
     this._region = config.region;
@@ -204,7 +204,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
     return this.getStringAttribute('api_key_wo');
   }
   public set apiKeyWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._apiKeyWo = value;
   }
   public resetApiKeyWo() {

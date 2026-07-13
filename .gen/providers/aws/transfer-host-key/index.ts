@@ -88,7 +88,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
     this._description = config.description;
     this._hostKeyBody = config.hostKeyBody;
     this._hostKeyBodyWo = config.hostKeyBodyWo;
-    if (config.hostKeyBodyWo !== undefined) { this.registerProviderFeatureUsage("writeOnlyAttributes"); }
+    if (config.hostKeyBodyWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._region = config.region;
     this._serverId = config.serverId;
     this._tags = config.tags;
@@ -144,7 +144,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
     return this.getStringAttribute('host_key_body_wo');
   }
   public set hostKeyBodyWo(value: string) {
-    this.registerProviderFeatureUsage("writeOnlyAttributes");
+    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._hostKeyBodyWo = value;
   }
   public resetHostKeyBodyWo() {
