@@ -97,7 +97,6 @@ export class KmsCiphertext extends cdktn.TerraformResource {
     this._keyId = config.keyId;
     this._plaintext = config.plaintext;
     this._plaintextWo = config.plaintextWo;
-    if (config.plaintextWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._plaintextWoVersion = config.plaintextWoVersion;
     this._region = config.region;
   }
@@ -181,7 +180,6 @@ export class KmsCiphertext extends cdktn.TerraformResource {
     return this.getStringAttribute('plaintext_wo');
   }
   public set plaintextWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._plaintextWo = value;
   }
   public resetPlaintextWo() {
@@ -234,7 +232,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
       id: cdktn.stringToTerraform(this._id),
       key_id: cdktn.stringToTerraform(this._keyId),
       plaintext: cdktn.stringToTerraform(this._plaintext),
-      plaintext_wo: cdktn.stringToTerraform(this._plaintextWo),
+      plaintext_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._plaintextWo)),
       plaintext_wo_version: cdktn.stringToTerraform(this._plaintextWoVersion),
       region: cdktn.stringToTerraform(this._region),
     };
@@ -267,7 +265,7 @@ export class KmsCiphertext extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       plaintext_wo: {
-        value: cdktn.stringToHclTerraform(this._plaintextWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._plaintextWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -442,7 +442,6 @@ export class ElasticacheUser extends cdktn.TerraformResource {
     this._noPasswordRequired = config.noPasswordRequired;
     this._passwords = config.passwords;
     this._passwordsWo = config.passwordsWo;
-    if (config.passwordsWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._passwordsWoVersion = config.passwordsWoVersion;
     this._region = config.region;
     this._tags = config.tags;
@@ -545,7 +544,6 @@ export class ElasticacheUser extends cdktn.TerraformResource {
     return this.getStringAttribute('passwords_wo');
   }
   public set passwordsWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._passwordsWo = value;
   }
   public resetPasswordsWo() {
@@ -689,7 +687,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
       id: cdktn.stringToTerraform(this._id),
       no_password_required: cdktn.booleanToTerraform(this._noPasswordRequired),
       passwords: cdktn.listMapper(cdktn.stringToTerraform, false)(this._passwords),
-      passwords_wo: cdktn.stringToTerraform(this._passwordsWo),
+      passwords_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._passwordsWo)),
       passwords_wo_version: cdktn.numberToTerraform(this._passwordsWoVersion),
       region: cdktn.stringToTerraform(this._region),
       tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
@@ -734,7 +732,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
         storageClassType: "stringList",
       },
       passwords_wo: {
-        value: cdktn.stringToHclTerraform(this._passwordsWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._passwordsWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

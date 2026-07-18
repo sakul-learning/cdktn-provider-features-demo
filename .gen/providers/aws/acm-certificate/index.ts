@@ -580,7 +580,6 @@ export class AcmCertificate extends cdktn.TerraformResource {
     this._keyAlgorithm = config.keyAlgorithm;
     this._privateKey = config.privateKey;
     this._privateKeyWo = config.privateKeyWo;
-    if (config.privateKeyWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._privateKeyWoVersion = config.privateKeyWoVersion;
     this._region = config.region;
     this._subjectAlternativeNames = config.subjectAlternativeNames;
@@ -758,7 +757,6 @@ export class AcmCertificate extends cdktn.TerraformResource {
     return this.getStringAttribute('private_key_wo');
   }
   public set privateKeyWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._privateKeyWo = value;
   }
   public resetPrivateKeyWo() {
@@ -937,7 +935,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
       id: cdktn.stringToTerraform(this._id),
       key_algorithm: cdktn.stringToTerraform(this._keyAlgorithm),
       private_key: cdktn.stringToTerraform(this._privateKey),
-      private_key_wo: cdktn.stringToTerraform(this._privateKeyWo),
+      private_key_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._privateKeyWo)),
       private_key_wo_version: cdktn.numberToTerraform(this._privateKeyWoVersion),
       region: cdktn.stringToTerraform(this._region),
       subject_alternative_names: cdktn.listMapper(cdktn.stringToTerraform, false)(this._subjectAlternativeNames),
@@ -1000,7 +998,7 @@ export class AcmCertificate extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       private_key_wo: {
-        value: cdktn.stringToHclTerraform(this._privateKeyWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._privateKeyWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

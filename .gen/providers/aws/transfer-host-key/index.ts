@@ -88,7 +88,6 @@ export class TransferHostKey extends cdktn.TerraformResource {
     this._description = config.description;
     this._hostKeyBody = config.hostKeyBody;
     this._hostKeyBodyWo = config.hostKeyBodyWo;
-    if (config.hostKeyBodyWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._region = config.region;
     this._serverId = config.serverId;
     this._tags = config.tags;
@@ -144,7 +143,6 @@ export class TransferHostKey extends cdktn.TerraformResource {
     return this.getStringAttribute('host_key_body_wo');
   }
   public set hostKeyBodyWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._hostKeyBodyWo = value;
   }
   public resetHostKeyBodyWo() {
@@ -224,7 +222,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
     return {
       description: cdktn.stringToTerraform(this._description),
       host_key_body: cdktn.stringToTerraform(this._hostKeyBody),
-      host_key_body_wo: cdktn.stringToTerraform(this._hostKeyBodyWo),
+      host_key_body_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._hostKeyBodyWo)),
       region: cdktn.stringToTerraform(this._region),
       server_id: cdktn.stringToTerraform(this._serverId),
       tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
@@ -246,7 +244,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       host_key_body_wo: {
-        value: cdktn.stringToHclTerraform(this._hostKeyBodyWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._hostKeyBodyWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

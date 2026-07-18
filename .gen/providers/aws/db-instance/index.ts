@@ -1257,7 +1257,6 @@ export class DbInstance extends cdktn.TerraformResource {
     this._parameterGroupName = config.parameterGroupName;
     this._password = config.password;
     this._passwordWo = config.passwordWo;
-    if (config.passwordWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._passwordWoVersion = config.passwordWoVersion;
     this._performanceInsightsEnabled = config.performanceInsightsEnabled;
     this._performanceInsightsKmsKeyId = config.performanceInsightsKmsKeyId;
@@ -2136,7 +2135,6 @@ export class DbInstance extends cdktn.TerraformResource {
     return this.getStringAttribute('password_wo');
   }
   public set passwordWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._passwordWo = value;
   }
   public resetPasswordWo() {
@@ -2607,7 +2605,7 @@ export class DbInstance extends cdktn.TerraformResource {
       option_group_name: cdktn.stringToTerraform(this._optionGroupName),
       parameter_group_name: cdktn.stringToTerraform(this._parameterGroupName),
       password: cdktn.stringToTerraform(this._password),
-      password_wo: cdktn.stringToTerraform(this._passwordWo),
+      password_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._passwordWo)),
       password_wo_version: cdktn.numberToTerraform(this._passwordWoVersion),
       performance_insights_enabled: cdktn.booleanToTerraform(this._performanceInsightsEnabled),
       performance_insights_kms_key_id: cdktn.stringToTerraform(this._performanceInsightsKmsKeyId),
@@ -2938,7 +2936,7 @@ export class DbInstance extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       password_wo: {
-        value: cdktn.stringToHclTerraform(this._passwordWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._passwordWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

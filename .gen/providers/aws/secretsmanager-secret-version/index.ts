@@ -102,7 +102,6 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
     this._secretId = config.secretId;
     this._secretString = config.secretString;
     this._secretStringWo = config.secretStringWo;
-    if (config.secretStringWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._secretStringWoVersion = config.secretStringWoVersion;
     this._versionStages = config.versionStages;
   }
@@ -212,7 +211,6 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
     return this.getStringAttribute('secret_string_wo');
   }
   public set secretStringWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._secretStringWo = value;
   }
   public resetSecretStringWo() {
@@ -271,7 +269,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
       secret_binary: cdktn.stringToTerraform(this._secretBinary),
       secret_id: cdktn.stringToTerraform(this._secretId),
       secret_string: cdktn.stringToTerraform(this._secretString),
-      secret_string_wo: cdktn.stringToTerraform(this._secretStringWo),
+      secret_string_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._secretStringWo)),
       secret_string_wo_version: cdktn.numberToTerraform(this._secretStringWoVersion),
       version_stages: cdktn.listMapper(cdktn.stringToTerraform, false)(this._versionStages),
     };
@@ -310,7 +308,7 @@ export class SecretsmanagerSecretVersion extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       secret_string_wo: {
-        value: cdktn.stringToHclTerraform(this._secretStringWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._secretStringWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

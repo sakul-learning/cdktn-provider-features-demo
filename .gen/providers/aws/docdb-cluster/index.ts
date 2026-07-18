@@ -774,7 +774,6 @@ export class DocdbCluster extends cdktn.TerraformResource {
     this._manageMasterUserPassword = config.manageMasterUserPassword;
     this._masterPassword = config.masterPassword;
     this._masterPasswordWo = config.masterPasswordWo;
-    if (config.masterPasswordWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._masterPasswordWoVersion = config.masterPasswordWoVersion;
     this._masterUsername = config.masterUsername;
     this._networkType = config.networkType;
@@ -1131,7 +1130,6 @@ export class DocdbCluster extends cdktn.TerraformResource {
     return this.getStringAttribute('master_password_wo');
   }
   public set masterPasswordWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._masterPasswordWo = value;
   }
   public resetMasterPasswordWo() {
@@ -1450,7 +1448,7 @@ export class DocdbCluster extends cdktn.TerraformResource {
       kms_key_id: cdktn.stringToTerraform(this._kmsKeyId),
       manage_master_user_password: cdktn.booleanToTerraform(this._manageMasterUserPassword),
       master_password: cdktn.stringToTerraform(this._masterPassword),
-      master_password_wo: cdktn.stringToTerraform(this._masterPasswordWo),
+      master_password_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._masterPasswordWo)),
       master_password_wo_version: cdktn.numberToTerraform(this._masterPasswordWoVersion),
       master_username: cdktn.stringToTerraform(this._masterUsername),
       network_type: cdktn.stringToTerraform(this._networkType),
@@ -1588,7 +1586,7 @@ export class DocdbCluster extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       master_password_wo: {
-        value: cdktn.stringToHclTerraform(this._masterPasswordWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._masterPasswordWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

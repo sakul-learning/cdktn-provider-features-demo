@@ -148,7 +148,6 @@ export class SsmParameter extends cdktn.TerraformResource {
     this._type = config.type;
     this._value = config.value;
     this._valueWo = config.valueWo;
-    if (config.valueWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._valueWoVersion = config.valueWoVersion;
   }
 
@@ -404,7 +403,6 @@ export class SsmParameter extends cdktn.TerraformResource {
     return this.getStringAttribute('value_wo');
   }
   public set valueWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._valueWo = value;
   }
   public resetValueWo() {
@@ -457,7 +455,7 @@ export class SsmParameter extends cdktn.TerraformResource {
       tier: cdktn.stringToTerraform(this._tier),
       type: cdktn.stringToTerraform(this._type),
       value: cdktn.stringToTerraform(this._value),
-      value_wo: cdktn.stringToTerraform(this._valueWo),
+      value_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._valueWo)),
       value_wo_version: cdktn.numberToTerraform(this._valueWoVersion),
     };
   }
@@ -555,7 +553,7 @@ export class SsmParameter extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       value_wo: {
-        value: cdktn.stringToHclTerraform(this._valueWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._valueWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

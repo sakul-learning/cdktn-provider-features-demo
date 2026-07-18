@@ -162,7 +162,6 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
     });
     this._apiKey = config.apiKey;
     this._apiKeyWo = config.apiKeyWo;
-    if (config.apiKeyWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._apiKeyWoVersion = config.apiKeyWoVersion;
     this._name = config.name;
     this._region = config.region;
@@ -204,7 +203,6 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
     return this.getStringAttribute('api_key_wo');
   }
   public set apiKeyWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._apiKeyWo = value;
   }
   public resetApiKeyWo() {
@@ -294,7 +292,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       api_key: cdktn.stringToTerraform(this._apiKey),
-      api_key_wo: cdktn.stringToTerraform(this._apiKeyWo),
+      api_key_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._apiKeyWo)),
       api_key_wo_version: cdktn.numberToTerraform(this._apiKeyWoVersion),
       name: cdktn.stringToTerraform(this._name),
       region: cdktn.stringToTerraform(this._region),
@@ -311,7 +309,7 @@ export class BedrockagentcoreApiKeyCredentialProvider extends cdktn.TerraformRes
         storageClassType: "string",
       },
       api_key_wo: {
-        value: cdktn.stringToHclTerraform(this._apiKeyWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._apiKeyWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

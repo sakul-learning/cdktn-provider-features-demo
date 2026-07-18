@@ -131,7 +131,6 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
     this._adminPasswordSecretKmsKeyId = config.adminPasswordSecretKmsKeyId;
     this._adminUserPassword = config.adminUserPassword;
     this._adminUserPasswordWo = config.adminUserPasswordWo;
-    if (config.adminUserPasswordWo != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._adminUserPasswordWoVersion = config.adminUserPasswordWoVersion;
     this._adminUsername = config.adminUsername;
     this._dbName = config.dbName;
@@ -197,7 +196,6 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
     return this.getStringAttribute('admin_user_password_wo');
   }
   public set adminUserPasswordWo(value: string) {
-    if (value != null) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._adminUserPasswordWo = value;
   }
   public resetAdminUserPasswordWo() {
@@ -431,7 +429,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
     return {
       admin_password_secret_kms_key_id: cdktn.stringToTerraform(this._adminPasswordSecretKmsKeyId),
       admin_user_password: cdktn.stringToTerraform(this._adminUserPassword),
-      admin_user_password_wo: cdktn.stringToTerraform(this._adminUserPasswordWo),
+      admin_user_password_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._adminUserPasswordWo)),
       admin_user_password_wo_version: cdktn.numberToTerraform(this._adminUserPasswordWoVersion),
       admin_username: cdktn.stringToTerraform(this._adminUsername),
       db_name: cdktn.stringToTerraform(this._dbName),
@@ -463,7 +461,7 @@ export class RedshiftserverlessNamespace extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       admin_user_password_wo: {
-        value: cdktn.stringToHclTerraform(this._adminUserPasswordWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._adminUserPasswordWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
