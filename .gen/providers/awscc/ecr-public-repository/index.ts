@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface EcrPublicRepositoryConfig extends cdktn.TerraformMetaArguments 
   /**
   * The details about the repository that are publicly visible in the Amazon ECR Public Gallery. For more information, see [Amazon ECR Public repository catalog data](https://docs.aws.amazon.com/AmazonECR/latest/public/public-repository-catalog-data.html) in the *Amazon ECR Public User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#repository_catalog_data EcrPublicRepository#repository_catalog_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#repository_catalog_data EcrPublicRepository#repository_catalog_data}
   */
   readonly repositoryCatalogData?: EcrPublicRepositoryRepositoryCatalogData;
   /**
   * The name to use for the public repository. The repository name may be specified on its own (such as ``nginx-web-app``) or it can be prepended with a namespace to group the repository into a category (such as ``project-a/nginx-web-app``). If you don't specify a name, CFNlong generates a unique physical ID and uses that ID for the repository name. For more information, see [Name Type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
   *   If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#repository_name EcrPublicRepository#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#repository_name EcrPublicRepository#repository_name}
   */
   readonly repositoryName?: string;
   /**
   * The JSON repository policy text to apply to the public repository. For more information, see [Amazon ECR Public repository policies](https://docs.aws.amazon.com/AmazonECR/latest/public/public-repository-policies.html) in the *Amazon ECR Public User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#repository_policy_text EcrPublicRepository#repository_policy_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#repository_policy_text EcrPublicRepository#repository_policy_text}
   */
   readonly repositoryPolicyText?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#tags EcrPublicRepository#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#tags EcrPublicRepository#tags}
   */
   readonly tags?: EcrPublicRepositoryTags[] | cdktn.IResolvable;
 }
@@ -37,31 +37,31 @@ export interface EcrPublicRepositoryRepositoryCatalogData {
   /**
   * Provide a detailed description of the repository. Identify what is included in the repository, any licensing details, or other relevant information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#about_text EcrPublicRepository#about_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#about_text EcrPublicRepository#about_text}
   */
   readonly aboutText?: string;
   /**
   * Select the system architectures that the images in your repository are compatible with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#architectures EcrPublicRepository#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#architectures EcrPublicRepository#architectures}
   */
   readonly architectures?: string[];
   /**
   * Select the operating systems that the images in your repository are compatible with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#operating_systems EcrPublicRepository#operating_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#operating_systems EcrPublicRepository#operating_systems}
   */
   readonly operatingSystems?: string[];
   /**
   * The description of the public repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#repository_description EcrPublicRepository#repository_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#repository_description EcrPublicRepository#repository_description}
   */
   readonly repositoryDescription?: string;
   /**
   * Provide detailed information about how to use the images in the repository. This provides context, support information, and additional usage details for users of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#usage_text EcrPublicRepository#usage_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#usage_text EcrPublicRepository#usage_text}
   */
   readonly usageText?: string;
 }
@@ -273,13 +273,13 @@ export interface EcrPublicRepositoryTags {
   /**
   * One part of a key-value pair that make up a tag. A ``key`` is a general label that acts like a category for more specific tag values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#key EcrPublicRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#key EcrPublicRepository#key}
   */
   readonly key?: string;
   /**
   * A ``value`` acts as a descriptor within a tag category (key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#value EcrPublicRepository#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#value EcrPublicRepository#value}
   */
   readonly value?: string;
 }
@@ -424,7 +424,7 @@ export class EcrPublicRepositoryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository awscc_ecr_public_repository}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository awscc_ecr_public_repository}
 */
 export class EcrPublicRepository extends cdktn.TerraformResource {
 
@@ -440,7 +440,7 @@ export class EcrPublicRepository extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcrPublicRepository resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcrPublicRepository to import
-  * @param importFromId The id of the existing EcrPublicRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcrPublicRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcrPublicRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -452,7 +452,7 @@ export class EcrPublicRepository extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_public_repository awscc_ecr_public_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_public_repository awscc_ecr_public_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,7 +463,7 @@ export class EcrPublicRepository extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ecr_public_repository',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

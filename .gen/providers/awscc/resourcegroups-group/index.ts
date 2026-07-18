@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface ResourcegroupsGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#configuration ResourcegroupsGroup#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#configuration ResourcegroupsGroup#configuration}
   */
   readonly configuration?: ResourcegroupsGroupConfiguration[] | cdktn.IResolvable;
   /**
   * The description of the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#description ResourcegroupsGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#description ResourcegroupsGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#resource_query ResourcegroupsGroup#resource_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#resource_query ResourcegroupsGroup#resource_query}
   */
   readonly resourceQuery?: ResourcegroupsGroupResourceQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#resources ResourcegroupsGroup#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#resources ResourcegroupsGroup#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#tags ResourcegroupsGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#tags ResourcegroupsGroup#tags}
   */
   readonly tags?: ResourcegroupsGroupTags[] | cdktn.IResolvable;
 }
 export interface ResourcegroupsGroupConfigurationParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#name ResourcegroupsGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}
   */
   readonly values?: string[];
 }
@@ -187,11 +187,11 @@ export class ResourcegroupsGroupConfigurationParametersList extends cdktn.Comple
 }
 export interface ResourcegroupsGroupConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#parameters ResourcegroupsGroup#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#parameters ResourcegroupsGroup#parameters}
   */
   readonly parameters?: ResourcegroupsGroupConfigurationParameters[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
   */
   readonly type?: string;
 }
@@ -336,11 +336,11 @@ export class ResourcegroupsGroupConfigurationList extends cdktn.ComplexList {
 }
 export interface ResourcegroupsGroupResourceQueryQueryTagFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#key ResourcegroupsGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#key ResourcegroupsGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#values ResourcegroupsGroup#values}
   */
   readonly values?: string[];
 }
@@ -485,15 +485,15 @@ export class ResourcegroupsGroupResourceQueryQueryTagFiltersList extends cdktn.C
 }
 export interface ResourcegroupsGroupResourceQueryQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#resource_type_filters ResourcegroupsGroup#resource_type_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#resource_type_filters ResourcegroupsGroup#resource_type_filters}
   */
   readonly resourceTypeFilters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#stack_identifier ResourcegroupsGroup#stack_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#stack_identifier ResourcegroupsGroup#stack_identifier}
   */
   readonly stackIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#tag_filters ResourcegroupsGroup#tag_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#tag_filters ResourcegroupsGroup#tag_filters}
   */
   readonly tagFilters?: ResourcegroupsGroupResourceQueryQueryTagFilters[] | cdktn.IResolvable;
 }
@@ -645,11 +645,11 @@ export class ResourcegroupsGroupResourceQueryQueryOutputReference extends cdktn.
 }
 export interface ResourcegroupsGroupResourceQuery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#query ResourcegroupsGroup#query}
   */
   readonly query?: ResourcegroupsGroupResourceQueryQuery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}
   */
   readonly type?: string;
 }
@@ -772,11 +772,11 @@ export class ResourcegroupsGroupResourceQueryOutputReference extends cdktn.Compl
 }
 export interface ResourcegroupsGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#key ResourcegroupsGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#key ResourcegroupsGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#value ResourcegroupsGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#value ResourcegroupsGroup#value}
   */
   readonly value?: string;
 }
@@ -921,7 +921,7 @@ export class ResourcegroupsGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group awscc_resourcegroups_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group awscc_resourcegroups_group}
 */
 export class ResourcegroupsGroup extends cdktn.TerraformResource {
 
@@ -937,7 +937,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ResourcegroupsGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcegroupsGroup to import
-  * @param importFromId The id of the existing ResourcegroupsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcegroupsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcegroupsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -949,7 +949,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourcegroups_group awscc_resourcegroups_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group awscc_resourcegroups_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -960,7 +960,7 @@ export class ResourcegroupsGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resourcegroups_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

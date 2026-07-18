@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GlobalacceleratorListenerConfig extends cdktn.TerraformMetaArgu
   /**
   * The Amazon Resource Name (ARN) of the accelerator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
   */
   readonly acceleratorArn: string;
   /**
   * Client affinity lets you direct all requests from a user to the same endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
   */
   readonly clientAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}
   */
   readonly portRanges: GlobalacceleratorListenerPortRanges[] | cdktn.IResolvable;
   /**
   * The protocol for the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
   */
   readonly protocol?: string;
 }
@@ -34,13 +34,13 @@ export interface GlobalacceleratorListenerPortRanges {
   /**
   * A network port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener#from_port GlobalacceleratorListener#from_port}
   */
   readonly fromPort: number;
   /**
   * A network port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener#to_port GlobalacceleratorListener#to_port}
   */
   readonly toPort: number;
 }
@@ -179,7 +179,7 @@ export class GlobalacceleratorListenerPortRangesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}
 */
 export class GlobalacceleratorListener extends cdktn.TerraformResource {
 
@@ -195,7 +195,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlobalacceleratorListener resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalacceleratorListener to import
-  * @param importFromId The id of the existing GlobalacceleratorListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalacceleratorListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalacceleratorListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -207,7 +207,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,7 +218,7 @@ export class GlobalacceleratorListener extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_globalaccelerator_listener',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

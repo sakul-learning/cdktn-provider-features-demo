@@ -1,9 +1,8 @@
 import { Construct } from "constructs";
-import { App, LocalBackend, TerraformOutput, TerraformStack, Testing } from "cdktn";
+import { App, LocalBackend, Token, TerraformOutput, TerraformStack, Testing } from "cdktn";
 import { AwsccProvider } from "./.gen/providers/awscc/provider/index.ts";
 import { SecretsmanagerSecret } from "./.gen/providers/awscc/secretsmanager-secret/index.ts";
 import { CfncompatProvider } from "./.gen/providers/cfncompat/provider/index.ts";
-import { CfncompatProviderFunctions } from "./.gen/providers/cfncompat/provider-functions/index.ts";
 
 /**
  * Port of aws-secretsmanager.Secret's owned-secret name recovery
@@ -35,7 +34,7 @@ class L2SecretsmanagerSecretStack extends TerraformStack {
       region: process.env.AWS_REGION || process.env.AWS_DEFAULT_REGION || "us-east-1",
       profile: process.env.AWS_ACCESS_KEY_ID ? undefined : process.env.AWS_PROFILE || "tcons-hermes",
     });
-    new CfncompatProvider(this, "cfncompat", {});
+    const cfncompatProvider = new CfncompatProvider(this, "cfncompat", {});
 
     const secret = new SecretsmanagerSecret(this, "secret", {
       name: "cdktn-l2-port-demo-secret",
@@ -45,15 +44,19 @@ class L2SecretsmanagerSecretStack extends TerraformStack {
     // Stack.splitArn(secretArn, ArnFormat.COLON_RESOURCE_NAME).resourceName:
     // arn:aws:secretsmanager:<region>:<account>:secret:<name>-<suffix>
     //  0    1         2           3       4        5        6 <- resourceName
-    const resourceName = CfncompatProviderFunctions.select(
+    const resourceName = cfncompatProvider.functions.select(
       6,
-      CfncompatProviderFunctions.split(":", secret.id),
+      cfncompatProvider.functions.split(":", secret.id),
     );
 
-    const nameSegments = CfncompatProviderFunctions.split("-", resourceName);
-    const reconstructedSecretName = CfncompatProviderFunctions.join("-", [
-      CfncompatProviderFunctions.select(0, nameSegments),
-      CfncompatProviderFunctions.select(1, nameSegments),
+    // `select` is honestly typed as `cdktn.IResolvable` (its `objects` parameter
+    // is `any`), so it must be coerced with `Token.asString(...)` wherever a
+    // plain string is required downstream - here, as `split`'s `source` and as
+    // elements of `join`'s `string[]` argument.
+    const nameSegments = cfncompatProvider.functions.split("-", Token.asString(resourceName));
+    const reconstructedSecretName = cfncompatProvider.functions.join("-", [
+      Token.asString(cfncompatProvider.functions.select(0, nameSegments)),
+      Token.asString(cfncompatProvider.functions.select(1, nameSegments)),
     ]);
 
     new TerraformOutput(this, "secret_arn", { value: secret.id });

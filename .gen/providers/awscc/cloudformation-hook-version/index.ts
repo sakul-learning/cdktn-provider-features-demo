@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CloudformationHookVersionConfig extends cdktn.TerraformMetaArgu
   /**
   * The Amazon Resource Name (ARN) of the IAM execution role to use to register the type. If your resource type calls AWS APIs in any of its handlers, you must create an IAM execution role that includes the necessary permissions to call those AWS APIs, and provision that execution role in your account. CloudFormation then assumes that execution role to provide your resource type with the appropriate credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
   * Specifies logging configuration information for a type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
   */
   readonly loggingConfig?: CloudformationHookVersionLoggingConfig;
   /**
@@ -24,7 +24,7 @@ export interface CloudformationHookVersionConfig extends cdktn.TerraformMetaArgu
   * 
   * For information on generating a schema handler package for the type you want to register, see submit in the CloudFormation CLI User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
   */
   readonly schemaHandlerPackage: string;
   /**
@@ -32,7 +32,7 @@ export interface CloudformationHookVersionConfig extends cdktn.TerraformMetaArgu
   * 
   * We recommend that type names adhere to the following pattern: company_or_organization::service::type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
   */
   readonly typeName: string;
 }
@@ -40,13 +40,13 @@ export interface CloudformationHookVersionLoggingConfig {
   /**
   * The Amazon CloudWatch log group to which CloudFormation sends error logging information when invoking the type's handlers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#log_group_name CloudformationHookVersion#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version#log_group_name CloudformationHookVersion#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * The ARN of the role that CloudFormation should assume when sending log entries to CloudWatch logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#log_role_arn CloudformationHookVersion#log_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version#log_role_arn CloudformationHookVersion#log_role_arn}
   */
   readonly logRoleArn?: string;
 }
@@ -169,7 +169,7 @@ export class CloudformationHookVersionLoggingConfigOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}
 */
 export class CloudformationHookVersion extends cdktn.TerraformResource {
 
@@ -185,7 +185,7 @@ export class CloudformationHookVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationHookVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationHookVersion to import
-  * @param importFromId The id of the existing CloudformationHookVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationHookVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationHookVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -197,7 +197,7 @@ export class CloudformationHookVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,7 +208,7 @@ export class CloudformationHookVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_hook_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface SmsvoicePhoneNumberConfig extends cdktn.TerraformMetaArguments 
   /**
   * When set to true the sender ID can't be deleted. By default this is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#deletion_protection_enabled SmsvoicePhoneNumber#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#deletion_protection_enabled SmsvoicePhoneNumber#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The two-character code, in ISO 3166-1 alpha-2 format, for the country or region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#iso_country_code SmsvoicePhoneNumber#iso_country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#iso_country_code SmsvoicePhoneNumber#iso_country_code}
   */
   readonly isoCountryCode: string;
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#mandatory_keywords SmsvoicePhoneNumber#mandatory_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#mandatory_keywords SmsvoicePhoneNumber#mandatory_keywords}
   */
   readonly mandatoryKeywords: SmsvoicePhoneNumberMandatoryKeywords;
   /**
   * Indicates if the phone number will be used for text messages, voice messages, or both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#number_capabilities SmsvoicePhoneNumber#number_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#number_capabilities SmsvoicePhoneNumber#number_capabilities}
   */
   readonly numberCapabilities: string[];
   /**
   * The type of phone number to request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#number_type SmsvoicePhoneNumber#number_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#number_type SmsvoicePhoneNumber#number_type}
   */
   readonly numberType: string;
   /**
   * The name of the OptOutList to associate with the phone number. You can use the OptOutListName or OptOutListArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#opt_out_list_name SmsvoicePhoneNumber#opt_out_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#opt_out_list_name SmsvoicePhoneNumber#opt_out_list_name}
   */
   readonly optOutListName?: string;
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#optional_keywords SmsvoicePhoneNumber#optional_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#optional_keywords SmsvoicePhoneNumber#optional_keywords}
   */
   readonly optionalKeywords?: SmsvoicePhoneNumberOptionalKeywords[] | cdktn.IResolvable;
   /**
   * By default this is set to false. When an end recipient sends a message that begins with HELP or STOP to one of your dedicated numbers, AWS End User Messaging SMS and Voice automatically replies with a customizable message and adds the end recipient to the OptOutList. When set to true you're responsible for responding to HELP and STOP requests. You're also responsible for tracking and honoring opt-out requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#self_managed_opt_outs_enabled SmsvoicePhoneNumber#self_managed_opt_outs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#self_managed_opt_outs_enabled SmsvoicePhoneNumber#self_managed_opt_outs_enabled}
   */
   readonly selfManagedOptOutsEnabled?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#tags SmsvoicePhoneNumber#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#tags SmsvoicePhoneNumber#tags}
   */
   readonly tags?: SmsvoicePhoneNumberTags[] | cdktn.IResolvable;
   /**
   * When you set up two-way SMS, you can receive incoming messages from your customers. When one of your customers sends a message to your phone number, the message body is sent to an Amazon SNS topic or Amazon Connect for processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#two_way SmsvoicePhoneNumber#two_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#two_way SmsvoicePhoneNumber#two_way}
   */
   readonly twoWay?: SmsvoicePhoneNumberTwoWay;
 }
 export interface SmsvoicePhoneNumberMandatoryKeywordsHelp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}
   */
   readonly message: string;
 }
@@ -161,7 +161,7 @@ export class SmsvoicePhoneNumberMandatoryKeywordsHelpOutputReference extends cdk
 }
 export interface SmsvoicePhoneNumberMandatoryKeywordsStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}
   */
   readonly message: string;
 }
@@ -254,13 +254,13 @@ export interface SmsvoicePhoneNumberMandatoryKeywords {
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#help SmsvoicePhoneNumber#help}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#help SmsvoicePhoneNumber#help}
   */
   readonly help: SmsvoicePhoneNumberMandatoryKeywordsHelp;
   /**
   * A keyword is a word that you can search for on a particular phone number or pool. It is also a specific word or phrase that an end user can send to your number to elicit a response, such as an informational message or a special offer. When your number receives a message that begins with a keyword, AWS End User Messaging SMS and Voice responds with a customizable message. Keywords "HELP" and "STOP" are mandatory keywords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#stop SmsvoicePhoneNumber#stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#stop SmsvoicePhoneNumber#stop}
   */
   readonly stop: SmsvoicePhoneNumberMandatoryKeywordsStop;
 }
@@ -377,15 +377,15 @@ export class SmsvoicePhoneNumberMandatoryKeywordsOutputReference extends cdktn.C
 }
 export interface SmsvoicePhoneNumberOptionalKeywords {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#action SmsvoicePhoneNumber#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#action SmsvoicePhoneNumber#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#keyword SmsvoicePhoneNumber#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#keyword SmsvoicePhoneNumber#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#message SmsvoicePhoneNumber#message}
   */
   readonly message?: string;
 }
@@ -561,13 +561,13 @@ export interface SmsvoicePhoneNumberTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#key SmsvoicePhoneNumber#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#key SmsvoicePhoneNumber#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#value SmsvoicePhoneNumber#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#value SmsvoicePhoneNumber#value}
   */
   readonly value?: string;
 }
@@ -714,19 +714,19 @@ export interface SmsvoicePhoneNumberTwoWay {
   /**
   * The Amazon Resource Name (ARN) of the two way channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#channel_arn SmsvoicePhoneNumber#channel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#channel_arn SmsvoicePhoneNumber#channel_arn}
   */
   readonly channelArn?: string;
   /**
   * An optional IAM Role Arn for a service to assume, to be able to post inbound SMS messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#channel_role SmsvoicePhoneNumber#channel_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#channel_role SmsvoicePhoneNumber#channel_role}
   */
   readonly channelRole?: string;
   /**
   * By default this is set to false. When set to true you can receive incoming text messages from your end recipients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#enabled SmsvoicePhoneNumber#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#enabled SmsvoicePhoneNumber#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -878,7 +878,7 @@ export class SmsvoicePhoneNumberTwoWayOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number}
 */
 export class SmsvoicePhoneNumber extends cdktn.TerraformResource {
 
@@ -894,7 +894,7 @@ export class SmsvoicePhoneNumber extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SmsvoicePhoneNumber resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsvoicePhoneNumber to import
-  * @param importFromId The id of the existing SmsvoicePhoneNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsvoicePhoneNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsvoicePhoneNumber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -906,7 +906,7 @@ export class SmsvoicePhoneNumber extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -917,7 +917,7 @@ export class SmsvoicePhoneNumber extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_smsvoice_phone_number',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

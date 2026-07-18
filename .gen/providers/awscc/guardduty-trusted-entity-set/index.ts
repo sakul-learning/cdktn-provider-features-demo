@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface GuarddutyTrustedEntitySetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#activate GuarddutyTrustedEntitySet#activate}
   */
   readonly activate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#detector_id GuarddutyTrustedEntitySet#detector_id}
   */
   readonly detectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#expected_bucket_owner GuarddutyTrustedEntitySet#expected_bucket_owner}
   */
   readonly expectedBucketOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#format GuarddutyTrustedEntitySet#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#location GuarddutyTrustedEntitySet#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#name GuarddutyTrustedEntitySet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#tags GuarddutyTrustedEntitySet#tags}
   */
   readonly tags?: GuarddutyTrustedEntitySetTags[] | cdktn.IResolvable;
 }
 export interface GuarddutyTrustedEntitySetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}
   */
   readonly value?: string;
 }
@@ -187,7 +187,7 @@ export class GuarddutyTrustedEntitySetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}
 */
 export class GuarddutyTrustedEntitySet extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class GuarddutyTrustedEntitySet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GuarddutyTrustedEntitySet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GuarddutyTrustedEntitySet to import
-  * @param importFromId The id of the existing GuarddutyTrustedEntitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GuarddutyTrustedEntitySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GuarddutyTrustedEntitySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class GuarddutyTrustedEntitySet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class GuarddutyTrustedEntitySet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_guardduty_trusted_entity_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

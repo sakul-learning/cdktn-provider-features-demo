@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface Ec2NetworkAclConfig extends cdktn.TerraformMetaArguments {
   /**
   * The tags for the network ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl#tags Ec2NetworkAcl#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl#tags Ec2NetworkAcl#tags}
   */
   readonly tags?: Ec2NetworkAclTags[] | cdktn.IResolvable;
   /**
   * The ID of the VPC for the network ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl#vpc_id Ec2NetworkAcl#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl#vpc_id Ec2NetworkAcl#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -24,13 +24,13 @@ export interface Ec2NetworkAclTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl#key Ec2NetworkAcl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl#key Ec2NetworkAcl#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl#value Ec2NetworkAcl#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl#value Ec2NetworkAcl#value}
   */
   readonly value?: string;
 }
@@ -175,7 +175,7 @@ export class Ec2NetworkAclTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}
 */
 export class Ec2NetworkAcl extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class Ec2NetworkAcl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2NetworkAcl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2NetworkAcl to import
-  * @param importFromId The id of the existing Ec2NetworkAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2NetworkAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2NetworkAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class Ec2NetworkAcl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_acl awscc_ec2_network_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_acl awscc_ec2_network_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class Ec2NetworkAcl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_network_acl',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/greengrassv2_component_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/greengrassv2_component_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccGreengrassv2ComponentVersionConfig extends cdktn.Terra
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/greengrassv2_component_version#id DataAwsccGreengrassv2ComponentVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/greengrassv2_component_version#id DataAwsccGreengrassv2ComponentVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -753,7 +753,7 @@ export class DataAwsccGreengrassv2ComponentVersionLambdaFunctionOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version}
 */
 export class DataAwsccGreengrassv2ComponentVersion extends cdktn.TerraformDataSource {
 
@@ -769,7 +769,7 @@ export class DataAwsccGreengrassv2ComponentVersion extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccGreengrassv2ComponentVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccGreengrassv2ComponentVersion to import
-  * @param importFromId The id of the existing DataAwsccGreengrassv2ComponentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/greengrassv2_component_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccGreengrassv2ComponentVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/greengrassv2_component_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccGreengrassv2ComponentVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -781,7 +781,7 @@ export class DataAwsccGreengrassv2ComponentVersion extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -792,7 +792,7 @@ export class DataAwsccGreengrassv2ComponentVersion extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_greengrassv2_component_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

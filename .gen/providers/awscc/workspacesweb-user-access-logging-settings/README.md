@@ -1,3 +1,3 @@
 # `awscc_workspacesweb_user_access_logging_settings`
 
-Refer to the Terraform Registry for docs: [`awscc_workspacesweb_user_access_logging_settings`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspacesweb_user_access_logging_settings).
+Refer to the Terraform Registry for docs: [`awscc_workspacesweb_user_access_logging_settings`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_user_access_logging_settings).

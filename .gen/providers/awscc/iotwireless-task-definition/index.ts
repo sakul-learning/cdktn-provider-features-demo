@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface IotwirelessTaskDefinitionConfig extends cdktn.TerraformMetaArgu
   /**
   * Whether to automatically create tasks using this task definition for all gateways with the specified current version. If false, the task must me created by calling CreateWirelessGatewayTask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#auto_create_tasks IotwirelessTaskDefinition#auto_create_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#auto_create_tasks IotwirelessTaskDefinition#auto_create_tasks}
   */
   readonly autoCreateTasks: boolean | cdktn.IResolvable;
   /**
   * The list of task definitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#lo_ra_wan_update_gateway_task_entry IotwirelessTaskDefinition#lo_ra_wan_update_gateway_task_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#lo_ra_wan_update_gateway_task_entry IotwirelessTaskDefinition#lo_ra_wan_update_gateway_task_entry}
   */
   readonly loRaWanUpdateGatewayTaskEntry?: IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntry;
   /**
   * The name of the new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#name IotwirelessTaskDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#name IotwirelessTaskDefinition#name}
   */
   readonly name?: string;
   /**
   * A list of key-value pairs that contain metadata for the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#tags IotwirelessTaskDefinition#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#tags IotwirelessTaskDefinition#tags}
   */
   readonly tags?: IotwirelessTaskDefinitionTags[] | cdktn.IResolvable;
   /**
   * A filter to list only the wireless gateway task definitions that use this task definition type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#task_definition_type IotwirelessTaskDefinition#task_definition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#task_definition_type IotwirelessTaskDefinition#task_definition_type}
   */
   readonly taskDefinitionType?: string;
   /**
   * Information about the gateways to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#update IotwirelessTaskDefinition#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#update IotwirelessTaskDefinition#update}
   */
   readonly update?: IotwirelessTaskDefinitionUpdate;
 }
 export interface IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
   */
   readonly packageVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
   */
   readonly station?: string;
 }
@@ -206,15 +206,15 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersio
 }
 export interface IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
   */
   readonly packageVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
   */
   readonly station?: string;
 }
@@ -366,11 +366,11 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion
 }
 export interface IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#current_version IotwirelessTaskDefinition#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#current_version IotwirelessTaskDefinition#current_version}
   */
   readonly currentVersion?: IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryCurrentVersion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#update_version IotwirelessTaskDefinition#update_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#update_version IotwirelessTaskDefinition#update_version}
   */
   readonly updateVersion?: IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryUpdateVersion;
 }
@@ -493,11 +493,11 @@ export class IotwirelessTaskDefinitionLoRaWanUpdateGatewayTaskEntryOutputReferen
 }
 export interface IotwirelessTaskDefinitionTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#key IotwirelessTaskDefinition#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#key IotwirelessTaskDefinition#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#value IotwirelessTaskDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#value IotwirelessTaskDefinition#value}
   */
   readonly value?: string;
 }
@@ -642,15 +642,15 @@ export class IotwirelessTaskDefinitionTagsList extends cdktn.ComplexList {
 }
 export interface IotwirelessTaskDefinitionUpdateLoRaWanCurrentVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
   */
   readonly packageVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
   */
   readonly station?: string;
 }
@@ -802,15 +802,15 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanCurrentVersionOutputReference
 }
 export interface IotwirelessTaskDefinitionUpdateLoRaWanUpdateVersion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#model IotwirelessTaskDefinition#model}
   */
   readonly model?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#package_version IotwirelessTaskDefinition#package_version}
   */
   readonly packageVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#station IotwirelessTaskDefinition#station}
   */
   readonly station?: string;
 }
@@ -962,19 +962,19 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanUpdateVersionOutputReference 
 }
 export interface IotwirelessTaskDefinitionUpdateLoRaWan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#current_version IotwirelessTaskDefinition#current_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#current_version IotwirelessTaskDefinition#current_version}
   */
   readonly currentVersion?: IotwirelessTaskDefinitionUpdateLoRaWanCurrentVersion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#sig_key_crc IotwirelessTaskDefinition#sig_key_crc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#sig_key_crc IotwirelessTaskDefinition#sig_key_crc}
   */
   readonly sigKeyCrc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#update_signature IotwirelessTaskDefinition#update_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#update_signature IotwirelessTaskDefinition#update_signature}
   */
   readonly updateSignature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#update_version IotwirelessTaskDefinition#update_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#update_version IotwirelessTaskDefinition#update_version}
   */
   readonly updateVersion?: IotwirelessTaskDefinitionUpdateLoRaWanUpdateVersion;
 }
@@ -1155,15 +1155,15 @@ export class IotwirelessTaskDefinitionUpdateLoRaWanOutputReference extends cdktn
 }
 export interface IotwirelessTaskDefinitionUpdate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#lo_ra_wan IotwirelessTaskDefinition#lo_ra_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#lo_ra_wan IotwirelessTaskDefinition#lo_ra_wan}
   */
   readonly loRaWan?: IotwirelessTaskDefinitionUpdateLoRaWan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#update_data_role IotwirelessTaskDefinition#update_data_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#update_data_role IotwirelessTaskDefinition#update_data_role}
   */
   readonly updateDataRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#update_data_source IotwirelessTaskDefinition#update_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#update_data_source IotwirelessTaskDefinition#update_data_source}
   */
   readonly updateDataSource?: string;
 }
@@ -1315,7 +1315,7 @@ export class IotwirelessTaskDefinitionUpdateOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition}
 */
 export class IotwirelessTaskDefinition extends cdktn.TerraformResource {
 
@@ -1331,7 +1331,7 @@ export class IotwirelessTaskDefinition extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessTaskDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessTaskDefinition to import
-  * @param importFromId The id of the existing IotwirelessTaskDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessTaskDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessTaskDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1343,7 +1343,7 @@ export class IotwirelessTaskDefinition extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1354,7 +1354,7 @@ export class IotwirelessTaskDefinition extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_task_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

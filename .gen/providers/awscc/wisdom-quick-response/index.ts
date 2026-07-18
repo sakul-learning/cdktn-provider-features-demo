@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface WisdomQuickResponseConfig extends cdktn.TerraformMetaArguments 
   /**
   * The Amazon Connect contact channels this quick response applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#channels WisdomQuickResponse#channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#channels WisdomQuickResponse#channels}
   */
   readonly channels?: string[];
   /**
   * The container of quick response content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
   */
   readonly content: WisdomQuickResponseContent;
   /**
@@ -24,55 +24,55 @@ export interface WisdomQuickResponseConfig extends cdktn.TerraformMetaArguments 
   * - Use application/x.quickresponse;format=plain for quick response written in plain text.
   * - Use application/x.quickresponse;format=markdown for quick response written in richtext.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#content_type WisdomQuickResponse#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#content_type WisdomQuickResponse#content_type}
   */
   readonly contentType?: string;
   /**
   * The description of the quick response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#description WisdomQuickResponse#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#description WisdomQuickResponse#description}
   */
   readonly description?: string;
   /**
   * The configuration information of the user groups that the quick response is accessible to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#grouping_configuration WisdomQuickResponse#grouping_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#grouping_configuration WisdomQuickResponse#grouping_configuration}
   */
   readonly groupingConfiguration?: WisdomQuickResponseGroupingConfiguration;
   /**
   * Whether the quick response is active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#is_active WisdomQuickResponse#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#is_active WisdomQuickResponse#is_active}
   */
   readonly isActive?: boolean | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#knowledge_base_arn WisdomQuickResponse#knowledge_base_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#knowledge_base_arn WisdomQuickResponse#knowledge_base_arn}
   */
   readonly knowledgeBaseArn: string;
   /**
   * The language code value for the language in which the quick response is written. The supported language codes include de_DE, en_US, es_ES, fr_FR, id_ID, it_IT, ja_JP, ko_KR, pt_BR, zh_CN, zh_TW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#language WisdomQuickResponse#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#language WisdomQuickResponse#language}
   */
   readonly language?: string;
   /**
   * The name of the quick response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#name WisdomQuickResponse#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#name WisdomQuickResponse#name}
   */
   readonly name: string;
   /**
   * The shortcut key of the quick response. The value should be unique across the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#shortcut_key WisdomQuickResponse#shortcut_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#shortcut_key WisdomQuickResponse#shortcut_key}
   */
   readonly shortcutKey?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#tags WisdomQuickResponse#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#tags WisdomQuickResponse#tags}
   */
   readonly tags?: WisdomQuickResponseTags[] | cdktn.IResolvable;
 }
@@ -80,7 +80,7 @@ export interface WisdomQuickResponseContent {
   /**
   * The content of the quick response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
   */
   readonly content?: string;
 }
@@ -345,13 +345,13 @@ export interface WisdomQuickResponseGroupingConfiguration {
   /**
   * The criteria used for grouping Amazon Q in Connect users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#criteria WisdomQuickResponse#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#criteria WisdomQuickResponse#criteria}
   */
   readonly criteria?: string;
   /**
   * The list of values that define different groups of Amazon Q in Connect users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#values WisdomQuickResponse#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#values WisdomQuickResponse#values}
   */
   readonly values?: string[];
 }
@@ -476,13 +476,13 @@ export interface WisdomQuickResponseTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#key WisdomQuickResponse#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#key WisdomQuickResponse#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#value WisdomQuickResponse#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#value WisdomQuickResponse#value}
   */
   readonly value?: string;
 }
@@ -627,7 +627,7 @@ export class WisdomQuickResponseTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response awscc_wisdom_quick_response}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response awscc_wisdom_quick_response}
 */
 export class WisdomQuickResponse extends cdktn.TerraformResource {
 
@@ -643,7 +643,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomQuickResponse resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomQuickResponse to import
-  * @param importFromId The id of the existing WisdomQuickResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomQuickResponse that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomQuickResponse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -655,7 +655,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_quick_response awscc_wisdom_quick_response} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_quick_response awscc_wisdom_quick_response} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -666,7 +666,7 @@ export class WisdomQuickResponse extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_quick_response',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

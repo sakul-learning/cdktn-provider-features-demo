@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface PcsComputeNodeGroupConfig extends cdktn.TerraformMetaArguments 
   /**
   * The ID of the Amazon Machine Image (AMI) that AWS PCS uses to launch instances. If not provided, AWS PCS uses the AMI ID specified in the custom launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#ami_id PcsComputeNodeGroup#ami_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#ami_id PcsComputeNodeGroup#ami_id}
   */
   readonly amiId?: string;
   /**
   * The ID of the cluster of the compute node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#cluster_id PcsComputeNodeGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#cluster_id PcsComputeNodeGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * An Amazon EC2 launch template AWS PCS uses to launch compute nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#custom_launch_template PcsComputeNodeGroup#custom_launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#custom_launch_template PcsComputeNodeGroup#custom_launch_template}
   */
   readonly customLaunchTemplate: PcsComputeNodeGroupCustomLaunchTemplate;
   /**
   * The Amazon Resource Name (ARN) of the IAM instance profile used to pass an IAM role when launching EC2 instances. The role contained in your instance profile must have pcs:RegisterComputeNodeGroupInstance permissions attached to provision instances correctly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#iam_instance_profile_arn PcsComputeNodeGroup#iam_instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#iam_instance_profile_arn PcsComputeNodeGroup#iam_instance_profile_arn}
   */
   readonly iamInstanceProfileArn: string;
   /**
   * A list of EC2 instance configurations that AWS PCS can provision in the compute node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#instance_configs PcsComputeNodeGroup#instance_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#instance_configs PcsComputeNodeGroup#instance_configs}
   */
   readonly instanceConfigs: PcsComputeNodeGroupInstanceConfigs[] | cdktn.IResolvable;
   /**
   * The name that identifies the compute node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
   */
   readonly name?: string;
   /**
   * Specifies how EC2 instances are purchased on your behalf. AWS PCS supports On-Demand, Spot, Capacity Block, and Interruptible Capacity Reservation instances. For more information, see Instance purchasing options in the Amazon Elastic Compute Cloud User Guide. If you don't provide this option, it defaults to On-Demand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#purchase_option PcsComputeNodeGroup#purchase_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#purchase_option PcsComputeNodeGroup#purchase_option}
   */
   readonly purchaseOption?: string;
   /**
   * Specifies the boundaries of the compute node group auto scaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#scaling_configuration PcsComputeNodeGroup#scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#scaling_configuration PcsComputeNodeGroup#scaling_configuration}
   */
   readonly scalingConfiguration: PcsComputeNodeGroupScalingConfiguration;
   /**
   * Additional options related to the Slurm scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#slurm_configuration PcsComputeNodeGroup#slurm_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#slurm_configuration PcsComputeNodeGroup#slurm_configuration}
   */
   readonly slurmConfiguration?: PcsComputeNodeGroupSlurmConfiguration;
   /**
   * Additional configuration when you specify SPOT as the purchase option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#spot_options PcsComputeNodeGroup#spot_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#spot_options PcsComputeNodeGroup#spot_options}
   */
   readonly spotOptions?: PcsComputeNodeGroupSpotOptions;
   /**
   * The list of subnet IDs where instances are provisioned by the compute node group. The subnets must be in the same VPC as the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#subnet_ids PcsComputeNodeGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#subnet_ids PcsComputeNodeGroup#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * 1 or more tags added to the resource. Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#tags PcsComputeNodeGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#tags PcsComputeNodeGroup#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -84,13 +84,13 @@ export interface PcsComputeNodeGroupCustomLaunchTemplate {
   /**
   * The ID of the EC2 launch template to use to provision instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#template_id PcsComputeNodeGroup#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#template_id PcsComputeNodeGroup#template_id}
   */
   readonly templateId?: string;
   /**
   * The version of the EC2 launch template to use to provision instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#version PcsComputeNodeGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#version PcsComputeNodeGroup#version}
   */
   readonly version: string;
 }
@@ -292,7 +292,7 @@ export interface PcsComputeNodeGroupInstanceConfigs {
   /**
   * The EC2 instance type that AWS PCS can provision in the compute node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#instance_type PcsComputeNodeGroup#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#instance_type PcsComputeNodeGroup#instance_type}
   */
   readonly instanceType?: string;
 }
@@ -410,13 +410,13 @@ export interface PcsComputeNodeGroupScalingConfiguration {
   /**
   * The upper bound of the number of instances allowed in the compute fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#max_instance_count PcsComputeNodeGroup#max_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#max_instance_count PcsComputeNodeGroup#max_instance_count}
   */
   readonly maxInstanceCount: number;
   /**
   * The lower bound of the number of instances allowed in the compute fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#min_instance_count PcsComputeNodeGroup#min_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#min_instance_count PcsComputeNodeGroup#min_instance_count}
   */
   readonly minInstanceCount: number;
 }
@@ -535,13 +535,13 @@ export interface PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings {
   /**
   * AWS PCS supports configuration of the following Slurm parameters for compute node groups: Weight and RealMemory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#parameter_name PcsComputeNodeGroup#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#parameter_name PcsComputeNodeGroup#parameter_name}
   */
   readonly parameterName?: string;
   /**
   * The value for the configured Slurm setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#parameter_value PcsComputeNodeGroup#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#parameter_value PcsComputeNodeGroup#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -688,13 +688,13 @@ export interface PcsComputeNodeGroupSlurmConfiguration {
   /**
   * The time before an idle node is scaled down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#scale_down_idle_time_in_seconds PcsComputeNodeGroup#scale_down_idle_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#scale_down_idle_time_in_seconds PcsComputeNodeGroup#scale_down_idle_time_in_seconds}
   */
   readonly scaleDownIdleTimeInSeconds?: number;
   /**
   * Additional Slurm-specific configuration that directly maps to Slurm settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#slurm_custom_settings PcsComputeNodeGroup#slurm_custom_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#slurm_custom_settings PcsComputeNodeGroup#slurm_custom_settings}
   */
   readonly slurmCustomSettings?: PcsComputeNodeGroupSlurmConfigurationSlurmCustomSettings[] | cdktn.IResolvable;
 }
@@ -819,7 +819,7 @@ export interface PcsComputeNodeGroupSpotOptions {
   /**
   * The Amazon EC2 allocation strategy AWS PCS uses to provision EC2 instances. AWS PCS supports lowest price, capacity optimized, and price capacity optimized. If you don't provide this option, it defaults to price capacity optimized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#allocation_strategy PcsComputeNodeGroup#allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#allocation_strategy PcsComputeNodeGroup#allocation_strategy}
   */
   readonly allocationStrategy?: string;
 }
@@ -913,7 +913,7 @@ export class PcsComputeNodeGroupSpotOptionsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}
 */
 export class PcsComputeNodeGroup extends cdktn.TerraformResource {
 
@@ -929,7 +929,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PcsComputeNodeGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcsComputeNodeGroup to import
-  * @param importFromId The id of the existing PcsComputeNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcsComputeNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcsComputeNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -941,7 +941,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -952,7 +952,7 @@ export class PcsComputeNodeGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_pcs_compute_node_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

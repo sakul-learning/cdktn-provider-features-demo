@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface ComputeoptimizerAutomationRuleConfig extends cdktn.TerraformMet
   /**
   * Filter criteria that specify which recommended actions qualify for implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#criteria ComputeoptimizerAutomationRule#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#criteria ComputeoptimizerAutomationRule#criteria}
   */
   readonly criteria?: ComputeoptimizerAutomationRuleCriteria;
   /**
   * The description of the automation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#description ComputeoptimizerAutomationRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#description ComputeoptimizerAutomationRule#description}
   */
   readonly description?: string;
   /**
   * The name of the automation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#name ComputeoptimizerAutomationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#name ComputeoptimizerAutomationRule#name}
   */
   readonly name: string;
   /**
   * Organization configuration for organization rules, including rule apply order and account scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#organization_configuration ComputeoptimizerAutomationRule#organization_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#organization_configuration ComputeoptimizerAutomationRule#organization_configuration}
   */
   readonly organizationConfiguration?: ComputeoptimizerAutomationRuleOrganizationConfiguration;
   /**
   * Rule priority within its group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#priority ComputeoptimizerAutomationRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#priority ComputeoptimizerAutomationRule#priority}
   */
   readonly priority?: string;
   /**
   * The types of recommended actions this rule will implement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#recommended_action_types ComputeoptimizerAutomationRule#recommended_action_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#recommended_action_types ComputeoptimizerAutomationRule#recommended_action_types}
   */
   readonly recommendedActionTypes: string[];
   /**
   * The type of automation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#rule_type ComputeoptimizerAutomationRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#rule_type ComputeoptimizerAutomationRule#rule_type}
   */
   readonly ruleType: string;
   /**
   * The schedule configuration for when the rule runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#schedule ComputeoptimizerAutomationRule#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#schedule ComputeoptimizerAutomationRule#schedule}
   */
   readonly schedule: ComputeoptimizerAutomationRuleSchedule;
   /**
   * The status of the automation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#status ComputeoptimizerAutomationRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#status ComputeoptimizerAutomationRule#status}
   */
   readonly status: string;
   /**
   * Tags associated with the automation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#tags ComputeoptimizerAutomationRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#tags ComputeoptimizerAutomationRule#tags}
   */
   readonly tags?: ComputeoptimizerAutomationRuleTags[] | cdktn.IResolvable;
 }
 export interface ComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGib {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: number[];
 }
@@ -219,11 +219,11 @@ export class ComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGibList extend
 }
 export interface ComputeoptimizerAutomationRuleCriteriaEbsVolumeType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: string[];
 }
@@ -368,11 +368,11 @@ export class ComputeoptimizerAutomationRuleCriteriaEbsVolumeTypeList extends cdk
 }
 export interface ComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: number[];
 }
@@ -517,11 +517,11 @@ export class ComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavingsList e
 }
 export interface ComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDays {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: number[];
 }
@@ -666,11 +666,11 @@ export class ComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDaysList exte
 }
 export interface ComputeoptimizerAutomationRuleCriteriaRegion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: string[];
 }
@@ -815,11 +815,11 @@ export class ComputeoptimizerAutomationRuleCriteriaRegionList extends cdktn.Comp
 }
 export interface ComputeoptimizerAutomationRuleCriteriaResourceArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: string[];
 }
@@ -964,15 +964,15 @@ export class ComputeoptimizerAutomationRuleCriteriaResourceArnList extends cdktn
 }
 export interface ComputeoptimizerAutomationRuleCriteriaResourceTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: string[];
 }
@@ -1146,11 +1146,11 @@ export class ComputeoptimizerAutomationRuleCriteriaResourceTagList extends cdktn
 }
 export interface ComputeoptimizerAutomationRuleCriteriaRestartNeeded {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}
   */
   readonly comparison?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}
   */
   readonly values?: string[];
 }
@@ -1295,35 +1295,35 @@ export class ComputeoptimizerAutomationRuleCriteriaRestartNeededList extends cdk
 }
 export interface ComputeoptimizerAutomationRuleCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#ebs_volume_size_in_gib ComputeoptimizerAutomationRule#ebs_volume_size_in_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#ebs_volume_size_in_gib ComputeoptimizerAutomationRule#ebs_volume_size_in_gib}
   */
   readonly ebsVolumeSizeInGib?: ComputeoptimizerAutomationRuleCriteriaEbsVolumeSizeInGib[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#ebs_volume_type ComputeoptimizerAutomationRule#ebs_volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#ebs_volume_type ComputeoptimizerAutomationRule#ebs_volume_type}
   */
   readonly ebsVolumeType?: ComputeoptimizerAutomationRuleCriteriaEbsVolumeType[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#estimated_monthly_savings ComputeoptimizerAutomationRule#estimated_monthly_savings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#estimated_monthly_savings ComputeoptimizerAutomationRule#estimated_monthly_savings}
   */
   readonly estimatedMonthlySavings?: ComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#look_back_period_in_days ComputeoptimizerAutomationRule#look_back_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#look_back_period_in_days ComputeoptimizerAutomationRule#look_back_period_in_days}
   */
   readonly lookBackPeriodInDays?: ComputeoptimizerAutomationRuleCriteriaLookBackPeriodInDays[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#region ComputeoptimizerAutomationRule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#region ComputeoptimizerAutomationRule#region}
   */
   readonly region?: ComputeoptimizerAutomationRuleCriteriaRegion[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#resource_arn ComputeoptimizerAutomationRule#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#resource_arn ComputeoptimizerAutomationRule#resource_arn}
   */
   readonly resourceArn?: ComputeoptimizerAutomationRuleCriteriaResourceArn[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#resource_tag ComputeoptimizerAutomationRule#resource_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#resource_tag ComputeoptimizerAutomationRule#resource_tag}
   */
   readonly resourceTag?: ComputeoptimizerAutomationRuleCriteriaResourceTag[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#restart_needed ComputeoptimizerAutomationRule#restart_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#restart_needed ComputeoptimizerAutomationRule#restart_needed}
   */
   readonly restartNeeded?: ComputeoptimizerAutomationRuleCriteriaRestartNeeded[] | cdktn.IResolvable;
 }
@@ -1622,13 +1622,13 @@ export interface ComputeoptimizerAutomationRuleOrganizationConfiguration {
   /**
   * List of account IDs where the organization rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#account_ids ComputeoptimizerAutomationRule#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#account_ids ComputeoptimizerAutomationRule#account_ids}
   */
   readonly accountIds?: string[];
   /**
   * When the rule should be applied relative to account rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#rule_apply_order ComputeoptimizerAutomationRule#rule_apply_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#rule_apply_order ComputeoptimizerAutomationRule#rule_apply_order}
   */
   readonly ruleApplyOrder?: string;
 }
@@ -1753,19 +1753,19 @@ export interface ComputeoptimizerAutomationRuleSchedule {
   /**
   * Execution window duration in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#execution_window_in_minutes ComputeoptimizerAutomationRule#execution_window_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#execution_window_in_minutes ComputeoptimizerAutomationRule#execution_window_in_minutes}
   */
   readonly executionWindowInMinutes?: number;
   /**
   * Schedule expression (e.g., cron or rate expression)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#schedule_expression ComputeoptimizerAutomationRule#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#schedule_expression ComputeoptimizerAutomationRule#schedule_expression}
   */
   readonly scheduleExpression?: string;
   /**
   * IANA timezone identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#schedule_expression_timezone ComputeoptimizerAutomationRule#schedule_expression_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#schedule_expression_timezone ComputeoptimizerAutomationRule#schedule_expression_timezone}
   */
   readonly scheduleExpressionTimezone?: string;
 }
@@ -1917,11 +1917,11 @@ export class ComputeoptimizerAutomationRuleScheduleOutputReference extends cdktn
 }
 export interface ComputeoptimizerAutomationRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#value ComputeoptimizerAutomationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#value ComputeoptimizerAutomationRule#value}
   */
   readonly value?: string;
 }
@@ -2066,7 +2066,7 @@ export class ComputeoptimizerAutomationRuleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}
 */
 export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
 
@@ -2082,7 +2082,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ComputeoptimizerAutomationRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeoptimizerAutomationRule to import
-  * @param importFromId The id of the existing ComputeoptimizerAutomationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeoptimizerAutomationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeoptimizerAutomationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2094,7 +2094,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2105,7 +2105,7 @@ export class ComputeoptimizerAutomationRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_computeoptimizer_automation_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

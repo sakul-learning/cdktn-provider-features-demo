@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamEntitlementConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#app_visibility AppstreamEntitlement#app_visibility}
   */
   readonly appVisibility: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#attributes AppstreamEntitlement#attributes}
   */
   readonly attributes: AppstreamEntitlementAttributes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#description AppstreamEntitlement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#stack_name AppstreamEntitlement#stack_name}
   */
   readonly stackName: string;
 }
 export interface AppstreamEntitlementAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#name AppstreamEntitlement#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#value AppstreamEntitlement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#value AppstreamEntitlement#value}
   */
   readonly value: string;
 }
@@ -173,7 +173,7 @@ export class AppstreamEntitlementAttributesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement awscc_appstream_entitlement}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement awscc_appstream_entitlement}
 */
 export class AppstreamEntitlement extends cdktn.TerraformResource {
 
@@ -189,7 +189,7 @@ export class AppstreamEntitlement extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamEntitlement resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamEntitlement to import
-  * @param importFromId The id of the existing AppstreamEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamEntitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamEntitlement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -201,7 +201,7 @@ export class AppstreamEntitlement extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_entitlement awscc_appstream_entitlement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_entitlement awscc_appstream_entitlement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,7 +212,7 @@ export class AppstreamEntitlement extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IottwinmakerSceneConfig extends cdktn.TerraformMetaArguments {
   /**
   * A list of capabilities that the scene uses to render.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#capabilities IottwinmakerScene#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#capabilities IottwinmakerScene#capabilities}
   */
   readonly capabilities?: string[];
   /**
   * The relative path that specifies the location of the content definition file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#content_location IottwinmakerScene#content_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#content_location IottwinmakerScene#content_location}
   */
   readonly contentLocation: string;
   /**
   * The description of the scene.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#description IottwinmakerScene#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#description IottwinmakerScene#description}
   */
   readonly description?: string;
   /**
   * The ID of the scene.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#scene_id IottwinmakerScene#scene_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#scene_id IottwinmakerScene#scene_id}
   */
   readonly sceneId: string;
   /**
   * A key-value pair of scene metadata for the scene.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#scene_metadata IottwinmakerScene#scene_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#scene_metadata IottwinmakerScene#scene_metadata}
   */
   readonly sceneMetadata?: { [key: string]: string };
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#tags IottwinmakerScene#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#tags IottwinmakerScene#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ID of the scene.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#workspace_id IottwinmakerScene#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#workspace_id IottwinmakerScene#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}
 */
 export class IottwinmakerScene extends cdktn.TerraformResource {
 
@@ -68,7 +68,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IottwinmakerScene resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IottwinmakerScene to import
-  * @param importFromId The id of the existing IottwinmakerScene that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IottwinmakerScene that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IottwinmakerScene to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -80,7 +80,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,7 +91,7 @@ export class IottwinmakerScene extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iottwinmaker_scene',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface VpclatticeRuleConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#action VpclatticeRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#action VpclatticeRule#action}
   */
   readonly action: VpclatticeRuleAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#listener_identifier VpclatticeRule#listener_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#listener_identifier VpclatticeRule#listener_identifier}
   */
   readonly listenerIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#match VpclatticeRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#match VpclatticeRule#match}
   */
   readonly match: VpclatticeRuleMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#name VpclatticeRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#name VpclatticeRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#priority VpclatticeRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#priority VpclatticeRule#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#service_identifier VpclatticeRule#service_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#service_identifier VpclatticeRule#service_identifier}
   */
   readonly serviceIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#tags VpclatticeRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#tags VpclatticeRule#tags}
   */
   readonly tags?: VpclatticeRuleTags[] | cdktn.IResolvable;
 }
 export interface VpclatticeRuleActionFixedResponse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#status_code VpclatticeRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#status_code VpclatticeRule#status_code}
   */
   readonly statusCode?: number;
 }
@@ -132,11 +132,11 @@ export class VpclatticeRuleActionFixedResponseOutputReference extends cdktn.Comp
 }
 export interface VpclatticeRuleActionForwardTargetGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#target_group_identifier VpclatticeRule#target_group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#target_group_identifier VpclatticeRule#target_group_identifier}
   */
   readonly targetGroupIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#weight VpclatticeRule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#weight VpclatticeRule#weight}
   */
   readonly weight?: number;
 }
@@ -281,7 +281,7 @@ export class VpclatticeRuleActionForwardTargetGroupsList extends cdktn.ComplexLi
 }
 export interface VpclatticeRuleActionForward {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#target_groups VpclatticeRule#target_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#target_groups VpclatticeRule#target_groups}
   */
   readonly targetGroups?: VpclatticeRuleActionForwardTargetGroups[] | cdktn.IResolvable;
 }
@@ -375,11 +375,11 @@ export class VpclatticeRuleActionForwardOutputReference extends cdktn.ComplexObj
 }
 export interface VpclatticeRuleAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#fixed_response VpclatticeRule#fixed_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#fixed_response VpclatticeRule#fixed_response}
   */
   readonly fixedResponse?: VpclatticeRuleActionFixedResponse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#forward VpclatticeRule#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#forward VpclatticeRule#forward}
   */
   readonly forward?: VpclatticeRuleActionForward;
 }
@@ -502,15 +502,15 @@ export class VpclatticeRuleActionOutputReference extends cdktn.ComplexObject {
 }
 export interface VpclatticeRuleMatchHttpMatchHeaderMatchesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#contains VpclatticeRule#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#contains VpclatticeRule#contains}
   */
   readonly contains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#exact VpclatticeRule#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#exact VpclatticeRule#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#prefix VpclatticeRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#prefix VpclatticeRule#prefix}
   */
   readonly prefix?: string;
 }
@@ -662,15 +662,15 @@ export class VpclatticeRuleMatchHttpMatchHeaderMatchesMatchOutputReference exten
 }
 export interface VpclatticeRuleMatchHttpMatchHeaderMatches {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#case_sensitive VpclatticeRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#case_sensitive VpclatticeRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#match VpclatticeRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#match VpclatticeRule#match}
   */
   readonly match?: VpclatticeRuleMatchHttpMatchHeaderMatchesMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#name VpclatticeRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#name VpclatticeRule#name}
   */
   readonly name?: string;
 }
@@ -844,11 +844,11 @@ export class VpclatticeRuleMatchHttpMatchHeaderMatchesList extends cdktn.Complex
 }
 export interface VpclatticeRuleMatchHttpMatchPathMatchMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#exact VpclatticeRule#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#exact VpclatticeRule#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#prefix VpclatticeRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#prefix VpclatticeRule#prefix}
   */
   readonly prefix?: string;
 }
@@ -971,11 +971,11 @@ export class VpclatticeRuleMatchHttpMatchPathMatchMatchOutputReference extends c
 }
 export interface VpclatticeRuleMatchHttpMatchPathMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#case_sensitive VpclatticeRule#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#case_sensitive VpclatticeRule#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#match VpclatticeRule#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#match VpclatticeRule#match}
   */
   readonly match?: VpclatticeRuleMatchHttpMatchPathMatchMatch;
 }
@@ -1098,15 +1098,15 @@ export class VpclatticeRuleMatchHttpMatchPathMatchOutputReference extends cdktn.
 }
 export interface VpclatticeRuleMatchHttpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#header_matches VpclatticeRule#header_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#header_matches VpclatticeRule#header_matches}
   */
   readonly headerMatches?: VpclatticeRuleMatchHttpMatchHeaderMatches[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#method VpclatticeRule#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#method VpclatticeRule#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#path_match VpclatticeRule#path_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#path_match VpclatticeRule#path_match}
   */
   readonly pathMatch?: VpclatticeRuleMatchHttpMatchPathMatch;
 }
@@ -1258,7 +1258,7 @@ export class VpclatticeRuleMatchHttpMatchOutputReference extends cdktn.ComplexOb
 }
 export interface VpclatticeRuleMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#http_match VpclatticeRule#http_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#http_match VpclatticeRule#http_match}
   */
   readonly httpMatch: VpclatticeRuleMatchHttpMatch;
 }
@@ -1349,11 +1349,11 @@ export class VpclatticeRuleMatchOutputReference extends cdktn.ComplexObject {
 }
 export interface VpclatticeRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#key VpclatticeRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#key VpclatticeRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#value VpclatticeRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#value VpclatticeRule#value}
   */
   readonly value?: string;
 }
@@ -1498,7 +1498,7 @@ export class VpclatticeRuleTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule awscc_vpclattice_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule awscc_vpclattice_rule}
 */
 export class VpclatticeRule extends cdktn.TerraformResource {
 
@@ -1514,7 +1514,7 @@ export class VpclatticeRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpclatticeRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpclatticeRule to import
-  * @param importFromId The id of the existing VpclatticeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpclatticeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpclatticeRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1526,7 +1526,7 @@ export class VpclatticeRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_rule awscc_vpclattice_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_rule awscc_vpclattice_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1537,7 +1537,7 @@ export class VpclatticeRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_vpclattice_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

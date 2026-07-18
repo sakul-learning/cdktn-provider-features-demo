@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_master
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_master
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GuarddutyMasterConfig extends cdktn.TerraformMetaArguments {
   /**
   * Unique ID of the detector of the GuardDuty member account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
   */
   readonly detectorId: string;
   /**
   * Value used to validate the master account to the member account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
   */
   readonly invitationId?: string;
   /**
   * ID of the account used as the master account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
   */
   readonly masterId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_master awscc_guardduty_master}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_master awscc_guardduty_master}
 */
 export class GuarddutyMaster extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class GuarddutyMaster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GuarddutyMaster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GuarddutyMaster to import
-  * @param importFromId The id of the existing GuarddutyMaster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GuarddutyMaster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GuarddutyMaster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class GuarddutyMaster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/guardduty_master awscc_guardduty_master} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/guardduty_master awscc_guardduty_master} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class GuarddutyMaster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_guardduty_master',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

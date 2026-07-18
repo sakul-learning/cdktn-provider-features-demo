@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface ComprehendFlywheelConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#active_model_arn ComprehendFlywheel#active_model_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#active_model_arn ComprehendFlywheel#active_model_arn}
   */
   readonly activeModelArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#data_access_role_arn ComprehendFlywheel#data_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#data_access_role_arn ComprehendFlywheel#data_access_role_arn}
   */
   readonly dataAccessRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#data_lake_s3_uri ComprehendFlywheel#data_lake_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#data_lake_s3_uri ComprehendFlywheel#data_lake_s3_uri}
   */
   readonly dataLakeS3Uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#data_security_config ComprehendFlywheel#data_security_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#data_security_config ComprehendFlywheel#data_security_config}
   */
   readonly dataSecurityConfig?: ComprehendFlywheelDataSecurityConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#flywheel_name ComprehendFlywheel#flywheel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#flywheel_name ComprehendFlywheel#flywheel_name}
   */
   readonly flywheelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#model_type ComprehendFlywheel#model_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#model_type ComprehendFlywheel#model_type}
   */
   readonly modelType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#tags ComprehendFlywheel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#tags ComprehendFlywheel#tags}
   */
   readonly tags?: ComprehendFlywheelTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#task_config ComprehendFlywheel#task_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#task_config ComprehendFlywheel#task_config}
   */
   readonly taskConfig?: ComprehendFlywheelTaskConfig;
 }
 export interface ComprehendFlywheelDataSecurityConfigVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#security_group_ids ComprehendFlywheel#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#security_group_ids ComprehendFlywheel#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#subnets ComprehendFlywheel#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#subnets ComprehendFlywheel#subnets}
   */
   readonly subnets?: string[];
 }
@@ -169,19 +169,19 @@ export class ComprehendFlywheelDataSecurityConfigVpcConfigOutputReference extend
 }
 export interface ComprehendFlywheelDataSecurityConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#data_lake_kms_key_id ComprehendFlywheel#data_lake_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#data_lake_kms_key_id ComprehendFlywheel#data_lake_kms_key_id}
   */
   readonly dataLakeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#model_kms_key_id ComprehendFlywheel#model_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#model_kms_key_id ComprehendFlywheel#model_kms_key_id}
   */
   readonly modelKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#volume_kms_key_id ComprehendFlywheel#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#volume_kms_key_id ComprehendFlywheel#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#vpc_config ComprehendFlywheel#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#vpc_config ComprehendFlywheel#vpc_config}
   */
   readonly vpcConfig?: ComprehendFlywheelDataSecurityConfigVpcConfig;
 }
@@ -362,11 +362,11 @@ export class ComprehendFlywheelDataSecurityConfigOutputReference extends cdktn.C
 }
 export interface ComprehendFlywheelTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#key ComprehendFlywheel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#key ComprehendFlywheel#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#value ComprehendFlywheel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#value ComprehendFlywheel#value}
   */
   readonly value?: string;
 }
@@ -511,11 +511,11 @@ export class ComprehendFlywheelTagsList extends cdktn.ComplexList {
 }
 export interface ComprehendFlywheelTaskConfigDocumentClassificationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#labels ComprehendFlywheel#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#labels ComprehendFlywheel#labels}
   */
   readonly labels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#mode ComprehendFlywheel#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#mode ComprehendFlywheel#mode}
   */
   readonly mode?: string;
 }
@@ -638,7 +638,7 @@ export class ComprehendFlywheelTaskConfigDocumentClassificationConfigOutputRefer
 }
 export interface ComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#type ComprehendFlywheel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#type ComprehendFlywheel#type}
   */
   readonly type?: string;
 }
@@ -754,7 +754,7 @@ export class ComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypesList 
 }
 export interface ComprehendFlywheelTaskConfigEntityRecognitionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#entity_types ComprehendFlywheel#entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#entity_types ComprehendFlywheel#entity_types}
   */
   readonly entityTypes?: ComprehendFlywheelTaskConfigEntityRecognitionConfigEntityTypes[] | cdktn.IResolvable;
 }
@@ -848,15 +848,15 @@ export class ComprehendFlywheelTaskConfigEntityRecognitionConfigOutputReference 
 }
 export interface ComprehendFlywheelTaskConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#document_classification_config ComprehendFlywheel#document_classification_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#document_classification_config ComprehendFlywheel#document_classification_config}
   */
   readonly documentClassificationConfig?: ComprehendFlywheelTaskConfigDocumentClassificationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#entity_recognition_config ComprehendFlywheel#entity_recognition_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#entity_recognition_config ComprehendFlywheel#entity_recognition_config}
   */
   readonly entityRecognitionConfig?: ComprehendFlywheelTaskConfigEntityRecognitionConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#language_code ComprehendFlywheel#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#language_code ComprehendFlywheel#language_code}
   */
   readonly languageCode?: string;
 }
@@ -1008,7 +1008,7 @@ export class ComprehendFlywheelTaskConfigOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel}
 */
 export class ComprehendFlywheel extends cdktn.TerraformResource {
 
@@ -1024,7 +1024,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ComprehendFlywheel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComprehendFlywheel to import
-  * @param importFromId The id of the existing ComprehendFlywheel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComprehendFlywheel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComprehendFlywheel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1036,7 +1036,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1047,7 +1047,7 @@ export class ComprehendFlywheel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_comprehend_flywheel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

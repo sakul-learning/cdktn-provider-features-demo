@@ -93,7 +93,7 @@ DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorLastObservedAtList,
 DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceList,
 DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList,
 DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorTypeList,
-DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueList } from './structs0.js';
+DataAwsccSecurityhubInsightFiltersThreatIntelIndicatorValueList } from './structs0.ts';
 export interface DataAwsccSecurityhubInsightFiltersTitle {
 }
 

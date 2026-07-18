@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_connects
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_connects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEc2TransitGatewayConnectsConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_connects awscc_ec2_transit_gateway_connects}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_connects awscc_ec2_transit_gateway_connects}
 */
 export class DataAwsccEc2TransitGatewayConnects extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEc2TransitGatewayConnects extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccEc2TransitGatewayConnects resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2TransitGatewayConnects to import
-  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayConnects that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_connects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayConnects that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_connects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2TransitGatewayConnects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEc2TransitGatewayConnects extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_connects awscc_ec2_transit_gateway_connects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_connects awscc_ec2_transit_gateway_connects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEc2TransitGatewayConnects extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_ec2_transit_gateway_connects',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

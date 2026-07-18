@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LambdaUrlConfig extends cdktn.TerraformMetaArguments {
   /**
   * Can be either AWS_IAM if the requests are authorized via IAM, or NONE if no authorization is configured on the Function URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#auth_type LambdaUrl#auth_type}
   */
   readonly authType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#cors LambdaUrl#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#cors LambdaUrl#cors}
   */
   readonly cors?: LambdaUrlCors;
   /**
   * The invocation mode for the function's URL. Set to BUFFERED if you want to buffer responses before returning them to the client. Set to RESPONSE_STREAM if you want to stream responses, allowing faster time to first byte and larger response payload sizes. If not set, defaults to BUFFERED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#invoke_mode LambdaUrl#invoke_mode}
   */
   readonly invokeMode?: string;
   /**
   * The alias qualifier for the target function. If TargetFunctionArn is unqualified then Qualifier must be passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#qualifier LambdaUrl#qualifier}
   */
   readonly qualifier?: string;
   /**
   * The Amazon Resource Name (ARN) of the function associated with the Function URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#target_function_arn LambdaUrl#target_function_arn}
   */
   readonly targetFunctionArn: string;
 }
@@ -40,35 +40,35 @@ export interface LambdaUrlCors {
   /**
   * Specifies whether credentials are included in the CORS request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#allow_credentials LambdaUrl#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#allow_credentials LambdaUrl#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Represents a collection of allowed headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#allow_headers LambdaUrl#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#allow_headers LambdaUrl#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * Represents a collection of allowed HTTP methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#allow_methods LambdaUrl#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#allow_methods LambdaUrl#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
   * Represents a collection of allowed origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#allow_origins LambdaUrl#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#allow_origins LambdaUrl#allow_origins}
   */
   readonly allowOrigins?: string[];
   /**
   * Represents a collection of exposed headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#expose_headers LambdaUrl#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#expose_headers LambdaUrl#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#max_age LambdaUrl#max_age}
   */
   readonly maxAge?: number;
 }
@@ -307,7 +307,7 @@ export class LambdaUrlCorsOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url awscc_lambda_url}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url awscc_lambda_url}
 */
 export class LambdaUrl extends cdktn.TerraformResource {
 
@@ -323,7 +323,7 @@ export class LambdaUrl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaUrl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaUrl to import
-  * @param importFromId The id of the existing LambdaUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaUrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaUrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -335,7 +335,7 @@ export class LambdaUrl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_url awscc_lambda_url} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_url awscc_lambda_url} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,7 +346,7 @@ export class LambdaUrl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_url',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

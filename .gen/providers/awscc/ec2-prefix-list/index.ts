@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface Ec2PrefixListConfig extends cdktn.TerraformMetaArguments {
   /**
   * Ip Version of Prefix List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
   */
   readonly addressFamily: string;
   /**
   * Entries of Prefix List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
   */
   readonly entries?: Ec2PrefixListEntries[] | cdktn.IResolvable;
   /**
   * Max Entries of Prefix List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
   */
   readonly maxEntries?: number;
   /**
   * Name of Prefix List.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
   */
   readonly prefixListName: string;
   /**
   * Tags for Prefix List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
   */
   readonly tags?: Ec2PrefixListTags[] | cdktn.IResolvable;
 }
 export interface Ec2PrefixListEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}
   */
   readonly description?: string;
 }
@@ -189,11 +189,11 @@ export class Ec2PrefixListEntriesList extends cdktn.ComplexList {
 }
 export interface Ec2PrefixListTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#key Ec2PrefixList#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#value Ec2PrefixList#value}
   */
   readonly value?: string;
 }
@@ -338,7 +338,7 @@ export class Ec2PrefixListTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}
 */
 export class Ec2PrefixList extends cdktn.TerraformResource {
 
@@ -354,7 +354,7 @@ export class Ec2PrefixList extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2PrefixList resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2PrefixList to import
-  * @param importFromId The id of the existing Ec2PrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2PrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2PrefixList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -366,7 +366,7 @@ export class Ec2PrefixList extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,7 +377,7 @@ export class Ec2PrefixList extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

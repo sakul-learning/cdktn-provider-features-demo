@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/workspaces_workspaces_pools
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/workspaces_workspaces_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccWorkspacesWorkspacesPoolsConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/workspaces_workspaces_pools awscc_workspaces_workspaces_pools}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/workspaces_workspaces_pools awscc_workspaces_workspaces_pools}
 */
 export class DataAwsccWorkspacesWorkspacesPools extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccWorkspacesWorkspacesPools extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccWorkspacesWorkspacesPools resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccWorkspacesWorkspacesPools to import
-  * @param importFromId The id of the existing DataAwsccWorkspacesWorkspacesPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/workspaces_workspaces_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccWorkspacesWorkspacesPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/workspaces_workspaces_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccWorkspacesWorkspacesPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccWorkspacesWorkspacesPools extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/workspaces_workspaces_pools awscc_workspaces_workspaces_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/workspaces_workspaces_pools awscc_workspaces_workspaces_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccWorkspacesWorkspacesPools extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_workspaces_workspaces_pools',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

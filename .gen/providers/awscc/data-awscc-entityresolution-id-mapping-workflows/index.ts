@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/entityresolution_id_mapping_workflows
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/entityresolution_id_mapping_workflows
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEntityresolutionIdMappingWorkflowsConfig extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows}
 */
 export class DataAwsccEntityresolutionIdMappingWorkflows extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEntityresolutionIdMappingWorkflows extends cdktn.Terraform
   * Generates CDKTN code for importing a DataAwsccEntityresolutionIdMappingWorkflows resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEntityresolutionIdMappingWorkflows to import
-  * @param importFromId The id of the existing DataAwsccEntityresolutionIdMappingWorkflows that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/entityresolution_id_mapping_workflows#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEntityresolutionIdMappingWorkflows that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/entityresolution_id_mapping_workflows#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEntityresolutionIdMappingWorkflows to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEntityresolutionIdMappingWorkflows extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEntityresolutionIdMappingWorkflows extends cdktn.Terraform
       terraformResourceType: 'awscc_entityresolution_id_mapping_workflows',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

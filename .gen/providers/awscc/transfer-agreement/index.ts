@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface TransferAgreementConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies the access role for the agreement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#access_role TransferAgreement#access_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#access_role TransferAgreement#access_role}
   */
   readonly accessRole: string;
   /**
   * Specifies the base directory for the agreement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#base_directory TransferAgreement#base_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#base_directory TransferAgreement#base_directory}
   */
   readonly baseDirectory?: string;
   /**
   * Specifies a separate directory for each type of file to store for an AS2 message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#custom_directories TransferAgreement#custom_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#custom_directories TransferAgreement#custom_directories}
   */
   readonly customDirectories?: TransferAgreementCustomDirectories;
   /**
   * A textual description for the agreement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#description TransferAgreement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#description TransferAgreement#description}
   */
   readonly description?: string;
   /**
   * Specifies whether to enforce an AS2 message is signed for this agreement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#enforce_message_signing TransferAgreement#enforce_message_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#enforce_message_signing TransferAgreement#enforce_message_signing}
   */
   readonly enforceMessageSigning?: string;
   /**
   * A unique identifier for the local profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#local_profile_id TransferAgreement#local_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#local_profile_id TransferAgreement#local_profile_id}
   */
   readonly localProfileId: string;
   /**
   * A unique identifier for the partner profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#partner_profile_id TransferAgreement#partner_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#partner_profile_id TransferAgreement#partner_profile_id}
   */
   readonly partnerProfileId: string;
   /**
   * Specifies whether to preserve the filename received for this agreement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#preserve_filename TransferAgreement#preserve_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#preserve_filename TransferAgreement#preserve_filename}
   */
   readonly preserveFilename?: string;
   /**
   * A unique identifier for the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#server_id TransferAgreement#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#server_id TransferAgreement#server_id}
   */
   readonly serverId: string;
   /**
   * Specifies the status of the agreement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#status TransferAgreement#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#status TransferAgreement#status}
   */
   readonly status?: string;
   /**
   * Key-value pairs that can be used to group and search for agreements. Tags are metadata attached to agreements for any purpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#tags TransferAgreement#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#tags TransferAgreement#tags}
   */
   readonly tags?: TransferAgreementTags[] | cdktn.IResolvable;
 }
@@ -78,31 +78,31 @@ export interface TransferAgreementCustomDirectories {
   /**
   * Specifies a location to store the failed files for an AS2 message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#failed_files_directory TransferAgreement#failed_files_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#failed_files_directory TransferAgreement#failed_files_directory}
   */
   readonly failedFilesDirectory?: string;
   /**
   * Specifies a location to store the MDN file for an AS2 message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#mdn_files_directory TransferAgreement#mdn_files_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#mdn_files_directory TransferAgreement#mdn_files_directory}
   */
   readonly mdnFilesDirectory?: string;
   /**
   * Specifies a location to store the payload file for an AS2 message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#payload_files_directory TransferAgreement#payload_files_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#payload_files_directory TransferAgreement#payload_files_directory}
   */
   readonly payloadFilesDirectory?: string;
   /**
   * Specifies a location to store the status file for an AS2 message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#status_files_directory TransferAgreement#status_files_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#status_files_directory TransferAgreement#status_files_directory}
   */
   readonly statusFilesDirectory?: string;
   /**
   * Specifies a location to store the temporary processing file for an AS2 message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#temporary_files_directory TransferAgreement#temporary_files_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#temporary_files_directory TransferAgreement#temporary_files_directory}
   */
   readonly temporaryFilesDirectory?: string;
 }
@@ -314,13 +314,13 @@ export interface TransferAgreementTags {
   /**
   * The name assigned to the tag that you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#key TransferAgreement#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#key TransferAgreement#key}
   */
   readonly key?: string;
   /**
   * Contains one or more values that you assigned to the key name you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#value TransferAgreement#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#value TransferAgreement#value}
   */
   readonly value?: string;
 }
@@ -465,7 +465,7 @@ export class TransferAgreementTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement awscc_transfer_agreement}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement awscc_transfer_agreement}
 */
 export class TransferAgreement extends cdktn.TerraformResource {
 
@@ -481,7 +481,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferAgreement resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferAgreement to import
-  * @param importFromId The id of the existing TransferAgreement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferAgreement that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferAgreement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -493,7 +493,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/transfer_agreement awscc_transfer_agreement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/transfer_agreement awscc_transfer_agreement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,7 +504,7 @@ export class TransferAgreement extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_transfer_agreement',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

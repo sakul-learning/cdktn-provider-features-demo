@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DmsDataMigrationConfig extends cdktn.TerraformMetaArguments {
   /**
   * The property describes an ARN of the data migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
   */
   readonly dataMigrationIdentifier?: string;
   /**
   * The property describes a name to identify the data migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
   */
   readonly dataMigrationName?: string;
   /**
   * The property describes the settings for the data migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
   */
   readonly dataMigrationSettings?: DmsDataMigrationDataMigrationSettings;
   /**
   * The property describes the type of migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
   */
   readonly dataMigrationType: string;
   /**
   * The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
   */
   readonly migrationProjectIdentifier: string;
   /**
   * The property describes Amazon Resource Name (ARN) of the service access role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
   */
   readonly serviceAccessRoleArn: string;
   /**
   * The property describes the settings for the data migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
   */
   readonly sourceDataSettings?: DmsDataMigrationSourceDataSettings[] | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
   */
   readonly tags?: DmsDataMigrationTags[] | cdktn.IResolvable;
 }
@@ -60,19 +60,19 @@ export interface DmsDataMigrationDataMigrationSettings {
   /**
   * The property specifies whether to enable the CloudWatch log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#cloudwatch_logs_enabled DmsDataMigration#cloudwatch_logs_enabled}
   */
   readonly cloudwatchLogsEnabled?: boolean | cdktn.IResolvable;
   /**
   * The number of parallel jobs that trigger parallel threads to unload the tables from the source, and then load them to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#number_of_jobs DmsDataMigration#number_of_jobs}
   */
   readonly numberOfJobs?: number;
   /**
   * The property specifies the rules of selecting objects for data migration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#selection_rules DmsDataMigration#selection_rules}
   */
   readonly selectionRules?: string;
 }
@@ -226,25 +226,25 @@ export interface DmsDataMigrationSourceDataSettings {
   /**
   * The property is a point in the database engine's log that defines a time where you can begin CDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#cdc_start_position DmsDataMigration#cdc_start_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#cdc_start_position DmsDataMigration#cdc_start_position}
   */
   readonly cdcStartPosition?: string;
   /**
   * The property indicates the start time for a change data capture (CDC) operation. The value is server time in UTC format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#cdc_start_time DmsDataMigration#cdc_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#cdc_start_time DmsDataMigration#cdc_start_time}
   */
   readonly cdcStartTime?: string;
   /**
   * The property indicates the stop time for a change data capture (CDC) operation. The value is server time in UTC format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#cdc_stop_time DmsDataMigration#cdc_stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#cdc_stop_time DmsDataMigration#cdc_stop_time}
   */
   readonly cdcStopTime?: string;
   /**
   * The property sets the name of a previously created logical replication slot for a change data capture (CDC) load of the source instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#slot_name DmsDataMigration#slot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#slot_name DmsDataMigration#slot_name}
   */
   readonly slotName?: string;
 }
@@ -449,13 +449,13 @@ export interface DmsDataMigrationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#key DmsDataMigration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#key DmsDataMigration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#value DmsDataMigration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#value DmsDataMigration#value}
   */
   readonly value?: string;
 }
@@ -600,7 +600,7 @@ export class DmsDataMigrationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration awscc_dms_data_migration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration awscc_dms_data_migration}
 */
 export class DmsDataMigration extends cdktn.TerraformResource {
 
@@ -616,7 +616,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsDataMigration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsDataMigration to import
-  * @param importFromId The id of the existing DmsDataMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsDataMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsDataMigration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -628,7 +628,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/dms_data_migration awscc_dms_data_migration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/dms_data_migration awscc_dms_data_migration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -639,7 +639,7 @@ export class DmsDataMigration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dms_data_migration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

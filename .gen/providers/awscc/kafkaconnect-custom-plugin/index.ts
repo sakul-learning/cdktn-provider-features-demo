@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface KafkaconnectCustomPluginConfig extends cdktn.TerraformMetaArgum
   /**
   * The type of the plugin file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
   */
   readonly contentType: string;
   /**
   * A summary description of the custom plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
   */
   readonly description?: string;
   /**
   * Information about the location of a custom plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
   */
   readonly location: KafkaconnectCustomPluginLocation;
   /**
   * The name of the custom plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
   */
   readonly tags?: KafkaconnectCustomPluginTags[] | cdktn.IResolvable;
 }
@@ -101,19 +101,19 @@ export interface KafkaconnectCustomPluginLocationS3Location {
   /**
   * The Amazon Resource Name (ARN) of an S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#bucket_arn KafkaconnectCustomPlugin#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#bucket_arn KafkaconnectCustomPlugin#bucket_arn}
   */
   readonly bucketArn: string;
   /**
   * The file key for an object in an S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#file_key KafkaconnectCustomPlugin#file_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#file_key KafkaconnectCustomPlugin#file_key}
   */
   readonly fileKey: string;
   /**
   * The version of an object in an S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#object_version KafkaconnectCustomPlugin#object_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#object_version KafkaconnectCustomPlugin#object_version}
   */
   readonly objectVersion?: string;
 }
@@ -261,7 +261,7 @@ export interface KafkaconnectCustomPluginLocation {
   /**
   * The S3 bucket Amazon Resource Name (ARN), file key, and object version of the plugin file stored in Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#s3_location KafkaconnectCustomPlugin#s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#s3_location KafkaconnectCustomPlugin#s3_location}
   */
   readonly s3Location: KafkaconnectCustomPluginLocationS3Location;
 }
@@ -354,13 +354,13 @@ export interface KafkaconnectCustomPluginTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#key KafkaconnectCustomPlugin#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#key KafkaconnectCustomPlugin#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#value KafkaconnectCustomPlugin#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#value KafkaconnectCustomPlugin#value}
   */
   readonly value?: string;
 }
@@ -505,7 +505,7 @@ export class KafkaconnectCustomPluginTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}
 */
 export class KafkaconnectCustomPlugin extends cdktn.TerraformResource {
 
@@ -521,7 +521,7 @@ export class KafkaconnectCustomPlugin extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KafkaconnectCustomPlugin resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaconnectCustomPlugin to import
-  * @param importFromId The id of the existing KafkaconnectCustomPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaconnectCustomPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaconnectCustomPlugin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -533,7 +533,7 @@ export class KafkaconnectCustomPlugin extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -544,7 +544,7 @@ export class KafkaconnectCustomPlugin extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kafkaconnect_custom_plugin',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

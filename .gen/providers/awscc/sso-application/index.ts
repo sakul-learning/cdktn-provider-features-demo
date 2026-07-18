@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SsoApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ARN of the application provider under which the operation will run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#application_provider_arn SsoApplication#application_provider_arn}
   */
   readonly applicationProviderArn: string;
   /**
   * The description information for the Identity Center (SSO) Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#description SsoApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#description SsoApplication#description}
   */
   readonly description?: string;
   /**
   * The ARN of the instance of IAM Identity Center under which the operation will run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#instance_arn SsoApplication#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name you want to assign to this Identity Center (SSO) Application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#name SsoApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#name SsoApplication#name}
   */
   readonly name: string;
   /**
   * A structure that describes the options for the portal associated with an application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#portal_options SsoApplication#portal_options}
   */
   readonly portalOptions?: SsoApplicationPortalOptions;
   /**
   * Specifies whether the application is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#status SsoApplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#status SsoApplication#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#tags SsoApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#tags SsoApplication#tags}
   */
   readonly tags?: SsoApplicationTags[] | cdktn.IResolvable;
 }
@@ -52,13 +52,13 @@ export interface SsoApplicationPortalOptionsSignInOptions {
   /**
   * The URL that accepts authentication requests for an application, this is a required parameter if the Origin parameter is APPLICATION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#application_url SsoApplication#application_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#application_url SsoApplication#application_url}
   */
   readonly applicationUrl?: string;
   /**
   * This determines how IAM Identity Center navigates the user to the target application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#origin SsoApplication#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#origin SsoApplication#origin}
   */
   readonly origin?: string;
 }
@@ -183,13 +183,13 @@ export interface SsoApplicationPortalOptions {
   /**
   * A structure that describes the sign-in options for the access portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#sign_in_options SsoApplication#sign_in_options}
   */
   readonly signInOptions?: SsoApplicationPortalOptionsSignInOptions;
   /**
   * Indicates whether this application is visible in the access portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#visibility SsoApplication#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#visibility SsoApplication#visibility}
   */
   readonly visibility?: string;
 }
@@ -312,11 +312,11 @@ export class SsoApplicationPortalOptionsOutputReference extends cdktn.ComplexObj
 }
 export interface SsoApplicationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#key SsoApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#key SsoApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#value SsoApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#value SsoApplication#value}
   */
   readonly value?: string;
 }
@@ -461,7 +461,7 @@ export class SsoApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application awscc_sso_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application awscc_sso_application}
 */
 export class SsoApplication extends cdktn.TerraformResource {
 
@@ -477,7 +477,7 @@ export class SsoApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsoApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsoApplication to import
-  * @param importFromId The id of the existing SsoApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsoApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsoApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -489,7 +489,7 @@ export class SsoApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sso_application awscc_sso_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sso_application awscc_sso_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -500,7 +500,7 @@ export class SsoApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sso_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

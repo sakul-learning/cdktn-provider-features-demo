@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,75 +10,75 @@ export interface AppflowFlowConfig extends cdktn.TerraformMetaArguments {
   /**
   * Description of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#description AppflowFlow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#description AppflowFlow#description}
   */
   readonly description?: string;
   /**
   * List of Destination connectors of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#destination_flow_config_list AppflowFlow#destination_flow_config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#destination_flow_config_list AppflowFlow#destination_flow_config_list}
   */
   readonly destinationFlowConfigList: AppflowFlowDestinationFlowConfigListStruct[] | cdktn.IResolvable;
   /**
   * Name of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#flow_name AppflowFlow#flow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#flow_name AppflowFlow#flow_name}
   */
   readonly flowName: string;
   /**
   * Flow activation status for Scheduled- and Event-triggered flows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#flow_status AppflowFlow#flow_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#flow_status AppflowFlow#flow_status}
   */
   readonly flowStatus?: string;
   /**
   * The ARN of the AWS Key Management Service (AWS KMS) key that's used to encrypt your function's environment variables. If it's not provided, AWS Lambda uses a default service key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#kms_arn AppflowFlow#kms_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#kms_arn AppflowFlow#kms_arn}
   */
   readonly kmsArn?: string;
   /**
   * Configurations of metadata catalog of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#metadata_catalog_config AppflowFlow#metadata_catalog_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#metadata_catalog_config AppflowFlow#metadata_catalog_config}
   */
   readonly metadataCatalogConfig?: AppflowFlowMetadataCatalogConfig;
   /**
   * Configurations of Source connector of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#source_flow_config AppflowFlow#source_flow_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#source_flow_config AppflowFlow#source_flow_config}
   */
   readonly sourceFlowConfig: AppflowFlowSourceFlowConfig;
   /**
   * List of Tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#tags AppflowFlow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#tags AppflowFlow#tags}
   */
   readonly tags?: AppflowFlowTags[] | cdktn.IResolvable;
   /**
   * List of tasks for the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#tasks AppflowFlow#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#tasks AppflowFlow#tasks}
   */
   readonly tasks: AppflowFlowTasks[] | cdktn.IResolvable;
   /**
   * Trigger settings of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#trigger_config AppflowFlow#trigger_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#trigger_config AppflowFlow#trigger_config}
   */
   readonly triggerConfig: AppflowFlowTriggerConfig;
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -232,25 +232,25 @@ export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropert
   /**
   * A map for properties for custom connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#custom_properties AppflowFlow#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#custom_properties AppflowFlow#custom_properties}
   */
   readonly customProperties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#entity_name AppflowFlow#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#entity_name AppflowFlow#entity_name}
   */
   readonly entityName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnectorErrorHandlingConfig;
   /**
   * List of fields used as ID when performing a write operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
   */
   readonly idFieldNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
   */
   readonly writeOperationType?: string;
 }
@@ -460,15 +460,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesC
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -620,11 +620,11 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesE
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridge {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridgeErrorHandlingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -747,7 +747,7 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesE
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesLookoutMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -841,15 +841,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesL
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -1001,11 +1001,11 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesM
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketoErrorHandlingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -1128,15 +1128,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesM
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -1288,19 +1288,19 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesR
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshift {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshiftErrorHandlingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#intermediate_bucket_name AppflowFlow#intermediate_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#intermediate_bucket_name AppflowFlow#intermediate_bucket_name}
   */
   readonly intermediateBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -1481,11 +1481,11 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesR
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#aggregation_type AppflowFlow#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#aggregation_type AppflowFlow#aggregation_type}
   */
   readonly aggregationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#target_file_size AppflowFlow#target_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#target_file_size AppflowFlow#target_file_size}
   */
   readonly targetFileSize?: number;
 }
@@ -1608,15 +1608,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#path_prefix_hierarchy AppflowFlow#path_prefix_hierarchy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#path_prefix_hierarchy AppflowFlow#path_prefix_hierarchy}
   */
   readonly pathPrefixHierarchy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#prefix_format AppflowFlow#prefix_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#prefix_format AppflowFlow#prefix_format}
   */
   readonly prefixFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#prefix_type AppflowFlow#prefix_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#prefix_type AppflowFlow#prefix_type}
   */
   readonly prefixType?: string;
 }
@@ -1768,19 +1768,19 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#aggregation_config AppflowFlow#aggregation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#aggregation_config AppflowFlow#aggregation_config}
   */
   readonly aggregationConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#file_type AppflowFlow#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#file_type AppflowFlow#file_type}
   */
   readonly fileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#prefix_config AppflowFlow#prefix_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#prefix_config AppflowFlow#prefix_config}
   */
   readonly prefixConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#preserve_source_data_typing AppflowFlow#preserve_source_data_typing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#preserve_source_data_typing AppflowFlow#preserve_source_data_typing}
   */
   readonly preserveSourceDataTyping?: boolean | cdktn.IResolvable;
 }
@@ -1961,15 +1961,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#s3_output_format_config AppflowFlow#s3_output_format_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#s3_output_format_config AppflowFlow#s3_output_format_config}
   */
   readonly s3OutputFormatConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3S3OutputFormatConfig;
 }
@@ -2121,15 +2121,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -2281,25 +2281,25 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforce {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}
   */
   readonly dataTransferApi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforceErrorHandlingConfig;
   /**
   * List of fields used as ID when performing a write operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
   */
   readonly idFieldNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
   */
   readonly writeOperationType?: string;
 }
@@ -2509,15 +2509,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -2669,11 +2669,11 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataSuccessResponseHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
 }
@@ -2796,25 +2796,25 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataErrorHandlingConfig;
   /**
   * List of fields used as ID when performing a write operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
   */
   readonly idFieldNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object_path AppflowFlow#object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object_path AppflowFlow#object_path}
   */
   readonly objectPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#success_response_handling_config AppflowFlow#success_response_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#success_response_handling_config AppflowFlow#success_response_handling_config}
   */
   readonly successResponseHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoDataSuccessResponseHandlingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
   */
   readonly writeOperationType?: string;
 }
@@ -3024,15 +3024,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -3184,19 +3184,19 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflakeErrorHandlingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#intermediate_bucket_name AppflowFlow#intermediate_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#intermediate_bucket_name AppflowFlow#intermediate_bucket_name}
   */
   readonly intermediateBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -3377,11 +3377,11 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#aggregation_type AppflowFlow#aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#aggregation_type AppflowFlow#aggregation_type}
   */
   readonly aggregationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#target_file_size AppflowFlow#target_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#target_file_size AppflowFlow#target_file_size}
   */
   readonly targetFileSize?: number;
 }
@@ -3504,15 +3504,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesU
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#path_prefix_hierarchy AppflowFlow#path_prefix_hierarchy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#path_prefix_hierarchy AppflowFlow#path_prefix_hierarchy}
   */
   readonly pathPrefixHierarchy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#prefix_format AppflowFlow#prefix_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#prefix_format AppflowFlow#prefix_format}
   */
   readonly prefixFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#prefix_type AppflowFlow#prefix_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#prefix_type AppflowFlow#prefix_type}
   */
   readonly prefixType?: string;
 }
@@ -3664,15 +3664,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesU
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#aggregation_config AppflowFlow#aggregation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#aggregation_config AppflowFlow#aggregation_config}
   */
   readonly aggregationConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#file_type AppflowFlow#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#file_type AppflowFlow#file_type}
   */
   readonly fileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#prefix_config AppflowFlow#prefix_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#prefix_config AppflowFlow#prefix_config}
   */
   readonly prefixConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfig;
 }
@@ -3824,15 +3824,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesU
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#s3_output_format_config AppflowFlow#s3_output_format_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#s3_output_format_config AppflowFlow#s3_output_format_config}
   */
   readonly s3OutputFormatConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolverS3OutputFormatConfig;
 }
@@ -3984,15 +3984,15 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesU
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskErrorHandlingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#fail_on_first_error AppflowFlow#fail_on_first_error}
   */
   readonly failOnFirstError?: boolean | cdktn.IResolvable;
 }
@@ -4144,21 +4144,21 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZ
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendesk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#error_handling_config AppflowFlow#error_handling_config}
   */
   readonly errorHandlingConfig?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendeskErrorHandlingConfig;
   /**
   * List of fields used as ID when performing a write operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#id_field_names AppflowFlow#id_field_names}
   */
   readonly idFieldNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#write_operation_type AppflowFlow#write_operation_type}
   */
   readonly writeOperationType?: string;
 }
@@ -4339,47 +4339,47 @@ export class AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZ
 }
 export interface AppflowFlowDestinationFlowConfigListDestinationConnectorProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
   */
   readonly customConnector?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesCustomConnector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#event_bridge AppflowFlow#event_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#event_bridge AppflowFlow#event_bridge}
   */
   readonly eventBridge?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesEventBridge;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#lookout_metrics AppflowFlow#lookout_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#lookout_metrics AppflowFlow#lookout_metrics}
   */
   readonly lookoutMetrics?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesLookoutMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
   */
   readonly marketo?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesMarketo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#redshift AppflowFlow#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#redshift AppflowFlow#redshift}
   */
   readonly redshift?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesRedshift;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
   */
   readonly s3?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
   */
   readonly salesforce?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSalesforce;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
   */
   readonly sapoData?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSapoData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#snowflake AppflowFlow#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#snowflake AppflowFlow#snowflake}
   */
   readonly snowflake?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesSnowflake;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#upsolver AppflowFlow#upsolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#upsolver AppflowFlow#upsolver}
   */
   readonly upsolver?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesUpsolver;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
   */
   readonly zendesk?: AppflowFlowDestinationFlowConfigListDestinationConnectorPropertiesZendesk;
 }
@@ -4765,25 +4765,25 @@ export interface AppflowFlowDestinationFlowConfigListStruct {
   /**
   * The API version that the destination connector uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#api_version AppflowFlow#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#api_version AppflowFlow#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Name of destination connector profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#connector_profile_name AppflowFlow#connector_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#connector_profile_name AppflowFlow#connector_profile_name}
   */
   readonly connectorProfileName?: string;
   /**
   * Destination connector type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#connector_type AppflowFlow#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#connector_type AppflowFlow#connector_type}
   */
   readonly connectorType: string;
   /**
   * Destination connector details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#destination_connector_properties AppflowFlow#destination_connector_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#destination_connector_properties AppflowFlow#destination_connector_properties}
   */
   readonly destinationConnectorProperties: AppflowFlowDestinationFlowConfigListDestinationConnectorProperties;
 }
@@ -4982,19 +4982,19 @@ export interface AppflowFlowMetadataCatalogConfigGlueDataCatalog {
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#database_name AppflowFlow#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#database_name AppflowFlow#database_name}
   */
   readonly databaseName?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#role_arn AppflowFlow#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#role_arn AppflowFlow#role_arn}
   */
   readonly roleArn?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#table_prefix AppflowFlow#table_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#table_prefix AppflowFlow#table_prefix}
   */
   readonly tablePrefix?: string;
 }
@@ -5148,7 +5148,7 @@ export interface AppflowFlowMetadataCatalogConfig {
   /**
   * Configurations of glue data catalog of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#glue_data_catalog AppflowFlow#glue_data_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#glue_data_catalog AppflowFlow#glue_data_catalog}
   */
   readonly glueDataCatalog?: AppflowFlowMetadataCatalogConfigGlueDataCatalog;
 }
@@ -5244,7 +5244,7 @@ export interface AppflowFlowSourceFlowConfigIncrementalPullConfig {
   /**
   * Name of the datetime/timestamp data type field to be used for importing incremental records from the source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#datetime_type_field_name AppflowFlow#datetime_type_field_name}
   */
   readonly datetimeTypeFieldName?: string;
 }
@@ -5338,7 +5338,7 @@ export class AppflowFlowSourceFlowConfigIncrementalPullConfigOutputReference ext
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -5432,11 +5432,11 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitudeOutput
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorDataTransferApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#name AppflowFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#name AppflowFlow#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#type AppflowFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#type AppflowFlow#type}
   */
   readonly type?: string;
 }
@@ -5561,15 +5561,15 @@ export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConne
   /**
   * A map for properties for custom connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#custom_properties AppflowFlow#custom_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#custom_properties AppflowFlow#custom_properties}
   */
   readonly customProperties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}
   */
   readonly dataTransferApi?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnectorDataTransferApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#entity_name AppflowFlow#entity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#entity_name AppflowFlow#entity_name}
   */
   readonly entityName?: string;
 }
@@ -5721,7 +5721,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnector
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -5815,7 +5815,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadogOutputRe
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatrace {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -5909,7 +5909,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatraceOutput
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalytics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -6003,7 +6003,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalytics
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -6097,7 +6097,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexusOutpu
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -6191,7 +6191,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketoOutputRe
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesPardot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -6285,7 +6285,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesPardotOutputRef
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#s3_input_file_type AppflowFlow#s3_input_file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#s3_input_file_type AppflowFlow#s3_input_file_type}
   */
   readonly s3InputFileType?: string;
 }
@@ -6379,15 +6379,15 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormat
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#s3_input_format_config AppflowFlow#s3_input_format_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#s3_input_format_config AppflowFlow#s3_input_format_config}
   */
   readonly s3InputFormatConfig?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfig;
 }
@@ -6539,19 +6539,19 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3OutputReferen
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforce {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#data_transfer_api AppflowFlow#data_transfer_api}
   */
   readonly dataTransferApi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#enable_dynamic_field_update AppflowFlow#enable_dynamic_field_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#enable_dynamic_field_update AppflowFlow#enable_dynamic_field_update}
   */
   readonly enableDynamicFieldUpdate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#include_deleted_records AppflowFlow#include_deleted_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#include_deleted_records AppflowFlow#include_deleted_records}
   */
   readonly includeDeletedRecords?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -6732,7 +6732,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforceOutpu
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}
   */
   readonly maxPageSize?: number;
 }
@@ -6826,7 +6826,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginat
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#max_parallelism AppflowFlow#max_parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#max_parallelism AppflowFlow#max_parallelism}
   */
   readonly maxParallelism?: number;
 }
@@ -6920,19 +6920,19 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParalle
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object_path AppflowFlow#object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object_path AppflowFlow#object_path}
   */
   readonly objectPath?: string;
   /**
   * SAP Source connector page size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#pagination_config AppflowFlow#pagination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#pagination_config AppflowFlow#pagination_config}
   */
   readonly paginationConfig?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig;
   /**
   * SAP Source connector parallelism factor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#parallelism_config AppflowFlow#parallelism_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#parallelism_config AppflowFlow#parallelism_config}
   */
   readonly parallelismConfig?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataParallelismConfig;
 }
@@ -7084,7 +7084,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataOutputR
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -7178,7 +7178,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNowOutpu
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesSingular {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -7272,7 +7272,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSingularOutputR
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesSlack {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -7366,7 +7366,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesSlackOutputRefe
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicro {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -7460,23 +7460,23 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicroOutpu
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#document_type AppflowFlow#document_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#document_type AppflowFlow#document_type}
   */
   readonly documentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#include_all_versions AppflowFlow#include_all_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#include_all_versions AppflowFlow#include_all_versions}
   */
   readonly includeAllVersions?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#include_renditions AppflowFlow#include_renditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#include_renditions AppflowFlow#include_renditions}
   */
   readonly includeRenditions?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#include_source_files AppflowFlow#include_source_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#include_source_files AppflowFlow#include_source_files}
   */
   readonly includeSourceFiles?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -7686,7 +7686,7 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeevaOutputRefe
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorPropertiesZendesk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#object AppflowFlow#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#object AppflowFlow#object}
   */
   readonly object?: string;
 }
@@ -7780,71 +7780,71 @@ export class AppflowFlowSourceFlowConfigSourceConnectorPropertiesZendeskOutputRe
 }
 export interface AppflowFlowSourceFlowConfigSourceConnectorProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#amplitude AppflowFlow#amplitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#amplitude AppflowFlow#amplitude}
   */
   readonly amplitude?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesAmplitude;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
   */
   readonly customConnector?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesCustomConnector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#datadog AppflowFlow#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#datadog AppflowFlow#datadog}
   */
   readonly datadog?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesDatadog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#dynatrace AppflowFlow#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#dynatrace AppflowFlow#dynatrace}
   */
   readonly dynatrace?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesDynatrace;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#google_analytics AppflowFlow#google_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#google_analytics AppflowFlow#google_analytics}
   */
   readonly googleAnalytics?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesGoogleAnalytics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#infor_nexus AppflowFlow#infor_nexus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#infor_nexus AppflowFlow#infor_nexus}
   */
   readonly inforNexus?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesInforNexus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
   */
   readonly marketo?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesMarketo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#pardot AppflowFlow#pardot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#pardot AppflowFlow#pardot}
   */
   readonly pardot?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesPardot;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
   */
   readonly s3?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
   */
   readonly salesforce?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesSalesforce;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
   */
   readonly sapoData?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#service_now AppflowFlow#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#service_now AppflowFlow#service_now}
   */
   readonly serviceNow?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesServiceNow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#singular AppflowFlow#singular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#singular AppflowFlow#singular}
   */
   readonly singular?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesSingular;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#slack AppflowFlow#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#slack AppflowFlow#slack}
   */
   readonly slack?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesSlack;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#trendmicro AppflowFlow#trendmicro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#trendmicro AppflowFlow#trendmicro}
   */
   readonly trendmicro?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesTrendmicro;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#veeva AppflowFlow#veeva}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#veeva AppflowFlow#veeva}
   */
   readonly veeva?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
   */
   readonly zendesk?: AppflowFlowSourceFlowConfigSourceConnectorPropertiesZendesk;
 }
@@ -8404,31 +8404,31 @@ export interface AppflowFlowSourceFlowConfig {
   /**
   * The API version that the destination connector uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#api_version AppflowFlow#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#api_version AppflowFlow#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Name of source connector profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#connector_profile_name AppflowFlow#connector_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#connector_profile_name AppflowFlow#connector_profile_name}
   */
   readonly connectorProfileName?: string;
   /**
   * Type of source connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#connector_type AppflowFlow#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#connector_type AppflowFlow#connector_type}
   */
   readonly connectorType: string;
   /**
   * Configuration for scheduled incremental data pull
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#incremental_pull_config AppflowFlow#incremental_pull_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#incremental_pull_config AppflowFlow#incremental_pull_config}
   */
   readonly incrementalPullConfig?: AppflowFlowSourceFlowConfigIncrementalPullConfig;
   /**
   * Source connector details required to query a connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#source_connector_properties AppflowFlow#source_connector_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#source_connector_properties AppflowFlow#source_connector_properties}
   */
   readonly sourceConnectorProperties: AppflowFlowSourceFlowConfigSourceConnectorProperties;
 }
@@ -8634,13 +8634,13 @@ export interface AppflowFlowTags {
   /**
   * A string used to identify this tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#key AppflowFlow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#key AppflowFlow#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#value AppflowFlow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#value AppflowFlow#value}
   */
   readonly value?: string;
 }
@@ -8785,71 +8785,71 @@ export class AppflowFlowTagsList extends cdktn.ComplexList {
 }
 export interface AppflowFlowTasksConnectorOperator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#amplitude AppflowFlow#amplitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#amplitude AppflowFlow#amplitude}
   */
   readonly amplitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#custom_connector AppflowFlow#custom_connector}
   */
   readonly customConnector?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#datadog AppflowFlow#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#datadog AppflowFlow#datadog}
   */
   readonly datadog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#dynatrace AppflowFlow#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#dynatrace AppflowFlow#dynatrace}
   */
   readonly dynatrace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#google_analytics AppflowFlow#google_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#google_analytics AppflowFlow#google_analytics}
   */
   readonly googleAnalytics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#infor_nexus AppflowFlow#infor_nexus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#infor_nexus AppflowFlow#infor_nexus}
   */
   readonly inforNexus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#marketo AppflowFlow#marketo}
   */
   readonly marketo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#pardot AppflowFlow#pardot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#pardot AppflowFlow#pardot}
   */
   readonly pardot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#s3 AppflowFlow#s3}
   */
   readonly s3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#salesforce AppflowFlow#salesforce}
   */
   readonly salesforce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#sapo_data AppflowFlow#sapo_data}
   */
   readonly sapoData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#service_now AppflowFlow#service_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#service_now AppflowFlow#service_now}
   */
   readonly serviceNow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#singular AppflowFlow#singular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#singular AppflowFlow#singular}
   */
   readonly singular?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#slack AppflowFlow#slack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#slack AppflowFlow#slack}
   */
   readonly slack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#trendmicro AppflowFlow#trendmicro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#trendmicro AppflowFlow#trendmicro}
   */
   readonly trendmicro?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#veeva AppflowFlow#veeva}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#veeva AppflowFlow#veeva}
   */
   readonly veeva?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#zendesk AppflowFlow#zendesk}
   */
   readonly zendesk?: string;
 }
@@ -9407,11 +9407,11 @@ export class AppflowFlowTasksConnectorOperatorOutputReference extends cdktn.Comp
 }
 export interface AppflowFlowTasksTaskProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#key AppflowFlow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#key AppflowFlow#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#value AppflowFlow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#value AppflowFlow#value}
   */
   readonly value?: string;
 }
@@ -9558,31 +9558,31 @@ export interface AppflowFlowTasks {
   /**
   * Operation to be performed on provided source fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#connector_operator AppflowFlow#connector_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#connector_operator AppflowFlow#connector_operator}
   */
   readonly connectorOperator?: AppflowFlowTasksConnectorOperator;
   /**
   * A field value on which source field should be validated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#destination_field AppflowFlow#destination_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#destination_field AppflowFlow#destination_field}
   */
   readonly destinationField?: string;
   /**
   * Source fields on which particular task will be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#source_fields AppflowFlow#source_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#source_fields AppflowFlow#source_fields}
   */
   readonly sourceFields: string[];
   /**
   * A Map used to store task related info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#task_properties AppflowFlow#task_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#task_properties AppflowFlow#task_properties}
   */
   readonly taskProperties?: AppflowFlowTasksTaskProperties[] | cdktn.IResolvable;
   /**
   * Type of task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#task_type AppflowFlow#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#task_type AppflowFlow#task_type}
   */
   readonly taskType: string;
 }
@@ -9808,35 +9808,35 @@ export class AppflowFlowTasksList extends cdktn.ComplexList {
 }
 export interface AppflowFlowTriggerConfigTriggerProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#data_pull_mode AppflowFlow#data_pull_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#data_pull_mode AppflowFlow#data_pull_mode}
   */
   readonly dataPullMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#first_execution_from AppflowFlow#first_execution_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#first_execution_from AppflowFlow#first_execution_from}
   */
   readonly firstExecutionFrom?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#flow_error_deactivation_threshold AppflowFlow#flow_error_deactivation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#flow_error_deactivation_threshold AppflowFlow#flow_error_deactivation_threshold}
   */
   readonly flowErrorDeactivationThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#schedule_end_time AppflowFlow#schedule_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#schedule_end_time AppflowFlow#schedule_end_time}
   */
   readonly scheduleEndTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#schedule_expression AppflowFlow#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#schedule_expression AppflowFlow#schedule_expression}
   */
   readonly scheduleExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#schedule_offset AppflowFlow#schedule_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#schedule_offset AppflowFlow#schedule_offset}
   */
   readonly scheduleOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#schedule_start_time AppflowFlow#schedule_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#schedule_start_time AppflowFlow#schedule_start_time}
   */
   readonly scheduleStartTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#time_zone AppflowFlow#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#time_zone AppflowFlow#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -10135,13 +10135,13 @@ export interface AppflowFlowTriggerConfig {
   /**
   * Details required based on the type of trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#trigger_properties AppflowFlow#trigger_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#trigger_properties AppflowFlow#trigger_properties}
   */
   readonly triggerProperties?: AppflowFlowTriggerConfigTriggerProperties;
   /**
   * Trigger type of the flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#trigger_type AppflowFlow#trigger_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#trigger_type AppflowFlow#trigger_type}
   */
   readonly triggerType: string;
 }
@@ -10261,7 +10261,7 @@ export class AppflowFlowTriggerConfigOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow awscc_appflow_flow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow awscc_appflow_flow}
 */
 export class AppflowFlow extends cdktn.TerraformResource {
 
@@ -10277,7 +10277,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppflowFlow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppflowFlow to import
-  * @param importFromId The id of the existing AppflowFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppflowFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppflowFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -10289,7 +10289,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appflow_flow awscc_appflow_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appflow_flow awscc_appflow_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10300,7 +10300,7 @@ export class AppflowFlow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appflow_flow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

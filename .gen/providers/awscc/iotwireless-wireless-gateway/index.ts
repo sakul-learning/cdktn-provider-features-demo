@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface IotwirelessWirelessGatewayConfig extends cdktn.TerraformMetaArg
   /**
   * Description of Wireless Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#description IotwirelessWirelessGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#description IotwirelessWirelessGateway#description}
   */
   readonly description?: string;
   /**
   * The date and time when the most recent uplink was received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#last_uplink_received_at IotwirelessWirelessGateway#last_uplink_received_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#last_uplink_received_at IotwirelessWirelessGateway#last_uplink_received_at}
   */
   readonly lastUplinkReceivedAt?: string;
   /**
   * The combination of Package, Station and Model which represents the version of the LoRaWAN Wireless Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#lo_ra_wan IotwirelessWirelessGateway#lo_ra_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#lo_ra_wan IotwirelessWirelessGateway#lo_ra_wan}
   */
   readonly loRaWan: IotwirelessWirelessGatewayLoRaWan;
   /**
   * Name of Wireless Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#name IotwirelessWirelessGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#name IotwirelessWirelessGateway#name}
   */
   readonly name?: string;
   /**
   * A list of key-value pairs that contain metadata for the gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#tags IotwirelessWirelessGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#tags IotwirelessWirelessGateway#tags}
   */
   readonly tags?: IotwirelessWirelessGatewayTags[] | cdktn.IResolvable;
   /**
   * Thing Arn. Passed into Update to associate a Thing with the Wireless Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#thing_arn IotwirelessWirelessGateway#thing_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#thing_arn IotwirelessWirelessGateway#thing_arn}
   */
   readonly thingArn?: string;
   /**
   * Thing Name. If there is a Thing created, this can be returned with a Get call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#thing_name IotwirelessWirelessGateway#thing_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#thing_name IotwirelessWirelessGateway#thing_name}
   */
   readonly thingName?: string;
 }
 export interface IotwirelessWirelessGatewayLoRaWan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#gateway_eui IotwirelessWirelessGateway#gateway_eui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#gateway_eui IotwirelessWirelessGateway#gateway_eui}
   */
   readonly gatewayEui: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#rf_region IotwirelessWirelessGateway#rf_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#rf_region IotwirelessWirelessGateway#rf_region}
   */
   readonly rfRegion: string;
 }
@@ -173,11 +173,11 @@ export class IotwirelessWirelessGatewayLoRaWanOutputReference extends cdktn.Comp
 }
 export interface IotwirelessWirelessGatewayTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#key IotwirelessWirelessGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#key IotwirelessWirelessGateway#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#value IotwirelessWirelessGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#value IotwirelessWirelessGateway#value}
   */
   readonly value?: string;
 }
@@ -322,7 +322,7 @@ export class IotwirelessWirelessGatewayTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}
 */
 export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
 
@@ -338,7 +338,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessWirelessGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessWirelessGateway to import
-  * @param importFromId The id of the existing IotwirelessWirelessGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessWirelessGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessWirelessGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -350,7 +350,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,7 +361,7 @@ export class IotwirelessWirelessGateway extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_wireless_gateway',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

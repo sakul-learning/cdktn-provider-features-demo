@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface Ec2IpamConfig extends cdktn.TerraformMetaArguments {
   /**
   * A set of organizational unit (OU) exclusions for the default resource discovery, created with this IPAM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#default_resource_discovery_organizational_unit_exclusions Ec2Ipam#default_resource_discovery_organizational_unit_exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#default_resource_discovery_organizational_unit_exclusions Ec2Ipam#default_resource_discovery_organizational_unit_exclusions}
   */
   readonly defaultResourceDiscoveryOrganizationalUnitExclusions?: Ec2IpamDefaultResourceDiscoveryOrganizationalUnitExclusions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#description Ec2Ipam#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#description Ec2Ipam#description}
   */
   readonly description?: string;
   /**
   * Enable provisioning of GUA space in private pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#enable_private_gua Ec2Ipam#enable_private_gua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#enable_private_gua Ec2Ipam#enable_private_gua}
   */
   readonly enablePrivateGua?: boolean | cdktn.IResolvable;
   /**
   * A metered account is an account that is charged for active IP addresses managed in IPAM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#metered_account Ec2Ipam#metered_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#metered_account Ec2Ipam#metered_account}
   */
   readonly meteredAccount?: string;
   /**
   * The regions IPAM is enabled for. Allows pools to be created in these regions, as well as enabling monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#operating_regions Ec2Ipam#operating_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#operating_regions Ec2Ipam#operating_regions}
   */
   readonly operatingRegions?: Ec2IpamOperatingRegions[] | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#tags Ec2Ipam#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#tags Ec2Ipam#tags}
   */
   readonly tags?: Ec2IpamTags[] | cdktn.IResolvable;
   /**
   * The tier of the IPAM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#tier Ec2Ipam#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#tier Ec2Ipam#tier}
   */
   readonly tier?: string;
 }
@@ -52,7 +52,7 @@ export interface Ec2IpamDefaultResourceDiscoveryOrganizationalUnitExclusions {
   /**
   * An AWS Organizations entity path. Build the path for the OU(s) using AWS Organizations IDs separated by a '/'. Include all child OUs by ending the path with '/*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#organizations_entity_path Ec2Ipam#organizations_entity_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#organizations_entity_path Ec2Ipam#organizations_entity_path}
   */
   readonly organizationsEntityPath?: string;
 }
@@ -170,7 +170,7 @@ export interface Ec2IpamOperatingRegions {
   /**
   * The name of the region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#region_name Ec2Ipam#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#region_name Ec2Ipam#region_name}
   */
   readonly regionName?: string;
 }
@@ -288,13 +288,13 @@ export interface Ec2IpamTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#key Ec2Ipam#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#key Ec2Ipam#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#value Ec2Ipam#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#value Ec2Ipam#value}
   */
   readonly value?: string;
 }
@@ -439,7 +439,7 @@ export class Ec2IpamTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam awscc_ec2_ipam}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam awscc_ec2_ipam}
 */
 export class Ec2Ipam extends cdktn.TerraformResource {
 
@@ -455,7 +455,7 @@ export class Ec2Ipam extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2Ipam resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2Ipam to import
-  * @param importFromId The id of the existing Ec2Ipam that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2Ipam that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2Ipam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -467,7 +467,7 @@ export class Ec2Ipam extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_ipam awscc_ec2_ipam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam awscc_ec2_ipam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,7 +478,7 @@ export class Ec2Ipam extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_ipam',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

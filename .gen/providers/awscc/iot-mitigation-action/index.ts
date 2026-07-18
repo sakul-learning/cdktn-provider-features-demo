@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IotMitigationActionConfig extends cdktn.TerraformMetaArguments 
   /**
   * A unique identifier for the mitigation action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#action_name IotMitigationAction#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#action_name IotMitigationAction#action_name}
   */
   readonly actionName?: string;
   /**
   * The set of parameters for this mitigation action. You can specify only one type of parameter (in other words, you can apply only one action for each defined mitigation action).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#action_params IotMitigationAction#action_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#action_params IotMitigationAction#action_params}
   */
   readonly actionParams: IotMitigationActionActionParams;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#role_arn IotMitigationAction#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#role_arn IotMitigationAction#role_arn}
   */
   readonly roleArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#tags IotMitigationAction#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#tags IotMitigationAction#tags}
   */
   readonly tags?: IotMitigationActionTags[] | cdktn.IResolvable;
 }
@@ -34,13 +34,13 @@ export interface IotMitigationActionActionParamsAddThingsToThingGroupParams {
   /**
   * Specifies if this mitigation action can move the things that triggered the mitigation action out of one or more dynamic thing groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#override_dynamic_groups IotMitigationAction#override_dynamic_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#override_dynamic_groups IotMitigationAction#override_dynamic_groups}
   */
   readonly overrideDynamicGroups?: boolean | cdktn.IResolvable;
   /**
   * The list of groups to which you want to add the things that triggered the mitigation action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#thing_group_names IotMitigationAction#thing_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#thing_group_names IotMitigationAction#thing_group_names}
   */
   readonly thingGroupNames?: string[];
 }
@@ -165,13 +165,13 @@ export interface IotMitigationActionActionParamsEnableIoTLoggingParams {
   /**
   *  Specifies which types of information are logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#log_level IotMitigationAction#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#log_level IotMitigationAction#log_level}
   */
   readonly logLevel?: string;
   /**
   *  The ARN of the IAM role used for logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#role_arn_for_logging IotMitigationAction#role_arn_for_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#role_arn_for_logging IotMitigationAction#role_arn_for_logging}
   */
   readonly roleArnForLogging?: string;
 }
@@ -296,7 +296,7 @@ export interface IotMitigationActionActionParamsPublishFindingToSnsParams {
   /**
   * The ARN of the topic to which you want to publish the findings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#topic_arn IotMitigationAction#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#topic_arn IotMitigationAction#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -390,7 +390,7 @@ export class IotMitigationActionActionParamsPublishFindingToSnsParamsOutputRefer
 }
 export interface IotMitigationActionActionParamsReplaceDefaultPolicyVersionParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#template_name IotMitigationAction#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#template_name IotMitigationAction#template_name}
   */
   readonly templateName?: string;
 }
@@ -484,7 +484,7 @@ export class IotMitigationActionActionParamsReplaceDefaultPolicyVersionParamsOut
 }
 export interface IotMitigationActionActionParamsUpdateCaCertificateParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#action IotMitigationAction#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#action IotMitigationAction#action}
   */
   readonly action?: string;
 }
@@ -578,7 +578,7 @@ export class IotMitigationActionActionParamsUpdateCaCertificateParamsOutputRefer
 }
 export interface IotMitigationActionActionParamsUpdateDeviceCertificateParams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#action IotMitigationAction#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#action IotMitigationAction#action}
   */
   readonly action?: string;
 }
@@ -674,37 +674,37 @@ export interface IotMitigationActionActionParams {
   /**
   * Parameters to define a mitigation action that moves devices associated with a certificate to one or more specified thing groups, typically for quarantine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#add_things_to_thing_group_params IotMitigationAction#add_things_to_thing_group_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#add_things_to_thing_group_params IotMitigationAction#add_things_to_thing_group_params}
   */
   readonly addThingsToThingGroupParams?: IotMitigationActionActionParamsAddThingsToThingGroupParams;
   /**
   * Parameters to define a mitigation action that enables AWS IoT logging at a specified level of detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#enable_io_t_logging_params IotMitigationAction#enable_io_t_logging_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#enable_io_t_logging_params IotMitigationAction#enable_io_t_logging_params}
   */
   readonly enableIoTLoggingParams?: IotMitigationActionActionParamsEnableIoTLoggingParams;
   /**
   * Parameters, to define a mitigation action that publishes findings to Amazon SNS. You can implement your own custom actions in response to the Amazon SNS messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#publish_finding_to_sns_params IotMitigationAction#publish_finding_to_sns_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#publish_finding_to_sns_params IotMitigationAction#publish_finding_to_sns_params}
   */
   readonly publishFindingToSnsParams?: IotMitigationActionActionParamsPublishFindingToSnsParams;
   /**
   * Parameters to define a mitigation action that adds a blank policy to restrict permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#replace_default_policy_version_params IotMitigationAction#replace_default_policy_version_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#replace_default_policy_version_params IotMitigationAction#replace_default_policy_version_params}
   */
   readonly replaceDefaultPolicyVersionParams?: IotMitigationActionActionParamsReplaceDefaultPolicyVersionParams;
   /**
   * Parameters to define a mitigation action that changes the state of the CA certificate to inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#update_ca_certificate_params IotMitigationAction#update_ca_certificate_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#update_ca_certificate_params IotMitigationAction#update_ca_certificate_params}
   */
   readonly updateCaCertificateParams?: IotMitigationActionActionParamsUpdateCaCertificateParams;
   /**
   * Parameters to define a mitigation action that changes the state of the device certificate to inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#update_device_certificate_params IotMitigationAction#update_device_certificate_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#update_device_certificate_params IotMitigationAction#update_device_certificate_params}
   */
   readonly updateDeviceCertificateParams?: IotMitigationActionActionParamsUpdateDeviceCertificateParams;
 }
@@ -945,13 +945,13 @@ export interface IotMitigationActionTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#key IotMitigationAction#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#key IotMitigationAction#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#value IotMitigationAction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#value IotMitigationAction#value}
   */
   readonly value?: string;
 }
@@ -1096,7 +1096,7 @@ export class IotMitigationActionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action}
 */
 export class IotMitigationAction extends cdktn.TerraformResource {
 
@@ -1112,7 +1112,7 @@ export class IotMitigationAction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotMitigationAction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotMitigationAction to import
-  * @param importFromId The id of the existing IotMitigationAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotMitigationAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotMitigationAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1124,7 +1124,7 @@ export class IotMitigationAction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1135,7 +1135,7 @@ export class IotMitigationAction extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_mitigation_action',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

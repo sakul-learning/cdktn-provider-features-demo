@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DirectconnectDirectConnectGatewayConfig extends cdktn.Terraform
   /**
   * The autonomous system number (ASN) for the Amazon side of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway#amazon_side_asn DirectconnectDirectConnectGateway#amazon_side_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway#amazon_side_asn DirectconnectDirectConnectGateway#amazon_side_asn}
   */
   readonly amazonSideAsn?: string;
   /**
   * The name of the Direct Connect gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway#direct_connect_gateway_name DirectconnectDirectConnectGateway#direct_connect_gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway#direct_connect_gateway_name DirectconnectDirectConnectGateway#direct_connect_gateway_name}
   */
   readonly directConnectGatewayName: string;
   /**
   * The tags associated with the Direct Connect gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway#tags DirectconnectDirectConnectGateway#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway#tags DirectconnectDirectConnectGateway#tags}
   */
   readonly tags?: DirectconnectDirectConnectGatewayTags[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface DirectconnectDirectConnectGatewayTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway#key DirectconnectDirectConnectGateway#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway#key DirectconnectDirectConnectGateway#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway#value DirectconnectDirectConnectGateway#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway#value DirectconnectDirectConnectGateway#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class DirectconnectDirectConnectGatewayTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}
 */
 export class DirectconnectDirectConnectGateway extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class DirectconnectDirectConnectGateway extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DirectconnectDirectConnectGateway resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectconnectDirectConnectGateway to import
-  * @param importFromId The id of the existing DirectconnectDirectConnectGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectconnectDirectConnectGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectconnectDirectConnectGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class DirectconnectDirectConnectGateway extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class DirectconnectDirectConnectGateway extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_directconnect_direct_connect_gateway',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

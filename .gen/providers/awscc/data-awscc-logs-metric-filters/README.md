@@ -1,3 +1,3 @@
 # `data_awscc_logs_metric_filters`
 
-Refer to the Terraform Registry for docs: [`data_awscc_logs_metric_filters`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/logs_metric_filters).
+Refer to the Terraform Registry for docs: [`data_awscc_logs_metric_filters`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/logs_metric_filters).

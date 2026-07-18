@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface EvidentlyProjectConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#app_config_resource EvidentlyProject#app_config_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#app_config_resource EvidentlyProject#app_config_resource}
   */
   readonly appConfigResource?: EvidentlyProjectAppConfigResource;
   /**
   * Destinations for data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#data_delivery EvidentlyProject#data_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#data_delivery EvidentlyProject#data_delivery}
   */
   readonly dataDelivery?: EvidentlyProjectDataDelivery;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#description EvidentlyProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#description EvidentlyProject#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#name EvidentlyProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#name EvidentlyProject#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#tags EvidentlyProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#tags EvidentlyProject#tags}
   */
   readonly tags?: EvidentlyProjectTags[] | cdktn.IResolvable;
 }
 export interface EvidentlyProjectAppConfigResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#application_id EvidentlyProject#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#application_id EvidentlyProject#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#environment_id EvidentlyProject#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#environment_id EvidentlyProject#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -161,11 +161,11 @@ export class EvidentlyProjectAppConfigResourceOutputReference extends cdktn.Comp
 }
 export interface EvidentlyProjectDataDeliveryS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#bucket_name EvidentlyProject#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#bucket_name EvidentlyProject#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#prefix EvidentlyProject#prefix}
   */
   readonly prefix?: string;
 }
@@ -288,11 +288,11 @@ export class EvidentlyProjectDataDeliveryS3OutputReference extends cdktn.Complex
 }
 export interface EvidentlyProjectDataDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#log_group EvidentlyProject#log_group}
   */
   readonly logGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#s3 EvidentlyProject#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#s3 EvidentlyProject#s3}
   */
   readonly s3?: EvidentlyProjectDataDeliveryS3;
 }
@@ -417,13 +417,13 @@ export interface EvidentlyProjectTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#key EvidentlyProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#key EvidentlyProject#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#value EvidentlyProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#value EvidentlyProject#value}
   */
   readonly value?: string;
 }
@@ -568,7 +568,7 @@ export class EvidentlyProjectTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project awscc_evidently_project}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project awscc_evidently_project}
 */
 export class EvidentlyProject extends cdktn.TerraformResource {
 
@@ -584,7 +584,7 @@ export class EvidentlyProject extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EvidentlyProject resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvidentlyProject to import
-  * @param importFromId The id of the existing EvidentlyProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvidentlyProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvidentlyProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -596,7 +596,7 @@ export class EvidentlyProject extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/evidently_project awscc_evidently_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_project awscc_evidently_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -607,7 +607,7 @@ export class EvidentlyProject extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_evidently_project',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

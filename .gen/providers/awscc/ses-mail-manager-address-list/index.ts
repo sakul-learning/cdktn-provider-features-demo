@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface SesMailManagerAddressListConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list#address_list_name SesMailManagerAddressList#address_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list#address_list_name SesMailManagerAddressList#address_list_name}
   */
   readonly addressListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list#tags SesMailManagerAddressList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list#tags SesMailManagerAddressList#tags}
   */
   readonly tags?: SesMailManagerAddressListTags[] | cdktn.IResolvable;
 }
 export interface SesMailManagerAddressListTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list#key SesMailManagerAddressList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list#key SesMailManagerAddressList#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list#value SesMailManagerAddressList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list#value SesMailManagerAddressList#value}
   */
   readonly value?: string;
 }
@@ -167,7 +167,7 @@ export class SesMailManagerAddressListTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list}
 */
 export class SesMailManagerAddressList extends cdktn.TerraformResource {
 
@@ -183,7 +183,7 @@ export class SesMailManagerAddressList extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesMailManagerAddressList resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesMailManagerAddressList to import
-  * @param importFromId The id of the existing SesMailManagerAddressList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesMailManagerAddressList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesMailManagerAddressList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -195,7 +195,7 @@ export class SesMailManagerAddressList extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,7 +206,7 @@ export class SesMailManagerAddressList extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_mail_manager_address_list',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

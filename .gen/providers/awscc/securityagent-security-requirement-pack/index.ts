@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SecurityagentSecurityRequirementPackConfig extends cdktn.Terraf
   /**
   * Description of the pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#description SecurityagentSecurityRequirementPack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#description SecurityagentSecurityRequirementPack#description}
   */
   readonly description?: string;
   /**
   * KMS key for client-side encryption of pack contents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#kms_key_id SecurityagentSecurityRequirementPack#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#kms_key_id SecurityagentSecurityRequirementPack#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Name of the security requirement pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#name SecurityagentSecurityRequirementPack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#name SecurityagentSecurityRequirementPack#name}
   */
   readonly name: string;
   /**
   * Security requirements within this pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#security_requirements SecurityagentSecurityRequirementPack#security_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#security_requirements SecurityagentSecurityRequirementPack#security_requirements}
   */
   readonly securityRequirements?: SecurityagentSecurityRequirementPackSecurityRequirements[] | cdktn.IResolvable;
   /**
   * Whether the pack is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#status SecurityagentSecurityRequirementPack#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#status SecurityagentSecurityRequirementPack#status}
   */
   readonly status?: string;
   /**
   * Tags for the security requirement pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#tags SecurityagentSecurityRequirementPack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#tags SecurityagentSecurityRequirementPack#tags}
   */
   readonly tags?: SecurityagentSecurityRequirementPackTags[] | cdktn.IResolvable;
 }
@@ -48,31 +48,31 @@ export interface SecurityagentSecurityRequirementPackSecurityRequirements {
   /**
   * Description of the security requirement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#description SecurityagentSecurityRequirementPack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#description SecurityagentSecurityRequirementPack#description}
   */
   readonly description?: string;
   /**
   * Security domain this requirement belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#domain SecurityagentSecurityRequirementPack#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#domain SecurityagentSecurityRequirementPack#domain}
   */
   readonly domain?: string;
   /**
   * How to evaluate compliance with this requirement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#evaluation SecurityagentSecurityRequirementPack#evaluation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#evaluation SecurityagentSecurityRequirementPack#evaluation}
   */
   readonly evaluation?: string;
   /**
   * Name of the security requirement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#name SecurityagentSecurityRequirementPack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#name SecurityagentSecurityRequirementPack#name}
   */
   readonly name?: string;
   /**
   * How to remediate non-compliance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#remediation SecurityagentSecurityRequirementPack#remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#remediation SecurityagentSecurityRequirementPack#remediation}
   */
   readonly remediation?: string;
 }
@@ -306,13 +306,13 @@ export interface SecurityagentSecurityRequirementPackTags {
   /**
   * The key name of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#key SecurityagentSecurityRequirementPack#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#key SecurityagentSecurityRequirementPack#key}
   */
   readonly key?: string;
   /**
   * The value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#value SecurityagentSecurityRequirementPack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#value SecurityagentSecurityRequirementPack#value}
   */
   readonly value?: string;
 }
@@ -457,7 +457,7 @@ export class SecurityagentSecurityRequirementPackTagsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}
 */
 export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResource {
 
@@ -473,7 +473,7 @@ export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a SecurityagentSecurityRequirementPack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityagentSecurityRequirementPack to import
-  * @param importFromId The id of the existing SecurityagentSecurityRequirementPack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityagentSecurityRequirementPack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityagentSecurityRequirementPack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -485,7 +485,7 @@ export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -496,7 +496,7 @@ export class SecurityagentSecurityRequirementPack extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_securityagent_security_requirement_pack',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

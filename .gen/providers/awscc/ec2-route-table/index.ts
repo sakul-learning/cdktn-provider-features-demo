@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface Ec2RouteTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * Any tags assigned to the route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table#tags Ec2RouteTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table#tags Ec2RouteTable#tags}
   */
   readonly tags?: Ec2RouteTableTags[] | cdktn.IResolvable;
   /**
   * The ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table#vpc_id Ec2RouteTable#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table#vpc_id Ec2RouteTable#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -24,13 +24,13 @@ export interface Ec2RouteTableTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table#key Ec2RouteTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table#key Ec2RouteTable#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table#value Ec2RouteTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table#value Ec2RouteTable#value}
   */
   readonly value?: string;
 }
@@ -175,7 +175,7 @@ export class Ec2RouteTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table awscc_ec2_route_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table awscc_ec2_route_table}
 */
 export class Ec2RouteTable extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class Ec2RouteTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2RouteTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2RouteTable to import
-  * @param importFromId The id of the existing Ec2RouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2RouteTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2RouteTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class Ec2RouteTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_table awscc_ec2_route_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_table awscc_ec2_route_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class Ec2RouteTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_route_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

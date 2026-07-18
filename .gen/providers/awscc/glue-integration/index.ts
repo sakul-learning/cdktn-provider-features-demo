@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface GlueIntegrationConfig extends cdktn.TerraformMetaArguments {
   /**
   * An optional set of non-secret key value pairs that contains additional contextual information about the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#additional_encryption_context GlueIntegration#additional_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#additional_encryption_context GlueIntegration#additional_encryption_context}
   */
   readonly additionalEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#data_filter GlueIntegration#data_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#data_filter GlueIntegration#data_filter}
   */
   readonly dataFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#description GlueIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#description GlueIntegration#description}
   */
   readonly description?: string;
   /**
   * The configuration settings for the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#integration_config GlueIntegration#integration_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#integration_config GlueIntegration#integration_config}
   */
   readonly integrationConfig?: GlueIntegrationIntegrationConfig;
   /**
   * The name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#integration_name GlueIntegration#integration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#integration_name GlueIntegration#integration_name}
   */
   readonly integrationName: string;
   /**
   * An KMS key identifier for the key to use to encrypt the integration. If you don't specify an encryption key, the default AWS owned KMS key is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#kms_key_id GlueIntegration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#kms_key_id GlueIntegration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The Amazon Resource Name (ARN) of the database to use as the source for replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#source_arn GlueIntegration#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#source_arn GlueIntegration#source_arn}
   */
   readonly sourceArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#tags GlueIntegration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#tags GlueIntegration#tags}
   */
   readonly tags?: GlueIntegrationTags[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the Glue data warehouse to use as the target for replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#target_arn GlueIntegration#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#target_arn GlueIntegration#target_arn}
   */
   readonly targetArn: string;
 }
@@ -62,19 +62,19 @@ export interface GlueIntegrationIntegrationConfig {
   /**
   * Enables continuous synchronization for on-demand data extractions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#continuous_sync GlueIntegration#continuous_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#continuous_sync GlueIntegration#continuous_sync}
   */
   readonly continuousSync?: boolean | cdktn.IResolvable;
   /**
   * Specifies the frequency at which CDC (Change Data Capture) pulls or incremental loads should occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#refresh_interval GlueIntegration#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#refresh_interval GlueIntegration#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * A collection of key-value pairs that specify additional properties for the integration source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#source_properties GlueIntegration#source_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#source_properties GlueIntegration#source_properties}
   */
   readonly sourceProperties?: { [key: string]: string };
 }
@@ -228,13 +228,13 @@ export interface GlueIntegrationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#key GlueIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#key GlueIntegration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#value GlueIntegration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#value GlueIntegration#value}
   */
   readonly value?: string;
 }
@@ -379,7 +379,7 @@ export class GlueIntegrationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration awscc_glue_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration awscc_glue_integration}
 */
 export class GlueIntegration extends cdktn.TerraformResource {
 
@@ -395,7 +395,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueIntegration to import
-  * @param importFromId The id of the existing GlueIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -407,7 +407,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/glue_integration awscc_glue_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_integration awscc_glue_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,7 +418,7 @@ export class GlueIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

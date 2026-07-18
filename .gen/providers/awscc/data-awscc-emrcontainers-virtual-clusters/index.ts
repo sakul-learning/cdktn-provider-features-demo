@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/emrcontainers_virtual_clusters
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/emrcontainers_virtual_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEmrcontainersVirtualClustersConfig extends cdktn.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/emrcontainers_virtual_clusters awscc_emrcontainers_virtual_clusters}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/emrcontainers_virtual_clusters awscc_emrcontainers_virtual_clusters}
 */
 export class DataAwsccEmrcontainersVirtualClusters extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEmrcontainersVirtualClusters extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccEmrcontainersVirtualClusters resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEmrcontainersVirtualClusters to import
-  * @param importFromId The id of the existing DataAwsccEmrcontainersVirtualClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/emrcontainers_virtual_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEmrcontainersVirtualClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/emrcontainers_virtual_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEmrcontainersVirtualClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEmrcontainersVirtualClusters extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/emrcontainers_virtual_clusters awscc_emrcontainers_virtual_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/emrcontainers_virtual_clusters awscc_emrcontainers_virtual_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEmrcontainersVirtualClusters extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_emrcontainers_virtual_clusters',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

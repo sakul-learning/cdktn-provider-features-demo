@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktn from 'cdktn';
 
 export interface BedrockagentFlowConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#customer_encryption_key_arn BedrockagentFlow#customer_encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#customer_encryption_key_arn BedrockagentFlow#customer_encryption_key_arn}
   */
   readonly customerEncryptionKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#description BedrockagentFlow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#description BedrockagentFlow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#execution_role_arn BedrockagentFlow#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#execution_role_arn BedrockagentFlow#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#region BedrockagentFlow#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#region BedrockagentFlow#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#tags BedrockagentFlow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#tags BedrockagentFlow#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#definition BedrockagentFlow#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#definition BedrockagentFlow#definition}
   */
   readonly definition?: BedrockagentFlowDefinition[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#timeouts BedrockagentFlow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#timeouts BedrockagentFlow#timeouts}
   */
   readonly timeouts?: BedrockagentFlowTimeouts;
 }
 export interface BedrockagentFlowDefinitionConnectionConfigurationConditional {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#condition BedrockagentFlow#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#condition BedrockagentFlow#condition}
   */
   readonly condition: string;
 }
@@ -161,11 +161,11 @@ export class BedrockagentFlowDefinitionConnectionConfigurationConditionalList ex
 }
 export interface BedrockagentFlowDefinitionConnectionConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#source_output BedrockagentFlow#source_output}
   */
   readonly sourceOutput: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#target_input BedrockagentFlow#target_input}
   */
   readonly targetInput: string;
 }
@@ -306,13 +306,13 @@ export interface BedrockagentFlowDefinitionConnectionConfiguration {
   /**
   * conditional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#conditional BedrockagentFlow#conditional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#conditional BedrockagentFlow#conditional}
   */
   readonly conditional?: BedrockagentFlowDefinitionConnectionConfigurationConditional[] | cdktn.IResolvable;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#data BedrockagentFlow#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#data BedrockagentFlow#data}
   */
   readonly data?: BedrockagentFlowDefinitionConnectionConfigurationData[] | cdktn.IResolvable;
 }
@@ -457,25 +457,25 @@ export class BedrockagentFlowDefinitionConnectionConfigurationList extends cdktn
 }
 export interface BedrockagentFlowDefinitionConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#source BedrockagentFlow#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#source BedrockagentFlow#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#target BedrockagentFlow#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#target BedrockagentFlow#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#configuration BedrockagentFlow#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#configuration BedrockagentFlow#configuration}
   */
   readonly configuration?: BedrockagentFlowDefinitionConnectionConfiguration[] | cdktn.IResolvable;
 }
@@ -695,7 +695,7 @@ export class BedrockagentFlowDefinitionConnectionList extends cdktn.ComplexList 
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationAgent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#agent_alias_arn BedrockagentFlow#agent_alias_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#agent_alias_arn BedrockagentFlow#agent_alias_arn}
   */
   readonly agentAliasArn: string;
 }
@@ -889,11 +889,11 @@ export class BedrockagentFlowDefinitionNodeConfigurationCollectorList extends cd
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationConditionCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#expression BedrockagentFlow#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#expression BedrockagentFlow#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
 }
@@ -1037,7 +1037,7 @@ export interface BedrockagentFlowDefinitionNodeConfigurationCondition {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#condition BedrockagentFlow#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#condition BedrockagentFlow#condition}
   */
   readonly condition?: BedrockagentFlowDefinitionNodeConfigurationConditionCondition[] | cdktn.IResolvable;
 }
@@ -1153,11 +1153,11 @@ export class BedrockagentFlowDefinitionNodeConfigurationConditionList extends cd
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationInlineCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#code BedrockagentFlow#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#code BedrockagentFlow#code}
   */
   readonly code: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#language BedrockagentFlow#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#language BedrockagentFlow#language}
   */
   readonly language: string;
 }
@@ -1458,11 +1458,11 @@ export class BedrockagentFlowDefinitionNodeConfigurationIteratorList extends cdk
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#guardrail_identifier BedrockagentFlow#guardrail_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#guardrail_identifier BedrockagentFlow#guardrail_identifier}
   */
   readonly guardrailIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#guardrail_version BedrockagentFlow#guardrail_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#guardrail_version BedrockagentFlow#guardrail_version}
   */
   readonly guardrailVersion: string;
 }
@@ -1601,19 +1601,19 @@ export class BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailCo
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#max_tokens BedrockagentFlow#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#max_tokens BedrockagentFlow#max_tokens}
   */
   readonly maxTokens?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#stop_sequences BedrockagentFlow#stop_sequences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#stop_sequences BedrockagentFlow#stop_sequences}
   */
   readonly stopSequences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#temperature BedrockagentFlow#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#temperature BedrockagentFlow#temperature}
   */
   readonly temperature?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#top_p BedrockagentFlow#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#top_p BedrockagentFlow#top_p}
   */
   readonly topP?: number;
 }
@@ -1818,7 +1818,7 @@ export interface BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferen
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
   */
   readonly text?: BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfigurationText[] | cdktn.IResolvable;
 }
@@ -1934,27 +1934,27 @@ export class BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceCo
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#knowledge_base_id BedrockagentFlow#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#knowledge_base_id BedrockagentFlow#knowledge_base_id}
   */
   readonly knowledgeBaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#model_id BedrockagentFlow#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#model_id BedrockagentFlow#model_id}
   */
   readonly modelId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#number_of_results BedrockagentFlow#number_of_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#number_of_results BedrockagentFlow#number_of_results}
   */
   readonly numberOfResults?: number;
   /**
   * guardrail_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#guardrail_configuration BedrockagentFlow#guardrail_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#guardrail_configuration BedrockagentFlow#guardrail_configuration}
   */
   readonly guardrailConfiguration?: BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseGuardrailConfiguration[] | cdktn.IResolvable;
   /**
   * inference_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#inference_configuration BedrockagentFlow#inference_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#inference_configuration BedrockagentFlow#inference_configuration}
   */
   readonly inferenceConfiguration?: BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfiguration[] | cdktn.IResolvable;
 }
@@ -2180,7 +2180,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseList extend
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationLambdaFunction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#lambda_arn BedrockagentFlow#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#lambda_arn BedrockagentFlow#lambda_arn}
   */
   readonly lambdaArn: string;
 }
@@ -2293,11 +2293,11 @@ export class BedrockagentFlowDefinitionNodeConfigurationLambdaFunctionList exten
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationLex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#bot_alias_arn BedrockagentFlow#bot_alias_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#bot_alias_arn BedrockagentFlow#bot_alias_arn}
   */
   readonly botAliasArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#locale_id BedrockagentFlow#locale_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#locale_id BedrockagentFlow#locale_id}
   */
   readonly localeId: string;
 }
@@ -2517,11 +2517,11 @@ export class BedrockagentFlowDefinitionNodeConfigurationOutputList extends cdktn
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#guardrail_identifier BedrockagentFlow#guardrail_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#guardrail_identifier BedrockagentFlow#guardrail_identifier}
   */
   readonly guardrailIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#guardrail_version BedrockagentFlow#guardrail_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#guardrail_version BedrockagentFlow#guardrail_version}
   */
   readonly guardrailVersion: string;
 }
@@ -2660,19 +2660,19 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfigura
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#max_tokens BedrockagentFlow#max_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#max_tokens BedrockagentFlow#max_tokens}
   */
   readonly maxTokens?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#stop_sequences BedrockagentFlow#stop_sequences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#stop_sequences BedrockagentFlow#stop_sequences}
   */
   readonly stopSequences?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#temperature BedrockagentFlow#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#temperature BedrockagentFlow#temperature}
   */
   readonly temperature?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#top_p BedrockagentFlow#top_p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#top_p BedrockagentFlow#top_p}
   */
   readonly topP?: number;
 }
@@ -2877,7 +2877,7 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigur
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
   */
   readonly text?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationText[] | cdktn.IResolvable;
 }
@@ -2993,7 +2993,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
 }
@@ -3106,7 +3106,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
 }
@@ -3219,13 +3219,13 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
   */
   readonly text?: string;
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
   */
   readonly cachePoint?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContentCachePoint[] | cdktn.IResolvable;
 }
@@ -3370,13 +3370,13 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#role BedrockagentFlow#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#role BedrockagentFlow#role}
   */
   readonly role: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#content BedrockagentFlow#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#content BedrockagentFlow#content}
   */
   readonly content?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessageContent[] | cdktn.IResolvable;
 }
@@ -3518,7 +3518,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
 }
@@ -3631,13 +3631,13 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
   */
   readonly text?: string;
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
   */
   readonly cachePoint?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystemCachePoint[] | cdktn.IResolvable;
 }
@@ -3782,7 +3782,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
 }
@@ -3895,7 +3895,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#json BedrockagentFlow#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#json BedrockagentFlow#json}
   */
   readonly json?: string;
 }
@@ -4011,17 +4011,17 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#description BedrockagentFlow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#description BedrockagentFlow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
   /**
   * input_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#input_schema BedrockagentFlow#input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#input_schema BedrockagentFlow#input_schema}
   */
   readonly inputSchema?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpecInputSchema[] | cdktn.IResolvable;
 }
@@ -4194,13 +4194,13 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigur
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
   */
   readonly cachePoint?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolCachePoint[] | cdktn.IResolvable;
   /**
   * tool_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#tool_spec BedrockagentFlow#tool_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#tool_spec BedrockagentFlow#tool_spec}
   */
   readonly toolSpec?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolToolSpec[] | cdktn.IResolvable;
 }
@@ -4507,7 +4507,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceTool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
 }
@@ -4622,19 +4622,19 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigur
   /**
   * any block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#any BedrockagentFlow#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#any BedrockagentFlow#any}
   */
   readonly any?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAny[] | cdktn.IResolvable;
   /**
   * auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#auto BedrockagentFlow#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#auto BedrockagentFlow#auto}
   */
   readonly auto?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceAuto[] | cdktn.IResolvable;
   /**
   * tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#tool BedrockagentFlow#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#tool BedrockagentFlow#tool}
   */
   readonly tool?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoiceTool[] | cdktn.IResolvable;
 }
@@ -4810,13 +4810,13 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigur
   /**
   * tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#tool BedrockagentFlow#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#tool BedrockagentFlow#tool}
   */
   readonly tool?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationTool[] | cdktn.IResolvable;
   /**
   * tool_choice block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#tool_choice BedrockagentFlow#tool_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#tool_choice BedrockagentFlow#tool_choice}
   */
   readonly toolChoice?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfigurationToolChoice[] | cdktn.IResolvable;
 }
@@ -4963,25 +4963,25 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigur
   /**
   * input_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#input_variable BedrockagentFlow#input_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#input_variable BedrockagentFlow#input_variable}
   */
   readonly inputVariable?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatInputVariable[] | cdktn.IResolvable;
   /**
   * message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#message BedrockagentFlow#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#message BedrockagentFlow#message}
   */
   readonly message?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatMessage[] | cdktn.IResolvable;
   /**
   * system block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#system BedrockagentFlow#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#system BedrockagentFlow#system}
   */
   readonly systemAttribute?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatSystem[] | cdktn.IResolvable;
   /**
   * tool_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#tool_configuration BedrockagentFlow#tool_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#tool_configuration BedrockagentFlow#tool_configuration}
   */
   readonly toolConfiguration?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChatToolConfiguration[] | cdktn.IResolvable;
 }
@@ -5184,7 +5184,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
 }
@@ -5297,7 +5297,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
 }
@@ -5410,19 +5410,19 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationText {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
   */
   readonly text: string;
   /**
   * cache_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#cache_point BedrockagentFlow#cache_point}
   */
   readonly cachePoint?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextCachePoint[] | cdktn.IResolvable;
   /**
   * input_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#input_variable BedrockagentFlow#input_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#input_variable BedrockagentFlow#input_variable}
   */
   readonly inputVariable?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextInputVariable[] | cdktn.IResolvable;
 }
@@ -5595,13 +5595,13 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigur
   /**
   * chat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#chat BedrockagentFlow#chat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#chat BedrockagentFlow#chat}
   */
   readonly chat?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationChat[] | cdktn.IResolvable;
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
   */
   readonly text?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationText[] | cdktn.IResolvable;
 }
@@ -5746,27 +5746,27 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInline {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#additional_model_request_fields BedrockagentFlow#additional_model_request_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#additional_model_request_fields BedrockagentFlow#additional_model_request_fields}
   */
   readonly additionalModelRequestFields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#model_id BedrockagentFlow#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#model_id BedrockagentFlow#model_id}
   */
   readonly modelId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#template_type BedrockagentFlow#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#template_type BedrockagentFlow#template_type}
   */
   readonly templateType: string;
   /**
   * inference_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#inference_configuration BedrockagentFlow#inference_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#inference_configuration BedrockagentFlow#inference_configuration}
   */
   readonly inferenceConfiguration?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfiguration[] | cdktn.IResolvable;
   /**
   * template_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#template_configuration BedrockagentFlow#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#template_configuration BedrockagentFlow#template_configuration}
   */
   readonly templateConfiguration?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfiguration[] | cdktn.IResolvable;
 }
@@ -5992,7 +5992,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguratio
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#prompt_arn BedrockagentFlow#prompt_arn}
   */
   readonly promptArn: string;
 }
@@ -6107,13 +6107,13 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigur
   /**
   * inline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#inline BedrockagentFlow#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#inline BedrockagentFlow#inline}
   */
   readonly inline?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationInline[] | cdktn.IResolvable;
   /**
   * resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#resource BedrockagentFlow#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#resource BedrockagentFlow#resource}
   */
   readonly resource?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfigurationResource[] | cdktn.IResolvable;
 }
@@ -6260,13 +6260,13 @@ export interface BedrockagentFlowDefinitionNodeConfigurationPrompt {
   /**
   * guardrail_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#guardrail_configuration BedrockagentFlow#guardrail_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#guardrail_configuration BedrockagentFlow#guardrail_configuration}
   */
   readonly guardrailConfiguration?: BedrockagentFlowDefinitionNodeConfigurationPromptGuardrailConfiguration[] | cdktn.IResolvable;
   /**
   * source_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#source_configuration BedrockagentFlow#source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#source_configuration BedrockagentFlow#source_configuration}
   */
   readonly sourceConfiguration?: BedrockagentFlowDefinitionNodeConfigurationPromptSourceConfiguration[] | cdktn.IResolvable;
 }
@@ -6411,7 +6411,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationPromptList extends cdktn
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#bucket_name BedrockagentFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#bucket_name BedrockagentFlow#bucket_name}
   */
   readonly bucketName: string;
 }
@@ -6526,7 +6526,7 @@ export interface BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConf
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#s3 BedrockagentFlow#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#s3 BedrockagentFlow#s3}
   */
   readonly s3?: BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfigurationS3[] | cdktn.IResolvable;
 }
@@ -6644,7 +6644,7 @@ export interface BedrockagentFlowDefinitionNodeConfigurationRetrieval {
   /**
   * service_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
   */
   readonly serviceConfiguration?: BedrockagentFlowDefinitionNodeConfigurationRetrievalServiceConfiguration[] | cdktn.IResolvable;
 }
@@ -6760,7 +6760,7 @@ export class BedrockagentFlowDefinitionNodeConfigurationRetrievalList extends cd
 }
 export interface BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#bucket_name BedrockagentFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#bucket_name BedrockagentFlow#bucket_name}
   */
   readonly bucketName: string;
 }
@@ -6875,7 +6875,7 @@ export interface BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfig
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#s3 BedrockagentFlow#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#s3 BedrockagentFlow#s3}
   */
   readonly s3?: BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfigurationS3[] | cdktn.IResolvable;
 }
@@ -6993,7 +6993,7 @@ export interface BedrockagentFlowDefinitionNodeConfigurationStorage {
   /**
   * service_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
   */
   readonly serviceConfiguration?: BedrockagentFlowDefinitionNodeConfigurationStorageServiceConfiguration[] | cdktn.IResolvable;
 }
@@ -7111,79 +7111,79 @@ export interface BedrockagentFlowDefinitionNodeConfiguration {
   /**
   * agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#agent BedrockagentFlow#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#agent BedrockagentFlow#agent}
   */
   readonly agent?: BedrockagentFlowDefinitionNodeConfigurationAgent[] | cdktn.IResolvable;
   /**
   * collector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#collector BedrockagentFlow#collector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#collector BedrockagentFlow#collector}
   */
   readonly collector?: BedrockagentFlowDefinitionNodeConfigurationCollector[] | cdktn.IResolvable;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#condition BedrockagentFlow#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#condition BedrockagentFlow#condition}
   */
   readonly condition?: BedrockagentFlowDefinitionNodeConfigurationCondition[] | cdktn.IResolvable;
   /**
   * inline_code block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#inline_code BedrockagentFlow#inline_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#inline_code BedrockagentFlow#inline_code}
   */
   readonly inlineCode?: BedrockagentFlowDefinitionNodeConfigurationInlineCode[] | cdktn.IResolvable;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#input BedrockagentFlow#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#input BedrockagentFlow#input}
   */
   readonly input?: BedrockagentFlowDefinitionNodeConfigurationInput[] | cdktn.IResolvable;
   /**
   * iterator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#iterator BedrockagentFlow#iterator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#iterator BedrockagentFlow#iterator}
   */
   readonly iterator?: BedrockagentFlowDefinitionNodeConfigurationIterator[] | cdktn.IResolvable;
   /**
   * knowledge_base block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#knowledge_base BedrockagentFlow#knowledge_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#knowledge_base BedrockagentFlow#knowledge_base}
   */
   readonly knowledgeBase?: BedrockagentFlowDefinitionNodeConfigurationKnowledgeBase[] | cdktn.IResolvable;
   /**
   * lambda_function block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#lambda_function BedrockagentFlow#lambda_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#lambda_function BedrockagentFlow#lambda_function}
   */
   readonly lambdaFunction?: BedrockagentFlowDefinitionNodeConfigurationLambdaFunction[] | cdktn.IResolvable;
   /**
   * lex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#lex BedrockagentFlow#lex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#lex BedrockagentFlow#lex}
   */
   readonly lex?: BedrockagentFlowDefinitionNodeConfigurationLex[] | cdktn.IResolvable;
   /**
   * output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#output BedrockagentFlow#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#output BedrockagentFlow#output}
   */
   readonly output?: BedrockagentFlowDefinitionNodeConfigurationOutput[] | cdktn.IResolvable;
   /**
   * prompt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#prompt BedrockagentFlow#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#prompt BedrockagentFlow#prompt}
   */
   readonly prompt?: BedrockagentFlowDefinitionNodeConfigurationPrompt[] | cdktn.IResolvable;
   /**
   * retrieval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#retrieval BedrockagentFlow#retrieval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#retrieval BedrockagentFlow#retrieval}
   */
   readonly retrieval?: BedrockagentFlowDefinitionNodeConfigurationRetrieval[] | cdktn.IResolvable;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#storage BedrockagentFlow#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#storage BedrockagentFlow#storage}
   */
   readonly storage?: BedrockagentFlowDefinitionNodeConfigurationStorage[] | cdktn.IResolvable;
 }
@@ -7647,19 +7647,19 @@ export class BedrockagentFlowDefinitionNodeConfigurationList extends cdktn.Compl
 }
 export interface BedrockagentFlowDefinitionNodeInput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#category BedrockagentFlow#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#category BedrockagentFlow#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#expression BedrockagentFlow#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#expression BedrockagentFlow#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
 }
@@ -7853,11 +7853,11 @@ export class BedrockagentFlowDefinitionNodeInputList extends cdktn.ComplexList {
 }
 export interface BedrockagentFlowDefinitionNodeOutput {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
 }
@@ -7996,29 +7996,29 @@ export class BedrockagentFlowDefinitionNodeOutputList extends cdktn.ComplexList 
 }
 export interface BedrockagentFlowDefinitionNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}
   */
   readonly type: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#configuration BedrockagentFlow#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#configuration BedrockagentFlow#configuration}
   */
   readonly configuration?: BedrockagentFlowDefinitionNodeConfiguration[] | cdktn.IResolvable;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#input BedrockagentFlow#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#input BedrockagentFlow#input}
   */
   readonly input?: BedrockagentFlowDefinitionNodeInput[] | cdktn.IResolvable;
   /**
   * output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#output BedrockagentFlow#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#output BedrockagentFlow#output}
   */
   readonly output?: BedrockagentFlowDefinitionNodeOutput[] | cdktn.IResolvable;
 }
@@ -8246,13 +8246,13 @@ export interface BedrockagentFlowDefinition {
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#connection BedrockagentFlow#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#connection BedrockagentFlow#connection}
   */
   readonly connection?: BedrockagentFlowDefinitionConnection[] | cdktn.IResolvable;
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#node BedrockagentFlow#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#node BedrockagentFlow#node}
   */
   readonly nodeAttribute?: BedrockagentFlowDefinitionNode[] | cdktn.IResolvable;
 }
@@ -8399,19 +8399,19 @@ export interface BedrockagentFlowTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#create BedrockagentFlow#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#create BedrockagentFlow#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#delete BedrockagentFlow#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#delete BedrockagentFlow#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#update BedrockagentFlow#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#update BedrockagentFlow#update}
   */
   readonly update?: string;
 }
@@ -8563,7 +8563,7 @@ export class BedrockagentFlowTimeoutsOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}
 */
 export class BedrockagentFlow extends cdktn.TerraformResource {
 
@@ -8579,7 +8579,7 @@ export class BedrockagentFlow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentFlow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentFlow to import
-  * @param importFromId The id of the existing BedrockagentFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -8591,7 +8591,7 @@ export class BedrockagentFlow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8602,7 +8602,7 @@ export class BedrockagentFlow extends cdktn.TerraformResource {
       terraformResourceType: 'aws_bedrockagent_flow',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

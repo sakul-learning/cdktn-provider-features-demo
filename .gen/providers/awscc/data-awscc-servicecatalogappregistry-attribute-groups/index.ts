@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalogappregistry_attribute_groups
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/servicecatalogappregistry_attribute_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccServicecatalogappregistryAttributeGroupsConfig extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalogappregistry_attribute_groups awscc_servicecatalogappregistry_attribute_groups}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/servicecatalogappregistry_attribute_groups awscc_servicecatalogappregistry_attribute_groups}
 */
 export class DataAwsccServicecatalogappregistryAttributeGroups extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccServicecatalogappregistryAttributeGroups extends cdktn.Ter
   * Generates CDKTN code for importing a DataAwsccServicecatalogappregistryAttributeGroups resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccServicecatalogappregistryAttributeGroups to import
-  * @param importFromId The id of the existing DataAwsccServicecatalogappregistryAttributeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalogappregistry_attribute_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccServicecatalogappregistryAttributeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/servicecatalogappregistry_attribute_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccServicecatalogappregistryAttributeGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccServicecatalogappregistryAttributeGroups extends cdktn.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/servicecatalogappregistry_attribute_groups awscc_servicecatalogappregistry_attribute_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/servicecatalogappregistry_attribute_groups awscc_servicecatalogappregistry_attribute_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccServicecatalogappregistryAttributeGroups extends cdktn.Ter
       terraformResourceType: 'awscc_servicecatalogappregistry_attribute_groups',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

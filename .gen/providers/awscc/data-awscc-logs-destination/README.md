@@ -1,3 +1,3 @@
 # `data_awscc_logs_destination`
 
-Refer to the Terraform Registry for docs: [`data_awscc_logs_destination`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/logs_destination).
+Refer to the Terraform Registry for docs: [`data_awscc_logs_destination`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/logs_destination).

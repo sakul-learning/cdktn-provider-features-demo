@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktn from 'cdktn';
 
 export interface AppsyncApiConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#name AppsyncApi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#name AppsyncApi#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
   */
   readonly ownerContact?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#region AppsyncApi#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#region AppsyncApi#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#tags AppsyncApi#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#tags AppsyncApi#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * event_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
   */
   readonly eventConfig?: AppsyncApiEventConfig[] | cdktn.IResolvable;
 }
 export interface AppsyncApiEventConfigAuthProviderCognitoConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#app_id_client_regex AppsyncApi#app_id_client_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#app_id_client_regex AppsyncApi#app_id_client_regex}
   */
   readonly appIdClientRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#aws_region AppsyncApi#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#aws_region AppsyncApi#aws_region}
   */
   readonly awsRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#user_pool_id AppsyncApi#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#user_pool_id AppsyncApi#user_pool_id}
   */
   readonly userPoolId: string;
 }
@@ -210,15 +210,15 @@ export class AppsyncApiEventConfigAuthProviderCognitoConfigList extends cdktn.Co
 }
 export interface AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#authorizer_result_ttl_in_seconds AppsyncApi#authorizer_result_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#authorizer_result_ttl_in_seconds AppsyncApi#authorizer_result_ttl_in_seconds}
   */
   readonly authorizerResultTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#authorizer_uri AppsyncApi#authorizer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#authorizer_uri AppsyncApi#authorizer_uri}
   */
   readonly authorizerUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#identity_validation_expression AppsyncApi#identity_validation_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#identity_validation_expression AppsyncApi#identity_validation_expression}
   */
   readonly identityValidationExpression?: string;
 }
@@ -389,19 +389,19 @@ export class AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfigList extends
 }
 export interface AppsyncApiEventConfigAuthProviderOpenidConnectConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_ttl AppsyncApi#auth_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#auth_ttl AppsyncApi#auth_ttl}
   */
   readonly authTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#client_id AppsyncApi#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#client_id AppsyncApi#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#iat_ttl AppsyncApi#iat_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#iat_ttl AppsyncApi#iat_ttl}
   */
   readonly iatTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#issuer AppsyncApi#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#issuer AppsyncApi#issuer}
   */
   readonly issuer: string;
 }
@@ -601,25 +601,25 @@ export class AppsyncApiEventConfigAuthProviderOpenidConnectConfigList extends cd
 }
 export interface AppsyncApiEventConfigAuthProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
   /**
   * cognito_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
   */
   readonly cognitoConfig?: AppsyncApiEventConfigAuthProviderCognitoConfig[] | cdktn.IResolvable;
   /**
   * lambda_authorizer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
   */
   readonly lambdaAuthorizerConfig?: AppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig[] | cdktn.IResolvable;
   /**
   * openid_connect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#openid_connect_config AppsyncApi#openid_connect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#openid_connect_config AppsyncApi#openid_connect_config}
   */
   readonly openidConnectConfig?: AppsyncApiEventConfigAuthProviderOpenidConnectConfig[] | cdktn.IResolvable;
 }
@@ -819,7 +819,7 @@ export class AppsyncApiEventConfigAuthProviderList extends cdktn.ComplexList {
 }
 export interface AppsyncApiEventConfigConnectionAuthMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
 }
@@ -932,7 +932,7 @@ export class AppsyncApiEventConfigConnectionAuthModeList extends cdktn.ComplexLi
 }
 export interface AppsyncApiEventConfigDefaultPublishAuthMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
 }
@@ -1045,7 +1045,7 @@ export class AppsyncApiEventConfigDefaultPublishAuthModeList extends cdktn.Compl
 }
 export interface AppsyncApiEventConfigDefaultSubscribeAuthMode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
   */
   readonly authType: string;
 }
@@ -1158,11 +1158,11 @@ export class AppsyncApiEventConfigDefaultSubscribeAuthModeList extends cdktn.Com
 }
 export interface AppsyncApiEventConfigLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AppsyncApi#cloudwatch_logs_role_arn}
   */
   readonly cloudwatchLogsRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#log_level AppsyncApi#log_level}
   */
   readonly logLevel: string;
 }
@@ -1303,31 +1303,31 @@ export interface AppsyncApiEventConfig {
   /**
   * auth_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
   */
   readonly authProvider?: AppsyncApiEventConfigAuthProvider[] | cdktn.IResolvable;
   /**
   * connection_auth_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
   */
   readonly connectionAuthMode?: AppsyncApiEventConfigConnectionAuthMode[] | cdktn.IResolvable;
   /**
   * default_publish_auth_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
   */
   readonly defaultPublishAuthMode?: AppsyncApiEventConfigDefaultPublishAuthMode[] | cdktn.IResolvable;
   /**
   * default_subscribe_auth_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
   */
   readonly defaultSubscribeAuthMode?: AppsyncApiEventConfigDefaultSubscribeAuthMode[] | cdktn.IResolvable;
   /**
   * log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
   */
   readonly logConfig?: AppsyncApiEventConfigLogConfig[] | cdktn.IResolvable;
 }
@@ -1559,7 +1559,7 @@ export class AppsyncApiEventConfigList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api aws_appsync_api}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api aws_appsync_api}
 */
 export class AppsyncApi extends cdktn.TerraformResource {
 
@@ -1575,7 +1575,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncApi resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncApi to import
-  * @param importFromId The id of the existing AppsyncApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1587,7 +1587,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_api aws_appsync_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_api aws_appsync_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1598,7 +1598,7 @@ export class AppsyncApi extends cdktn.TerraformResource {
       terraformResourceType: 'aws_appsync_api',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DirectconnectConnectionConfig extends cdktn.TerraformMetaArgume
   /**
   * The bandwidth of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
   */
   readonly bandwidth: string;
   /**
   * The name of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
   */
   readonly connectionName: string;
   /**
   * The ID or ARN of the LAG to associate the connection with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
   */
   readonly lagId?: string;
   /**
   * The location of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
   */
   readonly location: string;
   /**
   * The name of the service provider associated with the requested connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
   */
   readonly providerName?: string;
   /**
   * Indicates whether you want the connection to support MAC Security (MACsec).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
   */
   readonly requestMacSec?: boolean | cdktn.IResolvable;
   /**
   * The tags associated with the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
   */
   readonly tags?: DirectconnectConnectionTags[] | cdktn.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface DirectconnectConnectionTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#key DirectconnectConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#key DirectconnectConnection#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#value DirectconnectConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#value DirectconnectConnection#value}
   */
   readonly value?: string;
 }
@@ -205,7 +205,7 @@ export class DirectconnectConnectionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection awscc_directconnect_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection awscc_directconnect_connection}
 */
 export class DirectconnectConnection extends cdktn.TerraformResource {
 
@@ -221,7 +221,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DirectconnectConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectconnectConnection to import
-  * @param importFromId The id of the existing DirectconnectConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectconnectConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectconnectConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -233,7 +233,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/directconnect_connection awscc_directconnect_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/directconnect_connection awscc_directconnect_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,7 +244,7 @@ export class DirectconnectConnection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_directconnect_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

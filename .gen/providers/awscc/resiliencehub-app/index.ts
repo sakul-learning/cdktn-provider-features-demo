@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ResiliencehubAppConfig extends cdktn.TerraformMetaArguments {
   /**
   * Assessment execution schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#app_assessment_schedule ResiliencehubApp#app_assessment_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#app_assessment_schedule ResiliencehubApp#app_assessment_schedule}
   */
   readonly appAssessmentSchedule?: string;
   /**
   * A string containing full ResilienceHub app template body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#app_template_body ResiliencehubApp#app_template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#app_template_body ResiliencehubApp#app_template_body}
   */
   readonly appTemplateBody: string;
   /**
   * App description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#description ResiliencehubApp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#description ResiliencehubApp#description}
   */
   readonly description?: string;
   /**
   * The list of events you would like to subscribe and get notification for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#event_subscriptions ResiliencehubApp#event_subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#event_subscriptions ResiliencehubApp#event_subscriptions}
   */
   readonly eventSubscriptions?: ResiliencehubAppEventSubscriptions[] | cdktn.IResolvable;
   /**
   * Name of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#name ResiliencehubApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#name ResiliencehubApp#name}
   */
   readonly name: string;
   /**
   * Defines the roles and credentials that AWS Resilience Hub would use while creating the application, importing its resources, and running an assessment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#permission_model ResiliencehubApp#permission_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#permission_model ResiliencehubApp#permission_model}
   */
   readonly permissionModel?: ResiliencehubAppPermissionModel;
   /**
   * Amazon Resource Name (ARN) of the Resiliency Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#resiliency_policy_arn ResiliencehubApp#resiliency_policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#resiliency_policy_arn ResiliencehubApp#resiliency_policy_arn}
   */
   readonly resiliencyPolicyArn?: string;
   /**
   * An array of ResourceMapping objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#resource_mappings ResiliencehubApp#resource_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#resource_mappings ResiliencehubApp#resource_mappings}
   */
   readonly resourceMappings: ResiliencehubAppResourceMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#tags ResiliencehubApp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#tags ResiliencehubApp#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -64,19 +64,19 @@ export interface ResiliencehubAppEventSubscriptions {
   /**
   * The type of event you would like to subscribe and get notification for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#event_type ResiliencehubApp#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#event_type ResiliencehubApp#event_type}
   */
   readonly eventType?: string;
   /**
   * Unique name to identify an event subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#name ResiliencehubApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#name ResiliencehubApp#name}
   */
   readonly name?: string;
   /**
   * Amazon Resource Name (ARN) of the Amazon Simple Notification Service topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#sns_topic_arn ResiliencehubApp#sns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#sns_topic_arn ResiliencehubApp#sns_topic_arn}
   */
   readonly snsTopicArn?: string;
 }
@@ -252,19 +252,19 @@ export interface ResiliencehubAppPermissionModel {
   /**
   * Defines a list of role Amazon Resource Names (ARNs) to be used in other accounts. These ARNs are used for querying purposes while importing resources and assessing your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#cross_account_role_arns ResiliencehubApp#cross_account_role_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#cross_account_role_arns ResiliencehubApp#cross_account_role_arns}
   */
   readonly crossAccountRoleArns?: string[];
   /**
   * Existing AWS IAM role name in the primary AWS account that will be assumed by AWS Resilience Hub Service Principle to obtain a read-only access to your application resources while running an assessment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#invoker_role_name ResiliencehubApp#invoker_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#invoker_role_name ResiliencehubApp#invoker_role_name}
   */
   readonly invokerRoleName?: string;
   /**
   * Defines how AWS Resilience Hub scans your resources. It can scan for the resources by using a pre-existing role in your AWS account, or by using the credentials of the current IAM user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#type ResiliencehubApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#type ResiliencehubApp#type}
   */
   readonly type?: string;
 }
@@ -416,19 +416,19 @@ export class ResiliencehubAppPermissionModelOutputReference extends cdktn.Comple
 }
 export interface ResiliencehubAppResourceMappingsPhysicalResourceId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#aws_account_id ResiliencehubApp#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#aws_account_id ResiliencehubApp#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#aws_region ResiliencehubApp#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#aws_region ResiliencehubApp#aws_region}
   */
   readonly awsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#identifier ResiliencehubApp#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#identifier ResiliencehubApp#identifier}
   */
   readonly identifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#type ResiliencehubApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#type ResiliencehubApp#type}
   */
   readonly type: string;
 }
@@ -603,27 +603,27 @@ export class ResiliencehubAppResourceMappingsPhysicalResourceIdOutputReference e
 }
 export interface ResiliencehubAppResourceMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#eks_source_name ResiliencehubApp#eks_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#eks_source_name ResiliencehubApp#eks_source_name}
   */
   readonly eksSourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#logical_stack_name ResiliencehubApp#logical_stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#logical_stack_name ResiliencehubApp#logical_stack_name}
   */
   readonly logicalStackName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#mapping_type ResiliencehubApp#mapping_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#mapping_type ResiliencehubApp#mapping_type}
   */
   readonly mappingType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#physical_resource_id ResiliencehubApp#physical_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#physical_resource_id ResiliencehubApp#physical_resource_id}
   */
   readonly physicalResourceId: ResiliencehubAppResourceMappingsPhysicalResourceId;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#resource_name ResiliencehubApp#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#resource_name ResiliencehubApp#resource_name}
   */
   readonly resourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#terraform_source_name ResiliencehubApp#terraform_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#terraform_source_name ResiliencehubApp#terraform_source_name}
   */
   readonly terraformSourceName?: string;
 }
@@ -878,7 +878,7 @@ export class ResiliencehubAppResourceMappingsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app awscc_resiliencehub_app}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app awscc_resiliencehub_app}
 */
 export class ResiliencehubApp extends cdktn.TerraformResource {
 
@@ -894,7 +894,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ResiliencehubApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResiliencehubApp to import
-  * @param importFromId The id of the existing ResiliencehubApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResiliencehubApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResiliencehubApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -906,7 +906,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resiliencehub_app awscc_resiliencehub_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resiliencehub_app awscc_resiliencehub_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -917,7 +917,7 @@ export class ResiliencehubApp extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resiliencehub_app',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface OrganizationsResourcePolicyConfig extends cdktn.TerraformMetaAr
   /**
   * The policy document. For AWS CloudFormation templates formatted in YAML, you can provide the policy in JSON or YAML format. AWS CloudFormation always converts a YAML policy to JSON format before submitting it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy#content OrganizationsResourcePolicy#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy#content OrganizationsResourcePolicy#content}
   */
   readonly content: string;
   /**
   * A list of tags that you want to attach to the resource policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy#tags OrganizationsResourcePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy#tags OrganizationsResourcePolicy#tags}
   */
   readonly tags?: OrganizationsResourcePolicyTags[] | cdktn.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface OrganizationsResourcePolicyTags {
   /**
   * The key identifier, or name, of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy#key OrganizationsResourcePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy#key OrganizationsResourcePolicy#key}
   */
   readonly key?: string;
   /**
   * The string value that's associated with the key of the tag. You can set the value of a tag to an empty string, but you can't set the value of a tag to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy#value OrganizationsResourcePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy#value OrganizationsResourcePolicy#value}
   */
   readonly value?: string;
 }
@@ -175,7 +175,7 @@ export class OrganizationsResourcePolicyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy awscc_organizations_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy awscc_organizations_resource_policy}
 */
 export class OrganizationsResourcePolicy extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class OrganizationsResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OrganizationsResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationsResourcePolicy to import
-  * @param importFromId The id of the existing OrganizationsResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationsResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationsResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class OrganizationsResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/organizations_resource_policy awscc_organizations_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/organizations_resource_policy awscc_organizations_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class OrganizationsResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_organizations_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_enabled_control
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/controltower_enabled_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ControltowerEnabledControlConfig extends cdktn.TerraformMetaArg
   /**
   * Arn of the control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
   */
   readonly controlIdentifier: string;
   /**
   * Arn for Organizational unit to which the control needs to be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
   */
   readonly targetIdentifier: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control}
 */
 export class ControltowerEnabledControl extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ControltowerEnabledControl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ControltowerEnabledControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ControltowerEnabledControl to import
-  * @param importFromId The id of the existing ControltowerEnabledControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_enabled_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ControltowerEnabledControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/controltower_enabled_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ControltowerEnabledControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ControltowerEnabledControl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class ControltowerEnabledControl extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_controltower_enabled_control',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

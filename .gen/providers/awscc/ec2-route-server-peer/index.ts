@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Ec2RouteServerPeerConfig extends cdktn.TerraformMetaArguments {
   /**
   * BGP Options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#bgp_options Ec2RouteServerPeer#bgp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#bgp_options Ec2RouteServerPeer#bgp_options}
   */
   readonly bgpOptions: Ec2RouteServerPeerBgpOptions;
   /**
   * IP address of the Route Server Peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#peer_address Ec2RouteServerPeer#peer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#peer_address Ec2RouteServerPeer#peer_address}
   */
   readonly peerAddress: string;
   /**
   * Route Server Endpoint ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#route_server_endpoint_id Ec2RouteServerPeer#route_server_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#route_server_endpoint_id Ec2RouteServerPeer#route_server_endpoint_id}
   */
   readonly routeServerEndpointId: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#tags Ec2RouteServerPeer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#tags Ec2RouteServerPeer#tags}
   */
   readonly tags?: Ec2RouteServerPeerTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface Ec2RouteServerPeerBgpOptions {
   /**
   * BGP ASN of the Route Server Peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#peer_asn Ec2RouteServerPeer#peer_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#peer_asn Ec2RouteServerPeer#peer_asn}
   */
   readonly peerAsn?: number;
   /**
   * BGP Liveness Detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#peer_liveness_detection Ec2RouteServerPeer#peer_liveness_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#peer_liveness_detection Ec2RouteServerPeer#peer_liveness_detection}
   */
   readonly peerLivenessDetection?: string;
 }
@@ -167,13 +167,13 @@ export interface Ec2RouteServerPeerTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#key Ec2RouteServerPeer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#key Ec2RouteServerPeer#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#value Ec2RouteServerPeer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#value Ec2RouteServerPeer#value}
   */
   readonly value?: string;
 }
@@ -318,7 +318,7 @@ export class Ec2RouteServerPeerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}
 */
 export class Ec2RouteServerPeer extends cdktn.TerraformResource {
 
@@ -334,7 +334,7 @@ export class Ec2RouteServerPeer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2RouteServerPeer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2RouteServerPeer to import
-  * @param importFromId The id of the existing Ec2RouteServerPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2RouteServerPeer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2RouteServerPeer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -346,7 +346,7 @@ export class Ec2RouteServerPeer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,7 +357,7 @@ export class Ec2RouteServerPeer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_route_server_peer',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

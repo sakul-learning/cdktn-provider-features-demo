@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface ServicecatalogOrganizationsAccessConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access#enabled ServicecatalogOrganizationsAccess#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access#enabled ServicecatalogOrganizationsAccess#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access#id ServicecatalogOrganizationsAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access#id ServicecatalogOrganizationsAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,13 +21,13 @@ export interface ServicecatalogOrganizationsAccessConfig extends cdktn.Terraform
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access#timeouts ServicecatalogOrganizationsAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access#timeouts ServicecatalogOrganizationsAccess#timeouts}
   */
   readonly timeouts?: ServicecatalogOrganizationsAccessTimeouts;
 }
 export interface ServicecatalogOrganizationsAccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access#read ServicecatalogOrganizationsAccess#read}
   */
   readonly read?: string;
 }
@@ -121,7 +121,7 @@ export class ServicecatalogOrganizationsAccessTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access aws_servicecatalog_organizations_access}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access aws_servicecatalog_organizations_access}
 */
 export class ServicecatalogOrganizationsAccess extends cdktn.TerraformResource {
 
@@ -137,7 +137,7 @@ export class ServicecatalogOrganizationsAccess extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServicecatalogOrganizationsAccess resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicecatalogOrganizationsAccess to import
-  * @param importFromId The id of the existing ServicecatalogOrganizationsAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicecatalogOrganizationsAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicecatalogOrganizationsAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -149,7 +149,7 @@ export class ServicecatalogOrganizationsAccess extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/servicecatalog_organizations_access aws_servicecatalog_organizations_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/servicecatalog_organizations_access aws_servicecatalog_organizations_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,7 +160,7 @@ export class ServicecatalogOrganizationsAccess extends cdktn.TerraformResource {
       terraformResourceType: 'aws_servicecatalog_organizations_access',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

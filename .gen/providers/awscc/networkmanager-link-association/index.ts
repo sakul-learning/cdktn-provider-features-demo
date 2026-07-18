@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_link_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_link_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetworkmanagerLinkAssociationConfig extends cdktn.TerraformMeta
   /**
   * The ID of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_link_association#device_id NetworkmanagerLinkAssociation#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_link_association#device_id NetworkmanagerLinkAssociation#device_id}
   */
   readonly deviceId: string;
   /**
   * The ID of the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_link_association#global_network_id NetworkmanagerLinkAssociation#global_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_link_association#global_network_id NetworkmanagerLinkAssociation#global_network_id}
   */
   readonly globalNetworkId: string;
   /**
   * The ID of the link
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_link_association#link_id NetworkmanagerLinkAssociation#link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_link_association#link_id NetworkmanagerLinkAssociation#link_id}
   */
   readonly linkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_link_association awscc_networkmanager_link_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_link_association awscc_networkmanager_link_association}
 */
 export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerLinkAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerLinkAssociation to import
-  * @param importFromId The id of the existing NetworkmanagerLinkAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_link_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerLinkAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_link_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerLinkAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_link_association awscc_networkmanager_link_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_link_association awscc_networkmanager_link_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class NetworkmanagerLinkAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_link_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

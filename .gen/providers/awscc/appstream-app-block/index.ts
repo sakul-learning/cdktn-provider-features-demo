@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamAppBlockConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#description AppstreamAppBlock#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#description AppstreamAppBlock#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#display_name AppstreamAppBlock#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#display_name AppstreamAppBlock#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#name AppstreamAppBlock#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#name AppstreamAppBlock#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#packaging_type AppstreamAppBlock#packaging_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#packaging_type AppstreamAppBlock#packaging_type}
   */
   readonly packagingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#post_setup_script_details AppstreamAppBlock#post_setup_script_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#post_setup_script_details AppstreamAppBlock#post_setup_script_details}
   */
   readonly postSetupScriptDetails?: AppstreamAppBlockPostSetupScriptDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#setup_script_details AppstreamAppBlock#setup_script_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#setup_script_details AppstreamAppBlock#setup_script_details}
   */
   readonly setupScriptDetails?: AppstreamAppBlockSetupScriptDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#source_s3_location AppstreamAppBlock#source_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#source_s3_location AppstreamAppBlock#source_s3_location}
   */
   readonly sourceS3Location: AppstreamAppBlockSourceS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#tags AppstreamAppBlock#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#tags AppstreamAppBlock#tags}
   */
   readonly tags?: AppstreamAppBlockTags[] | cdktn.IResolvable;
 }
 export interface AppstreamAppBlockPostSetupScriptDetailsScriptS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#s3_bucket AppstreamAppBlock#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#s3_bucket AppstreamAppBlock#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#s3_key AppstreamAppBlock#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#s3_key AppstreamAppBlock#s3_key}
   */
   readonly s3Key?: string;
 }
@@ -169,19 +169,19 @@ export class AppstreamAppBlockPostSetupScriptDetailsScriptS3LocationOutputRefere
 }
 export interface AppstreamAppBlockPostSetupScriptDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#executable_parameters AppstreamAppBlock#executable_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#executable_parameters AppstreamAppBlock#executable_parameters}
   */
   readonly executableParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#executable_path AppstreamAppBlock#executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#executable_path AppstreamAppBlock#executable_path}
   */
   readonly executablePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#script_s3_location AppstreamAppBlock#script_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#script_s3_location AppstreamAppBlock#script_s3_location}
   */
   readonly scriptS3Location?: AppstreamAppBlockPostSetupScriptDetailsScriptS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#timeout_in_seconds AppstreamAppBlock#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#timeout_in_seconds AppstreamAppBlock#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
 }
@@ -362,11 +362,11 @@ export class AppstreamAppBlockPostSetupScriptDetailsOutputReference extends cdkt
 }
 export interface AppstreamAppBlockSetupScriptDetailsScriptS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#s3_bucket AppstreamAppBlock#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#s3_bucket AppstreamAppBlock#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#s3_key AppstreamAppBlock#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#s3_key AppstreamAppBlock#s3_key}
   */
   readonly s3Key?: string;
 }
@@ -489,19 +489,19 @@ export class AppstreamAppBlockSetupScriptDetailsScriptS3LocationOutputReference 
 }
 export interface AppstreamAppBlockSetupScriptDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#executable_parameters AppstreamAppBlock#executable_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#executable_parameters AppstreamAppBlock#executable_parameters}
   */
   readonly executableParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#executable_path AppstreamAppBlock#executable_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#executable_path AppstreamAppBlock#executable_path}
   */
   readonly executablePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#script_s3_location AppstreamAppBlock#script_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#script_s3_location AppstreamAppBlock#script_s3_location}
   */
   readonly scriptS3Location?: AppstreamAppBlockSetupScriptDetailsScriptS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#timeout_in_seconds AppstreamAppBlock#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#timeout_in_seconds AppstreamAppBlock#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
 }
@@ -682,11 +682,11 @@ export class AppstreamAppBlockSetupScriptDetailsOutputReference extends cdktn.Co
 }
 export interface AppstreamAppBlockSourceS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#s3_bucket AppstreamAppBlock#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#s3_bucket AppstreamAppBlock#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#s3_key AppstreamAppBlock#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#s3_key AppstreamAppBlock#s3_key}
   */
   readonly s3Key?: string;
 }
@@ -806,19 +806,19 @@ export class AppstreamAppBlockSourceS3LocationOutputReference extends cdktn.Comp
 }
 export interface AppstreamAppBlockTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#key AppstreamAppBlock#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#key AppstreamAppBlock#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#tag_key AppstreamAppBlock#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#tag_key AppstreamAppBlock#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#tag_value AppstreamAppBlock#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#tag_value AppstreamAppBlock#tag_value}
   */
   readonly tagValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#value AppstreamAppBlock#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#value AppstreamAppBlock#value}
   */
   readonly value?: string;
 }
@@ -1021,7 +1021,7 @@ export class AppstreamAppBlockTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block awscc_appstream_app_block}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block awscc_appstream_app_block}
 */
 export class AppstreamAppBlock extends cdktn.TerraformResource {
 
@@ -1037,7 +1037,7 @@ export class AppstreamAppBlock extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamAppBlock resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamAppBlock to import
-  * @param importFromId The id of the existing AppstreamAppBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamAppBlock that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamAppBlock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1049,7 +1049,7 @@ export class AppstreamAppBlock extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1060,7 +1060,7 @@ export class AppstreamAppBlock extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_app_block',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

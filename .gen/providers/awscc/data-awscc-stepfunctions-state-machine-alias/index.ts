@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/stepfunctions_state_machine_alias
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/stepfunctions_state_machine_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccStepfunctionsStateMachineAliasConfig extends cdktn.Ter
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/stepfunctions_state_machine_alias#id DataAwsccStepfunctionsStateMachineAlias#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/stepfunctions_state_machine_alias#id DataAwsccStepfunctionsStateMachineAlias#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,7 +173,7 @@ export class DataAwsccStepfunctionsStateMachineAliasRoutingConfigurationList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}
 */
 export class DataAwsccStepfunctionsStateMachineAlias extends cdktn.TerraformDataSource {
 
@@ -189,7 +189,7 @@ export class DataAwsccStepfunctionsStateMachineAlias extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccStepfunctionsStateMachineAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccStepfunctionsStateMachineAlias to import
-  * @param importFromId The id of the existing DataAwsccStepfunctionsStateMachineAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccStepfunctionsStateMachineAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccStepfunctionsStateMachineAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -201,7 +201,7 @@ export class DataAwsccStepfunctionsStateMachineAlias extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,7 +212,7 @@ export class DataAwsccStepfunctionsStateMachineAlias extends cdktn.TerraformData
       terraformResourceType: 'awscc_stepfunctions_state_machine_alias',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

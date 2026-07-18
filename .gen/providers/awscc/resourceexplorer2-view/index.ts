@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface Resourceexplorer2ViewConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}
   */
   readonly filters?: Resourceexplorer2ViewFilters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}
   */
   readonly includedProperties?: Resourceexplorer2ViewIncludedProperties[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}
   */
   readonly viewName: string;
 }
 export interface Resourceexplorer2ViewFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#filter_string Resourceexplorer2View#filter_string}
   */
   readonly filterString?: string;
 }
@@ -124,7 +124,7 @@ export class Resourceexplorer2ViewFiltersOutputReference extends cdktn.ComplexOb
 }
 export interface Resourceexplorer2ViewIncludedProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#name Resourceexplorer2View#name}
   */
   readonly name?: string;
 }
@@ -240,7 +240,7 @@ export class Resourceexplorer2ViewIncludedPropertiesList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}
 */
 export class Resourceexplorer2View extends cdktn.TerraformResource {
 
@@ -256,7 +256,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Resourceexplorer2View resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resourceexplorer2View to import
-  * @param importFromId The id of the existing Resourceexplorer2View that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resourceexplorer2View that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resourceexplorer2View to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -268,7 +268,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,7 +279,7 @@ export class Resourceexplorer2View extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_resourceexplorer2_view',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

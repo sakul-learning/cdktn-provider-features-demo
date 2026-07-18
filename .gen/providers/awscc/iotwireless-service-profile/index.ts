@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface IotwirelessServiceProfileConfig extends cdktn.TerraformMetaArgu
   /**
   * LoRaWAN supports all LoRa specific attributes for service profile for CreateServiceProfile operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#lo_ra_wan IotwirelessServiceProfile#lo_ra_wan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#lo_ra_wan IotwirelessServiceProfile#lo_ra_wan}
   */
   readonly loRaWan?: IotwirelessServiceProfileLoRaWan;
   /**
   * Name of service profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#name IotwirelessServiceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#name IotwirelessServiceProfile#name}
   */
   readonly name?: string;
   /**
   * A list of key-value pairs that contain metadata for the service profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#tags IotwirelessServiceProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#tags IotwirelessServiceProfile#tags}
   */
   readonly tags?: IotwirelessServiceProfileTags[] | cdktn.IResolvable;
 }
 export interface IotwirelessServiceProfileLoRaWan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#add_gw_metadata IotwirelessServiceProfile#add_gw_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#add_gw_metadata IotwirelessServiceProfile#add_gw_metadata}
   */
   readonly addGwMetadata?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#pr_allowed IotwirelessServiceProfile#pr_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#pr_allowed IotwirelessServiceProfile#pr_allowed}
   */
   readonly prAllowed?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#ra_allowed IotwirelessServiceProfile#ra_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#ra_allowed IotwirelessServiceProfile#ra_allowed}
   */
   readonly raAllowed?: boolean | cdktn.IResolvable;
 }
@@ -268,11 +268,11 @@ export class IotwirelessServiceProfileLoRaWanOutputReference extends cdktn.Compl
 }
 export interface IotwirelessServiceProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#key IotwirelessServiceProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#key IotwirelessServiceProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#value IotwirelessServiceProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#value IotwirelessServiceProfile#value}
   */
   readonly value?: string;
 }
@@ -417,7 +417,7 @@ export class IotwirelessServiceProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile}
 */
 export class IotwirelessServiceProfile extends cdktn.TerraformResource {
 
@@ -433,7 +433,7 @@ export class IotwirelessServiceProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotwirelessServiceProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessServiceProfile to import
-  * @param importFromId The id of the existing IotwirelessServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessServiceProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessServiceProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -445,7 +445,7 @@ export class IotwirelessServiceProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -456,7 +456,7 @@ export class IotwirelessServiceProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotwireless_service_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

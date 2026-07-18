@@ -205,6 +205,7 @@ Object.defineProperty(exports, 'cleanroomsCollaboration', { get: function () { r
 Object.defineProperty(exports, 'cleanroomsConfiguredTable', { get: function () { return require('./cleanrooms-configured-table'); } });
 Object.defineProperty(exports, 'cleanroomsConfiguredTableAssociation', { get: function () { return require('./cleanrooms-configured-table-association'); } });
 Object.defineProperty(exports, 'cleanroomsIdMappingTable', { get: function () { return require('./cleanrooms-id-mapping-table'); } });
+Object.defineProperty(exports, 'cleanroomsIntermediateTable', { get: function () { return require('./cleanrooms-intermediate-table'); } });
 Object.defineProperty(exports, 'cleanroomsMembership', { get: function () { return require('./cleanrooms-membership'); } });
 Object.defineProperty(exports, 'cleanroomsPrivacyBudgetTemplate', { get: function () { return require('./cleanrooms-privacy-budget-template'); } });
 Object.defineProperty(exports, 'cleanroomsmlConfiguredModelAlgorithm', { get: function () { return require('./cleanroomsml-configured-model-algorithm'); } });
@@ -306,6 +307,7 @@ Object.defineProperty(exports, 'connectContactFlowModule', { get: function () { 
 Object.defineProperty(exports, 'connectContactFlowModuleAlias', { get: function () { return require('./connect-contact-flow-module-alias'); } });
 Object.defineProperty(exports, 'connectContactFlowModuleVersion', { get: function () { return require('./connect-contact-flow-module-version'); } });
 Object.defineProperty(exports, 'connectContactFlowVersion', { get: function () { return require('./connect-contact-flow-version'); } });
+Object.defineProperty(exports, 'connectDataLakeAssociation', { get: function () { return require('./connect-data-lake-association'); } });
 Object.defineProperty(exports, 'connectDataTable', { get: function () { return require('./connect-data-table'); } });
 Object.defineProperty(exports, 'connectDataTableAttribute', { get: function () { return require('./connect-data-table-attribute'); } });
 Object.defineProperty(exports, 'connectDataTableRecord', { get: function () { return require('./connect-data-table-record'); } });
@@ -502,6 +504,7 @@ Object.defineProperty(exports, 'ec2TransitGatewayMulticastDomainAssociation', { 
 Object.defineProperty(exports, 'ec2TransitGatewayMulticastGroupMember', { get: function () { return require('./ec2-transit-gateway-multicast-group-member'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayMulticastGroupSource', { get: function () { return require('./ec2-transit-gateway-multicast-group-source'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayPeeringAttachment', { get: function () { return require('./ec2-transit-gateway-peering-attachment'); } });
+Object.defineProperty(exports, 'ec2TransitGatewayPolicyTable', { get: function () { return require('./ec2-transit-gateway-policy-table'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayRoute', { get: function () { return require('./ec2-transit-gateway-route'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayRouteTable', { get: function () { return require('./ec2-transit-gateway-route-table'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayRouteTableAssociation', { get: function () { return require('./ec2-transit-gateway-route-table-association'); } });
@@ -1224,6 +1227,7 @@ Object.defineProperty(exports, 'securityagentTargetDomain', { get: function () {
 Object.defineProperty(exports, 'securityhubAggregatorV2', { get: function () { return require('./securityhub-aggregator-v2'); } });
 Object.defineProperty(exports, 'securityhubAutomationRuleV2', { get: function () { return require('./securityhub-automation-rule-v2'); } });
 Object.defineProperty(exports, 'securityhubConfigurationPolicy', { get: function () { return require('./securityhub-configuration-policy'); } });
+Object.defineProperty(exports, 'securityhubConnector', { get: function () { return require('./securityhub-connector'); } });
 Object.defineProperty(exports, 'securityhubConnectorV2', { get: function () { return require('./securityhub-connector-v2'); } });
 Object.defineProperty(exports, 'securityhubDelegatedAdmin', { get: function () { return require('./securityhub-delegated-admin'); } });
 Object.defineProperty(exports, 'securityhubFindingAggregator', { get: function () { return require('./securityhub-finding-aggregator'); } });
@@ -1743,6 +1747,7 @@ Object.defineProperty(exports, 'dataAwsccCleanroomsConfiguredTable', { get: func
 Object.defineProperty(exports, 'dataAwsccCleanroomsConfiguredTableAssociation', { get: function () { return require('./data-awscc-cleanrooms-configured-table-association'); } });
 Object.defineProperty(exports, 'dataAwsccCleanroomsConfiguredTables', { get: function () { return require('./data-awscc-cleanrooms-configured-tables'); } });
 Object.defineProperty(exports, 'dataAwsccCleanroomsIdMappingTable', { get: function () { return require('./data-awscc-cleanrooms-id-mapping-table'); } });
+Object.defineProperty(exports, 'dataAwsccCleanroomsIntermediateTable', { get: function () { return require('./data-awscc-cleanrooms-intermediate-table'); } });
 Object.defineProperty(exports, 'dataAwsccCleanroomsMembership', { get: function () { return require('./data-awscc-cleanrooms-membership'); } });
 Object.defineProperty(exports, 'dataAwsccCleanroomsMemberships', { get: function () { return require('./data-awscc-cleanrooms-memberships'); } });
 Object.defineProperty(exports, 'dataAwsccCleanroomsPrivacyBudgetTemplate', { get: function () { return require('./data-awscc-cleanrooms-privacy-budget-template'); } });
@@ -1919,6 +1924,7 @@ Object.defineProperty(exports, 'dataAwsccConnectContactFlowModuleAlias', { get: 
 Object.defineProperty(exports, 'dataAwsccConnectContactFlowModuleVersion', { get: function () { return require('./data-awscc-connect-contact-flow-module-version'); } });
 Object.defineProperty(exports, 'dataAwsccConnectContactFlowModuleVersions', { get: function () { return require('./data-awscc-connect-contact-flow-module-versions'); } });
 Object.defineProperty(exports, 'dataAwsccConnectContactFlowVersion', { get: function () { return require('./data-awscc-connect-contact-flow-version'); } });
+Object.defineProperty(exports, 'dataAwsccConnectDataLakeAssociation', { get: function () { return require('./data-awscc-connect-data-lake-association'); } });
 Object.defineProperty(exports, 'dataAwsccConnectDataTable', { get: function () { return require('./data-awscc-connect-data-table'); } });
 Object.defineProperty(exports, 'dataAwsccConnectDataTableAttribute', { get: function () { return require('./data-awscc-connect-data-table-attribute'); } });
 Object.defineProperty(exports, 'dataAwsccConnectDataTableRecord', { get: function () { return require('./data-awscc-connect-data-table-record'); } });
@@ -2250,6 +2256,8 @@ Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayMulticastGroupSource',
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayMulticastGroupSources', { get: function () { return require('./data-awscc-ec2-transit-gateway-multicast-group-sources'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPeeringAttachment', { get: function () { return require('./data-awscc-ec2-transit-gateway-peering-attachment'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPeeringAttachments', { get: function () { return require('./data-awscc-ec2-transit-gateway-peering-attachments'); } });
+Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPolicyTable', { get: function () { return require('./data-awscc-ec2-transit-gateway-policy-table'); } });
+Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPolicyTables', { get: function () { return require('./data-awscc-ec2-transit-gateway-policy-tables'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayRoute', { get: function () { return require('./data-awscc-ec2-transit-gateway-route'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayRouteTable', { get: function () { return require('./data-awscc-ec2-transit-gateway-route-table'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayRouteTableAssociation', { get: function () { return require('./data-awscc-ec2-transit-gateway-route-table-association'); } });
@@ -3555,8 +3563,10 @@ Object.defineProperty(exports, 'dataAwsccSecurityhubAutomationRuleV2', { get: fu
 Object.defineProperty(exports, 'dataAwsccSecurityhubAutomationRuleV2S', { get: function () { return require('./data-awscc-securityhub-automation-rule-v2s'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityhubConfigurationPolicies', { get: function () { return require('./data-awscc-securityhub-configuration-policies'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityhubConfigurationPolicy', { get: function () { return require('./data-awscc-securityhub-configuration-policy'); } });
+Object.defineProperty(exports, 'dataAwsccSecurityhubConnector', { get: function () { return require('./data-awscc-securityhub-connector'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityhubConnectorV2', { get: function () { return require('./data-awscc-securityhub-connector-v2'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityhubConnectorV2S', { get: function () { return require('./data-awscc-securityhub-connector-v2s'); } });
+Object.defineProperty(exports, 'dataAwsccSecurityhubConnectors', { get: function () { return require('./data-awscc-securityhub-connectors'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityhubDelegatedAdmin', { get: function () { return require('./data-awscc-securityhub-delegated-admin'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityhubDelegatedAdmins', { get: function () { return require('./data-awscc-securityhub-delegated-admins'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityhubFindingAggregator', { get: function () { return require('./data-awscc-securityhub-finding-aggregator'); } });

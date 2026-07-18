@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface SnsTopicConfig extends cdktn.TerraformMetaArguments {
   /**
   * The archive policy determines the number of days SNS retains messages. You can set a retention period from 1 to 365 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#archive_policy SnsTopic#archive_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#archive_policy SnsTopic#archive_policy}
   */
   readonly archivePolicy?: string;
   /**
@@ -19,7 +19,7 @@ export interface SnsTopicConfig extends cdktn.TerraformMetaArguments {
   *   +  When you set ``ContentBasedDeduplication`` to ``true``, SNS uses a SHA-256 hash to generate the ``MessageDeduplicationId`` using the body of the message (but not the attributes of the message).
   *  (Optional) To override the generated value, you can specify a value for the the ``MessageDeduplicationId`` parameter for the ``Publish`` action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#content_based_deduplication SnsTopic#content_based_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#content_based_deduplication SnsTopic#content_based_deduplication}
   */
   readonly contentBasedDeduplication?: boolean | cdktn.IResolvable;
   /**
@@ -28,7 +28,7 @@ export interface SnsTopicConfig extends cdktn.TerraformMetaArguments {
   *  The policy must be in JSON string format.
   *  Length Constraints: Maximum length of 30,720.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#data_protection_policy SnsTopic#data_protection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#data_protection_policy SnsTopic#data_protection_policy}
   */
   readonly dataProtectionPolicy?: string;
   /**
@@ -41,50 +41,50 @@ export interface SnsTopicConfig extends cdktn.TerraformMetaArguments {
   *   
   *  Once configured, log entries are sent to Amazon CloudWatch Logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#delivery_status_logging SnsTopic#delivery_status_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#delivery_status_logging SnsTopic#delivery_status_logging}
   */
   readonly deliveryStatusLogging?: SnsTopicDeliveryStatusLogging[] | cdktn.IResolvable;
   /**
   * The display name to use for an SNS topic with SMS subscriptions. The display name must be maximum 100 characters long, including hyphens (-), underscores (_), spaces, and tabs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#display_name SnsTopic#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#display_name SnsTopic#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#fifo_throughput_scope SnsTopic#fifo_throughput_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#fifo_throughput_scope SnsTopic#fifo_throughput_scope}
   */
   readonly fifoThroughputScope?: string;
   /**
   * Set to true to create a FIFO topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#fifo_topic SnsTopic#fifo_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#fifo_topic SnsTopic#fifo_topic}
   */
   readonly fifoTopic?: boolean | cdktn.IResolvable;
   /**
   * The ID of an AWS managed customer master key (CMK) for SNS or a custom CMK. For more information, see [Key terms](https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html#sse-key-terms). For more examples, see ``KeyId`` in the *API Reference*.
   *  This property applies only to [server-side-encryption](https://docs.aws.amazon.com/sns/latest/dg/sns-server-side-encryption.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#kms_master_key_id SnsTopic#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#kms_master_key_id SnsTopic#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
   /**
   * The signature version corresponds to the hashing algorithm used while creating the signature of the notifications, subscription confirmations, or unsubscribe confirmation messages sent by Amazon SNS. By default, ``SignatureVersion`` is set to ``1``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#signature_version SnsTopic#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#signature_version SnsTopic#signature_version}
   */
   readonly signatureVersion?: string;
   /**
   * The SNS subscriptions (endpoints) for this topic.
   *   If you specify the ``Subscription`` property in the ``AWS::SNS::Topic`` resource and it creates an associated subscription resource, the associated subscription is not deleted when the ``AWS::SNS::Topic`` resource is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#subscription SnsTopic#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#subscription SnsTopic#subscription}
   */
   readonly subscription?: SnsTopicSubscription[] | cdktn.IResolvable;
   /**
   * The list of tags to add to a new topic.
   *   To be able to tag a topic on creation, you must have the ``sns:CreateTopic`` and ``sns:TagResource`` permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#tags SnsTopic#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#tags SnsTopic#tags}
   */
   readonly tags?: SnsTopicTags[] | cdktn.IResolvable;
   /**
@@ -92,13 +92,13 @@ export interface SnsTopicConfig extends cdktn.TerraformMetaArguments {
   *  If you don't specify a name, CFN generates a unique physical ID and uses that ID for the topic name. For more information, see [Name type](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-name.html).
   *   If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#topic_name SnsTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#topic_name SnsTopic#topic_name}
   */
   readonly topicName?: string;
   /**
   * Tracing mode of an SNS topic. By default ``TracingConfig`` is set to ``PassThrough``, and the topic passes through the tracing header it receives from an SNS publisher to its subscriptions. If set to ``Active``, SNS will vend X-Ray segment data to topic owner account if the sampled flag in the tracing header is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#tracing_config SnsTopic#tracing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#tracing_config SnsTopic#tracing_config}
   */
   readonly tracingConfig?: string;
 }
@@ -106,26 +106,26 @@ export interface SnsTopicDeliveryStatusLogging {
   /**
   * The IAM role ARN to be used when logging failed message deliveries in Amazon CloudWatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#failure_feedback_role_arn SnsTopic#failure_feedback_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#failure_feedback_role_arn SnsTopic#failure_feedback_role_arn}
   */
   readonly failureFeedbackRoleArn?: string;
   /**
   * Indicates one of the supported protocols for the Amazon SNS topic.
   *   At least one of the other three ``LoggingConfig`` properties is recommend along with ``Protocol``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
   */
   readonly protocol?: string;
   /**
   * The IAM role ARN to be used when logging successful message deliveries in Amazon CloudWatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#success_feedback_role_arn SnsTopic#success_feedback_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#success_feedback_role_arn SnsTopic#success_feedback_role_arn}
   */
   readonly successFeedbackRoleArn?: string;
   /**
   * The percentage of successful message deliveries to be logged in Amazon CloudWatch. Valid percentage values range from 0 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#success_feedback_sample_rate SnsTopic#success_feedback_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#success_feedback_sample_rate SnsTopic#success_feedback_sample_rate}
   */
   readonly successFeedbackSampleRate?: string;
 }
@@ -330,13 +330,13 @@ export interface SnsTopicSubscription {
   /**
   * The endpoint that receives notifications from the SNS topic. The endpoint value depends on the protocol that you specify. For more information, see the ``Endpoint`` parameter of the ``Subscribe`` action in the *API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#endpoint SnsTopic#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#endpoint SnsTopic#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The subscription's protocol. For more information, see the ``Protocol`` parameter of the ``Subscribe`` action in the *API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
   */
   readonly protocol?: string;
 }
@@ -483,13 +483,13 @@ export interface SnsTopicTags {
   /**
   * The required key portion of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#key SnsTopic#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#key SnsTopic#key}
   */
   readonly key?: string;
   /**
   * The optional value portion of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#value SnsTopic#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#value SnsTopic#value}
   */
   readonly value?: string;
 }
@@ -634,7 +634,7 @@ export class SnsTopicTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic awscc_sns_topic}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic awscc_sns_topic}
 */
 export class SnsTopic extends cdktn.TerraformResource {
 
@@ -650,7 +650,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SnsTopic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnsTopic to import
-  * @param importFromId The id of the existing SnsTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnsTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnsTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -662,7 +662,7 @@ export class SnsTopic extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/sns_topic awscc_sns_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sns_topic awscc_sns_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -673,7 +673,7 @@ export class SnsTopic extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sns_topic',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

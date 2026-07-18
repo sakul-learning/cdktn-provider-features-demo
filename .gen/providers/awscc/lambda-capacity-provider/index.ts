@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktn from 'cdktn';
 
 export interface LambdaCapacityProviderConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#capacity_provider_name LambdaCapacityProvider#capacity_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#capacity_provider_name LambdaCapacityProvider#capacity_provider_name}
   */
   readonly capacityProviderName?: string;
   /**
   * The scaling configuration for the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#capacity_provider_scaling_config LambdaCapacityProvider#capacity_provider_scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#capacity_provider_scaling_config LambdaCapacityProvider#capacity_provider_scaling_config}
   */
   readonly capacityProviderScalingConfig?: LambdaCapacityProviderCapacityProviderScalingConfig;
   /**
   * The instance requirements for compute resources managed by the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#instance_requirements LambdaCapacityProvider#instance_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#instance_requirements LambdaCapacityProvider#instance_requirements}
   */
   readonly instanceRequirements?: LambdaCapacityProviderInstanceRequirements;
   /**
   * The ARN of the KMS key used to encrypt the capacity provider's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#kms_key_arn LambdaCapacityProvider#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#kms_key_arn LambdaCapacityProvider#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The permissions configuration for the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#permissions_config LambdaCapacityProvider#permissions_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#permissions_config LambdaCapacityProvider#permissions_config}
   */
   readonly permissionsConfig: LambdaCapacityProviderPermissionsConfig;
   /**
   * Configuration for tag propagation to managed resources launched by the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#propagate_tags LambdaCapacityProvider#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#propagate_tags LambdaCapacityProvider#propagate_tags}
   */
   readonly propagateTags?: LambdaCapacityProviderPropagateTags;
   /**
   * A key-value pair that provides metadata for the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#tags LambdaCapacityProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#tags LambdaCapacityProvider#tags}
   */
   readonly tags?: LambdaCapacityProviderTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#telemetry_config LambdaCapacityProvider#telemetry_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#telemetry_config LambdaCapacityProvider#telemetry_config}
   */
   readonly telemetryConfig?: LambdaCapacityProviderTelemetryConfig;
   /**
   * The VPC configuration for the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#vpc_config LambdaCapacityProvider#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#vpc_config LambdaCapacityProvider#vpc_config}
   */
   readonly vpcConfig: LambdaCapacityProviderVpcConfig;
 }
@@ -62,13 +62,13 @@ export interface LambdaCapacityProviderCapacityProviderScalingConfigScalingPolic
   /**
   * The predefined metric type to track for scaling decisions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#predefined_metric_type LambdaCapacityProvider#predefined_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#predefined_metric_type LambdaCapacityProvider#predefined_metric_type}
   */
   readonly predefinedMetricType?: string;
   /**
   * The target value for the metric that the scaling policy attempts to maintain through scaling actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#target_value LambdaCapacityProvider#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#target_value LambdaCapacityProvider#target_value}
   */
   readonly targetValue?: number;
 }
@@ -215,19 +215,19 @@ export interface LambdaCapacityProviderCapacityProviderScalingConfig {
   /**
   * The maximum number of vCPUs that the capacity provider can provision across all compute instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#max_v_cpu_count LambdaCapacityProvider#max_v_cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#max_v_cpu_count LambdaCapacityProvider#max_v_cpu_count}
   */
   readonly maxVCpuCount?: number;
   /**
   * The scaling mode that determines how the capacity provider responds to changes in demand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#scaling_mode LambdaCapacityProvider#scaling_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#scaling_mode LambdaCapacityProvider#scaling_mode}
   */
   readonly scalingMode?: string;
   /**
   * A list of target tracking scaling policies for the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#scaling_policies LambdaCapacityProvider#scaling_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#scaling_policies LambdaCapacityProvider#scaling_policies}
   */
   readonly scalingPolicies?: LambdaCapacityProviderCapacityProviderScalingConfigScalingPolicies[] | cdktn.IResolvable;
 }
@@ -381,19 +381,19 @@ export interface LambdaCapacityProviderInstanceRequirements {
   /**
   * A list of EC2 instance types that the capacity provider is allowed to use. If not specified, all compatible instance types are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#allowed_instance_types LambdaCapacityProvider#allowed_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#allowed_instance_types LambdaCapacityProvider#allowed_instance_types}
   */
   readonly allowedInstanceTypes?: string[];
   /**
   * A list of supported CPU architectures for compute instances. Valid values include ``x86_64`` and ``arm64``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#architectures LambdaCapacityProvider#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#architectures LambdaCapacityProvider#architectures}
   */
   readonly architectures?: string[];
   /**
   * A list of EC2 instance types that the capacity provider should not use, even if they meet other requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#excluded_instance_types LambdaCapacityProvider#excluded_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#excluded_instance_types LambdaCapacityProvider#excluded_instance_types}
   */
   readonly excludedInstanceTypes?: string[];
 }
@@ -547,7 +547,7 @@ export interface LambdaCapacityProviderPermissionsConfig {
   /**
   * The ARN of the IAM role that the capacity provider uses to manage compute instances and other AWS resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#capacity_provider_operator_role_arn LambdaCapacityProvider#capacity_provider_operator_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#capacity_provider_operator_role_arn LambdaCapacityProvider#capacity_provider_operator_role_arn}
   */
   readonly capacityProviderOperatorRoleArn: string;
 }
@@ -640,13 +640,13 @@ export interface LambdaCapacityProviderPropagateTagsExplicitTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#key LambdaCapacityProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#key LambdaCapacityProvider#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#value LambdaCapacityProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#value LambdaCapacityProvider#value}
   */
   readonly value?: string;
 }
@@ -793,13 +793,13 @@ export interface LambdaCapacityProviderPropagateTags {
   /**
   * A list of tags to explicitly propagate to managed resources. Maximum of 40 tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#explicit_tags LambdaCapacityProvider#explicit_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#explicit_tags LambdaCapacityProvider#explicit_tags}
   */
   readonly explicitTags?: LambdaCapacityProviderPropagateTagsExplicitTags[] | cdktn.IResolvable;
   /**
   * The mode for tag propagation. Use ``Explicit`` to propagate specific tags, or ``None`` to disable propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#mode LambdaCapacityProvider#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#mode LambdaCapacityProvider#mode}
   */
   readonly mode?: string;
 }
@@ -924,13 +924,13 @@ export interface LambdaCapacityProviderTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#key LambdaCapacityProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#key LambdaCapacityProvider#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#value LambdaCapacityProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#value LambdaCapacityProvider#value}
   */
   readonly value?: string;
 }
@@ -1075,11 +1075,11 @@ export class LambdaCapacityProviderTagsList extends cdktn.ComplexList {
 }
 export interface LambdaCapacityProviderTelemetryConfigLoggingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#log_group LambdaCapacityProvider#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#log_group LambdaCapacityProvider#log_group}
   */
   readonly logGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#system_log_level LambdaCapacityProvider#system_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#system_log_level LambdaCapacityProvider#system_log_level}
   */
   readonly systemLogLevel?: string;
 }
@@ -1202,7 +1202,7 @@ export class LambdaCapacityProviderTelemetryConfigLoggingConfigOutputReference e
 }
 export interface LambdaCapacityProviderTelemetryConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#logging_config LambdaCapacityProvider#logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#logging_config LambdaCapacityProvider#logging_config}
   */
   readonly loggingConfig?: LambdaCapacityProviderTelemetryConfigLoggingConfig;
 }
@@ -1298,13 +1298,13 @@ export interface LambdaCapacityProviderVpcConfig {
   /**
   * A list of security group IDs that control network access for compute instances managed by the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#security_group_ids LambdaCapacityProvider#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#security_group_ids LambdaCapacityProvider#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
   * A list of subnet IDs where the capacity provider launches compute instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#subnet_ids LambdaCapacityProvider#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#subnet_ids LambdaCapacityProvider#subnet_ids}
   */
   readonly subnetIds: string[];
 }
@@ -1421,7 +1421,7 @@ export class LambdaCapacityProviderVpcConfigOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider awscc_lambda_capacity_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider awscc_lambda_capacity_provider}
 */
 export class LambdaCapacityProvider extends cdktn.TerraformResource {
 
@@ -1437,7 +1437,7 @@ export class LambdaCapacityProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaCapacityProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaCapacityProvider to import
-  * @param importFromId The id of the existing LambdaCapacityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaCapacityProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaCapacityProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1449,7 +1449,7 @@ export class LambdaCapacityProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lambda_capacity_provider awscc_lambda_capacity_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lambda_capacity_provider awscc_lambda_capacity_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1460,7 +1460,7 @@ export class LambdaCapacityProvider extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_capacity_provider',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -4,8 +4,13 @@ import { AwsProvider } from "./.gen/providers/aws/provider/index.ts";
 import { DataAwsRegion } from "./.gen/providers/aws/data-aws-region/index.ts";
 import { AwsccProvider } from "./.gen/providers/awscc/provider/index.ts";
 import { KinesisStream, kinesisStreamStreamEncryptionToTerraform } from "./.gen/providers/awscc/kinesis-stream/index.ts";
+// `import type`: an interface has no runtime representation, and this project
+// runs .ts files directly through Node's native type-stripping (no bundler/
+// transpiler) - a plain value import of a type-only binding fails at runtime
+// with "does not provide an export named ...", since only `import type` is
+// erased by the stripper.
+import type { KinesisStreamStreamEncryption } from "./.gen/providers/awscc/kinesis-stream/index.ts";
 import { CfncompatProvider } from "./.gen/providers/cfncompat/provider/index.ts";
-import { CfncompatProviderFunctions } from "./.gen/providers/cfncompat/provider-functions/index.ts";
 
 /**
  * Port of aws-kinesis.Stream's default-encryption logic
@@ -56,13 +61,13 @@ class L2KinesisStreamStack extends TerraformStack {
       skipMetadataApiCheck: "true",
     });
     new AwsccProvider(this, "awscc", { region, profile });
-    new CfncompatProvider(this, "cfncompat", {});
+    const cfncompatProvider = new CfncompatProvider(this, "cfncompat", {});
 
     const currentRegion = new DataAwsRegion(this, "current", {});
 
-    const isUnsupportedRegion = CfncompatProviderFunctions.conditionOr([
-      CfncompatProviderFunctions.conditionEquals(currentRegion.region, "cn-north-1"),
-      CfncompatProviderFunctions.conditionEquals(currentRegion.region, "cn-northwest-1"),
+    const isUnsupportedRegion = cfncompatProvider.functions.conditionOr([
+      cfncompatProvider.functions.conditionEquals(currentRegion.region, "cn-north-1"),
+      cfncompatProvider.functions.conditionEquals(currentRegion.region, "cn-northwest-1"),
     ]);
 
     const stream = new KinesisStream(this, "stream", {
@@ -76,18 +81,26 @@ class L2KinesisStreamStack extends TerraformStack {
       // Terraform schema's own snake_case. Instead, call the generated
       // kinesisStreamStreamEncryptionToTerraform(...) mapper explicitly: it
       // takes the typed (camelCase) KinesisStreamStreamEncryption shape --
-      // catching typos/wrong-type args at compile time, unlike conditionIf's
-      // `any`-typed branches -- and produces the correctly-shaped snake_case
-      // value. This is the same pattern already required for Lazy producers
-      // returning a nested struct (see e.g. ~/tcons/base's distribution.ts/
-      // dns-zone.ts), for the same underlying reason: any value that arrives
-      // via a resolvable/token/produce() callback bypasses the synth-time
-      // attribute-collection mapper and must be pre-mapped by hand.
-      streamEncryption: CfncompatProviderFunctions.conditionIf(
+      // catching typos/wrong-type args at compile time -- and produces the
+      // correctly-shaped snake_case value. This is the same pattern already
+      // required for Lazy producers returning a nested struct (see e.g.
+      // ~/tcons/base's distribution.ts/dns-zone.ts), for the same underlying
+      // reason: any value that arrives via a resolvable/token/produce()
+      // callback bypasses the synth-time attribute-collection mapper and must
+      // be pre-mapped by hand.
+      //
+      // `conditionIf`'s dynamic (either-branch-could-be-any-type) return is
+      // honestly typed as `cdktn.IResolvable`, not `any` - it carries no
+      // structural relationship to `KinesisStreamStreamEncryption`, so the
+      // cast below is required and intentional: at runtime this is still the
+      // raw resolvable token from `invoke()`, which `Tokenization.isResolvable()`
+      // recognizes and resolves correctly through `internalValue` regardless of
+      // the compile-time type used to smuggle it into this typed property.
+      streamEncryption: cfncompatProvider.functions.conditionIf(
         isUnsupportedRegion,
         null,
         kinesisStreamStreamEncryptionToTerraform({ encryptionType: "KMS", keyId: "alias/aws/kinesis" }),
-      ),
+      ) as unknown as KinesisStreamStreamEncryption,
     });
 
     new TerraformOutput(this, "region_name", { value: currentRegion.region });

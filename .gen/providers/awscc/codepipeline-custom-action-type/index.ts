@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface CodepipelineCustomActionTypeConfig extends cdktn.TerraformMetaA
   /**
   * The category of the custom action, such as a build action or a test action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#category CodepipelineCustomActionType#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#category CodepipelineCustomActionType#category}
   */
   readonly category: string;
   /**
   * The configuration properties for the custom action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#configuration_properties CodepipelineCustomActionType#configuration_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#configuration_properties CodepipelineCustomActionType#configuration_properties}
   */
   readonly configurationProperties?: CodepipelineCustomActionTypeConfigurationProperties[] | cdktn.IResolvable;
   /**
   * The details of the input artifact for the action, such as its commit ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#input_artifact_details CodepipelineCustomActionType#input_artifact_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#input_artifact_details CodepipelineCustomActionType#input_artifact_details}
   */
   readonly inputArtifactDetails: CodepipelineCustomActionTypeInputArtifactDetails;
   /**
   * The details of the output artifact of the action, such as its commit ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#output_artifact_details CodepipelineCustomActionType#output_artifact_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#output_artifact_details CodepipelineCustomActionType#output_artifact_details}
   */
   readonly outputArtifactDetails: CodepipelineCustomActionTypeOutputArtifactDetails;
   /**
   * The provider of the service used in the custom action, such as AWS CodeDeploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#provider_name CodepipelineCustomActionType#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#provider_name CodepipelineCustomActionType#provider_name}
   */
   readonly providerName: string;
   /**
   * URLs that provide users information about this custom action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#settings CodepipelineCustomActionType#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#settings CodepipelineCustomActionType#settings}
   */
   readonly settings?: CodepipelineCustomActionTypeSettings;
   /**
   * Any tags assigned to the custom action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#tags CodepipelineCustomActionType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#tags CodepipelineCustomActionType#tags}
   */
   readonly tags?: CodepipelineCustomActionTypeTags[] | cdktn.IResolvable;
   /**
   * The version identifier of the custom action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#version CodepipelineCustomActionType#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#version CodepipelineCustomActionType#version}
   */
   readonly version: string;
 }
@@ -60,43 +60,43 @@ export interface CodepipelineCustomActionTypeConfigurationProperties {
   /**
   * The description of the action configuration property that is displayed to users. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#description CodepipelineCustomActionType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#description CodepipelineCustomActionType#description}
   */
   readonly description?: string;
   /**
   * Whether the configuration property is a key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#key CodepipelineCustomActionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#key CodepipelineCustomActionType#key}
   */
   readonly key?: boolean | cdktn.IResolvable;
   /**
   * The name of the action configuration property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#name CodepipelineCustomActionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#name CodepipelineCustomActionType#name}
   */
   readonly name?: string;
   /**
   * Indicates that the property is used with PollForJobs. When creating a custom action, an action can have up to one queryable property. If it has one, that property must be both required and not secret.If you create a pipeline with a custom action type, and that custom action contains a queryable property, the value for that configuration property is subject to other restrictions. The value must be less than or equal to twenty (20) characters. The value can contain only alphanumeric characters, underscores, and hyphens. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#queryable CodepipelineCustomActionType#queryable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#queryable CodepipelineCustomActionType#queryable}
   */
   readonly queryable?: boolean | cdktn.IResolvable;
   /**
   * Whether the configuration property is a required value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#required CodepipelineCustomActionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#required CodepipelineCustomActionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
   /**
   * Whether the configuration property is secret. Secrets are hidden from all calls except for GetJobDetails, GetThirdPartyJobDetails, PollForJobs, and PollForThirdPartyJobs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#secret CodepipelineCustomActionType#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#secret CodepipelineCustomActionType#secret}
   */
   readonly secret?: boolean | cdktn.IResolvable;
   /**
   * The type of the configuration property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#type CodepipelineCustomActionType#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#type CodepipelineCustomActionType#type}
   */
   readonly type?: string;
 }
@@ -388,13 +388,13 @@ export interface CodepipelineCustomActionTypeInputArtifactDetails {
   /**
   * The maximum number of artifacts allowed for the action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
   */
   readonly maximumCount: number;
   /**
   * The minimum number of artifacts allowed for the action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
   */
   readonly minimumCount: number;
 }
@@ -513,13 +513,13 @@ export interface CodepipelineCustomActionTypeOutputArtifactDetails {
   /**
   * The maximum number of artifacts allowed for the action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#maximum_count CodepipelineCustomActionType#maximum_count}
   */
   readonly maximumCount: number;
   /**
   * The minimum number of artifacts allowed for the action type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#minimum_count CodepipelineCustomActionType#minimum_count}
   */
   readonly minimumCount: number;
 }
@@ -638,25 +638,25 @@ export interface CodepipelineCustomActionTypeSettings {
   /**
   * The URL returned to the AWS CodePipeline console that provides a deep link to the resources of the external system, such as the configuration page for an AWS CodeDeploy deployment group. This link is provided as part of the action display in the pipeline. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#entity_url_template CodepipelineCustomActionType#entity_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#entity_url_template CodepipelineCustomActionType#entity_url_template}
   */
   readonly entityUrlTemplate?: string;
   /**
   * The URL returned to the AWS CodePipeline console that contains a link to the top-level landing page for the external system, such as the console page for AWS CodeDeploy. This link is shown on the pipeline view page in the AWS CodePipeline console and provides a link to the execution entity of the external action. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#execution_url_template CodepipelineCustomActionType#execution_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#execution_url_template CodepipelineCustomActionType#execution_url_template}
   */
   readonly executionUrlTemplate?: string;
   /**
   * The URL returned to the AWS CodePipeline console that contains a link to the page where customers can update or change the configuration of the external action. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#revision_url_template CodepipelineCustomActionType#revision_url_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#revision_url_template CodepipelineCustomActionType#revision_url_template}
   */
   readonly revisionUrlTemplate?: string;
   /**
   * The URL of a sign-up page where users can sign up for an external service and perform initial configuration of the action provided by that service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#third_party_configuration_url CodepipelineCustomActionType#third_party_configuration_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#third_party_configuration_url CodepipelineCustomActionType#third_party_configuration_url}
   */
   readonly thirdPartyConfigurationUrl?: string;
 }
@@ -837,11 +837,11 @@ export class CodepipelineCustomActionTypeSettingsOutputReference extends cdktn.C
 }
 export interface CodepipelineCustomActionTypeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#key CodepipelineCustomActionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#key CodepipelineCustomActionType#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#value CodepipelineCustomActionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#value CodepipelineCustomActionType#value}
   */
   readonly value?: string;
 }
@@ -986,7 +986,7 @@ export class CodepipelineCustomActionTypeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type awscc_codepipeline_custom_action_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type awscc_codepipeline_custom_action_type}
 */
 export class CodepipelineCustomActionType extends cdktn.TerraformResource {
 
@@ -1002,7 +1002,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodepipelineCustomActionType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodepipelineCustomActionType to import
-  * @param importFromId The id of the existing CodepipelineCustomActionType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodepipelineCustomActionType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodepipelineCustomActionType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1014,7 +1014,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/codepipeline_custom_action_type awscc_codepipeline_custom_action_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codepipeline_custom_action_type awscc_codepipeline_custom_action_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1025,7 +1025,7 @@ export class CodepipelineCustomActionType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codepipeline_custom_action_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

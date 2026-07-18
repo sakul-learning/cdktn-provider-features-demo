@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface AppsyncDomainNameConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name#certificate_arn AppsyncDomainName#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name#certificate_arn AppsyncDomainName#certificate_arn}
   */
   readonly certificateArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name#description AppsyncDomainName#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name#description AppsyncDomainName#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name#domain_name AppsyncDomainName#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name#domain_name AppsyncDomainName#domain_name}
   */
   readonly domainName: string;
   /**
   * An arbitrary set of tags (key-value pairs) for this Domain Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name#tags AppsyncDomainName#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name#tags AppsyncDomainName#tags}
   */
   readonly tags?: AppsyncDomainNameTags[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface AppsyncDomainNameTags {
   /**
   * A string used to identify this tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name#key AppsyncDomainName#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name#key AppsyncDomainName#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for this tag. You can specify a maximum of 256 characters for a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name#value AppsyncDomainName#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name#value AppsyncDomainName#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class AppsyncDomainNameTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name awscc_appsync_domain_name}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name awscc_appsync_domain_name}
 */
 export class AppsyncDomainName extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class AppsyncDomainName extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncDomainName resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncDomainName to import
-  * @param importFromId The id of the existing AppsyncDomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncDomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncDomainName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class AppsyncDomainName extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_domain_name awscc_appsync_domain_name} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_domain_name awscc_appsync_domain_name} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class AppsyncDomainName extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_domain_name',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

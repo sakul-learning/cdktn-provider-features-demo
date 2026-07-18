@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_project_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_project_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccDatazoneProjectProfileConfig extends cdktn.TerraformMe
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_project_profile#id DataAwsccDatazoneProjectProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_project_profile#id DataAwsccDatazoneProjectProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -566,7 +566,7 @@ export class DataAwsccDatazoneProjectProfileProjectResourceTagsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile}
 */
 export class DataAwsccDatazoneProjectProfile extends cdktn.TerraformDataSource {
 
@@ -582,7 +582,7 @@ export class DataAwsccDatazoneProjectProfile extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccDatazoneProjectProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDatazoneProjectProfile to import
-  * @param importFromId The id of the existing DataAwsccDatazoneProjectProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDatazoneProjectProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_project_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDatazoneProjectProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -594,7 +594,7 @@ export class DataAwsccDatazoneProjectProfile extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -605,7 +605,7 @@ export class DataAwsccDatazoneProjectProfile extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_datazone_project_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_channel_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/notifications_channel_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,20 +11,20 @@ export interface NotificationsChannelAssociationConfig extends cdktn.TerraformMe
   * ARN identifier of the channel.
   * Example: arn:aws:chatbot::123456789012:chat-configuration/slack-channel/security-ops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/notifications_channel_association#arn NotificationsChannelAssociation#arn}
   */
   readonly arn: string;
   /**
   * ARN identifier of the NotificationConfiguration.
   * Example: arn:aws:notifications::123456789012:configuration/a01jes88qxwkbj05xv9c967pgm1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/notifications_channel_association#notification_configuration_arn NotificationsChannelAssociation#notification_configuration_arn}
   */
   readonly notificationConfigurationArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_channel_association awscc_notifications_channel_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/notifications_channel_association awscc_notifications_channel_association}
 */
 export class NotificationsChannelAssociation extends cdktn.TerraformResource {
 
@@ -40,7 +40,7 @@ export class NotificationsChannelAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NotificationsChannelAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationsChannelAssociation to import
-  * @param importFromId The id of the existing NotificationsChannelAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_channel_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationsChannelAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/notifications_channel_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationsChannelAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -52,7 +52,7 @@ export class NotificationsChannelAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/notifications_channel_association awscc_notifications_channel_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/notifications_channel_association awscc_notifications_channel_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,7 +63,7 @@ export class NotificationsChannelAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_notifications_channel_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

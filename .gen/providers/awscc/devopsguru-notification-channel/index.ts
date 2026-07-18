@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DevopsguruNotificationChannelConfig extends cdktn.TerraformMeta
   /**
   * Information about notification channels you have configured with DevOps Guru.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel#config DevopsguruNotificationChannel#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel#config DevopsguruNotificationChannel#config}
   */
   readonly config: DevopsguruNotificationChannelConfigA;
 }
@@ -18,13 +18,13 @@ export interface DevopsguruNotificationChannelConfigFilters {
   /**
   * DevOps Guru message types to filter for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel#message_types DevopsguruNotificationChannel#message_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel#message_types DevopsguruNotificationChannel#message_types}
   */
   readonly messageTypes?: string[];
   /**
   * DevOps Guru insight severities to filter for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel#severities DevopsguruNotificationChannel#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel#severities DevopsguruNotificationChannel#severities}
   */
   readonly severities?: string[];
 }
@@ -147,7 +147,7 @@ export class DevopsguruNotificationChannelConfigFiltersOutputReference extends c
 }
 export interface DevopsguruNotificationChannelConfigSns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel#topic_arn DevopsguruNotificationChannel#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -243,13 +243,13 @@ export interface DevopsguruNotificationChannelConfigA {
   /**
   * Information about filters of a notification channel configured in DevOpsGuru to filter for insights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel#filters DevopsguruNotificationChannel#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel#filters DevopsguruNotificationChannel#filters}
   */
   readonly filters?: DevopsguruNotificationChannelConfigFilters;
   /**
   * Information about a notification channel configured in DevOps Guru to send notifications when insights are created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel#sns DevopsguruNotificationChannel#sns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel#sns DevopsguruNotificationChannel#sns}
   */
   readonly sns?: DevopsguruNotificationChannelConfigSns;
 }
@@ -372,7 +372,7 @@ export class DevopsguruNotificationChannelConfigAOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel awscc_devopsguru_notification_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel awscc_devopsguru_notification_channel}
 */
 export class DevopsguruNotificationChannel extends cdktn.TerraformResource {
 
@@ -388,7 +388,7 @@ export class DevopsguruNotificationChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevopsguruNotificationChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsguruNotificationChannel to import
-  * @param importFromId The id of the existing DevopsguruNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsguruNotificationChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsguruNotificationChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -400,7 +400,7 @@ export class DevopsguruNotificationChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsguru_notification_channel awscc_devopsguru_notification_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsguru_notification_channel awscc_devopsguru_notification_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -411,7 +411,7 @@ export class DevopsguruNotificationChannel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_devopsguru_notification_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

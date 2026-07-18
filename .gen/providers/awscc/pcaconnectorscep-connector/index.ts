@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface PcaconnectorscepConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#certificate_authority_arn PcaconnectorscepConnector#certificate_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#certificate_authority_arn PcaconnectorscepConnector#certificate_authority_arn}
   */
   readonly certificateAuthorityArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#mobile_device_management PcaconnectorscepConnector#mobile_device_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#mobile_device_management PcaconnectorscepConnector#mobile_device_management}
   */
   readonly mobileDeviceManagement?: PcaconnectorscepConnectorMobileDeviceManagement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#tags PcaconnectorscepConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#tags PcaconnectorscepConnector#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#vpc_endpoint_id PcaconnectorscepConnector#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#vpc_endpoint_id PcaconnectorscepConnector#vpc_endpoint_id}
   */
   readonly vpcEndpointId?: string;
 }
 export interface PcaconnectorscepConnectorMobileDeviceManagementIntune {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#azure_application_id PcaconnectorscepConnector#azure_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#azure_application_id PcaconnectorscepConnector#azure_application_id}
   */
   readonly azureApplicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#domain PcaconnectorscepConnector#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#domain PcaconnectorscepConnector#domain}
   */
   readonly domain?: string;
 }
@@ -153,7 +153,7 @@ export class PcaconnectorscepConnectorMobileDeviceManagementIntuneOutputReferenc
 }
 export interface PcaconnectorscepConnectorMobileDeviceManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#intune PcaconnectorscepConnector#intune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#intune PcaconnectorscepConnector#intune}
   */
   readonly intune?: PcaconnectorscepConnectorMobileDeviceManagementIntune;
 }
@@ -311,7 +311,7 @@ export class PcaconnectorscepConnectorOpenIdConfigurationOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector}
 */
 export class PcaconnectorscepConnector extends cdktn.TerraformResource {
 
@@ -327,7 +327,7 @@ export class PcaconnectorscepConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PcaconnectorscepConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcaconnectorscepConnector to import
-  * @param importFromId The id of the existing PcaconnectorscepConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcaconnectorscepConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcaconnectorscepConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -339,7 +339,7 @@ export class PcaconnectorscepConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorscep_connector awscc_pcaconnectorscep_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -350,7 +350,7 @@ export class PcaconnectorscepConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_pcaconnectorscep_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

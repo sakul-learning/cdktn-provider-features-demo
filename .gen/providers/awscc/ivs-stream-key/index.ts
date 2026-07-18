@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface IvsStreamKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Channel ARN for the stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key#channel_arn IvsStreamKey#channel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key#channel_arn IvsStreamKey#channel_arn}
   */
   readonly channelArn: string;
   /**
   * A list of key-value pairs that contain metadata for the asset model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key#tags IvsStreamKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key#tags IvsStreamKey#tags}
   */
   readonly tags?: IvsStreamKeyTags[] | cdktn.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface IvsStreamKeyTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key#key IvsStreamKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key#key IvsStreamKey#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key#value IvsStreamKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key#value IvsStreamKey#value}
   */
   readonly value?: string;
 }
@@ -175,7 +175,7 @@ export class IvsStreamKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key awscc_ivs_stream_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key awscc_ivs_stream_key}
 */
 export class IvsStreamKey extends cdktn.TerraformResource {
 
@@ -191,7 +191,7 @@ export class IvsStreamKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvsStreamKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvsStreamKey to import
-  * @param importFromId The id of the existing IvsStreamKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvsStreamKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvsStreamKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -203,7 +203,7 @@ export class IvsStreamKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivs_stream_key awscc_ivs_stream_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivs_stream_key awscc_ivs_stream_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,7 +214,7 @@ export class IvsStreamKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivs_stream_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
