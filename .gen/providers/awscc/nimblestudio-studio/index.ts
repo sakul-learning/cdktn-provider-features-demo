@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface NimblestudioStudioConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#admin_role_arn NimblestudioStudio#admin_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#admin_role_arn NimblestudioStudio#admin_role_arn}
   */
   readonly adminRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#display_name NimblestudioStudio#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#display_name NimblestudioStudio#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#studio_encryption_configuration NimblestudioStudio#studio_encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#studio_encryption_configuration NimblestudioStudio#studio_encryption_configuration}
   */
   readonly studioEncryptionConfiguration?: NimblestudioStudioStudioEncryptionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#studio_name NimblestudioStudio#studio_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#studio_name NimblestudioStudio#studio_name}
   */
   readonly studioName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#tags NimblestudioStudio#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#tags NimblestudioStudio#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#user_role_arn NimblestudioStudio#user_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#user_role_arn NimblestudioStudio#user_role_arn}
   */
   readonly userRoleArn: string;
 }
 export interface NimblestudioStudioStudioEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#key_arn NimblestudioStudio#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#key_arn NimblestudioStudio#key_arn}
   */
   readonly keyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#key_type NimblestudioStudio#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#key_type NimblestudioStudio#key_type}
   */
   readonly keyType?: string;
 }
@@ -161,7 +161,7 @@ export class NimblestudioStudioStudioEncryptionConfigurationOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio}
 */
 export class NimblestudioStudio extends cdktn.TerraformResource {
 
@@ -177,7 +177,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NimblestudioStudio resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NimblestudioStudio to import
-  * @param importFromId The id of the existing NimblestudioStudio that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NimblestudioStudio that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NimblestudioStudio to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -189,7 +189,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,7 +200,7 @@ export class NimblestudioStudio extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_nimblestudio_studio',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface B2BiProfileConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#business_name B2BiProfile#business_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#business_name B2BiProfile#business_name}
   */
   readonly businessName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#email B2BiProfile#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#email B2BiProfile#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#logging B2BiProfile#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#logging B2BiProfile#logging}
   */
   readonly logging: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#name B2BiProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#name B2BiProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#phone B2BiProfile#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#phone B2BiProfile#phone}
   */
   readonly phone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#tags B2BiProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#tags B2BiProfile#tags}
   */
   readonly tags?: B2BiProfileTags[] | cdktn.IResolvable;
 }
 export interface B2BiProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#key B2BiProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#key B2BiProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#value B2BiProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#value B2BiProfile#value}
   */
   readonly value?: string;
 }
@@ -183,7 +183,7 @@ export class B2BiProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile awscc_b2bi_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile awscc_b2bi_profile}
 */
 export class B2BiProfile extends cdktn.TerraformResource {
 
@@ -199,7 +199,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a B2BiProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the B2BiProfile to import
-  * @param importFromId The id of the existing B2BiProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing B2BiProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the B2BiProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +211,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_profile awscc_b2bi_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_profile awscc_b2bi_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,7 @@ export class B2BiProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_b2bi_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

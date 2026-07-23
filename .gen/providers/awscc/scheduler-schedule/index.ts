@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface SchedulerScheduleConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
   */
   readonly description?: string;
   /**
   * The date, in UTC, before which the schedule can invoke its target. Depending on the schedule's recurrence expression, invocations might stop on, or before, the EndDate you specify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
   */
   readonly endDate?: string;
   /**
   * Flexible time window allows configuration of a window within which a schedule can be invoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
   */
   readonly flexibleTimeWindow: SchedulerScheduleFlexibleTimeWindow;
   /**
   * The name of the schedule group to associate with this schedule. If you omit this, the default schedule group is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
   */
   readonly groupName?: string;
   /**
   * The ARN for a KMS Key that will be used to encrypt customer data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
   */
   readonly name?: string;
   /**
   * The scheduling expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
   */
   readonly scheduleExpression: string;
   /**
   * The timezone in which the scheduling expression is evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
   */
   readonly scheduleExpressionTimezone?: string;
   /**
   * The date, in UTC, after which the schedule can begin invoking its target. Depending on the schedule's recurrence expression, invocations might occur on, or after, the StartDate you specify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
   */
   readonly startDate?: string;
   /**
   * Specifies whether the schedule is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
   */
   readonly state?: string;
   /**
   * The schedule target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
   */
   readonly target: SchedulerScheduleTarget;
 }
@@ -76,13 +76,13 @@ export interface SchedulerScheduleFlexibleTimeWindow {
   /**
   * The maximum time window during which a schedule can be invoked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
   */
   readonly maximumWindowInMinutes?: number;
   /**
   * Determines whether the schedule is executed within a flexible time window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
   */
   readonly mode: string;
 }
@@ -204,7 +204,7 @@ export interface SchedulerScheduleTargetDeadLetterConfig {
   /**
   * The ARN of the SQS queue specified as the target for the dead-letter queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
   */
   readonly arn?: string;
 }
@@ -300,19 +300,19 @@ export interface SchedulerScheduleTargetEcsParametersCapacityProviderStrategy {
   /**
   * The base value designates how many tasks, at a minimum, to run on the specified capacity provider. Only one capacity provider in a capacity provider strategy can have a base defined. If no value is specified, the default value of 0 is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#base SchedulerSchedule#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#base SchedulerSchedule#base}
   */
   readonly base?: number;
   /**
   * The short name of the capacity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#capacity_provider SchedulerSchedule#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#capacity_provider SchedulerSchedule#capacity_provider}
   */
   readonly capacityProvider?: string;
   /**
   * The weight value designates the relative percentage of the total number of tasks launched that should use the specified capacity provider. The weight value is taken into consideration after the base value, if defined, is satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#weight SchedulerSchedule#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#weight SchedulerSchedule#weight}
   */
   readonly weight?: number;
 }
@@ -488,19 +488,19 @@ export interface SchedulerScheduleTargetEcsParametersNetworkConfigurationAwsvpcC
   /**
   * Specifies whether the task's elastic network interface receives a public IP address. You can specify ENABLED only when LaunchType in EcsParameters is set to FARGATE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
   */
   readonly assignPublicIp?: string;
   /**
   * Specifies the security groups associated with the task. These security groups must all be in the same VPC. You can specify as many as five security groups. If you do not specify a security group, the default security group for the VPC is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Specifies the subnets associated with the task. These subnets must all be in the same VPC. You can specify as many as 16 subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
   */
   readonly subnets?: string[];
 }
@@ -654,7 +654,7 @@ export interface SchedulerScheduleTargetEcsParametersNetworkConfiguration {
   /**
   * This structure specifies the VPC subnets and security groups for the task, and whether a public IP address is to be used. This structure is relevant only for ECS tasks that use the awsvpc network mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
   */
   readonly awsvpcConfiguration?: SchedulerScheduleTargetEcsParametersNetworkConfigurationAwsvpcConfiguration;
 }
@@ -750,13 +750,13 @@ export interface SchedulerScheduleTargetEcsParametersPlacementConstraints {
   /**
   * A cluster query language expression to apply to the constraint. You cannot specify an expression if the constraint type is distinctInstance. To learn more, see Cluster Query Language in the Amazon Elastic Container Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#expression SchedulerSchedule#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#expression SchedulerSchedule#expression}
   */
   readonly expression?: string;
   /**
   * The type of constraint. Use distinctInstance to ensure that each task in a particular group is running on a different container instance. Use memberOf to restrict the selection to a group of valid candidates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
   */
   readonly type?: string;
 }
@@ -903,13 +903,13 @@ export interface SchedulerScheduleTargetEcsParametersPlacementStrategy {
   /**
   * The field to apply the placement strategy against. For the spread placement strategy, valid values are instanceId (or host, which has the same effect), or any platform or custom attribute that is applied to a container instance, such as attribute:ecs.availability-zone. For the binpack placement strategy, valid values are cpu and memory. For the random placement strategy, this field is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}
   */
   readonly field?: string;
   /**
   * The type of placement strategy. The random placement strategy randomly places tasks on available candidates. The spread placement strategy spreads placement across available candidates evenly based on the field parameter. The binpack strategy places tasks on available candidates that have the least available amount of the resource that is specified with the field parameter. For example, if you binpack on memory, a task is placed on the instance with the least amount of remaining memory (but still enough to run the task).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
   */
   readonly type?: string;
 }
@@ -1056,85 +1056,85 @@ export interface SchedulerScheduleTargetEcsParameters {
   /**
   * The capacity provider strategy to use for the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: SchedulerScheduleTargetEcsParametersCapacityProviderStrategy[] | cdktn.IResolvable;
   /**
   * Specifies whether to enable Amazon ECS managed tags for the task. For more information, see Tagging Your Amazon ECS Resources in the Amazon Elastic Container Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktn.IResolvable;
   /**
   * Whether or not to enable the execute command functionality for the containers in this task. If true, this enables execute command functionality on all containers in the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktn.IResolvable;
   /**
   * Specifies an ECS task group for the task. The maximum length is 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
   */
   readonly group?: string;
   /**
   * Specifies the launch type on which your task is running. The launch type that you specify here must match one of the launch type (compatibilities) of the target task. The FARGATE value is supported only in the Regions where AWS Fargate with Amazon ECS is supported. For more information, see AWS Fargate on Amazon ECS in the Amazon Elastic Container Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
   */
   readonly launchType?: string;
   /**
   * This structure specifies the network configuration for an ECS task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
   */
   readonly networkConfiguration?: SchedulerScheduleTargetEcsParametersNetworkConfiguration;
   /**
   * An array of placement constraint objects to use for the task. You can specify up to 10 constraints per task (including constraints in the task definition and those specified at runtime).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
   */
   readonly placementConstraints?: SchedulerScheduleTargetEcsParametersPlacementConstraints[] | cdktn.IResolvable;
   /**
   * The placement strategy objects to use for the task. You can specify a maximum of five strategy rules per task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
   */
   readonly placementStrategy?: SchedulerScheduleTargetEcsParametersPlacementStrategy[] | cdktn.IResolvable;
   /**
   * Specifies the platform version for the task. Specify only the numeric portion of the platform version, such as 1.1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
   */
   readonly platformVersion?: string;
   /**
   * Specifies whether to propagate the tags from the task definition to the task. If no value is specified, the tags are not propagated. Tags can only be propagated to the task during task creation. To add tags to a task after task creation, use the TagResource API action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
   * The reference ID to use for the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
   */
   readonly referenceId?: string;
   /**
   * The metadata that you apply to the task to help you categorize and organize them. Each tag consists of a key and an optional value, both of which you define. To learn more, see RunTask in the Amazon ECS API Reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
   */
   readonly tags?: { [key: string]: string }[] | cdktn.IResolvable;
   /**
   * The number of tasks to create based on TaskDefinition. The default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
   */
   readonly taskCount?: number;
   /**
   * The ARN of the task definition to use if the event target is an Amazon ECS task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
   */
   readonly taskDefinitionArn?: string;
 }
@@ -1607,13 +1607,13 @@ export interface SchedulerScheduleTargetEventBridgeParameters {
   /**
   * Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
   */
   readonly detailType?: string;
   /**
   * The source of the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
   */
   readonly source?: string;
 }
@@ -1738,7 +1738,7 @@ export interface SchedulerScheduleTargetKinesisParameters {
   /**
   * The custom parameter used as the Kinesis partition key. For more information, see Amazon Kinesis Streams Key Concepts in the Amazon Kinesis Streams Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
   */
   readonly partitionKey?: string;
 }
@@ -1834,13 +1834,13 @@ export interface SchedulerScheduleTargetRetryPolicy {
   /**
   * The maximum amount of time, in seconds, to continue to make retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
   */
   readonly maximumEventAgeInSeconds?: number;
   /**
   * The maximum number of retry attempts to make before the request fails. Retry attempts with exponential backoff continue until either the maximum number of attempts is made or until the duration of the MaximumEventAgeInSeconds is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
 }
@@ -1965,13 +1965,13 @@ export interface SchedulerScheduleTargetSageMakerPipelineParametersPipelineParam
   /**
   * Name of parameter to start execution of a SageMaker Model Building Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
   */
   readonly name?: string;
   /**
   * Value of parameter to start execution of a SageMaker Model Building Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#value SchedulerSchedule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#value SchedulerSchedule#value}
   */
   readonly value?: string;
 }
@@ -2118,7 +2118,7 @@ export interface SchedulerScheduleTargetSageMakerPipelineParameters {
   /**
   * List of Parameter names and values for SageMaker Model Building Pipeline execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
   */
   readonly pipelineParameterList?: SchedulerScheduleTargetSageMakerPipelineParametersPipelineParameterListStruct[] | cdktn.IResolvable;
 }
@@ -2214,7 +2214,7 @@ export interface SchedulerScheduleTargetSqsParameters {
   /**
   * The FIFO message group ID to use as the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
   */
   readonly messageGroupId?: string;
 }
@@ -2310,61 +2310,61 @@ export interface SchedulerScheduleTarget {
   /**
   * The Amazon Resource Name (ARN) of the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
   */
   readonly arn: string;
   /**
   * A DeadLetterConfig object that contains information about a dead-letter queue configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
   */
   readonly deadLetterConfig?: SchedulerScheduleTargetDeadLetterConfig;
   /**
   * The custom parameters to be used when the target is an Amazon ECS task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
   */
   readonly ecsParameters?: SchedulerScheduleTargetEcsParameters;
   /**
   * EventBridge PutEvent predefined target type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
   */
   readonly eventBridgeParameters?: SchedulerScheduleTargetEventBridgeParameters;
   /**
   * The text, or well-formed JSON, passed to the target. If you are configuring a templated Lambda, AWS Step Functions, or Amazon EventBridge target, the input must be a well-formed JSON. For all other target types, a JSON is not required. If you do not specify anything for this field, EventBridge Scheduler delivers a default notification to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
   */
   readonly input?: string;
   /**
   * The custom parameter you can use to control the shard to which EventBridge Scheduler sends the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
   */
   readonly kinesisParameters?: SchedulerScheduleTargetKinesisParameters;
   /**
   * A RetryPolicy object that includes information about the retry policy settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
   */
   readonly retryPolicy?: SchedulerScheduleTargetRetryPolicy;
   /**
   * The Amazon Resource Name (ARN) of the IAM role to be used for this target when the schedule is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
   */
   readonly roleArn: string;
   /**
   * These are custom parameters to use when the target is a SageMaker Model Building Pipeline that starts based on AWS EventBridge Scheduler schedules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
   */
   readonly sageMakerPipelineParameters?: SchedulerScheduleTargetSageMakerPipelineParameters;
   /**
   * Contains the message group ID to use when the target is a FIFO queue. If you specify an SQS FIFO queue as a target, the queue must have content-based deduplication enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
   */
   readonly sqsParameters?: SchedulerScheduleTargetSqsParameters;
 }
@@ -2713,7 +2713,7 @@ export class SchedulerScheduleTargetOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule awscc_scheduler_schedule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule awscc_scheduler_schedule}
 */
 export class SchedulerSchedule extends cdktn.TerraformResource {
 
@@ -2729,7 +2729,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SchedulerSchedule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchedulerSchedule to import
-  * @param importFromId The id of the existing SchedulerSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchedulerSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchedulerSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2741,7 +2741,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/scheduler_schedule awscc_scheduler_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/scheduler_schedule awscc_scheduler_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2752,7 +2752,7 @@ export class SchedulerSchedule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_scheduler_schedule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

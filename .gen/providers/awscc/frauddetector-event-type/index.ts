@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface FrauddetectorEventTypeConfig extends cdktn.TerraformMetaArgumen
   /**
   * The description of the event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#entity_types FrauddetectorEventType#entity_types}
   */
   readonly entityTypes: FrauddetectorEventTypeEntityTypes[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#event_variables FrauddetectorEventType#event_variables}
   */
   readonly eventVariables: FrauddetectorEventTypeEventVariables[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#labels FrauddetectorEventType#labels}
   */
   readonly labels: FrauddetectorEventTypeLabels[] | cdktn.IResolvable;
   /**
   * The name for the event type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
   */
   readonly name: string;
   /**
   * Tags associated with this event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
   */
   readonly tags?: FrauddetectorEventTypeTags[] | cdktn.IResolvable;
 }
 export interface FrauddetectorEventTypeEntityTypesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
   */
   readonly value?: string;
 }
@@ -189,39 +189,39 @@ export class FrauddetectorEventTypeEntityTypesTagsList extends cdktn.ComplexList
 }
 export interface FrauddetectorEventTypeEntityTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}
   */
   readonly arn?: string;
   /**
   * The time when the event type was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
   */
   readonly createdTime?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
   * The time when the event type was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
   */
   readonly tags?: FrauddetectorEventTypeEntityTypesTags[] | cdktn.IResolvable;
 }
@@ -511,11 +511,11 @@ export class FrauddetectorEventTypeEntityTypesList extends cdktn.ComplexList {
 }
 export interface FrauddetectorEventTypeEventVariablesTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
   */
   readonly value?: string;
 }
@@ -660,55 +660,55 @@ export class FrauddetectorEventTypeEventVariablesTagsList extends cdktn.ComplexL
 }
 export interface FrauddetectorEventTypeEventVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}
   */
   readonly arn?: string;
   /**
   * The time when the event type was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
   */
   readonly createdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#data_source FrauddetectorEventType#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#data_source FrauddetectorEventType#data_source}
   */
   readonly dataSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#data_type FrauddetectorEventType#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#data_type FrauddetectorEventType#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#default_value FrauddetectorEventType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#default_value FrauddetectorEventType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
   * The time when the event type was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
   */
   readonly tags?: FrauddetectorEventTypeEventVariablesTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#variable_type FrauddetectorEventType#variable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#variable_type FrauddetectorEventType#variable_type}
   */
   readonly variableType?: string;
 }
@@ -1114,11 +1114,11 @@ export class FrauddetectorEventTypeEventVariablesList extends cdktn.ComplexList 
 }
 export interface FrauddetectorEventTypeLabelsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
   */
   readonly value?: string;
 }
@@ -1263,39 +1263,39 @@ export class FrauddetectorEventTypeLabelsTagsList extends cdktn.ComplexList {
 }
 export interface FrauddetectorEventTypeLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#arn FrauddetectorEventType#arn}
   */
   readonly arn?: string;
   /**
   * The time when the event type was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#created_time FrauddetectorEventType#created_time}
   */
   readonly createdTime?: string;
   /**
   * The description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#description FrauddetectorEventType#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#inline FrauddetectorEventType#inline}
   */
   readonly inline?: boolean | cdktn.IResolvable;
   /**
   * The time when the event type was last updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#last_updated_time FrauddetectorEventType#last_updated_time}
   */
   readonly lastUpdatedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#name FrauddetectorEventType#name}
   */
   readonly name?: string;
   /**
   * Tags associated with this event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#tags FrauddetectorEventType#tags}
   */
   readonly tags?: FrauddetectorEventTypeLabelsTags[] | cdktn.IResolvable;
 }
@@ -1585,11 +1585,11 @@ export class FrauddetectorEventTypeLabelsList extends cdktn.ComplexList {
 }
 export interface FrauddetectorEventTypeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#key FrauddetectorEventType#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#value FrauddetectorEventType#value}
   */
   readonly value?: string;
 }
@@ -1734,7 +1734,7 @@ export class FrauddetectorEventTypeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}
 */
 export class FrauddetectorEventType extends cdktn.TerraformResource {
 
@@ -1750,7 +1750,7 @@ export class FrauddetectorEventType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FrauddetectorEventType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FrauddetectorEventType to import
-  * @param importFromId The id of the existing FrauddetectorEventType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FrauddetectorEventType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FrauddetectorEventType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1762,7 +1762,7 @@ export class FrauddetectorEventType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1773,7 +1773,7 @@ export class FrauddetectorEventType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_frauddetector_event_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

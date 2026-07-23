@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface SesMailManagerRelayConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#authentication SesMailManagerRelay#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#authentication SesMailManagerRelay#authentication}
   */
   readonly authentication: SesMailManagerRelayAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#relay_name SesMailManagerRelay#relay_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#relay_name SesMailManagerRelay#relay_name}
   */
   readonly relayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#server_name SesMailManagerRelay#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#server_name SesMailManagerRelay#server_name}
   */
   readonly serverName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#server_port SesMailManagerRelay#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#server_port SesMailManagerRelay#server_port}
   */
   readonly serverPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#tags SesMailManagerRelay#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#tags SesMailManagerRelay#tags}
   */
   readonly tags?: SesMailManagerRelayTags[] | cdktn.IResolvable;
 }
 export interface SesMailManagerRelayAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#no_authentication SesMailManagerRelay#no_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#no_authentication SesMailManagerRelay#no_authentication}
   */
   readonly noAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#secret_arn SesMailManagerRelay#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#secret_arn SesMailManagerRelay#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -157,11 +157,11 @@ export class SesMailManagerRelayAuthenticationOutputReference extends cdktn.Comp
 }
 export interface SesMailManagerRelayTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#key SesMailManagerRelay#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#key SesMailManagerRelay#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#value SesMailManagerRelay#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#value SesMailManagerRelay#value}
   */
   readonly value?: string;
 }
@@ -306,7 +306,7 @@ export class SesMailManagerRelayTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay}
 */
 export class SesMailManagerRelay extends cdktn.TerraformResource {
 
@@ -322,7 +322,7 @@ export class SesMailManagerRelay extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesMailManagerRelay resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesMailManagerRelay to import
-  * @param importFromId The id of the existing SesMailManagerRelay that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesMailManagerRelay that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesMailManagerRelay to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -334,7 +334,7 @@ export class SesMailManagerRelay extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -345,7 +345,7 @@ export class SesMailManagerRelay extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_mail_manager_relay',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

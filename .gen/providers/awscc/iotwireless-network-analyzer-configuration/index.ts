@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IotwirelessNetworkAnalyzerConfigurationConfig extends cdktn.Ter
   /**
   * The description of the new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#description IotwirelessNetworkAnalyzerConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#description IotwirelessNetworkAnalyzerConfiguration#description}
   */
   readonly description?: string;
   /**
   * Name of the network analyzer configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#name IotwirelessNetworkAnalyzerConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#name IotwirelessNetworkAnalyzerConfiguration#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#tags IotwirelessNetworkAnalyzerConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#tags IotwirelessNetworkAnalyzerConfiguration#tags}
   */
   readonly tags?: IotwirelessNetworkAnalyzerConfigurationTags[] | cdktn.IResolvable;
   /**
   * Trace content for your wireless gateway and wireless device resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#trace_content IotwirelessNetworkAnalyzerConfiguration#trace_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#trace_content IotwirelessNetworkAnalyzerConfiguration#trace_content}
   */
   readonly traceContent?: IotwirelessNetworkAnalyzerConfigurationTraceContent;
   /**
   * List of wireless gateway resources that have been added to the network analyzer configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#wireless_devices IotwirelessNetworkAnalyzerConfiguration#wireless_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#wireless_devices IotwirelessNetworkAnalyzerConfiguration#wireless_devices}
   */
   readonly wirelessDevices?: string[];
   /**
   * List of wireless gateway resources that have been added to the network analyzer configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#wireless_gateways IotwirelessNetworkAnalyzerConfiguration#wireless_gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#wireless_gateways IotwirelessNetworkAnalyzerConfiguration#wireless_gateways}
   */
   readonly wirelessGateways?: string[];
 }
@@ -48,13 +48,13 @@ export interface IotwirelessNetworkAnalyzerConfigurationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#key IotwirelessNetworkAnalyzerConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#key IotwirelessNetworkAnalyzerConfiguration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#value IotwirelessNetworkAnalyzerConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#value IotwirelessNetworkAnalyzerConfiguration#value}
   */
   readonly value?: string;
 }
@@ -199,11 +199,11 @@ export class IotwirelessNetworkAnalyzerConfigurationTagsList extends cdktn.Compl
 }
 export interface IotwirelessNetworkAnalyzerConfigurationTraceContent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#log_level IotwirelessNetworkAnalyzerConfiguration#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#log_level IotwirelessNetworkAnalyzerConfiguration#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#wireless_device_frame_info IotwirelessNetworkAnalyzerConfiguration#wireless_device_frame_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#wireless_device_frame_info IotwirelessNetworkAnalyzerConfiguration#wireless_device_frame_info}
   */
   readonly wirelessDeviceFrameInfo?: string;
 }
@@ -326,7 +326,7 @@ export class IotwirelessNetworkAnalyzerConfigurationTraceContentOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration}
 */
 export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformResource {
 
@@ -342,7 +342,7 @@ export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformReso
   * Generates CDKTN code for importing a IotwirelessNetworkAnalyzerConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotwirelessNetworkAnalyzerConfiguration to import
-  * @param importFromId The id of the existing IotwirelessNetworkAnalyzerConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotwirelessNetworkAnalyzerConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotwirelessNetworkAnalyzerConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -354,7 +354,7 @@ export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,7 +365,7 @@ export class IotwirelessNetworkAnalyzerConfiguration extends cdktn.TerraformReso
       terraformResourceType: 'awscc_iotwireless_network_analyzer_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

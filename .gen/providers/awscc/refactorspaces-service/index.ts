@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktn from 'cdktn';
 
 export interface RefactorspacesServiceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#application_identifier RefactorspacesService#application_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#application_identifier RefactorspacesService#application_identifier}
   */
   readonly applicationIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#description RefactorspacesService#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#description RefactorspacesService#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#endpoint_type RefactorspacesService#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#endpoint_type RefactorspacesService#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#environment_identifier RefactorspacesService#environment_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#environment_identifier RefactorspacesService#environment_identifier}
   */
   readonly environmentIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#lambda_endpoint RefactorspacesService#lambda_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#lambda_endpoint RefactorspacesService#lambda_endpoint}
   */
   readonly lambdaEndpoint?: RefactorspacesServiceLambdaEndpoint;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#name RefactorspacesService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#name RefactorspacesService#name}
   */
   readonly name: string;
   /**
   * Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#tags RefactorspacesService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#tags RefactorspacesService#tags}
   */
   readonly tags?: RefactorspacesServiceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#url_endpoint RefactorspacesService#url_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#url_endpoint RefactorspacesService#url_endpoint}
   */
   readonly urlEndpoint?: RefactorspacesServiceUrlEndpoint;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#vpc_id RefactorspacesService#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#vpc_id RefactorspacesService#vpc_id}
   */
   readonly vpcId?: string;
 }
 export interface RefactorspacesServiceLambdaEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}
   */
   readonly arn?: string;
 }
@@ -144,13 +144,13 @@ export interface RefactorspacesServiceTags {
   /**
   * A string used to identify this tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#key RefactorspacesService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#key RefactorspacesService#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#value RefactorspacesService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#value RefactorspacesService#value}
   */
   readonly value?: string;
 }
@@ -295,11 +295,11 @@ export class RefactorspacesServiceTagsList extends cdktn.ComplexList {
 }
 export interface RefactorspacesServiceUrlEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#health_url RefactorspacesService#health_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#health_url RefactorspacesService#health_url}
   */
   readonly healthUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#url RefactorspacesService#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#url RefactorspacesService#url}
   */
   readonly url?: string;
 }
@@ -422,7 +422,7 @@ export class RefactorspacesServiceUrlEndpointOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service awscc_refactorspaces_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service awscc_refactorspaces_service}
 */
 export class RefactorspacesService extends cdktn.TerraformResource {
 
@@ -438,7 +438,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RefactorspacesService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RefactorspacesService to import
-  * @param importFromId The id of the existing RefactorspacesService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RefactorspacesService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RefactorspacesService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -450,7 +450,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/refactorspaces_service awscc_refactorspaces_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/refactorspaces_service awscc_refactorspaces_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,7 +461,7 @@ export class RefactorspacesService extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_refactorspaces_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

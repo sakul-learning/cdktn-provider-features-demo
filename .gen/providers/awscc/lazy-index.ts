@@ -103,6 +103,7 @@ Object.defineProperty(exports, 'athenaNamedQuery', { get: function () { return r
 Object.defineProperty(exports, 'athenaPreparedStatement', { get: function () { return require('./athena-prepared-statement'); } });
 Object.defineProperty(exports, 'athenaWorkGroup', { get: function () { return require('./athena-work-group'); } });
 Object.defineProperty(exports, 'auditmanagerAssessment', { get: function () { return require('./auditmanager-assessment'); } });
+Object.defineProperty(exports, 'auditmanagerAssessmentFramework', { get: function () { return require('./auditmanager-assessment-framework'); } });
 Object.defineProperty(exports, 'autoscalingAutoScalingGroup', { get: function () { return require('./autoscaling-auto-scaling-group'); } });
 Object.defineProperty(exports, 'autoscalingLaunchConfiguration', { get: function () { return require('./autoscaling-launch-configuration'); } });
 Object.defineProperty(exports, 'autoscalingLifecycleHook', { get: function () { return require('./autoscaling-lifecycle-hook'); } });
@@ -149,6 +150,7 @@ Object.defineProperty(exports, 'bedrockGuardrail', { get: function () { return r
 Object.defineProperty(exports, 'bedrockGuardrailVersion', { get: function () { return require('./bedrock-guardrail-version'); } });
 Object.defineProperty(exports, 'bedrockIntelligentPromptRouter', { get: function () { return require('./bedrock-intelligent-prompt-router'); } });
 Object.defineProperty(exports, 'bedrockKnowledgeBase', { get: function () { return require('./bedrock-knowledge-base'); } });
+Object.defineProperty(exports, 'bedrockKnowledgeBasePolicy', { get: function () { return require('./bedrock-knowledge-base-policy'); } });
 Object.defineProperty(exports, 'bedrockPrompt', { get: function () { return require('./bedrock-prompt'); } });
 Object.defineProperty(exports, 'bedrockPromptVersion', { get: function () { return require('./bedrock-prompt-version'); } });
 Object.defineProperty(exports, 'bedrockResourcePolicy', { get: function () { return require('./bedrock-resource-policy'); } });
@@ -211,6 +213,7 @@ Object.defineProperty(exports, 'cleanroomsPrivacyBudgetTemplate', { get: functio
 Object.defineProperty(exports, 'cleanroomsmlConfiguredModelAlgorithm', { get: function () { return require('./cleanroomsml-configured-model-algorithm'); } });
 Object.defineProperty(exports, 'cleanroomsmlConfiguredModelAlgorithmAssociation', { get: function () { return require('./cleanroomsml-configured-model-algorithm-association'); } });
 Object.defineProperty(exports, 'cleanroomsmlTrainingDataset', { get: function () { return require('./cleanroomsml-training-dataset'); } });
+Object.defineProperty(exports, 'cloudformationGeneratedTemplate', { get: function () { return require('./cloudformation-generated-template'); } });
 Object.defineProperty(exports, 'cloudformationGuardHook', { get: function () { return require('./cloudformation-guard-hook'); } });
 Object.defineProperty(exports, 'cloudformationHookDefaultVersion', { get: function () { return require('./cloudformation-hook-default-version'); } });
 Object.defineProperty(exports, 'cloudformationHookTypeConfig', { get: function () { return require('./cloudformation-hook-type-config'); } });
@@ -415,11 +418,13 @@ Object.defineProperty(exports, 'directconnectPrivateVirtualInterface', { get: fu
 Object.defineProperty(exports, 'directconnectPublicVirtualInterface', { get: function () { return require('./directconnect-public-virtual-interface'); } });
 Object.defineProperty(exports, 'directconnectTransitVirtualInterface', { get: function () { return require('./directconnect-transit-virtual-interface'); } });
 Object.defineProperty(exports, 'directoryserviceSimpleAd', { get: function () { return require('./directoryservice-simple-ad'); } });
+Object.defineProperty(exports, 'dmsCertificate', { get: function () { return require('./dms-certificate'); } });
 Object.defineProperty(exports, 'dmsDataMigration', { get: function () { return require('./dms-data-migration'); } });
 Object.defineProperty(exports, 'dmsDataProvider', { get: function () { return require('./dms-data-provider'); } });
 Object.defineProperty(exports, 'dmsInstanceProfile', { get: function () { return require('./dms-instance-profile'); } });
 Object.defineProperty(exports, 'dmsMigrationProject', { get: function () { return require('./dms-migration-project'); } });
 Object.defineProperty(exports, 'dmsReplicationConfig', { get: function () { return require('./dms-replication-config'); } });
+Object.defineProperty(exports, 'docdbEventSubscription', { get: function () { return require('./docdb-event-subscription'); } });
 Object.defineProperty(exports, 'docdbGlobalCluster', { get: function () { return require('./docdb-global-cluster'); } });
 Object.defineProperty(exports, 'docdbelasticCluster', { get: function () { return require('./docdbelastic-cluster'); } });
 Object.defineProperty(exports, 'dsqlCluster', { get: function () { return require('./dsql-cluster'); } });
@@ -505,6 +510,7 @@ Object.defineProperty(exports, 'ec2TransitGatewayMulticastGroupMember', { get: f
 Object.defineProperty(exports, 'ec2TransitGatewayMulticastGroupSource', { get: function () { return require('./ec2-transit-gateway-multicast-group-source'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayPeeringAttachment', { get: function () { return require('./ec2-transit-gateway-peering-attachment'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayPolicyTable', { get: function () { return require('./ec2-transit-gateway-policy-table'); } });
+Object.defineProperty(exports, 'ec2TransitGatewayPolicyTableAssociation', { get: function () { return require('./ec2-transit-gateway-policy-table-association'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayRoute', { get: function () { return require('./ec2-transit-gateway-route'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayRouteTable', { get: function () { return require('./ec2-transit-gateway-route-table'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayRouteTableAssociation', { get: function () { return require('./ec2-transit-gateway-route-table-association'); } });
@@ -641,6 +647,7 @@ Object.defineProperty(exports, 'globalacceleratorAccelerator', { get: function (
 Object.defineProperty(exports, 'globalacceleratorCrossAccountAttachment', { get: function () { return require('./globalaccelerator-cross-account-attachment'); } });
 Object.defineProperty(exports, 'globalacceleratorEndpointGroup', { get: function () { return require('./globalaccelerator-endpoint-group'); } });
 Object.defineProperty(exports, 'globalacceleratorListener', { get: function () { return require('./globalaccelerator-listener'); } });
+Object.defineProperty(exports, 'glueBlueprint', { get: function () { return require('./glue-blueprint'); } });
 Object.defineProperty(exports, 'glueCatalog', { get: function () { return require('./glue-catalog'); } });
 Object.defineProperty(exports, 'glueCrawler', { get: function () { return require('./glue-crawler'); } });
 Object.defineProperty(exports, 'glueDataCatalogEncryptionSettings', { get: function () { return require('./glue-data-catalog-encryption-settings'); } });
@@ -654,6 +661,7 @@ Object.defineProperty(exports, 'glueSchema', { get: function () { return require
 Object.defineProperty(exports, 'glueSchemaVersion', { get: function () { return require('./glue-schema-version'); } });
 Object.defineProperty(exports, 'glueSchemaVersionMetadata', { get: function () { return require('./glue-schema-version-metadata'); } });
 Object.defineProperty(exports, 'glueTrigger', { get: function () { return require('./glue-trigger'); } });
+Object.defineProperty(exports, 'glueUserDefinedFunction', { get: function () { return require('./glue-user-defined-function'); } });
 Object.defineProperty(exports, 'grafanaWorkspace', { get: function () { return require('./grafana-workspace'); } });
 Object.defineProperty(exports, 'greengrassv2ComponentVersion', { get: function () { return require('./greengrassv2-component-version'); } });
 Object.defineProperty(exports, 'greengrassv2Deployment', { get: function () { return require('./greengrassv2-deployment'); } });
@@ -672,6 +680,7 @@ Object.defineProperty(exports, 'guarddutyThreatEntitySet', { get: function () { 
 Object.defineProperty(exports, 'guarddutyThreatIntelSet', { get: function () { return require('./guardduty-threat-intel-set'); } });
 Object.defineProperty(exports, 'guarddutyTrustedEntitySet', { get: function () { return require('./guardduty-trusted-entity-set'); } });
 Object.defineProperty(exports, 'healthimagingDatastore', { get: function () { return require('./healthimaging-datastore'); } });
+Object.defineProperty(exports, 'healthlakeDataTransformationProfile', { get: function () { return require('./healthlake-data-transformation-profile'); } });
 Object.defineProperty(exports, 'healthlakeFhirDatastore', { get: function () { return require('./healthlake-fhir-datastore'); } });
 Object.defineProperty(exports, 'iamGroup', { get: function () { return require('./iam-group'); } });
 Object.defineProperty(exports, 'iamGroupPolicy', { get: function () { return require('./iam-group-policy'); } });
@@ -1048,6 +1057,7 @@ Object.defineProperty(exports, 'quicksightDashboard', { get: function () { retur
 Object.defineProperty(exports, 'quicksightDataSet', { get: function () { return require('./quicksight-data-set'); } });
 Object.defineProperty(exports, 'quicksightDataSource', { get: function () { return require('./quicksight-data-source'); } });
 Object.defineProperty(exports, 'quicksightFolder', { get: function () { return require('./quicksight-folder'); } });
+Object.defineProperty(exports, 'quicksightKnowledgeBase', { get: function () { return require('./quicksight-knowledge-base'); } });
 Object.defineProperty(exports, 'quicksightOAuthClientApplication', { get: function () { return require('./quicksight-o-auth-client-application'); } });
 Object.defineProperty(exports, 'quicksightRefreshSchedule', { get: function () { return require('./quicksight-refresh-schedule'); } });
 Object.defineProperty(exports, 'quicksightTemplate', { get: function () { return require('./quicksight-template'); } });
@@ -1182,15 +1192,19 @@ Object.defineProperty(exports, 's3TablesTablePolicy', { get: function () { retur
 Object.defineProperty(exports, 's3VectorsIndex', { get: function () { return require('./s3vectors-index'); } });
 Object.defineProperty(exports, 's3VectorsVectorBucket', { get: function () { return require('./s3vectors-vector-bucket'); } });
 Object.defineProperty(exports, 's3VectorsVectorBucketPolicy', { get: function () { return require('./s3vectors-vector-bucket-policy'); } });
+Object.defineProperty(exports, 'sagemakerAction', { get: function () { return require('./sagemaker-action'); } });
 Object.defineProperty(exports, 'sagemakerAlgorithm', { get: function () { return require('./sagemaker-algorithm'); } });
 Object.defineProperty(exports, 'sagemakerApp', { get: function () { return require('./sagemaker-app'); } });
 Object.defineProperty(exports, 'sagemakerAppImageConfig', { get: function () { return require('./sagemaker-app-image-config'); } });
 Object.defineProperty(exports, 'sagemakerCluster', { get: function () { return require('./sagemaker-cluster'); } });
+Object.defineProperty(exports, 'sagemakerContext', { get: function () { return require('./sagemaker-context'); } });
 Object.defineProperty(exports, 'sagemakerDataQualityJobDefinition', { get: function () { return require('./sagemaker-data-quality-job-definition'); } });
 Object.defineProperty(exports, 'sagemakerDevice', { get: function () { return require('./sagemaker-device'); } });
 Object.defineProperty(exports, 'sagemakerDeviceFleet', { get: function () { return require('./sagemaker-device-fleet'); } });
 Object.defineProperty(exports, 'sagemakerDomain', { get: function () { return require('./sagemaker-domain'); } });
 Object.defineProperty(exports, 'sagemakerEndpoint', { get: function () { return require('./sagemaker-endpoint'); } });
+Object.defineProperty(exports, 'sagemakerExperiment', { get: function () { return require('./sagemaker-experiment'); } });
+Object.defineProperty(exports, 'sagemakerExperimentTrialComponent', { get: function () { return require('./sagemaker-experiment-trial-component'); } });
 Object.defineProperty(exports, 'sagemakerFeatureGroup', { get: function () { return require('./sagemaker-feature-group'); } });
 Object.defineProperty(exports, 'sagemakerHub', { get: function () { return require('./sagemaker-hub'); } });
 Object.defineProperty(exports, 'sagemakerImage', { get: function () { return require('./sagemaker-image'); } });
@@ -1212,6 +1226,7 @@ Object.defineProperty(exports, 'sagemakerProcessingJob', { get: function () { re
 Object.defineProperty(exports, 'sagemakerProject', { get: function () { return require('./sagemaker-project'); } });
 Object.defineProperty(exports, 'sagemakerSpace', { get: function () { return require('./sagemaker-space'); } });
 Object.defineProperty(exports, 'sagemakerStudioLifecycleConfig', { get: function () { return require('./sagemaker-studio-lifecycle-config'); } });
+Object.defineProperty(exports, 'sagemakerTrialComponent', { get: function () { return require('./sagemaker-trial-component'); } });
 Object.defineProperty(exports, 'sagemakerUserProfile', { get: function () { return require('./sagemaker-user-profile'); } });
 Object.defineProperty(exports, 'schedulerSchedule', { get: function () { return require('./scheduler-schedule'); } });
 Object.defineProperty(exports, 'schedulerScheduleGroup', { get: function () { return require('./scheduler-schedule-group'); } });
@@ -1292,6 +1307,7 @@ Object.defineProperty(exports, 'smsvoiceOptOutList', { get: function () { return
 Object.defineProperty(exports, 'smsvoicePhoneNumber', { get: function () { return require('./smsvoice-phone-number'); } });
 Object.defineProperty(exports, 'smsvoicePool', { get: function () { return require('./smsvoice-pool'); } });
 Object.defineProperty(exports, 'smsvoiceProtectConfiguration', { get: function () { return require('./smsvoice-protect-configuration'); } });
+Object.defineProperty(exports, 'smsvoiceRegistration', { get: function () { return require('./smsvoice-registration'); } });
 Object.defineProperty(exports, 'smsvoiceResourcePolicy', { get: function () { return require('./smsvoice-resource-policy'); } });
 Object.defineProperty(exports, 'smsvoiceSenderId', { get: function () { return require('./smsvoice-sender-id'); } });
 Object.defineProperty(exports, 'snsSubscription', { get: function () { return require('./sns-subscription'); } });
@@ -1327,6 +1343,7 @@ Object.defineProperty(exports, 'stepfunctionsActivity', { get: function () { ret
 Object.defineProperty(exports, 'stepfunctionsStateMachine', { get: function () { return require('./stepfunctions-state-machine'); } });
 Object.defineProperty(exports, 'stepfunctionsStateMachineAlias', { get: function () { return require('./stepfunctions-state-machine-alias'); } });
 Object.defineProperty(exports, 'stepfunctionsStateMachineVersion', { get: function () { return require('./stepfunctions-state-machine-version'); } });
+Object.defineProperty(exports, 'storagegatewayTapePool', { get: function () { return require('./storagegateway-tape-pool'); } });
 Object.defineProperty(exports, 'supportappAccountAlias', { get: function () { return require('./supportapp-account-alias'); } });
 Object.defineProperty(exports, 'supportappSlackChannelConfiguration', { get: function () { return require('./supportapp-slack-channel-configuration'); } });
 Object.defineProperty(exports, 'supportappSlackWorkspaceConfiguration', { get: function () { return require('./supportapp-slack-workspace-configuration'); } });
@@ -1338,6 +1355,7 @@ Object.defineProperty(exports, 'timestreamInfluxDbCluster', { get: function () {
 Object.defineProperty(exports, 'timestreamInfluxDbInstance', { get: function () { return require('./timestream-influx-db-instance'); } });
 Object.defineProperty(exports, 'timestreamScheduledQuery', { get: function () { return require('./timestream-scheduled-query'); } });
 Object.defineProperty(exports, 'timestreamTable', { get: function () { return require('./timestream-table'); } });
+Object.defineProperty(exports, 'transcribeVocabularyFilter', { get: function () { return require('./transcribe-vocabulary-filter'); } });
 Object.defineProperty(exports, 'transferAgreement', { get: function () { return require('./transfer-agreement'); } });
 Object.defineProperty(exports, 'transferCertificate', { get: function () { return require('./transfer-certificate'); } });
 Object.defineProperty(exports, 'transferConnector', { get: function () { return require('./transfer-connector'); } });
@@ -1368,6 +1386,9 @@ Object.defineProperty(exports, 'wafv2IpSet', { get: function () { return require
 Object.defineProperty(exports, 'wafv2LoggingConfiguration', { get: function () { return require('./wafv2-logging-configuration'); } });
 Object.defineProperty(exports, 'wafv2RegexPatternSet', { get: function () { return require('./wafv2-regex-pattern-set'); } });
 Object.defineProperty(exports, 'wafv2WebAclAssociation', { get: function () { return require('./wafv2-web-acl-association'); } });
+Object.defineProperty(exports, 'wellarchitectedLens', { get: function () { return require('./wellarchitected-lens'); } });
+Object.defineProperty(exports, 'wellarchitectedProfile', { get: function () { return require('./wellarchitected-profile'); } });
+Object.defineProperty(exports, 'wellarchitectedReviewTemplate', { get: function () { return require('./wellarchitected-review-template'); } });
 Object.defineProperty(exports, 'wisdomAiAgent', { get: function () { return require('./wisdom-ai-agent'); } });
 Object.defineProperty(exports, 'wisdomAiAgentVersion', { get: function () { return require('./wisdom-ai-agent-version'); } });
 Object.defineProperty(exports, 'wisdomAiGuardrail', { get: function () { return require('./wisdom-ai-guardrail'); } });
@@ -1381,6 +1402,7 @@ Object.defineProperty(exports, 'wisdomMessageTemplate', { get: function () { ret
 Object.defineProperty(exports, 'wisdomMessageTemplateVersion', { get: function () { return require('./wisdom-message-template-version'); } });
 Object.defineProperty(exports, 'wisdomQuickResponse', { get: function () { return require('./wisdom-quick-response'); } });
 Object.defineProperty(exports, 'workspacesConnectionAlias', { get: function () { return require('./workspaces-connection-alias'); } });
+Object.defineProperty(exports, 'workspacesWorkspaceIpGroup', { get: function () { return require('./workspaces-workspace-ip-group'); } });
 Object.defineProperty(exports, 'workspacesWorkspacesPool', { get: function () { return require('./workspaces-workspaces-pool'); } });
 Object.defineProperty(exports, 'workspacesinstancesVolume', { get: function () { return require('./workspacesinstances-volume'); } });
 Object.defineProperty(exports, 'workspacesinstancesVolumeAssociation', { get: function () { return require('./workspacesinstances-volume-association'); } });
@@ -1563,6 +1585,8 @@ Object.defineProperty(exports, 'dataAwsccAthenaPreparedStatement', { get: functi
 Object.defineProperty(exports, 'dataAwsccAthenaWorkGroup', { get: function () { return require('./data-awscc-athena-work-group'); } });
 Object.defineProperty(exports, 'dataAwsccAthenaWorkGroups', { get: function () { return require('./data-awscc-athena-work-groups'); } });
 Object.defineProperty(exports, 'dataAwsccAuditmanagerAssessment', { get: function () { return require('./data-awscc-auditmanager-assessment'); } });
+Object.defineProperty(exports, 'dataAwsccAuditmanagerAssessmentFramework', { get: function () { return require('./data-awscc-auditmanager-assessment-framework'); } });
+Object.defineProperty(exports, 'dataAwsccAuditmanagerAssessmentFrameworks', { get: function () { return require('./data-awscc-auditmanager-assessment-frameworks'); } });
 Object.defineProperty(exports, 'dataAwsccAuditmanagerAssessments', { get: function () { return require('./data-awscc-auditmanager-assessments'); } });
 Object.defineProperty(exports, 'dataAwsccAutoscalingAutoScalingGroup', { get: function () { return require('./data-awscc-autoscaling-auto-scaling-group'); } });
 Object.defineProperty(exports, 'dataAwsccAutoscalingAutoScalingGroups', { get: function () { return require('./data-awscc-autoscaling-auto-scaling-groups'); } });
@@ -1649,6 +1673,7 @@ Object.defineProperty(exports, 'dataAwsccBedrockGuardrails', { get: function () 
 Object.defineProperty(exports, 'dataAwsccBedrockIntelligentPromptRouter', { get: function () { return require('./data-awscc-bedrock-intelligent-prompt-router'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockIntelligentPromptRouters', { get: function () { return require('./data-awscc-bedrock-intelligent-prompt-routers'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockKnowledgeBase', { get: function () { return require('./data-awscc-bedrock-knowledge-base'); } });
+Object.defineProperty(exports, 'dataAwsccBedrockKnowledgeBasePolicy', { get: function () { return require('./data-awscc-bedrock-knowledge-base-policy'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockKnowledgeBases', { get: function () { return require('./data-awscc-bedrock-knowledge-bases'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockPrompt', { get: function () { return require('./data-awscc-bedrock-prompt'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockPromptVersion', { get: function () { return require('./data-awscc-bedrock-prompt-version'); } });
@@ -1757,6 +1782,8 @@ Object.defineProperty(exports, 'dataAwsccCleanroomsmlConfiguredModelAlgorithmAss
 Object.defineProperty(exports, 'dataAwsccCleanroomsmlConfiguredModelAlgorithms', { get: function () { return require('./data-awscc-cleanroomsml-configured-model-algorithms'); } });
 Object.defineProperty(exports, 'dataAwsccCleanroomsmlTrainingDataset', { get: function () { return require('./data-awscc-cleanroomsml-training-dataset'); } });
 Object.defineProperty(exports, 'dataAwsccCleanroomsmlTrainingDatasets', { get: function () { return require('./data-awscc-cleanroomsml-training-datasets'); } });
+Object.defineProperty(exports, 'dataAwsccCloudformationGeneratedTemplate', { get: function () { return require('./data-awscc-cloudformation-generated-template'); } });
+Object.defineProperty(exports, 'dataAwsccCloudformationGeneratedTemplates', { get: function () { return require('./data-awscc-cloudformation-generated-templates'); } });
 Object.defineProperty(exports, 'dataAwsccCloudformationGuardHook', { get: function () { return require('./data-awscc-cloudformation-guard-hook'); } });
 Object.defineProperty(exports, 'dataAwsccCloudformationGuardHooks', { get: function () { return require('./data-awscc-cloudformation-guard-hooks'); } });
 Object.defineProperty(exports, 'dataAwsccCloudformationHookDefaultVersion', { get: function () { return require('./data-awscc-cloudformation-hook-default-version'); } });
@@ -2084,6 +2111,8 @@ Object.defineProperty(exports, 'dataAwsccDirectconnectTransitVirtualInterface', 
 Object.defineProperty(exports, 'dataAwsccDirectconnectTransitVirtualInterfaces', { get: function () { return require('./data-awscc-directconnect-transit-virtual-interfaces'); } });
 Object.defineProperty(exports, 'dataAwsccDirectoryserviceSimpleAd', { get: function () { return require('./data-awscc-directoryservice-simple-ad'); } });
 Object.defineProperty(exports, 'dataAwsccDirectoryserviceSimpleAds', { get: function () { return require('./data-awscc-directoryservice-simple-ads'); } });
+Object.defineProperty(exports, 'dataAwsccDmsCertificate', { get: function () { return require('./data-awscc-dms-certificate'); } });
+Object.defineProperty(exports, 'dataAwsccDmsCertificates', { get: function () { return require('./data-awscc-dms-certificates'); } });
 Object.defineProperty(exports, 'dataAwsccDmsDataMigration', { get: function () { return require('./data-awscc-dms-data-migration'); } });
 Object.defineProperty(exports, 'dataAwsccDmsDataMigrations', { get: function () { return require('./data-awscc-dms-data-migrations'); } });
 Object.defineProperty(exports, 'dataAwsccDmsDataProvider', { get: function () { return require('./data-awscc-dms-data-provider'); } });
@@ -2094,6 +2123,8 @@ Object.defineProperty(exports, 'dataAwsccDmsMigrationProject', { get: function (
 Object.defineProperty(exports, 'dataAwsccDmsMigrationProjects', { get: function () { return require('./data-awscc-dms-migration-projects'); } });
 Object.defineProperty(exports, 'dataAwsccDmsReplicationConfig', { get: function () { return require('./data-awscc-dms-replication-config'); } });
 Object.defineProperty(exports, 'dataAwsccDmsReplicationConfigs', { get: function () { return require('./data-awscc-dms-replication-configs'); } });
+Object.defineProperty(exports, 'dataAwsccDocdbEventSubscription', { get: function () { return require('./data-awscc-docdb-event-subscription'); } });
+Object.defineProperty(exports, 'dataAwsccDocdbEventSubscriptions', { get: function () { return require('./data-awscc-docdb-event-subscriptions'); } });
 Object.defineProperty(exports, 'dataAwsccDocdbGlobalCluster', { get: function () { return require('./data-awscc-docdb-global-cluster'); } });
 Object.defineProperty(exports, 'dataAwsccDocdbGlobalClusters', { get: function () { return require('./data-awscc-docdb-global-clusters'); } });
 Object.defineProperty(exports, 'dataAwsccDocdbelasticCluster', { get: function () { return require('./data-awscc-docdbelastic-cluster'); } });
@@ -2257,6 +2288,7 @@ Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayMulticastGroupSources'
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPeeringAttachment', { get: function () { return require('./data-awscc-ec2-transit-gateway-peering-attachment'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPeeringAttachments', { get: function () { return require('./data-awscc-ec2-transit-gateway-peering-attachments'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPolicyTable', { get: function () { return require('./data-awscc-ec2-transit-gateway-policy-table'); } });
+Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPolicyTableAssociation', { get: function () { return require('./data-awscc-ec2-transit-gateway-policy-table-association'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayPolicyTables', { get: function () { return require('./data-awscc-ec2-transit-gateway-policy-tables'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayRoute', { get: function () { return require('./data-awscc-ec2-transit-gateway-route'); } });
 Object.defineProperty(exports, 'dataAwsccEc2TransitGatewayRouteTable', { get: function () { return require('./data-awscc-ec2-transit-gateway-route-table'); } });
@@ -2508,6 +2540,8 @@ Object.defineProperty(exports, 'dataAwsccGlobalacceleratorEndpointGroup', { get:
 Object.defineProperty(exports, 'dataAwsccGlobalacceleratorEndpointGroups', { get: function () { return require('./data-awscc-globalaccelerator-endpoint-groups'); } });
 Object.defineProperty(exports, 'dataAwsccGlobalacceleratorListener', { get: function () { return require('./data-awscc-globalaccelerator-listener'); } });
 Object.defineProperty(exports, 'dataAwsccGlobalacceleratorListeners', { get: function () { return require('./data-awscc-globalaccelerator-listeners'); } });
+Object.defineProperty(exports, 'dataAwsccGlueBlueprint', { get: function () { return require('./data-awscc-glue-blueprint'); } });
+Object.defineProperty(exports, 'dataAwsccGlueBlueprints', { get: function () { return require('./data-awscc-glue-blueprints'); } });
 Object.defineProperty(exports, 'dataAwsccGlueCatalog', { get: function () { return require('./data-awscc-glue-catalog'); } });
 Object.defineProperty(exports, 'dataAwsccGlueCatalogs', { get: function () { return require('./data-awscc-glue-catalogs'); } });
 Object.defineProperty(exports, 'dataAwsccGlueCrawler', { get: function () { return require('./data-awscc-glue-crawler'); } });
@@ -2530,6 +2564,7 @@ Object.defineProperty(exports, 'dataAwsccGlueSchemaVersionMetadata', { get: func
 Object.defineProperty(exports, 'dataAwsccGlueSchemas', { get: function () { return require('./data-awscc-glue-schemas'); } });
 Object.defineProperty(exports, 'dataAwsccGlueTrigger', { get: function () { return require('./data-awscc-glue-trigger'); } });
 Object.defineProperty(exports, 'dataAwsccGlueTriggers', { get: function () { return require('./data-awscc-glue-triggers'); } });
+Object.defineProperty(exports, 'dataAwsccGlueUserDefinedFunction', { get: function () { return require('./data-awscc-glue-user-defined-function'); } });
 Object.defineProperty(exports, 'dataAwsccGrafanaWorkspace', { get: function () { return require('./data-awscc-grafana-workspace'); } });
 Object.defineProperty(exports, 'dataAwsccGrafanaWorkspaces', { get: function () { return require('./data-awscc-grafana-workspaces'); } });
 Object.defineProperty(exports, 'dataAwsccGreengrassv2ComponentVersion', { get: function () { return require('./data-awscc-greengrassv2-component-version'); } });
@@ -2565,6 +2600,7 @@ Object.defineProperty(exports, 'dataAwsccGuarddutyTrustedEntitySet', { get: func
 Object.defineProperty(exports, 'dataAwsccGuarddutyTrustedEntitySets', { get: function () { return require('./data-awscc-guardduty-trusted-entity-sets'); } });
 Object.defineProperty(exports, 'dataAwsccHealthimagingDatastore', { get: function () { return require('./data-awscc-healthimaging-datastore'); } });
 Object.defineProperty(exports, 'dataAwsccHealthimagingDatastores', { get: function () { return require('./data-awscc-healthimaging-datastores'); } });
+Object.defineProperty(exports, 'dataAwsccHealthlakeDataTransformationProfile', { get: function () { return require('./data-awscc-healthlake-data-transformation-profile'); } });
 Object.defineProperty(exports, 'dataAwsccHealthlakeFhirDatastore', { get: function () { return require('./data-awscc-healthlake-fhir-datastore'); } });
 Object.defineProperty(exports, 'dataAwsccHealthlakeFhirDatastores', { get: function () { return require('./data-awscc-healthlake-fhir-datastores'); } });
 Object.defineProperty(exports, 'dataAwsccIamGroup', { get: function () { return require('./data-awscc-iam-group'); } });
@@ -3242,6 +3278,8 @@ Object.defineProperty(exports, 'dataAwsccQuicksightDataSource', { get: function 
 Object.defineProperty(exports, 'dataAwsccQuicksightDataSources', { get: function () { return require('./data-awscc-quicksight-data-sources'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightFolder', { get: function () { return require('./data-awscc-quicksight-folder'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightFolders', { get: function () { return require('./data-awscc-quicksight-folders'); } });
+Object.defineProperty(exports, 'dataAwsccQuicksightKnowledgeBase', { get: function () { return require('./data-awscc-quicksight-knowledge-base'); } });
+Object.defineProperty(exports, 'dataAwsccQuicksightKnowledgeBases', { get: function () { return require('./data-awscc-quicksight-knowledge-bases'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightOAuthClientApplication', { get: function () { return require('./data-awscc-quicksight-o-auth-client-application'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightOAuthClientApplications', { get: function () { return require('./data-awscc-quicksight-o-auth-client-applications'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightRefreshSchedule', { get: function () { return require('./data-awscc-quicksight-refresh-schedule'); } });
@@ -3477,6 +3515,8 @@ Object.defineProperty(exports, 'dataAwsccS3VectorsVectorBucket', { get: function
 Object.defineProperty(exports, 'dataAwsccS3VectorsVectorBucketPolicies', { get: function () { return require('./data-awscc-s3vectors-vector-bucket-policies'); } });
 Object.defineProperty(exports, 'dataAwsccS3VectorsVectorBucketPolicy', { get: function () { return require('./data-awscc-s3vectors-vector-bucket-policy'); } });
 Object.defineProperty(exports, 'dataAwsccS3VectorsVectorBuckets', { get: function () { return require('./data-awscc-s3vectors-vector-buckets'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerAction', { get: function () { return require('./data-awscc-sagemaker-action'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerActions', { get: function () { return require('./data-awscc-sagemaker-actions'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerAlgorithm', { get: function () { return require('./data-awscc-sagemaker-algorithm'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerAlgorithms', { get: function () { return require('./data-awscc-sagemaker-algorithms'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerApp', { get: function () { return require('./data-awscc-sagemaker-app'); } });
@@ -3485,6 +3525,8 @@ Object.defineProperty(exports, 'dataAwsccSagemakerAppImageConfigs', { get: funct
 Object.defineProperty(exports, 'dataAwsccSagemakerApps', { get: function () { return require('./data-awscc-sagemaker-apps'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerCluster', { get: function () { return require('./data-awscc-sagemaker-cluster'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerClusters', { get: function () { return require('./data-awscc-sagemaker-clusters'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerContext', { get: function () { return require('./data-awscc-sagemaker-context'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerContexts', { get: function () { return require('./data-awscc-sagemaker-contexts'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerDataQualityJobDefinition', { get: function () { return require('./data-awscc-sagemaker-data-quality-job-definition'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerDataQualityJobDefinitions', { get: function () { return require('./data-awscc-sagemaker-data-quality-job-definitions'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerDevice', { get: function () { return require('./data-awscc-sagemaker-device'); } });
@@ -3493,6 +3535,10 @@ Object.defineProperty(exports, 'dataAwsccSagemakerDomain', { get: function () { 
 Object.defineProperty(exports, 'dataAwsccSagemakerDomains', { get: function () { return require('./data-awscc-sagemaker-domains'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerEndpoint', { get: function () { return require('./data-awscc-sagemaker-endpoint'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerEndpoints', { get: function () { return require('./data-awscc-sagemaker-endpoints'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerExperiment', { get: function () { return require('./data-awscc-sagemaker-experiment'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerExperimentTrialComponent', { get: function () { return require('./data-awscc-sagemaker-experiment-trial-component'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerExperimentTrialComponents', { get: function () { return require('./data-awscc-sagemaker-experiment-trial-components'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerExperiments', { get: function () { return require('./data-awscc-sagemaker-experiments'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerFeatureGroup', { get: function () { return require('./data-awscc-sagemaker-feature-group'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerFeatureGroups', { get: function () { return require('./data-awscc-sagemaker-feature-groups'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerHub', { get: function () { return require('./data-awscc-sagemaker-hub'); } });
@@ -3534,6 +3580,8 @@ Object.defineProperty(exports, 'dataAwsccSagemakerSpace', { get: function () { r
 Object.defineProperty(exports, 'dataAwsccSagemakerSpaces', { get: function () { return require('./data-awscc-sagemaker-spaces'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerStudioLifecycleConfig', { get: function () { return require('./data-awscc-sagemaker-studio-lifecycle-config'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerStudioLifecycleConfigs', { get: function () { return require('./data-awscc-sagemaker-studio-lifecycle-configs'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerTrialComponent', { get: function () { return require('./data-awscc-sagemaker-trial-component'); } });
+Object.defineProperty(exports, 'dataAwsccSagemakerTrialComponents', { get: function () { return require('./data-awscc-sagemaker-trial-components'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerUserProfile', { get: function () { return require('./data-awscc-sagemaker-user-profile'); } });
 Object.defineProperty(exports, 'dataAwsccSagemakerUserProfiles', { get: function () { return require('./data-awscc-sagemaker-user-profiles'); } });
 Object.defineProperty(exports, 'dataAwsccSchedulerSchedule', { get: function () { return require('./data-awscc-scheduler-schedule'); } });
@@ -3679,6 +3727,8 @@ Object.defineProperty(exports, 'dataAwsccSmsvoicePool', { get: function () { ret
 Object.defineProperty(exports, 'dataAwsccSmsvoicePools', { get: function () { return require('./data-awscc-smsvoice-pools'); } });
 Object.defineProperty(exports, 'dataAwsccSmsvoiceProtectConfiguration', { get: function () { return require('./data-awscc-smsvoice-protect-configuration'); } });
 Object.defineProperty(exports, 'dataAwsccSmsvoiceProtectConfigurations', { get: function () { return require('./data-awscc-smsvoice-protect-configurations'); } });
+Object.defineProperty(exports, 'dataAwsccSmsvoiceRegistration', { get: function () { return require('./data-awscc-smsvoice-registration'); } });
+Object.defineProperty(exports, 'dataAwsccSmsvoiceRegistrations', { get: function () { return require('./data-awscc-smsvoice-registrations'); } });
 Object.defineProperty(exports, 'dataAwsccSmsvoiceResourcePolicies', { get: function () { return require('./data-awscc-smsvoice-resource-policies'); } });
 Object.defineProperty(exports, 'dataAwsccSmsvoiceResourcePolicy', { get: function () { return require('./data-awscc-smsvoice-resource-policy'); } });
 Object.defineProperty(exports, 'dataAwsccSmsvoiceSenderId', { get: function () { return require('./data-awscc-smsvoice-sender-id'); } });
@@ -3739,6 +3789,8 @@ Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachine', { get: func
 Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachineAlias', { get: function () { return require('./data-awscc-stepfunctions-state-machine-alias'); } });
 Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachineVersion', { get: function () { return require('./data-awscc-stepfunctions-state-machine-version'); } });
 Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachines', { get: function () { return require('./data-awscc-stepfunctions-state-machines'); } });
+Object.defineProperty(exports, 'dataAwsccStoragegatewayTapePool', { get: function () { return require('./data-awscc-storagegateway-tape-pool'); } });
+Object.defineProperty(exports, 'dataAwsccStoragegatewayTapePools', { get: function () { return require('./data-awscc-storagegateway-tape-pools'); } });
 Object.defineProperty(exports, 'dataAwsccSupportappAccountAlias', { get: function () { return require('./data-awscc-supportapp-account-alias'); } });
 Object.defineProperty(exports, 'dataAwsccSupportappAccountAliases', { get: function () { return require('./data-awscc-supportapp-account-aliases'); } });
 Object.defineProperty(exports, 'dataAwsccSupportappSlackChannelConfiguration', { get: function () { return require('./data-awscc-supportapp-slack-channel-configuration'); } });
@@ -3761,6 +3813,8 @@ Object.defineProperty(exports, 'dataAwsccTimestreamScheduledQueries', { get: fun
 Object.defineProperty(exports, 'dataAwsccTimestreamScheduledQuery', { get: function () { return require('./data-awscc-timestream-scheduled-query'); } });
 Object.defineProperty(exports, 'dataAwsccTimestreamTable', { get: function () { return require('./data-awscc-timestream-table'); } });
 Object.defineProperty(exports, 'dataAwsccTimestreamTables', { get: function () { return require('./data-awscc-timestream-tables'); } });
+Object.defineProperty(exports, 'dataAwsccTranscribeVocabularyFilter', { get: function () { return require('./data-awscc-transcribe-vocabulary-filter'); } });
+Object.defineProperty(exports, 'dataAwsccTranscribeVocabularyFilters', { get: function () { return require('./data-awscc-transcribe-vocabulary-filters'); } });
 Object.defineProperty(exports, 'dataAwsccTransferAgreement', { get: function () { return require('./data-awscc-transfer-agreement'); } });
 Object.defineProperty(exports, 'dataAwsccTransferCertificate', { get: function () { return require('./data-awscc-transfer-certificate'); } });
 Object.defineProperty(exports, 'dataAwsccTransferCertificates', { get: function () { return require('./data-awscc-transfer-certificates'); } });
@@ -3809,6 +3863,12 @@ Object.defineProperty(exports, 'dataAwsccWafv2LoggingConfiguration', { get: func
 Object.defineProperty(exports, 'dataAwsccWafv2LoggingConfigurations', { get: function () { return require('./data-awscc-wafv2-logging-configurations'); } });
 Object.defineProperty(exports, 'dataAwsccWafv2RegexPatternSet', { get: function () { return require('./data-awscc-wafv2-regex-pattern-set'); } });
 Object.defineProperty(exports, 'dataAwsccWafv2WebAclAssociation', { get: function () { return require('./data-awscc-wafv2-web-acl-association'); } });
+Object.defineProperty(exports, 'dataAwsccWellarchitectedLens', { get: function () { return require('./data-awscc-wellarchitected-lens'); } });
+Object.defineProperty(exports, 'dataAwsccWellarchitectedLenses', { get: function () { return require('./data-awscc-wellarchitected-lenses'); } });
+Object.defineProperty(exports, 'dataAwsccWellarchitectedProfile', { get: function () { return require('./data-awscc-wellarchitected-profile'); } });
+Object.defineProperty(exports, 'dataAwsccWellarchitectedProfiles', { get: function () { return require('./data-awscc-wellarchitected-profiles'); } });
+Object.defineProperty(exports, 'dataAwsccWellarchitectedReviewTemplate', { get: function () { return require('./data-awscc-wellarchitected-review-template'); } });
+Object.defineProperty(exports, 'dataAwsccWellarchitectedReviewTemplates', { get: function () { return require('./data-awscc-wellarchitected-review-templates'); } });
 Object.defineProperty(exports, 'dataAwsccWisdomAiAgent', { get: function () { return require('./data-awscc-wisdom-ai-agent'); } });
 Object.defineProperty(exports, 'dataAwsccWisdomAiAgentVersion', { get: function () { return require('./data-awscc-wisdom-ai-agent-version'); } });
 Object.defineProperty(exports, 'dataAwsccWisdomAiGuardrail', { get: function () { return require('./data-awscc-wisdom-ai-guardrail'); } });
@@ -3825,6 +3885,8 @@ Object.defineProperty(exports, 'dataAwsccWisdomMessageTemplateVersion', { get: f
 Object.defineProperty(exports, 'dataAwsccWisdomQuickResponse', { get: function () { return require('./data-awscc-wisdom-quick-response'); } });
 Object.defineProperty(exports, 'dataAwsccWorkspacesConnectionAlias', { get: function () { return require('./data-awscc-workspaces-connection-alias'); } });
 Object.defineProperty(exports, 'dataAwsccWorkspacesConnectionAliases', { get: function () { return require('./data-awscc-workspaces-connection-aliases'); } });
+Object.defineProperty(exports, 'dataAwsccWorkspacesWorkspaceIpGroup', { get: function () { return require('./data-awscc-workspaces-workspace-ip-group'); } });
+Object.defineProperty(exports, 'dataAwsccWorkspacesWorkspaceIpGroups', { get: function () { return require('./data-awscc-workspaces-workspace-ip-groups'); } });
 Object.defineProperty(exports, 'dataAwsccWorkspacesWorkspacesPool', { get: function () { return require('./data-awscc-workspaces-workspaces-pool'); } });
 Object.defineProperty(exports, 'dataAwsccWorkspacesWorkspacesPools', { get: function () { return require('./data-awscc-workspaces-workspaces-pools'); } });
 Object.defineProperty(exports, 'dataAwsccWorkspacesinstancesVolume', { get: function () { return require('./data-awscc-workspacesinstances-volume'); } });

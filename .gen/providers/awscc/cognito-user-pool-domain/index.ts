@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,35 @@ import * as cdktn from 'cdktn';
 
 export interface CognitoUserPoolDomainConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#custom_domain_config CognitoUserPoolDomain#custom_domain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#custom_domain_config CognitoUserPoolDomain#custom_domain_config}
   */
   readonly customDomainConfig?: CognitoUserPoolDomainCustomDomainConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#domain CognitoUserPoolDomain#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#domain CognitoUserPoolDomain#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#managed_login_version CognitoUserPoolDomain#managed_login_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#managed_login_version CognitoUserPoolDomain#managed_login_version}
   */
   readonly managedLoginVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#routing CognitoUserPoolDomain#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#routing CognitoUserPoolDomain#routing}
   */
   readonly routing?: CognitoUserPoolDomainRouting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#user_pool_id CognitoUserPoolDomain#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#user_pool_id CognitoUserPoolDomain#user_pool_id}
   */
   readonly userPoolId: string;
 }
 export interface CognitoUserPoolDomainCustomDomainConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#certificate_arn CognitoUserPoolDomain#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#certificate_arn CognitoUserPoolDomain#certificate_arn}
   */
   readonly certificateArn?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#security_policy CognitoUserPoolDomain#security_policy}
+  */
+  readonly securityPolicy?: string;
 }
 
 export function cognitoUserPoolDomainCustomDomainConfigToTerraform(struct?: CognitoUserPoolDomainCustomDomainConfig | cdktn.IResolvable): any {
@@ -42,6 +46,7 @@ export function cognitoUserPoolDomainCustomDomainConfigToTerraform(struct?: Cogn
   }
   return {
     certificate_arn: cdktn.stringToTerraform(struct!.certificateArn),
+    security_policy: cdktn.stringToTerraform(struct!.securityPolicy),
   }
 }
 
@@ -54,6 +59,12 @@ export function cognitoUserPoolDomainCustomDomainConfigToHclTerraform(struct?: C
   const attrs = {
     certificate_arn: {
       value: cdktn.stringToHclTerraform(struct!.certificateArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    security_policy: {
+      value: cdktn.stringToHclTerraform(struct!.securityPolicy),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -86,6 +97,10 @@ export class CognitoUserPoolDomainCustomDomainConfigOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.certificateArn = this._certificateArn;
     }
+    if (this._securityPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.securityPolicy = this._securityPolicy;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -94,6 +109,7 @@ export class CognitoUserPoolDomainCustomDomainConfigOutputReference extends cdkt
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._certificateArn = undefined;
+      this._securityPolicy = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -103,6 +119,7 @@ export class CognitoUserPoolDomainCustomDomainConfigOutputReference extends cdkt
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._certificateArn = value.certificateArn;
+      this._securityPolicy = value.securityPolicy;
     }
   }
 
@@ -121,14 +138,30 @@ export class CognitoUserPoolDomainCustomDomainConfigOutputReference extends cdkt
   public get certificateArnInput() {
     return this._certificateArn;
   }
+
+  // security_policy - computed: true, optional: true, required: false
+  private _securityPolicy?: string; 
+  public get securityPolicy() {
+    return this.getStringAttribute('security_policy');
+  }
+  public set securityPolicy(value: string) {
+    this._securityPolicy = value;
+  }
+  public resetSecurityPolicy() {
+    this._securityPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityPolicyInput() {
+    return this._securityPolicy;
+  }
 }
 export interface CognitoUserPoolDomainRoutingFailover {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#primary_route_53_health_check_id CognitoUserPoolDomain#primary_route_53_health_check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#primary_route_53_health_check_id CognitoUserPoolDomain#primary_route_53_health_check_id}
   */
   readonly primaryRoute53HealthCheckId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#secondary_region CognitoUserPoolDomain#secondary_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#secondary_region CognitoUserPoolDomain#secondary_region}
   */
   readonly secondaryRegion?: string;
 }
@@ -251,7 +284,7 @@ export class CognitoUserPoolDomainRoutingFailoverOutputReference extends cdktn.C
 }
 export interface CognitoUserPoolDomainRouting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#failover CognitoUserPoolDomain#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#failover CognitoUserPoolDomain#failover}
   */
   readonly failover?: CognitoUserPoolDomainRoutingFailover;
 }
@@ -345,7 +378,7 @@ export class CognitoUserPoolDomainRoutingOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain}
 */
 export class CognitoUserPoolDomain extends cdktn.TerraformResource {
 
@@ -361,7 +394,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CognitoUserPoolDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CognitoUserPoolDomain to import
-  * @param importFromId The id of the existing CognitoUserPoolDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CognitoUserPoolDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CognitoUserPoolDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -373,7 +406,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,7 +417,7 @@ export class CognitoUserPoolDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cognito_user_pool_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

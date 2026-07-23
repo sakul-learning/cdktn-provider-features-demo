@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktn from 'cdktn';
 
 export interface LocationMapConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#configuration LocationMap#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#configuration LocationMap#configuration}
   */
   readonly configuration: LocationMapConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#description LocationMap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#description LocationMap#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#map_name LocationMap#map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#map_name LocationMap#map_name}
   */
   readonly mapName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#pricing_plan LocationMap#pricing_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#pricing_plan LocationMap#pricing_plan}
   */
   readonly pricingPlan?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#tags LocationMap#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#tags LocationMap#tags}
   */
   readonly tags?: LocationMapTags[] | cdktn.IResolvable;
 }
 export interface LocationMapConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#custom_layers LocationMap#custom_layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#custom_layers LocationMap#custom_layers}
   */
   readonly customLayers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#political_view LocationMap#political_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#political_view LocationMap#political_view}
   */
   readonly politicalView?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#style LocationMap#style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#style LocationMap#style}
   */
   readonly style: string;
 }
@@ -191,13 +191,13 @@ export interface LocationMapTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#key LocationMap#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#key LocationMap#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#value LocationMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#value LocationMap#value}
   */
   readonly value?: string;
 }
@@ -342,7 +342,7 @@ export class LocationMapTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map awscc_location_map}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map awscc_location_map}
 */
 export class LocationMap extends cdktn.TerraformResource {
 
@@ -358,7 +358,7 @@ export class LocationMap extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LocationMap resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocationMap to import
-  * @param importFromId The id of the existing LocationMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocationMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocationMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -370,7 +370,7 @@ export class LocationMap extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/location_map awscc_location_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/location_map awscc_location_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,7 +381,7 @@ export class LocationMap extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_location_map',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayMethodConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#api_key_required ApigatewayMethod#api_key_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#api_key_required ApigatewayMethod#api_key_required}
   */
   readonly apiKeyRequired?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#authorization_scopes ApigatewayMethod#authorization_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#authorization_scopes ApigatewayMethod#authorization_scopes}
   */
   readonly authorizationScopes?: string[];
   /**
   * The method's authorization type. This parameter is required. For valid values, see [Method](https://docs.aws.amazon.com/apigateway/latest/api/API_Method.html) in the *API Gateway API Reference*.
   *   If you specify the ``AuthorizerId`` property, specify ``CUSTOM`` or ``COGNITO_USER_POOLS`` for this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#authorization_type ApigatewayMethod#authorization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#authorization_type ApigatewayMethod#authorization_type}
   */
   readonly authorizationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#authorizer_id ApigatewayMethod#authorizer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#authorizer_id ApigatewayMethod#authorizer_id}
   */
   readonly authorizerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#http_method ApigatewayMethod#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#http_method ApigatewayMethod#http_method}
   */
   readonly httpMethod: string;
   /**
   * ``Integration`` is a property of the [AWS::ApiGateway::Method](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html) resource that specifies information about the target backend that a method calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#integration ApigatewayMethod#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#integration ApigatewayMethod#integration}
   */
   readonly integration?: ApigatewayMethodIntegration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#method_responses ApigatewayMethod#method_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#method_responses ApigatewayMethod#method_responses}
   */
   readonly methodResponses?: ApigatewayMethodMethodResponses[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#operation_name ApigatewayMethod#operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#operation_name ApigatewayMethod#operation_name}
   */
   readonly operationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#request_models ApigatewayMethod#request_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#request_models ApigatewayMethod#request_models}
   */
   readonly requestModels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#request_parameters ApigatewayMethod#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#request_parameters ApigatewayMethod#request_parameters}
   */
   readonly requestParameters?: { [key: string]: (boolean | cdktn.IResolvable) };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#request_validator_id ApigatewayMethod#request_validator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#request_validator_id ApigatewayMethod#request_validator_id}
   */
   readonly requestValidatorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#resource_id ApigatewayMethod#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#resource_id ApigatewayMethod#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#rest_api_id ApigatewayMethod#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#rest_api_id ApigatewayMethod#rest_api_id}
   */
   readonly restApiId: string;
 }
 export interface ApigatewayMethodIntegrationIntegrationResponses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#content_handling ApigatewayMethod#content_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#content_handling ApigatewayMethod#content_handling}
   */
   readonly contentHandling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#response_parameters ApigatewayMethod#response_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#response_parameters ApigatewayMethod#response_parameters}
   */
   readonly responseParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#response_templates ApigatewayMethod#response_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#response_templates ApigatewayMethod#response_templates}
   */
   readonly responseTemplates?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#selection_pattern ApigatewayMethod#selection_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#selection_pattern ApigatewayMethod#selection_pattern}
   */
   readonly selectionPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#status_code ApigatewayMethod#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#status_code ApigatewayMethod#status_code}
   */
   readonly statusCode?: string;
 }
@@ -315,67 +315,67 @@ export class ApigatewayMethodIntegrationIntegrationResponsesList extends cdktn.C
 }
 export interface ApigatewayMethodIntegration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#cache_key_parameters ApigatewayMethod#cache_key_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#cache_key_parameters ApigatewayMethod#cache_key_parameters}
   */
   readonly cacheKeyParameters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#cache_namespace ApigatewayMethod#cache_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#cache_namespace ApigatewayMethod#cache_namespace}
   */
   readonly cacheNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#connection_id ApigatewayMethod#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#connection_id ApigatewayMethod#connection_id}
   */
   readonly connectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#connection_type ApigatewayMethod#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#connection_type ApigatewayMethod#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#content_handling ApigatewayMethod#content_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#content_handling ApigatewayMethod#content_handling}
   */
   readonly contentHandling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#credentials ApigatewayMethod#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#credentials ApigatewayMethod#credentials}
   */
   readonly credentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#integration_http_method ApigatewayMethod#integration_http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#integration_http_method ApigatewayMethod#integration_http_method}
   */
   readonly integrationHttpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#integration_responses ApigatewayMethod#integration_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#integration_responses ApigatewayMethod#integration_responses}
   */
   readonly integrationResponses?: ApigatewayMethodIntegrationIntegrationResponses[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#integration_target ApigatewayMethod#integration_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#integration_target ApigatewayMethod#integration_target}
   */
   readonly integrationTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#passthrough_behavior ApigatewayMethod#passthrough_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#passthrough_behavior ApigatewayMethod#passthrough_behavior}
   */
   readonly passthroughBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#request_parameters ApigatewayMethod#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#request_parameters ApigatewayMethod#request_parameters}
   */
   readonly requestParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#request_templates ApigatewayMethod#request_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#request_templates ApigatewayMethod#request_templates}
   */
   readonly requestTemplates?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#response_transfer_mode ApigatewayMethod#response_transfer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#response_transfer_mode ApigatewayMethod#response_transfer_mode}
   */
   readonly responseTransferMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#timeout_in_millis ApigatewayMethod#timeout_in_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#timeout_in_millis ApigatewayMethod#timeout_in_millis}
   */
   readonly timeoutInMillis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#type ApigatewayMethod#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#type ApigatewayMethod#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#uri ApigatewayMethod#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#uri ApigatewayMethod#uri}
   */
   readonly uri?: string;
 }
@@ -904,15 +904,15 @@ export class ApigatewayMethodIntegrationOutputReference extends cdktn.ComplexObj
 }
 export interface ApigatewayMethodMethodResponses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#response_models ApigatewayMethod#response_models}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#response_models ApigatewayMethod#response_models}
   */
   readonly responseModels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#response_parameters ApigatewayMethod#response_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#response_parameters ApigatewayMethod#response_parameters}
   */
   readonly responseParameters?: { [key: string]: (boolean | cdktn.IResolvable) };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#status_code ApigatewayMethod#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#status_code ApigatewayMethod#status_code}
   */
   readonly statusCode?: string;
 }
@@ -1086,7 +1086,7 @@ export class ApigatewayMethodMethodResponsesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method awscc_apigateway_method}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method awscc_apigateway_method}
 */
 export class ApigatewayMethod extends cdktn.TerraformResource {
 
@@ -1102,7 +1102,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayMethod resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayMethod to import
-  * @param importFromId The id of the existing ApigatewayMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayMethod to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1114,7 +1114,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_method awscc_apigateway_method} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_method awscc_apigateway_method} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1125,7 +1125,7 @@ export class ApigatewayMethod extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_method',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

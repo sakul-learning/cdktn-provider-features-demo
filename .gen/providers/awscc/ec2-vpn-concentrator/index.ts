@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Ec2VpnConcentratorConfig extends cdktn.TerraformMetaArguments {
   /**
   * Any tags assigned to the VPN concentrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
   */
   readonly tags?: Ec2VpnConcentratorTags[] | cdktn.IResolvable;
   /**
   * The ID of the transit gateway associated with the VPN concentrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
   */
   readonly transitGatewayId: string;
   /**
   * The type of VPN concentrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
   */
   readonly type: string;
 }
@@ -31,14 +31,14 @@ export interface Ec2VpnConcentratorTags {
   * The key of the tag.
   *  Constraints: Tag keys are case-sensitive and accept a maximum of 127 Unicode characters. May not begin with ``aws:``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator#key Ec2VpnConcentrator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator#key Ec2VpnConcentrator#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *  Constraints: Tag values are case-sensitive and accept a maximum of 256 Unicode characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator#value Ec2VpnConcentrator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator#value Ec2VpnConcentrator#value}
   */
   readonly value?: string;
 }
@@ -183,7 +183,7 @@ export class Ec2VpnConcentratorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator}
 */
 export class Ec2VpnConcentrator extends cdktn.TerraformResource {
 
@@ -199,7 +199,7 @@ export class Ec2VpnConcentrator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpnConcentrator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpnConcentrator to import
-  * @param importFromId The id of the existing Ec2VpnConcentrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpnConcentrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpnConcentrator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +211,7 @@ export class Ec2VpnConcentrator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,7 @@ export class Ec2VpnConcentrator extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpn_concentrator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

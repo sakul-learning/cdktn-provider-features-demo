@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayClientCertificateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate#description ApigatewayClientCertificate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate#tags ApigatewayClientCertificate#tags}
   */
   readonly tags?: ApigatewayClientCertificateTags[] | cdktn.IResolvable;
 }
@@ -20,13 +20,13 @@ export interface ApigatewayClientCertificateTags {
   /**
   * A string you can use to assign a value. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate#key ApigatewayClientCertificate#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate#value ApigatewayClientCertificate#value}
   */
   readonly value?: string;
 }
@@ -171,7 +171,7 @@ export class ApigatewayClientCertificateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate}
 */
 export class ApigatewayClientCertificate extends cdktn.TerraformResource {
 
@@ -187,7 +187,7 @@ export class ApigatewayClientCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayClientCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayClientCertificate to import
-  * @param importFromId The id of the existing ApigatewayClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayClientCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -199,7 +199,7 @@ export class ApigatewayClientCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_client_certificate awscc_apigateway_client_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,7 +210,7 @@ export class ApigatewayClientCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_client_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

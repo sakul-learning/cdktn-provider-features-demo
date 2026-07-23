@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,47 @@ export interface GlobalacceleratorAcceleratorConfig extends cdktn.TerraformMetaA
   /**
   * Indicates whether an accelerator is enabled. The value is true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#enabled GlobalacceleratorAccelerator#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
+  * Indicates whether flow logs are enabled for the accelerator.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#flow_logs_enabled GlobalacceleratorAccelerator#flow_logs_enabled}
+  */
+  readonly flowLogsEnabled?: boolean | cdktn.IResolvable;
+  /**
+  * The name of the Amazon S3 bucket for the flow logs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_bucket GlobalacceleratorAccelerator#flow_logs_s3_bucket}
+  */
+  readonly flowLogsS3Bucket?: string;
+  /**
+  * The prefix for the location in the Amazon S3 bucket for the flow logs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#flow_logs_s3_prefix GlobalacceleratorAccelerator#flow_logs_s3_prefix}
+  */
+  readonly flowLogsS3Prefix?: string;
+  /**
   * IP Address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#ip_address_type GlobalacceleratorAccelerator#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * The IP addresses from BYOIP Prefix pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#ip_addresses GlobalacceleratorAccelerator#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * Name of accelerator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#name GlobalacceleratorAccelerator#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#tags GlobalacceleratorAccelerator#tags}
   */
   readonly tags?: GlobalacceleratorAcceleratorTags[] | cdktn.IResolvable;
 }
@@ -40,13 +58,13 @@ export interface GlobalacceleratorAcceleratorTags {
   /**
   * Key of the tag. Value can be 1 to 127 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#key GlobalacceleratorAccelerator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#key GlobalacceleratorAccelerator#key}
   */
   readonly key?: string;
   /**
   * Value for the tag. Value can be 1 to 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#value GlobalacceleratorAccelerator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#value GlobalacceleratorAccelerator#value}
   */
   readonly value?: string;
 }
@@ -191,7 +209,7 @@ export class GlobalacceleratorAcceleratorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator}
 */
 export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
 
@@ -207,7 +225,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlobalacceleratorAccelerator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlobalacceleratorAccelerator to import
-  * @param importFromId The id of the existing GlobalacceleratorAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlobalacceleratorAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlobalacceleratorAccelerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -219,7 +237,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/globalaccelerator_accelerator awscc_globalaccelerator_accelerator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,7 +248,7 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_globalaccelerator_accelerator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -241,6 +259,9 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._enabled = config.enabled;
+    this._flowLogsEnabled = config.flowLogsEnabled;
+    this._flowLogsS3Bucket = config.flowLogsS3Bucket;
+    this._flowLogsS3Prefix = config.flowLogsS3Prefix;
     this._ipAddressType = config.ipAddressType;
     this._ipAddresses = config.ipAddresses;
     this._name = config.name;
@@ -280,6 +301,54 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enabledInput() {
     return this._enabled;
+  }
+
+  // flow_logs_enabled - computed: true, optional: true, required: false
+  private _flowLogsEnabled?: boolean | cdktn.IResolvable; 
+  public get flowLogsEnabled() {
+    return this.getBooleanAttribute('flow_logs_enabled');
+  }
+  public set flowLogsEnabled(value: boolean | cdktn.IResolvable) {
+    this._flowLogsEnabled = value;
+  }
+  public resetFlowLogsEnabled() {
+    this._flowLogsEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowLogsEnabledInput() {
+    return this._flowLogsEnabled;
+  }
+
+  // flow_logs_s3_bucket - computed: true, optional: true, required: false
+  private _flowLogsS3Bucket?: string; 
+  public get flowLogsS3Bucket() {
+    return this.getStringAttribute('flow_logs_s3_bucket');
+  }
+  public set flowLogsS3Bucket(value: string) {
+    this._flowLogsS3Bucket = value;
+  }
+  public resetFlowLogsS3Bucket() {
+    this._flowLogsS3Bucket = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowLogsS3BucketInput() {
+    return this._flowLogsS3Bucket;
+  }
+
+  // flow_logs_s3_prefix - computed: true, optional: true, required: false
+  private _flowLogsS3Prefix?: string; 
+  public get flowLogsS3Prefix() {
+    return this.getStringAttribute('flow_logs_s3_prefix');
+  }
+  public set flowLogsS3Prefix(value: string) {
+    this._flowLogsS3Prefix = value;
+  }
+  public resetFlowLogsS3Prefix() {
+    this._flowLogsS3Prefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get flowLogsS3PrefixInput() {
+    return this._flowLogsS3Prefix;
   }
 
   // id - computed: true, optional: false, required: false
@@ -365,6 +434,9 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       enabled: cdktn.booleanToTerraform(this._enabled),
+      flow_logs_enabled: cdktn.booleanToTerraform(this._flowLogsEnabled),
+      flow_logs_s3_bucket: cdktn.stringToTerraform(this._flowLogsS3Bucket),
+      flow_logs_s3_prefix: cdktn.stringToTerraform(this._flowLogsS3Prefix),
       ip_address_type: cdktn.stringToTerraform(this._ipAddressType),
       ip_addresses: cdktn.listMapper(cdktn.stringToTerraform, false)(this._ipAddresses),
       name: cdktn.stringToTerraform(this._name),
@@ -379,6 +451,24 @@ export class GlobalacceleratorAccelerator extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      flow_logs_enabled: {
+        value: cdktn.booleanToHclTerraform(this._flowLogsEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      flow_logs_s3_bucket: {
+        value: cdktn.stringToHclTerraform(this._flowLogsS3Bucket),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      flow_logs_s3_prefix: {
+        value: cdktn.stringToHclTerraform(this._flowLogsS3Prefix),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       ip_address_type: {
         value: cdktn.stringToHclTerraform(this._ipAddressType),

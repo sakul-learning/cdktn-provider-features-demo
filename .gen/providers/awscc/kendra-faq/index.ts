@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface KendraFaqConfig extends cdktn.TerraformMetaArguments {
   /**
   * FAQ description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#description KendraFaq#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#description KendraFaq#description}
   */
   readonly description?: string;
   /**
   * FAQ file format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#file_format KendraFaq#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#file_format KendraFaq#file_format}
   */
   readonly fileFormat?: string;
   /**
   * Index ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#index_id KendraFaq#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#index_id KendraFaq#index_id}
   */
   readonly indexId: string;
   /**
   * The code for a language.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#language_code KendraFaq#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#language_code KendraFaq#language_code}
   */
   readonly languageCode?: string;
   /**
   * FAQ name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#name KendraFaq#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#name KendraFaq#name}
   */
   readonly name: string;
   /**
   * FAQ role ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#role_arn KendraFaq#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#role_arn KendraFaq#role_arn}
   */
   readonly roleArn: string;
   /**
   * FAQ S3 path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#s3_path KendraFaq#s3_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#s3_path KendraFaq#s3_path}
   */
   readonly s3Path: KendraFaqS3Path;
   /**
   * Tags for labeling the FAQ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#tags KendraFaq#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#tags KendraFaq#tags}
   */
   readonly tags?: KendraFaqTags[] | cdktn.IResolvable;
 }
 export interface KendraFaqS3Path {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#bucket KendraFaq#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#key KendraFaq#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#key KendraFaq#key}
   */
   readonly key: string;
 }
@@ -181,13 +181,13 @@ export interface KendraFaqTags {
   /**
   * A string used to identify this tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#key KendraFaq#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#key KendraFaq#key}
   */
   readonly key?: string;
   /**
   * A string containing the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#value KendraFaq#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#value KendraFaq#value}
   */
   readonly value?: string;
 }
@@ -332,7 +332,7 @@ export class KendraFaqTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq awscc_kendra_faq}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq awscc_kendra_faq}
 */
 export class KendraFaq extends cdktn.TerraformResource {
 
@@ -348,7 +348,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KendraFaq resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KendraFaq to import
-  * @param importFromId The id of the existing KendraFaq that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KendraFaq that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KendraFaq to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -360,7 +360,7 @@ export class KendraFaq extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kendra_faq awscc_kendra_faq} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kendra_faq awscc_kendra_faq} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,7 +371,7 @@ export class KendraFaq extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kendra_faq',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

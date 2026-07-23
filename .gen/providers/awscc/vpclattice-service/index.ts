@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktn from 'cdktn';
 
 export interface VpclatticeServiceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#auth_type VpclatticeService#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#auth_type VpclatticeService#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#certificate_arn VpclatticeService#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#certificate_arn VpclatticeService#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#custom_domain_name VpclatticeService#custom_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#custom_domain_name VpclatticeService#custom_domain_name}
   */
   readonly customDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#dns_entry VpclatticeService#dns_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#dns_entry VpclatticeService#dns_entry}
   */
   readonly dnsEntry?: VpclatticeServiceDnsEntry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#idle_timeout_seconds VpclatticeService#idle_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#idle_timeout_seconds VpclatticeService#idle_timeout_seconds}
   */
   readonly idleTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#name VpclatticeService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#name VpclatticeService#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#tags VpclatticeService#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#tags VpclatticeService#tags}
   */
   readonly tags?: VpclatticeServiceTags[] | cdktn.IResolvable;
 }
@@ -107,11 +107,11 @@ export class VpclatticeServiceDnsEntryOutputReference extends cdktn.ComplexObjec
 }
 export interface VpclatticeServiceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#key VpclatticeService#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#key VpclatticeService#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#value VpclatticeService#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#value VpclatticeService#value}
   */
   readonly value?: string;
 }
@@ -256,7 +256,7 @@ export class VpclatticeServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service awscc_vpclattice_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service awscc_vpclattice_service}
 */
 export class VpclatticeService extends cdktn.TerraformResource {
 
@@ -272,7 +272,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpclatticeService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpclatticeService to import
-  * @param importFromId The id of the existing VpclatticeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpclatticeService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpclatticeService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -284,7 +284,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_service awscc_vpclattice_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/vpclattice_service awscc_vpclattice_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,7 +295,7 @@ export class VpclatticeService extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_vpclattice_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

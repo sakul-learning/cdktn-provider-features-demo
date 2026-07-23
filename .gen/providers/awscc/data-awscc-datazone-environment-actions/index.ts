@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_environment_actions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/datazone_environment_actions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccDatazoneEnvironmentActionsConfig extends cdktn.Terrafo
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_environment_actions#id DataAwsccDatazoneEnvironmentActions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/datazone_environment_actions#id DataAwsccDatazoneEnvironmentActions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ export class DataAwsccDatazoneEnvironmentActionsParametersOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions}
 */
 export class DataAwsccDatazoneEnvironmentActions extends cdktn.TerraformDataSource {
 
@@ -89,7 +89,7 @@ export class DataAwsccDatazoneEnvironmentActions extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccDatazoneEnvironmentActions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDatazoneEnvironmentActions to import
-  * @param importFromId The id of the existing DataAwsccDatazoneEnvironmentActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_environment_actions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDatazoneEnvironmentActions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/datazone_environment_actions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDatazoneEnvironmentActions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -101,7 +101,7 @@ export class DataAwsccDatazoneEnvironmentActions extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,7 +112,7 @@ export class DataAwsccDatazoneEnvironmentActions extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_datazone_environment_actions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

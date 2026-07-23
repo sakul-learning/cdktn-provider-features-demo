@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -22,25 +22,25 @@ export interface RdsOptionGroupConfig extends cdktn.TerraformMetaArguments {
   *   +   ``sqlserver-ex`` 
   *   +   ``sqlserver-web``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#engine_name RdsOptionGroup#engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#engine_name RdsOptionGroup#engine_name}
   */
   readonly engineName: string;
   /**
   * Specifies the major version of the engine that this option group should be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#major_engine_version RdsOptionGroup#major_engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#major_engine_version RdsOptionGroup#major_engine_version}
   */
   readonly majorEngineVersion: string;
   /**
   * A list of all available options for an option group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#option_configurations RdsOptionGroup#option_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#option_configurations RdsOptionGroup#option_configurations}
   */
   readonly optionConfigurations?: RdsOptionGroupOptionConfigurations[] | cdktn.IResolvable;
   /**
   * The description of the option group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#option_group_description RdsOptionGroup#option_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#option_group_description RdsOptionGroup#option_group_description}
   */
   readonly optionGroupDescription: string;
   /**
@@ -54,13 +54,13 @@ export interface RdsOptionGroupConfig extends cdktn.TerraformMetaArguments {
   *  If you don't specify a value for ``OptionGroupName`` property, a name is automatically created for the option group.
   *   This value is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#option_group_name RdsOptionGroup#option_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#option_group_name RdsOptionGroup#option_group_name}
   */
   readonly optionGroupName?: string;
   /**
   * Tags to assign to the option group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#tags RdsOptionGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#tags RdsOptionGroup#tags}
   */
   readonly tags?: RdsOptionGroupTags[] | cdktn.IResolvable;
 }
@@ -68,13 +68,13 @@ export interface RdsOptionGroupOptionConfigurationsOptionSettings {
   /**
   * The name of the option that has settings that you can set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#name RdsOptionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#name RdsOptionGroup#name}
   */
   readonly name?: string;
   /**
   * The current value of the option setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
   */
   readonly value?: string;
 }
@@ -221,37 +221,37 @@ export interface RdsOptionGroupOptionConfigurations {
   /**
   * A list of DB security groups used for this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#db_security_group_memberships RdsOptionGroup#db_security_group_memberships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#db_security_group_memberships RdsOptionGroup#db_security_group_memberships}
   */
   readonly dbSecurityGroupMemberships?: string[];
   /**
   * The configuration of options to include in a group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#option_name RdsOptionGroup#option_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#option_name RdsOptionGroup#option_name}
   */
   readonly optionName?: string;
   /**
   * The option settings to include in an option group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#option_settings RdsOptionGroup#option_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#option_settings RdsOptionGroup#option_settings}
   */
   readonly optionSettings?: RdsOptionGroupOptionConfigurationsOptionSettings[] | cdktn.IResolvable;
   /**
   * The version for the option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#option_version RdsOptionGroup#option_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#option_version RdsOptionGroup#option_version}
   */
   readonly optionVersion?: string;
   /**
   * The optional port for the option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#port RdsOptionGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#port RdsOptionGroup#port}
   */
   readonly port?: number;
   /**
   * A list of VPC security group names used for this option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#vpc_security_group_memberships RdsOptionGroup#vpc_security_group_memberships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#vpc_security_group_memberships RdsOptionGroup#vpc_security_group_memberships}
   */
   readonly vpcSecurityGroupMemberships?: string[];
 }
@@ -514,13 +514,13 @@ export interface RdsOptionGroupTags {
   /**
   * A key is the required name of the tag. The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#key RdsOptionGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#key RdsOptionGroup#key}
   */
   readonly key?: string;
   /**
   * A value is the optional value of the tag. The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#value RdsOptionGroup#value}
   */
   readonly value?: string;
 }
@@ -665,7 +665,7 @@ export class RdsOptionGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group awscc_rds_option_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group awscc_rds_option_group}
 */
 export class RdsOptionGroup extends cdktn.TerraformResource {
 
@@ -681,7 +681,7 @@ export class RdsOptionGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsOptionGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsOptionGroup to import
-  * @param importFromId The id of the existing RdsOptionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsOptionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsOptionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -693,7 +693,7 @@ export class RdsOptionGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_option_group awscc_rds_option_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_option_group awscc_rds_option_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -704,7 +704,7 @@ export class RdsOptionGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_option_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

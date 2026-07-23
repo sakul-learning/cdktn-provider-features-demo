@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ServicecatalogLaunchTemplateConstraintConfig extends cdktn.Terr
   /**
   * The language code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint#accept_language ServicecatalogLaunchTemplateConstraint#accept_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint#accept_language ServicecatalogLaunchTemplateConstraint#accept_language}
   */
   readonly acceptLanguage?: string;
   /**
   * The description of the constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint#description ServicecatalogLaunchTemplateConstraint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint#description ServicecatalogLaunchTemplateConstraint#description}
   */
   readonly description?: string;
   /**
   * The portfolio identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint#portfolio_id ServicecatalogLaunchTemplateConstraint#portfolio_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint#portfolio_id ServicecatalogLaunchTemplateConstraint#portfolio_id}
   */
   readonly portfolioId: string;
   /**
   * The product identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint#product_id ServicecatalogLaunchTemplateConstraint#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint#product_id ServicecatalogLaunchTemplateConstraint#product_id}
   */
   readonly productId: string;
   /**
   * A json encoded string of the template constraint rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint#rules ServicecatalogLaunchTemplateConstraint#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint#rules ServicecatalogLaunchTemplateConstraint#rules}
   */
   readonly rules: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}
 */
 export class ServicecatalogLaunchTemplateConstraint extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ServicecatalogLaunchTemplateConstraint extends cdktn.TerraformResou
   * Generates CDKTN code for importing a ServicecatalogLaunchTemplateConstraint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicecatalogLaunchTemplateConstraint to import
-  * @param importFromId The id of the existing ServicecatalogLaunchTemplateConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicecatalogLaunchTemplateConstraint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicecatalogLaunchTemplateConstraint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ServicecatalogLaunchTemplateConstraint extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class ServicecatalogLaunchTemplateConstraint extends cdktn.TerraformResou
       terraformResourceType: 'awscc_servicecatalog_launch_template_constraint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

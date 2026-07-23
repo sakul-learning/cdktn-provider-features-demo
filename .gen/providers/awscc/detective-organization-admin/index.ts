@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/detective_organization_admin
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/detective_organization_admin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DetectiveOrganizationAdminConfig extends cdktn.TerraformMetaArg
   /**
   * The account ID of the account that should be registered as your Organization's delegated administrator for Detective
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/detective_organization_admin#account_id DetectiveOrganizationAdmin#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/detective_organization_admin#account_id DetectiveOrganizationAdmin#account_id}
   */
   readonly accountId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/detective_organization_admin awscc_detective_organization_admin}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/detective_organization_admin awscc_detective_organization_admin}
 */
 export class DetectiveOrganizationAdmin extends cdktn.TerraformResource {
 
@@ -32,7 +32,7 @@ export class DetectiveOrganizationAdmin extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DetectiveOrganizationAdmin resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DetectiveOrganizationAdmin to import
-  * @param importFromId The id of the existing DetectiveOrganizationAdmin that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/detective_organization_admin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DetectiveOrganizationAdmin that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/detective_organization_admin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DetectiveOrganizationAdmin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DetectiveOrganizationAdmin extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/detective_organization_admin awscc_detective_organization_admin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/detective_organization_admin awscc_detective_organization_admin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,7 @@ export class DetectiveOrganizationAdmin extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_detective_organization_admin',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

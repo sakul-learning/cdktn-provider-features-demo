@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface Wafv2RegexPatternSetConfig extends cdktn.TerraformMetaArguments
   /**
   * Description of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#description Wafv2RegexPatternSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#description Wafv2RegexPatternSet#description}
   */
   readonly description?: string;
   /**
   * Name of the RegexPatternSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#name Wafv2RegexPatternSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#name Wafv2RegexPatternSet#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#regular_expression_list Wafv2RegexPatternSet#regular_expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#regular_expression_list Wafv2RegexPatternSet#regular_expression_list}
   */
   readonly regularExpressionList: string[];
   /**
   * Use CLOUDFRONT for CloudFront RegexPatternSet, use REGIONAL for Application Load Balancer and API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#scope Wafv2RegexPatternSet#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#scope Wafv2RegexPatternSet#scope}
   */
   readonly scope: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#tags Wafv2RegexPatternSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#tags Wafv2RegexPatternSet#tags}
   */
   readonly tags?: Wafv2RegexPatternSetTags[] | cdktn.IResolvable;
 }
 export interface Wafv2RegexPatternSetTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#key Wafv2RegexPatternSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#key Wafv2RegexPatternSet#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#value Wafv2RegexPatternSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#value Wafv2RegexPatternSet#value}
   */
   readonly value?: string;
 }
@@ -185,7 +185,7 @@ export class Wafv2RegexPatternSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}
 */
 export class Wafv2RegexPatternSet extends cdktn.TerraformResource {
 
@@ -201,7 +201,7 @@ export class Wafv2RegexPatternSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Wafv2RegexPatternSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wafv2RegexPatternSet to import
-  * @param importFromId The id of the existing Wafv2RegexPatternSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wafv2RegexPatternSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wafv2RegexPatternSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -213,7 +213,7 @@ export class Wafv2RegexPatternSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,7 +224,7 @@ export class Wafv2RegexPatternSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wafv2_regex_pattern_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

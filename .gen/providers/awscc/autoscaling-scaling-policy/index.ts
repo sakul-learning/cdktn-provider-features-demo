@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface AutoscalingScalingPolicyConfig extends cdktn.TerraformMetaArgum
   /**
   * Specifies how the scaling adjustment is interpreted. The valid values are ChangeInCapacity, ExactCapacity, and PercentChangeInCapacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#adjustment_type AutoscalingScalingPolicy#adjustment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#adjustment_type AutoscalingScalingPolicy#adjustment_type}
   */
   readonly adjustmentType?: string;
   /**
   * The name of the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#auto_scaling_group_name AutoscalingScalingPolicy#auto_scaling_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#auto_scaling_group_name AutoscalingScalingPolicy#auto_scaling_group_name}
   */
   readonly autoScalingGroupName: string;
   /**
   * The duration of the policy's cooldown period, in seconds. When a cooldown period is specified here, it overrides the default cooldown period defined for the Auto Scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#cooldown AutoscalingScalingPolicy#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#cooldown AutoscalingScalingPolicy#cooldown}
   */
   readonly cooldown?: string;
   /**
   * The estimated time, in seconds, until a newly launched instance can contribute to the CloudWatch metrics. If not provided, the default is to use the value from the default cooldown period for the Auto Scaling group. Valid only if the policy type is TargetTrackingScaling or StepScaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#estimated_instance_warmup AutoscalingScalingPolicy#estimated_instance_warmup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#estimated_instance_warmup AutoscalingScalingPolicy#estimated_instance_warmup}
   */
   readonly estimatedInstanceWarmup?: number;
   /**
   * The aggregation type for the CloudWatch metrics. The valid values are Minimum, Maximum, and Average. If the aggregation type is null, the value is treated as Average. Valid only if the policy type is StepScaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_aggregation_type AutoscalingScalingPolicy#metric_aggregation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_aggregation_type AutoscalingScalingPolicy#metric_aggregation_type}
   */
   readonly metricAggregationType?: string;
   /**
   * The minimum value to scale by when the adjustment type is PercentChangeInCapacity. For example, suppose that you create a step scaling policy to scale out an Auto Scaling group by 25 percent and you specify a MinAdjustmentMagnitude of 2. If the group has 4 instances and the scaling policy is performed, 25 percent of 4 is 1. However, because you specified a MinAdjustmentMagnitude of 2, Amazon EC2 Auto Scaling scales out the group by 2 instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#min_adjustment_magnitude AutoscalingScalingPolicy#min_adjustment_magnitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#min_adjustment_magnitude AutoscalingScalingPolicy#min_adjustment_magnitude}
   */
   readonly minAdjustmentMagnitude?: number;
   /**
   * One of the following policy types: TargetTrackingScaling, StepScaling, SimpleScaling (default), PredictiveScaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#policy_type AutoscalingScalingPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#policy_type AutoscalingScalingPolicy#policy_type}
   */
   readonly policyType?: string;
   /**
   * A predictive scaling policy. Includes support for predefined metrics only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predictive_scaling_configuration AutoscalingScalingPolicy#predictive_scaling_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predictive_scaling_configuration AutoscalingScalingPolicy#predictive_scaling_configuration}
   */
   readonly predictiveScalingConfiguration?: AutoscalingScalingPolicyPredictiveScalingConfiguration;
   /**
   * The amount by which to scale, based on the specified adjustment type. A positive value adds to the current capacity while a negative number removes from the current capacity. For exact capacity, you must specify a positive value. Required if the policy type is SimpleScaling. (Not used with any other policy type.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#scaling_adjustment AutoscalingScalingPolicy#scaling_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#scaling_adjustment AutoscalingScalingPolicy#scaling_adjustment}
   */
   readonly scalingAdjustment?: number;
   /**
   * A set of adjustments that enable you to scale based on the size of the alarm breach. Required if the policy type is StepScaling. (Not used with any other policy type.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#step_adjustments AutoscalingScalingPolicy#step_adjustments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#step_adjustments AutoscalingScalingPolicy#step_adjustments}
   */
   readonly stepAdjustments?: AutoscalingScalingPolicyStepAdjustments[] | cdktn.IResolvable;
   /**
   * A target tracking scaling policy. Includes support for predefined or customized metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#target_tracking_configuration AutoscalingScalingPolicy#target_tracking_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#target_tracking_configuration AutoscalingScalingPolicy#target_tracking_configuration}
   */
   readonly targetTrackingConfiguration?: AutoscalingScalingPolicyTargetTrackingConfiguration;
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
   */
   readonly value?: string;
 }
@@ -225,15 +225,15 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
   */
   readonly dimensions?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetricDimensions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
   */
   readonly namespace?: string;
 }
@@ -385,15 +385,15 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
   */
   readonly metric?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStatMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
   */
   readonly stat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
   */
   readonly unit?: string;
 }
@@ -545,26 +545,26 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
   */
   readonly metricStat?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueriesMetricStat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
   */
   readonly returnData?: boolean | cdktn.IResolvable;
 }
@@ -796,7 +796,7 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_data_queries AutoscalingScalingPolicy#metric_data_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_data_queries AutoscalingScalingPolicy#metric_data_queries}
   */
   readonly metricDataQueries?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecificationMetricDataQueries[] | cdktn.IResolvable;
 }
@@ -890,11 +890,11 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
   */
   readonly value?: string;
 }
@@ -1039,15 +1039,15 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
   */
   readonly dimensions?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetricDimensions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
   */
   readonly namespace?: string;
 }
@@ -1199,15 +1199,15 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
   */
   readonly metric?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStatMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
   */
   readonly stat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
   */
   readonly unit?: string;
 }
@@ -1359,26 +1359,26 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
   */
   readonly metricStat?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueriesMetricStat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
   */
   readonly returnData?: boolean | cdktn.IResolvable;
 }
@@ -1610,7 +1610,7 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_data_queries AutoscalingScalingPolicy#metric_data_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_data_queries AutoscalingScalingPolicy#metric_data_queries}
   */
   readonly metricDataQueries?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecificationMetricDataQueries[] | cdktn.IResolvable;
 }
@@ -1704,11 +1704,11 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
   */
   readonly value?: string;
 }
@@ -1853,15 +1853,15 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
   */
   readonly dimensions?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetricDimensions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
   */
   readonly namespace?: string;
 }
@@ -2013,15 +2013,15 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
   */
   readonly metric?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStatMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
   */
   readonly stat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
   */
   readonly unit?: string;
 }
@@ -2173,26 +2173,26 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
   */
   readonly metricStat?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueriesMetricStat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
   */
   readonly returnData?: boolean | cdktn.IResolvable;
 }
@@ -2424,7 +2424,7 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_data_queries AutoscalingScalingPolicy#metric_data_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_data_queries AutoscalingScalingPolicy#metric_data_queries}
   */
   readonly metricDataQueries?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecificationMetricDataQueries[] | cdktn.IResolvable;
 }
@@ -2518,11 +2518,11 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsPredefinedLoadMetricSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
   */
   readonly predefinedMetricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
   */
   readonly resourceLabel?: string;
 }
@@ -2645,11 +2645,11 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsPredefinedMetricPairSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
   */
   readonly predefinedMetricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
   */
   readonly resourceLabel?: string;
 }
@@ -2772,11 +2772,11 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsPredefinedScalingMetricSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
   */
   readonly predefinedMetricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
   */
   readonly resourceLabel?: string;
 }
@@ -2899,31 +2899,31 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#customized_capacity_metric_specification AutoscalingScalingPolicy#customized_capacity_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#customized_capacity_metric_specification AutoscalingScalingPolicy#customized_capacity_metric_specification}
   */
   readonly customizedCapacityMetricSpecification?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedCapacityMetricSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#customized_load_metric_specification AutoscalingScalingPolicy#customized_load_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#customized_load_metric_specification AutoscalingScalingPolicy#customized_load_metric_specification}
   */
   readonly customizedLoadMetricSpecification?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedLoadMetricSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#customized_scaling_metric_specification AutoscalingScalingPolicy#customized_scaling_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#customized_scaling_metric_specification AutoscalingScalingPolicy#customized_scaling_metric_specification}
   */
   readonly customizedScalingMetricSpecification?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsCustomizedScalingMetricSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_load_metric_specification AutoscalingScalingPolicy#predefined_load_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_load_metric_specification AutoscalingScalingPolicy#predefined_load_metric_specification}
   */
   readonly predefinedLoadMetricSpecification?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsPredefinedLoadMetricSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_metric_pair_specification AutoscalingScalingPolicy#predefined_metric_pair_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_metric_pair_specification AutoscalingScalingPolicy#predefined_metric_pair_specification}
   */
   readonly predefinedMetricPairSpecification?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsPredefinedMetricPairSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_scaling_metric_specification AutoscalingScalingPolicy#predefined_scaling_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_scaling_metric_specification AutoscalingScalingPolicy#predefined_scaling_metric_specification}
   */
   readonly predefinedScalingMetricSpecification?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecificationsPredefinedScalingMetricSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#target_value AutoscalingScalingPolicy#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#target_value AutoscalingScalingPolicy#target_value}
   */
   readonly targetValue?: number;
 }
@@ -3213,23 +3213,23 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifi
 }
 export interface AutoscalingScalingPolicyPredictiveScalingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#max_capacity_breach_behavior AutoscalingScalingPolicy#max_capacity_breach_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#max_capacity_breach_behavior AutoscalingScalingPolicy#max_capacity_breach_behavior}
   */
   readonly maxCapacityBreachBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#max_capacity_buffer AutoscalingScalingPolicy#max_capacity_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#max_capacity_buffer AutoscalingScalingPolicy#max_capacity_buffer}
   */
   readonly maxCapacityBuffer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_specifications AutoscalingScalingPolicy#metric_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_specifications AutoscalingScalingPolicy#metric_specifications}
   */
   readonly metricSpecifications?: AutoscalingScalingPolicyPredictiveScalingConfigurationMetricSpecifications[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#mode AutoscalingScalingPolicy#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#mode AutoscalingScalingPolicy#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#scheduling_buffer_time AutoscalingScalingPolicy#scheduling_buffer_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#scheduling_buffer_time AutoscalingScalingPolicy#scheduling_buffer_time}
   */
   readonly schedulingBufferTime?: number;
 }
@@ -3439,15 +3439,15 @@ export class AutoscalingScalingPolicyPredictiveScalingConfigurationOutputReferen
 }
 export interface AutoscalingScalingPolicyStepAdjustments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_interval_lower_bound AutoscalingScalingPolicy#metric_interval_lower_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_interval_lower_bound AutoscalingScalingPolicy#metric_interval_lower_bound}
   */
   readonly metricIntervalLowerBound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_interval_upper_bound AutoscalingScalingPolicy#metric_interval_upper_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_interval_upper_bound AutoscalingScalingPolicy#metric_interval_upper_bound}
   */
   readonly metricIntervalUpperBound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#scaling_adjustment AutoscalingScalingPolicy#scaling_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#scaling_adjustment AutoscalingScalingPolicy#scaling_adjustment}
   */
   readonly scalingAdjustment?: number;
 }
@@ -3621,11 +3621,11 @@ export class AutoscalingScalingPolicyStepAdjustmentsList extends cdktn.ComplexLi
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
   */
   readonly value?: string;
 }
@@ -3770,11 +3770,11 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetric
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#name AutoscalingScalingPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#value AutoscalingScalingPolicy#value}
   */
   readonly value?: string;
 }
@@ -3919,15 +3919,15 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetric
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
   */
   readonly dimensions?: AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricDimensions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
   */
   readonly namespace?: string;
 }
@@ -4079,19 +4079,19 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetric
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric AutoscalingScalingPolicy#metric}
   */
   readonly metric?: AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#stat AutoscalingScalingPolicy#stat}
   */
   readonly stat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
   */
   readonly unit?: string;
 }
@@ -4272,30 +4272,30 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetric
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#expression AutoscalingScalingPolicy#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#id AutoscalingScalingPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#label AutoscalingScalingPolicy#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_stat AutoscalingScalingPolicy#metric_stat}
   */
   readonly metricStat?: AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#return_data AutoscalingScalingPolicy#return_data}
   */
   readonly returnData?: boolean | cdktn.IResolvable;
 }
@@ -4556,31 +4556,31 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetric
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}
   */
   readonly dimensions?: AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationDimensions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#metrics AutoscalingScalingPolicy#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#metrics AutoscalingScalingPolicy#metrics}
   */
   readonly metrics?: AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecificationMetrics[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#statistic AutoscalingScalingPolicy#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#statistic AutoscalingScalingPolicy#statistic}
   */
   readonly statistic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}
   */
   readonly unit?: string;
 }
@@ -4848,11 +4848,11 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetric
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfigurationPredefinedMetricSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_metric_type AutoscalingScalingPolicy#predefined_metric_type}
   */
   readonly predefinedMetricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#resource_label AutoscalingScalingPolicy#resource_label}
   */
   readonly resourceLabel?: string;
 }
@@ -4975,19 +4975,19 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationPredefinedMetric
 }
 export interface AutoscalingScalingPolicyTargetTrackingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#customized_metric_specification AutoscalingScalingPolicy#customized_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#customized_metric_specification AutoscalingScalingPolicy#customized_metric_specification}
   */
   readonly customizedMetricSpecification?: AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#disable_scale_in AutoscalingScalingPolicy#disable_scale_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#disable_scale_in AutoscalingScalingPolicy#disable_scale_in}
   */
   readonly disableScaleIn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#predefined_metric_specification AutoscalingScalingPolicy#predefined_metric_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#predefined_metric_specification AutoscalingScalingPolicy#predefined_metric_specification}
   */
   readonly predefinedMetricSpecification?: AutoscalingScalingPolicyTargetTrackingConfigurationPredefinedMetricSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#target_value AutoscalingScalingPolicy#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#target_value AutoscalingScalingPolicy#target_value}
   */
   readonly targetValue?: number;
 }
@@ -5168,7 +5168,7 @@ export class AutoscalingScalingPolicyTargetTrackingConfigurationOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy}
 */
 export class AutoscalingScalingPolicy extends cdktn.TerraformResource {
 
@@ -5184,7 +5184,7 @@ export class AutoscalingScalingPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AutoscalingScalingPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingScalingPolicy to import
-  * @param importFromId The id of the existing AutoscalingScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingScalingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingScalingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5196,7 +5196,7 @@ export class AutoscalingScalingPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5207,7 +5207,7 @@ export class AutoscalingScalingPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_autoscaling_scaling_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SagemakerDeviceFleetConfig extends cdktn.TerraformMetaArguments
   /**
   * Description for the edge device fleet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#description SagemakerDeviceFleet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#description SagemakerDeviceFleet#description}
   */
   readonly description?: string;
   /**
   * The name of the edge device fleet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#device_fleet_name SagemakerDeviceFleet#device_fleet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#device_fleet_name SagemakerDeviceFleet#device_fleet_name}
   */
   readonly deviceFleetName: string;
   /**
   * S3 bucket and an ecryption key id (if available) to store outputs for the fleet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#output_config SagemakerDeviceFleet#output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#output_config SagemakerDeviceFleet#output_config}
   */
   readonly outputConfig: SagemakerDeviceFleetOutputConfig;
   /**
   * Role associated with the device fleet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#role_arn SagemakerDeviceFleet#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#role_arn SagemakerDeviceFleet#role_arn}
   */
   readonly roleArn: string;
   /**
   * Associate tags with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#tags SagemakerDeviceFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#tags SagemakerDeviceFleet#tags}
   */
   readonly tags?: SagemakerDeviceFleetTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface SagemakerDeviceFleetOutputConfig {
   /**
   * The KMS key id used for encryption on the S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#kms_key_id SagemakerDeviceFleet#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#kms_key_id SagemakerDeviceFleet#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The Amazon Simple Storage (S3) bucket URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#s3_output_location SagemakerDeviceFleet#s3_output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#s3_output_location SagemakerDeviceFleet#s3_output_location}
   */
   readonly s3OutputLocation: string;
 }
@@ -170,13 +170,13 @@ export interface SagemakerDeviceFleetTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#key SagemakerDeviceFleet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#key SagemakerDeviceFleet#key}
   */
   readonly key?: string;
   /**
   * The key value of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#value SagemakerDeviceFleet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#value SagemakerDeviceFleet#value}
   */
   readonly value?: string;
 }
@@ -321,7 +321,7 @@ export class SagemakerDeviceFleetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet awscc_sagemaker_device_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet awscc_sagemaker_device_fleet}
 */
 export class SagemakerDeviceFleet extends cdktn.TerraformResource {
 
@@ -337,7 +337,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerDeviceFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerDeviceFleet to import
-  * @param importFromId The id of the existing SagemakerDeviceFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerDeviceFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerDeviceFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -349,7 +349,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/sagemaker_device_fleet awscc_sagemaker_device_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/sagemaker_device_fleet awscc_sagemaker_device_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -360,7 +360,7 @@ export class SagemakerDeviceFleet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_device_fleet',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

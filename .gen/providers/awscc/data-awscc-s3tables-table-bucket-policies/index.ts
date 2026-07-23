@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3tables_table_bucket_policies
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/s3tables_table_bucket_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccS3TablesTableBucketPoliciesConfig extends cdktn.Terraf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies}
 */
 export class DataAwsccS3TablesTableBucketPolicies extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccS3TablesTableBucketPolicies extends cdktn.TerraformDataSou
   * Generates CDKTN code for importing a DataAwsccS3TablesTableBucketPolicies resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccS3TablesTableBucketPolicies to import
-  * @param importFromId The id of the existing DataAwsccS3TablesTableBucketPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3tables_table_bucket_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccS3TablesTableBucketPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/s3tables_table_bucket_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccS3TablesTableBucketPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccS3TablesTableBucketPolicies extends cdktn.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccS3TablesTableBucketPolicies extends cdktn.TerraformDataSou
       terraformResourceType: 'awscc_s3tables_table_bucket_policies',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

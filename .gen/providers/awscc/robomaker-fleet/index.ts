@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/robomaker_fleet
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/robomaker_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RobomakerFleetConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/robomaker_fleet#name RobomakerFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/robomaker_fleet#name RobomakerFleet#name}
   */
   readonly name?: string;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/robomaker_fleet#tags RobomakerFleet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/robomaker_fleet#tags RobomakerFleet#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/robomaker_fleet awscc_robomaker_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/robomaker_fleet awscc_robomaker_fleet}
 */
 export class RobomakerFleet extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class RobomakerFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RobomakerFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RobomakerFleet to import
-  * @param importFromId The id of the existing RobomakerFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/robomaker_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RobomakerFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/robomaker_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RobomakerFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class RobomakerFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/robomaker_fleet awscc_robomaker_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/robomaker_fleet awscc_robomaker_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class RobomakerFleet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_robomaker_fleet',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

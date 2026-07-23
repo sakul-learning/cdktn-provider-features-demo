@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/costoptimizationhub_enrollment_status
+// https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/costoptimizationhub_enrollment_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktn from 'cdktn';
 
 export interface CostoptimizationhubEnrollmentStatusConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/costoptimizationhub_enrollment_status#include_member_accounts CostoptimizationhubEnrollmentStatus#include_member_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/costoptimizationhub_enrollment_status#include_member_accounts CostoptimizationhubEnrollmentStatus#include_member_accounts}
   */
   readonly includeMemberAccounts?: boolean | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status}
 */
 export class CostoptimizationhubEnrollmentStatus extends cdktn.TerraformResource {
 
@@ -30,7 +30,7 @@ export class CostoptimizationhubEnrollmentStatus extends cdktn.TerraformResource
   * Generates CDKTN code for importing a CostoptimizationhubEnrollmentStatus resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CostoptimizationhubEnrollmentStatus to import
-  * @param importFromId The id of the existing CostoptimizationhubEnrollmentStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/costoptimizationhub_enrollment_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CostoptimizationhubEnrollmentStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/costoptimizationhub_enrollment_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CostoptimizationhubEnrollmentStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -42,7 +42,7 @@ export class CostoptimizationhubEnrollmentStatus extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,7 +53,7 @@ export class CostoptimizationhubEnrollmentStatus extends cdktn.TerraformResource
       terraformResourceType: 'aws_costoptimizationhub_enrollment_status',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.55.0'
+        providerVersion: '6.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

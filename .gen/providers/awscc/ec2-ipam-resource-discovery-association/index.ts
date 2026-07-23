@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Ec2IpamResourceDiscoveryAssociationConfig extends cdktn.Terrafo
   /**
   * The Id of the IPAM this Resource Discovery is associated to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_id Ec2IpamResourceDiscoveryAssociation#ipam_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_id Ec2IpamResourceDiscoveryAssociation#ipam_id}
   */
   readonly ipamId: string;
   /**
   * The Amazon Resource Name (ARN) of the IPAM Resource Discovery Association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_resource_discovery_id Ec2IpamResourceDiscoveryAssociation#ipam_resource_discovery_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association#ipam_resource_discovery_id Ec2IpamResourceDiscoveryAssociation#ipam_resource_discovery_id}
   */
   readonly ipamResourceDiscoveryId: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association#tags Ec2IpamResourceDiscoveryAssociation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association#tags Ec2IpamResourceDiscoveryAssociation#tags}
   */
   readonly tags?: Ec2IpamResourceDiscoveryAssociationTags[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface Ec2IpamResourceDiscoveryAssociationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association#key Ec2IpamResourceDiscoveryAssociation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association#key Ec2IpamResourceDiscoveryAssociation#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association#value Ec2IpamResourceDiscoveryAssociation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association#value Ec2IpamResourceDiscoveryAssociation#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class Ec2IpamResourceDiscoveryAssociationTagsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}
 */
 export class Ec2IpamResourceDiscoveryAssociation extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class Ec2IpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   * Generates CDKTN code for importing a Ec2IpamResourceDiscoveryAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2IpamResourceDiscoveryAssociation to import
-  * @param importFromId The id of the existing Ec2IpamResourceDiscoveryAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2IpamResourceDiscoveryAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2IpamResourceDiscoveryAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class Ec2IpamResourceDiscoveryAssociation extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class Ec2IpamResourceDiscoveryAssociation extends cdktn.TerraformResource
       terraformResourceType: 'awscc_ec2_ipam_resource_discovery_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

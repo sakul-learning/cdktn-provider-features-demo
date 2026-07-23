@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/secretsmanager_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/secretsmanager_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SecretsmanagerResourcePolicyConfig extends cdktn.TerraformMetaA
   /**
   * Specifies whether to block resource-based policies that allow broad access to the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/secretsmanager_resource_policy#block_public_policy SecretsmanagerResourcePolicy#block_public_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/secretsmanager_resource_policy#block_public_policy SecretsmanagerResourcePolicy#block_public_policy}
   */
   readonly blockPublicPolicy?: boolean | cdktn.IResolvable;
   /**
   * A JSON-formatted string for an AWS resource-based policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/secretsmanager_resource_policy#resource_policy SecretsmanagerResourcePolicy#resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/secretsmanager_resource_policy#resource_policy SecretsmanagerResourcePolicy#resource_policy}
   */
   readonly resourcePolicy: string;
   /**
   * The ARN or name of the secret to attach the resource-based policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/secretsmanager_resource_policy#secret_id SecretsmanagerResourcePolicy#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/secretsmanager_resource_policy#secret_id SecretsmanagerResourcePolicy#secret_id}
   */
   readonly secretId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}
 */
 export class SecretsmanagerResourcePolicy extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SecretsmanagerResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecretsmanagerResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecretsmanagerResourcePolicy to import
-  * @param importFromId The id of the existing SecretsmanagerResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/secretsmanager_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecretsmanagerResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/secretsmanager_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecretsmanagerResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SecretsmanagerResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class SecretsmanagerResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_secretsmanager_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MacieAllowListConfig extends cdktn.TerraformMetaArguments {
   /**
   * AllowList criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
   */
   readonly criteria: MacieAllowListCriteria;
   /**
   * Description of AllowList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#description MacieAllowList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#description MacieAllowList#description}
   */
   readonly description?: string;
   /**
   * Name of AllowList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#name MacieAllowList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#name MacieAllowList#name}
   */
   readonly name: string;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
   */
   readonly tags?: MacieAllowListTags[] | cdktn.IResolvable;
 }
 export interface MacieAllowListCriteriaS3WordsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#bucket_name MacieAllowList#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#object_key MacieAllowList#object_key}
   */
   readonly objectKey?: string;
 }
@@ -163,13 +163,13 @@ export interface MacieAllowListCriteria {
   /**
   * The S3 object key for the AllowList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#regex MacieAllowList#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#regex MacieAllowList#regex}
   */
   readonly regex?: string;
   /**
   * The S3 location for the AllowList.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#s3_words_list MacieAllowList#s3_words_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#s3_words_list MacieAllowList#s3_words_list}
   */
   readonly s3WordsList?: MacieAllowListCriteriaS3WordsListStruct;
 }
@@ -294,13 +294,13 @@ export interface MacieAllowListTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#key MacieAllowList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#key MacieAllowList#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#value MacieAllowList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#value MacieAllowList#value}
   */
   readonly value?: string;
 }
@@ -445,7 +445,7 @@ export class MacieAllowListTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list awscc_macie_allow_list}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list awscc_macie_allow_list}
 */
 export class MacieAllowList extends cdktn.TerraformResource {
 
@@ -461,7 +461,7 @@ export class MacieAllowList extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MacieAllowList resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MacieAllowList to import
-  * @param importFromId The id of the existing MacieAllowList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MacieAllowList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MacieAllowList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -473,7 +473,7 @@ export class MacieAllowList extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/macie_allow_list awscc_macie_allow_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/macie_allow_list awscc_macie_allow_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -484,7 +484,7 @@ export class MacieAllowList extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_macie_allow_list',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface B2BiCapabilityConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#configuration B2BiCapability#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#configuration B2BiCapability#configuration}
   */
   readonly configuration: B2BiCapabilityConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#instructions_documents B2BiCapability#instructions_documents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#instructions_documents B2BiCapability#instructions_documents}
   */
   readonly instructionsDocuments?: B2BiCapabilityInstructionsDocuments[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#name B2BiCapability#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#name B2BiCapability#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#tags B2BiCapability#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#tags B2BiCapability#tags}
   */
   readonly tags?: B2BiCapabilityTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#type B2BiCapability#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#type B2BiCapability#type}
   */
   readonly type: string;
 }
 export interface B2BiCapabilityConfigurationEdiInputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#key B2BiCapability#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#key B2BiCapability#key}
   */
   readonly key?: string;
 }
@@ -157,11 +157,11 @@ export class B2BiCapabilityConfigurationEdiInputLocationOutputReference extends 
 }
 export interface B2BiCapabilityConfigurationEdiOutputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#key B2BiCapability#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#key B2BiCapability#key}
   */
   readonly key?: string;
 }
@@ -284,11 +284,11 @@ export class B2BiCapabilityConfigurationEdiOutputLocationOutputReference extends
 }
 export interface B2BiCapabilityConfigurationEdiTypeX12Details {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#transaction_set B2BiCapability#transaction_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#transaction_set B2BiCapability#transaction_set}
   */
   readonly transactionSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#version B2BiCapability#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#version B2BiCapability#version}
   */
   readonly version?: string;
 }
@@ -411,7 +411,7 @@ export class B2BiCapabilityConfigurationEdiTypeX12DetailsOutputReference extends
 }
 export interface B2BiCapabilityConfigurationEdiType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#x12_details B2BiCapability#x12_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#x12_details B2BiCapability#x12_details}
   */
   readonly x12Details?: B2BiCapabilityConfigurationEdiTypeX12Details;
 }
@@ -505,23 +505,23 @@ export class B2BiCapabilityConfigurationEdiTypeOutputReference extends cdktn.Com
 }
 export interface B2BiCapabilityConfigurationEdi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#capability_direction B2BiCapability#capability_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#capability_direction B2BiCapability#capability_direction}
   */
   readonly capabilityDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#input_location B2BiCapability#input_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#input_location B2BiCapability#input_location}
   */
   readonly inputLocation?: B2BiCapabilityConfigurationEdiInputLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#output_location B2BiCapability#output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#output_location B2BiCapability#output_location}
   */
   readonly outputLocation?: B2BiCapabilityConfigurationEdiOutputLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#transformer_id B2BiCapability#transformer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#transformer_id B2BiCapability#transformer_id}
   */
   readonly transformerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#type B2BiCapability#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#type B2BiCapability#type}
   */
   readonly type?: B2BiCapabilityConfigurationEdiType;
 }
@@ -731,7 +731,7 @@ export class B2BiCapabilityConfigurationEdiOutputReference extends cdktn.Complex
 }
 export interface B2BiCapabilityConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#edi B2BiCapability#edi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#edi B2BiCapability#edi}
   */
   readonly edi?: B2BiCapabilityConfigurationEdi;
 }
@@ -825,11 +825,11 @@ export class B2BiCapabilityConfigurationOutputReference extends cdktn.ComplexObj
 }
 export interface B2BiCapabilityInstructionsDocuments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#bucket_name B2BiCapability#bucket_name}
   */
   readonly bucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#key B2BiCapability#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#key B2BiCapability#key}
   */
   readonly key?: string;
 }
@@ -974,11 +974,11 @@ export class B2BiCapabilityInstructionsDocumentsList extends cdktn.ComplexList {
 }
 export interface B2BiCapabilityTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#key B2BiCapability#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#key B2BiCapability#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#value B2BiCapability#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#value B2BiCapability#value}
   */
   readonly value?: string;
 }
@@ -1123,7 +1123,7 @@ export class B2BiCapabilityTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability awscc_b2bi_capability}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability awscc_b2bi_capability}
 */
 export class B2BiCapability extends cdktn.TerraformResource {
 
@@ -1139,7 +1139,7 @@ export class B2BiCapability extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a B2BiCapability resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the B2BiCapability to import
-  * @param importFromId The id of the existing B2BiCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing B2BiCapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the B2BiCapability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1151,7 +1151,7 @@ export class B2BiCapability extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/b2bi_capability awscc_b2bi_capability} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/b2bi_capability awscc_b2bi_capability} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1162,7 +1162,7 @@ export class B2BiCapability extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_b2bi_capability',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

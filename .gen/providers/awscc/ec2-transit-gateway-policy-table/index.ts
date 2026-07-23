@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2TransitGatewayPolicyTableConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table#tags Ec2TransitGatewayPolicyTable#tags}
   */
   readonly tags?: Ec2TransitGatewayPolicyTableTags[] | cdktn.IResolvable;
   /**
   * The Id of transit gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table#transit_gateway_id Ec2TransitGatewayPolicyTable#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table#transit_gateway_id Ec2TransitGatewayPolicyTable#transit_gateway_id}
   */
   readonly transitGatewayId: string;
 }
 export interface Ec2TransitGatewayPolicyTableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table#key Ec2TransitGatewayPolicyTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table#key Ec2TransitGatewayPolicyTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table#value Ec2TransitGatewayPolicyTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table#value Ec2TransitGatewayPolicyTable#value}
   */
   readonly value?: string;
 }
@@ -169,7 +169,7 @@ export class Ec2TransitGatewayPolicyTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table}
 */
 export class Ec2TransitGatewayPolicyTable extends cdktn.TerraformResource {
 
@@ -185,7 +185,7 @@ export class Ec2TransitGatewayPolicyTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2TransitGatewayPolicyTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2TransitGatewayPolicyTable to import
-  * @param importFromId The id of the existing Ec2TransitGatewayPolicyTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2TransitGatewayPolicyTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2TransitGatewayPolicyTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -197,7 +197,7 @@ export class Ec2TransitGatewayPolicyTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,7 +208,7 @@ export class Ec2TransitGatewayPolicyTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_transit_gateway_policy_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

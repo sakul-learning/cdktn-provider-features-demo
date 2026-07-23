@@ -1,3 +1,3 @@
 # `awscc_verifiedpermissions_identity_source`
 
-Refer to the Terraform Registry for docs: [`awscc_verifiedpermissions_identity_source`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_identity_source).
+Refer to the Terraform Registry for docs: [`awscc_verifiedpermissions_identity_source`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_identity_source).

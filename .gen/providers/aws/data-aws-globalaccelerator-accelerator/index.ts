@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/globalaccelerator_accelerator
+// https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/globalaccelerator_accelerator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsGlobalacceleratorAcceleratorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/globalaccelerator_accelerator#arn DataAwsGlobalacceleratorAccelerator#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/globalaccelerator_accelerator#arn DataAwsGlobalacceleratorAccelerator#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/globalaccelerator_accelerator#name DataAwsGlobalacceleratorAccelerator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/globalaccelerator_accelerator#name DataAwsGlobalacceleratorAccelerator#name}
   */
   readonly name?: string;
 }
@@ -183,7 +183,7 @@ export class DataAwsGlobalacceleratorAcceleratorIpSetsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator}
 */
 export class DataAwsGlobalacceleratorAccelerator extends cdktn.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataAwsGlobalacceleratorAccelerator extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsGlobalacceleratorAccelerator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsGlobalacceleratorAccelerator to import
-  * @param importFromId The id of the existing DataAwsGlobalacceleratorAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsGlobalacceleratorAccelerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/globalaccelerator_accelerator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsGlobalacceleratorAccelerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataAwsGlobalacceleratorAccelerator extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/globalaccelerator_accelerator aws_globalaccelerator_accelerator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +222,7 @@ export class DataAwsGlobalacceleratorAccelerator extends cdktn.TerraformDataSour
       terraformResourceType: 'aws_globalaccelerator_accelerator',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.55.0'
+        providerVersion: '6.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

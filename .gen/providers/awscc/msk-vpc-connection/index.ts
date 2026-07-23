@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MskVpcConnectionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The type of private link authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection#authentication MskVpcConnection#authentication}
   */
   readonly authentication: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection#client_subnets MskVpcConnection#client_subnets}
   */
   readonly clientSubnets: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection#security_groups MskVpcConnection#security_groups}
   */
   readonly securityGroups: string[];
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection#tags MskVpcConnection#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The Amazon Resource Name (ARN) of the target cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection#target_cluster_arn MskVpcConnection#target_cluster_arn}
   */
   readonly targetClusterArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection#vpc_id MskVpcConnection#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection}
 */
 export class MskVpcConnection extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MskVpcConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MskVpcConnection to import
-  * @param importFromId The id of the existing MskVpcConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MskVpcConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MskVpcConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_vpc_connection awscc_msk_vpc_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class MskVpcConnection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_msk_vpc_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

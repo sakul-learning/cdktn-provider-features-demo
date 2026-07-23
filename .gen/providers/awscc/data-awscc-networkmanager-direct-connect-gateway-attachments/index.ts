@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccNetworkmanagerDirectConnectGatewayAttachmentsConfig ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments}
 */
 export class DataAwsccNetworkmanagerDirectConnectGatewayAttachments extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccNetworkmanagerDirectConnectGatewayAttachments extends cdkt
   * Generates CDKTN code for importing a DataAwsccNetworkmanagerDirectConnectGatewayAttachments resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNetworkmanagerDirectConnectGatewayAttachments to import
-  * @param importFromId The id of the existing DataAwsccNetworkmanagerDirectConnectGatewayAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNetworkmanagerDirectConnectGatewayAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNetworkmanagerDirectConnectGatewayAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccNetworkmanagerDirectConnectGatewayAttachments extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/networkmanager_direct_connect_gateway_attachments awscc_networkmanager_direct_connect_gateway_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccNetworkmanagerDirectConnectGatewayAttachments extends cdkt
       terraformResourceType: 'awscc_networkmanager_direct_connect_gateway_attachments',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

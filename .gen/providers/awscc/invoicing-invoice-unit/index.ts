@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface InvoicingInvoiceUnitConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#description InvoicingInvoiceUnit#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#description InvoicingInvoiceUnit#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#invoice_receiver InvoicingInvoiceUnit#invoice_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#invoice_receiver InvoicingInvoiceUnit#invoice_receiver}
   */
   readonly invoiceReceiver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#name InvoicingInvoiceUnit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#name InvoicingInvoiceUnit#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#resource_tags InvoicingInvoiceUnit#resource_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#resource_tags InvoicingInvoiceUnit#resource_tags}
   */
   readonly resourceTags?: InvoicingInvoiceUnitResourceTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#rule InvoicingInvoiceUnit#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#rule InvoicingInvoiceUnit#rule}
   */
   readonly rule: InvoicingInvoiceUnitRule;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#tax_inheritance_disabled InvoicingInvoiceUnit#tax_inheritance_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#tax_inheritance_disabled InvoicingInvoiceUnit#tax_inheritance_disabled}
   */
   readonly taxInheritanceDisabled?: boolean | cdktn.IResolvable;
 }
 export interface InvoicingInvoiceUnitResourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#key InvoicingInvoiceUnit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#key InvoicingInvoiceUnit#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#value InvoicingInvoiceUnit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#value InvoicingInvoiceUnit#value}
   */
   readonly value?: string;
 }
@@ -183,7 +183,7 @@ export class InvoicingInvoiceUnitResourceTagsList extends cdktn.ComplexList {
 }
 export interface InvoicingInvoiceUnitRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#linked_accounts InvoicingInvoiceUnit#linked_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#linked_accounts InvoicingInvoiceUnit#linked_accounts}
   */
   readonly linkedAccounts: string[];
 }
@@ -274,7 +274,7 @@ export class InvoicingInvoiceUnitRuleOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit}
 */
 export class InvoicingInvoiceUnit extends cdktn.TerraformResource {
 
@@ -290,7 +290,7 @@ export class InvoicingInvoiceUnit extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a InvoicingInvoiceUnit resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InvoicingInvoiceUnit to import
-  * @param importFromId The id of the existing InvoicingInvoiceUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InvoicingInvoiceUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InvoicingInvoiceUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -302,7 +302,7 @@ export class InvoicingInvoiceUnit extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,7 +313,7 @@ export class InvoicingInvoiceUnit extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_invoicing_invoice_unit',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

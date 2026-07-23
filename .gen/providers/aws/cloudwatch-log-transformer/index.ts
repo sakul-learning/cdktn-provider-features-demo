@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer
+// https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface CloudwatchLogTransformerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#log_group_arn CloudwatchLogTransformer#log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#log_group_arn CloudwatchLogTransformer#log_group_arn}
   */
   readonly logGroupArn: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#region CloudwatchLogTransformer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#region CloudwatchLogTransformer#region}
   */
   readonly region?: string;
   /**
   * transformer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#transformer_config CloudwatchLogTransformer#transformer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#transformer_config CloudwatchLogTransformer#transformer_config}
   */
   readonly transformerConfig?: CloudwatchLogTransformerTransformerConfig[] | cdktn.IResolvable;
 }
 export interface CloudwatchLogTransformerTransformerConfigAddKeysEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
   */
   readonly overwriteIfExists?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#value CloudwatchLogTransformer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#value CloudwatchLogTransformer#value}
   */
   readonly value: string;
 }
@@ -204,7 +204,7 @@ export interface CloudwatchLogTransformerTransformerConfigAddKeys {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
   */
   readonly entry?: CloudwatchLogTransformerTransformerConfigAddKeysEntry[] | cdktn.IResolvable;
 }
@@ -320,15 +320,15 @@ export class CloudwatchLogTransformerTransformerConfigAddKeysList extends cdktn.
 }
 export interface CloudwatchLogTransformerTransformerConfigCopyValueEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
   */
   readonly overwriteIfExists?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
   */
   readonly target: string;
 }
@@ -498,7 +498,7 @@ export interface CloudwatchLogTransformerTransformerConfigCopyValue {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
   */
   readonly entry?: CloudwatchLogTransformerTransformerConfigCopyValueEntry[] | cdktn.IResolvable;
 }
@@ -614,19 +614,19 @@ export class CloudwatchLogTransformerTransformerConfigCopyValueList extends cdkt
 }
 export interface CloudwatchLogTransformerTransformerConfigCsv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#columns CloudwatchLogTransformer#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#columns CloudwatchLogTransformer#columns}
   */
   readonly columns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#delimiter CloudwatchLogTransformer#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#delimiter CloudwatchLogTransformer#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#quote_character CloudwatchLogTransformer#quote_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#quote_character CloudwatchLogTransformer#quote_character}
   */
   readonly quoteCharacter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -829,31 +829,31 @@ export class CloudwatchLogTransformerTransformerConfigCsvList extends cdktn.Comp
 }
 export interface CloudwatchLogTransformerTransformerConfigDateTimeConverter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#locale CloudwatchLogTransformer#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#locale CloudwatchLogTransformer#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#match_patterns CloudwatchLogTransformer#match_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#match_patterns CloudwatchLogTransformer#match_patterns}
   */
   readonly matchPatterns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source_timezone CloudwatchLogTransformer#source_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source_timezone CloudwatchLogTransformer#source_timezone}
   */
   readonly sourceTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
   */
   readonly target: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#target_format CloudwatchLogTransformer#target_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target_format CloudwatchLogTransformer#target_format}
   */
   readonly targetFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#target_timezone CloudwatchLogTransformer#target_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target_timezone CloudwatchLogTransformer#target_timezone}
   */
   readonly targetTimezone?: string;
 }
@@ -1134,7 +1134,7 @@ export class CloudwatchLogTransformerTransformerConfigDateTimeConverterList exte
 }
 export interface CloudwatchLogTransformerTransformerConfigDeleteKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
   */
   readonly withKeys: string[];
 }
@@ -1247,11 +1247,11 @@ export class CloudwatchLogTransformerTransformerConfigDeleteKeysList extends cdk
 }
 export interface CloudwatchLogTransformerTransformerConfigGrok {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#match CloudwatchLogTransformer#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#match CloudwatchLogTransformer#match}
   */
   readonly match: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -1393,27 +1393,27 @@ export class CloudwatchLogTransformerTransformerConfigGrokList extends cdktn.Com
 }
 export interface CloudwatchLogTransformerTransformerConfigListToMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#flatten CloudwatchLogTransformer#flatten}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#flatten CloudwatchLogTransformer#flatten}
   */
   readonly flatten?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#flattened_element CloudwatchLogTransformer#flattened_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#flattened_element CloudwatchLogTransformer#flattened_element}
   */
   readonly flattenedElement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#value_key CloudwatchLogTransformer#value_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#value_key CloudwatchLogTransformer#value_key}
   */
   readonly valueKey?: string;
 }
@@ -1668,7 +1668,7 @@ export class CloudwatchLogTransformerTransformerConfigListToMapList extends cdkt
 }
 export interface CloudwatchLogTransformerTransformerConfigLowerCaseString {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
   */
   readonly withKeys: string[];
 }
@@ -1781,15 +1781,15 @@ export class CloudwatchLogTransformerTransformerConfigLowerCaseStringList extend
 }
 export interface CloudwatchLogTransformerTransformerConfigMoveKeysEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
   */
   readonly overwriteIfExists?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}
   */
   readonly target: string;
 }
@@ -1959,7 +1959,7 @@ export interface CloudwatchLogTransformerTransformerConfigMoveKeys {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
   */
   readonly entry?: CloudwatchLogTransformerTransformerConfigMoveKeysEntry[] | cdktn.IResolvable;
 }
@@ -2075,7 +2075,7 @@ export class CloudwatchLogTransformerTransformerConfigMoveKeysList extends cdktn
 }
 export interface CloudwatchLogTransformerTransformerConfigParseCloudfront {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -2191,11 +2191,11 @@ export class CloudwatchLogTransformerTransformerConfigParseCloudfrontList extend
 }
 export interface CloudwatchLogTransformerTransformerConfigParseJson {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#destination CloudwatchLogTransformer#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#destination CloudwatchLogTransformer#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -2340,31 +2340,31 @@ export class CloudwatchLogTransformerTransformerConfigParseJsonList extends cdkt
 }
 export interface CloudwatchLogTransformerTransformerConfigParseKeyValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#destination CloudwatchLogTransformer#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#destination CloudwatchLogTransformer#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#field_delimiter CloudwatchLogTransformer#field_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#field_delimiter CloudwatchLogTransformer#field_delimiter}
   */
   readonly fieldDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#key_prefix CloudwatchLogTransformer#key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key_prefix CloudwatchLogTransformer#key_prefix}
   */
   readonly keyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#key_value_delimiter CloudwatchLogTransformer#key_value_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key_value_delimiter CloudwatchLogTransformer#key_value_delimiter}
   */
   readonly keyValueDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#non_match_value CloudwatchLogTransformer#non_match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#non_match_value CloudwatchLogTransformer#non_match_value}
   */
   readonly nonMatchValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
   */
   readonly overwriteIfExists?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -2654,7 +2654,7 @@ export class CloudwatchLogTransformerTransformerConfigParseKeyValueList extends 
 }
 export interface CloudwatchLogTransformerTransformerConfigParsePostgres {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -2770,7 +2770,7 @@ export class CloudwatchLogTransformerTransformerConfigParsePostgresList extends 
 }
 export interface CloudwatchLogTransformerTransformerConfigParseRoute53 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -2886,15 +2886,15 @@ export class CloudwatchLogTransformerTransformerConfigParseRoute53List extends c
 }
 export interface CloudwatchLogTransformerTransformerConfigParseToOcsf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#event_source CloudwatchLogTransformer#event_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#event_source CloudwatchLogTransformer#event_source}
   */
   readonly eventSource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#ocsf_version CloudwatchLogTransformer#ocsf_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#ocsf_version CloudwatchLogTransformer#ocsf_version}
   */
   readonly ocsfVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -3062,7 +3062,7 @@ export class CloudwatchLogTransformerTransformerConfigParseToOcsfList extends cd
 }
 export interface CloudwatchLogTransformerTransformerConfigParseVpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -3178,7 +3178,7 @@ export class CloudwatchLogTransformerTransformerConfigParseVpcList extends cdktn
 }
 export interface CloudwatchLogTransformerTransformerConfigParseWaf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source?: string;
 }
@@ -3294,15 +3294,15 @@ export class CloudwatchLogTransformerTransformerConfigParseWafList extends cdktn
 }
 export interface CloudwatchLogTransformerTransformerConfigRenameKeysEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#overwrite_if_exists CloudwatchLogTransformer#overwrite_if_exists}
   */
   readonly overwriteIfExists?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#rename_to CloudwatchLogTransformer#rename_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#rename_to CloudwatchLogTransformer#rename_to}
   */
   readonly renameTo: string;
 }
@@ -3472,7 +3472,7 @@ export interface CloudwatchLogTransformerTransformerConfigRenameKeys {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
   */
   readonly entry?: CloudwatchLogTransformerTransformerConfigRenameKeysEntry[] | cdktn.IResolvable;
 }
@@ -3588,11 +3588,11 @@ export class CloudwatchLogTransformerTransformerConfigRenameKeysList extends cdk
 }
 export interface CloudwatchLogTransformerTransformerConfigSplitStringEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#delimiter CloudwatchLogTransformer#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#delimiter CloudwatchLogTransformer#delimiter}
   */
   readonly delimiter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source: string;
 }
@@ -3733,7 +3733,7 @@ export interface CloudwatchLogTransformerTransformerConfigSplitString {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
   */
   readonly entry?: CloudwatchLogTransformerTransformerConfigSplitStringEntry[] | cdktn.IResolvable;
 }
@@ -3849,15 +3849,15 @@ export class CloudwatchLogTransformerTransformerConfigSplitStringList extends cd
 }
 export interface CloudwatchLogTransformerTransformerConfigSubstituteStringEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#from CloudwatchLogTransformer#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#from CloudwatchLogTransformer#from}
   */
   readonly from: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#to CloudwatchLogTransformer#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#to CloudwatchLogTransformer#to}
   */
   readonly to: string;
 }
@@ -4024,7 +4024,7 @@ export interface CloudwatchLogTransformerTransformerConfigSubstituteString {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
   */
   readonly entry?: CloudwatchLogTransformerTransformerConfigSubstituteStringEntry[] | cdktn.IResolvable;
 }
@@ -4140,7 +4140,7 @@ export class CloudwatchLogTransformerTransformerConfigSubstituteStringList exten
 }
 export interface CloudwatchLogTransformerTransformerConfigTrimString {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
   */
   readonly withKeys: string[];
 }
@@ -4253,11 +4253,11 @@ export class CloudwatchLogTransformerTransformerConfigTrimStringList extends cdk
 }
 export interface CloudwatchLogTransformerTransformerConfigTypeConverterEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#type CloudwatchLogTransformer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#type CloudwatchLogTransformer#type}
   */
   readonly type: string;
 }
@@ -4398,7 +4398,7 @@ export interface CloudwatchLogTransformerTransformerConfigTypeConverter {
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
   */
   readonly entry?: CloudwatchLogTransformerTransformerConfigTypeConverterEntry[] | cdktn.IResolvable;
 }
@@ -4514,7 +4514,7 @@ export class CloudwatchLogTransformerTransformerConfigTypeConverterList extends 
 }
 export interface CloudwatchLogTransformerTransformerConfigUpperCaseString {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#with_keys CloudwatchLogTransformer#with_keys}
   */
   readonly withKeys: string[];
 }
@@ -4629,139 +4629,139 @@ export interface CloudwatchLogTransformerTransformerConfig {
   /**
   * add_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#add_keys CloudwatchLogTransformer#add_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#add_keys CloudwatchLogTransformer#add_keys}
   */
   readonly addKeys?: CloudwatchLogTransformerTransformerConfigAddKeys[] | cdktn.IResolvable;
   /**
   * copy_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#copy_value CloudwatchLogTransformer#copy_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#copy_value CloudwatchLogTransformer#copy_value}
   */
   readonly copyValue?: CloudwatchLogTransformerTransformerConfigCopyValue[] | cdktn.IResolvable;
   /**
   * csv block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#csv CloudwatchLogTransformer#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#csv CloudwatchLogTransformer#csv}
   */
   readonly csv?: CloudwatchLogTransformerTransformerConfigCsv[] | cdktn.IResolvable;
   /**
   * date_time_converter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#date_time_converter CloudwatchLogTransformer#date_time_converter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#date_time_converter CloudwatchLogTransformer#date_time_converter}
   */
   readonly dateTimeConverter?: CloudwatchLogTransformerTransformerConfigDateTimeConverter[] | cdktn.IResolvable;
   /**
   * delete_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#delete_keys CloudwatchLogTransformer#delete_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#delete_keys CloudwatchLogTransformer#delete_keys}
   */
   readonly deleteKeys?: CloudwatchLogTransformerTransformerConfigDeleteKeys[] | cdktn.IResolvable;
   /**
   * grok block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#grok CloudwatchLogTransformer#grok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#grok CloudwatchLogTransformer#grok}
   */
   readonly grok?: CloudwatchLogTransformerTransformerConfigGrok[] | cdktn.IResolvable;
   /**
   * list_to_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#list_to_map CloudwatchLogTransformer#list_to_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#list_to_map CloudwatchLogTransformer#list_to_map}
   */
   readonly listToMap?: CloudwatchLogTransformerTransformerConfigListToMap[] | cdktn.IResolvable;
   /**
   * lower_case_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#lower_case_string CloudwatchLogTransformer#lower_case_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#lower_case_string CloudwatchLogTransformer#lower_case_string}
   */
   readonly lowerCaseString?: CloudwatchLogTransformerTransformerConfigLowerCaseString[] | cdktn.IResolvable;
   /**
   * move_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#move_keys CloudwatchLogTransformer#move_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#move_keys CloudwatchLogTransformer#move_keys}
   */
   readonly moveKeys?: CloudwatchLogTransformerTransformerConfigMoveKeys[] | cdktn.IResolvable;
   /**
   * parse_cloudfront block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_cloudfront CloudwatchLogTransformer#parse_cloudfront}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_cloudfront CloudwatchLogTransformer#parse_cloudfront}
   */
   readonly parseCloudfront?: CloudwatchLogTransformerTransformerConfigParseCloudfront[] | cdktn.IResolvable;
   /**
   * parse_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_json CloudwatchLogTransformer#parse_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_json CloudwatchLogTransformer#parse_json}
   */
   readonly parseJson?: CloudwatchLogTransformerTransformerConfigParseJson[] | cdktn.IResolvable;
   /**
   * parse_key_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_key_value CloudwatchLogTransformer#parse_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_key_value CloudwatchLogTransformer#parse_key_value}
   */
   readonly parseKeyValue?: CloudwatchLogTransformerTransformerConfigParseKeyValue[] | cdktn.IResolvable;
   /**
   * parse_postgres block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_postgres CloudwatchLogTransformer#parse_postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_postgres CloudwatchLogTransformer#parse_postgres}
   */
   readonly parsePostgres?: CloudwatchLogTransformerTransformerConfigParsePostgres[] | cdktn.IResolvable;
   /**
   * parse_route53 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_route53 CloudwatchLogTransformer#parse_route53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_route53 CloudwatchLogTransformer#parse_route53}
   */
   readonly parseRoute53?: CloudwatchLogTransformerTransformerConfigParseRoute53[] | cdktn.IResolvable;
   /**
   * parse_to_ocsf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_to_ocsf CloudwatchLogTransformer#parse_to_ocsf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_to_ocsf CloudwatchLogTransformer#parse_to_ocsf}
   */
   readonly parseToOcsf?: CloudwatchLogTransformerTransformerConfigParseToOcsf[] | cdktn.IResolvable;
   /**
   * parse_vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_vpc CloudwatchLogTransformer#parse_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_vpc CloudwatchLogTransformer#parse_vpc}
   */
   readonly parseVpc?: CloudwatchLogTransformerTransformerConfigParseVpc[] | cdktn.IResolvable;
   /**
   * parse_waf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#parse_waf CloudwatchLogTransformer#parse_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#parse_waf CloudwatchLogTransformer#parse_waf}
   */
   readonly parseWaf?: CloudwatchLogTransformerTransformerConfigParseWaf[] | cdktn.IResolvable;
   /**
   * rename_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#rename_keys CloudwatchLogTransformer#rename_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#rename_keys CloudwatchLogTransformer#rename_keys}
   */
   readonly renameKeys?: CloudwatchLogTransformerTransformerConfigRenameKeys[] | cdktn.IResolvable;
   /**
   * split_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#split_string CloudwatchLogTransformer#split_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#split_string CloudwatchLogTransformer#split_string}
   */
   readonly splitString?: CloudwatchLogTransformerTransformerConfigSplitString[] | cdktn.IResolvable;
   /**
   * substitute_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#substitute_string CloudwatchLogTransformer#substitute_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#substitute_string CloudwatchLogTransformer#substitute_string}
   */
   readonly substituteString?: CloudwatchLogTransformerTransformerConfigSubstituteString[] | cdktn.IResolvable;
   /**
   * trim_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#trim_string CloudwatchLogTransformer#trim_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#trim_string CloudwatchLogTransformer#trim_string}
   */
   readonly trimString?: CloudwatchLogTransformerTransformerConfigTrimString[] | cdktn.IResolvable;
   /**
   * type_converter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#type_converter CloudwatchLogTransformer#type_converter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#type_converter CloudwatchLogTransformer#type_converter}
   */
   readonly typeConverter?: CloudwatchLogTransformerTransformerConfigTypeConverter[] | cdktn.IResolvable;
   /**
   * upper_case_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#upper_case_string CloudwatchLogTransformer#upper_case_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#upper_case_string CloudwatchLogTransformer#upper_case_string}
   */
   readonly upperCaseString?: CloudwatchLogTransformerTransformerConfigUpperCaseString[] | cdktn.IResolvable;
 }
@@ -5515,7 +5515,7 @@ export class CloudwatchLogTransformerTransformerConfigList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer}
 */
 export class CloudwatchLogTransformer extends cdktn.TerraformResource {
 
@@ -5531,7 +5531,7 @@ export class CloudwatchLogTransformer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchLogTransformer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchLogTransformer to import
-  * @param importFromId The id of the existing CloudwatchLogTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchLogTransformer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchLogTransformer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5543,7 +5543,7 @@ export class CloudwatchLogTransformer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer aws_cloudwatch_log_transformer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5554,7 +5554,7 @@ export class CloudwatchLogTransformer extends cdktn.TerraformResource {
       terraformResourceType: 'aws_cloudwatch_log_transformer',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.55.0'
+        providerVersion: '6.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/systemsmanagersap_applications
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/systemsmanagersap_applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccSystemsmanagersapApplicationsConfig extends cdktn.Terr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications}
 */
 export class DataAwsccSystemsmanagersapApplications extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccSystemsmanagersapApplications extends cdktn.TerraformDataS
   * Generates CDKTN code for importing a DataAwsccSystemsmanagersapApplications resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSystemsmanagersapApplications to import
-  * @param importFromId The id of the existing DataAwsccSystemsmanagersapApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/systemsmanagersap_applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSystemsmanagersapApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/systemsmanagersap_applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSystemsmanagersapApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccSystemsmanagersapApplications extends cdktn.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccSystemsmanagersapApplications extends cdktn.TerraformDataS
       terraformResourceType: 'awscc_systemsmanagersap_applications',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

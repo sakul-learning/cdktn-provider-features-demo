@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface ConnectDataTableRecordConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#data_table_arn ConnectDataTableRecord#data_table_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#data_table_arn ConnectDataTableRecord#data_table_arn}
   */
-  readonly dataTableArn?: string;
+  readonly dataTableArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#data_table_record ConnectDataTableRecord#data_table_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#data_table_record ConnectDataTableRecord#data_table_record}
   */
-  readonly dataTableRecord?: ConnectDataTableRecordDataTableRecord;
+  readonly dataTableRecord: ConnectDataTableRecordDataTableRecord;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#instance_arn ConnectDataTableRecord#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#instance_arn ConnectDataTableRecord#instance_arn}
   */
-  readonly instanceArn?: string;
+  readonly instanceArn: string;
 }
 export interface ConnectDataTableRecordDataTableRecordPrimaryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
   */
   readonly attributeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
   */
   readonly attributeValue?: string;
 }
@@ -171,11 +171,11 @@ export class ConnectDataTableRecordDataTableRecordPrimaryValuesList extends cdkt
 }
 export interface ConnectDataTableRecordDataTableRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
   */
   readonly attributeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
   */
   readonly attributeValue?: string;
 }
@@ -320,13 +320,13 @@ export class ConnectDataTableRecordDataTableRecordValuesList extends cdktn.Compl
 }
 export interface ConnectDataTableRecordDataTableRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#primary_values ConnectDataTableRecord#primary_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#primary_values ConnectDataTableRecord#primary_values}
   */
   readonly primaryValues?: ConnectDataTableRecordDataTableRecordPrimaryValues[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#values ConnectDataTableRecord#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#values ConnectDataTableRecord#values}
   */
-  readonly values?: ConnectDataTableRecordDataTableRecordValues[] | cdktn.IResolvable;
+  readonly values: ConnectDataTableRecordDataTableRecordValues[] | cdktn.IResolvable;
 }
 
 export function connectDataTableRecordDataTableRecordToTerraform(struct?: ConnectDataTableRecordDataTableRecord | cdktn.IResolvable): any {
@@ -429,16 +429,13 @@ export class ConnectDataTableRecordDataTableRecordOutputReference extends cdktn.
     return this._primaryValues.internalValue;
   }
 
-  // values - computed: true, optional: true, required: false
+  // values - computed: false, optional: false, required: true
   private _values = new ConnectDataTableRecordDataTableRecordValuesList(this, "values", false);
   public get values() {
     return this._values;
   }
   public putValues(value: ConnectDataTableRecordDataTableRecordValues[] | cdktn.IResolvable) {
     this._values.internalValue = value;
-  }
-  public resetValues() {
-    this._values.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get valuesInput() {
@@ -447,7 +444,7 @@ export class ConnectDataTableRecordDataTableRecordOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record awscc_connect_data_table_record}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record awscc_connect_data_table_record}
 */
 export class ConnectDataTableRecord extends cdktn.TerraformResource {
 
@@ -463,7 +460,7 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectDataTableRecord resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectDataTableRecord to import
-  * @param importFromId The id of the existing ConnectDataTableRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectDataTableRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectDataTableRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -475,18 +472,18 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options ConnectDataTableRecordConfig = {}
+  * @param options ConnectDataTableRecordConfig
   */
-  public constructor(scope: Construct, id: string, config: ConnectDataTableRecordConfig = {}) {
+  public constructor(scope: Construct, id: string, config: ConnectDataTableRecordConfig) {
     super(scope, id, {
       terraformResourceType: 'awscc_connect_data_table_record',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -505,7 +502,7 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // data_table_arn - computed: true, optional: true, required: false
+  // data_table_arn - computed: false, optional: false, required: true
   private _dataTableArn?: string; 
   public get dataTableArn() {
     return this.getStringAttribute('data_table_arn');
@@ -513,24 +510,18 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   public set dataTableArn(value: string) {
     this._dataTableArn = value;
   }
-  public resetDataTableArn() {
-    this._dataTableArn = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get dataTableArnInput() {
     return this._dataTableArn;
   }
 
-  // data_table_record - computed: true, optional: true, required: false
+  // data_table_record - computed: false, optional: false, required: true
   private _dataTableRecord = new ConnectDataTableRecordDataTableRecordOutputReference(this, "data_table_record");
   public get dataTableRecord() {
     return this._dataTableRecord;
   }
   public putDataTableRecord(value: ConnectDataTableRecordDataTableRecord) {
     this._dataTableRecord.internalValue = value;
-  }
-  public resetDataTableRecord() {
-    this._dataTableRecord.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get dataTableRecordInput() {
@@ -542,16 +533,13 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // instance_arn - computed: true, optional: true, required: false
+  // instance_arn - computed: false, optional: false, required: true
   private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
   public set instanceArn(value: string) {
     this._instanceArn = value;
-  }
-  public resetInstanceArn() {
-    this._instanceArn = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get instanceArnInput() {

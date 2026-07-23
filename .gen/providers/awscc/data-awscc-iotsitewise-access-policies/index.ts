@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iotsitewise_access_policies
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iotsitewise_access_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccIotsitewiseAccessPoliciesConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies}
 */
 export class DataAwsccIotsitewiseAccessPolicies extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccIotsitewiseAccessPolicies extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccIotsitewiseAccessPolicies resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotsitewiseAccessPolicies to import
-  * @param importFromId The id of the existing DataAwsccIotsitewiseAccessPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iotsitewise_access_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotsitewiseAccessPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iotsitewise_access_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotsitewiseAccessPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccIotsitewiseAccessPolicies extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccIotsitewiseAccessPolicies extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_iotsitewise_access_policies',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

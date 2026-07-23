@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,49 +11,49 @@ export interface RdsIntegrationConfig extends cdktn.TerraformMetaArguments {
   * An optional set of non-secret key?value pairs that contains additional contextual information about the data. For more information, see [Encryption context](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#encrypt_context) in the *Key Management Service Developer Guide*.
   *  You can only include this parameter if you specify the ``KMSKeyId`` parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#additional_encryption_context RdsIntegration#additional_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#additional_encryption_context RdsIntegration#additional_encryption_context}
   */
   readonly additionalEncryptionContext?: { [key: string]: string };
   /**
   * Data filters for the integration. These filters determine which tables from the source database are sent to the target Amazon Redshift data warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#data_filter RdsIntegration#data_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#data_filter RdsIntegration#data_filter}
   */
   readonly dataFilter?: string;
   /**
   * A description of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#description RdsIntegration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#description RdsIntegration#description}
   */
   readonly description?: string;
   /**
   * The name of the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#integration_name RdsIntegration#integration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#integration_name RdsIntegration#integration_name}
   */
   readonly integrationName?: string;
   /**
   * The AWS Key Management System (AWS KMS) key identifier for the key to use to encrypt the integration. If you don't specify an encryption key, RDS uses a default AWS owned key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#kms_key_id RdsIntegration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#kms_key_id RdsIntegration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The Amazon Resource Name (ARN) of the database to use as the source for replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#source_arn RdsIntegration#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#source_arn RdsIntegration#source_arn}
   */
   readonly sourceArn: string;
   /**
   * A list of tags. For more information, see [Tagging Amazon RDS Resources](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Tagging.html) in the *Amazon RDS User Guide.*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#tags RdsIntegration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#tags RdsIntegration#tags}
   */
   readonly tags?: RdsIntegrationTags[] | cdktn.IResolvable;
   /**
   * The ARN of the Redshift data warehouse to use as the target for replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#target_arn RdsIntegration#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#target_arn RdsIntegration#target_arn}
   */
   readonly targetArn: string;
 }
@@ -61,13 +61,13 @@ export interface RdsIntegrationTags {
   /**
   * A key is the required name of the tag. The string value can be from 1 to 128 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#key RdsIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#key RdsIntegration#key}
   */
   readonly key?: string;
   /**
   * A value is the optional value of the tag. The string value can be from 1 to 256 Unicode characters in length and can't be prefixed with ``aws:`` or ``rds:``. The string can only contain only the set of Unicode letters, digits, white-space, '_', '.', ':', '/', '=', '+', '-', '@' (Java regex: "^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#value RdsIntegration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#value RdsIntegration#value}
   */
   readonly value?: string;
 }
@@ -212,7 +212,7 @@ export class RdsIntegrationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration awscc_rds_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration awscc_rds_integration}
 */
 export class RdsIntegration extends cdktn.TerraformResource {
 
@@ -228,7 +228,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsIntegration to import
-  * @param importFromId The id of the existing RdsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -240,7 +240,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_integration awscc_rds_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_integration awscc_rds_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,7 +251,7 @@ export class RdsIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

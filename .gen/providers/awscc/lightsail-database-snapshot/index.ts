@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LightsailDatabaseSnapshotConfig extends cdktn.TerraformMetaArgu
   /**
   * The name of the database on which to base your new snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot#relational_database_name LightsailDatabaseSnapshot#relational_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot#relational_database_name LightsailDatabaseSnapshot#relational_database_name}
   */
   readonly relationalDatabaseName: string;
   /**
   * The name for your new database snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot#relational_database_snapshot_name LightsailDatabaseSnapshot#relational_database_snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot#relational_database_snapshot_name LightsailDatabaseSnapshot#relational_database_snapshot_name}
   */
   readonly relationalDatabaseSnapshotName: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot#tags LightsailDatabaseSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot#tags LightsailDatabaseSnapshot#tags}
   */
   readonly tags?: LightsailDatabaseSnapshotTags[] | cdktn.IResolvable;
 }
@@ -89,13 +89,13 @@ export interface LightsailDatabaseSnapshotTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot#key LightsailDatabaseSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot#key LightsailDatabaseSnapshot#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot#value LightsailDatabaseSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot#value LightsailDatabaseSnapshot#value}
   */
   readonly value?: string;
 }
@@ -240,7 +240,7 @@ export class LightsailDatabaseSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot awscc_lightsail_database_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot awscc_lightsail_database_snapshot}
 */
 export class LightsailDatabaseSnapshot extends cdktn.TerraformResource {
 
@@ -256,7 +256,7 @@ export class LightsailDatabaseSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailDatabaseSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailDatabaseSnapshot to import
-  * @param importFromId The id of the existing LightsailDatabaseSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailDatabaseSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailDatabaseSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -268,7 +268,7 @@ export class LightsailDatabaseSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_database_snapshot awscc_lightsail_database_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lightsail_database_snapshot awscc_lightsail_database_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -279,7 +279,7 @@ export class LightsailDatabaseSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_database_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

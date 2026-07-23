@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ElasticacheUserConfig extends cdktn.TerraformMetaArguments {
   /**
   * Access permissions string used for this user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#access_string ElasticacheUser#access_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#access_string ElasticacheUser#access_string}
   */
   readonly accessString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#authentication_mode ElasticacheUser#authentication_mode}
   */
   readonly authenticationMode?: ElasticacheUserAuthenticationMode;
   /**
   * The target cache engine for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#engine ElasticacheUser#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#engine ElasticacheUser#engine}
   */
   readonly engine: string;
   /**
   * Indicates a password is not required for this user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#no_password_required ElasticacheUser#no_password_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#no_password_required ElasticacheUser#no_password_required}
   */
   readonly noPasswordRequired?: boolean | cdktn.IResolvable;
   /**
   * Passwords used for this user account. You can create up to two passwords for each user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
   */
   readonly passwords?: string[];
   /**
   * An array of key-value pairs to apply to this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#tags ElasticacheUser#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#tags ElasticacheUser#tags}
   */
   readonly tags?: ElasticacheUserTags[] | cdktn.IResolvable;
   /**
   * The ID of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#user_id ElasticacheUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#user_id ElasticacheUser#user_id}
   */
   readonly userId: string;
   /**
   * The username of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#user_name ElasticacheUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#user_name ElasticacheUser#user_name}
   */
   readonly userName: string;
 }
@@ -58,13 +58,13 @@ export interface ElasticacheUserAuthenticationMode {
   /**
   * Passwords used for this user account. You can create up to two passwords for each user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#passwords ElasticacheUser#passwords}
   */
   readonly passwords?: string[];
   /**
   * Authentication Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#type ElasticacheUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#type ElasticacheUser#type}
   */
   readonly type?: string;
 }
@@ -189,13 +189,13 @@ export interface ElasticacheUserTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#key ElasticacheUser#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#key ElasticacheUser#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#value ElasticacheUser#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#value ElasticacheUser#value}
   */
   readonly value?: string;
 }
@@ -340,7 +340,7 @@ export class ElasticacheUserTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user awscc_elasticache_user}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user awscc_elasticache_user}
 */
 export class ElasticacheUser extends cdktn.TerraformResource {
 
@@ -356,7 +356,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticacheUser resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticacheUser to import
-  * @param importFromId The id of the existing ElasticacheUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticacheUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticacheUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -368,7 +368,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/elasticache_user awscc_elasticache_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/elasticache_user awscc_elasticache_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,7 +379,7 @@ export class ElasticacheUser extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticache_user',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktn from 'cdktn';
 
 export interface QbusinessPluginConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#application_id QbusinessPlugin#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#application_id QbusinessPlugin#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#auth_configuration QbusinessPlugin#auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#auth_configuration QbusinessPlugin#auth_configuration}
   */
   readonly authConfiguration: QbusinessPluginAuthConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#custom_plugin_configuration QbusinessPlugin#custom_plugin_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#custom_plugin_configuration QbusinessPlugin#custom_plugin_configuration}
   */
   readonly customPluginConfiguration?: QbusinessPluginCustomPluginConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#display_name QbusinessPlugin#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#display_name QbusinessPlugin#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#server_url QbusinessPlugin#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#server_url QbusinessPlugin#server_url}
   */
   readonly serverUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#state QbusinessPlugin#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#state QbusinessPlugin#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#tags QbusinessPlugin#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#tags QbusinessPlugin#tags}
   */
   readonly tags?: QbusinessPluginTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#type QbusinessPlugin#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#type QbusinessPlugin#type}
   */
   readonly type: string;
 }
 export interface QbusinessPluginAuthConfigurationBasicAuthConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#role_arn QbusinessPlugin#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#role_arn QbusinessPlugin#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#secret_arn QbusinessPlugin#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#secret_arn QbusinessPlugin#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -169,19 +169,19 @@ export class QbusinessPluginAuthConfigurationBasicAuthConfigurationOutputReferen
 }
 export interface QbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#authorization_url QbusinessPlugin#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#authorization_url QbusinessPlugin#authorization_url}
   */
   readonly authorizationUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#role_arn QbusinessPlugin#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#role_arn QbusinessPlugin#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#secret_arn QbusinessPlugin#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#secret_arn QbusinessPlugin#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#token_url QbusinessPlugin#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#token_url QbusinessPlugin#token_url}
   */
   readonly tokenUrl?: string;
 }
@@ -362,15 +362,15 @@ export class QbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration
 }
 export interface QbusinessPluginAuthConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#basic_auth_configuration QbusinessPlugin#basic_auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#basic_auth_configuration QbusinessPlugin#basic_auth_configuration}
   */
   readonly basicAuthConfiguration?: QbusinessPluginAuthConfigurationBasicAuthConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#no_auth_configuration QbusinessPlugin#no_auth_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#no_auth_configuration QbusinessPlugin#no_auth_configuration}
   */
   readonly noAuthConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#o_auth_2_client_credential_configuration QbusinessPlugin#o_auth_2_client_credential_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#o_auth_2_client_credential_configuration QbusinessPlugin#o_auth_2_client_credential_configuration}
   */
   readonly oAuth2ClientCredentialConfiguration?: QbusinessPluginAuthConfigurationOAuth2ClientCredentialConfiguration;
 }
@@ -522,11 +522,11 @@ export class QbusinessPluginAuthConfigurationOutputReference extends cdktn.Compl
 }
 export interface QbusinessPluginCustomPluginConfigurationApiSchemaS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#bucket QbusinessPlugin#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#bucket QbusinessPlugin#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#key QbusinessPlugin#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#key QbusinessPlugin#key}
   */
   readonly key?: string;
 }
@@ -649,11 +649,11 @@ export class QbusinessPluginCustomPluginConfigurationApiSchemaS3OutputReference 
 }
 export interface QbusinessPluginCustomPluginConfigurationApiSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#payload QbusinessPlugin#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#payload QbusinessPlugin#payload}
   */
   readonly payload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#s3 QbusinessPlugin#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#s3 QbusinessPlugin#s3}
   */
   readonly s3?: QbusinessPluginCustomPluginConfigurationApiSchemaS3;
 }
@@ -776,15 +776,15 @@ export class QbusinessPluginCustomPluginConfigurationApiSchemaOutputReference ex
 }
 export interface QbusinessPluginCustomPluginConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#api_schema QbusinessPlugin#api_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#api_schema QbusinessPlugin#api_schema}
   */
   readonly apiSchema?: QbusinessPluginCustomPluginConfigurationApiSchema;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#api_schema_type QbusinessPlugin#api_schema_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#api_schema_type QbusinessPlugin#api_schema_type}
   */
   readonly apiSchemaType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#description QbusinessPlugin#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#description QbusinessPlugin#description}
   */
   readonly description?: string;
 }
@@ -936,11 +936,11 @@ export class QbusinessPluginCustomPluginConfigurationOutputReference extends cdk
 }
 export interface QbusinessPluginTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#key QbusinessPlugin#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#key QbusinessPlugin#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#value QbusinessPlugin#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#value QbusinessPlugin#value}
   */
   readonly value?: string;
 }
@@ -1085,7 +1085,7 @@ export class QbusinessPluginTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin awscc_qbusiness_plugin}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin awscc_qbusiness_plugin}
 */
 export class QbusinessPlugin extends cdktn.TerraformResource {
 
@@ -1101,7 +1101,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QbusinessPlugin resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QbusinessPlugin to import
-  * @param importFromId The id of the existing QbusinessPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QbusinessPlugin that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QbusinessPlugin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1113,7 +1113,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_plugin awscc_qbusiness_plugin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_plugin awscc_qbusiness_plugin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1124,7 +1124,7 @@ export class QbusinessPlugin extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_qbusiness_plugin',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

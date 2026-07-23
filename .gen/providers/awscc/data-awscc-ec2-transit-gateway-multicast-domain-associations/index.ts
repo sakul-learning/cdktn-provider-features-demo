@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEc2TransitGatewayMulticastDomainAssociationsConfig ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations}
 */
 export class DataAwsccEc2TransitGatewayMulticastDomainAssociations extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEc2TransitGatewayMulticastDomainAssociations extends cdktn
   * Generates CDKTN code for importing a DataAwsccEc2TransitGatewayMulticastDomainAssociations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2TransitGatewayMulticastDomainAssociations to import
-  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayMulticastDomainAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayMulticastDomainAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2TransitGatewayMulticastDomainAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEc2TransitGatewayMulticastDomainAssociations extends cdktn
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEc2TransitGatewayMulticastDomainAssociations extends cdktn
       terraformResourceType: 'awscc_ec2_transit_gateway_multicast_domain_associations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

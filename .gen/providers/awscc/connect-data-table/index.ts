@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface ConnectDataTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the Data Table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#description ConnectDataTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#description ConnectDataTable#description}
   */
   readonly description?: string;
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#instance_arn ConnectDataTable#instance_arn}
   */
-  readonly instanceArn?: string;
+  readonly instanceArn: string;
   /**
   * The name of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#name ConnectDataTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#name ConnectDataTable#name}
   */
-  readonly name?: string;
+  readonly name: string;
   /**
   * The status of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#status ConnectDataTable#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#status ConnectDataTable#status}
   */
-  readonly status?: string;
+  readonly status: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#tags ConnectDataTable#tags}
   */
   readonly tags?: ConnectDataTableTags[] | cdktn.IResolvable;
   /**
   * The time zone of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#time_zone ConnectDataTable#time_zone}
   */
-  readonly timeZone?: string;
+  readonly timeZone: string;
   /**
   * The value lock level of the Data Table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#value_lock_level ConnectDataTable#value_lock_level}
   */
-  readonly valueLockLevel?: string;
+  readonly valueLockLevel: string;
 }
 export interface ConnectDataTableLockVersion {
 }
@@ -108,13 +108,13 @@ export interface ConnectDataTableTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#key ConnectDataTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#key ConnectDataTable#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#value ConnectDataTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#value ConnectDataTable#value}
   */
   readonly value?: string;
 }
@@ -259,7 +259,7 @@ export class ConnectDataTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table awscc_connect_data_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table awscc_connect_data_table}
 */
 export class ConnectDataTable extends cdktn.TerraformResource {
 
@@ -275,7 +275,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectDataTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectDataTable to import
-  * @param importFromId The id of the existing ConnectDataTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectDataTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectDataTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -287,18 +287,18 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table awscc_connect_data_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_data_table awscc_connect_data_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options ConnectDataTableConfig = {}
+  * @param options ConnectDataTableConfig
   */
-  public constructor(scope: Construct, id: string, config: ConnectDataTableConfig = {}) {
+  public constructor(scope: Construct, id: string, config: ConnectDataTableConfig) {
     super(scope, id, {
       terraformResourceType: 'awscc_connect_data_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -352,16 +352,13 @@ export class ConnectDataTable extends cdktn.TerraformResource {
     return this.getStringAttribute('id');
   }
 
-  // instance_arn - computed: true, optional: true, required: false
+  // instance_arn - computed: false, optional: false, required: true
   private _instanceArn?: string; 
   public get instanceArn() {
     return this.getStringAttribute('instance_arn');
   }
   public set instanceArn(value: string) {
     this._instanceArn = value;
-  }
-  public resetInstanceArn() {
-    this._instanceArn = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get instanceArnInput() {
@@ -384,7 +381,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
     return this._lockVersion;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -392,24 +389,18 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   public set name(value: string) {
     this._name = value;
   }
-  public resetName() {
-    this._name = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
   }
 
-  // status - computed: true, optional: true, required: false
+  // status - computed: false, optional: false, required: true
   private _status?: string; 
   public get status() {
     return this.getStringAttribute('status');
   }
   public set status(value: string) {
     this._status = value;
-  }
-  public resetStatus() {
-    this._status = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get statusInput() {
@@ -432,7 +423,7 @@ export class ConnectDataTable extends cdktn.TerraformResource {
     return this._tags.internalValue;
   }
 
-  // time_zone - computed: true, optional: true, required: false
+  // time_zone - computed: false, optional: false, required: true
   private _timeZone?: string; 
   public get timeZone() {
     return this.getStringAttribute('time_zone');
@@ -440,24 +431,18 @@ export class ConnectDataTable extends cdktn.TerraformResource {
   public set timeZone(value: string) {
     this._timeZone = value;
   }
-  public resetTimeZone() {
-    this._timeZone = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get timeZoneInput() {
     return this._timeZone;
   }
 
-  // value_lock_level - computed: true, optional: true, required: false
+  // value_lock_level - computed: false, optional: false, required: true
   private _valueLockLevel?: string; 
   public get valueLockLevel() {
     return this.getStringAttribute('value_lock_level');
   }
   public set valueLockLevel(value: string) {
     this._valueLockLevel = value;
-  }
-  public resetValueLockLevel() {
-    this._valueLockLevel = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get valueLockLevelInput() {

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_pool_cidr
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_pool_cidr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Ec2IpamPoolCidrConfig extends cdktn.TerraformMetaArguments {
   /**
   * Represents a single IPv4 or IPv6 CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_pool_cidr#cidr Ec2IpamPoolCidr#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_pool_cidr#cidr Ec2IpamPoolCidr#cidr}
   */
   readonly cidr?: string;
   /**
   * Id of the IPAM Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_pool_cidr#ipam_pool_id Ec2IpamPoolCidr#ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_pool_cidr#ipam_pool_id Ec2IpamPoolCidr#ipam_pool_id}
   */
   readonly ipamPoolId: string;
   /**
   * The desired netmask length of the provision. If set, IPAM will choose a block of free space with this size and return the CIDR representing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_pool_cidr#netmask_length Ec2IpamPoolCidr#netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_pool_cidr#netmask_length Ec2IpamPoolCidr#netmask_length}
   */
   readonly netmaskLength?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}
 */
 export class Ec2IpamPoolCidr extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Ec2IpamPoolCidr extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2IpamPoolCidr resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2IpamPoolCidr to import
-  * @param importFromId The id of the existing Ec2IpamPoolCidr that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_pool_cidr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2IpamPoolCidr that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_pool_cidr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2IpamPoolCidr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Ec2IpamPoolCidr extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class Ec2IpamPoolCidr extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_ipam_pool_cidr',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

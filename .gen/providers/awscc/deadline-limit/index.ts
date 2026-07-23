@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface DeadlineLimitConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit#amount_requirement_name DeadlineLimit#amount_requirement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit#amount_requirement_name DeadlineLimit#amount_requirement_name}
   */
   readonly amountRequirementName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit#description DeadlineLimit#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit#description DeadlineLimit#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit#display_name DeadlineLimit#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit#display_name DeadlineLimit#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit#farm_id DeadlineLimit#farm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit#farm_id DeadlineLimit#farm_id}
   */
   readonly farmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit#max_count DeadlineLimit#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit#max_count DeadlineLimit#max_count}
   */
   readonly maxCount: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit awscc_deadline_limit}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit awscc_deadline_limit}
 */
 export class DeadlineLimit extends cdktn.TerraformResource {
 
@@ -46,7 +46,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DeadlineLimit resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeadlineLimit to import
-  * @param importFromId The id of the existing DeadlineLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeadlineLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeadlineLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_limit awscc_deadline_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_limit awscc_deadline_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,7 +69,7 @@ export class DeadlineLimit extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_deadline_limit',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

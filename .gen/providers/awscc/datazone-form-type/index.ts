@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DatazoneFormTypeConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of this Amazon DataZone metadata form type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
   */
   readonly description?: string;
   /**
   * The ID of the Amazon DataZone domain in which this metadata form type is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
   * The model of this Amazon DataZone metadata form type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
   */
   readonly model: DatazoneFormTypeModel;
   /**
   * The name of this Amazon DataZone metadata form type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
   */
   readonly name: string;
   /**
   * The ID of the Amazon DataZone project that owns this metadata form type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
   */
   readonly owningProjectIdentifier: string;
   /**
   * The status of this Amazon DataZone metadata form type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
   */
   readonly status?: string;
 }
 export interface DatazoneFormTypeModel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#smithy DatazoneFormType#smithy}
   */
   readonly smithy?: string;
 }
@@ -140,7 +140,7 @@ export class DatazoneFormTypeModelOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type awscc_datazone_form_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type awscc_datazone_form_type}
 */
 export class DatazoneFormType extends cdktn.TerraformResource {
 
@@ -156,7 +156,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneFormType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneFormType to import
-  * @param importFromId The id of the existing DatazoneFormType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneFormType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneFormType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -168,7 +168,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_form_type awscc_datazone_form_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_form_type awscc_datazone_form_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,7 +179,7 @@ export class DatazoneFormType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_form_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

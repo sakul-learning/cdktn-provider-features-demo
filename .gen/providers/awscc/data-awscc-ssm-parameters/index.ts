@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ssm_parameters
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ssm_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccSsmParametersConfig extends cdktn.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}
 */
 export class DataAwsccSsmParameters extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccSsmParameters extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccSsmParameters resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSsmParameters to import
-  * @param importFromId The id of the existing DataAwsccSsmParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ssm_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSsmParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ssm_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSsmParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccSsmParameters extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccSsmParameters extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_ssm_parameters',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

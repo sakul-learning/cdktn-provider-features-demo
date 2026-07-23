@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ApsAnomalyDetectorConfig extends cdktn.TerraformMetaArguments {
   /**
   * The AnomalyDetector alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#alias ApsAnomalyDetector#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#alias ApsAnomalyDetector#alias}
   */
   readonly alias: string;
   /**
   * Determines the anomaly detector's algorithm and its configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#configuration ApsAnomalyDetector#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#configuration ApsAnomalyDetector#configuration}
   */
   readonly configuration: ApsAnomalyDetectorConfiguration;
   /**
   * The AnomalyDetector period of detection and metric generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#evaluation_interval_in_seconds ApsAnomalyDetector#evaluation_interval_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#evaluation_interval_in_seconds ApsAnomalyDetector#evaluation_interval_in_seconds}
   */
   readonly evaluationIntervalInSeconds?: number;
   /**
   * An array of key-value pairs to provide meta-data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#labels ApsAnomalyDetector#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#labels ApsAnomalyDetector#labels}
   */
   readonly labels?: ApsAnomalyDetectorLabels[] | cdktn.IResolvable;
   /**
   * The action to perform when running the expression returns no data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#missing_data_action ApsAnomalyDetector#missing_data_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#missing_data_action ApsAnomalyDetector#missing_data_action}
   */
   readonly missingDataAction?: ApsAnomalyDetectorMissingDataAction;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#tags ApsAnomalyDetector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#tags ApsAnomalyDetector#tags}
   */
   readonly tags?: ApsAnomalyDetectorTags[] | cdktn.IResolvable;
   /**
   * Required to identify a specific APS Workspace associated with this Anomaly Detector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#workspace ApsAnomalyDetector#workspace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#workspace ApsAnomalyDetector#workspace}
   */
   readonly workspace: string;
 }
 export interface ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#amount ApsAnomalyDetector#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#amount ApsAnomalyDetector#amount}
   */
   readonly amount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#ratio ApsAnomalyDetector#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#ratio ApsAnomalyDetector#ratio}
   */
   readonly ratio?: number;
 }
@@ -179,11 +179,11 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFro
 }
 export interface ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromBelow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#amount ApsAnomalyDetector#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#amount ApsAnomalyDetector#amount}
   */
   readonly amount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#ratio ApsAnomalyDetector#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#ratio ApsAnomalyDetector#ratio}
   */
   readonly ratio?: number;
 }
@@ -306,23 +306,23 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFro
 }
 export interface ApsAnomalyDetectorConfigurationRandomCutForest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#ignore_near_expected_from_above ApsAnomalyDetector#ignore_near_expected_from_above}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#ignore_near_expected_from_above ApsAnomalyDetector#ignore_near_expected_from_above}
   */
   readonly ignoreNearExpectedFromAbove?: ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#ignore_near_expected_from_below ApsAnomalyDetector#ignore_near_expected_from_below}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#ignore_near_expected_from_below ApsAnomalyDetector#ignore_near_expected_from_below}
   */
   readonly ignoreNearExpectedFromBelow?: ApsAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromBelow;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#query ApsAnomalyDetector#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#query ApsAnomalyDetector#query}
   */
   readonly query: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#sample_size ApsAnomalyDetector#sample_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#sample_size ApsAnomalyDetector#sample_size}
   */
   readonly sampleSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#shingle_size ApsAnomalyDetector#shingle_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#shingle_size ApsAnomalyDetector#shingle_size}
   */
   readonly shingleSize?: number;
 }
@@ -529,7 +529,7 @@ export class ApsAnomalyDetectorConfigurationRandomCutForestOutputReference exten
 }
 export interface ApsAnomalyDetectorConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#random_cut_forest ApsAnomalyDetector#random_cut_forest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#random_cut_forest ApsAnomalyDetector#random_cut_forest}
   */
   readonly randomCutForest: ApsAnomalyDetectorConfigurationRandomCutForest;
 }
@@ -622,13 +622,13 @@ export interface ApsAnomalyDetectorLabels {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#key ApsAnomalyDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#key ApsAnomalyDetector#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#value ApsAnomalyDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#value ApsAnomalyDetector#value}
   */
   readonly value?: string;
 }
@@ -773,11 +773,11 @@ export class ApsAnomalyDetectorLabelsList extends cdktn.ComplexList {
 }
 export interface ApsAnomalyDetectorMissingDataAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#mark_as_anomaly ApsAnomalyDetector#mark_as_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#mark_as_anomaly ApsAnomalyDetector#mark_as_anomaly}
   */
   readonly markAsAnomaly?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#skip ApsAnomalyDetector#skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#skip ApsAnomalyDetector#skip}
   */
   readonly skip?: boolean | cdktn.IResolvable;
 }
@@ -902,13 +902,13 @@ export interface ApsAnomalyDetectorTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#key ApsAnomalyDetector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#key ApsAnomalyDetector#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#value ApsAnomalyDetector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#value ApsAnomalyDetector#value}
   */
   readonly value?: string;
 }
@@ -1053,7 +1053,7 @@ export class ApsAnomalyDetectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector}
 */
 export class ApsAnomalyDetector extends cdktn.TerraformResource {
 
@@ -1069,7 +1069,7 @@ export class ApsAnomalyDetector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApsAnomalyDetector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApsAnomalyDetector to import
-  * @param importFromId The id of the existing ApsAnomalyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApsAnomalyDetector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApsAnomalyDetector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1081,7 +1081,7 @@ export class ApsAnomalyDetector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1092,7 +1092,7 @@ export class ApsAnomalyDetector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_aps_anomaly_detector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

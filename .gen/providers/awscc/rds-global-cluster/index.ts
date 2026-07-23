@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface RdsGlobalClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * The deletion protection setting for the new global database. The global database can't be deleted when deletion protection is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#deletion_protection RdsGlobalCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#deletion_protection RdsGlobalCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * The name of the database engine to be used for this DB cluster. Valid Values: aurora (for MySQL 5.6-compatible Aurora), aurora-mysql (for MySQL 5.7-compatible Aurora).
   * If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#engine RdsGlobalCluster#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#engine RdsGlobalCluster#engine}
   */
   readonly engine?: string;
   /**
   * The life cycle type of the global cluster. You can use this setting to enroll your global cluster into Amazon RDS Extended Support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#engine_lifecycle_support RdsGlobalCluster#engine_lifecycle_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#engine_lifecycle_support RdsGlobalCluster#engine_lifecycle_support}
   */
   readonly engineLifecycleSupport?: string;
   /**
   * The version number of the database engine to use. If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#engine_version RdsGlobalCluster#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#engine_version RdsGlobalCluster#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * The cluster identifier of the new global database cluster. This parameter is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#global_cluster_identifier RdsGlobalCluster#global_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#global_cluster_identifier RdsGlobalCluster#global_cluster_identifier}
   */
   readonly globalClusterIdentifier?: string;
   /**
   * The Amazon Resource Name (ARN) to use as the primary cluster of the global database. This parameter is optional. This parameter is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#source_db_cluster_identifier RdsGlobalCluster#source_db_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#source_db_cluster_identifier RdsGlobalCluster#source_db_cluster_identifier}
   */
   readonly sourceDbClusterIdentifier?: string;
   /**
   *  The storage encryption setting for the new global database cluster.
   * If you specify the SourceDBClusterIdentifier property, don't specify this property. The value is inherited from the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#storage_encrypted RdsGlobalCluster#storage_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#storage_encrypted RdsGlobalCluster#storage_encrypted}
   */
   readonly storageEncrypted?: boolean | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#tags RdsGlobalCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#tags RdsGlobalCluster#tags}
   */
   readonly tags?: RdsGlobalClusterTags[] | cdktn.IResolvable;
 }
@@ -116,13 +116,13 @@ export interface RdsGlobalClusterTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#key RdsGlobalCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#key RdsGlobalCluster#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#value RdsGlobalCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#value RdsGlobalCluster#value}
   */
   readonly value?: string;
 }
@@ -267,7 +267,7 @@ export class RdsGlobalClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster awscc_rds_global_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster awscc_rds_global_cluster}
 */
 export class RdsGlobalCluster extends cdktn.TerraformResource {
 
@@ -283,7 +283,7 @@ export class RdsGlobalCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RdsGlobalCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsGlobalCluster to import
-  * @param importFromId The id of the existing RdsGlobalCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsGlobalCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsGlobalCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -295,7 +295,7 @@ export class RdsGlobalCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rds_global_cluster awscc_rds_global_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rds_global_cluster awscc_rds_global_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,7 +306,7 @@ export class RdsGlobalCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rds_global_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

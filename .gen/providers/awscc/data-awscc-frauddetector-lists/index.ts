@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/frauddetector_lists
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/frauddetector_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccFrauddetectorListsConfig extends cdktn.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/frauddetector_lists awscc_frauddetector_lists}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/frauddetector_lists awscc_frauddetector_lists}
 */
 export class DataAwsccFrauddetectorLists extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccFrauddetectorLists extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccFrauddetectorLists resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccFrauddetectorLists to import
-  * @param importFromId The id of the existing DataAwsccFrauddetectorLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/frauddetector_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccFrauddetectorLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/frauddetector_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccFrauddetectorLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccFrauddetectorLists extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/frauddetector_lists awscc_frauddetector_lists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/frauddetector_lists awscc_frauddetector_lists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccFrauddetectorLists extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_frauddetector_lists',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

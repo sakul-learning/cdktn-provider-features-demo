@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspaceswebIpAccessSettingsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#additional_encryption_context WorkspaceswebIpAccessSettings#additional_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#additional_encryption_context WorkspaceswebIpAccessSettings#additional_encryption_context}
   */
   readonly additionalEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#customer_managed_key WorkspaceswebIpAccessSettings#customer_managed_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#customer_managed_key WorkspaceswebIpAccessSettings#customer_managed_key}
   */
   readonly customerManagedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#description WorkspaceswebIpAccessSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#description WorkspaceswebIpAccessSettings#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#display_name WorkspaceswebIpAccessSettings#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#display_name WorkspaceswebIpAccessSettings#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#ip_rules WorkspaceswebIpAccessSettings#ip_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#ip_rules WorkspaceswebIpAccessSettings#ip_rules}
   */
   readonly ipRules: WorkspaceswebIpAccessSettingsIpRules[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#tags WorkspaceswebIpAccessSettings#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#tags WorkspaceswebIpAccessSettings#tags}
   */
   readonly tags?: WorkspaceswebIpAccessSettingsTags[] | cdktn.IResolvable;
 }
 export interface WorkspaceswebIpAccessSettingsIpRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#description WorkspaceswebIpAccessSettings#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#description WorkspaceswebIpAccessSettings#description}
   */
   readonly description?: string;
   /**
   * A single IP address or an IP address range in CIDR notation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#ip_range WorkspaceswebIpAccessSettings#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#ip_range WorkspaceswebIpAccessSettings#ip_range}
   */
   readonly ipRange: string;
 }
@@ -182,11 +182,11 @@ export class WorkspaceswebIpAccessSettingsIpRulesList extends cdktn.ComplexList 
 }
 export interface WorkspaceswebIpAccessSettingsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#key WorkspaceswebIpAccessSettings#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#key WorkspaceswebIpAccessSettings#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#value WorkspaceswebIpAccessSettings#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#value WorkspaceswebIpAccessSettings#value}
   */
   readonly value?: string;
 }
@@ -331,7 +331,7 @@ export class WorkspaceswebIpAccessSettingsTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings awscc_workspacesweb_ip_access_settings}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings awscc_workspacesweb_ip_access_settings}
 */
 export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
 
@@ -347,7 +347,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspaceswebIpAccessSettings resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceswebIpAccessSettings to import
-  * @param importFromId The id of the existing WorkspaceswebIpAccessSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceswebIpAccessSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceswebIpAccessSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -359,7 +359,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesweb_ip_access_settings awscc_workspacesweb_ip_access_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesweb_ip_access_settings awscc_workspacesweb_ip_access_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,7 +370,7 @@ export class WorkspaceswebIpAccessSettings extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_workspacesweb_ip_access_settings',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

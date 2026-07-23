@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ssmcontacts_rotation
+// https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ssmcontacts_rotation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsSsmcontactsRotationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ssmcontacts_rotation#arn DataAwsSsmcontactsRotation#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ssmcontacts_rotation#arn DataAwsSsmcontactsRotation#arn}
   */
   readonly arn: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ssmcontacts_rotation#region DataAwsSsmcontactsRotation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ssmcontacts_rotation#region DataAwsSsmcontactsRotation#region}
   */
   readonly region?: string;
 }
@@ -849,7 +849,7 @@ export class DataAwsSsmcontactsRotationRecurrenceList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation}
 */
 export class DataAwsSsmcontactsRotation extends cdktn.TerraformDataSource {
 
@@ -865,7 +865,7 @@ export class DataAwsSsmcontactsRotation extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsSsmcontactsRotation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsSsmcontactsRotation to import
-  * @param importFromId The id of the existing DataAwsSsmcontactsRotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ssmcontacts_rotation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsSsmcontactsRotation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ssmcontacts_rotation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsSsmcontactsRotation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -877,7 +877,7 @@ export class DataAwsSsmcontactsRotation extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ssmcontacts_rotation aws_ssmcontacts_rotation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -888,7 +888,7 @@ export class DataAwsSsmcontactsRotation extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_ssmcontacts_rotation',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.55.0'
+        providerVersion: '6.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

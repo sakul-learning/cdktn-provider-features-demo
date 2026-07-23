@@ -17,11 +17,12 @@ export class AwsProviderFunctions {
 
   /**
   * Builds an ARN from its constituent parts
-  * @param {string} partition Partition in which the resource is located
-  * @param {string} service Service namespace
-  * @param {string} region Region code
-  * @param {string} accountId AWS account identifier
-  * @param {string} resource Resource section, typically composed of a resource type and identifier
+  * @param {string} partition - Partition in which the resource is located
+  * @param {string} service - Service namespace
+  * @param {string} region - Region code
+  * @param {string} accountId - AWS account identifier
+  * @param {string} resource - Resource section, typically composed of a resource type and identifier
+  * @returns {string}
   */
   public arnBuild(partition: string, service: string, region: string, accountId: string, resource: string): string {
     return cdktn.Token.asString(cdktn.TerraformProviderFunction.invoke(this.providerLocalName, "arn_build", [partition, service, region, accountId, resource]));
@@ -29,7 +30,8 @@ export class AwsProviderFunctions {
 
   /**
   * Parses an ARN into its constituent parts
-  * @param {string} arn ARN (Amazon Resource Name) to parse
+  * @param {string} arn - ARN (Amazon Resource Name) to parse
+  * @returns {object}
   */
   public arnParse(arn: string): cdktn.IResolvable {
     return cdktn.TerraformProviderFunction.invoke(this.providerLocalName, "arn_parse", [arn]);
@@ -37,7 +39,8 @@ export class AwsProviderFunctions {
 
   /**
   * Trims the path prefix from an IAM role Amazon Resource Name (ARN). This function can be used when services require role ARNs to be passed without a path.
-  * @param {string} arn IAM role Amazon Resource Name (ARN)
+  * @param {string} arn - IAM role Amazon Resource Name (ARN)
+  * @returns {string}
   */
   public trimIamRolePath(arn: string): string {
     return cdktn.Token.asString(cdktn.TerraformProviderFunction.invoke(this.providerLocalName, "trim_iam_role_path", [arn]));
@@ -45,9 +48,10 @@ export class AwsProviderFunctions {
 
   /**
   * Formats a User-Agent product for use with the user_agent argument in the provider or provider_meta block.
-  * @param {string} productName Product name.
-  * @param {string} productVersion Product version.
-  * @param {string} comment Comment describing any additional product details.
+  * @param {string} productName - Product name.
+  * @param {string} productVersion - Product version.
+  * @param {string} comment - Comment describing any additional product details.
+  * @returns {string}
   */
   public userAgent(productName: string, productVersion: string, comment: string): string {
     return cdktn.Token.asString(cdktn.TerraformProviderFunction.invoke(this.providerLocalName, "user_agent", [productName, productVersion, comment]));

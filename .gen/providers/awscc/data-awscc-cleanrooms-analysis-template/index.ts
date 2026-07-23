@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cleanrooms_analysis_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cleanrooms_analysis_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccCleanroomsAnalysisTemplateConfig extends cdktn.Terrafo
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cleanrooms_analysis_template#id DataAwsccCleanroomsAnalysisTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cleanrooms_analysis_template#id DataAwsccCleanroomsAnalysisTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1172,7 +1172,7 @@ export class DataAwsccCleanroomsAnalysisTemplateTagsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template}
 */
 export class DataAwsccCleanroomsAnalysisTemplate extends cdktn.TerraformDataSource {
 
@@ -1188,7 +1188,7 @@ export class DataAwsccCleanroomsAnalysisTemplate extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccCleanroomsAnalysisTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCleanroomsAnalysisTemplate to import
-  * @param importFromId The id of the existing DataAwsccCleanroomsAnalysisTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cleanrooms_analysis_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCleanroomsAnalysisTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cleanrooms_analysis_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCleanroomsAnalysisTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1200,7 +1200,7 @@ export class DataAwsccCleanroomsAnalysisTemplate extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1211,7 +1211,7 @@ export class DataAwsccCleanroomsAnalysisTemplate extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_cleanrooms_analysis_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elementalinference_feeds
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/elementalinference_feeds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccElementalinferenceFeedsConfig extends cdktn.TerraformM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elementalinference_feeds awscc_elementalinference_feeds}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/elementalinference_feeds awscc_elementalinference_feeds}
 */
 export class DataAwsccElementalinferenceFeeds extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccElementalinferenceFeeds extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccElementalinferenceFeeds resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccElementalinferenceFeeds to import
-  * @param importFromId The id of the existing DataAwsccElementalinferenceFeeds that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elementalinference_feeds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccElementalinferenceFeeds that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/elementalinference_feeds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccElementalinferenceFeeds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccElementalinferenceFeeds extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elementalinference_feeds awscc_elementalinference_feeds} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/elementalinference_feeds awscc_elementalinference_feeds} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccElementalinferenceFeeds extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_elementalinference_feeds',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

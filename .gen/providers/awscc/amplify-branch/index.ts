@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,73 +8,73 @@ import * as cdktn from 'cdktn';
 
 export interface AmplifyBranchConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#app_id AmplifyBranch#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#backend AmplifyBranch#backend}
   */
   readonly backend?: AmplifyBranchBackend;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#basic_auth_config AmplifyBranch#basic_auth_config}
   */
   readonly basicAuthConfig?: AmplifyBranchBasicAuthConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#branch_name AmplifyBranch#branch_name}
   */
   readonly branchName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#build_spec AmplifyBranch#build_spec}
   */
   readonly buildSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#compute_role_arn AmplifyBranch#compute_role_arn}
   */
   readonly computeRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#description AmplifyBranch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#description AmplifyBranch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#enable_auto_build AmplifyBranch#enable_auto_build}
   */
   readonly enableAutoBuild?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#enable_performance_mode AmplifyBranch#enable_performance_mode}
   */
   readonly enablePerformanceMode?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#enable_pull_request_preview AmplifyBranch#enable_pull_request_preview}
   */
   readonly enablePullRequestPreview?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#enable_skew_protection AmplifyBranch#enable_skew_protection}
   */
   readonly enableSkewProtection?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#environment_variables AmplifyBranch#environment_variables}
   */
   readonly environmentVariables?: AmplifyBranchEnvironmentVariables[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#framework AmplifyBranch#framework}
   */
   readonly framework?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#pull_request_environment_name AmplifyBranch#pull_request_environment_name}
   */
   readonly pullRequestEnvironmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#stage AmplifyBranch#stage}
   */
   readonly stage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#tags AmplifyBranch#tags}
   */
   readonly tags?: AmplifyBranchTags[] | cdktn.IResolvable;
 }
 export interface AmplifyBranchBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#stack_arn AmplifyBranch#stack_arn}
   */
   readonly stackArn?: string;
 }
@@ -168,15 +168,15 @@ export class AmplifyBranchBackendOutputReference extends cdktn.ComplexObject {
 }
 export interface AmplifyBranchBasicAuthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#enable_basic_auth AmplifyBranch#enable_basic_auth}
   */
   readonly enableBasicAuth?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#password AmplifyBranch#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#password AmplifyBranch#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#username AmplifyBranch#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#username AmplifyBranch#username}
   */
   readonly username?: string;
 }
@@ -328,11 +328,11 @@ export class AmplifyBranchBasicAuthConfigOutputReference extends cdktn.ComplexOb
 }
 export interface AmplifyBranchEnvironmentVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#name AmplifyBranch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#name AmplifyBranch#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#value AmplifyBranch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#value AmplifyBranch#value}
   */
   readonly value?: string;
 }
@@ -477,11 +477,11 @@ export class AmplifyBranchEnvironmentVariablesList extends cdktn.ComplexList {
 }
 export interface AmplifyBranchTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#key AmplifyBranch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#key AmplifyBranch#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#value AmplifyBranch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#value AmplifyBranch#value}
   */
   readonly value?: string;
 }
@@ -626,7 +626,7 @@ export class AmplifyBranchTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch awscc_amplify_branch}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch awscc_amplify_branch}
 */
 export class AmplifyBranch extends cdktn.TerraformResource {
 
@@ -642,7 +642,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AmplifyBranch resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmplifyBranch to import
-  * @param importFromId The id of the existing AmplifyBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmplifyBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmplifyBranch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -654,7 +654,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/amplify_branch awscc_amplify_branch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/amplify_branch awscc_amplify_branch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -665,7 +665,7 @@ export class AmplifyBranch extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_amplify_branch',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

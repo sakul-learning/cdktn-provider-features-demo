@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,14 +11,14 @@ export interface Ec2KeyPairConfig extends cdktn.TerraformMetaArguments {
   * The format of the key pair.
   *  Default: ``pem``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#key_format Ec2KeyPair#key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#key_format Ec2KeyPair#key_format}
   */
   readonly keyFormat?: string;
   /**
   * A unique name for the key pair.
   *  Constraints: Up to 255 ASCII characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#key_name Ec2KeyPair#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#key_name Ec2KeyPair#key_name}
   */
   readonly keyName: string;
   /**
@@ -26,19 +26,19 @@ export interface Ec2KeyPairConfig extends cdktn.TerraformMetaArguments {
   *  If the ``PublicKeyMaterial`` property is specified, the ``KeyType`` property is ignored, and the key type is inferred from the ``PublicKeyMaterial`` value.
   *  Default: ``rsa``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#key_type Ec2KeyPair#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#key_type Ec2KeyPair#key_type}
   */
   readonly keyType?: string;
   /**
   * The public key material. The ``PublicKeyMaterial`` property is used to import a key pair. If this property is not specified, then a new key pair will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#public_key_material Ec2KeyPair#public_key_material}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#public_key_material Ec2KeyPair#public_key_material}
   */
   readonly publicKeyMaterial?: string;
   /**
   * The tags to apply to the key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#tags Ec2KeyPair#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#tags Ec2KeyPair#tags}
   */
   readonly tags?: Ec2KeyPairTags[] | cdktn.IResolvable;
 }
@@ -46,13 +46,13 @@ export interface Ec2KeyPairTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#key Ec2KeyPair#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#key Ec2KeyPair#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#value Ec2KeyPair#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#value Ec2KeyPair#value}
   */
   readonly value?: string;
 }
@@ -197,7 +197,7 @@ export class Ec2KeyPairTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair awscc_ec2_key_pair}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair awscc_ec2_key_pair}
 */
 export class Ec2KeyPair extends cdktn.TerraformResource {
 
@@ -213,7 +213,7 @@ export class Ec2KeyPair extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2KeyPair resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2KeyPair to import
-  * @param importFromId The id of the existing Ec2KeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2KeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2KeyPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -225,7 +225,7 @@ export class Ec2KeyPair extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_key_pair awscc_ec2_key_pair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_key_pair awscc_ec2_key_pair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,7 +236,7 @@ export class Ec2KeyPair extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

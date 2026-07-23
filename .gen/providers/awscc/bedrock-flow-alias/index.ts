@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface BedrockFlowAliasConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}
   */
   readonly concurrencyConfiguration?: BedrockFlowAliasConcurrencyConfiguration;
   /**
   * Description of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#description BedrockFlowAlias#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#description BedrockFlowAlias#description}
   */
   readonly description?: string;
   /**
   * Arn representation of the Flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#flow_arn BedrockFlowAlias#flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#flow_arn BedrockFlowAlias#flow_arn}
   */
   readonly flowArn: string;
   /**
   * Name for a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#name BedrockFlowAlias#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#name BedrockFlowAlias#name}
   */
   readonly name: string;
   /**
   * Routing configuration for a Flow alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#routing_configuration BedrockFlowAlias#routing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#routing_configuration BedrockFlowAlias#routing_configuration}
   */
   readonly routingConfiguration: BedrockFlowAliasRoutingConfiguration[] | cdktn.IResolvable;
   /**
   * A map of tag keys and values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#tags BedrockFlowAlias#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#tags BedrockFlowAlias#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -46,11 +46,11 @@ export interface BedrockFlowAliasConcurrencyConfiguration {
   /**
   * Number of nodes executed concurrently at a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#max_concurrency BedrockFlowAlias#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#max_concurrency BedrockFlowAlias#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#type BedrockFlowAlias#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#type BedrockFlowAlias#type}
   */
   readonly type?: string;
 }
@@ -175,7 +175,7 @@ export interface BedrockFlowAliasRoutingConfiguration {
   /**
   * Version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#flow_version BedrockFlowAlias#flow_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#flow_version BedrockFlowAlias#flow_version}
   */
   readonly flowVersion?: string;
 }
@@ -291,7 +291,7 @@ export class BedrockFlowAliasRoutingConfigurationList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias awscc_bedrock_flow_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias awscc_bedrock_flow_alias}
 */
 export class BedrockFlowAlias extends cdktn.TerraformResource {
 
@@ -307,7 +307,7 @@ export class BedrockFlowAlias extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockFlowAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockFlowAlias to import
-  * @param importFromId The id of the existing BedrockFlowAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockFlowAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockFlowAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -319,7 +319,7 @@ export class BedrockFlowAlias extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_flow_alias awscc_bedrock_flow_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_flow_alias awscc_bedrock_flow_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,7 +330,7 @@ export class BedrockFlowAlias extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_flow_alias',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

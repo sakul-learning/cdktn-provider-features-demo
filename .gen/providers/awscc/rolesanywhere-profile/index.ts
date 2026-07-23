@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,49 @@ import * as cdktn from 'cdktn';
 
 export interface RolesanywhereProfileConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#accept_role_session_name RolesanywhereProfile#accept_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#accept_role_session_name RolesanywhereProfile#accept_role_session_name}
   */
   readonly acceptRoleSessionName?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#attribute_mappings RolesanywhereProfile#attribute_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#attribute_mappings RolesanywhereProfile#attribute_mappings}
   */
   readonly attributeMappings?: RolesanywhereProfileAttributeMappings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#duration_seconds RolesanywhereProfile#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#duration_seconds RolesanywhereProfile#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#enabled RolesanywhereProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#enabled RolesanywhereProfile#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#managed_policy_arns RolesanywhereProfile#managed_policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#managed_policy_arns RolesanywhereProfile#managed_policy_arns}
   */
   readonly managedPolicyArns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#name RolesanywhereProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#name RolesanywhereProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#require_instance_properties RolesanywhereProfile#require_instance_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#require_instance_properties RolesanywhereProfile#require_instance_properties}
   */
   readonly requireInstanceProperties?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#role_arns RolesanywhereProfile#role_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#role_arns RolesanywhereProfile#role_arns}
   */
   readonly roleArns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#session_policy RolesanywhereProfile#session_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#session_policy RolesanywhereProfile#session_policy}
   */
   readonly sessionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#tags RolesanywhereProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#tags RolesanywhereProfile#tags}
   */
   readonly tags?: RolesanywhereProfileTags[] | cdktn.IResolvable;
 }
 export interface RolesanywhereProfileAttributeMappingsMappingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#specifier RolesanywhereProfile#specifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#specifier RolesanywhereProfile#specifier}
   */
   readonly specifier?: string;
 }
@@ -166,11 +166,11 @@ export class RolesanywhereProfileAttributeMappingsMappingRulesList extends cdktn
 }
 export interface RolesanywhereProfileAttributeMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#certificate_field RolesanywhereProfile#certificate_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#certificate_field RolesanywhereProfile#certificate_field}
   */
   readonly certificateField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#mapping_rules RolesanywhereProfile#mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#mapping_rules RolesanywhereProfile#mapping_rules}
   */
   readonly mappingRules?: RolesanywhereProfileAttributeMappingsMappingRules[] | cdktn.IResolvable;
 }
@@ -315,11 +315,11 @@ export class RolesanywhereProfileAttributeMappingsList extends cdktn.ComplexList
 }
 export interface RolesanywhereProfileTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#key RolesanywhereProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#key RolesanywhereProfile#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#value RolesanywhereProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#value RolesanywhereProfile#value}
   */
   readonly value?: string;
 }
@@ -464,7 +464,7 @@ export class RolesanywhereProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile}
 */
 export class RolesanywhereProfile extends cdktn.TerraformResource {
 
@@ -480,7 +480,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RolesanywhereProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RolesanywhereProfile to import
-  * @param importFromId The id of the existing RolesanywhereProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RolesanywhereProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RolesanywhereProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -492,7 +492,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -503,7 +503,7 @@ export class RolesanywhereProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_rolesanywhere_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

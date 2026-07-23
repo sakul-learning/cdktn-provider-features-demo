@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrockagentcore_browser_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrockagentcore_browser_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface BedrockagentcoreBrowserProfileConfig extends cdktn.TerraformMet
   /**
   * The description of the browser profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrockagentcore_browser_profile#description BedrockagentcoreBrowserProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrockagentcore_browser_profile#description BedrockagentcoreBrowserProfile#description}
   */
   readonly description?: string;
   /**
   * The name of the browser profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrockagentcore_browser_profile#name BedrockagentcoreBrowserProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrockagentcore_browser_profile#name BedrockagentcoreBrowserProfile#name}
   */
   readonly name: string;
   /**
   * A map of tag keys and values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrockagentcore_browser_profile#tags BedrockagentcoreBrowserProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrockagentcore_browser_profile#tags BedrockagentcoreBrowserProfile#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile}
 */
 export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentcoreBrowserProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentcoreBrowserProfile to import
-  * @param importFromId The id of the existing BedrockagentcoreBrowserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrockagentcore_browser_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentcoreBrowserProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrockagentcore_browser_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentcoreBrowserProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class BedrockagentcoreBrowserProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrockagentcore_browser_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

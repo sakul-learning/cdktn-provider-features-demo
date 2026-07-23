@@ -1,3 +1,3 @@
 # `data_awscc_eks_capability`
 
-Refer to the Terraform Registry for docs: [`data_awscc_eks_capability`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/eks_capability).
+Refer to the Terraform Registry for docs: [`data_awscc_eks_capability`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/eks_capability).

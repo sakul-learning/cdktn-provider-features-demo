@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktn from 'cdktn';
 
 export interface EvidentlyFeatureConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#default_variation EvidentlyFeature#default_variation}
   */
   readonly defaultVariation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#description EvidentlyFeature#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#description EvidentlyFeature#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#entity_overrides EvidentlyFeature#entity_overrides}
   */
   readonly entityOverrides?: EvidentlyFeatureEntityOverrides[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#evaluation_strategy EvidentlyFeature#evaluation_strategy}
   */
   readonly evaluationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#name EvidentlyFeature#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#name EvidentlyFeature#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#project EvidentlyFeature#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#project EvidentlyFeature#project}
   */
   readonly project: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#tags EvidentlyFeature#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#tags EvidentlyFeature#tags}
   */
   readonly tags?: EvidentlyFeatureTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#variations EvidentlyFeature#variations}
   */
   readonly variations: EvidentlyFeatureVariations[] | cdktn.IResolvable;
 }
 export interface EvidentlyFeatureEntityOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#entity_id EvidentlyFeature#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#entity_id EvidentlyFeature#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#variation EvidentlyFeature#variation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#variation EvidentlyFeature#variation}
   */
   readonly variation?: string;
 }
@@ -195,13 +195,13 @@ export interface EvidentlyFeatureTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#key EvidentlyFeature#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#key EvidentlyFeature#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#value EvidentlyFeature#value}
   */
   readonly value?: string;
 }
@@ -346,23 +346,23 @@ export class EvidentlyFeatureTagsList extends cdktn.ComplexList {
 }
 export interface EvidentlyFeatureVariations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#boolean_value EvidentlyFeature#boolean_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#boolean_value EvidentlyFeature#boolean_value}
   */
   readonly booleanValue?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#double_value EvidentlyFeature#double_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#double_value EvidentlyFeature#double_value}
   */
   readonly doubleValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#long_value EvidentlyFeature#long_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#long_value EvidentlyFeature#long_value}
   */
   readonly longValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#string_value EvidentlyFeature#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#string_value EvidentlyFeature#string_value}
   */
   readonly stringValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#variation_name EvidentlyFeature#variation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#variation_name EvidentlyFeature#variation_name}
   */
   readonly variationName?: string;
 }
@@ -594,7 +594,7 @@ export class EvidentlyFeatureVariationsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature awscc_evidently_feature}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature awscc_evidently_feature}
 */
 export class EvidentlyFeature extends cdktn.TerraformResource {
 
@@ -610,7 +610,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EvidentlyFeature resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvidentlyFeature to import
-  * @param importFromId The id of the existing EvidentlyFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvidentlyFeature that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvidentlyFeature to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -622,7 +622,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evidently_feature awscc_evidently_feature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evidently_feature awscc_evidently_feature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -633,7 +633,7 @@ export class EvidentlyFeature extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_evidently_feature',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

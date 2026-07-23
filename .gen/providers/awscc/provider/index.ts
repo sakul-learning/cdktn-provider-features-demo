@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,121 +10,121 @@ export interface AwsccProviderConfig {
   /**
   * This is the AWS access key. It must be provided, but it can also be sourced from the `AWS_ACCESS_KEY_ID` environment variable, or via a shared credentials file if `profile` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#access_key AwsccProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#access_key AwsccProvider#access_key}
   */
   readonly accessKey?: string;
   /**
   * An `assume_role` block (documented below). Only one `assume_role` block may be in the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#assume_role AwsccProvider#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#assume_role AwsccProvider#assume_role}
   */
   readonly assumeRole?: AwsccProviderAssumeRole;
   /**
   * An `assume_role_with_web_identity` block (documented below). Only one `assume_role_with_web_identity` block may be in the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#assume_role_with_web_identity AwsccProvider#assume_role_with_web_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#assume_role_with_web_identity AwsccProvider#assume_role_with_web_identity}
   */
   readonly assumeRoleWithWebIdentity?: AwsccProviderAssumeRoleWithWebIdentity;
   /**
   * An `endpoints` block (documented below). Only one `endpoints` block may be in the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#endpoints AwsccProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#endpoints AwsccProvider#endpoints}
   */
   readonly endpoints?: AwsccProviderEndpoints;
   /**
   * URL of a proxy to use for HTTP requests when accessing the AWS API. Can also be set using the `HTTP_PROXY` or `http_proxy` environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#http_proxy AwsccProvider#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#http_proxy AwsccProvider#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * URL of a proxy to use for HTTPS requests when accessing the AWS API. Can also be set using the `HTTPS_PROXY` or `https_proxy` environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#https_proxy AwsccProvider#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#https_proxy AwsccProvider#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * Explicitly allow the provider to perform "insecure" SSL requests. If not set, defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#insecure AwsccProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#insecure AwsccProvider#insecure}
   */
   readonly insecure?: boolean | cdktn.IResolvable;
   /**
   * The maximum number of times an AWS API request is retried on failure. If not set, defaults to 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#max_retries AwsccProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#max_retries AwsccProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Comma-separated list of hosts that should not use HTTP or HTTPS proxies. Can also be set using the `NO_PROXY` or `no_proxy` environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#no_proxy AwsccProvider#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#no_proxy AwsccProvider#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * This is the AWS profile name as set in the shared credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#profile AwsccProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#profile AwsccProvider#profile}
   */
   readonly profile?: string;
   /**
   * This is the AWS region. It must be provided, but it can also be sourced from the `AWS_DEFAULT_REGION` environment variables, via a shared config file, or from the EC2 Instance Metadata Service if used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#region AwsccProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#region AwsccProvider#region}
   */
   readonly region?: string;
   /**
   * Amazon Resource Name of the AWS CloudFormation service role that is used on your behalf to perform operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#role_arn AwsccProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#role_arn AwsccProvider#role_arn}
   */
   readonly roleArn?: string;
   /**
   * This is the AWS secret key. It must be provided, but it can also be sourced from the `AWS_SECRET_ACCESS_KEY` environment variable, or via a shared credentials file if `profile` is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#secret_key AwsccProvider#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#secret_key AwsccProvider#secret_key}
   */
   readonly secretKey?: string;
   /**
   * List of paths to shared config files. If not set, defaults to `~/.aws/config`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#shared_config_files AwsccProvider#shared_config_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#shared_config_files AwsccProvider#shared_config_files}
   */
   readonly sharedConfigFiles?: string[];
   /**
   * List of paths to shared credentials files. If not set, defaults to `~/.aws/credentials`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#shared_credentials_files AwsccProvider#shared_credentials_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#shared_credentials_files AwsccProvider#shared_credentials_files}
   */
   readonly sharedCredentialsFiles?: string[];
   /**
   * Skip the AWS Metadata API check. Useful for AWS API implementations that do not have a metadata API endpoint.  Setting to `true` prevents Terraform from authenticating via the Metadata API. You may need to use other authentication methods like static credentials, configuration variables, or environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#skip_medatadata_api_check AwsccProvider#skip_medatadata_api_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#skip_medatadata_api_check AwsccProvider#skip_medatadata_api_check}
   */
   readonly skipMedatadataApiCheck?: boolean | cdktn.IResolvable;
   /**
   * Skip the AWS Metadata API check. Useful for AWS API implementations that do not have a metadata API endpoint.  Setting to `true` prevents Terraform from authenticating via the Metadata API. You may need to use other authentication methods like static credentials, configuration variables, or environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#skip_metadata_api_check AwsccProvider#skip_metadata_api_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#skip_metadata_api_check AwsccProvider#skip_metadata_api_check}
   */
   readonly skipMetadataApiCheck?: boolean | cdktn.IResolvable;
   /**
   * Session token for validating temporary credentials. Typically provided after successful identity federation or Multi-Factor Authentication (MFA) login. With MFA login, this is the session token provided afterward, not the 6 digit MFA code used to get temporary credentials.  It can also be sourced from the `AWS_SESSION_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#token AwsccProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#token AwsccProvider#token}
   */
   readonly token?: string;
   /**
   * Product details to append to the User-Agent string sent in all AWS API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#user_agent AwsccProvider#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#user_agent AwsccProvider#user_agent}
   */
   readonly userAgent?: AwsccProviderUserAgent[] | cdktn.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#alias AwsccProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#alias AwsccProvider#alias}
   */
   readonly alias?: string;
 }
@@ -132,49 +132,49 @@ export interface AwsccProviderAssumeRole {
   /**
   * The duration, between 15 minutes and 12 hours, of the role session. Valid time units are ns, us (or µs), ms, s, h, or m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#duration AwsccProvider#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#duration AwsccProvider#duration}
   */
   readonly duration?: string;
   /**
   * External identifier to use when assuming the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#external_id AwsccProvider#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#external_id AwsccProvider#external_id}
   */
   readonly externalId?: string;
   /**
   * IAM policy in JSON format to use as a session policy. The effective permissions for the session will be the intersection between this polcy and the role's policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#policy AwsccProvider#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#policy AwsccProvider#policy}
   */
   readonly policy?: string;
   /**
   * Amazon Resource Names (ARNs) of IAM Policies to use as managed session policies. The effective permissions for the session will be the intersection between these polcy and the role's policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#policy_arns AwsccProvider#policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#policy_arns AwsccProvider#policy_arns}
   */
   readonly policyArns?: string[];
   /**
   * Amazon Resource Name (ARN) of the IAM Role to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#role_arn AwsccProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#role_arn AwsccProvider#role_arn}
   */
   readonly roleArn: string;
   /**
   * Session name to use when assuming the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#session_name AwsccProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#session_name AwsccProvider#session_name}
   */
   readonly sessionName?: string;
   /**
   * Map of assume role session tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#tags AwsccProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#tags AwsccProvider#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Set of assume role session tag keys to pass to any subsequent sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#transitive_tag_keys AwsccProvider#transitive_tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#transitive_tag_keys AwsccProvider#transitive_tag_keys}
   */
   readonly transitiveTagKeys?: string[];
 }
@@ -261,43 +261,43 @@ export interface AwsccProviderAssumeRoleWithWebIdentity {
   /**
   * The duration, between 15 minutes and 12 hours, of the role session. Valid time units are ns, us (or µs), ms, s, h, or m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#duration AwsccProvider#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#duration AwsccProvider#duration}
   */
   readonly duration?: string;
   /**
   * IAM policy in JSON format to use as a session policy. The effective permissions for the session will be the intersection between this polcy and the role's policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#policy AwsccProvider#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#policy AwsccProvider#policy}
   */
   readonly policy?: string;
   /**
   * Amazon Resource Names (ARNs) of IAM Policies to use as managed session policies. The effective permissions for the session will be the intersection between these polcy and the role's policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#policy_arns AwsccProvider#policy_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#policy_arns AwsccProvider#policy_arns}
   */
   readonly policyArns?: string[];
   /**
   * Amazon Resource Name (ARN) of the IAM Role to assume. Can also be set with the environment variable `AWS_ROLE_ARN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#role_arn AwsccProvider#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#role_arn AwsccProvider#role_arn}
   */
   readonly roleArn: string;
   /**
   * Session name to use when assuming the role. Can also be set with the environment variable `AWS_ROLE_SESSION_NAME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#session_name AwsccProvider#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#session_name AwsccProvider#session_name}
   */
   readonly sessionName?: string;
   /**
   * The value of a web identity token from an OpenID Connect (OIDC) or OAuth provider. One of `web_identity_token` or `web_identity_token_file` is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#web_identity_token AwsccProvider#web_identity_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#web_identity_token AwsccProvider#web_identity_token}
   */
   readonly webIdentityToken?: string;
   /**
   * File containing a web identity token from an OpenID Connect (OIDC) or OAuth provider. Can also be set with the  environment variable`AWS_WEB_IDENTITY_TOKEN_FILE`. One of `web_identity_token_file` or `web_identity_token` is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#web_identity_token_file AwsccProvider#web_identity_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#web_identity_token_file AwsccProvider#web_identity_token_file}
   */
   readonly webIdentityTokenFile?: string;
 }
@@ -377,25 +377,25 @@ export interface AwsccProviderEndpoints {
   /**
   * Use this to override the default Cloud Control API service endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#cloudcontrolapi AwsccProvider#cloudcontrolapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#cloudcontrolapi AwsccProvider#cloudcontrolapi}
   */
   readonly cloudcontrolapi?: string;
   /**
   * Use this to override the default IAM service endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#iam AwsccProvider#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#iam AwsccProvider#iam}
   */
   readonly iam?: string;
   /**
   * Use this to override the default SSO service endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#sso AwsccProvider#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#sso AwsccProvider#sso}
   */
   readonly sso?: string;
   /**
   * Use this to override the default STS service endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#sts AwsccProvider#sts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#sts AwsccProvider#sts}
   */
   readonly sts?: string;
 }
@@ -454,19 +454,19 @@ export interface AwsccProviderUserAgent {
   /**
   * Comment describing any additional product details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#comment AwsccProvider#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#comment AwsccProvider#comment}
   */
   readonly comment?: string;
   /**
   * Product name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#product_name AwsccProvider#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#product_name AwsccProvider#product_name}
   */
   readonly productName: string;
   /**
   * Product version. Optional, and should only be set when `product_name` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#product_version AwsccProvider#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#product_version AwsccProvider#product_version}
   */
   readonly productVersion?: string;
 }
@@ -516,7 +516,7 @@ export function awsccProviderUserAgentToHclTerraform(struct?: AwsccProviderUserA
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs awscc}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs awscc}
 */
 export class AwsccProvider extends cdktn.TerraformProvider {
 
@@ -532,7 +532,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   * Generates CDKTN code for importing a AwsccProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsccProvider to import
-  * @param importFromId The id of the existing AwsccProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsccProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsccProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -544,7 +544,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs awscc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs awscc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -555,7 +555,7 @@ export class AwsccProvider extends cdktn.TerraformProvider {
       terraformResourceType: 'awscc',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       terraformProviderSource: 'awscc'
     });

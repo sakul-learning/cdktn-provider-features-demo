@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CassandraKeyspaceConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates whether client-side timestamps are enabled (true) or disabled (false) for all tables in the keyspace. To add a Region to a single-Region keyspace with at least one table, the value must be set to true. After you enabled client-side timestamps for a table, you can?t disable it again.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#client_side_timestamps_enabled CassandraKeyspace#client_side_timestamps_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#client_side_timestamps_enabled CassandraKeyspace#client_side_timestamps_enabled}
   */
   readonly clientSideTimestampsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Name for Cassandra keyspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#keyspace_name CassandraKeyspace#keyspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#keyspace_name CassandraKeyspace#keyspace_name}
   */
   readonly keyspaceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}
   */
   readonly replicationSpecification?: CassandraKeyspaceReplicationSpecification;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}
   */
   readonly tags?: CassandraKeyspaceTags[] | cdktn.IResolvable;
 }
 export interface CassandraKeyspaceReplicationSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#region_list CassandraKeyspace#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#region_list CassandraKeyspace#region_list}
   */
   readonly regionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#replication_strategy CassandraKeyspace#replication_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#replication_strategy CassandraKeyspace#replication_strategy}
   */
   readonly replicationStrategy?: string;
 }
@@ -157,11 +157,11 @@ export class CassandraKeyspaceReplicationSpecificationOutputReference extends cd
 }
 export interface CassandraKeyspaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#key CassandraKeyspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#key CassandraKeyspace#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#value CassandraKeyspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#value CassandraKeyspace#value}
   */
   readonly value?: string;
 }
@@ -306,7 +306,7 @@ export class CassandraKeyspaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace awscc_cassandra_keyspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace awscc_cassandra_keyspace}
 */
 export class CassandraKeyspace extends cdktn.TerraformResource {
 
@@ -322,7 +322,7 @@ export class CassandraKeyspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CassandraKeyspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CassandraKeyspace to import
-  * @param importFromId The id of the existing CassandraKeyspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CassandraKeyspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CassandraKeyspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -334,7 +334,7 @@ export class CassandraKeyspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cassandra_keyspace awscc_cassandra_keyspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cassandra_keyspace awscc_cassandra_keyspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -345,7 +345,7 @@ export class CassandraKeyspace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cassandra_keyspace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

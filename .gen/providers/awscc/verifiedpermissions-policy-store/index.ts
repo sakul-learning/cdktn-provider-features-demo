@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktn from 'cdktn';
 
 export interface VerifiedpermissionsPolicyStoreConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#deletion_protection VerifiedpermissionsPolicyStore#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#deletion_protection VerifiedpermissionsPolicyStore#deletion_protection}
   */
   readonly deletionProtection?: VerifiedpermissionsPolicyStoreDeletionProtection;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#description VerifiedpermissionsPolicyStore#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#description VerifiedpermissionsPolicyStore#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#encryption_settings VerifiedpermissionsPolicyStore#encryption_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#encryption_settings VerifiedpermissionsPolicyStore#encryption_settings}
   */
   readonly encryptionSettings?: VerifiedpermissionsPolicyStoreEncryptionSettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#schema VerifiedpermissionsPolicyStore#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#schema VerifiedpermissionsPolicyStore#schema}
   */
   readonly schema?: VerifiedpermissionsPolicyStoreSchema;
   /**
   * The tags to add to the policy store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#tags VerifiedpermissionsPolicyStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#tags VerifiedpermissionsPolicyStore#tags}
   */
   readonly tags?: VerifiedpermissionsPolicyStoreTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#validation_settings VerifiedpermissionsPolicyStore#validation_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#validation_settings VerifiedpermissionsPolicyStore#validation_settings}
   */
   readonly validationSettings: VerifiedpermissionsPolicyStoreValidationSettings;
 }
 export interface VerifiedpermissionsPolicyStoreDeletionProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#mode VerifiedpermissionsPolicyStore#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#mode VerifiedpermissionsPolicyStore#mode}
   */
   readonly mode?: string;
 }
@@ -130,11 +130,11 @@ export class VerifiedpermissionsPolicyStoreDeletionProtectionOutputReference ext
 }
 export interface VerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#encryption_context VerifiedpermissionsPolicyStore#encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#encryption_context VerifiedpermissionsPolicyStore#encryption_context}
   */
   readonly encryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#key VerifiedpermissionsPolicyStore#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#key VerifiedpermissionsPolicyStore#key}
   */
   readonly key?: string;
 }
@@ -257,11 +257,11 @@ export class VerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettin
 }
 export interface VerifiedpermissionsPolicyStoreEncryptionSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#default VerifiedpermissionsPolicyStore#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#default VerifiedpermissionsPolicyStore#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#kms_encryption_settings VerifiedpermissionsPolicyStore#kms_encryption_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#kms_encryption_settings VerifiedpermissionsPolicyStore#kms_encryption_settings}
   */
   readonly kmsEncryptionSettings?: VerifiedpermissionsPolicyStoreEncryptionSettingsKmsEncryptionSettings;
 }
@@ -504,7 +504,7 @@ export class VerifiedpermissionsPolicyStoreEncryptionStateOutputReference extend
 }
 export interface VerifiedpermissionsPolicyStoreSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#cedar_json VerifiedpermissionsPolicyStore#cedar_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#cedar_json VerifiedpermissionsPolicyStore#cedar_json}
   */
   readonly cedarJson?: string;
 }
@@ -598,11 +598,11 @@ export class VerifiedpermissionsPolicyStoreSchemaOutputReference extends cdktn.C
 }
 export interface VerifiedpermissionsPolicyStoreTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#key VerifiedpermissionsPolicyStore#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#key VerifiedpermissionsPolicyStore#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#value VerifiedpermissionsPolicyStore#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#value VerifiedpermissionsPolicyStore#value}
   */
   readonly value?: string;
 }
@@ -747,7 +747,7 @@ export class VerifiedpermissionsPolicyStoreTagsList extends cdktn.ComplexList {
 }
 export interface VerifiedpermissionsPolicyStoreValidationSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#mode VerifiedpermissionsPolicyStore#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#mode VerifiedpermissionsPolicyStore#mode}
   */
   readonly mode: string;
 }
@@ -838,7 +838,7 @@ export class VerifiedpermissionsPolicyStoreValidationSettingsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store awscc_verifiedpermissions_policy_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store awscc_verifiedpermissions_policy_store}
 */
 export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
 
@@ -854,7 +854,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VerifiedpermissionsPolicyStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VerifiedpermissionsPolicyStore to import
-  * @param importFromId The id of the existing VerifiedpermissionsPolicyStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VerifiedpermissionsPolicyStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VerifiedpermissionsPolicyStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -866,7 +866,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/verifiedpermissions_policy_store awscc_verifiedpermissions_policy_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/verifiedpermissions_policy_store awscc_verifiedpermissions_policy_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -877,7 +877,7 @@ export class VerifiedpermissionsPolicyStore extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_verifiedpermissions_policy_store',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

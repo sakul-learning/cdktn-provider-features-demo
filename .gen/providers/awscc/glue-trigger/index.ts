@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface GlueTriggerConfig extends cdktn.TerraformMetaArguments {
   /**
   * The actions initiated by this trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#actions GlueTrigger#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#actions GlueTrigger#actions}
   */
   readonly actions: GlueTriggerActions[] | cdktn.IResolvable;
   /**
   * A description of this trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#description GlueTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#description GlueTrigger#description}
   */
   readonly description?: string;
   /**
   * Batch condition that must be met (specified number of events received or batch time window expired) before EventBridge event trigger fires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#event_batching_condition GlueTrigger#event_batching_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#event_batching_condition GlueTrigger#event_batching_condition}
   */
   readonly eventBatchingCondition?: GlueTriggerEventBatchingCondition;
   /**
   * The name of the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#name GlueTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#name GlueTrigger#name}
   */
   readonly name?: string;
   /**
   * The predicate of this trigger, which defines when it will fire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#predicate GlueTrigger#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#predicate GlueTrigger#predicate}
   */
   readonly predicate?: GlueTriggerPredicate;
   /**
   * A cron expression used to specify the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#schedule GlueTrigger#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#schedule GlueTrigger#schedule}
   */
   readonly schedule?: string;
   /**
   * Set to true to start SCHEDULED and CONDITIONAL triggers when created. True is not supported for ON_DEMAND triggers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#start_on_creation GlueTrigger#start_on_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#start_on_creation GlueTrigger#start_on_creation}
   */
   readonly startOnCreation?: boolean | cdktn.IResolvable;
   /**
   * The tags to use with this trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#tags GlueTrigger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#tags GlueTrigger#tags}
   */
   readonly tags?: string;
   /**
   * The type of trigger that this is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#type GlueTrigger#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#type GlueTrigger#type}
   */
   readonly type: string;
   /**
   * The name of the workflow associated with the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#workflow_name GlueTrigger#workflow_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#workflow_name GlueTrigger#workflow_name}
   */
   readonly workflowName?: string;
 }
@@ -72,7 +72,7 @@ export interface GlueTriggerActionsNotificationProperty {
   /**
   * After a job run starts, the number of minutes to wait before sending a job run delay notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}
   */
   readonly notifyDelayAfter?: number;
 }
@@ -168,37 +168,37 @@ export interface GlueTriggerActions {
   /**
   * The job arguments used when this trigger fires. For this job run, they replace the default arguments set in the job definition itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#arguments GlueTrigger#arguments}
   */
   readonly arguments?: string;
   /**
   * The name of the crawler to be used with this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
   */
   readonly crawlerName?: string;
   /**
   * The name of a job to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
   */
   readonly jobName?: string;
   /**
   * Specifies configuration properties of a job run notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#notification_property GlueTrigger#notification_property}
   */
   readonly notificationProperty?: GlueTriggerActionsNotificationProperty;
   /**
   * The name of the SecurityConfiguration structure to be used with this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#security_configuration GlueTrigger#security_configuration}
   */
   readonly securityConfiguration?: string;
   /**
   * The JobRun timeout in minutes. This is the maximum time that a job run can consume resources before it is terminated and enters TIMEOUT status. The default is 2,880 minutes (48 hours). This overrides the timeout value set in the parent job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#timeout GlueTrigger#timeout}
   */
   readonly timeout?: number;
 }
@@ -461,13 +461,13 @@ export interface GlueTriggerEventBatchingCondition {
   /**
   * Number of events that must be received from Amazon EventBridge before EventBridge event trigger fires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#batch_size GlueTrigger#batch_size}
   */
   readonly batchSize?: number;
   /**
   * Window of time in seconds after which EventBridge event trigger fires. Window starts when first event is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#batch_window GlueTrigger#batch_window}
   */
   readonly batchWindow?: number;
 }
@@ -592,31 +592,31 @@ export interface GlueTriggerPredicateConditions {
   /**
   * The state of the crawler to which this condition applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#crawl_state GlueTrigger#crawl_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#crawl_state GlueTrigger#crawl_state}
   */
   readonly crawlState?: string;
   /**
   * The name of the crawler to which this condition applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#crawler_name GlueTrigger#crawler_name}
   */
   readonly crawlerName?: string;
   /**
   * The name of the job whose JobRuns this condition applies to, and on which this trigger waits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#job_name GlueTrigger#job_name}
   */
   readonly jobName?: string;
   /**
   * A logical operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#logical_operator GlueTrigger#logical_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#logical_operator GlueTrigger#logical_operator}
   */
   readonly logicalOperator?: string;
   /**
   * The condition state. Currently, the values supported are SUCCEEDED, STOPPED, TIMEOUT, and FAILED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#state GlueTrigger#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#state GlueTrigger#state}
   */
   readonly state?: string;
 }
@@ -850,13 +850,13 @@ export interface GlueTriggerPredicate {
   /**
   * A list of the conditions that determine when the trigger will fire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
   */
   readonly conditions?: GlueTriggerPredicateConditions[] | cdktn.IResolvable;
   /**
   * An optional field if only one condition is listed. If multiple conditions are listed, then this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#logical GlueTrigger#logical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#logical GlueTrigger#logical}
   */
   readonly logical?: string;
 }
@@ -979,7 +979,7 @@ export class GlueTriggerPredicateOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger awscc_glue_trigger}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger awscc_glue_trigger}
 */
 export class GlueTrigger extends cdktn.TerraformResource {
 
@@ -995,7 +995,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueTrigger resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueTrigger to import
-  * @param importFromId The id of the existing GlueTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1007,7 +1007,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/glue_trigger awscc_glue_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/glue_trigger awscc_glue_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1018,7 +1018,7 @@ export class GlueTrigger extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_trigger',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

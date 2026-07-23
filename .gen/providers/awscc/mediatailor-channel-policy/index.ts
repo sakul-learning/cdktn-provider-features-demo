@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_channel_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_channel_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktn from 'cdktn';
 
 export interface MediatailorChannelPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_channel_policy#channel_name MediatailorChannelPolicy#channel_name}
   */
   readonly channelName: string;
   /**
   * <p>The IAM policy for the channel. IAM policies are used to control access to your channel.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_channel_policy#policy MediatailorChannelPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_channel_policy#policy MediatailorChannelPolicy#policy}
   */
   readonly policy: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy}
 */
 export class MediatailorChannelPolicy extends cdktn.TerraformResource {
 
@@ -36,7 +36,7 @@ export class MediatailorChannelPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediatailorChannelPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediatailorChannelPolicy to import
-  * @param importFromId The id of the existing MediatailorChannelPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_channel_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediatailorChannelPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_channel_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediatailorChannelPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -48,7 +48,7 @@ export class MediatailorChannelPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,7 +59,7 @@ export class MediatailorChannelPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediatailor_channel_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

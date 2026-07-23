@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ecr_pull_time_update_exclusions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ecr_pull_time_update_exclusions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEcrPullTimeUpdateExclusionsConfig extends cdktn.Terraf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions}
 */
 export class DataAwsccEcrPullTimeUpdateExclusions extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEcrPullTimeUpdateExclusions extends cdktn.TerraformDataSou
   * Generates CDKTN code for importing a DataAwsccEcrPullTimeUpdateExclusions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEcrPullTimeUpdateExclusions to import
-  * @param importFromId The id of the existing DataAwsccEcrPullTimeUpdateExclusions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ecr_pull_time_update_exclusions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEcrPullTimeUpdateExclusions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ecr_pull_time_update_exclusions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEcrPullTimeUpdateExclusions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEcrPullTimeUpdateExclusions extends cdktn.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEcrPullTimeUpdateExclusions extends cdktn.TerraformDataSou
       terraformResourceType: 'awscc_ecr_pull_time_update_exclusions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface EksIdentityProviderConfigConfig extends cdktn.TerraformMetaArgu
   /**
   * The name of the identity provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#cluster_name EksIdentityProviderConfig#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#cluster_name EksIdentityProviderConfig#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The name of the OIDC provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#identity_provider_config_name EksIdentityProviderConfig#identity_provider_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#identity_provider_config_name EksIdentityProviderConfig#identity_provider_config_name}
   */
   readonly identityProviderConfigName?: string;
   /**
   * An object representing an OpenID Connect (OIDC) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#oidc EksIdentityProviderConfig#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#oidc EksIdentityProviderConfig#oidc}
   */
   readonly oidc?: EksIdentityProviderConfigOidc;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#tags EksIdentityProviderConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#tags EksIdentityProviderConfig#tags}
   */
   readonly tags?: EksIdentityProviderConfigTags[] | cdktn.IResolvable;
   /**
   * The type of the identity provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#type EksIdentityProviderConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#type EksIdentityProviderConfig#type}
   */
   readonly type: string;
 }
@@ -42,13 +42,13 @@ export interface EksIdentityProviderConfigOidcRequiredClaims {
   /**
   * The key of the requiredClaims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#key EksIdentityProviderConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#key EksIdentityProviderConfig#key}
   */
   readonly key?: string;
   /**
   * The value for the requiredClaims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#value EksIdentityProviderConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#value EksIdentityProviderConfig#value}
   */
   readonly value?: string;
 }
@@ -195,41 +195,41 @@ export interface EksIdentityProviderConfigOidc {
   /**
   * This is also known as audience. The ID for the client application that makes authentication requests to the OpenID identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#client_id EksIdentityProviderConfig#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#client_id EksIdentityProviderConfig#client_id}
   */
   readonly clientId?: string;
   /**
   * The JWT claim that the provider uses to return your groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#groups_claim EksIdentityProviderConfig#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#groups_claim EksIdentityProviderConfig#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
   * The prefix that is prepended to group claims to prevent clashes with existing names (such as system: groups).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#groups_prefix EksIdentityProviderConfig#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#groups_prefix EksIdentityProviderConfig#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * The URL of the OpenID identity provider that allows the API server to discover public signing keys for verifying tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#issuer_url EksIdentityProviderConfig#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#issuer_url EksIdentityProviderConfig#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#required_claims EksIdentityProviderConfig#required_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#required_claims EksIdentityProviderConfig#required_claims}
   */
   readonly requiredClaims?: EksIdentityProviderConfigOidcRequiredClaims[] | cdktn.IResolvable;
   /**
   * The JSON Web Token (JWT) claim to use as the username. The default is sub, which is expected to be a unique identifier of the end user. You can choose other claims, such as email or name, depending on the OpenID identity provider. Claims other than email are prefixed with the issuer URL to prevent naming clashes with other plug-ins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#username_claim EksIdentityProviderConfig#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#username_claim EksIdentityProviderConfig#username_claim}
   */
   readonly usernameClaim?: string;
   /**
   * The prefix that is prepended to username claims to prevent clashes with existing names. If you do not provide this field, and username is a value other than email, the prefix defaults to issuerurl#. You can use the value - to disable all prefixing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#username_prefix EksIdentityProviderConfig#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#username_prefix EksIdentityProviderConfig#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -499,13 +499,13 @@ export interface EksIdentityProviderConfigTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#key EksIdentityProviderConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#key EksIdentityProviderConfig#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#value EksIdentityProviderConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#value EksIdentityProviderConfig#value}
   */
   readonly value?: string;
 }
@@ -650,7 +650,7 @@ export class EksIdentityProviderConfigTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config awscc_eks_identity_provider_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config awscc_eks_identity_provider_config}
 */
 export class EksIdentityProviderConfig extends cdktn.TerraformResource {
 
@@ -666,7 +666,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksIdentityProviderConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksIdentityProviderConfig to import
-  * @param importFromId The id of the existing EksIdentityProviderConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksIdentityProviderConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksIdentityProviderConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -678,7 +678,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_identity_provider_config awscc_eks_identity_provider_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/eks_identity_provider_config awscc_eks_identity_provider_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,7 +689,7 @@ export class EksIdentityProviderConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eks_identity_provider_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

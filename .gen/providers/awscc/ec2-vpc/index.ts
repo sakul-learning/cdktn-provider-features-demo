@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,20 +11,20 @@ export interface Ec2VpcConfig extends cdktn.TerraformMetaArguments {
   * The IPv4 network range for the VPC, in CIDR notation. For example, ``10.0.0.0/16``. We modify the specified CIDR block to its canonical form; for example, if you specify ``100.68.0.18/18``, we modify it to ``100.68.0.0/18``.
   *  You must specify either``CidrBlock`` or ``Ipv4IpamPoolId``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#cidr_block Ec2Vpc#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#cidr_block Ec2Vpc#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Indicates whether the instances launched in the VPC get DNS hostnames. If enabled, instances in the VPC get DNS hostnames; otherwise, they do not. Disabled by default for nondefault VPCs. For more information, see [DNS attributes in your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-dns.html#vpc-dns-support).
   *  You can only enable DNS hostnames if you've enabled DNS support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#enable_dns_hostnames Ec2Vpc#enable_dns_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#enable_dns_hostnames Ec2Vpc#enable_dns_hostnames}
   */
   readonly enableDnsHostnames?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether the DNS resolution is supported for the VPC. If enabled, queries to the Amazon provided DNS server at the 169.254.169.253 IP address, or the reserved IP address at the base of the VPC network range "plus two" succeed. If disabled, the Amazon provided DNS service in the VPC that resolves public DNS hostnames to IP addresses is not enabled. Enabled by default. For more information, see [DNS attributes in your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-dns.html#vpc-dns-support).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#enable_dns_support Ec2Vpc#enable_dns_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#enable_dns_support Ec2Vpc#enable_dns_support}
   */
   readonly enableDnsSupport?: boolean | cdktn.IResolvable;
   /**
@@ -34,40 +34,44 @@ export interface Ec2VpcConfig extends cdktn.TerraformMetaArguments {
   *   
   *  Updating ``InstanceTenancy`` requires no replacement only if you are updating its value from ``dedicated`` to ``default``. Updating ``InstanceTenancy`` from ``default`` to ``dedicated`` requires replacement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#instance_tenancy Ec2Vpc#instance_tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#instance_tenancy Ec2Vpc#instance_tenancy}
   */
   readonly instanceTenancy?: string;
   /**
   * The ID of an IPv4 IPAM pool you want to use for allocating this VPC's CIDR. For more information, see [What is IPAM?](https://docs.aws.amazon.com//vpc/latest/ipam/what-is-it-ipam.html) in the *Amazon VPC IPAM User Guide*.
   *  You must specify either``CidrBlock`` or ``Ipv4IpamPoolId``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#ipv_4_ipam_pool_id Ec2Vpc#ipv_4_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#ipv_4_ipam_pool_id Ec2Vpc#ipv_4_ipam_pool_id}
   */
   readonly ipv4IpamPoolId?: string;
   /**
   * The netmask length of the IPv4 CIDR you want to allocate to this VPC from an Amazon VPC IP Address Manager (IPAM) pool. For more information about IPAM, see [What is IPAM?](https://docs.aws.amazon.com//vpc/latest/ipam/what-is-it-ipam.html) in the *Amazon VPC IPAM User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#ipv_4_netmask_length Ec2Vpc#ipv_4_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#ipv_4_netmask_length Ec2Vpc#ipv_4_netmask_length}
   */
   readonly ipv4NetmaskLength?: number;
   /**
   * The tags for the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#tags Ec2Vpc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#tags Ec2Vpc#tags}
   */
   readonly tags?: Ec2VpcTags[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#vpc_encryption_control Ec2Vpc#vpc_encryption_control}
+  */
+  readonly vpcEncryptionControl?: Ec2VpcVpcEncryptionControl;
 }
 export interface Ec2VpcTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#key Ec2Vpc#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#key Ec2Vpc#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#value Ec2Vpc#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#value Ec2Vpc#value}
   */
   readonly value?: string;
 }
@@ -210,9 +214,980 @@ export class Ec2VpcTagsList extends cdktn.ComplexList {
     return new Ec2VpcTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGateway | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystem {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystemToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystem): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystemToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystem): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystem | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystem | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsInternetGatewayToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsInternetGatewayToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsInternetGatewayOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsInternetGateway | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsLambda {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsLambdaToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsLambda): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsLambdaToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsLambda): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsLambdaOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsLambda | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsLambda | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsNatGatewayToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsNatGatewayToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsNatGatewayOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsNatGateway | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGateway {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGateway): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGateway | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGateway | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsVpcLatticeToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsVpcLatticeToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsVpcLatticeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsVpcLattice | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeering {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsVpcPeeringToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeering): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsVpcPeeringToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeering): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeeringOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeering | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeering | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+}
+export interface Ec2VpcVpcEncryptionControlResourceExclusions {
+}
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsToTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlResourceExclusionsToHclTerraform(struct?: Ec2VpcVpcEncryptionControlResourceExclusions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class Ec2VpcVpcEncryptionControlResourceExclusionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControlResourceExclusions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControlResourceExclusions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // egress_only_internet_gateway - computed: true, optional: false, required: false
+  private _egressOnlyInternetGateway = new Ec2VpcVpcEncryptionControlResourceExclusionsEgressOnlyInternetGatewayOutputReference(this, "egress_only_internet_gateway");
+  public get egressOnlyInternetGateway() {
+    return this._egressOnlyInternetGateway;
+  }
+
+  // elastic_file_system - computed: true, optional: false, required: false
+  private _elasticFileSystem = new Ec2VpcVpcEncryptionControlResourceExclusionsElasticFileSystemOutputReference(this, "elastic_file_system");
+  public get elasticFileSystem() {
+    return this._elasticFileSystem;
+  }
+
+  // internet_gateway - computed: true, optional: false, required: false
+  private _internetGateway = new Ec2VpcVpcEncryptionControlResourceExclusionsInternetGatewayOutputReference(this, "internet_gateway");
+  public get internetGateway() {
+    return this._internetGateway;
+  }
+
+  // lambda - computed: true, optional: false, required: false
+  private _lambda = new Ec2VpcVpcEncryptionControlResourceExclusionsLambdaOutputReference(this, "lambda");
+  public get lambda() {
+    return this._lambda;
+  }
+
+  // nat_gateway - computed: true, optional: false, required: false
+  private _natGateway = new Ec2VpcVpcEncryptionControlResourceExclusionsNatGatewayOutputReference(this, "nat_gateway");
+  public get natGateway() {
+    return this._natGateway;
+  }
+
+  // virtual_private_gateway - computed: true, optional: false, required: false
+  private _virtualPrivateGateway = new Ec2VpcVpcEncryptionControlResourceExclusionsVirtualPrivateGatewayOutputReference(this, "virtual_private_gateway");
+  public get virtualPrivateGateway() {
+    return this._virtualPrivateGateway;
+  }
+
+  // vpc_lattice - computed: true, optional: false, required: false
+  private _vpcLattice = new Ec2VpcVpcEncryptionControlResourceExclusionsVpcLatticeOutputReference(this, "vpc_lattice");
+  public get vpcLattice() {
+    return this._vpcLattice;
+  }
+
+  // vpc_peering - computed: true, optional: false, required: false
+  private _vpcPeering = new Ec2VpcVpcEncryptionControlResourceExclusionsVpcPeeringOutputReference(this, "vpc_peering");
+  public get vpcPeering() {
+    return this._vpcPeering;
+  }
+}
+export interface Ec2VpcVpcEncryptionControl {
+  /**
+  * The desired exclusion mode for Egress-Only Internet Gateways.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#egress_only_internet_gateway_exclusion Ec2Vpc#egress_only_internet_gateway_exclusion}
+  */
+  readonly egressOnlyInternetGatewayExclusion?: string;
+  /**
+  * The desired exclusion mode for Elastic File System.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#elastic_file_system_exclusion Ec2Vpc#elastic_file_system_exclusion}
+  */
+  readonly elasticFileSystemExclusion?: string;
+  /**
+  * The desired exclusion mode for Internet Gateways.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#internet_gateway_exclusion Ec2Vpc#internet_gateway_exclusion}
+  */
+  readonly internetGatewayExclusion?: string;
+  /**
+  * The desired exclusion mode for Lambda.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#lambda_exclusion Ec2Vpc#lambda_exclusion}
+  */
+  readonly lambdaExclusion?: string;
+  /**
+  * The mode of the VPC encryption control.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#mode Ec2Vpc#mode}
+  */
+  readonly mode?: string;
+  /**
+  * The desired exclusion mode for NAT Gateways.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#nat_gateway_exclusion Ec2Vpc#nat_gateway_exclusion}
+  */
+  readonly natGatewayExclusion?: string;
+  /**
+  * The desired exclusion mode for Virtual Private Gateways.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#virtual_private_gateway_exclusion Ec2Vpc#virtual_private_gateway_exclusion}
+  */
+  readonly virtualPrivateGatewayExclusion?: string;
+  /**
+  * The desired exclusion mode for VPC Lattice.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#vpc_lattice_exclusion Ec2Vpc#vpc_lattice_exclusion}
+  */
+  readonly vpcLatticeExclusion?: string;
+  /**
+  * The desired exclusion mode for VPC Peering.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#vpc_peering_exclusion Ec2Vpc#vpc_peering_exclusion}
+  */
+  readonly vpcPeeringExclusion?: string;
+}
+
+export function ec2VpcVpcEncryptionControlToTerraform(struct?: Ec2VpcVpcEncryptionControl | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    egress_only_internet_gateway_exclusion: cdktn.stringToTerraform(struct!.egressOnlyInternetGatewayExclusion),
+    elastic_file_system_exclusion: cdktn.stringToTerraform(struct!.elasticFileSystemExclusion),
+    internet_gateway_exclusion: cdktn.stringToTerraform(struct!.internetGatewayExclusion),
+    lambda_exclusion: cdktn.stringToTerraform(struct!.lambdaExclusion),
+    mode: cdktn.stringToTerraform(struct!.mode),
+    nat_gateway_exclusion: cdktn.stringToTerraform(struct!.natGatewayExclusion),
+    virtual_private_gateway_exclusion: cdktn.stringToTerraform(struct!.virtualPrivateGatewayExclusion),
+    vpc_lattice_exclusion: cdktn.stringToTerraform(struct!.vpcLatticeExclusion),
+    vpc_peering_exclusion: cdktn.stringToTerraform(struct!.vpcPeeringExclusion),
+  }
+}
+
+
+export function ec2VpcVpcEncryptionControlToHclTerraform(struct?: Ec2VpcVpcEncryptionControl | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    egress_only_internet_gateway_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.egressOnlyInternetGatewayExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    elastic_file_system_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.elasticFileSystemExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    internet_gateway_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.internetGatewayExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    lambda_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.lambdaExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mode: {
+      value: cdktn.stringToHclTerraform(struct!.mode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    nat_gateway_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.natGatewayExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    virtual_private_gateway_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.virtualPrivateGatewayExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vpc_lattice_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.vpcLatticeExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vpc_peering_exclusion: {
+      value: cdktn.stringToHclTerraform(struct!.vpcPeeringExclusion),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Ec2VpcVpcEncryptionControlOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcVpcEncryptionControl | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._egressOnlyInternetGatewayExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.egressOnlyInternetGatewayExclusion = this._egressOnlyInternetGatewayExclusion;
+    }
+    if (this._elasticFileSystemExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.elasticFileSystemExclusion = this._elasticFileSystemExclusion;
+    }
+    if (this._internetGatewayExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.internetGatewayExclusion = this._internetGatewayExclusion;
+    }
+    if (this._lambdaExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lambdaExclusion = this._lambdaExclusion;
+    }
+    if (this._mode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mode = this._mode;
+    }
+    if (this._natGatewayExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.natGatewayExclusion = this._natGatewayExclusion;
+    }
+    if (this._virtualPrivateGatewayExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.virtualPrivateGatewayExclusion = this._virtualPrivateGatewayExclusion;
+    }
+    if (this._vpcLatticeExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcLatticeExclusion = this._vpcLatticeExclusion;
+    }
+    if (this._vpcPeeringExclusion !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcPeeringExclusion = this._vpcPeeringExclusion;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcVpcEncryptionControl | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._egressOnlyInternetGatewayExclusion = undefined;
+      this._elasticFileSystemExclusion = undefined;
+      this._internetGatewayExclusion = undefined;
+      this._lambdaExclusion = undefined;
+      this._mode = undefined;
+      this._natGatewayExclusion = undefined;
+      this._virtualPrivateGatewayExclusion = undefined;
+      this._vpcLatticeExclusion = undefined;
+      this._vpcPeeringExclusion = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._egressOnlyInternetGatewayExclusion = value.egressOnlyInternetGatewayExclusion;
+      this._elasticFileSystemExclusion = value.elasticFileSystemExclusion;
+      this._internetGatewayExclusion = value.internetGatewayExclusion;
+      this._lambdaExclusion = value.lambdaExclusion;
+      this._mode = value.mode;
+      this._natGatewayExclusion = value.natGatewayExclusion;
+      this._virtualPrivateGatewayExclusion = value.virtualPrivateGatewayExclusion;
+      this._vpcLatticeExclusion = value.vpcLatticeExclusion;
+      this._vpcPeeringExclusion = value.vpcPeeringExclusion;
+    }
+  }
+
+  // egress_only_internet_gateway_exclusion - computed: true, optional: true, required: false
+  private _egressOnlyInternetGatewayExclusion?: string; 
+  public get egressOnlyInternetGatewayExclusion() {
+    return this.getStringAttribute('egress_only_internet_gateway_exclusion');
+  }
+  public set egressOnlyInternetGatewayExclusion(value: string) {
+    this._egressOnlyInternetGatewayExclusion = value;
+  }
+  public resetEgressOnlyInternetGatewayExclusion() {
+    this._egressOnlyInternetGatewayExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get egressOnlyInternetGatewayExclusionInput() {
+    return this._egressOnlyInternetGatewayExclusion;
+  }
+
+  // elastic_file_system_exclusion - computed: true, optional: true, required: false
+  private _elasticFileSystemExclusion?: string; 
+  public get elasticFileSystemExclusion() {
+    return this.getStringAttribute('elastic_file_system_exclusion');
+  }
+  public set elasticFileSystemExclusion(value: string) {
+    this._elasticFileSystemExclusion = value;
+  }
+  public resetElasticFileSystemExclusion() {
+    this._elasticFileSystemExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get elasticFileSystemExclusionInput() {
+    return this._elasticFileSystemExclusion;
+  }
+
+  // internet_gateway_exclusion - computed: true, optional: true, required: false
+  private _internetGatewayExclusion?: string; 
+  public get internetGatewayExclusion() {
+    return this.getStringAttribute('internet_gateway_exclusion');
+  }
+  public set internetGatewayExclusion(value: string) {
+    this._internetGatewayExclusion = value;
+  }
+  public resetInternetGatewayExclusion() {
+    this._internetGatewayExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetGatewayExclusionInput() {
+    return this._internetGatewayExclusion;
+  }
+
+  // lambda_exclusion - computed: true, optional: true, required: false
+  private _lambdaExclusion?: string; 
+  public get lambdaExclusion() {
+    return this.getStringAttribute('lambda_exclusion');
+  }
+  public set lambdaExclusion(value: string) {
+    this._lambdaExclusion = value;
+  }
+  public resetLambdaExclusion() {
+    this._lambdaExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lambdaExclusionInput() {
+    return this._lambdaExclusion;
+  }
+
+  // mode - computed: true, optional: true, required: false
+  private _mode?: string; 
+  public get mode() {
+    return this.getStringAttribute('mode');
+  }
+  public set mode(value: string) {
+    this._mode = value;
+  }
+  public resetMode() {
+    this._mode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get modeInput() {
+    return this._mode;
+  }
+
+  // nat_gateway_exclusion - computed: true, optional: true, required: false
+  private _natGatewayExclusion?: string; 
+  public get natGatewayExclusion() {
+    return this.getStringAttribute('nat_gateway_exclusion');
+  }
+  public set natGatewayExclusion(value: string) {
+    this._natGatewayExclusion = value;
+  }
+  public resetNatGatewayExclusion() {
+    this._natGatewayExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get natGatewayExclusionInput() {
+    return this._natGatewayExclusion;
+  }
+
+  // resource_exclusions - computed: true, optional: false, required: false
+  private _resourceExclusions = new Ec2VpcVpcEncryptionControlResourceExclusionsOutputReference(this, "resource_exclusions");
+  public get resourceExclusions() {
+    return this._resourceExclusions;
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_message - computed: true, optional: false, required: false
+  public get stateMessage() {
+    return this.getStringAttribute('state_message');
+  }
+
+  // virtual_private_gateway_exclusion - computed: true, optional: true, required: false
+  private _virtualPrivateGatewayExclusion?: string; 
+  public get virtualPrivateGatewayExclusion() {
+    return this.getStringAttribute('virtual_private_gateway_exclusion');
+  }
+  public set virtualPrivateGatewayExclusion(value: string) {
+    this._virtualPrivateGatewayExclusion = value;
+  }
+  public resetVirtualPrivateGatewayExclusion() {
+    this._virtualPrivateGatewayExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualPrivateGatewayExclusionInput() {
+    return this._virtualPrivateGatewayExclusion;
+  }
+
+  // vpc_encryption_control_id - computed: true, optional: false, required: false
+  public get vpcEncryptionControlId() {
+    return this.getStringAttribute('vpc_encryption_control_id');
+  }
+
+  // vpc_id - computed: true, optional: false, required: false
+  public get vpcId() {
+    return this.getStringAttribute('vpc_id');
+  }
+
+  // vpc_lattice_exclusion - computed: true, optional: true, required: false
+  private _vpcLatticeExclusion?: string; 
+  public get vpcLatticeExclusion() {
+    return this.getStringAttribute('vpc_lattice_exclusion');
+  }
+  public set vpcLatticeExclusion(value: string) {
+    this._vpcLatticeExclusion = value;
+  }
+  public resetVpcLatticeExclusion() {
+    this._vpcLatticeExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcLatticeExclusionInput() {
+    return this._vpcLatticeExclusion;
+  }
+
+  // vpc_peering_exclusion - computed: true, optional: true, required: false
+  private _vpcPeeringExclusion?: string; 
+  public get vpcPeeringExclusion() {
+    return this.getStringAttribute('vpc_peering_exclusion');
+  }
+  public set vpcPeeringExclusion(value: string) {
+    this._vpcPeeringExclusion = value;
+  }
+  public resetVpcPeeringExclusion() {
+    this._vpcPeeringExclusion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcPeeringExclusionInput() {
+    return this._vpcPeeringExclusion;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc awscc_ec2_vpc}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc awscc_ec2_vpc}
 */
 export class Ec2Vpc extends cdktn.TerraformResource {
 
@@ -228,7 +1203,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2Vpc resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2Vpc to import
-  * @param importFromId The id of the existing Ec2Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2Vpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -240,7 +1215,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_vpc awscc_ec2_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_vpc awscc_ec2_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,7 +1226,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpc',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -268,6 +1243,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
     this._ipv4IpamPoolId = config.ipv4IpamPoolId;
     this._ipv4NetmaskLength = config.ipv4NetmaskLength;
     this._tags.internalValue = config.tags;
+    this._vpcEncryptionControl.internalValue = config.vpcEncryptionControl;
   }
 
   // ==========
@@ -411,6 +1387,22 @@ export class Ec2Vpc extends cdktn.TerraformResource {
     return this._tags.internalValue;
   }
 
+  // vpc_encryption_control - computed: true, optional: true, required: false
+  private _vpcEncryptionControl = new Ec2VpcVpcEncryptionControlOutputReference(this, "vpc_encryption_control");
+  public get vpcEncryptionControl() {
+    return this._vpcEncryptionControl;
+  }
+  public putVpcEncryptionControl(value: Ec2VpcVpcEncryptionControl) {
+    this._vpcEncryptionControl.internalValue = value;
+  }
+  public resetVpcEncryptionControl() {
+    this._vpcEncryptionControl.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcEncryptionControlInput() {
+    return this._vpcEncryptionControl.internalValue;
+  }
+
   // vpc_id - computed: true, optional: false, required: false
   public get vpcId() {
     return this.getStringAttribute('vpc_id');
@@ -429,6 +1421,7 @@ export class Ec2Vpc extends cdktn.TerraformResource {
       ipv_4_ipam_pool_id: cdktn.stringToTerraform(this._ipv4IpamPoolId),
       ipv_4_netmask_length: cdktn.numberToTerraform(this._ipv4NetmaskLength),
       tags: cdktn.listMapper(ec2VpcTagsToTerraform, false)(this._tags.internalValue),
+      vpc_encryption_control: ec2VpcVpcEncryptionControlToTerraform(this._vpcEncryptionControl.internalValue),
     };
   }
 
@@ -475,6 +1468,12 @@ export class Ec2Vpc extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "Ec2VpcTagsList",
+      },
+      vpc_encryption_control: {
+        value: ec2VpcVpcEncryptionControlToHclTerraform(this._vpcEncryptionControl.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "Ec2VpcVpcEncryptionControl",
       },
     };
 

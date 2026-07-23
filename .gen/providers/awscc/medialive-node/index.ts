@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MedialiveNodeConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the Cluster that the Node belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#cluster_id MedialiveNode#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#cluster_id MedialiveNode#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The user-specified name of the Node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#name MedialiveNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#name MedialiveNode#name}
   */
   readonly name?: string;
   /**
   * An array of interface mappings for the Node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#node_interface_mappings MedialiveNode#node_interface_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#node_interface_mappings MedialiveNode#node_interface_mappings}
   */
   readonly nodeInterfaceMappings?: MedialiveNodeNodeInterfaceMappings[] | cdktn.IResolvable;
   /**
   * The role of the Node in the Cluster. ACTIVE means the Node is available for encoding. BACKUP means the Node is a redundant Node and might get used if an ACTIVE Node fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#role MedialiveNode#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#role MedialiveNode#role}
   */
   readonly role?: string;
   /**
   * An array of SDI source mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#sdi_source_mappings MedialiveNode#sdi_source_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#sdi_source_mappings MedialiveNode#sdi_source_mappings}
   */
   readonly sdiSourceMappings?: MedialiveNodeSdiSourceMappings[] | cdktn.IResolvable;
   /**
   * A collection of key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#tags MedialiveNode#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#tags MedialiveNode#tags}
   */
   readonly tags?: MedialiveNodeTags[] | cdktn.IResolvable;
 }
@@ -48,19 +48,19 @@ export interface MedialiveNodeNodeInterfaceMappings {
   /**
   * The logical name for this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#logical_interface_name MedialiveNode#logical_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#logical_interface_name MedialiveNode#logical_interface_name}
   */
   readonly logicalInterfaceName?: string;
   /**
   * The network interface mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#network_interface_mode MedialiveNode#network_interface_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#network_interface_mode MedialiveNode#network_interface_mode}
   */
   readonly networkInterfaceMode?: string;
   /**
   * The physical interface name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#physical_interface_name MedialiveNode#physical_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#physical_interface_name MedialiveNode#physical_interface_name}
   */
   readonly physicalInterfaceName?: string;
 }
@@ -236,19 +236,19 @@ export interface MedialiveNodeSdiSourceMappings {
   /**
   * The card number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#card_number MedialiveNode#card_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#card_number MedialiveNode#card_number}
   */
   readonly cardNumber?: number;
   /**
   * The channel number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#channel_number MedialiveNode#channel_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#channel_number MedialiveNode#channel_number}
   */
   readonly channelNumber?: number;
   /**
   * The SDI source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#sdi_source MedialiveNode#sdi_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#sdi_source MedialiveNode#sdi_source}
   */
   readonly sdiSource?: string;
 }
@@ -424,13 +424,13 @@ export interface MedialiveNodeTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#key MedialiveNode#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#key MedialiveNode#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#value MedialiveNode#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#value MedialiveNode#value}
   */
   readonly value?: string;
 }
@@ -575,7 +575,7 @@ export class MedialiveNodeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node awscc_medialive_node}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node awscc_medialive_node}
 */
 export class MedialiveNode extends cdktn.TerraformResource {
 
@@ -591,7 +591,7 @@ export class MedialiveNode extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MedialiveNode resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MedialiveNode to import
-  * @param importFromId The id of the existing MedialiveNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MedialiveNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MedialiveNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -603,7 +603,7 @@ export class MedialiveNode extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/medialive_node awscc_medialive_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/medialive_node awscc_medialive_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,7 +614,7 @@ export class MedialiveNode extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_medialive_node',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

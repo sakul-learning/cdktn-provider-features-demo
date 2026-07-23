@@ -1,3 +1,3 @@
 # `data_awscc_route53resolver_firewall_rule_group`
 
-Refer to the Terraform Registry for docs: [`data_awscc_route53resolver_firewall_rule_group`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/route53resolver_firewall_rule_group).
+Refer to the Terraform Registry for docs: [`data_awscc_route53resolver_firewall_rule_group`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/route53resolver_firewall_rule_group).

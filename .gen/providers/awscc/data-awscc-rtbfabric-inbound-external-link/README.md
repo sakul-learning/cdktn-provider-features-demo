@@ -1,3 +1,3 @@
 # `data_awscc_rtbfabric_inbound_external_link`
 
-Refer to the Terraform Registry for docs: [`data_awscc_rtbfabric_inbound_external_link`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/rtbfabric_inbound_external_link).
+Refer to the Terraform Registry for docs: [`data_awscc_rtbfabric_inbound_external_link`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/rtbfabric_inbound_external_link).

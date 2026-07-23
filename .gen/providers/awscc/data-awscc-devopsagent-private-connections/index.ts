@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/devopsagent_private_connections
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/devopsagent_private_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccDevopsagentPrivateConnectionsConfig extends cdktn.Terr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/devopsagent_private_connections awscc_devopsagent_private_connections}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/devopsagent_private_connections awscc_devopsagent_private_connections}
 */
 export class DataAwsccDevopsagentPrivateConnections extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccDevopsagentPrivateConnections extends cdktn.TerraformDataS
   * Generates CDKTN code for importing a DataAwsccDevopsagentPrivateConnections resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDevopsagentPrivateConnections to import
-  * @param importFromId The id of the existing DataAwsccDevopsagentPrivateConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/devopsagent_private_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDevopsagentPrivateConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/devopsagent_private_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDevopsagentPrivateConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccDevopsagentPrivateConnections extends cdktn.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/devopsagent_private_connections awscc_devopsagent_private_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/devopsagent_private_connections awscc_devopsagent_private_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccDevopsagentPrivateConnections extends cdktn.TerraformDataS
       terraformResourceType: 'awscc_devopsagent_private_connections',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

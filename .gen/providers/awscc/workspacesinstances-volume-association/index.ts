@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WorkspacesinstancesVolumeAssociationConfig extends cdktn.Terraf
   /**
   * The device name for the volume attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association#device WorkspacesinstancesVolumeAssociation#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association#device WorkspacesinstancesVolumeAssociation#device}
   */
   readonly device: string;
   /**
   * Mode to use when disassociating the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association#disassociate_mode WorkspacesinstancesVolumeAssociation#disassociate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association#disassociate_mode WorkspacesinstancesVolumeAssociation#disassociate_mode}
   */
   readonly disassociateMode?: string;
   /**
   * ID of the volume to attach to the workspace instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association#volume_id WorkspacesinstancesVolumeAssociation#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association#volume_id WorkspacesinstancesVolumeAssociation#volume_id}
   */
   readonly volumeId: string;
   /**
   * ID of the workspace instance to associate with the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association#workspace_instance_id WorkspacesinstancesVolumeAssociation#workspace_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association#workspace_instance_id WorkspacesinstancesVolumeAssociation#workspace_instance_id}
   */
   readonly workspaceInstanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}
 */
 export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a WorkspacesinstancesVolumeAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspacesinstancesVolumeAssociation to import
-  * @param importFromId The id of the existing WorkspacesinstancesVolumeAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspacesinstancesVolumeAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspacesinstancesVolumeAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class WorkspacesinstancesVolumeAssociation extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_workspacesinstances_volume_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

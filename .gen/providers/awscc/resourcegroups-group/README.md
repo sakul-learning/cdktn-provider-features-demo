@@ -1,3 +1,3 @@
 # `awscc_resourcegroups_group`
 
-Refer to the Terraform Registry for docs: [`awscc_resourcegroups_group`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/resourcegroups_group).
+Refer to the Terraform Registry for docs: [`awscc_resourcegroups_group`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/resourcegroups_group).

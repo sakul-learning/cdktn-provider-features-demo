@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group
+// https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktn from 'cdktn';
 
 export interface DataAwsAlbTargetGroupConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#arn DataAwsAlbTargetGroup#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#arn DataAwsAlbTargetGroup#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#id DataAwsAlbTargetGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#id DataAwsAlbTargetGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#load_balancing_anomaly_mitigation DataAwsAlbTargetGroup#load_balancing_anomaly_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#load_balancing_anomaly_mitigation DataAwsAlbTargetGroup#load_balancing_anomaly_mitigation}
   */
   readonly loadBalancingAnomalyMitigation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#name DataAwsAlbTargetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#name DataAwsAlbTargetGroup#name}
   */
   readonly name?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#region DataAwsAlbTargetGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#region DataAwsAlbTargetGroup#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#tags DataAwsAlbTargetGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#tags DataAwsAlbTargetGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#timeouts DataAwsAlbTargetGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#timeouts DataAwsAlbTargetGroup#timeouts}
   */
   readonly timeouts?: DataAwsAlbTargetGroupTimeouts;
 }
@@ -250,7 +250,7 @@ export class DataAwsAlbTargetGroupStickinessList extends cdktn.ComplexList {
 }
 export interface DataAwsAlbTargetGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#read DataAwsAlbTargetGroup#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#read DataAwsAlbTargetGroup#read}
   */
   readonly read?: string;
 }
@@ -344,7 +344,7 @@ export class DataAwsAlbTargetGroupTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group aws_alb_target_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group aws_alb_target_group}
 */
 export class DataAwsAlbTargetGroup extends cdktn.TerraformDataSource {
 
@@ -360,7 +360,7 @@ export class DataAwsAlbTargetGroup extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsAlbTargetGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsAlbTargetGroup to import
-  * @param importFromId The id of the existing DataAwsAlbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsAlbTargetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsAlbTargetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -372,7 +372,7 @@ export class DataAwsAlbTargetGroup extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/alb_target_group aws_alb_target_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,7 +383,7 @@ export class DataAwsAlbTargetGroup extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_alb_target_group',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.55.0'
+        providerVersion: '6.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

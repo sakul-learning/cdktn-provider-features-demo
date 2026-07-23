@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,75 +8,75 @@ import * as cdktn from 'cdktn';
 
 export interface PaymentcryptographyKeyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#derive_key_usage PaymentcryptographyKey#derive_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#derive_key_usage PaymentcryptographyKey#derive_key_usage}
   */
   readonly deriveKeyUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#enabled PaymentcryptographyKey#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#enabled PaymentcryptographyKey#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#exportable PaymentcryptographyKey#exportable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#exportable PaymentcryptographyKey#exportable}
   */
   readonly exportable: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#key_attributes PaymentcryptographyKey#key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#key_attributes PaymentcryptographyKey#key_attributes}
   */
   readonly keyAttributes: PaymentcryptographyKeyKeyAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#key_check_value_algorithm PaymentcryptographyKey#key_check_value_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#key_check_value_algorithm PaymentcryptographyKey#key_check_value_algorithm}
   */
   readonly keyCheckValueAlgorithm?: string;
   /**
   * The resource-based policy attached to the key, in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#policy PaymentcryptographyKey#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#policy PaymentcryptographyKey#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#replication_regions PaymentcryptographyKey#replication_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#replication_regions PaymentcryptographyKey#replication_regions}
   */
   readonly replicationRegions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#tags PaymentcryptographyKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#tags PaymentcryptographyKey#tags}
   */
   readonly tags?: PaymentcryptographyKeyTags[] | cdktn.IResolvable;
 }
 export interface PaymentcryptographyKeyKeyAttributesKeyModesOfUse {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#decrypt PaymentcryptographyKey#decrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#decrypt PaymentcryptographyKey#decrypt}
   */
   readonly decrypt?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#derive_key PaymentcryptographyKey#derive_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#derive_key PaymentcryptographyKey#derive_key}
   */
   readonly deriveKey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#encrypt PaymentcryptographyKey#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#encrypt PaymentcryptographyKey#encrypt}
   */
   readonly encrypt?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#generate PaymentcryptographyKey#generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#generate PaymentcryptographyKey#generate}
   */
   readonly generate?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#no_restrictions PaymentcryptographyKey#no_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#no_restrictions PaymentcryptographyKey#no_restrictions}
   */
   readonly noRestrictions?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#sign PaymentcryptographyKey#sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#sign PaymentcryptographyKey#sign}
   */
   readonly sign?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#unwrap PaymentcryptographyKey#unwrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#unwrap PaymentcryptographyKey#unwrap}
   */
   readonly unwrap?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#verify PaymentcryptographyKey#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#verify PaymentcryptographyKey#verify}
   */
   readonly verify?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#wrap PaymentcryptographyKey#wrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#wrap PaymentcryptographyKey#wrap}
   */
   readonly wrap?: boolean | cdktn.IResolvable;
 }
@@ -402,19 +402,19 @@ export class PaymentcryptographyKeyKeyAttributesKeyModesOfUseOutputReference ext
 }
 export interface PaymentcryptographyKeyKeyAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#key_algorithm PaymentcryptographyKey#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#key_algorithm PaymentcryptographyKey#key_algorithm}
   */
   readonly keyAlgorithm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#key_class PaymentcryptographyKey#key_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#key_class PaymentcryptographyKey#key_class}
   */
   readonly keyClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
   */
   readonly keyModesOfUse: PaymentcryptographyKeyKeyAttributesKeyModesOfUse;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#key_usage PaymentcryptographyKey#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#key_usage PaymentcryptographyKey#key_usage}
   */
   readonly keyUsage: string;
 }
@@ -661,11 +661,11 @@ export class PaymentcryptographyKeyReplicationStatusMap extends cdktn.ComplexMap
 }
 export interface PaymentcryptographyKeyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#key PaymentcryptographyKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#key PaymentcryptographyKey#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#value PaymentcryptographyKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#value PaymentcryptographyKey#value}
   */
   readonly value?: string;
 }
@@ -810,7 +810,7 @@ export class PaymentcryptographyKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key}
 */
 export class PaymentcryptographyKey extends cdktn.TerraformResource {
 
@@ -826,7 +826,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PaymentcryptographyKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PaymentcryptographyKey to import
-  * @param importFromId The id of the existing PaymentcryptographyKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PaymentcryptographyKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PaymentcryptographyKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -838,7 +838,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -849,7 +849,7 @@ export class PaymentcryptographyKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_paymentcryptography_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

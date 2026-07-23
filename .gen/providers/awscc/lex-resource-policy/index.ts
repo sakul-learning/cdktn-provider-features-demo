@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface LexResourcePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * A resource policy to add to the resource. The policy is a JSON structure following the IAM syntax that contains one or more statements that define the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_resource_policy#policy LexResourcePolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_resource_policy#policy LexResourcePolicy#policy}
   */
   readonly policy: string;
   /**
   * The Amazon Resource Name (ARN) of the bot or bot alias that the resource policy is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_resource_policy#resource_arn LexResourcePolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_resource_policy#resource_arn LexResourcePolicy#resource_arn}
   */
   readonly resourceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_resource_policy awscc_lex_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_resource_policy awscc_lex_resource_policy}
 */
 export class LexResourcePolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class LexResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LexResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LexResourcePolicy to import
-  * @param importFromId The id of the existing LexResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LexResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LexResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class LexResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_resource_policy awscc_lex_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_resource_policy awscc_lex_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class LexResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lex_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

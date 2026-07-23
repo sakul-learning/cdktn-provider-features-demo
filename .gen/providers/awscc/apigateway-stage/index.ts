@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,61 +11,61 @@ export interface ApigatewayStageConfig extends cdktn.TerraformMetaArguments {
   * The ``AccessLogSetting`` property type specifies settings for logging access in this stage.
   *  ``AccessLogSetting`` is a property of the [AWS::ApiGateway::Stage](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html) resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#access_log_setting ApigatewayStage#access_log_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#access_log_setting ApigatewayStage#access_log_setting}
   */
   readonly accessLogSetting?: ApigatewayStageAccessLogSetting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#cache_cluster_enabled ApigatewayStage#cache_cluster_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#cache_cluster_enabled ApigatewayStage#cache_cluster_enabled}
   */
   readonly cacheClusterEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#cache_cluster_size ApigatewayStage#cache_cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#cache_cluster_size ApigatewayStage#cache_cluster_size}
   */
   readonly cacheClusterSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#canary_setting ApigatewayStage#canary_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#canary_setting ApigatewayStage#canary_setting}
   */
   readonly canarySetting?: ApigatewayStageCanarySetting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#client_certificate_id ApigatewayStage#client_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#client_certificate_id ApigatewayStage#client_certificate_id}
   */
   readonly clientCertificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#deployment_id ApigatewayStage#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#deployment_id ApigatewayStage#deployment_id}
   */
   readonly deploymentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#description ApigatewayStage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#description ApigatewayStage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#documentation_version ApigatewayStage#documentation_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#documentation_version ApigatewayStage#documentation_version}
   */
   readonly documentationVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#method_settings ApigatewayStage#method_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#method_settings ApigatewayStage#method_settings}
   */
   readonly methodSettings?: ApigatewayStageMethodSettings[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#rest_api_id ApigatewayStage#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#rest_api_id ApigatewayStage#rest_api_id}
   */
   readonly restApiId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#stage_name ApigatewayStage#stage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#stage_name ApigatewayStage#stage_name}
   */
   readonly stageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#tags ApigatewayStage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#tags ApigatewayStage#tags}
   */
   readonly tags?: ApigatewayStageTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#tracing_enabled ApigatewayStage#tracing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#tracing_enabled ApigatewayStage#tracing_enabled}
   */
   readonly tracingEnabled?: boolean | cdktn.IResolvable;
   /**
   * A map (string-to-string map) that defines the stage variables, where the variable name is the key and the variable value is the value. Variable names are limited to alphanumeric characters. Values must match the following regular expression: ``[A-Za-z0-9-._~:/?#&=,]+``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#variables ApigatewayStage#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#variables ApigatewayStage#variables}
   */
   readonly variables?: { [key: string]: string };
 }
@@ -73,13 +73,13 @@ export interface ApigatewayStageAccessLogSetting {
   /**
   * The Amazon Resource Name (ARN) of the CloudWatch Logs log group or Kinesis Data Firehose delivery stream to receive access logs. If you specify a Kinesis Data Firehose delivery stream, the stream name must begin with ``amazon-apigateway-``. This parameter is required to enable access logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#destination_arn ApigatewayStage#destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#destination_arn ApigatewayStage#destination_arn}
   */
   readonly destinationArn?: string;
   /**
   * A single line format of the access logs of data, as specified by selected [$context variables](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html#context-variable-reference). The format must include at least ``$context.requestId``. This parameter is required to enable access logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#format ApigatewayStage#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#format ApigatewayStage#format}
   */
   readonly format?: string;
 }
@@ -202,19 +202,19 @@ export class ApigatewayStageAccessLogSettingOutputReference extends cdktn.Comple
 }
 export interface ApigatewayStageCanarySetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#deployment_id ApigatewayStage#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#deployment_id ApigatewayStage#deployment_id}
   */
   readonly deploymentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#percent_traffic ApigatewayStage#percent_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#percent_traffic ApigatewayStage#percent_traffic}
   */
   readonly percentTraffic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#stage_variable_overrides ApigatewayStage#stage_variable_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#stage_variable_overrides ApigatewayStage#stage_variable_overrides}
   */
   readonly stageVariableOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#use_stage_cache ApigatewayStage#use_stage_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#use_stage_cache ApigatewayStage#use_stage_cache}
   */
   readonly useStageCache?: boolean | cdktn.IResolvable;
 }
@@ -395,47 +395,47 @@ export class ApigatewayStageCanarySettingOutputReference extends cdktn.ComplexOb
 }
 export interface ApigatewayStageMethodSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#cache_data_encrypted ApigatewayStage#cache_data_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#cache_data_encrypted ApigatewayStage#cache_data_encrypted}
   */
   readonly cacheDataEncrypted?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#cache_ttl_in_seconds ApigatewayStage#cache_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#cache_ttl_in_seconds ApigatewayStage#cache_ttl_in_seconds}
   */
   readonly cacheTtlInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#caching_enabled ApigatewayStage#caching_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#caching_enabled ApigatewayStage#caching_enabled}
   */
   readonly cachingEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#data_trace_enabled ApigatewayStage#data_trace_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#data_trace_enabled ApigatewayStage#data_trace_enabled}
   */
   readonly dataTraceEnabled?: boolean | cdktn.IResolvable;
   /**
   * The HTTP method. To apply settings to multiple resources and methods, specify an asterisk (``*``) for the ``HttpMethod`` and ``/*`` for the ``ResourcePath``. This parameter is required when you specify a ``MethodSetting``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#http_method ApigatewayStage#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#http_method ApigatewayStage#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#logging_level ApigatewayStage#logging_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#logging_level ApigatewayStage#logging_level}
   */
   readonly loggingLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#metrics_enabled ApigatewayStage#metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#metrics_enabled ApigatewayStage#metrics_enabled}
   */
   readonly metricsEnabled?: boolean | cdktn.IResolvable;
   /**
   * The resource path for this method. Forward slashes (``/``) are encoded as ``~1`` and the initial slash must include a forward slash. For example, the path value ``/resource/subresource`` must be encoded as ``/~1resource~1subresource``. To specify the root path, use only a slash (``/``). To apply settings to multiple resources and methods, specify an asterisk (``*``) for the ``HttpMethod`` and ``/*`` for the ``ResourcePath``. This parameter is required when you specify a ``MethodSetting``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#resource_path ApigatewayStage#resource_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#resource_path ApigatewayStage#resource_path}
   */
   readonly resourcePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#throttling_burst_limit ApigatewayStage#throttling_burst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#throttling_burst_limit ApigatewayStage#throttling_burst_limit}
   */
   readonly throttlingBurstLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#throttling_rate_limit ApigatewayStage#throttling_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#throttling_rate_limit ApigatewayStage#throttling_rate_limit}
   */
   readonly throttlingRateLimit?: number;
 }
@@ -814,13 +814,13 @@ export interface ApigatewayStageTags {
   /**
   * A string you can use to assign a value. The combination of tag keys and values can help you organize and categorize your resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#key ApigatewayStage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#key ApigatewayStage#key}
   */
   readonly key?: string;
   /**
   * The value for the specified tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#value ApigatewayStage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#value ApigatewayStage#value}
   */
   readonly value?: string;
 }
@@ -965,7 +965,7 @@ export class ApigatewayStageTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage awscc_apigateway_stage}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage awscc_apigateway_stage}
 */
 export class ApigatewayStage extends cdktn.TerraformResource {
 
@@ -981,7 +981,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayStage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayStage to import
-  * @param importFromId The id of the existing ApigatewayStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayStage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayStage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -993,7 +993,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_stage awscc_apigateway_stage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/apigateway_stage awscc_apigateway_stage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1004,7 +1004,7 @@ export class ApigatewayStage extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_stage',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

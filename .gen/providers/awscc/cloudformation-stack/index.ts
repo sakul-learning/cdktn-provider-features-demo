@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktn from 'cdktn';
 
 export interface CloudformationStackConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#capabilities CloudformationStack#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#capabilities CloudformationStack#capabilities}
   */
   readonly capabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#description CloudformationStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#description CloudformationStack#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#disable_rollback CloudformationStack#disable_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#disable_rollback CloudformationStack#disable_rollback}
   */
   readonly disableRollback?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#enable_termination_protection CloudformationStack#enable_termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#enable_termination_protection CloudformationStack#enable_termination_protection}
   */
   readonly enableTerminationProtection?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#notification_ar_ns CloudformationStack#notification_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#notification_ar_ns CloudformationStack#notification_ar_ns}
   */
   readonly notificationArNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#parameters CloudformationStack#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#parameters CloudformationStack#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#role_arn CloudformationStack#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#role_arn CloudformationStack#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#stack_name CloudformationStack#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#stack_name CloudformationStack#stack_name}
   */
   readonly stackName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#stack_policy_body CloudformationStack#stack_policy_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#stack_policy_body CloudformationStack#stack_policy_body}
   */
   readonly stackPolicyBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#stack_policy_url CloudformationStack#stack_policy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#stack_policy_url CloudformationStack#stack_policy_url}
   */
   readonly stackPolicyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#stack_status_reason CloudformationStack#stack_status_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#stack_status_reason CloudformationStack#stack_status_reason}
   */
   readonly stackStatusReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#tags CloudformationStack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#tags CloudformationStack#tags}
   */
   readonly tags?: CloudformationStackTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#template_body CloudformationStack#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#template_body CloudformationStack#template_body}
   */
   readonly templateBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#template_url CloudformationStack#template_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#template_url CloudformationStack#template_url}
   */
   readonly templateUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#timeout_in_minutes CloudformationStack#timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#timeout_in_minutes CloudformationStack#timeout_in_minutes}
   */
   readonly timeoutInMinutes?: number;
 }
@@ -160,11 +160,11 @@ export class CloudformationStackOutputsList extends cdktn.ComplexList {
 }
 export interface CloudformationStackTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#key CloudformationStack#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#key CloudformationStack#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#value CloudformationStack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#value CloudformationStack#value}
   */
   readonly value?: string;
 }
@@ -309,7 +309,7 @@ export class CloudformationStackTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack awscc_cloudformation_stack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack awscc_cloudformation_stack}
 */
 export class CloudformationStack extends cdktn.TerraformResource {
 
@@ -325,7 +325,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationStack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationStack to import
-  * @param importFromId The id of the existing CloudformationStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -337,7 +337,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,7 +348,7 @@ export class CloudformationStack extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_stack',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

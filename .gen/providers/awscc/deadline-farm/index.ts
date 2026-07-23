@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface DeadlineFarmConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#cost_scale_factor DeadlineFarm#cost_scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#cost_scale_factor DeadlineFarm#cost_scale_factor}
   */
   readonly costScaleFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#description DeadlineFarm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#description DeadlineFarm#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#display_name DeadlineFarm#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#display_name DeadlineFarm#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#kms_key_arn DeadlineFarm#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#kms_key_arn DeadlineFarm#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#tags DeadlineFarm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#tags DeadlineFarm#tags}
   */
   readonly tags?: DeadlineFarmTags[] | cdktn.IResolvable;
 }
@@ -34,13 +34,13 @@ export interface DeadlineFarmTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#key DeadlineFarm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#key DeadlineFarm#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#value DeadlineFarm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#value DeadlineFarm#value}
   */
   readonly value?: string;
 }
@@ -185,7 +185,7 @@ export class DeadlineFarmTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm awscc_deadline_farm}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm awscc_deadline_farm}
 */
 export class DeadlineFarm extends cdktn.TerraformResource {
 
@@ -201,7 +201,7 @@ export class DeadlineFarm extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DeadlineFarm resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeadlineFarm to import
-  * @param importFromId The id of the existing DeadlineFarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeadlineFarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeadlineFarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -213,7 +213,7 @@ export class DeadlineFarm extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/deadline_farm awscc_deadline_farm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/deadline_farm awscc_deadline_farm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,7 +224,7 @@ export class DeadlineFarm extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_deadline_farm',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

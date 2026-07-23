@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,63 +10,206 @@ export interface CloudformationLambdaHookConfig extends cdktn.TerraformMetaArgum
   /**
   * The typename alias for the hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
   */
   readonly alias: string;
   /**
+  * Whether to automatically update the extension in this account and Region when a new minor version is published by the extension publisher.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#auto_update CloudformationLambdaHook#auto_update}
+  */
+  readonly autoUpdate?: boolean | cdktn.IResolvable;
+  /**
   * The execution role ARN assumed by Hooks to invoke Lambda.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
   */
   readonly executionRole: string;
   /**
   * Attribute to specify CloudFormation behavior on hook failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
   */
   readonly failureMode: string;
   /**
   * Attribute to specify which stacks this hook applies to or should get invoked for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
   */
   readonly hookStatus?: string;
   /**
   * Amazon Resource Name (ARN), Partial ARN, name, version, or alias of the Lambda function to invoke with this hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
   */
   readonly lambdaFunction: string;
   /**
+  * Contains logging configuration information for the hook.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#logging_config CloudformationLambdaHook#logging_config}
+  */
+  readonly loggingConfig?: CloudformationLambdaHookLoggingConfig;
+  /**
   * Filters to allow hooks to target specific stack attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
   */
   readonly stackFilters?: CloudformationLambdaHookStackFilters;
   /**
   * Attribute to specify which targets should invoke the hook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
   */
   readonly targetFilters?: CloudformationLambdaHookTargetFilters;
   /**
   * Which operations should this Hook run against? Resource changes, stacks or change sets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
   */
   readonly targetOperations: string[];
+}
+export interface CloudformationLambdaHookLoggingConfig {
+  /**
+  * The Amazon CloudWatch Logs group to which CloudFormation sends error logging information when invoking the extension's handlers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#log_group_name CloudformationLambdaHook#log_group_name}
+  */
+  readonly logGroupName?: string;
+  /**
+  * The ARN of the role that CloudFormation should assume when sending log entries to CloudWatch Logs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#log_role_arn CloudformationLambdaHook#log_role_arn}
+  */
+  readonly logRoleArn?: string;
+}
+
+export function cloudformationLambdaHookLoggingConfigToTerraform(struct?: CloudformationLambdaHookLoggingConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    log_group_name: cdktn.stringToTerraform(struct!.logGroupName),
+    log_role_arn: cdktn.stringToTerraform(struct!.logRoleArn),
+  }
+}
+
+
+export function cloudformationLambdaHookLoggingConfigToHclTerraform(struct?: CloudformationLambdaHookLoggingConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    log_group_name: {
+      value: cdktn.stringToHclTerraform(struct!.logGroupName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    log_role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.logRoleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CloudformationLambdaHookLoggingConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): CloudformationLambdaHookLoggingConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._logGroupName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logGroupName = this._logGroupName;
+    }
+    if (this._logRoleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logRoleArn = this._logRoleArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CloudformationLambdaHookLoggingConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._logGroupName = undefined;
+      this._logRoleArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._logGroupName = value.logGroupName;
+      this._logRoleArn = value.logRoleArn;
+    }
+  }
+
+  // log_group_name - computed: true, optional: true, required: false
+  private _logGroupName?: string; 
+  public get logGroupName() {
+    return this.getStringAttribute('log_group_name');
+  }
+  public set logGroupName(value: string) {
+    this._logGroupName = value;
+  }
+  public resetLogGroupName() {
+    this._logGroupName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logGroupNameInput() {
+    return this._logGroupName;
+  }
+
+  // log_role_arn - computed: true, optional: true, required: false
+  private _logRoleArn?: string; 
+  public get logRoleArn() {
+    return this.getStringAttribute('log_role_arn');
+  }
+  public set logRoleArn(value: string) {
+    this._logRoleArn = value;
+  }
+  public resetLogRoleArn() {
+    this._logRoleArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logRoleArnInput() {
+    return this._logRoleArn;
+  }
 }
 export interface CloudformationLambdaHookStackFiltersStackNames {
   /**
   * List of stack names that the hook is going to be excluded from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
   */
   readonly exclude?: string[];
   /**
   * List of stack names that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
   */
   readonly include?: string[];
 }
@@ -191,13 +334,13 @@ export interface CloudformationLambdaHookStackFiltersStackRoles {
   /**
   * List of stack roles that the hook is going to be excluded from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#exclude CloudformationLambdaHook#exclude}
   */
   readonly exclude?: string[];
   /**
   * List of stack roles that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#include CloudformationLambdaHook#include}
   */
   readonly include?: string[];
 }
@@ -322,19 +465,19 @@ export interface CloudformationLambdaHookStackFilters {
   /**
   * Attribute to specify the filtering behavior. ANY will make the Hook pass if one filter matches. ALL will make the Hook pass if all filters match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#filtering_criteria CloudformationLambdaHook#filtering_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#filtering_criteria CloudformationLambdaHook#filtering_criteria}
   */
   readonly filteringCriteria?: string;
   /**
   * List of stack names as filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#stack_names CloudformationLambdaHook#stack_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#stack_names CloudformationLambdaHook#stack_names}
   */
   readonly stackNames?: CloudformationLambdaHookStackFiltersStackNames;
   /**
   * List of stack roles that are performing the stack operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#stack_roles CloudformationLambdaHook#stack_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#stack_roles CloudformationLambdaHook#stack_roles}
   */
   readonly stackRoles?: CloudformationLambdaHookStackFiltersStackRoles;
 }
@@ -488,19 +631,19 @@ export interface CloudformationLambdaHookTargetFiltersTargets {
   /**
   * Target actions are the type of operation hooks will be executed at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#action CloudformationLambdaHook#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#action CloudformationLambdaHook#action}
   */
   readonly action?: string;
   /**
   * Invocation points are the point in provisioning workflow where hooks will be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#invocation_point CloudformationLambdaHook#invocation_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#invocation_point CloudformationLambdaHook#invocation_point}
   */
   readonly invocationPoint?: string;
   /**
   * Type name of hook target. Hook targets are the destination where hooks will be invoked against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#target_name CloudformationLambdaHook#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#target_name CloudformationLambdaHook#target_name}
   */
   readonly targetName?: string;
 }
@@ -676,25 +819,25 @@ export interface CloudformationLambdaHookTargetFilters {
   /**
   * List of actions that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
   */
   readonly actions?: string[];
   /**
   * List of invocation points that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
   */
   readonly invocationPoints?: string[];
   /**
   * List of type names that the hook is going to target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
   */
   readonly targetNames?: string[];
   /**
   * List of hook targets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
   */
   readonly targets?: CloudformationLambdaHookTargetFiltersTargets[] | cdktn.IResolvable;
 }
@@ -875,7 +1018,7 @@ export class CloudformationLambdaHookTargetFiltersOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}
 */
 export class CloudformationLambdaHook extends cdktn.TerraformResource {
 
@@ -891,7 +1034,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationLambdaHook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationLambdaHook to import
-  * @param importFromId The id of the existing CloudformationLambdaHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationLambdaHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationLambdaHook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -903,7 +1046,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -914,7 +1057,7 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_lambda_hook',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -925,10 +1068,12 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._alias = config.alias;
+    this._autoUpdate = config.autoUpdate;
     this._executionRole = config.executionRole;
     this._failureMode = config.failureMode;
     this._hookStatus = config.hookStatus;
     this._lambdaFunction = config.lambdaFunction;
+    this._loggingConfig.internalValue = config.loggingConfig;
     this._stackFilters.internalValue = config.stackFilters;
     this._targetFilters.internalValue = config.targetFilters;
     this._targetOperations = config.targetOperations;
@@ -949,6 +1094,22 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get aliasInput() {
     return this._alias;
+  }
+
+  // auto_update - computed: true, optional: true, required: false
+  private _autoUpdate?: boolean | cdktn.IResolvable; 
+  public get autoUpdate() {
+    return this.getBooleanAttribute('auto_update');
+  }
+  public set autoUpdate(value: boolean | cdktn.IResolvable) {
+    this._autoUpdate = value;
+  }
+  public resetAutoUpdate() {
+    this._autoUpdate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoUpdateInput() {
+    return this._autoUpdate;
   }
 
   // execution_role - computed: false, optional: false, required: true
@@ -1016,6 +1177,22 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
     return this._lambdaFunction;
   }
 
+  // logging_config - computed: true, optional: true, required: false
+  private _loggingConfig = new CloudformationLambdaHookLoggingConfigOutputReference(this, "logging_config");
+  public get loggingConfig() {
+    return this._loggingConfig;
+  }
+  public putLoggingConfig(value: CloudformationLambdaHookLoggingConfig) {
+    this._loggingConfig.internalValue = value;
+  }
+  public resetLoggingConfig() {
+    this._loggingConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loggingConfigInput() {
+    return this._loggingConfig.internalValue;
+  }
+
   // stack_filters - computed: true, optional: true, required: false
   private _stackFilters = new CloudformationLambdaHookStackFiltersOutputReference(this, "stack_filters");
   public get stackFilters() {
@@ -1068,10 +1245,12 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       alias: cdktn.stringToTerraform(this._alias),
+      auto_update: cdktn.booleanToTerraform(this._autoUpdate),
       execution_role: cdktn.stringToTerraform(this._executionRole),
       failure_mode: cdktn.stringToTerraform(this._failureMode),
       hook_status: cdktn.stringToTerraform(this._hookStatus),
       lambda_function: cdktn.stringToTerraform(this._lambdaFunction),
+      logging_config: cloudformationLambdaHookLoggingConfigToTerraform(this._loggingConfig.internalValue),
       stack_filters: cloudformationLambdaHookStackFiltersToTerraform(this._stackFilters.internalValue),
       target_filters: cloudformationLambdaHookTargetFiltersToTerraform(this._targetFilters.internalValue),
       target_operations: cdktn.listMapper(cdktn.stringToTerraform, false)(this._targetOperations),
@@ -1085,6 +1264,12 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      auto_update: {
+        value: cdktn.booleanToHclTerraform(this._autoUpdate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       execution_role: {
         value: cdktn.stringToHclTerraform(this._executionRole),
@@ -1109,6 +1294,12 @@ export class CloudformationLambdaHook extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      logging_config: {
+        value: cloudformationLambdaHookLoggingConfigToHclTerraform(this._loggingConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "CloudformationLambdaHookLoggingConfig",
       },
       stack_filters: {
         value: cloudformationLambdaHookStackFiltersToHclTerraform(this._stackFilters.internalValue),

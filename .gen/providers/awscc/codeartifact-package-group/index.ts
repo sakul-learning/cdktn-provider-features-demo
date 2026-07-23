@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CodeartifactPackageGroupConfig extends cdktn.TerraformMetaArgum
   /**
   * The contact info of the package group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#contact_info CodeartifactPackageGroup#contact_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#contact_info CodeartifactPackageGroup#contact_info}
   */
   readonly contactInfo?: string;
   /**
   * The text description of the package group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#description CodeartifactPackageGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#description CodeartifactPackageGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the domain that contains the package group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#domain_name CodeartifactPackageGroup#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#domain_name CodeartifactPackageGroup#domain_name}
   */
   readonly domainName: string;
   /**
   * The 12-digit account ID of the AWS account that owns the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#domain_owner CodeartifactPackageGroup#domain_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#domain_owner CodeartifactPackageGroup#domain_owner}
   */
   readonly domainOwner?: string;
   /**
   * The package origin configuration of the package group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#origin_configuration CodeartifactPackageGroup#origin_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#origin_configuration CodeartifactPackageGroup#origin_configuration}
   */
   readonly originConfiguration?: CodeartifactPackageGroupOriginConfiguration;
   /**
   * The package group pattern that is used to gather packages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#pattern CodeartifactPackageGroup#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#pattern CodeartifactPackageGroup#pattern}
   */
   readonly pattern: string;
   /**
   * An array of key-value pairs to apply to the package group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#tags CodeartifactPackageGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#tags CodeartifactPackageGroup#tags}
   */
   readonly tags?: CodeartifactPackageGroupTags[] | cdktn.IResolvable;
 }
 export interface CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}
   */
   readonly repositories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}
   */
   readonly restrictionMode?: string;
 }
@@ -179,11 +179,11 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpst
 }
 export interface CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}
   */
   readonly repositories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}
   */
   readonly restrictionMode?: string;
 }
@@ -306,11 +306,11 @@ export class CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpst
 }
 export interface CodeartifactPackageGroupOriginConfigurationRestrictionsPublish {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#repositories CodeartifactPackageGroup#repositories}
   */
   readonly repositories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#restriction_mode CodeartifactPackageGroup#restriction_mode}
   */
   readonly restrictionMode?: string;
 }
@@ -435,19 +435,19 @@ export interface CodeartifactPackageGroupOriginConfigurationRestrictions {
   /**
   * The external upstream restriction determines if new package versions can be ingested or retained from external connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#external_upstream CodeartifactPackageGroup#external_upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#external_upstream CodeartifactPackageGroup#external_upstream}
   */
   readonly externalUpstream?: CodeartifactPackageGroupOriginConfigurationRestrictionsExternalUpstream;
   /**
   * The internal upstream restriction determines if new package versions can be ingested or retained from upstream repositories.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#internal_upstream CodeartifactPackageGroup#internal_upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#internal_upstream CodeartifactPackageGroup#internal_upstream}
   */
   readonly internalUpstream?: CodeartifactPackageGroupOriginConfigurationRestrictionsInternalUpstream;
   /**
   * The publish restriction determines if new package versions can be published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#publish CodeartifactPackageGroup#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#publish CodeartifactPackageGroup#publish}
   */
   readonly publish?: CodeartifactPackageGroupOriginConfigurationRestrictionsPublish;
 }
@@ -601,7 +601,7 @@ export interface CodeartifactPackageGroupOriginConfiguration {
   /**
   * The origin configuration that is applied to the package group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#restrictions CodeartifactPackageGroup#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#restrictions CodeartifactPackageGroup#restrictions}
   */
   readonly restrictions?: CodeartifactPackageGroupOriginConfigurationRestrictions;
 }
@@ -697,13 +697,13 @@ export interface CodeartifactPackageGroupTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#key CodeartifactPackageGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#key CodeartifactPackageGroup#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#value CodeartifactPackageGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#value CodeartifactPackageGroup#value}
   */
   readonly value?: string;
 }
@@ -848,7 +848,7 @@ export class CodeartifactPackageGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group}
 */
 export class CodeartifactPackageGroup extends cdktn.TerraformResource {
 
@@ -864,7 +864,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CodeartifactPackageGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CodeartifactPackageGroup to import
-  * @param importFromId The id of the existing CodeartifactPackageGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CodeartifactPackageGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CodeartifactPackageGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -876,7 +876,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -887,7 +887,7 @@ export class CodeartifactPackageGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_codeartifact_package_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

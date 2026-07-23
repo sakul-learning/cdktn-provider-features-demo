@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Route53RecoverycontrolClusterConfig extends cdktn.TerraformMeta
   /**
   * Name of a Cluster. You can use any non-white space character in the name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster#name Route53RecoverycontrolCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster#name Route53RecoverycontrolCluster#name}
   */
   readonly name: string;
   /**
   * Cluster supports IPv4 endpoints and Dual-stack IPv4 and IPv6 endpoints. NetworkType can be IPV4 or DUALSTACK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster#network_type Route53RecoverycontrolCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster#network_type Route53RecoverycontrolCluster#network_type}
   */
   readonly networkType?: string;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster#tags Route53RecoverycontrolCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster#tags Route53RecoverycontrolCluster#tags}
   */
   readonly tags?: Route53RecoverycontrolClusterTags[] | cdktn.IResolvable;
 }
@@ -108,11 +108,11 @@ export class Route53RecoverycontrolClusterClusterEndpointsList extends cdktn.Com
 }
 export interface Route53RecoverycontrolClusterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster#key Route53RecoverycontrolCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster#key Route53RecoverycontrolCluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster#value Route53RecoverycontrolCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster#value Route53RecoverycontrolCluster#value}
   */
   readonly value?: string;
 }
@@ -257,7 +257,7 @@ export class Route53RecoverycontrolClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster}
 */
 export class Route53RecoverycontrolCluster extends cdktn.TerraformResource {
 
@@ -273,7 +273,7 @@ export class Route53RecoverycontrolCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53RecoverycontrolCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecoverycontrolCluster to import
-  * @param importFromId The id of the existing Route53RecoverycontrolCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecoverycontrolCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecoverycontrolCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -285,7 +285,7 @@ export class Route53RecoverycontrolCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,7 +296,7 @@ export class Route53RecoverycontrolCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53recoverycontrol_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface MediaconnectBridgeOutputConfig extends cdktn.TerraformMetaArgum
   /**
   * The Amazon Resource Number (ARN) of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
   */
   readonly bridgeArn: string;
   /**
   * The network output name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
   */
   readonly name: string;
   /**
   * The output of the bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
   */
   readonly networkOutput: MediaconnectBridgeOutputNetworkOutput;
 }
@@ -30,31 +30,31 @@ export interface MediaconnectBridgeOutputNetworkOutput {
   /**
   * The network output IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#ip_address MediaconnectBridgeOutput#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#ip_address MediaconnectBridgeOutput#ip_address}
   */
   readonly ipAddress: string;
   /**
   * The network output's gateway network name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#network_name MediaconnectBridgeOutput#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#network_name MediaconnectBridgeOutput#network_name}
   */
   readonly networkName: string;
   /**
   * The network output port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#port MediaconnectBridgeOutput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#port MediaconnectBridgeOutput#port}
   */
   readonly port: number;
   /**
   * The network output protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#protocol MediaconnectBridgeOutput#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#protocol MediaconnectBridgeOutput#protocol}
   */
   readonly protocol: string;
   /**
   * The network output TTL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#ttl MediaconnectBridgeOutput#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#ttl MediaconnectBridgeOutput#ttl}
   */
   readonly ttl: number;
 }
@@ -249,7 +249,7 @@ export class MediaconnectBridgeOutputNetworkOutputOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}
 */
 export class MediaconnectBridgeOutput extends cdktn.TerraformResource {
 
@@ -265,7 +265,7 @@ export class MediaconnectBridgeOutput extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconnectBridgeOutput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectBridgeOutput to import
-  * @param importFromId The id of the existing MediaconnectBridgeOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectBridgeOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectBridgeOutput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -277,7 +277,7 @@ export class MediaconnectBridgeOutput extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,7 +288,7 @@ export class MediaconnectBridgeOutput extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconnect_bridge_output',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

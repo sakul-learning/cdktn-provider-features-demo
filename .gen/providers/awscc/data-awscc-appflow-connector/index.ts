@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/appflow_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/appflow_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccAppflowConnectorConfig extends cdktn.TerraformMetaArgu
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/appflow_connector#id DataAwsccAppflowConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/appflow_connector#id DataAwsccAppflowConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -128,7 +128,7 @@ export class DataAwsccAppflowConnectorConnectorProvisioningConfigOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/appflow_connector awscc_appflow_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/appflow_connector awscc_appflow_connector}
 */
 export class DataAwsccAppflowConnector extends cdktn.TerraformDataSource {
 
@@ -144,7 +144,7 @@ export class DataAwsccAppflowConnector extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccAppflowConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccAppflowConnector to import
-  * @param importFromId The id of the existing DataAwsccAppflowConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/appflow_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccAppflowConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/appflow_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccAppflowConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -156,7 +156,7 @@ export class DataAwsccAppflowConnector extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/appflow_connector awscc_appflow_connector} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/appflow_connector awscc_appflow_connector} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -167,7 +167,7 @@ export class DataAwsccAppflowConnector extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_appflow_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

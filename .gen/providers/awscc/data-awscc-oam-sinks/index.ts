@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/oam_sinks
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/oam_sinks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccOamSinksConfig extends cdktn.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/oam_sinks awscc_oam_sinks}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/oam_sinks awscc_oam_sinks}
 */
 export class DataAwsccOamSinks extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccOamSinks extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccOamSinks resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccOamSinks to import
-  * @param importFromId The id of the existing DataAwsccOamSinks that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/oam_sinks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccOamSinks that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/oam_sinks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccOamSinks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccOamSinks extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/oam_sinks awscc_oam_sinks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/oam_sinks awscc_oam_sinks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccOamSinks extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_oam_sinks',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

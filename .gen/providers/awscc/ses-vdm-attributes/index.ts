@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SesVdmAttributesConfig extends cdktn.TerraformMetaArguments {
   /**
   * Preferences regarding the Dashboard feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes#dashboard_attributes SesVdmAttributes#dashboard_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes#dashboard_attributes SesVdmAttributes#dashboard_attributes}
   */
   readonly dashboardAttributes?: SesVdmAttributesDashboardAttributes;
   /**
   * Preferences regarding the Guardian feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes#guardian_attributes SesVdmAttributes#guardian_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes#guardian_attributes SesVdmAttributes#guardian_attributes}
   */
   readonly guardianAttributes?: SesVdmAttributesGuardianAttributes;
 }
@@ -24,7 +24,7 @@ export interface SesVdmAttributesDashboardAttributes {
   /**
   * Whether emails sent from this account have engagement tracking enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes#engagement_metrics SesVdmAttributes#engagement_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes#engagement_metrics SesVdmAttributes#engagement_metrics}
   */
   readonly engagementMetrics?: string;
 }
@@ -120,7 +120,7 @@ export interface SesVdmAttributesGuardianAttributes {
   /**
   * Whether emails sent from this account have optimized delivery algorithm enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes#optimized_shared_delivery SesVdmAttributes#optimized_shared_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes#optimized_shared_delivery SesVdmAttributes#optimized_shared_delivery}
   */
   readonly optimizedSharedDelivery?: string;
 }
@@ -214,7 +214,7 @@ export class SesVdmAttributesGuardianAttributesOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}
 */
 export class SesVdmAttributes extends cdktn.TerraformResource {
 
@@ -230,7 +230,7 @@ export class SesVdmAttributes extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesVdmAttributes resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesVdmAttributes to import
-  * @param importFromId The id of the existing SesVdmAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesVdmAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesVdmAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -242,7 +242,7 @@ export class SesVdmAttributes extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,7 +253,7 @@ export class SesVdmAttributes extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_vdm_attributes',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

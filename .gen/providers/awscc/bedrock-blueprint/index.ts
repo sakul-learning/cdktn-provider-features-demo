@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BedrockBlueprintConfig extends cdktn.TerraformMetaArguments {
   /**
   * Name of the Blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#blueprint_name BedrockBlueprint#blueprint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#blueprint_name BedrockBlueprint#blueprint_name}
   */
   readonly blueprintName: string;
   /**
   * KMS encryption context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#kms_encryption_context BedrockBlueprint#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#kms_encryption_context BedrockBlueprint#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
   * KMS key identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#kms_key_id BedrockBlueprint#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#kms_key_id BedrockBlueprint#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Schema of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#schema BedrockBlueprint#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#schema BedrockBlueprint#schema}
   */
   readonly schema: string;
   /**
   * List of Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#tags BedrockBlueprint#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#tags BedrockBlueprint#tags}
   */
   readonly tags?: BedrockBlueprintTags[] | cdktn.IResolvable;
   /**
   * Modality Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#type BedrockBlueprint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#type BedrockBlueprint#type}
   */
   readonly type: string;
 }
@@ -48,13 +48,13 @@ export interface BedrockBlueprintTags {
   /**
   * Key for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#key BedrockBlueprint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#key BedrockBlueprint#key}
   */
   readonly key?: string;
   /**
   * Value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#value BedrockBlueprint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#value BedrockBlueprint#value}
   */
   readonly value?: string;
 }
@@ -199,7 +199,7 @@ export class BedrockBlueprintTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}
 */
 export class BedrockBlueprint extends cdktn.TerraformResource {
 
@@ -215,7 +215,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockBlueprint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockBlueprint to import
-  * @param importFromId The id of the existing BedrockBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -227,7 +227,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,7 +238,7 @@ export class BedrockBlueprint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrock_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

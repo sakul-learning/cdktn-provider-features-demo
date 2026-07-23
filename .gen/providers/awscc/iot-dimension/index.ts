@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface IotDimensionConfig extends cdktn.TerraformMetaArguments {
   /**
   * A unique identifier for the dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension#name IotDimension#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension#name IotDimension#name}
   */
   readonly name?: string;
   /**
   * Specifies the value or list of values for the dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension#string_values IotDimension#string_values}
   */
   readonly stringValues: string[];
   /**
   * Metadata that can be used to manage the dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension#tags IotDimension#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension#tags IotDimension#tags}
   */
   readonly tags?: IotDimensionTags[] | cdktn.IResolvable;
   /**
   * Specifies the type of the dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension#type IotDimension#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension#type IotDimension#type}
   */
   readonly type: string;
 }
@@ -36,13 +36,13 @@ export interface IotDimensionTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension#key IotDimension#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension#key IotDimension#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension#value IotDimension#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension#value IotDimension#value}
   */
   readonly value?: string;
 }
@@ -187,7 +187,7 @@ export class IotDimensionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension awscc_iot_dimension}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension awscc_iot_dimension}
 */
 export class IotDimension extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class IotDimension extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotDimension resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotDimension to import
-  * @param importFromId The id of the existing IotDimension that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotDimension that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotDimension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class IotDimension extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iot_dimension awscc_iot_dimension} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/iot_dimension awscc_iot_dimension} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class IotDimension extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_dimension',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

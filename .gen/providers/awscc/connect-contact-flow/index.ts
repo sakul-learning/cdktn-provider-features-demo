@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ConnectContactFlowConfig extends cdktn.TerraformMetaArguments {
   /**
   * The content of the contact flow in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#content ConnectContactFlow#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#content ConnectContactFlow#content}
   */
   readonly content: string;
   /**
   * The description of the contact flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#description ConnectContactFlow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#description ConnectContactFlow#description}
   */
   readonly description?: string;
   /**
   * The identifier of the Amazon Connect instance (ARN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#instance_arn ConnectContactFlow#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#instance_arn ConnectContactFlow#instance_arn}
   */
   readonly instanceArn: string;
   /**
   * The name of the contact flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#name ConnectContactFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#name ConnectContactFlow#name}
   */
   readonly name: string;
   /**
   * The state of the contact flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#state ConnectContactFlow#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#state ConnectContactFlow#state}
   */
   readonly state?: string;
   /**
   * One or more tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#tags ConnectContactFlow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#tags ConnectContactFlow#tags}
   */
   readonly tags?: ConnectContactFlowTags[] | cdktn.IResolvable;
   /**
   * The type of the contact flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#type ConnectContactFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#type ConnectContactFlow#type}
   */
   readonly type: string;
 }
@@ -54,13 +54,13 @@ export interface ConnectContactFlowTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#key ConnectContactFlow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#key ConnectContactFlow#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. . You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#value ConnectContactFlow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#value ConnectContactFlow#value}
   */
   readonly value?: string;
 }
@@ -205,7 +205,7 @@ export class ConnectContactFlowTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}
 */
 export class ConnectContactFlow extends cdktn.TerraformResource {
 
@@ -221,7 +221,7 @@ export class ConnectContactFlow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectContactFlow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectContactFlow to import
-  * @param importFromId The id of the existing ConnectContactFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectContactFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectContactFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -233,7 +233,7 @@ export class ConnectContactFlow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow awscc_connect_contact_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_contact_flow awscc_connect_contact_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,7 +244,7 @@ export class ConnectContactFlow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_contact_flow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

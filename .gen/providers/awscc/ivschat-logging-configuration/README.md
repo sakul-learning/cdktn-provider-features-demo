@@ -1,3 +1,3 @@
 # `awscc_ivschat_logging_configuration`
 
-Refer to the Terraform Registry for docs: [`awscc_ivschat_logging_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_logging_configuration).
+Refer to the Terraform Registry for docs: [`awscc_ivschat_logging_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ivschat_logging_configuration).

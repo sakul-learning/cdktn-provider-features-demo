@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iot_commands
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iot_commands
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccIotCommandsConfig extends cdktn.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iot_commands awscc_iot_commands}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iot_commands awscc_iot_commands}
 */
 export class DataAwsccIotCommands extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccIotCommands extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccIotCommands resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccIotCommands to import
-  * @param importFromId The id of the existing DataAwsccIotCommands that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iot_commands#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccIotCommands that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iot_commands#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccIotCommands to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccIotCommands extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/iot_commands awscc_iot_commands} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/iot_commands awscc_iot_commands} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccIotCommands extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_iot_commands',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

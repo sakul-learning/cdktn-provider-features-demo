@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_publisher
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_publisher
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CloudformationPublisherConfig extends cdktn.TerraformMetaArgume
   /**
   * Whether you accept the terms and conditions for publishing extensions in the CloudFormation registry. You must accept the terms and conditions in order to publish public extensions to the CloudFormation registry. The terms and conditions can be found at https://cloudformation-registry-documents.s3.amazonaws.com/Terms_and_Conditions_for_AWS_CloudFormation_Registry_Publishers.pdf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_publisher#accept_terms_and_conditions CloudformationPublisher#accept_terms_and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_publisher#accept_terms_and_conditions CloudformationPublisher#accept_terms_and_conditions}
   */
   readonly acceptTermsAndConditions: boolean | cdktn.IResolvable;
   /**
   * If you are using a Bitbucket or GitHub account for identity verification, the Amazon Resource Name (ARN) for your connection to that account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_publisher#connection_arn CloudformationPublisher#connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_publisher#connection_arn CloudformationPublisher#connection_arn}
   */
   readonly connectionArn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher}
 */
 export class CloudformationPublisher extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class CloudformationPublisher extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationPublisher resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationPublisher to import
-  * @param importFromId The id of the existing CloudformationPublisher that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_publisher#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationPublisher that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_publisher#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationPublisher to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class CloudformationPublisher extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudformation_publisher awscc_cloudformation_publisher} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class CloudformationPublisher extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_publisher',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

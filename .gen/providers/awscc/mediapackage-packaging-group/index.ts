@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MediapackagePackagingGroupConfig extends cdktn.TerraformMetaArg
   /**
   * CDN Authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#authorization MediapackagePackagingGroup#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#authorization MediapackagePackagingGroup#authorization}
   */
   readonly authorization?: MediapackagePackagingGroupAuthorization;
   /**
   * The configuration parameters for egress access logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#egress_access_logs MediapackagePackagingGroup#egress_access_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#egress_access_logs MediapackagePackagingGroup#egress_access_logs}
   */
   readonly egressAccessLogs?: MediapackagePackagingGroupEgressAccessLogs;
   /**
   * The ID of the PackagingGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#packaging_group_id MediapackagePackagingGroup#packaging_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#packaging_group_id MediapackagePackagingGroup#packaging_group_id}
   */
   readonly packagingGroupId: string;
   /**
   * A collection of tags associated with a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#tags MediapackagePackagingGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#tags MediapackagePackagingGroup#tags}
   */
   readonly tags?: MediapackagePackagingGroupTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface MediapackagePackagingGroupAuthorization {
   /**
   * The Amazon Resource Name (ARN) for the secret in AWS Secrets Manager that is used for CDN authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#cdn_identifier_secret MediapackagePackagingGroup#cdn_identifier_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#cdn_identifier_secret MediapackagePackagingGroup#cdn_identifier_secret}
   */
   readonly cdnIdentifierSecret?: string;
   /**
   * The Amazon Resource Name (ARN) for the IAM role that allows MediaPackage to communicate with AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#secrets_role_arn MediapackagePackagingGroup#secrets_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#secrets_role_arn MediapackagePackagingGroup#secrets_role_arn}
   */
   readonly secretsRoleArn?: string;
 }
@@ -167,7 +167,7 @@ export interface MediapackagePackagingGroupEgressAccessLogs {
   /**
   * Sets a custom AWS CloudWatch log group name for egress logs. If a log group name isn't specified, the default name is used: /aws/MediaPackage/VodEgressAccessLogs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#log_group_name MediapackagePackagingGroup#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#log_group_name MediapackagePackagingGroup#log_group_name}
   */
   readonly logGroupName?: string;
 }
@@ -261,11 +261,11 @@ export class MediapackagePackagingGroupEgressAccessLogsOutputReference extends c
 }
 export interface MediapackagePackagingGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#key MediapackagePackagingGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#key MediapackagePackagingGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#value MediapackagePackagingGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#value MediapackagePackagingGroup#value}
   */
   readonly value?: string;
 }
@@ -410,7 +410,7 @@ export class MediapackagePackagingGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}
 */
 export class MediapackagePackagingGroup extends cdktn.TerraformResource {
 
@@ -426,7 +426,7 @@ export class MediapackagePackagingGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediapackagePackagingGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediapackagePackagingGroup to import
-  * @param importFromId The id of the existing MediapackagePackagingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediapackagePackagingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediapackagePackagingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -438,7 +438,7 @@ export class MediapackagePackagingGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -449,7 +449,7 @@ export class MediapackagePackagingGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediapackage_packaging_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

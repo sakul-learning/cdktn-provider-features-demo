@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CloudfrontKeyValueStoreConfig extends cdktn.TerraformMetaArgume
   /**
   * A comment to describe the Key Value Store. Omitting ``Comment`` from the template during updates will clear the existing comment (set to empty string). To preserve an existing comment, you must explicitly include it in the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
   */
   readonly comment?: string;
   /**
   * The import source for the key value store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
   */
   readonly importSource?: CloudfrontKeyValueStoreImportSource;
   /**
   * The name of the key value store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
   */
   readonly name: string;
   /**
   * A complex type that contains zero or more ``Tag`` elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
   */
   readonly tags?: CloudfrontKeyValueStoreTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface CloudfrontKeyValueStoreImportSource {
   /**
   * The Amazon Resource Name (ARN) of the import source for the key value store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#source_arn CloudfrontKeyValueStore#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#source_arn CloudfrontKeyValueStore#source_arn}
   */
   readonly sourceArn?: string;
   /**
   * The source type of the import source for the key value store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#source_type CloudfrontKeyValueStore#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#source_type CloudfrontKeyValueStore#source_type}
   */
   readonly sourceType?: string;
 }
@@ -168,14 +168,14 @@ export interface CloudfrontKeyValueStoreTags {
   * A string that contains ``Tag`` key.
   *  The string length should be between 1 and 128 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#key CloudfrontKeyValueStore#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#key CloudfrontKeyValueStore#key}
   */
   readonly key?: string;
   /**
   * A string that contains an optional ``Tag`` value.
   *  The string length should be between 0 and 256 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#value CloudfrontKeyValueStore#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#value CloudfrontKeyValueStore#value}
   */
   readonly value?: string;
 }
@@ -320,7 +320,7 @@ export class CloudfrontKeyValueStoreTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}
 */
 export class CloudfrontKeyValueStore extends cdktn.TerraformResource {
 
@@ -336,7 +336,7 @@ export class CloudfrontKeyValueStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontKeyValueStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontKeyValueStore to import
-  * @param importFromId The id of the existing CloudfrontKeyValueStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontKeyValueStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontKeyValueStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -348,7 +348,7 @@ export class CloudfrontKeyValueStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,7 +359,7 @@ export class CloudfrontKeyValueStore extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_key_value_store',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

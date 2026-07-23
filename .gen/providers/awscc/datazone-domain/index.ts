@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DatazoneDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description of the Amazon DataZone domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#description DatazoneDomain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#description DatazoneDomain#description}
   */
   readonly description?: string;
   /**
   * The domain execution role that is created when an Amazon DataZone domain is created. The domain execution role is created in the AWS account that houses the Amazon DataZone domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#domain_execution_role DatazoneDomain#domain_execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#domain_execution_role DatazoneDomain#domain_execution_role}
   */
   readonly domainExecutionRole?: string;
   /**
   * The version of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#domain_version DatazoneDomain#domain_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#domain_version DatazoneDomain#domain_version}
   */
   readonly domainVersion?: string;
   /**
   * The identifier of the AWS Key Management Service (KMS) key that is used to encrypt the Amazon DataZone domain, metadata, and reporting data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#kms_key_identifier DatazoneDomain#kms_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#kms_key_identifier DatazoneDomain#kms_key_identifier}
   */
   readonly kmsKeyIdentifier?: string;
   /**
   * The name of the Amazon DataZone domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#name DatazoneDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#name DatazoneDomain#name}
   */
   readonly name: string;
   /**
   * The service role of the domain that is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#service_role DatazoneDomain#service_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#service_role DatazoneDomain#service_role}
   */
   readonly serviceRole?: string;
   /**
   * The single-sign on configuration of the Amazon DataZone domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#single_sign_on DatazoneDomain#single_sign_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#single_sign_on DatazoneDomain#single_sign_on}
   */
   readonly singleSignOn?: DatazoneDomainSingleSignOn;
   /**
   * The tags specified for the Amazon DataZone domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#tags DatazoneDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#tags DatazoneDomain#tags}
   */
   readonly tags?: DatazoneDomainTags[] | cdktn.IResolvable;
 }
@@ -60,19 +60,19 @@ export interface DatazoneDomainSingleSignOn {
   /**
   * The ARN of the AWS Identity Center instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#idc_instance_arn DatazoneDomain#idc_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#idc_instance_arn DatazoneDomain#idc_instance_arn}
   */
   readonly idcInstanceArn?: string;
   /**
   * The type of single sign-on in Amazon DataZone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#type DatazoneDomain#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#type DatazoneDomain#type}
   */
   readonly type?: string;
   /**
   * The single sign-on user assignment in Amazon DataZone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#user_assignment DatazoneDomain#user_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#user_assignment DatazoneDomain#user_assignment}
   */
   readonly userAssignment?: string;
 }
@@ -226,13 +226,13 @@ export interface DatazoneDomainTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#key DatazoneDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#key DatazoneDomain#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#value DatazoneDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#value DatazoneDomain#value}
   */
   readonly value?: string;
 }
@@ -377,7 +377,7 @@ export class DatazoneDomainTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain awscc_datazone_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain awscc_datazone_domain}
 */
 export class DatazoneDomain extends cdktn.TerraformResource {
 
@@ -393,7 +393,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneDomain to import
-  * @param importFromId The id of the existing DatazoneDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -405,7 +405,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_domain awscc_datazone_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/datazone_domain awscc_datazone_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,7 +416,7 @@ export class DatazoneDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

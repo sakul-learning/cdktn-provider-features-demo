@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool
+// https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktn from 'cdktn';
 
 export interface DevicefarmDevicePoolConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#description DevicefarmDevicePool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#description DevicefarmDevicePool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#id DevicefarmDevicePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#id DevicefarmDevicePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#max_devices DevicefarmDevicePool#max_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#max_devices DevicefarmDevicePool#max_devices}
   */
   readonly maxDevices?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#name DevicefarmDevicePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#name DevicefarmDevicePool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#project_arn DevicefarmDevicePool#project_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#project_arn DevicefarmDevicePool#project_arn}
   */
   readonly projectArn: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#region DevicefarmDevicePool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#region DevicefarmDevicePool#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#tags DevicefarmDevicePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#tags DevicefarmDevicePool#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#tags_all DevicefarmDevicePool#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#tags_all DevicefarmDevicePool#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#rule DevicefarmDevicePool#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#rule DevicefarmDevicePool#rule}
   */
   readonly rule: DevicefarmDevicePoolRule[] | cdktn.IResolvable;
 }
 export interface DevicefarmDevicePoolRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#attribute DevicefarmDevicePool#attribute}
   */
   readonly attribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#operator DevicefarmDevicePool#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#value DevicefarmDevicePool#value}
   */
   readonly value?: string;
 }
@@ -235,7 +235,7 @@ export class DevicefarmDevicePoolRuleList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool}
 */
 export class DevicefarmDevicePool extends cdktn.TerraformResource {
 
@@ -251,7 +251,7 @@ export class DevicefarmDevicePool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevicefarmDevicePool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevicefarmDevicePool to import
-  * @param importFromId The id of the existing DevicefarmDevicePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevicefarmDevicePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevicefarmDevicePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -263,7 +263,7 @@ export class DevicefarmDevicePool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -274,7 +274,7 @@ export class DevicefarmDevicePool extends cdktn.TerraformResource {
       terraformResourceType: 'aws_devicefarm_device_pool',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.55.0'
+        providerVersion: '6.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

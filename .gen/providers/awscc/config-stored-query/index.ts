@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface ConfigStoredQueryConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}
   */
   readonly queryDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}
   */
   readonly queryExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}
   */
   readonly queryName: string;
   /**
   * The tags for the stored query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
   */
   readonly tags?: ConfigStoredQueryTags[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface ConfigStoredQueryTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query#key ConfigStoredQuery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query#key ConfigStoredQuery#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query#value ConfigStoredQuery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query#value ConfigStoredQuery#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class ConfigStoredQueryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query awscc_config_stored_query}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query awscc_config_stored_query}
 */
 export class ConfigStoredQuery extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class ConfigStoredQuery extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigStoredQuery resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigStoredQuery to import
-  * @param importFromId The id of the existing ConfigStoredQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigStoredQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigStoredQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class ConfigStoredQuery extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/config_stored_query awscc_config_stored_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/config_stored_query awscc_config_stored_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class ConfigStoredQuery extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_config_stored_query',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

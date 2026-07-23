@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktn from 'cdktn';
 
 export interface SystemsmanagersapApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#application_id SystemsmanagersapApplication#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#application_id SystemsmanagersapApplication#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#application_type SystemsmanagersapApplication#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#application_type SystemsmanagersapApplication#application_type}
   */
   readonly applicationType: string;
   /**
   * This is an optional parameter for component details to which the SAP ABAP application is attached, such as Web Dispatcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#components_info SystemsmanagersapApplication#components_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#components_info SystemsmanagersapApplication#components_info}
   */
   readonly componentsInfo?: SystemsmanagersapApplicationComponentsInfo[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#credentials SystemsmanagersapApplication#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#credentials SystemsmanagersapApplication#credentials}
   */
   readonly credentials?: SystemsmanagersapApplicationCredentials[] | cdktn.IResolvable;
   /**
   * The ARN of the SAP HANA database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#database_arn SystemsmanagersapApplication#database_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#database_arn SystemsmanagersapApplication#database_arn}
   */
   readonly databaseArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#instances SystemsmanagersapApplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#instances SystemsmanagersapApplication#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#sap_instance_number SystemsmanagersapApplication#sap_instance_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#sap_instance_number SystemsmanagersapApplication#sap_instance_number}
   */
   readonly sapInstanceNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}
   */
   readonly sid?: string;
   /**
   * The tags of a SystemsManagerSAP application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#tags SystemsmanagersapApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#tags SystemsmanagersapApplication#tags}
   */
   readonly tags?: SystemsmanagersapApplicationTags[] | cdktn.IResolvable;
 }
 export interface SystemsmanagersapApplicationComponentsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#component_type SystemsmanagersapApplication#component_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#component_type SystemsmanagersapApplication#component_type}
   */
   readonly componentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#ec_2_instance_id SystemsmanagersapApplication#ec_2_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#ec_2_instance_id SystemsmanagersapApplication#ec_2_instance_id}
   */
   readonly ec2InstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#sid SystemsmanagersapApplication#sid}
   */
   readonly sid?: string;
 }
@@ -234,15 +234,15 @@ export class SystemsmanagersapApplicationComponentsInfoList extends cdktn.Comple
 }
 export interface SystemsmanagersapApplicationCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#credential_type SystemsmanagersapApplication#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#credential_type SystemsmanagersapApplication#credential_type}
   */
   readonly credentialType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#database_name SystemsmanagersapApplication#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#database_name SystemsmanagersapApplication#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#secret_id SystemsmanagersapApplication#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#secret_id SystemsmanagersapApplication#secret_id}
   */
   readonly secretId?: string;
 }
@@ -418,13 +418,13 @@ export interface SystemsmanagersapApplicationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#key SystemsmanagersapApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#key SystemsmanagersapApplication#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#value SystemsmanagersapApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#value SystemsmanagersapApplication#value}
   */
   readonly value?: string;
 }
@@ -569,7 +569,7 @@ export class SystemsmanagersapApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application awscc_systemsmanagersap_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application awscc_systemsmanagersap_application}
 */
 export class SystemsmanagersapApplication extends cdktn.TerraformResource {
 
@@ -585,7 +585,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SystemsmanagersapApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemsmanagersapApplication to import
-  * @param importFromId The id of the existing SystemsmanagersapApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemsmanagersapApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemsmanagersapApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -597,7 +597,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/systemsmanagersap_application awscc_systemsmanagersap_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/systemsmanagersap_application awscc_systemsmanagersap_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,7 +608,7 @@ export class SystemsmanagersapApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_systemsmanagersap_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

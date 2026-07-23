@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MediaconnectRouterNetworkInterfaceConfig extends cdktn.Terrafor
   /**
   * The configuration settings for a router network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#configuration MediaconnectRouterNetworkInterface#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#configuration MediaconnectRouterNetworkInterface#configuration}
   */
   readonly configuration: MediaconnectRouterNetworkInterfaceConfiguration;
   /**
   * The name of the router network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#name MediaconnectRouterNetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#name MediaconnectRouterNetworkInterface#name}
   */
   readonly name: string;
   /**
   * The AWS Region for the router network interface. Defaults to the current region if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#region_name MediaconnectRouterNetworkInterface#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#region_name MediaconnectRouterNetworkInterface#region_name}
   */
   readonly regionName?: string;
   /**
   * Key-value pairs that can be used to tag and organize this router network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#tags MediaconnectRouterNetworkInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#tags MediaconnectRouterNetworkInterface#tags}
   */
   readonly tags?: MediaconnectRouterNetworkInterfaceTags[] | cdktn.IResolvable;
 }
@@ -36,7 +36,7 @@ export interface MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRules
   /**
   * The CIDR block that is allowed to access the public router network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#cidr MediaconnectRouterNetworkInterface#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#cidr MediaconnectRouterNetworkInterface#cidr}
   */
   readonly cidr?: string;
 }
@@ -154,7 +154,7 @@ export interface MediaconnectRouterNetworkInterfaceConfigurationPublic {
   /**
   * The list of allowed CIDR blocks for the public router network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#allow_rules MediaconnectRouterNetworkInterface#allow_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#allow_rules MediaconnectRouterNetworkInterface#allow_rules}
   */
   readonly allowRules?: MediaconnectRouterNetworkInterfaceConfigurationPublicAllowRules[] | cdktn.IResolvable;
 }
@@ -250,13 +250,13 @@ export interface MediaconnectRouterNetworkInterfaceConfigurationVpc {
   /**
   * The IDs of the security groups to associate with the router network interface within the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#security_group_ids MediaconnectRouterNetworkInterface#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#security_group_ids MediaconnectRouterNetworkInterface#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The ID of the subnet within the VPC to associate the router network interface with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#subnet_id MediaconnectRouterNetworkInterface#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#subnet_id MediaconnectRouterNetworkInterface#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -381,13 +381,13 @@ export interface MediaconnectRouterNetworkInterfaceConfiguration {
   /**
   * The configuration settings for a public router network interface, including the list of allowed CIDR blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#public MediaconnectRouterNetworkInterface#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#public MediaconnectRouterNetworkInterface#public}
   */
   readonly public?: MediaconnectRouterNetworkInterfaceConfigurationPublic;
   /**
   * The configuration settings for a router network interface within a VPC, including the security group IDs and subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#vpc MediaconnectRouterNetworkInterface#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#vpc MediaconnectRouterNetworkInterface#vpc}
   */
   readonly vpc?: MediaconnectRouterNetworkInterfaceConfigurationVpc;
 }
@@ -510,11 +510,11 @@ export class MediaconnectRouterNetworkInterfaceConfigurationOutputReference exte
 }
 export interface MediaconnectRouterNetworkInterfaceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}
   */
   readonly value?: string;
 }
@@ -659,7 +659,7 @@ export class MediaconnectRouterNetworkInterfaceTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}
 */
 export class MediaconnectRouterNetworkInterface extends cdktn.TerraformResource {
 
@@ -675,7 +675,7 @@ export class MediaconnectRouterNetworkInterface extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a MediaconnectRouterNetworkInterface resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectRouterNetworkInterface to import
-  * @param importFromId The id of the existing MediaconnectRouterNetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectRouterNetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectRouterNetworkInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -687,7 +687,7 @@ export class MediaconnectRouterNetworkInterface extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -698,7 +698,7 @@ export class MediaconnectRouterNetworkInterface extends cdktn.TerraformResource 
       terraformResourceType: 'awscc_mediaconnect_router_network_interface',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

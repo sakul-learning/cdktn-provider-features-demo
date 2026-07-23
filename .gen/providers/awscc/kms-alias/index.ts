@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kms_alias
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kms_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface KmsAliasConfig extends cdktn.TerraformMetaArguments {
   *   If you change the value of the ``AliasName`` property, the existing alias is deleted and a new alias is created for the specified KMS key. This change can disrupt applications that use the alias. It can also allow or deny access to a KMS key affected by attribute-based access control (ABAC).
   *   The alias must be string of 1-256 characters. It can contain only alphanumeric characters, forward slashes (/), underscores (_), and dashes (-). The alias name cannot begin with ``alias/aws/``. The ``alias/aws/`` prefix is reserved for [](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#aws-managed-cmk).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kms_alias#alias_name KmsAlias#alias_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kms_alias#alias_name KmsAlias#alias_name}
   */
   readonly aliasName: string;
   /**
@@ -26,13 +26,13 @@ export interface KmsAliasConfig extends cdktn.TerraformMetaArguments {
   *   
   *  To get the key ID and key ARN for a KMS key, use [ListKeys](https://docs.aws.amazon.com/kms/latest/APIReference/API_ListKeys.html) or [DescribeKey](https://docs.aws.amazon.com/kms/latest/APIReference/API_DescribeKey.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kms_alias#target_key_id KmsAlias#target_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kms_alias#target_key_id KmsAlias#target_key_id}
   */
   readonly targetKeyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kms_alias awscc_kms_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kms_alias awscc_kms_alias}
 */
 export class KmsAlias extends cdktn.TerraformResource {
 
@@ -48,7 +48,7 @@ export class KmsAlias extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KmsAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsAlias to import
-  * @param importFromId The id of the existing KmsAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kms_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kms_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -60,7 +60,7 @@ export class KmsAlias extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/kms_alias awscc_kms_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/kms_alias awscc_kms_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,7 +71,7 @@ export class KmsAlias extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kms_alias',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

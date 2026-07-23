@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktn from 'cdktn';
 
 export interface NetworkfirewallLoggingConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#enable_monitoring_dashboard NetworkfirewallLoggingConfiguration#enable_monitoring_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#enable_monitoring_dashboard NetworkfirewallLoggingConfiguration#enable_monitoring_dashboard}
   */
   readonly enableMonitoringDashboard?: boolean | cdktn.IResolvable;
   /**
   * A resource ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#firewall_arn NetworkfirewallLoggingConfiguration#firewall_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#firewall_arn NetworkfirewallLoggingConfiguration#firewall_arn}
   */
   readonly firewallArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#firewall_name NetworkfirewallLoggingConfiguration#firewall_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#firewall_name NetworkfirewallLoggingConfiguration#firewall_name}
   */
   readonly firewallName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#logging_configuration NetworkfirewallLoggingConfiguration#logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#logging_configuration NetworkfirewallLoggingConfiguration#logging_configuration}
   */
   readonly loggingConfiguration: NetworkfirewallLoggingConfigurationLoggingConfiguration;
 }
@@ -30,15 +30,15 @@ export interface NetworkfirewallLoggingConfigurationLoggingConfigurationLogDesti
   /**
   * A key-value pair to configure the logDestinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#log_destination NetworkfirewallLoggingConfiguration#log_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#log_destination NetworkfirewallLoggingConfiguration#log_destination}
   */
   readonly logDestination: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#log_destination_type NetworkfirewallLoggingConfiguration#log_destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#log_destination_type NetworkfirewallLoggingConfiguration#log_destination_type}
   */
   readonly logDestinationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#log_type NetworkfirewallLoggingConfiguration#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#log_type NetworkfirewallLoggingConfiguration#log_type}
   */
   readonly logType: string;
 }
@@ -203,7 +203,7 @@ export class NetworkfirewallLoggingConfigurationLoggingConfigurationLogDestinati
 }
 export interface NetworkfirewallLoggingConfigurationLoggingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#log_destination_configs NetworkfirewallLoggingConfiguration#log_destination_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#log_destination_configs NetworkfirewallLoggingConfiguration#log_destination_configs}
   */
   readonly logDestinationConfigs: NetworkfirewallLoggingConfigurationLoggingConfigurationLogDestinationConfigs[] | cdktn.IResolvable;
 }
@@ -294,7 +294,7 @@ export class NetworkfirewallLoggingConfigurationLoggingConfigurationOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration}
 */
 export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource {
 
@@ -310,7 +310,7 @@ export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource
   * Generates CDKTN code for importing a NetworkfirewallLoggingConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkfirewallLoggingConfiguration to import
-  * @param importFromId The id of the existing NetworkfirewallLoggingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkfirewallLoggingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkfirewallLoggingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -322,7 +322,7 @@ export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,7 +333,7 @@ export class NetworkfirewallLoggingConfiguration extends cdktn.TerraformResource
       terraformResourceType: 'awscc_networkfirewall_logging_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

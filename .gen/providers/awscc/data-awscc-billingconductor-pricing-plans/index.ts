@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/billingconductor_pricing_plans
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/billingconductor_pricing_plans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccBillingconductorPricingPlansConfig extends cdktn.Terra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/billingconductor_pricing_plans awscc_billingconductor_pricing_plans}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/billingconductor_pricing_plans awscc_billingconductor_pricing_plans}
 */
 export class DataAwsccBillingconductorPricingPlans extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccBillingconductorPricingPlans extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccBillingconductorPricingPlans resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBillingconductorPricingPlans to import
-  * @param importFromId The id of the existing DataAwsccBillingconductorPricingPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/billingconductor_pricing_plans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBillingconductorPricingPlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/billingconductor_pricing_plans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBillingconductorPricingPlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccBillingconductorPricingPlans extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/billingconductor_pricing_plans awscc_billingconductor_pricing_plans} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/billingconductor_pricing_plans awscc_billingconductor_pricing_plans} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccBillingconductorPricingPlans extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_billingconductor_pricing_plans',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,5 +1,5 @@
 {
-  "registry.terraform.io/hashicorp/aws": "6.55.0",
-  "registry.terraform.io/hashicorp/awscc": "1.93.0",
+  "registry.terraform.io/hashicorp/aws": "6.56.0",
+  "registry.terraform.io/hashicorp/awscc": "1.94.0",
   "registry.terraform.io/cdktn-io/cfncompat": "0.2.0"
 }

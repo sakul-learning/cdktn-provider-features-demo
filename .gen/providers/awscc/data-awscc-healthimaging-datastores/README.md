@@ -1,3 +1,3 @@
 # `data_awscc_healthimaging_datastores`
 
-Refer to the Terraform Registry for docs: [`data_awscc_healthimaging_datastores`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/healthimaging_datastores).
+Refer to the Terraform Registry for docs: [`data_awscc_healthimaging_datastores`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/healthimaging_datastores).

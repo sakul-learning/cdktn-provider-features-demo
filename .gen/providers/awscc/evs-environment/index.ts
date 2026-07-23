@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,69 @@ import * as cdktn from 'cdktn';
 
 export interface EvsEnvironmentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#connectivity_info EvsEnvironment#connectivity_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#connectivity_info EvsEnvironment#connectivity_info}
   */
   readonly connectivityInfo?: EvsEnvironmentConnectivityInfo;
   /**
   * The name of an EVS environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#environment_name EvsEnvironment#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#environment_name EvsEnvironment#environment_name}
   */
   readonly environmentName?: string;
   /**
   * The initial hosts for environment only required upon creation. Modification after creation will have no effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#hosts EvsEnvironment#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#hosts EvsEnvironment#hosts}
   */
   readonly hosts?: EvsEnvironmentHosts[] | cdktn.IResolvable;
   /**
   * The initial Vlan configuration only required upon creation. Modification after creation will have no effect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#initial_vlans EvsEnvironment#initial_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#initial_vlans EvsEnvironment#initial_vlans}
   */
   readonly initialVlans?: EvsEnvironmentInitialVlans;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#kms_key_id EvsEnvironment#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#kms_key_id EvsEnvironment#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The license information for an EVS environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#license_info EvsEnvironment#license_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#license_info EvsEnvironment#license_info}
   */
   readonly licenseInfo?: EvsEnvironmentLicenseInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#service_access_security_groups EvsEnvironment#service_access_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#service_access_security_groups EvsEnvironment#service_access_security_groups}
   */
   readonly serviceAccessSecurityGroups?: EvsEnvironmentServiceAccessSecurityGroups;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#service_access_subnet_id EvsEnvironment#service_access_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#service_access_subnet_id EvsEnvironment#service_access_subnet_id}
   */
   readonly serviceAccessSubnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#site_id EvsEnvironment#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#site_id EvsEnvironment#site_id}
   */
   readonly siteId?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#tags EvsEnvironment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#tags EvsEnvironment#tags}
   */
   readonly tags?: EvsEnvironmentTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#terms_accepted EvsEnvironment#terms_accepted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#terms_accepted EvsEnvironment#terms_accepted}
   */
   readonly termsAccepted: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#vcf_hostnames EvsEnvironment#vcf_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#vcf_hostnames EvsEnvironment#vcf_hostnames}
   */
   readonly vcfHostnames?: EvsEnvironmentVcfHostnames;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#vcf_version EvsEnvironment#vcf_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#vcf_version EvsEnvironment#vcf_version}
   */
   readonly vcfVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#vpc_id EvsEnvironment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#vpc_id EvsEnvironment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -161,7 +161,7 @@ export class EvsEnvironmentChecksList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentConnectivityInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#private_route_server_peerings EvsEnvironment#private_route_server_peerings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#private_route_server_peerings EvsEnvironment#private_route_server_peerings}
   */
   readonly privateRouteServerPeerings?: string[];
 }
@@ -330,23 +330,23 @@ export class EvsEnvironmentCredentialsList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#dedicated_host_id EvsEnvironment#dedicated_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#dedicated_host_id EvsEnvironment#dedicated_host_id}
   */
   readonly dedicatedHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#host_name EvsEnvironment#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#host_name EvsEnvironment#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#instance_type EvsEnvironment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#instance_type EvsEnvironment#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#key_name EvsEnvironment#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#key_name EvsEnvironment#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#placement_group_id EvsEnvironment#placement_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#placement_group_id EvsEnvironment#placement_group_id}
   */
   readonly placementGroupId?: string;
 }
@@ -578,7 +578,7 @@ export class EvsEnvironmentHostsList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentInitialVlansEdgeVTep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -672,7 +672,7 @@ export class EvsEnvironmentInitialVlansEdgeVTepOutputReference extends cdktn.Com
 }
 export interface EvsEnvironmentInitialVlansExpansionVlan1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -766,7 +766,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan1OutputReference extends cdk
 }
 export interface EvsEnvironmentInitialVlansExpansionVlan2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -860,7 +860,7 @@ export class EvsEnvironmentInitialVlansExpansionVlan2OutputReference extends cdk
 }
 export interface EvsEnvironmentInitialVlansHcx {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -954,7 +954,7 @@ export class EvsEnvironmentInitialVlansHcxOutputReference extends cdktn.ComplexO
 }
 export interface EvsEnvironmentInitialVlansNsxUpLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1048,7 +1048,7 @@ export class EvsEnvironmentInitialVlansNsxUpLinkOutputReference extends cdktn.Co
 }
 export interface EvsEnvironmentInitialVlansVMotion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1142,7 +1142,7 @@ export class EvsEnvironmentInitialVlansVMotionOutputReference extends cdktn.Comp
 }
 export interface EvsEnvironmentInitialVlansVSan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1236,7 +1236,7 @@ export class EvsEnvironmentInitialVlansVSanOutputReference extends cdktn.Complex
 }
 export interface EvsEnvironmentInitialVlansVTep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1330,7 +1330,7 @@ export class EvsEnvironmentInitialVlansVTepOutputReference extends cdktn.Complex
 }
 export interface EvsEnvironmentInitialVlansVmManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1424,7 +1424,7 @@ export class EvsEnvironmentInitialVlansVmManagementOutputReference extends cdktn
 }
 export interface EvsEnvironmentInitialVlansVmkManagement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}
   */
   readonly cidr?: string;
 }
@@ -1518,51 +1518,51 @@ export class EvsEnvironmentInitialVlansVmkManagementOutputReference extends cdkt
 }
 export interface EvsEnvironmentInitialVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#edge_v_tep EvsEnvironment#edge_v_tep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#edge_v_tep EvsEnvironment#edge_v_tep}
   */
   readonly edgeVTep?: EvsEnvironmentInitialVlansEdgeVTep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#expansion_vlan_1 EvsEnvironment#expansion_vlan_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#expansion_vlan_1 EvsEnvironment#expansion_vlan_1}
   */
   readonly expansionVlan1?: EvsEnvironmentInitialVlansExpansionVlan1;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#expansion_vlan_2 EvsEnvironment#expansion_vlan_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#expansion_vlan_2 EvsEnvironment#expansion_vlan_2}
   */
   readonly expansionVlan2?: EvsEnvironmentInitialVlansExpansionVlan2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#hcx EvsEnvironment#hcx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#hcx EvsEnvironment#hcx}
   */
   readonly hcx?: EvsEnvironmentInitialVlansHcx;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#hcx_network_acl_id EvsEnvironment#hcx_network_acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#hcx_network_acl_id EvsEnvironment#hcx_network_acl_id}
   */
   readonly hcxNetworkAclId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#is_hcx_public EvsEnvironment#is_hcx_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#is_hcx_public EvsEnvironment#is_hcx_public}
   */
   readonly isHcxPublic?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#nsx_up_link EvsEnvironment#nsx_up_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#nsx_up_link EvsEnvironment#nsx_up_link}
   */
   readonly nsxUpLink?: EvsEnvironmentInitialVlansNsxUpLink;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#v_motion EvsEnvironment#v_motion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#v_motion EvsEnvironment#v_motion}
   */
   readonly vMotion?: EvsEnvironmentInitialVlansVMotion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#v_san EvsEnvironment#v_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#v_san EvsEnvironment#v_san}
   */
   readonly vSan?: EvsEnvironmentInitialVlansVSan;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#v_tep EvsEnvironment#v_tep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#v_tep EvsEnvironment#v_tep}
   */
   readonly vTep?: EvsEnvironmentInitialVlansVTep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#vm_management EvsEnvironment#vm_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#vm_management EvsEnvironment#vm_management}
   */
   readonly vmManagement?: EvsEnvironmentInitialVlansVmManagement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#vmk_management EvsEnvironment#vmk_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#vmk_management EvsEnvironment#vmk_management}
   */
   readonly vmkManagement?: EvsEnvironmentInitialVlansVmkManagement;
 }
@@ -1975,11 +1975,11 @@ export class EvsEnvironmentInitialVlansOutputReference extends cdktn.ComplexObje
 }
 export interface EvsEnvironmentLicenseInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#solution_key EvsEnvironment#solution_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#solution_key EvsEnvironment#solution_key}
   */
   readonly solutionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#vsan_key EvsEnvironment#vsan_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#vsan_key EvsEnvironment#vsan_key}
   */
   readonly vsanKey?: string;
 }
@@ -2102,7 +2102,7 @@ export class EvsEnvironmentLicenseInfoOutputReference extends cdktn.ComplexObjec
 }
 export interface EvsEnvironmentServiceAccessSecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#security_groups EvsEnvironment#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#security_groups EvsEnvironment#security_groups}
   */
   readonly securityGroups?: string[];
 }
@@ -2198,13 +2198,13 @@ export interface EvsEnvironmentTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#key EvsEnvironment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#key EvsEnvironment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#value EvsEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#value EvsEnvironment#value}
   */
   readonly value?: string;
 }
@@ -2349,39 +2349,39 @@ export class EvsEnvironmentTagsList extends cdktn.ComplexList {
 }
 export interface EvsEnvironmentVcfHostnames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#cloud_builder EvsEnvironment#cloud_builder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#cloud_builder EvsEnvironment#cloud_builder}
   */
   readonly cloudBuilder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#nsx EvsEnvironment#nsx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#nsx EvsEnvironment#nsx}
   */
   readonly nsx?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#nsx_edge_1 EvsEnvironment#nsx_edge_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#nsx_edge_1 EvsEnvironment#nsx_edge_1}
   */
   readonly nsxEdge1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#nsx_edge_2 EvsEnvironment#nsx_edge_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#nsx_edge_2 EvsEnvironment#nsx_edge_2}
   */
   readonly nsxEdge2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#nsx_manager_1 EvsEnvironment#nsx_manager_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#nsx_manager_1 EvsEnvironment#nsx_manager_1}
   */
   readonly nsxManager1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#nsx_manager_2 EvsEnvironment#nsx_manager_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#nsx_manager_2 EvsEnvironment#nsx_manager_2}
   */
   readonly nsxManager2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#nsx_manager_3 EvsEnvironment#nsx_manager_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#nsx_manager_3 EvsEnvironment#nsx_manager_3}
   */
   readonly nsxManager3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#sddc_manager EvsEnvironment#sddc_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#sddc_manager EvsEnvironment#sddc_manager}
   */
   readonly sddcManager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#v_center EvsEnvironment#v_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#v_center EvsEnvironment#v_center}
   */
   readonly vCenter?: string;
 }
@@ -2707,7 +2707,7 @@ export class EvsEnvironmentVcfHostnamesOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment awscc_evs_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment awscc_evs_environment}
 */
 export class EvsEnvironment extends cdktn.TerraformResource {
 
@@ -2723,7 +2723,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EvsEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvsEnvironment to import
-  * @param importFromId The id of the existing EvsEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvsEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvsEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2735,7 +2735,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/evs_environment awscc_evs_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/evs_environment awscc_evs_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2746,7 +2746,7 @@ export class EvsEnvironment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_evs_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

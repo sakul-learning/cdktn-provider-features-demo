@@ -1,3 +1,3 @@
 # `awscc_qbusiness_retriever`
 
-Refer to the Terraform Registry for docs: [`awscc_qbusiness_retriever`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/qbusiness_retriever).
+Refer to the Terraform Registry for docs: [`awscc_qbusiness_retriever`](https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/qbusiness_retriever).

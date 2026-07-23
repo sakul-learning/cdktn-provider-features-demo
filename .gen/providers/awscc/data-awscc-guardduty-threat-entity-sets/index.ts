@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/guardduty_threat_entity_sets
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/guardduty_threat_entity_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccGuarddutyThreatEntitySetsConfig extends cdktn.Terrafor
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/guardduty_threat_entity_sets awscc_guardduty_threat_entity_sets}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/guardduty_threat_entity_sets awscc_guardduty_threat_entity_sets}
 */
 export class DataAwsccGuarddutyThreatEntitySets extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccGuarddutyThreatEntitySets extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccGuarddutyThreatEntitySets resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccGuarddutyThreatEntitySets to import
-  * @param importFromId The id of the existing DataAwsccGuarddutyThreatEntitySets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/guardduty_threat_entity_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccGuarddutyThreatEntitySets that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/guardduty_threat_entity_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccGuarddutyThreatEntitySets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccGuarddutyThreatEntitySets extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/guardduty_threat_entity_sets awscc_guardduty_threat_entity_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/guardduty_threat_entity_sets awscc_guardduty_threat_entity_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccGuarddutyThreatEntitySets extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_guardduty_threat_entity_sets',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

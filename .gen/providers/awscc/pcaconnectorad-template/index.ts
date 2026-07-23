@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,33 +8,33 @@ import * as cdktn from 'cdktn';
 
 export interface PcaconnectoradTemplateConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#connector_arn PcaconnectoradTemplate#connector_arn}
   */
   readonly connectorArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#definition PcaconnectoradTemplate#definition}
   */
   readonly definition: PcaconnectoradTemplateDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#name PcaconnectoradTemplate#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#reenroll_all_certificate_holders PcaconnectoradTemplate#reenroll_all_certificate_holders}
   */
   readonly reenrollAllCertificateHolders?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#tags PcaconnectoradTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
   */
   readonly periodType?: string;
 }
@@ -157,11 +157,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewa
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
   */
   readonly periodType?: string;
 }
@@ -284,11 +284,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidi
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}
   */
   readonly renewalPeriod?: PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityRenewalPeriod;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}
   */
   readonly validityPeriod?: PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityValidityPeriod;
 }
@@ -411,23 +411,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV2CertificateValidityOutput
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}
   */
   readonly enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}
   */
   readonly includeSymmetricAlgorithms?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}
   */
   readonly noSecurityExtension?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}
   */
   readonly removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}
   */
   readonly userInteractionRequired?: boolean | cdktn.IResolvable;
 }
@@ -637,11 +637,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlagsOutputRefe
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}
   */
   readonly policyObjectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}
   */
   readonly policyType?: string;
 }
@@ -786,11 +786,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoli
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
   */
   readonly critical?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}
   */
   readonly policies?: PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoliciesPolicies[] | cdktn.IResolvable;
 }
@@ -913,23 +913,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPoli
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}
   */
   readonly dataEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}
   */
   readonly digitalSignature?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}
   */
   readonly keyEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}
   */
   readonly nonRepudiation?: boolean | cdktn.IResolvable;
 }
@@ -1139,11 +1139,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFl
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
   */
   readonly critical?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}
   */
   readonly usageFlags?: PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageUsageFlags;
 }
@@ -1266,11 +1266,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsageOutputR
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2Extensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}
   */
   readonly applicationPolicies?: PcaconnectoradTemplateDefinitionTemplateV2ExtensionsApplicationPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}
   */
   readonly keyUsage?: PcaconnectoradTemplateDefinitionTemplateV2ExtensionsKeyUsage;
 }
@@ -1393,11 +1393,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2ExtensionsOutputReference
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}
   */
   readonly autoEnrollment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}
   */
   readonly machineType?: boolean | cdktn.IResolvable;
 }
@@ -1520,15 +1520,15 @@ export class PcaconnectoradTemplateDefinitionTemplateV2GeneralFlagsOutputReferen
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}
   */
   readonly cryptoProviders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}
   */
   readonly keySpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}
   */
   readonly minimalKeyLength?: number;
 }
@@ -1680,15 +1680,15 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributesOutpu
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}
   */
   readonly clientVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}
   */
   readonly exportableKey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}
   */
   readonly strongKeyProtectionRequired?: boolean | cdktn.IResolvable;
 }
@@ -1840,43 +1840,43 @@ export class PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlagsOutputRefe
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}
   */
   readonly requireCommonName?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}
   */
   readonly requireDirectoryPath?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}
   */
   readonly requireDnsAsCn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}
   */
   readonly requireEmail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}
   */
   readonly sanRequireDirectoryGuid?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}
   */
   readonly sanRequireDns?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}
   */
   readonly sanRequireDomainDns?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}
   */
   readonly sanRequireEmail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}
   */
   readonly sanRequireSpn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}
   */
   readonly sanRequireUpn?: boolean | cdktn.IResolvable;
 }
@@ -2231,35 +2231,35 @@ export class PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlagsOutputRef
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}
   */
   readonly certificateValidity?: PcaconnectoradTemplateDefinitionTemplateV2CertificateValidity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}
   */
   readonly enrollmentFlags?: PcaconnectoradTemplateDefinitionTemplateV2EnrollmentFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}
   */
   readonly extensions?: PcaconnectoradTemplateDefinitionTemplateV2Extensions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}
   */
   readonly generalFlags?: PcaconnectoradTemplateDefinitionTemplateV2GeneralFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}
   */
   readonly privateKeyAttributes?: PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}
   */
   readonly privateKeyFlags?: PcaconnectoradTemplateDefinitionTemplateV2PrivateKeyFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}
   */
   readonly subjectNameFlags?: PcaconnectoradTemplateDefinitionTemplateV2SubjectNameFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}
   */
   readonly supersededTemplates?: string[];
 }
@@ -2556,11 +2556,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV2OutputReference extends c
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
   */
   readonly periodType?: string;
 }
@@ -2683,11 +2683,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewa
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
   */
   readonly periodType?: string;
 }
@@ -2810,11 +2810,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidi
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}
   */
   readonly renewalPeriod?: PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityRenewalPeriod;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}
   */
   readonly validityPeriod?: PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityValidityPeriod;
 }
@@ -2937,23 +2937,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV3CertificateValidityOutput
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}
   */
   readonly enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}
   */
   readonly includeSymmetricAlgorithms?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}
   */
   readonly noSecurityExtension?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}
   */
   readonly removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}
   */
   readonly userInteractionRequired?: boolean | cdktn.IResolvable;
 }
@@ -3163,11 +3163,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlagsOutputRefe
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}
   */
   readonly policyObjectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}
   */
   readonly policyType?: string;
 }
@@ -3312,11 +3312,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoli
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
   */
   readonly critical?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}
   */
   readonly policies?: PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoliciesPolicies[] | cdktn.IResolvable;
 }
@@ -3439,23 +3439,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPoli
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}
   */
   readonly dataEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}
   */
   readonly digitalSignature?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}
   */
   readonly keyEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}
   */
   readonly nonRepudiation?: boolean | cdktn.IResolvable;
 }
@@ -3665,11 +3665,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFl
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
   */
   readonly critical?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}
   */
   readonly usageFlags?: PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageUsageFlags;
 }
@@ -3792,11 +3792,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsageOutputR
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3Extensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}
   */
   readonly applicationPolicies?: PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}
   */
   readonly keyUsage?: PcaconnectoradTemplateDefinitionTemplateV3ExtensionsKeyUsage;
 }
@@ -3919,11 +3919,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3ExtensionsOutputReference
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}
   */
   readonly autoEnrollment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}
   */
   readonly machineType?: boolean | cdktn.IResolvable;
 }
@@ -4046,15 +4046,15 @@ export class PcaconnectoradTemplateDefinitionTemplateV3GeneralFlagsOutputReferen
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}
   */
   readonly decrypt?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}
   */
   readonly sign?: boolean | cdktn.IResolvable;
 }
@@ -4206,11 +4206,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUs
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}
   */
   readonly propertyFlags?: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsagePropertyPropertyFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}
   */
   readonly propertyType?: string;
 }
@@ -4333,23 +4333,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUs
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}
   */
   readonly cryptoProviders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}
   */
   readonly keySpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}
   */
   readonly keyUsageProperty?: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesKeyUsageProperty;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}
   */
   readonly minimalKeyLength?: number;
 }
@@ -4559,19 +4559,19 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributesOutpu
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}
   */
   readonly clientVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}
   */
   readonly exportableKey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}
   */
   readonly requireAlternateSignatureAlgorithm?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}
   */
   readonly strongKeyProtectionRequired?: boolean | cdktn.IResolvable;
 }
@@ -4752,43 +4752,43 @@ export class PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlagsOutputRefe
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}
   */
   readonly requireCommonName?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}
   */
   readonly requireDirectoryPath?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}
   */
   readonly requireDnsAsCn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}
   */
   readonly requireEmail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}
   */
   readonly sanRequireDirectoryGuid?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}
   */
   readonly sanRequireDns?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}
   */
   readonly sanRequireDomainDns?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}
   */
   readonly sanRequireEmail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}
   */
   readonly sanRequireSpn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}
   */
   readonly sanRequireUpn?: boolean | cdktn.IResolvable;
 }
@@ -5143,39 +5143,39 @@ export class PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlagsOutputRef
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}
   */
   readonly certificateValidity?: PcaconnectoradTemplateDefinitionTemplateV3CertificateValidity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}
   */
   readonly enrollmentFlags?: PcaconnectoradTemplateDefinitionTemplateV3EnrollmentFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}
   */
   readonly extensions?: PcaconnectoradTemplateDefinitionTemplateV3Extensions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}
   */
   readonly generalFlags?: PcaconnectoradTemplateDefinitionTemplateV3GeneralFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}
   */
   readonly privateKeyAttributes?: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}
   */
   readonly privateKeyFlags?: PcaconnectoradTemplateDefinitionTemplateV3PrivateKeyFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}
   */
   readonly subjectNameFlags?: PcaconnectoradTemplateDefinitionTemplateV3SubjectNameFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}
   */
   readonly supersededTemplates?: string[];
 }
@@ -5501,11 +5501,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV3OutputReference extends c
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
   */
   readonly periodType?: string;
 }
@@ -5628,11 +5628,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewa
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period PcaconnectoradTemplate#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#period_type PcaconnectoradTemplate#period_type}
   */
   readonly periodType?: string;
 }
@@ -5755,11 +5755,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidi
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#renewal_period PcaconnectoradTemplate#renewal_period}
   */
   readonly renewalPeriod?: PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityRenewalPeriod;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#validity_period PcaconnectoradTemplate#validity_period}
   */
   readonly validityPeriod?: PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityValidityPeriod;
 }
@@ -5882,23 +5882,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV4CertificateValidityOutput
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#enable_key_reuse_on_nt_token_keyset_storage_full PcaconnectoradTemplate#enable_key_reuse_on_nt_token_keyset_storage_full}
   */
   readonly enableKeyReuseOnNtTokenKeysetStorageFull?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#include_symmetric_algorithms PcaconnectoradTemplate#include_symmetric_algorithms}
   */
   readonly includeSymmetricAlgorithms?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#no_security_extension PcaconnectoradTemplate#no_security_extension}
   */
   readonly noSecurityExtension?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#remove_invalid_certificate_from_personal_store PcaconnectoradTemplate#remove_invalid_certificate_from_personal_store}
   */
   readonly removeInvalidCertificateFromPersonalStore?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#user_interaction_required PcaconnectoradTemplate#user_interaction_required}
   */
   readonly userInteractionRequired?: boolean | cdktn.IResolvable;
 }
@@ -6108,11 +6108,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlagsOutputRefe
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policy_object_identifier PcaconnectoradTemplate#policy_object_identifier}
   */
   readonly policyObjectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policy_type PcaconnectoradTemplate#policy_type}
   */
   readonly policyType?: string;
 }
@@ -6257,11 +6257,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoli
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
   */
   readonly critical?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}
   */
   readonly policies?: PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoliciesPolicies[] | cdktn.IResolvable;
 }
@@ -6384,23 +6384,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPoli
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#data_encipherment PcaconnectoradTemplate#data_encipherment}
   */
   readonly dataEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#digital_signature PcaconnectoradTemplate#digital_signature}
   */
   readonly digitalSignature?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_encipherment PcaconnectoradTemplate#key_encipherment}
   */
   readonly keyEncipherment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#non_repudiation PcaconnectoradTemplate#non_repudiation}
   */
   readonly nonRepudiation?: boolean | cdktn.IResolvable;
 }
@@ -6610,11 +6610,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFl
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}
   */
   readonly critical?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#usage_flags PcaconnectoradTemplate#usage_flags}
   */
   readonly usageFlags?: PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageUsageFlags;
 }
@@ -6737,11 +6737,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsageOutputR
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4Extensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#application_policies PcaconnectoradTemplate#application_policies}
   */
   readonly applicationPolicies?: PcaconnectoradTemplateDefinitionTemplateV4ExtensionsApplicationPolicies;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_usage PcaconnectoradTemplate#key_usage}
   */
   readonly keyUsage?: PcaconnectoradTemplateDefinitionTemplateV4ExtensionsKeyUsage;
 }
@@ -6864,11 +6864,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4ExtensionsOutputReference
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#auto_enrollment PcaconnectoradTemplate#auto_enrollment}
   */
   readonly autoEnrollment?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#machine_type PcaconnectoradTemplate#machine_type}
   */
   readonly machineType?: boolean | cdktn.IResolvable;
 }
@@ -6991,15 +6991,15 @@ export class PcaconnectoradTemplateDefinitionTemplateV4GeneralFlagsOutputReferen
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#decrypt PcaconnectoradTemplate#decrypt}
   */
   readonly decrypt?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_agreement PcaconnectoradTemplate#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#sign PcaconnectoradTemplate#sign}
   */
   readonly sign?: boolean | cdktn.IResolvable;
 }
@@ -7151,11 +7151,11 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUs
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#property_flags PcaconnectoradTemplate#property_flags}
   */
   readonly propertyFlags?: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsagePropertyPropertyFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#property_type PcaconnectoradTemplate#property_type}
   */
   readonly propertyType?: string;
 }
@@ -7278,23 +7278,23 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUs
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#algorithm PcaconnectoradTemplate#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#crypto_providers PcaconnectoradTemplate#crypto_providers}
   */
   readonly cryptoProviders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_spec PcaconnectoradTemplate#key_spec}
   */
   readonly keySpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#key_usage_property PcaconnectoradTemplate#key_usage_property}
   */
   readonly keyUsageProperty?: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesKeyUsageProperty;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#minimal_key_length PcaconnectoradTemplate#minimal_key_length}
   */
   readonly minimalKeyLength?: number;
 }
@@ -7504,27 +7504,27 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributesOutpu
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#client_version PcaconnectoradTemplate#client_version}
   */
   readonly clientVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#exportable_key PcaconnectoradTemplate#exportable_key}
   */
   readonly exportableKey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_alternate_signature_algorithm PcaconnectoradTemplate#require_alternate_signature_algorithm}
   */
   readonly requireAlternateSignatureAlgorithm?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_same_key_renewal PcaconnectoradTemplate#require_same_key_renewal}
   */
   readonly requireSameKeyRenewal?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#strong_key_protection_required PcaconnectoradTemplate#strong_key_protection_required}
   */
   readonly strongKeyProtectionRequired?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#use_legacy_provider PcaconnectoradTemplate#use_legacy_provider}
   */
   readonly useLegacyProvider?: boolean | cdktn.IResolvable;
 }
@@ -7763,43 +7763,43 @@ export class PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlagsOutputRefe
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_common_name PcaconnectoradTemplate#require_common_name}
   */
   readonly requireCommonName?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_directory_path PcaconnectoradTemplate#require_directory_path}
   */
   readonly requireDirectoryPath?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_dns_as_cn PcaconnectoradTemplate#require_dns_as_cn}
   */
   readonly requireDnsAsCn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#require_email PcaconnectoradTemplate#require_email}
   */
   readonly requireEmail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_directory_guid PcaconnectoradTemplate#san_require_directory_guid}
   */
   readonly sanRequireDirectoryGuid?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_dns PcaconnectoradTemplate#san_require_dns}
   */
   readonly sanRequireDns?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_domain_dns PcaconnectoradTemplate#san_require_domain_dns}
   */
   readonly sanRequireDomainDns?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_email PcaconnectoradTemplate#san_require_email}
   */
   readonly sanRequireEmail?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_spn PcaconnectoradTemplate#san_require_spn}
   */
   readonly sanRequireSpn?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#san_require_upn PcaconnectoradTemplate#san_require_upn}
   */
   readonly sanRequireUpn?: boolean | cdktn.IResolvable;
 }
@@ -8154,39 +8154,39 @@ export class PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlagsOutputRef
 }
 export interface PcaconnectoradTemplateDefinitionTemplateV4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#certificate_validity PcaconnectoradTemplate#certificate_validity}
   */
   readonly certificateValidity?: PcaconnectoradTemplateDefinitionTemplateV4CertificateValidity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#enrollment_flags PcaconnectoradTemplate#enrollment_flags}
   */
   readonly enrollmentFlags?: PcaconnectoradTemplateDefinitionTemplateV4EnrollmentFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#extensions PcaconnectoradTemplate#extensions}
   */
   readonly extensions?: PcaconnectoradTemplateDefinitionTemplateV4Extensions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#general_flags PcaconnectoradTemplate#general_flags}
   */
   readonly generalFlags?: PcaconnectoradTemplateDefinitionTemplateV4GeneralFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#hash_algorithm PcaconnectoradTemplate#hash_algorithm}
   */
   readonly hashAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#private_key_attributes PcaconnectoradTemplate#private_key_attributes}
   */
   readonly privateKeyAttributes?: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyAttributes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#private_key_flags PcaconnectoradTemplate#private_key_flags}
   */
   readonly privateKeyFlags?: PcaconnectoradTemplateDefinitionTemplateV4PrivateKeyFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#subject_name_flags PcaconnectoradTemplate#subject_name_flags}
   */
   readonly subjectNameFlags?: PcaconnectoradTemplateDefinitionTemplateV4SubjectNameFlags;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#superseded_templates PcaconnectoradTemplate#superseded_templates}
   */
   readonly supersededTemplates?: string[];
 }
@@ -8512,15 +8512,15 @@ export class PcaconnectoradTemplateDefinitionTemplateV4OutputReference extends c
 }
 export interface PcaconnectoradTemplateDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#template_v2 PcaconnectoradTemplate#template_v2}
   */
   readonly templateV2?: PcaconnectoradTemplateDefinitionTemplateV2;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#template_v3 PcaconnectoradTemplate#template_v3}
   */
   readonly templateV3?: PcaconnectoradTemplateDefinitionTemplateV3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#template_v4 PcaconnectoradTemplate#template_v4}
   */
   readonly templateV4?: PcaconnectoradTemplateDefinitionTemplateV4;
 }
@@ -8672,7 +8672,7 @@ export class PcaconnectoradTemplateDefinitionOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template awscc_pcaconnectorad_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template awscc_pcaconnectorad_template}
 */
 export class PcaconnectoradTemplate extends cdktn.TerraformResource {
 
@@ -8688,7 +8688,7 @@ export class PcaconnectoradTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PcaconnectoradTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcaconnectoradTemplate to import
-  * @param importFromId The id of the existing PcaconnectoradTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcaconnectoradTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcaconnectoradTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -8700,7 +8700,7 @@ export class PcaconnectoradTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/pcaconnectorad_template awscc_pcaconnectorad_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/pcaconnectorad_template awscc_pcaconnectorad_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8711,7 +8711,7 @@ export class PcaconnectoradTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_pcaconnectorad_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

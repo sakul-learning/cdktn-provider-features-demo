@@ -1938,6 +1938,7 @@ export * as dataAwsElasticacheCluster from './data-aws-elasticache-cluster/index
 export * as dataAwsElasticacheReplicationGroup from './data-aws-elasticache-replication-group/index.ts';
 export * as dataAwsElasticacheReservedCacheNodeOffering from './data-aws-elasticache-reserved-cache-node-offering/index.ts';
 export * as dataAwsElasticacheServerlessCache from './data-aws-elasticache-serverless-cache/index.ts';
+export * as dataAwsElasticacheServiceUpdateActions from './data-aws-elasticache-service-update-actions/index.ts';
 export * as dataAwsElasticacheServiceUpdates from './data-aws-elasticache-service-updates/index.ts';
 export * as dataAwsElasticacheSubnetGroup from './data-aws-elasticache-subnet-group/index.ts';
 export * as dataAwsElasticacheUser from './data-aws-elasticache-user/index.ts';
@@ -2218,6 +2219,7 @@ export * as dataAwsS3BucketObjectLockConfiguration from './data-aws-s3-bucket-ob
 export * as dataAwsS3BucketObjects from './data-aws-s3-bucket-objects/index.ts';
 export * as dataAwsS3BucketPolicy from './data-aws-s3-bucket-policy/index.ts';
 export * as dataAwsS3BucketReplicationConfiguration from './data-aws-s3-bucket-replication-configuration/index.ts';
+export * as dataAwsS3Buckets from './data-aws-s3-buckets/index.ts';
 export * as dataAwsS3DirectoryBuckets from './data-aws-s3-directory-buckets/index.ts';
 export * as dataAwsS3Object from './data-aws-s3-object/index.ts';
 export * as dataAwsS3Objects from './data-aws-s3-objects/index.ts';

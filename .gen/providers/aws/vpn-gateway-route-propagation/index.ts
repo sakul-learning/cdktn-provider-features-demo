@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation
+// https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface VpnGatewayRoutePropagationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#id VpnGatewayRoutePropagation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#id VpnGatewayRoutePropagation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface VpnGatewayRoutePropagationConfig extends cdktn.TerraformMetaArg
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#region VpnGatewayRoutePropagation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#region VpnGatewayRoutePropagation#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#route_table_id VpnGatewayRoutePropagation#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#route_table_id VpnGatewayRoutePropagation#route_table_id}
   */
   readonly routeTableId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#vpn_gateway_id VpnGatewayRoutePropagation#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#vpn_gateway_id VpnGatewayRoutePropagation#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#timeouts VpnGatewayRoutePropagation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#timeouts VpnGatewayRoutePropagation#timeouts}
   */
   readonly timeouts?: VpnGatewayRoutePropagationTimeouts;
 }
 export interface VpnGatewayRoutePropagationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#create VpnGatewayRoutePropagation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#create VpnGatewayRoutePropagation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#delete VpnGatewayRoutePropagation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#delete VpnGatewayRoutePropagation#delete}
   */
   readonly delete?: string;
 }
@@ -164,7 +164,7 @@ export class VpnGatewayRoutePropagationTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation}
 */
 export class VpnGatewayRoutePropagation extends cdktn.TerraformResource {
 
@@ -180,7 +180,7 @@ export class VpnGatewayRoutePropagation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpnGatewayRoutePropagation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnGatewayRoutePropagation to import
-  * @param importFromId The id of the existing VpnGatewayRoutePropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnGatewayRoutePropagation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnGatewayRoutePropagation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -192,7 +192,7 @@ export class VpnGatewayRoutePropagation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,7 +203,7 @@ export class VpnGatewayRoutePropagation extends cdktn.TerraformResource {
       terraformResourceType: 'aws_vpn_gateway_route_propagation',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.55.0'
+        providerVersion: '6.56.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

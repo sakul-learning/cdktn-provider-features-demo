@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_view_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_view_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ConnectViewVersionConfig extends cdktn.TerraformMetaArguments {
   /**
   * The description for the view version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_view_version#version_description ConnectViewVersion#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_view_version#version_description ConnectViewVersion#version_description}
   */
   readonly versionDescription?: string;
   /**
   * The Amazon Resource Name (ARN) of the view for which a version is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_view_version#view_arn ConnectViewVersion#view_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_view_version#view_arn ConnectViewVersion#view_arn}
   */
   readonly viewArn: string;
   /**
   * The view content hash to be checked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_view_version#view_content_sha_256 ConnectViewVersion#view_content_sha_256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_view_version#view_content_sha_256 ConnectViewVersion#view_content_sha_256}
   */
   readonly viewContentSha256?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_view_version awscc_connect_view_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_view_version awscc_connect_view_version}
 */
 export class ConnectViewVersion extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ConnectViewVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectViewVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectViewVersion to import
-  * @param importFromId The id of the existing ConnectViewVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_view_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectViewVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_view_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectViewVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ConnectViewVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_view_version awscc_connect_view_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/connect_view_version awscc_connect_view_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class ConnectViewVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_view_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

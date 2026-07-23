@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface S3OutpostsAccessPointConfig extends cdktn.TerraformMetaArgument
   /**
   * The Amazon Resource Name (ARN) of the bucket you want to associate this AccessPoint with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
   */
   readonly bucket: string;
   /**
   * A name for the AccessPoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
   */
   readonly name: string;
   /**
   * The access point policy associated with this access point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
   */
   readonly policy?: string;
   /**
   * Virtual Private Cloud (VPC) from which requests can be made to the AccessPoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
   */
   readonly vpcConfiguration: S3OutpostsAccessPointVpcConfiguration;
 }
@@ -36,7 +36,7 @@ export interface S3OutpostsAccessPointVpcConfiguration {
   /**
   * Virtual Private Cloud (VPC) Id from which AccessPoint will allow requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point#vpc_id S3OutpostsAccessPoint#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point#vpc_id S3OutpostsAccessPoint#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -130,7 +130,7 @@ export class S3OutpostsAccessPointVpcConfigurationOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}
 */
 export class S3OutpostsAccessPoint extends cdktn.TerraformResource {
 
@@ -146,7 +146,7 @@ export class S3OutpostsAccessPoint extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3OutpostsAccessPoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3OutpostsAccessPoint to import
-  * @param importFromId The id of the existing S3OutpostsAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3OutpostsAccessPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3OutpostsAccessPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -158,7 +158,7 @@ export class S3OutpostsAccessPoint extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,7 +169,7 @@ export class S3OutpostsAccessPoint extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3outposts_access_point',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

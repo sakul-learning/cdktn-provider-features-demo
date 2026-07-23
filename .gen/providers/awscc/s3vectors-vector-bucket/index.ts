@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface S3VectorsVectorBucketConfig extends cdktn.TerraformMetaArgument
   /**
   * The encryption configuration for the vector bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#encryption_configuration S3VectorsVectorBucket#encryption_configuration}
   */
   readonly encryptionConfiguration?: S3VectorsVectorBucketEncryptionConfiguration;
   /**
   * User tags (key-value pairs) to associate with the vector bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#tags S3VectorsVectorBucket#tags}
   */
   readonly tags?: S3VectorsVectorBucketTags[] | cdktn.IResolvable;
   /**
   * The name of the vector bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#vector_bucket_name S3VectorsVectorBucket#vector_bucket_name}
   */
   readonly vectorBucketName?: string;
 }
@@ -30,13 +30,13 @@ export interface S3VectorsVectorBucketEncryptionConfiguration {
   /**
   * AWS Key Management Service (KMS) customer managed key ID to use for the encryption configuration. This parameter is allowed if and only if sseType is set to aws:kms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#kms_key_arn S3VectorsVectorBucket#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The server-side encryption type to use for the encryption configuration of the vector bucket. By default, if you don't specify, all new vectors in Amazon S3 vector buckets use server-side encryption with Amazon S3 managed keys (SSE-S3), specifically AES256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#sse_type S3VectorsVectorBucket#sse_type}
   */
   readonly sseType?: string;
 }
@@ -161,13 +161,13 @@ export interface S3VectorsVectorBucketTags {
   /**
   * Tag key must be between 1 to 128 characters in length. Tag key cannot start with 'aws:' and can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#key S3VectorsVectorBucket#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#key S3VectorsVectorBucket#key}
   */
   readonly key?: string;
   /**
   * Tag value must be between 0 to 256 characters in length. Tag value can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#value S3VectorsVectorBucket#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#value S3VectorsVectorBucket#value}
   */
   readonly value?: string;
 }
@@ -312,7 +312,7 @@ export class S3VectorsVectorBucketTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}
 */
 export class S3VectorsVectorBucket extends cdktn.TerraformResource {
 
@@ -328,7 +328,7 @@ export class S3VectorsVectorBucket extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3VectorsVectorBucket resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3VectorsVectorBucket to import
-  * @param importFromId The id of the existing S3VectorsVectorBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3VectorsVectorBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3VectorsVectorBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -340,7 +340,7 @@ export class S3VectorsVectorBucket extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,7 +351,7 @@ export class S3VectorsVectorBucket extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3vectors_vector_bucket',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktn from 'cdktn';
 
 export interface M2ApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#definition M2Application#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#definition M2Application#definition}
   */
   readonly definition?: M2ApplicationDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#description M2Application#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#description M2Application#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#engine_type M2Application#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#engine_type M2Application#engine_type}
   */
   readonly engineType: string;
   /**
   * The ID or the Amazon Resource Name (ARN) of the customer managed KMS Key used for encrypting application-related resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#kms_key_id M2Application#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#kms_key_id M2Application#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#name M2Application#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#name M2Application#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#role_arn M2Application#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#role_arn M2Application#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#tags M2Application#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#tags M2Application#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface M2ApplicationDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#content M2Application#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#content M2Application#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#s3_location M2Application#s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#s3_location M2Application#s3_location}
   */
   readonly s3Location?: string;
 }
@@ -167,7 +167,7 @@ export class M2ApplicationDefinitionOutputReference extends cdktn.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application awscc_m2_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application awscc_m2_application}
 */
 export class M2Application extends cdktn.TerraformResource {
 
@@ -183,7 +183,7 @@ export class M2Application extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a M2Application resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the M2Application to import
-  * @param importFromId The id of the existing M2Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing M2Application that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the M2Application to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -195,7 +195,7 @@ export class M2Application extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/m2_application awscc_m2_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/m2_application awscc_m2_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,7 +206,7 @@ export class M2Application extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_m2_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

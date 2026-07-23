@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cloudformation_lambda_hook
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cloudformation_lambda_hook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,12 +10,71 @@ export interface DataAwsccCloudformationLambdaHookConfig extends cdktn.Terraform
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cloudformation_lambda_hook#id DataAwsccCloudformationLambdaHook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cloudformation_lambda_hook#id DataAwsccCloudformationLambdaHook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccCloudformationLambdaHookLoggingConfig {
+}
+
+export function dataAwsccCloudformationLambdaHookLoggingConfigToTerraform(struct?: DataAwsccCloudformationLambdaHookLoggingConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCloudformationLambdaHookLoggingConfigToHclTerraform(struct?: DataAwsccCloudformationLambdaHookLoggingConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCloudformationLambdaHookLoggingConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCloudformationLambdaHookLoggingConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCloudformationLambdaHookLoggingConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // log_group_name - computed: true, optional: false, required: false
+  public get logGroupName() {
+    return this.getStringAttribute('log_group_name');
+  }
+
+  // log_role_arn - computed: true, optional: false, required: false
+  public get logRoleArn() {
+    return this.getStringAttribute('log_role_arn');
+  }
 }
 export interface DataAwsccCloudformationLambdaHookStackFiltersStackNames {
 }
@@ -358,7 +417,7 @@ export class DataAwsccCloudformationLambdaHookTargetFiltersOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}
 */
 export class DataAwsccCloudformationLambdaHook extends cdktn.TerraformDataSource {
 
@@ -374,7 +433,7 @@ export class DataAwsccCloudformationLambdaHook extends cdktn.TerraformDataSource
   * Generates CDKTN code for importing a DataAwsccCloudformationLambdaHook resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCloudformationLambdaHook to import
-  * @param importFromId The id of the existing DataAwsccCloudformationLambdaHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCloudformationLambdaHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cloudformation_lambda_hook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCloudformationLambdaHook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -386,7 +445,7 @@ export class DataAwsccCloudformationLambdaHook extends cdktn.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,7 +456,7 @@ export class DataAwsccCloudformationLambdaHook extends cdktn.TerraformDataSource
       terraformResourceType: 'awscc_cloudformation_lambda_hook',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -417,6 +476,11 @@ export class DataAwsccCloudformationLambdaHook extends cdktn.TerraformDataSource
   // alias - computed: true, optional: false, required: false
   public get alias() {
     return this.getStringAttribute('alias');
+  }
+
+  // auto_update - computed: true, optional: false, required: false
+  public get autoUpdate() {
+    return this.getBooleanAttribute('auto_update');
   }
 
   // execution_role - computed: true, optional: false, required: false
@@ -455,6 +519,12 @@ export class DataAwsccCloudformationLambdaHook extends cdktn.TerraformDataSource
   // lambda_function - computed: true, optional: false, required: false
   public get lambdaFunction() {
     return this.getStringAttribute('lambda_function');
+  }
+
+  // logging_config - computed: true, optional: false, required: false
+  private _loggingConfig = new DataAwsccCloudformationLambdaHookLoggingConfigOutputReference(this, "logging_config");
+  public get loggingConfig() {
+    return this._loggingConfig;
   }
 
   // stack_filters - computed: true, optional: false, required: false

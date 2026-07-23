@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3_bucket_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3_bucket_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface S3BucketPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the Amazon S3 bucket to which the policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3_bucket_policy#bucket S3BucketPolicy#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3_bucket_policy#bucket S3BucketPolicy#bucket}
   */
   readonly bucket: string;
   /**
   * A policy document containing permissions to add to the specified bucket. In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM. For more information, see the AWS::IAM::Policy [PolicyDocument](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-policydocument) resource description in this guide and [Access Policy Language Overview](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-language-overview.html) in the *Amazon S3 User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3_bucket_policy#policy_document S3BucketPolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3_bucket_policy#policy_document S3BucketPolicy#policy_document}
   */
   readonly policyDocument: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3_bucket_policy awscc_s3_bucket_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3_bucket_policy awscc_s3_bucket_policy}
 */
 export class S3BucketPolicy extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class S3BucketPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3BucketPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketPolicy to import
-  * @param importFromId The id of the existing S3BucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3_bucket_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3_bucket_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class S3BucketPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/s3_bucket_policy awscc_s3_bucket_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/s3_bucket_policy awscc_s3_bucket_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class S3BucketPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3_bucket_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEc2VpcEndpointServicePermissionsPluralConfig extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural}
 */
 export class DataAwsccEc2VpcEndpointServicePermissionsPlural extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEc2VpcEndpointServicePermissionsPlural extends cdktn.Terra
   * Generates CDKTN code for importing a DataAwsccEc2VpcEndpointServicePermissionsPlural resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2VpcEndpointServicePermissionsPlural to import
-  * @param importFromId The id of the existing DataAwsccEc2VpcEndpointServicePermissionsPlural that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2VpcEndpointServicePermissionsPlural that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2VpcEndpointServicePermissionsPlural to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEc2VpcEndpointServicePermissionsPlural extends cdktn.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEc2VpcEndpointServicePermissionsPlural extends cdktn.Terra
       terraformResourceType: 'awscc_ec2_vpc_endpoint_service_permissions_plural',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface MskTopicConfig extends cdktn.TerraformMetaArguments {
   /**
   * The Amazon Resource Name (ARN) of the MSK cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
   */
   readonly clusterArn: string;
   /**
   * Base64 encoded configuration properties of the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic#configs MskTopic#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic#configs MskTopic#configs}
   */
   readonly configs?: string;
   /**
   * The number of partitions for the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
   */
   readonly partitionCount: number;
   /**
   * The replication factor for the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
   */
   readonly replicationFactor: number;
   /**
   * The name of the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
   */
   readonly topicName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic awscc_msk_topic}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic awscc_msk_topic}
 */
 export class MskTopic extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class MskTopic extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MskTopic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MskTopic to import
-  * @param importFromId The id of the existing MskTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MskTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MskTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class MskTopic extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/msk_topic awscc_msk_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/msk_topic awscc_msk_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class MskTopic extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_msk_topic',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SmsvoiceSenderIdConfig extends cdktn.TerraformMetaArguments {
   /**
   * When set to true the sender ID can't be deleted. By default this is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id#deletion_protection_enabled SmsvoiceSenderId#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id#deletion_protection_enabled SmsvoiceSenderId#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The two-character code, in ISO 3166-1 alpha-2 format, for the country or region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id#iso_country_code SmsvoiceSenderId#iso_country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id#iso_country_code SmsvoiceSenderId#iso_country_code}
   */
   readonly isoCountryCode: string;
   /**
   * The sender ID string to request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id#sender_id SmsvoiceSenderId#sender_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id#sender_id SmsvoiceSenderId#sender_id}
   */
   readonly senderId: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id#tags SmsvoiceSenderId#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id#tags SmsvoiceSenderId#tags}
   */
   readonly tags?: SmsvoiceSenderIdTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface SmsvoiceSenderIdTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id#key SmsvoiceSenderId#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id#key SmsvoiceSenderId#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id#value SmsvoiceSenderId#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id#value SmsvoiceSenderId#value}
   */
   readonly value?: string;
 }
@@ -187,7 +187,7 @@ export class SmsvoiceSenderIdTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id}
 */
 export class SmsvoiceSenderId extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class SmsvoiceSenderId extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SmsvoiceSenderId resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsvoiceSenderId to import
-  * @param importFromId The id of the existing SmsvoiceSenderId that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsvoiceSenderId that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsvoiceSenderId to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class SmsvoiceSenderId extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class SmsvoiceSenderId extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_smsvoice_sender_id',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

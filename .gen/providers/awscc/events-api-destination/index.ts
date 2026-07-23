@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface EventsApiDestinationConfig extends cdktn.TerraformMetaArguments
   /**
   * The arn of the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination#connection_arn EventsApiDestination#connection_arn}
   */
   readonly connectionArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination#description EventsApiDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination#description EventsApiDestination#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination#http_method EventsApiDestination#http_method}
   */
   readonly httpMethod: string;
   /**
   * Url endpoint to invoke.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination#invocation_endpoint EventsApiDestination#invocation_endpoint}
   */
   readonly invocationEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination#invocation_rate_limit_per_second EventsApiDestination#invocation_rate_limit_per_second}
   */
   readonly invocationRateLimitPerSecond?: number;
   /**
   * Name of the apiDestination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination#name EventsApiDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination#name EventsApiDestination#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination awscc_events_api_destination}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination awscc_events_api_destination}
 */
 export class EventsApiDestination extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EventsApiDestination resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventsApiDestination to import
-  * @param importFromId The id of the existing EventsApiDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventsApiDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventsApiDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/events_api_destination awscc_events_api_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/events_api_destination awscc_events_api_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class EventsApiDestination extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_events_api_destination',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

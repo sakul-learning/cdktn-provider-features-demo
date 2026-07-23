@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamApplicationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#app_block_arn AppstreamApplication#app_block_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#app_block_arn AppstreamApplication#app_block_arn}
   */
   readonly appBlockArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#attributes_to_delete AppstreamApplication#attributes_to_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#attributes_to_delete AppstreamApplication#attributes_to_delete}
   */
   readonly attributesToDelete?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#description AppstreamApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#description AppstreamApplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#display_name AppstreamApplication#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#display_name AppstreamApplication#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#icon_s3_location AppstreamApplication#icon_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#icon_s3_location AppstreamApplication#icon_s3_location}
   */
   readonly iconS3Location: AppstreamApplicationIconS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#instance_families AppstreamApplication#instance_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#instance_families AppstreamApplication#instance_families}
   */
   readonly instanceFamilies: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#launch_parameters AppstreamApplication#launch_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#launch_parameters AppstreamApplication#launch_parameters}
   */
   readonly launchParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#launch_path AppstreamApplication#launch_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#launch_path AppstreamApplication#launch_path}
   */
   readonly launchPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#name AppstreamApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#name AppstreamApplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#platforms AppstreamApplication#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#platforms AppstreamApplication#platforms}
   */
   readonly platforms: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#tags AppstreamApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#tags AppstreamApplication#tags}
   */
   readonly tags?: AppstreamApplicationTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#working_directory AppstreamApplication#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#working_directory AppstreamApplication#working_directory}
   */
   readonly workingDirectory?: string;
 }
 export interface AppstreamApplicationIconS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#s3_bucket AppstreamApplication#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#s3_bucket AppstreamApplication#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#s3_key AppstreamApplication#s3_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#s3_key AppstreamApplication#s3_key}
   */
   readonly s3Key: string;
 }
@@ -179,19 +179,19 @@ export class AppstreamApplicationIconS3LocationOutputReference extends cdktn.Com
 }
 export interface AppstreamApplicationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#key AppstreamApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#key AppstreamApplication#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#tag_key AppstreamApplication#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#tag_key AppstreamApplication#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#tag_value AppstreamApplication#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#tag_value AppstreamApplication#tag_value}
   */
   readonly tagValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#value AppstreamApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#value AppstreamApplication#value}
   */
   readonly value?: string;
 }
@@ -394,7 +394,7 @@ export class AppstreamApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application awscc_appstream_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application awscc_appstream_application}
 */
 export class AppstreamApplication extends cdktn.TerraformResource {
 
@@ -410,7 +410,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamApplication to import
-  * @param importFromId The id of the existing AppstreamApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -422,7 +422,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_application awscc_appstream_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/appstream_application awscc_appstream_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,7 +433,7 @@ export class AppstreamApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

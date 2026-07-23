@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DatabrewProjectConfig extends cdktn.TerraformMetaArguments {
   /**
   * Dataset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#dataset_name DatabrewProject#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#dataset_name DatabrewProject#dataset_name}
   */
   readonly datasetName: string;
   /**
   * Project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#name DatabrewProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#name DatabrewProject#name}
   */
   readonly name: string;
   /**
   * Recipe name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#recipe_name DatabrewProject#recipe_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#recipe_name DatabrewProject#recipe_name}
   */
   readonly recipeName: string;
   /**
   * Role arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#role_arn DatabrewProject#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#role_arn DatabrewProject#role_arn}
   */
   readonly roleArn: string;
   /**
   * Sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#sample DatabrewProject#sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#sample DatabrewProject#sample}
   */
   readonly sample?: DatabrewProjectSample;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#tags DatabrewProject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#tags DatabrewProject#tags}
   */
   readonly tags?: DatabrewProjectTags[] | cdktn.IResolvable;
 }
@@ -46,13 +46,13 @@ export interface DatabrewProjectSample {
   /**
   * Sample size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#size DatabrewProject#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#size DatabrewProject#size}
   */
   readonly size?: number;
   /**
   * Sample type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#type DatabrewProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#type DatabrewProject#type}
   */
   readonly type?: string;
 }
@@ -175,11 +175,11 @@ export class DatabrewProjectSampleOutputReference extends cdktn.ComplexObject {
 }
 export interface DatabrewProjectTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#key DatabrewProject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#key DatabrewProject#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#value DatabrewProject#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#value DatabrewProject#value}
   */
   readonly value?: string;
 }
@@ -324,7 +324,7 @@ export class DatabrewProjectTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project awscc_databrew_project}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project awscc_databrew_project}
 */
 export class DatabrewProject extends cdktn.TerraformResource {
 
@@ -340,7 +340,7 @@ export class DatabrewProject extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatabrewProject resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabrewProject to import
-  * @param importFromId The id of the existing DatabrewProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabrewProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabrewProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DatabrewProject extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/databrew_project awscc_databrew_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/databrew_project awscc_databrew_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,7 +363,7 @@ export class DatabrewProject extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_databrew_project',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

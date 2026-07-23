@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface StepfunctionsStateMachineAliasConfig extends cdktn.TerraformMet
   /**
   * The settings to enable gradual state machine deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#deployment_preference StepfunctionsStateMachineAlias#deployment_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#deployment_preference StepfunctionsStateMachineAlias#deployment_preference}
   */
   readonly deploymentPreference?: StepfunctionsStateMachineAliasDeploymentPreference;
   /**
   * An optional description of the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#description StepfunctionsStateMachineAlias#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#description StepfunctionsStateMachineAlias#description}
   */
   readonly description?: string;
   /**
   * The alias name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#name StepfunctionsStateMachineAlias#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#name StepfunctionsStateMachineAlias#name}
   */
   readonly name?: string;
   /**
   * The routing configuration of the alias. One or two versions can be mapped to an alias to split StartExecution requests of the same state machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#routing_configuration StepfunctionsStateMachineAlias#routing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#routing_configuration StepfunctionsStateMachineAlias#routing_configuration}
   */
   readonly routingConfiguration?: StepfunctionsStateMachineAliasRoutingConfiguration[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#state_machine_arn StepfunctionsStateMachineAlias#state_machine_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#state_machine_arn StepfunctionsStateMachineAlias#state_machine_arn}
   */
   readonly stateMachineArn?: string;
 }
@@ -40,29 +40,29 @@ export interface StepfunctionsStateMachineAliasDeploymentPreference {
   /**
   * A list of CloudWatch alarm names that will be monitored during the deployment. The deployment will fail and rollback if any alarms go into ALARM state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#alarms StepfunctionsStateMachineAlias#alarms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#alarms StepfunctionsStateMachineAlias#alarms}
   */
   readonly alarms?: string[];
   /**
   * The time in minutes between each traffic shifting increment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#interval StepfunctionsStateMachineAlias#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#interval StepfunctionsStateMachineAlias#interval}
   */
   readonly interval?: number;
   /**
   * The percentage of traffic to shift to the new version in each increment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#percentage StepfunctionsStateMachineAlias#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#percentage StepfunctionsStateMachineAlias#percentage}
   */
   readonly percentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}
   */
   readonly stateMachineVersionArn?: string;
   /**
   * The type of deployment to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#type StepfunctionsStateMachineAlias#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#type StepfunctionsStateMachineAlias#type}
   */
   readonly type?: string;
 }
@@ -274,13 +274,13 @@ export interface StepfunctionsStateMachineAliasRoutingConfiguration {
   /**
   * The Amazon Resource Name (ARN) that identifies one or two state machine versions defined in the routing configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#state_machine_version_arn StepfunctionsStateMachineAlias#state_machine_version_arn}
   */
   readonly stateMachineVersionArn?: string;
   /**
   * The percentage of traffic you want to route to the state machine version. The sum of the weights in the routing configuration must be equal to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#weight StepfunctionsStateMachineAlias#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#weight StepfunctionsStateMachineAlias#weight}
   */
   readonly weight?: number;
 }
@@ -425,7 +425,7 @@ export class StepfunctionsStateMachineAliasRoutingConfigurationList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}
 */
 export class StepfunctionsStateMachineAlias extends cdktn.TerraformResource {
 
@@ -441,7 +441,7 @@ export class StepfunctionsStateMachineAlias extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a StepfunctionsStateMachineAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StepfunctionsStateMachineAlias to import
-  * @param importFromId The id of the existing StepfunctionsStateMachineAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StepfunctionsStateMachineAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StepfunctionsStateMachineAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -453,7 +453,7 @@ export class StepfunctionsStateMachineAlias extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,7 +464,7 @@ export class StepfunctionsStateMachineAlias extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_stepfunctions_state_machine_alias',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

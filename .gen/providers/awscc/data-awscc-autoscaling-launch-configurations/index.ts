@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/autoscaling_launch_configurations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/autoscaling_launch_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccAutoscalingLaunchConfigurationsConfig extends cdktn.Te
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations}
 */
 export class DataAwsccAutoscalingLaunchConfigurations extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccAutoscalingLaunchConfigurations extends cdktn.TerraformDat
   * Generates CDKTN code for importing a DataAwsccAutoscalingLaunchConfigurations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccAutoscalingLaunchConfigurations to import
-  * @param importFromId The id of the existing DataAwsccAutoscalingLaunchConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/autoscaling_launch_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccAutoscalingLaunchConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/autoscaling_launch_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccAutoscalingLaunchConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccAutoscalingLaunchConfigurations extends cdktn.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccAutoscalingLaunchConfigurations extends cdktn.TerraformDat
       terraformResourceType: 'awscc_autoscaling_launch_configurations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

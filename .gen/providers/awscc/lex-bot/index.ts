@@ -31,73 +31,73 @@ export interface LexBotConfig extends cdktn.TerraformMetaArguments {
   /**
   * Specifies whether to build the bot locales after bot creation completes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#auto_build_bot_locales LexBot#auto_build_bot_locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#auto_build_bot_locales LexBot#auto_build_bot_locales}
   */
   readonly autoBuildBotLocales?: boolean | cdktn.IResolvable;
   /**
   * S3 location of bot definitions zip file, if it's not defined inline in CloudFormation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#bot_file_s3_location LexBot#bot_file_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#bot_file_s3_location LexBot#bot_file_s3_location}
   */
   readonly botFileS3Location?: LexBotBotFileS3Location;
   /**
   * List of bot locales
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#bot_locales LexBot#bot_locales}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#bot_locales LexBot#bot_locales}
   */
   readonly botLocales?: LexBotBotLocales[] | cdktn.IResolvable;
   /**
   * A list of tags to add to the bot, which can only be added at bot creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#bot_tags LexBot#bot_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#bot_tags LexBot#bot_tags}
   */
   readonly botTags?: LexBotBotTags[] | cdktn.IResolvable;
   /**
   * Data privacy setting of the Bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#data_privacy LexBot#data_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#data_privacy LexBot#data_privacy}
   */
   readonly dataPrivacy: LexBotDataPrivacy;
   /**
   * A description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#description LexBot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#description LexBot#description}
   */
   readonly description?: string;
   /**
   * IdleSessionTTLInSeconds of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#idle_session_ttl_in_seconds LexBot#idle_session_ttl_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#idle_session_ttl_in_seconds LexBot#idle_session_ttl_in_seconds}
   */
   readonly idleSessionTtlInSeconds: number;
   /**
   * Unique name for a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#name LexBot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#name LexBot#name}
   */
   readonly name: string;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that has permission to access the bot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#role_arn LexBot#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#role_arn LexBot#role_arn}
   */
   readonly roleArn: string;
   /**
   * Configuring the test bot alias settings for a given bot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#test_bot_alias_settings LexBot#test_bot_alias_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#test_bot_alias_settings LexBot#test_bot_alias_settings}
   */
   readonly testBotAliasSettings?: LexBotTestBotAliasSettings;
   /**
   * A list of tags to add to the test alias for a bot, , which can only be added at bot/bot alias creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#test_bot_alias_tags LexBot#test_bot_alias_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#test_bot_alias_tags LexBot#test_bot_alias_tags}
   */
   readonly testBotAliasTags?: LexBotTestBotAliasTags[] | cdktn.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot awscc_lex_bot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot awscc_lex_bot}
 */
 export class LexBot extends cdktn.TerraformResource {
 
@@ -113,7 +113,7 @@ export class LexBot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LexBot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LexBot to import
-  * @param importFromId The id of the existing LexBot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LexBot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LexBot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -125,7 +125,7 @@ export class LexBot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lex_bot awscc_lex_bot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/lex_bot awscc_lex_bot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,7 +136,7 @@ export class LexBot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lex_bot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

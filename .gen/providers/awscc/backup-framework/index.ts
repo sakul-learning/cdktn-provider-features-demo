@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface BackupFrameworkConfig extends cdktn.TerraformMetaArguments {
   /**
   * Contains detailed information about all of the controls of a framework. Each framework must contain at least one control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#framework_controls BackupFramework#framework_controls}
   */
   readonly frameworkControls: BackupFrameworkFrameworkControls[] | cdktn.IResolvable;
   /**
   * An optional description of the framework with a maximum 1,024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#framework_description BackupFramework#framework_description}
   */
   readonly frameworkDescription?: string;
   /**
   * The unique name of a framework. This name is between 1 and 256 characters, starting with a letter, and consisting of letters (a-z, A-Z), numbers (0-9), and underscores (_).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#framework_name BackupFramework#framework_name}
   */
   readonly frameworkName?: string;
   /**
   * Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#framework_tags BackupFramework#framework_tags}
   */
   readonly frameworkTags?: BackupFrameworkFrameworkTags[] | cdktn.IResolvable;
 }
 export interface BackupFrameworkFrameworkControlsControlInputParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#parameter_name BackupFramework#parameter_name}
   */
   readonly parameterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#parameter_value BackupFramework#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -185,13 +185,13 @@ export interface BackupFrameworkFrameworkControlsControlScopeTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#key BackupFramework#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#key BackupFramework#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#value BackupFramework#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#value BackupFramework#value}
   */
   readonly value?: string;
 }
@@ -338,19 +338,19 @@ export interface BackupFrameworkFrameworkControlsControlScope {
   /**
   * The ID of the only AWS resource that you want your control scope to contain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#compliance_resource_ids BackupFramework#compliance_resource_ids}
   */
   readonly complianceResourceIds?: string[];
   /**
   * Describes whether the control scope includes one or more types of resources, such as `EFS` or `RDS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#compliance_resource_types BackupFramework#compliance_resource_types}
   */
   readonly complianceResourceTypes?: string[];
   /**
   * Describes whether the control scope includes resources with one or more tags. Each tag is a key-value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#tags BackupFramework#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#tags BackupFramework#tags}
   */
   readonly tags?: BackupFrameworkFrameworkControlsControlScopeTags[] | cdktn.IResolvable;
 }
@@ -504,19 +504,19 @@ export interface BackupFrameworkFrameworkControls {
   /**
   * A list of ParameterName and ParameterValue pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#control_input_parameters BackupFramework#control_input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#control_input_parameters BackupFramework#control_input_parameters}
   */
   readonly controlInputParameters?: BackupFrameworkFrameworkControlsControlInputParameters[] | cdktn.IResolvable;
   /**
   * The name of a control. This name is between 1 and 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#control_name BackupFramework#control_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#control_name BackupFramework#control_name}
   */
   readonly controlName: string;
   /**
   * The scope of a control. The control scope defines what the control will evaluate. Three examples of control scopes are: a specific backup plan, all backup plans with a specific tag, or all backup plans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#control_scope BackupFramework#control_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#control_scope BackupFramework#control_scope}
   */
   readonly controlScope?: BackupFrameworkFrameworkControlsControlScope;
 }
@@ -689,13 +689,13 @@ export interface BackupFrameworkFrameworkTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#key BackupFramework#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#key BackupFramework#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#value BackupFramework#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#value BackupFramework#value}
   */
   readonly value?: string;
 }
@@ -840,7 +840,7 @@ export class BackupFrameworkFrameworkTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework awscc_backup_framework}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework awscc_backup_framework}
 */
 export class BackupFramework extends cdktn.TerraformResource {
 
@@ -856,7 +856,7 @@ export class BackupFramework extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BackupFramework resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BackupFramework to import
-  * @param importFromId The id of the existing BackupFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BackupFramework that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BackupFramework to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -868,7 +868,7 @@ export class BackupFramework extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/backup_framework awscc_backup_framework} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/backup_framework awscc_backup_framework} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -879,7 +879,7 @@ export class BackupFramework extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_backup_framework',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

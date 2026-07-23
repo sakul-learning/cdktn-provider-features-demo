@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_subnet_route_table_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_subnet_route_table_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,19 +11,19 @@ export interface Ec2SubnetRouteTableAssociationConfig extends cdktn.TerraformMet
   * The ID of the route table.
   *  The physical ID changes when the route table ID is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_subnet_route_table_association#route_table_id Ec2SubnetRouteTableAssociation#route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_subnet_route_table_association#route_table_id Ec2SubnetRouteTableAssociation#route_table_id}
   */
   readonly routeTableId: string;
   /**
   * The ID of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_subnet_route_table_association#subnet_id Ec2SubnetRouteTableAssociation#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_subnet_route_table_association#subnet_id Ec2SubnetRouteTableAssociation#subnet_id}
   */
   readonly subnetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_subnet_route_table_association awscc_ec2_subnet_route_table_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_subnet_route_table_association awscc_ec2_subnet_route_table_association}
 */
 export class Ec2SubnetRouteTableAssociation extends cdktn.TerraformResource {
 
@@ -39,7 +39,7 @@ export class Ec2SubnetRouteTableAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2SubnetRouteTableAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2SubnetRouteTableAssociation to import
-  * @param importFromId The id of the existing Ec2SubnetRouteTableAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_subnet_route_table_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2SubnetRouteTableAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_subnet_route_table_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2SubnetRouteTableAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -51,7 +51,7 @@ export class Ec2SubnetRouteTableAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_subnet_route_table_association awscc_ec2_subnet_route_table_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/ec2_subnet_route_table_association awscc_ec2_subnet_route_table_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +62,7 @@ export class Ec2SubnetRouteTableAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_subnet_route_table_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location
+// https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MediatailorSourceLocationConfig extends cdktn.TerraformMetaArgu
   /**
   * <p>Access configuration parameters.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#access_configuration MediatailorSourceLocation#access_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#access_configuration MediatailorSourceLocation#access_configuration}
   */
   readonly accessConfiguration?: MediatailorSourceLocationAccessConfiguration;
   /**
   * <p>The optional configuration for a server that serves segments. Use this if you want the segment delivery server to be different from the source location server. For example, you can configure your source location server to be an origination server, such as MediaPackage, and the segment delivery server to be a content delivery network (CDN), such as CloudFront. If you don't specify a segment delivery server, then the source location server is used.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#default_segment_delivery_configuration MediatailorSourceLocation#default_segment_delivery_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#default_segment_delivery_configuration MediatailorSourceLocation#default_segment_delivery_configuration}
   */
   readonly defaultSegmentDeliveryConfiguration?: MediatailorSourceLocationDefaultSegmentDeliveryConfiguration;
   /**
   * <p>The HTTP configuration for the source location.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#http_configuration MediatailorSourceLocation#http_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#http_configuration MediatailorSourceLocation#http_configuration}
   */
   readonly httpConfiguration: MediatailorSourceLocationHttpConfiguration;
   /**
   * <p>A list of the segment delivery configurations associated with this resource.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#segment_delivery_configurations MediatailorSourceLocation#segment_delivery_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#segment_delivery_configurations MediatailorSourceLocation#segment_delivery_configurations}
   */
   readonly segmentDeliveryConfigurations?: MediatailorSourceLocationSegmentDeliveryConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#source_location_name MediatailorSourceLocation#source_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#source_location_name MediatailorSourceLocation#source_location_name}
   */
   readonly sourceLocationName: string;
   /**
   * The tags to assign to the source location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#tags MediatailorSourceLocation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#tags MediatailorSourceLocation#tags}
   */
   readonly tags?: MediatailorSourceLocationTags[] | cdktn.IResolvable;
 }
@@ -46,19 +46,19 @@ export interface MediatailorSourceLocationAccessConfigurationSecretsManagerAcces
   /**
   * <p>The name of the HTTP header used to supply the access token in requests to the source location.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#header_name MediatailorSourceLocation#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#header_name MediatailorSourceLocation#header_name}
   */
   readonly headerName?: string;
   /**
   * <p>The Amazon Resource Name (ARN) of the AWS Secrets Manager secret that contains the access token.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#secret_arn MediatailorSourceLocation#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#secret_arn MediatailorSourceLocation#secret_arn}
   */
   readonly secretArn?: string;
   /**
   * <p>The AWS Secrets Manager <a href="https://docs.aws.amazon.com/secretsmanager/latest/apireference/API_CreateSecret.html#SecretsManager-CreateSecret-request-SecretString.html">SecretString</a> key associated with the access token. MediaTailor uses the key to look up SecretString key and value pair containing the access token.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#secret_string_key MediatailorSourceLocation#secret_string_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#secret_string_key MediatailorSourceLocation#secret_string_key}
   */
   readonly secretStringKey?: string;
 }
@@ -210,13 +210,13 @@ export class MediatailorSourceLocationAccessConfigurationSecretsManagerAccessTok
 }
 export interface MediatailorSourceLocationAccessConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#access_type MediatailorSourceLocation#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#access_type MediatailorSourceLocation#access_type}
   */
   readonly accessType?: string;
   /**
   * <p>AWS Secrets Manager access token configuration parameters. For information about Secrets Manager access token authentication, see <a href="https://docs.aws.amazon.com/mediatailor/latest/ug/channel-assembly-access-configuration-access-token.html">Working with AWS Secrets Manager access token authentication</a>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#secrets_manager_access_token_configuration MediatailorSourceLocation#secrets_manager_access_token_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#secrets_manager_access_token_configuration MediatailorSourceLocation#secrets_manager_access_token_configuration}
   */
   readonly secretsManagerAccessTokenConfiguration?: MediatailorSourceLocationAccessConfigurationSecretsManagerAccessTokenConfiguration;
 }
@@ -341,7 +341,7 @@ export interface MediatailorSourceLocationDefaultSegmentDeliveryConfiguration {
   /**
   * <p>The hostname of the server that will be used to serve segments. This string must include the protocol, such as <b>https://</b>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
   */
   readonly baseUrl?: string;
 }
@@ -437,7 +437,7 @@ export interface MediatailorSourceLocationHttpConfiguration {
   /**
   * <p>The base URL for the source location host server. This string must include the protocol, such as <b>https://</b>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
   */
   readonly baseUrl: string;
 }
@@ -530,13 +530,13 @@ export interface MediatailorSourceLocationSegmentDeliveryConfigurations {
   /**
   * <p>The base URL of the host or path of the segment delivery server that you're using to serve segments. This is typically a content delivery network (CDN). The URL can be absolute or relative. To use an absolute URL include the protocol, such as <code>https://example.com/some/path</code>. To use a relative URL specify the relative path, such as <code>/some/path*</code>.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
   */
   readonly baseUrl?: string;
   /**
   * <p>A unique identifier used to distinguish between multiple segment delivery configurations in a source location.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#name MediatailorSourceLocation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#name MediatailorSourceLocation#name}
   */
   readonly name?: string;
 }
@@ -681,11 +681,11 @@ export class MediatailorSourceLocationSegmentDeliveryConfigurationsList extends 
 }
 export interface MediatailorSourceLocationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#key MediatailorSourceLocation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#key MediatailorSourceLocation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#value MediatailorSourceLocation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#value MediatailorSourceLocation#value}
   */
   readonly value?: string;
 }
@@ -830,7 +830,7 @@ export class MediatailorSourceLocationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location}
 */
 export class MediatailorSourceLocation extends cdktn.TerraformResource {
 
@@ -846,7 +846,7 @@ export class MediatailorSourceLocation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediatailorSourceLocation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediatailorSourceLocation to import
-  * @param importFromId The id of the existing MediatailorSourceLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediatailorSourceLocation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediatailorSourceLocation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -858,7 +858,7 @@ export class MediatailorSourceLocation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.94.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -869,7 +869,7 @@ export class MediatailorSourceLocation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediatailor_source_location',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.93.0'
+        providerVersion: '1.94.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
