@@ -1,3 +1,3 @@
 # `awscc_inspectorv2_cis_scan_configuration`
 
-Refer to the Terraform Registry for docs: [`awscc_inspectorv2_cis_scan_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/inspectorv2_cis_scan_configuration).
+Refer to the Terraform Registry for docs: [`awscc_inspectorv2_cis_scan_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/inspectorv2_cis_scan_configuration).

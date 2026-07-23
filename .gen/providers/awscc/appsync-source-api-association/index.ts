@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AppsyncSourceApiAssociationConfig extends cdktn.TerraformMetaAr
   /**
   * Description of the SourceApiAssociation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
   */
   readonly description?: string;
   /**
   * Identifier of the Merged GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
   */
   readonly mergedApiIdentifier?: string;
   /**
   * Customized configuration for SourceApiAssociation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
   */
   readonly sourceApiAssociationConfig?: AppsyncSourceApiAssociationSourceApiAssociationConfig;
   /**
   * Identifier of the Source GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
   */
   readonly sourceApiIdentifier?: string;
 }
@@ -36,7 +36,7 @@ export interface AppsyncSourceApiAssociationSourceApiAssociationConfig {
   /**
   * Configuration of the merged behavior for the association. For example when it could be auto or has to be manual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association#merge_type AppsyncSourceApiAssociation#merge_type}
   */
   readonly mergeType?: string;
 }
@@ -130,7 +130,7 @@ export class AppsyncSourceApiAssociationSourceApiAssociationConfigOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association}
 */
 export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
 
@@ -146,7 +146,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncSourceApiAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncSourceApiAssociation to import
-  * @param importFromId The id of the existing AppsyncSourceApiAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncSourceApiAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncSourceApiAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -158,7 +158,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appsync_source_api_association awscc_appsync_source_api_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,7 +169,7 @@ export class AppsyncSourceApiAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_source_api_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

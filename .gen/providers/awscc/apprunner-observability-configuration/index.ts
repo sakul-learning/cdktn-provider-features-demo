@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ApprunnerObservabilityConfigurationConfig extends cdktn.Terrafo
   /**
   * A name for the observability configuration. When you use it for the first time in an AWS Region, App Runner creates revision number 1 of this name. When you use the same name in subsequent calls, App Runner creates incremental revisions of the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration#observability_configuration_name ApprunnerObservabilityConfiguration#observability_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration#observability_configuration_name ApprunnerObservabilityConfiguration#observability_configuration_name}
   */
   readonly observabilityConfigurationName?: string;
   /**
   * A list of metadata items that you can associate with your observability configuration resource. A tag is a key-value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration#tags ApprunnerObservabilityConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration#tags ApprunnerObservabilityConfiguration#tags}
   */
   readonly tags?: ApprunnerObservabilityConfigurationTags[] | cdktn.IResolvable;
   /**
   * The configuration of the tracing feature within this observability configuration. If you don't specify it, App Runner doesn't enable tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration#trace_configuration ApprunnerObservabilityConfiguration#trace_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration#trace_configuration ApprunnerObservabilityConfiguration#trace_configuration}
   */
   readonly traceConfiguration?: ApprunnerObservabilityConfigurationTraceConfiguration;
 }
 export interface ApprunnerObservabilityConfigurationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration#key ApprunnerObservabilityConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration#key ApprunnerObservabilityConfiguration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration#value ApprunnerObservabilityConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration#value ApprunnerObservabilityConfiguration#value}
   */
   readonly value?: string;
 }
@@ -179,7 +179,7 @@ export interface ApprunnerObservabilityConfigurationTraceConfiguration {
   /**
   * The implementation provider chosen for tracing App Runner services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration#vendor ApprunnerObservabilityConfiguration#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration#vendor ApprunnerObservabilityConfiguration#vendor}
   */
   readonly vendor?: string;
 }
@@ -273,7 +273,7 @@ export class ApprunnerObservabilityConfigurationTraceConfigurationOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration awscc_apprunner_observability_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration awscc_apprunner_observability_configuration}
 */
 export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource {
 
@@ -289,7 +289,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   * Generates CDKTN code for importing a ApprunnerObservabilityConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApprunnerObservabilityConfiguration to import
-  * @param importFromId The id of the existing ApprunnerObservabilityConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApprunnerObservabilityConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApprunnerObservabilityConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -301,7 +301,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,7 +312,7 @@ export class ApprunnerObservabilityConfiguration extends cdktn.TerraformResource
       terraformResourceType: 'awscc_apprunner_observability_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

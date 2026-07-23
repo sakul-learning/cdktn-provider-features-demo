@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_owner
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_owner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccDatazoneOwnerConfig extends cdktn.TerraformMetaArgumen
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_owner#id DataAwsccDatazoneOwner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_owner#id DataAwsccDatazoneOwner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -188,7 +188,7 @@ export class DataAwsccDatazoneOwnerOwnerOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_owner awscc_datazone_owner}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_owner awscc_datazone_owner}
 */
 export class DataAwsccDatazoneOwner extends cdktn.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataAwsccDatazoneOwner extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccDatazoneOwner resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDatazoneOwner to import
-  * @param importFromId The id of the existing DataAwsccDatazoneOwner that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_owner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDatazoneOwner that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_owner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDatazoneOwner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataAwsccDatazoneOwner extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/datazone_owner awscc_datazone_owner} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/datazone_owner awscc_datazone_owner} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class DataAwsccDatazoneOwner extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_datazone_owner',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

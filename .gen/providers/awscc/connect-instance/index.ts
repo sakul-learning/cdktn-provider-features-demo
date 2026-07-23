@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ConnectInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * The attributes for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
   */
   readonly attributes: ConnectInstanceAttributes;
   /**
   * Existing directoryId user wants to map to the new Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
   */
   readonly directoryId?: string;
   /**
   * Specifies the type of directory integration for new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
   */
   readonly identityManagementType: string;
   /**
   * Alias of the new directory created as part of new instance creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
   */
   readonly instanceAlias?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#tags ConnectInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#tags ConnectInstance#tags}
   */
   readonly tags?: ConnectInstanceTags[] | cdktn.IResolvable;
 }
@@ -42,79 +42,79 @@ export interface ConnectInstanceAttributes {
   /**
   * Boolean flag which enables AUTO_RESOLVE_BEST_VOICES on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#auto_resolve_best_voices ConnectInstance#auto_resolve_best_voices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#auto_resolve_best_voices ConnectInstance#auto_resolve_best_voices}
   */
   readonly autoResolveBestVoices?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables CONTACT_LENS on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#contact_lens ConnectInstance#contact_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#contact_lens ConnectInstance#contact_lens}
   */
   readonly contactLens?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables CONTACTFLOW_LOGS on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#contactflow_logs ConnectInstance#contactflow_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#contactflow_logs ConnectInstance#contactflow_logs}
   */
   readonly contactflowLogs?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables EARLY_MEDIA on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#early_media ConnectInstance#early_media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#early_media ConnectInstance#early_media}
   */
   readonly earlyMedia?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables ENHANCED_CHAT_MONITORING on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#enhanced_chat_monitoring ConnectInstance#enhanced_chat_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#enhanced_chat_monitoring ConnectInstance#enhanced_chat_monitoring}
   */
   readonly enhancedChatMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables ENHANCED_CONTACT_MONITORING on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#enhanced_contact_monitoring ConnectInstance#enhanced_contact_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#enhanced_contact_monitoring ConnectInstance#enhanced_contact_monitoring}
   */
   readonly enhancedContactMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables HIGH_VOLUME_OUTBOUND on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#high_volume_out_bound ConnectInstance#high_volume_out_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#high_volume_out_bound ConnectInstance#high_volume_out_bound}
   */
   readonly highVolumeOutBound?: boolean | cdktn.IResolvable;
   /**
   * Mandatory element which enables inbound calls on new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#inbound_calls ConnectInstance#inbound_calls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#inbound_calls ConnectInstance#inbound_calls}
   */
   readonly inboundCalls: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables MESSAGE_STREAMING on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#message_streaming ConnectInstance#message_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#message_streaming ConnectInstance#message_streaming}
   */
   readonly messageStreaming?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables MULTI_PARTY_CHAT_CONFERENCE on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#multi_party_chat_conference ConnectInstance#multi_party_chat_conference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#multi_party_chat_conference ConnectInstance#multi_party_chat_conference}
   */
   readonly multiPartyChatConference?: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables MULTI_PARTY_CONFERENCE on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#multi_party_conference ConnectInstance#multi_party_conference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#multi_party_conference ConnectInstance#multi_party_conference}
   */
   readonly multiPartyConference?: boolean | cdktn.IResolvable;
   /**
   * Mandatory element which enables outbound calls on new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#outbound_calls ConnectInstance#outbound_calls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#outbound_calls ConnectInstance#outbound_calls}
   */
   readonly outboundCalls: boolean | cdktn.IResolvable;
   /**
   * Boolean flag which enables USE_CUSTOM_TTS_VOICES on an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#use_custom_tts_voices ConnectInstance#use_custom_tts_voices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#use_custom_tts_voices ConnectInstance#use_custom_tts_voices}
   */
   readonly useCustomTtsVoices?: boolean | cdktn.IResolvable;
 }
@@ -552,13 +552,13 @@ export interface ConnectInstanceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#key ConnectInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#key ConnectInstance#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#value ConnectInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#value ConnectInstance#value}
   */
   readonly value?: string;
 }
@@ -703,7 +703,7 @@ export class ConnectInstanceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance awscc_connect_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance awscc_connect_instance}
 */
 export class ConnectInstance extends cdktn.TerraformResource {
 
@@ -719,7 +719,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectInstance to import
-  * @param importFromId The id of the existing ConnectInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -731,7 +731,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_instance awscc_connect_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_instance awscc_connect_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -742,7 +742,7 @@ export class ConnectInstance extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_instance',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

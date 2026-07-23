@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface Route53ResolverFirewallDomainListConfig extends cdktn.Terraform
   /**
   * S3 URL to import domains from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list#domain_file_url Route53ResolverFirewallDomainList#domain_file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list#domain_file_url Route53ResolverFirewallDomainList#domain_file_url}
   */
   readonly domainFileUrl?: string;
   /**
   * An inline list of domains to use for this domain list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list#domains Route53ResolverFirewallDomainList#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list#domains Route53ResolverFirewallDomainList#domains}
   */
   readonly domains?: string[];
   /**
   * FirewallDomainListName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list#name Route53ResolverFirewallDomainList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list#name Route53ResolverFirewallDomainList#name}
   */
   readonly name?: string;
   /**
   * Tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list#tags Route53ResolverFirewallDomainList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list#tags Route53ResolverFirewallDomainList#tags}
   */
   readonly tags?: Route53ResolverFirewallDomainListTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface Route53ResolverFirewallDomainListTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list#key Route53ResolverFirewallDomainList#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list#key Route53ResolverFirewallDomainList#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list#value Route53ResolverFirewallDomainList#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list#value Route53ResolverFirewallDomainList#value}
   */
   readonly value?: string;
 }
@@ -187,7 +187,7 @@ export class Route53ResolverFirewallDomainListTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list awscc_route53resolver_firewall_domain_list}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list awscc_route53resolver_firewall_domain_list}
 */
 export class Route53ResolverFirewallDomainList extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class Route53ResolverFirewallDomainList extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53ResolverFirewallDomainList resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverFirewallDomainList to import
-  * @param importFromId The id of the existing Route53ResolverFirewallDomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverFirewallDomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverFirewallDomainList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class Route53ResolverFirewallDomainList extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_firewall_domain_list awscc_route53resolver_firewall_domain_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_firewall_domain_list awscc_route53resolver_firewall_domain_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class Route53ResolverFirewallDomainList extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53resolver_firewall_domain_list',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

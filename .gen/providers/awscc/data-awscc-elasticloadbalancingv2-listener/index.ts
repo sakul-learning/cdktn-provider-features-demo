@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccElasticloadbalancingv2ListenerConfig extends cdktn.Ter
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener#id DataAwsccElasticloadbalancingv2Listener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener#id DataAwsccElasticloadbalancingv2Listener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1055,9 +1055,89 @@ export class DataAwsccElasticloadbalancingv2ListenerMutualAuthenticationOutputRe
     return this.getStringAttribute('trust_store_arn');
   }
 }
+export interface DataAwsccElasticloadbalancingv2ListenerTags {
+}
+
+export function dataAwsccElasticloadbalancingv2ListenerTagsToTerraform(struct?: DataAwsccElasticloadbalancingv2ListenerTags): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccElasticloadbalancingv2ListenerTagsToHclTerraform(struct?: DataAwsccElasticloadbalancingv2ListenerTags): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccElasticloadbalancingv2ListenerTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccElasticloadbalancingv2ListenerTags | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccElasticloadbalancingv2ListenerTags | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class DataAwsccElasticloadbalancingv2ListenerTagsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccElasticloadbalancingv2ListenerTagsOutputReference {
+    return new DataAwsccElasticloadbalancingv2ListenerTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}
 */
 export class DataAwsccElasticloadbalancingv2Listener extends cdktn.TerraformDataSource {
 
@@ -1073,7 +1153,7 @@ export class DataAwsccElasticloadbalancingv2Listener extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccElasticloadbalancingv2Listener resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccElasticloadbalancingv2Listener to import
-  * @param importFromId The id of the existing DataAwsccElasticloadbalancingv2Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccElasticloadbalancingv2Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccElasticloadbalancingv2Listener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1085,7 +1165,7 @@ export class DataAwsccElasticloadbalancingv2Listener extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1096,7 +1176,7 @@ export class DataAwsccElasticloadbalancingv2Listener extends cdktn.TerraformData
       terraformResourceType: 'awscc_elasticloadbalancingv2_listener',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1178,6 +1258,12 @@ export class DataAwsccElasticloadbalancingv2Listener extends cdktn.TerraformData
   // ssl_policy - computed: true, optional: false, required: false
   public get sslPolicy() {
     return this.getStringAttribute('ssl_policy');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  private _tags = new DataAwsccElasticloadbalancingv2ListenerTagsList(this, "tags", false);
+  public get tags() {
+    return this._tags;
   }
 
   // =========

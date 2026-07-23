@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/uxc_account_customization
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/uxc_account_customization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface UxcAccountCustomizationConfig extends cdktn.TerraformMetaArgume
   /**
   * The color theme assigned to the account for visual identification in the AWS Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
   */
   readonly accountColor?: string;
   /**
   * A list of AWS region identifiers visible to the account in the AWS Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
   */
   readonly visibleRegions?: string[];
   /**
   * A list of AWS service identifiers visible to the account in the AWS Console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
   */
   readonly visibleServices?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/uxc_account_customization awscc_uxc_account_customization}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/uxc_account_customization awscc_uxc_account_customization}
 */
 export class UxcAccountCustomization extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class UxcAccountCustomization extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a UxcAccountCustomization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UxcAccountCustomization to import
-  * @param importFromId The id of the existing UxcAccountCustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UxcAccountCustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/uxc_account_customization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UxcAccountCustomization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class UxcAccountCustomization extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/uxc_account_customization awscc_uxc_account_customization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/uxc_account_customization awscc_uxc_account_customization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class UxcAccountCustomization extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_uxc_account_customization',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

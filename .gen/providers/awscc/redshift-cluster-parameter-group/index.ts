@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RedshiftClusterParameterGroupConfig extends cdktn.TerraformMeta
   /**
   * A description of the parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#description RedshiftClusterParameterGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#description RedshiftClusterParameterGroup#description}
   */
   readonly description: string;
   /**
   * The Amazon Redshift engine version to which the cluster parameter group applies. The cluster engine version determines the set of parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#parameter_group_family RedshiftClusterParameterGroup#parameter_group_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#parameter_group_family RedshiftClusterParameterGroup#parameter_group_family}
   */
   readonly parameterGroupFamily: string;
   /**
   * The name of the cluster parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#parameter_group_name RedshiftClusterParameterGroup#parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#parameter_group_name RedshiftClusterParameterGroup#parameter_group_name}
   */
   readonly parameterGroupName?: string;
   /**
   * An array of parameters to be modified. A maximum of 20 parameters can be modified in a single request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#parameters RedshiftClusterParameterGroup#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#parameters RedshiftClusterParameterGroup#parameters}
   */
   readonly parameters?: RedshiftClusterParameterGroupParameters[] | cdktn.IResolvable;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#tags RedshiftClusterParameterGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#tags RedshiftClusterParameterGroup#tags}
   */
   readonly tags?: RedshiftClusterParameterGroupTags[] | cdktn.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface RedshiftClusterParameterGroupParameters {
   /**
   * The name of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#parameter_name RedshiftClusterParameterGroup#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#parameter_name RedshiftClusterParameterGroup#parameter_name}
   */
   readonly parameterName?: string;
   /**
   * The value of the parameter. If `ParameterName` is `wlm_json_configuration`, then the maximum size of `ParameterValue` is 8000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#parameter_value RedshiftClusterParameterGroup#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#parameter_value RedshiftClusterParameterGroup#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -195,13 +195,13 @@ export interface RedshiftClusterParameterGroupTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#key RedshiftClusterParameterGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#key RedshiftClusterParameterGroup#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#value RedshiftClusterParameterGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#value RedshiftClusterParameterGroup#value}
   */
   readonly value?: string;
 }
@@ -346,7 +346,7 @@ export class RedshiftClusterParameterGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group}
 */
 export class RedshiftClusterParameterGroup extends cdktn.TerraformResource {
 
@@ -362,7 +362,7 @@ export class RedshiftClusterParameterGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftClusterParameterGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftClusterParameterGroup to import
-  * @param importFromId The id of the existing RedshiftClusterParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftClusterParameterGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftClusterParameterGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -374,7 +374,7 @@ export class RedshiftClusterParameterGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -385,7 +385,7 @@ export class RedshiftClusterParameterGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_cluster_parameter_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

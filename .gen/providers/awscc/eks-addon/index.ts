@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface EksAddonConfig extends cdktn.TerraformMetaArguments {
   /**
   * Name of Addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#addon_name EksAddon#addon_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#addon_name EksAddon#addon_name}
   */
   readonly addonName: string;
   /**
   * Version of Addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#addon_version EksAddon#addon_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#addon_version EksAddon#addon_version}
   */
   readonly addonVersion?: string;
   /**
   * Name of Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#cluster_name EksAddon#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#cluster_name EksAddon#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The configuration values to use with the add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#configuration_values EksAddon#configuration_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#configuration_values EksAddon#configuration_values}
   */
   readonly configurationValues?: string;
   /**
   * The custom namespace configuration to use with the add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#namespace_config EksAddon#namespace_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#namespace_config EksAddon#namespace_config}
   */
   readonly namespaceConfig?: EksAddonNamespaceConfig;
   /**
   * An array of pod identities to apply to this add-on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#pod_identity_associations EksAddon#pod_identity_associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#pod_identity_associations EksAddon#pod_identity_associations}
   */
   readonly podIdentityAssociations?: EksAddonPodIdentityAssociations[] | cdktn.IResolvable;
   /**
   * PreserveOnDelete parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#preserve_on_delete EksAddon#preserve_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#preserve_on_delete EksAddon#preserve_on_delete}
   */
   readonly preserveOnDelete?: boolean | cdktn.IResolvable;
   /**
   * Resolve parameter value conflicts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#resolve_conflicts EksAddon#resolve_conflicts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#resolve_conflicts EksAddon#resolve_conflicts}
   */
   readonly resolveConflicts?: string;
   /**
   * IAM role to bind to the add-on's service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#service_account_role_arn EksAddon#service_account_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#service_account_role_arn EksAddon#service_account_role_arn}
   */
   readonly serviceAccountRoleArn?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#tags EksAddon#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#tags EksAddon#tags}
   */
   readonly tags?: EksAddonTags[] | cdktn.IResolvable;
 }
@@ -72,7 +72,7 @@ export interface EksAddonNamespaceConfig {
   /**
   * The custom namespace for creating the add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#namespace EksAddon#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#namespace EksAddon#namespace}
   */
   readonly namespace?: string;
 }
@@ -168,13 +168,13 @@ export interface EksAddonPodIdentityAssociations {
   /**
   * The IAM role ARN that the pod identity association is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#role_arn EksAddon#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#role_arn EksAddon#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The Kubernetes service account that the pod identity association is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#service_account EksAddon#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#service_account EksAddon#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -321,13 +321,13 @@ export interface EksAddonTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#key EksAddon#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#key EksAddon#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#value EksAddon#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#value EksAddon#value}
   */
   readonly value?: string;
 }
@@ -472,7 +472,7 @@ export class EksAddonTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon awscc_eks_addon}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon awscc_eks_addon}
 */
 export class EksAddon extends cdktn.TerraformResource {
 
@@ -488,7 +488,7 @@ export class EksAddon extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksAddon resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksAddon to import
-  * @param importFromId The id of the existing EksAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksAddon that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksAddon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -500,7 +500,7 @@ export class EksAddon extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_addon awscc_eks_addon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_addon awscc_eks_addon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -511,7 +511,7 @@ export class EksAddon extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eks_addon',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

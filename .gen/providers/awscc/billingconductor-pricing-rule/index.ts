@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,75 +10,75 @@ export interface BillingconductorPricingRuleConfig extends cdktn.TerraformMetaAr
   /**
   * The seller of services provided by AWS, their affiliates, or third-party providers selling services via AWS Marketplaces. Supported billing entities are AWS, AWS Marketplace, and AISPL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#billing_entity BillingconductorPricingRule#billing_entity}
   */
   readonly billingEntity?: string;
   /**
   * Pricing rule description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#description BillingconductorPricingRule#description}
   */
   readonly description?: string;
   /**
   * Pricing rule modifier percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#modifier_percentage BillingconductorPricingRule#modifier_percentage}
   */
   readonly modifierPercentage?: number;
   /**
   * Pricing rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#name BillingconductorPricingRule#name}
   */
   readonly name: string;
   /**
   * The Operation which a SKU pricing rule is modifying
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#operation BillingconductorPricingRule#operation}
   */
   readonly operation?: string;
   /**
   * A term used to categorize the granularity of a Pricing Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#scope BillingconductorPricingRule#scope}
   */
   readonly scope: string;
   /**
   * The service which a pricing rule is applied on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#service BillingconductorPricingRule#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#tags BillingconductorPricingRule#tags}
   */
   readonly tags?: BillingconductorPricingRuleTags[] | cdktn.IResolvable;
   /**
   * The set of tiering configurations for the pricing rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#tiering BillingconductorPricingRule#tiering}
   */
   readonly tiering?: BillingconductorPricingRuleTiering;
   /**
   * One of MARKUP, DISCOUNT or TIERING that describes the behaviour of the pricing rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#type BillingconductorPricingRule#type}
   */
   readonly type: string;
   /**
   * The UsageType which a SKU pricing rule is modifying
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#usage_type BillingconductorPricingRule#usage_type}
   */
   readonly usageType?: string;
 }
 export interface BillingconductorPricingRuleTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#key BillingconductorPricingRule#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#value BillingconductorPricingRule#value}
   */
   readonly value?: string;
 }
@@ -223,7 +223,7 @@ export class BillingconductorPricingRuleTagsList extends cdktn.ComplexList {
 }
 export interface BillingconductorPricingRuleTieringFreeTier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#activated BillingconductorPricingRule#activated}
   */
   readonly activated?: boolean | cdktn.IResolvable;
 }
@@ -319,7 +319,7 @@ export interface BillingconductorPricingRuleTiering {
   /**
   * The possible customizable free tier configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
   */
   readonly freeTier?: BillingconductorPricingRuleTieringFreeTier;
 }
@@ -413,7 +413,7 @@ export class BillingconductorPricingRuleTieringOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}
 */
 export class BillingconductorPricingRule extends cdktn.TerraformResource {
 
@@ -429,7 +429,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BillingconductorPricingRule resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingconductorPricingRule to import
-  * @param importFromId The id of the existing BillingconductorPricingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingconductorPricingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingconductorPricingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -441,7 +441,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -452,7 +452,7 @@ export class BillingconductorPricingRule extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_billingconductor_pricing_rule',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

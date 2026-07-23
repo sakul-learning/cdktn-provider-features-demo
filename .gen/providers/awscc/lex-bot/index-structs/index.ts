@@ -1,2 +1,2 @@
-export * from './structs0.js';
-export * from './structs400.js';
+export * from './structs0.ts';
+export * from './structs400.ts';

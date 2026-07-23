@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_resolver_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface Route53ResolverResolverConfigConfig extends cdktn.TerraformMeta
   /**
   * Represents the desired status of AutodefinedReverse. The only supported value on creation is DISABLE. Deletion of this resource will return AutodefinedReverse to its default value (ENABLED).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_config#autodefined_reverse_flag Route53ResolverResolverConfig#autodefined_reverse_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_resolver_config#autodefined_reverse_flag Route53ResolverResolverConfig#autodefined_reverse_flag}
   */
   readonly autodefinedReverseFlag: string;
   /**
   * ResourceId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_config#resource_id Route53ResolverResolverConfig#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_resolver_config#resource_id Route53ResolverResolverConfig#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config}
 */
 export class Route53ResolverResolverConfig extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class Route53ResolverResolverConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53ResolverResolverConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverResolverConfig to import
-  * @param importFromId The id of the existing Route53ResolverResolverConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverResolverConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_resolver_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverResolverConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class Route53ResolverResolverConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class Route53ResolverResolverConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53resolver_resolver_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

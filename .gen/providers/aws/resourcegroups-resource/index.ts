@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface ResourcegroupsResourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#group_arn ResourcegroupsResource#group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#group_arn ResourcegroupsResource#group_arn}
   */
   readonly groupArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#id ResourcegroupsResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#id ResourcegroupsResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,27 +21,27 @@ export interface ResourcegroupsResourceConfig extends cdktn.TerraformMetaArgumen
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#region ResourcegroupsResource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#region ResourcegroupsResource#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#resource_arn ResourcegroupsResource#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#resource_arn ResourcegroupsResource#resource_arn}
   */
   readonly resourceArn: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#timeouts ResourcegroupsResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#timeouts ResourcegroupsResource#timeouts}
   */
   readonly timeouts?: ResourcegroupsResourceTimeouts;
 }
 export interface ResourcegroupsResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#create ResourcegroupsResource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#create ResourcegroupsResource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#delete ResourcegroupsResource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#delete ResourcegroupsResource#delete}
   */
   readonly delete?: string;
 }
@@ -164,7 +164,7 @@ export class ResourcegroupsResourceTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource}
 */
 export class ResourcegroupsResource extends cdktn.TerraformResource {
 
@@ -180,7 +180,7 @@ export class ResourcegroupsResource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ResourcegroupsResource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcegroupsResource to import
-  * @param importFromId The id of the existing ResourcegroupsResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcegroupsResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcegroupsResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -192,7 +192,7 @@ export class ResourcegroupsResource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/resourcegroups_resource aws_resourcegroups_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,7 +203,7 @@ export class ResourcegroupsResource extends cdktn.TerraformResource {
       terraformResourceType: 'aws_resourcegroups_resource',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

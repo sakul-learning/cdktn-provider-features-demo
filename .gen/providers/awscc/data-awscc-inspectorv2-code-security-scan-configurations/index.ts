@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/inspectorv2_code_security_scan_configurations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/inspectorv2_code_security_scan_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccInspectorv2CodeSecurityScanConfigurationsConfig extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations}
 */
 export class DataAwsccInspectorv2CodeSecurityScanConfigurations extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccInspectorv2CodeSecurityScanConfigurations extends cdktn.Te
   * Generates CDKTN code for importing a DataAwsccInspectorv2CodeSecurityScanConfigurations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccInspectorv2CodeSecurityScanConfigurations to import
-  * @param importFromId The id of the existing DataAwsccInspectorv2CodeSecurityScanConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/inspectorv2_code_security_scan_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccInspectorv2CodeSecurityScanConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/inspectorv2_code_security_scan_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccInspectorv2CodeSecurityScanConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccInspectorv2CodeSecurityScanConfigurations extends cdktn.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccInspectorv2CodeSecurityScanConfigurations extends cdktn.Te
       terraformResourceType: 'awscc_inspectorv2_code_security_scan_configurations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

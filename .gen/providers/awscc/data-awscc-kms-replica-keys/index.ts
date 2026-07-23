@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/kms_replica_keys
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/kms_replica_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccKmsReplicaKeysConfig extends cdktn.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys}
 */
 export class DataAwsccKmsReplicaKeys extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccKmsReplicaKeys extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccKmsReplicaKeys resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccKmsReplicaKeys to import
-  * @param importFromId The id of the existing DataAwsccKmsReplicaKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/kms_replica_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccKmsReplicaKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/kms_replica_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccKmsReplicaKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccKmsReplicaKeys extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/kms_replica_keys awscc_kms_replica_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccKmsReplicaKeys extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_kms_replica_keys',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

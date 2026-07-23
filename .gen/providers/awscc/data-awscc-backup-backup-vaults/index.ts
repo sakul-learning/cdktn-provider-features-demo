@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/backup_backup_vaults
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/backup_backup_vaults
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccBackupBackupVaultsConfig extends cdktn.TerraformMetaAr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/backup_backup_vaults awscc_backup_backup_vaults}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/backup_backup_vaults awscc_backup_backup_vaults}
 */
 export class DataAwsccBackupBackupVaults extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccBackupBackupVaults extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccBackupBackupVaults resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBackupBackupVaults to import
-  * @param importFromId The id of the existing DataAwsccBackupBackupVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/backup_backup_vaults#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBackupBackupVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/backup_backup_vaults#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBackupBackupVaults to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccBackupBackupVaults extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/backup_backup_vaults awscc_backup_backup_vaults} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/backup_backup_vaults awscc_backup_backup_vaults} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccBackupBackupVaults extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_backup_backup_vaults',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

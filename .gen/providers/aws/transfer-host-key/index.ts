@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktn from 'cdktn';
 
 export interface TransferHostKeyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key#description TransferHostKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key#description TransferHostKey#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
   */
   readonly hostKeyBody?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key#host_key_body_wo TransferHostKey#host_key_body_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key#host_key_body_wo TransferHostKey#host_key_body_wo}
   */
   readonly hostKeyBodyWo?: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key#region TransferHostKey#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key#region TransferHostKey#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key aws_transfer_host_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key aws_transfer_host_key}
 */
 export class TransferHostKey extends cdktn.TerraformResource {
 
@@ -52,7 +52,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferHostKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferHostKey to import
-  * @param importFromId The id of the existing TransferHostKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferHostKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferHostKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -64,7 +64,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transfer_host_key aws_transfer_host_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,7 +75,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
       terraformResourceType: 'aws_transfer_host_key',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -88,7 +88,6 @@ export class TransferHostKey extends cdktn.TerraformResource {
     this._description = config.description;
     this._hostKeyBody = config.hostKeyBody;
     this._hostKeyBodyWo = config.hostKeyBodyWo;
-    if (config.hostKeyBodyWo !== undefined) { this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES); }
     this._region = config.region;
     this._serverId = config.serverId;
     this._tags = config.tags;
@@ -144,7 +143,6 @@ export class TransferHostKey extends cdktn.TerraformResource {
     return this.getStringAttribute('host_key_body_wo');
   }
   public set hostKeyBodyWo(value: string) {
-    this.registerProviderFeatureUsage(cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES);
     this._hostKeyBodyWo = value;
   }
   public resetHostKeyBodyWo() {
@@ -224,7 +222,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
     return {
       description: cdktn.stringToTerraform(this._description),
       host_key_body: cdktn.stringToTerraform(this._hostKeyBody),
-      host_key_body_wo: cdktn.stringToTerraform(this._hostKeyBodyWo),
+      host_key_body_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._hostKeyBodyWo)),
       region: cdktn.stringToTerraform(this._region),
       server_id: cdktn.stringToTerraform(this._serverId),
       tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
@@ -246,7 +244,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
         storageClassType: "string",
       },
       host_key_body_wo: {
-        value: cdktn.stringToHclTerraform(this._hostKeyBodyWo),
+        value: this.markWriteOnlyAttribute(cdktn.stringToHclTerraform(this._hostKeyBodyWo)),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

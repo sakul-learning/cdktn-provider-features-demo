@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightFolderConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#aws_account_id QuicksightFolder#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#aws_account_id QuicksightFolder#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#folder_id QuicksightFolder#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#folder_id QuicksightFolder#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#folder_type QuicksightFolder#folder_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#folder_type QuicksightFolder#folder_type}
   */
   readonly folderType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#name QuicksightFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#name QuicksightFolder#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#parent_folder_arn QuicksightFolder#parent_folder_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#parent_folder_arn QuicksightFolder#parent_folder_arn}
   */
   readonly parentFolderArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#permissions QuicksightFolder#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#permissions QuicksightFolder#permissions}
   */
   readonly permissions?: QuicksightFolderPermissions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#sharing_model QuicksightFolder#sharing_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#sharing_model QuicksightFolder#sharing_model}
   */
   readonly sharingModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#tags QuicksightFolder#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#tags QuicksightFolder#tags}
   */
   readonly tags?: QuicksightFolderTags[] | cdktn.IResolvable;
 }
@@ -44,7 +44,7 @@ export interface QuicksightFolderPermissions {
   /**
   * <p>The IAM action to grant or revoke permissions on.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#actions QuicksightFolder#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#actions QuicksightFolder#actions}
   */
   readonly actions?: string[];
   /**
@@ -64,7 +64,7 @@ export interface QuicksightFolderPermissions {
   *             </li>
   *          </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#principal QuicksightFolder#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#principal QuicksightFolder#principal}
   */
   readonly principal?: string;
 }
@@ -211,13 +211,13 @@ export interface QuicksightFolderTags {
   /**
   * <p>Tag key.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#key QuicksightFolder#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#key QuicksightFolder#key}
   */
   readonly key?: string;
   /**
   * <p>Tag value.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#value QuicksightFolder#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#value QuicksightFolder#value}
   */
   readonly value?: string;
 }
@@ -362,7 +362,7 @@ export class QuicksightFolderTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder awscc_quicksight_folder}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder awscc_quicksight_folder}
 */
 export class QuicksightFolder extends cdktn.TerraformResource {
 
@@ -378,7 +378,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightFolder resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightFolder to import
-  * @param importFromId The id of the existing QuicksightFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -390,7 +390,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_folder awscc_quicksight_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_folder awscc_quicksight_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -401,7 +401,7 @@ export class QuicksightFolder extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_folder',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,37 +11,37 @@ export interface ApigatewayDocumentationPartConfig extends cdktn.TerraformMetaAr
   * The ``Location`` property specifies the location of the Amazon API Gateway API entity that the documentation applies to. ``Location`` is a property of the [AWS::ApiGateway::DocumentationPart](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationpart.html) resource.
   *   For more information about each property, including constraints and valid values, see [DocumentationPart](https://docs.aws.amazon.com/apigateway/latest/api/API_DocumentationPartLocation.html) in the *Amazon API Gateway REST API Reference*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#location ApigatewayDocumentationPart#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#location ApigatewayDocumentationPart#location}
   */
   readonly location: ApigatewayDocumentationPartLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#properties ApigatewayDocumentationPart#properties}
   */
   readonly properties: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#rest_api_id ApigatewayDocumentationPart#rest_api_id}
   */
   readonly restApiId: string;
 }
 export interface ApigatewayDocumentationPartLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#method ApigatewayDocumentationPart#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#name ApigatewayDocumentationPart#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#path ApigatewayDocumentationPart#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#status_code ApigatewayDocumentationPart#status_code}
   */
   readonly statusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#type ApigatewayDocumentationPart#type}
   */
   readonly type?: string;
 }
@@ -251,7 +251,7 @@ export class ApigatewayDocumentationPartLocationOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part awscc_apigateway_documentation_part}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part awscc_apigateway_documentation_part}
 */
 export class ApigatewayDocumentationPart extends cdktn.TerraformResource {
 
@@ -267,7 +267,7 @@ export class ApigatewayDocumentationPart extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayDocumentationPart resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayDocumentationPart to import
-  * @param importFromId The id of the existing ApigatewayDocumentationPart that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayDocumentationPart that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayDocumentationPart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -279,7 +279,7 @@ export class ApigatewayDocumentationPart extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_documentation_part awscc_apigateway_documentation_part} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_documentation_part awscc_apigateway_documentation_part} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,7 +290,7 @@ export class ApigatewayDocumentationPart extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_documentation_part',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

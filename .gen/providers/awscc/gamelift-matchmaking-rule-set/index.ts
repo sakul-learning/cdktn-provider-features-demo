@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface GameliftMatchmakingRuleSetConfig extends cdktn.TerraformMetaArg
   /**
   * A unique identifier for the matchmaking rule set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
   */
   readonly name: string;
   /**
   * A collection of matchmaking rules, formatted as a JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
   */
   readonly ruleSetBody: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
   */
   readonly tags?: GameliftMatchmakingRuleSetTags[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface GameliftMatchmakingRuleSetTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class GameliftMatchmakingRuleSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set}
 */
 export class GameliftMatchmakingRuleSet extends cdktn.TerraformResource {
 
@@ -197,7 +197,7 @@ export class GameliftMatchmakingRuleSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GameliftMatchmakingRuleSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GameliftMatchmakingRuleSet to import
-  * @param importFromId The id of the existing GameliftMatchmakingRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GameliftMatchmakingRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GameliftMatchmakingRuleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -209,7 +209,7 @@ export class GameliftMatchmakingRuleSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/gamelift_matchmaking_rule_set awscc_gamelift_matchmaking_rule_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,7 +220,7 @@ export class GameliftMatchmakingRuleSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_gamelift_matchmaking_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

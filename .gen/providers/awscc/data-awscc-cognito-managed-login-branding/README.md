@@ -1,3 +1,3 @@
 # `data_awscc_cognito_managed_login_branding`
 
-Refer to the Terraform Registry for docs: [`data_awscc_cognito_managed_login_branding`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/cognito_managed_login_branding).
+Refer to the Terraform Registry for docs: [`data_awscc_cognito_managed_login_branding`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/cognito_managed_login_branding).

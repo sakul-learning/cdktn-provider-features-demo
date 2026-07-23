@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktn from 'cdktn';
 
 export interface QuicksightActionConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#action_connector_id QuicksightActionConnector#action_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#action_connector_id QuicksightActionConnector#action_connector_id}
   */
   readonly actionConnectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authentication_config QuicksightActionConnector#authentication_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authentication_config QuicksightActionConnector#authentication_config}
   */
   readonly authenticationConfig: QuicksightActionConnectorAuthenticationConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#aws_account_id QuicksightActionConnector#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#aws_account_id QuicksightActionConnector#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#description QuicksightActionConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#description QuicksightActionConnector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#name QuicksightActionConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#name QuicksightActionConnector#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#permissions QuicksightActionConnector#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#permissions QuicksightActionConnector#permissions}
   */
   readonly permissions?: QuicksightActionConnectorPermissions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#tags QuicksightActionConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#tags QuicksightActionConnector#tags}
   */
   readonly tags?: QuicksightActionConnectorTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#type QuicksightActionConnector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#type QuicksightActionConnector#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#vpc_connection_arn QuicksightActionConnector#vpc_connection_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#vpc_connection_arn QuicksightActionConnector#vpc_connection_arn}
   */
   readonly vpcConnectionArn?: string;
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#api_key QuicksightActionConnector#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#api_key QuicksightActionConnector#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
   */
   readonly baseEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#email QuicksightActionConnector#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#email QuicksightActionConnector#email}
   */
   readonly email?: string;
 }
@@ -206,19 +206,19 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsAuthorizationCodeGrantDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authorization_endpoint QuicksightActionConnector#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authorization_endpoint QuicksightActionConnector#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_id QuicksightActionConnector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_id QuicksightActionConnector#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_secret QuicksightActionConnector#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_secret QuicksightActionConnector#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#token_endpoint QuicksightActionConnector#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#token_endpoint QuicksightActionConnector#token_endpoint}
   */
   readonly tokenEndpoint?: string;
 }
@@ -399,7 +399,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authorization_code_grant_details QuicksightActionConnector#authorization_code_grant_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authorization_code_grant_details QuicksightActionConnector#authorization_code_grant_details}
   */
   readonly authorizationCodeGrantDetails?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetailsAuthorizationCodeGrantDetails;
 }
@@ -493,19 +493,19 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authorization_code_grant_credentials_details QuicksightActionConnector#authorization_code_grant_credentials_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authorization_code_grant_credentials_details QuicksightActionConnector#authorization_code_grant_credentials_details}
   */
   readonly authorizationCodeGrantCredentialsDetails?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadataAuthorizationCodeGrantCredentialsDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authorization_code_grant_credentials_source QuicksightActionConnector#authorization_code_grant_credentials_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authorization_code_grant_credentials_source QuicksightActionConnector#authorization_code_grant_credentials_source}
   */
   readonly authorizationCodeGrantCredentialsSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
   */
   readonly baseEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#redirect_url QuicksightActionConnector#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#redirect_url QuicksightActionConnector#redirect_url}
   */
   readonly redirectUrl?: string;
 }
@@ -686,15 +686,15 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
   */
   readonly baseEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#password QuicksightActionConnector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#password QuicksightActionConnector#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#username QuicksightActionConnector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#username QuicksightActionConnector#username}
   */
   readonly username?: string;
 }
@@ -846,15 +846,15 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsClientCredentialsGrantDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_id QuicksightActionConnector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_id QuicksightActionConnector#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_secret QuicksightActionConnector#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_secret QuicksightActionConnector#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#token_endpoint QuicksightActionConnector#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#token_endpoint QuicksightActionConnector#token_endpoint}
   */
   readonly tokenEndpoint?: string;
 }
@@ -1006,7 +1006,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_credentials_grant_details QuicksightActionConnector#client_credentials_grant_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_credentials_grant_details QuicksightActionConnector#client_credentials_grant_details}
   */
   readonly clientCredentialsGrantDetails?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetailsClientCredentialsGrantDetails;
 }
@@ -1100,15 +1100,15 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
   */
   readonly baseEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_credentials_details QuicksightActionConnector#client_credentials_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_credentials_details QuicksightActionConnector#client_credentials_details}
   */
   readonly clientCredentialsDetails?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadataClientCredentialsDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_credentials_source QuicksightActionConnector#client_credentials_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_credentials_source QuicksightActionConnector#client_credentials_source}
   */
   readonly clientCredentialsSource?: string;
 }
@@ -1260,7 +1260,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#role_arn QuicksightActionConnector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#role_arn QuicksightActionConnector#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -1354,7 +1354,7 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}
   */
   readonly baseEndpoint?: string;
 }
@@ -1448,27 +1448,27 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#api_key_connection_metadata QuicksightActionConnector#api_key_connection_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#api_key_connection_metadata QuicksightActionConnector#api_key_connection_metadata}
   */
   readonly apiKeyConnectionMetadata?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authorization_code_grant_metadata QuicksightActionConnector#authorization_code_grant_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authorization_code_grant_metadata QuicksightActionConnector#authorization_code_grant_metadata}
   */
   readonly authorizationCodeGrantMetadata?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#basic_auth_connection_metadata QuicksightActionConnector#basic_auth_connection_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#basic_auth_connection_metadata QuicksightActionConnector#basic_auth_connection_metadata}
   */
   readonly basicAuthConnectionMetadata?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#client_credentials_grant_metadata QuicksightActionConnector#client_credentials_grant_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#client_credentials_grant_metadata QuicksightActionConnector#client_credentials_grant_metadata}
   */
   readonly clientCredentialsGrantMetadata?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#iam_connection_metadata QuicksightActionConnector#iam_connection_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#iam_connection_metadata QuicksightActionConnector#iam_connection_metadata}
   */
   readonly iamConnectionMetadata?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#none_connection_metadata QuicksightActionConnector#none_connection_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#none_connection_metadata QuicksightActionConnector#none_connection_metadata}
   */
   readonly noneConnectionMetadata?: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadata;
 }
@@ -1707,11 +1707,11 @@ export class QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata
 }
 export interface QuicksightActionConnectorAuthenticationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authentication_metadata QuicksightActionConnector#authentication_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authentication_metadata QuicksightActionConnector#authentication_metadata}
   */
   readonly authenticationMetadata: QuicksightActionConnectorAuthenticationConfigAuthenticationMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#authentication_type QuicksightActionConnector#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#authentication_type QuicksightActionConnector#authentication_type}
   */
   readonly authenticationType: string;
 }
@@ -1830,7 +1830,7 @@ export interface QuicksightActionConnectorPermissions {
   /**
   * <p>The IAM action to grant or revoke permissions on.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#actions QuicksightActionConnector#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#actions QuicksightActionConnector#actions}
   */
   readonly actions?: string[];
   /**
@@ -1850,7 +1850,7 @@ export interface QuicksightActionConnectorPermissions {
   *             </li>
   *          </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#principal QuicksightActionConnector#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#principal QuicksightActionConnector#principal}
   */
   readonly principal?: string;
 }
@@ -1997,13 +1997,13 @@ export interface QuicksightActionConnectorTags {
   /**
   * <p>Tag key.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#key QuicksightActionConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#key QuicksightActionConnector#key}
   */
   readonly key?: string;
   /**
   * <p>Tag value.</p>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#value QuicksightActionConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#value QuicksightActionConnector#value}
   */
   readonly value?: string;
 }
@@ -2148,7 +2148,7 @@ export class QuicksightActionConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector}
 */
 export class QuicksightActionConnector extends cdktn.TerraformResource {
 
@@ -2164,7 +2164,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightActionConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightActionConnector to import
-  * @param importFromId The id of the existing QuicksightActionConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightActionConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightActionConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2176,7 +2176,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2187,7 +2187,7 @@ export class QuicksightActionConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_action_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

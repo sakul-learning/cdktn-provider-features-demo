@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IvschatRoomConfig extends cdktn.TerraformMetaArguments {
   /**
   * Array of logging configuration identifiers attached to the room.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#logging_configuration_identifiers IvschatRoom#logging_configuration_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#logging_configuration_identifiers IvschatRoom#logging_configuration_identifiers}
   */
   readonly loggingConfigurationIdentifiers?: string[];
   /**
   * The maximum number of characters in a single message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#maximum_message_length IvschatRoom#maximum_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#maximum_message_length IvschatRoom#maximum_message_length}
   */
   readonly maximumMessageLength?: number;
   /**
   * The maximum number of messages per second that can be sent to the room.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#maximum_message_rate_per_second IvschatRoom#maximum_message_rate_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#maximum_message_rate_per_second IvschatRoom#maximum_message_rate_per_second}
   */
   readonly maximumMessageRatePerSecond?: number;
   /**
   * Configuration information for optional review of messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#message_review_handler IvschatRoom#message_review_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#message_review_handler IvschatRoom#message_review_handler}
   */
   readonly messageReviewHandler?: IvschatRoomMessageReviewHandler;
   /**
   * The name of the room. The value does not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#name IvschatRoom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#name IvschatRoom#name}
   */
   readonly name?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#tags IvschatRoom#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#tags IvschatRoom#tags}
   */
   readonly tags?: IvschatRoomTags[] | cdktn.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface IvschatRoomMessageReviewHandler {
   /**
   * Specifies the fallback behavior if the handler does not return a valid response, encounters an error, or times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}
   */
   readonly fallbackResult?: string;
   /**
   * Identifier of the message review handler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#uri IvschatRoom#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#uri IvschatRoom#uri}
   */
   readonly uri?: string;
 }
@@ -179,13 +179,13 @@ export interface IvschatRoomTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#key IvschatRoom#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#key IvschatRoom#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#value IvschatRoom#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#value IvschatRoom#value}
   */
   readonly value?: string;
 }
@@ -330,7 +330,7 @@ export class IvschatRoomTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room awscc_ivschat_room}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room awscc_ivschat_room}
 */
 export class IvschatRoom extends cdktn.TerraformResource {
 
@@ -346,7 +346,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IvschatRoom resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IvschatRoom to import
-  * @param importFromId The id of the existing IvschatRoom that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IvschatRoom that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IvschatRoom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -358,7 +358,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ivschat_room awscc_ivschat_room} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ivschat_room awscc_ivschat_room} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,7 +369,7 @@ export class IvschatRoom extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ivschat_room',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

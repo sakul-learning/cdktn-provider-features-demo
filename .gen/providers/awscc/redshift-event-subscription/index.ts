@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface RedshiftEventSubscriptionConfig extends cdktn.TerraformMetaArgu
   /**
   * A boolean value; set to true to activate the subscription, and set to false to create the subscription but not activate it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#enabled RedshiftEventSubscription#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the Amazon Redshift event categories to be published by the event notification subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#event_categories RedshiftEventSubscription#event_categories}
   */
   readonly eventCategories?: string[];
   /**
   * Specifies the Amazon Redshift event severity to be published by the event notification subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#severity RedshiftEventSubscription#severity}
   */
   readonly severity?: string;
   /**
   * The Amazon Resource Name (ARN) of the Amazon SNS topic used to transmit the event notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#sns_topic_arn RedshiftEventSubscription#sns_topic_arn}
   */
   readonly snsTopicArn?: string;
   /**
   * A list of one or more identifiers of Amazon Redshift source objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#source_ids RedshiftEventSubscription#source_ids}
   */
   readonly sourceIds?: string[];
   /**
   * The type of source that will be generating the events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#source_type RedshiftEventSubscription#source_type}
   */
   readonly sourceType?: string;
   /**
   * The name of the Amazon Redshift event notification subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#subscription_name RedshiftEventSubscription#subscription_name}
   */
   readonly subscriptionName: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#tags RedshiftEventSubscription#tags}
   */
   readonly tags?: RedshiftEventSubscriptionTags[] | cdktn.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface RedshiftEventSubscriptionTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#key RedshiftEventSubscription#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#key RedshiftEventSubscription#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#value RedshiftEventSubscription#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#value RedshiftEventSubscription#value}
   */
   readonly value?: string;
 }
@@ -211,7 +211,7 @@ export class RedshiftEventSubscriptionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription}
 */
 export class RedshiftEventSubscription extends cdktn.TerraformResource {
 
@@ -227,7 +227,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftEventSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftEventSubscription to import
-  * @param importFromId The id of the existing RedshiftEventSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftEventSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftEventSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -239,7 +239,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_event_subscription awscc_redshift_event_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,7 +250,7 @@ export class RedshiftEventSubscription extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_event_subscription',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface CloudfrontDistributionTenantConfig extends cdktn.TerraformMetaA
   /**
   * The ID of the connection group for the distribution tenant. If you don't specify a connection group, CloudFront uses the default connection group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#connection_group_id CloudfrontDistributionTenant#connection_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#connection_group_id CloudfrontDistributionTenant#connection_group_id}
   */
   readonly connectionGroupId?: string;
   /**
   * Customizations for the distribution tenant. For each distribution tenant, you can specify the geographic restrictions, and the Amazon Resource Names (ARNs) for the ACM certificate and WAF web ACL. These are specific values that you can override or disable from the multi-tenant distribution that was used to create the distribution tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#customizations CloudfrontDistributionTenant#customizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#customizations CloudfrontDistributionTenant#customizations}
   */
   readonly customizations?: CloudfrontDistributionTenantCustomizations;
   /**
   * The ID of the multi-tenant distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#distribution_id CloudfrontDistributionTenant#distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#distribution_id CloudfrontDistributionTenant#distribution_id}
   */
   readonly distributionId: string;
   /**
   * The domains associated with the distribution tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#domains CloudfrontDistributionTenant#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#domains CloudfrontDistributionTenant#domains}
   */
   readonly domains: string[];
   /**
   * Indicates whether the distribution tenant is in an enabled state. If disabled, the distribution tenant won't serve traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#enabled CloudfrontDistributionTenant#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#enabled CloudfrontDistributionTenant#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * An object that represents the request for the Amazon CloudFront managed ACM certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#managed_certificate_request CloudfrontDistributionTenant#managed_certificate_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#managed_certificate_request CloudfrontDistributionTenant#managed_certificate_request}
   */
   readonly managedCertificateRequest?: CloudfrontDistributionTenantManagedCertificateRequest;
   /**
   * The name of the distribution tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
   */
   readonly name: string;
   /**
   * A list of parameter values to add to the resource. A parameter is specified as a key-value pair. A valid parameter value must exist for any parameter that is marked as required in the multi-tenant distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#parameters CloudfrontDistributionTenant#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#parameters CloudfrontDistributionTenant#parameters}
   */
   readonly parameters?: CloudfrontDistributionTenantParameters[] | cdktn.IResolvable;
   /**
   * A complex type that contains zero or more ``Tag`` elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#tags CloudfrontDistributionTenant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#tags CloudfrontDistributionTenant#tags}
   */
   readonly tags?: CloudfrontDistributionTenantTags[] | cdktn.IResolvable;
 }
@@ -66,7 +66,7 @@ export interface CloudfrontDistributionTenantCustomizationsCertificate {
   /**
   * The Amazon Resource Name (ARN) of the ACM certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
   */
   readonly arn?: string;
 }
@@ -162,7 +162,7 @@ export interface CloudfrontDistributionTenantCustomizationsGeoRestrictions {
   /**
   * The locations for geographic restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#locations CloudfrontDistributionTenant#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#locations CloudfrontDistributionTenant#locations}
   */
   readonly locations?: string[];
   /**
@@ -171,7 +171,7 @@ export interface CloudfrontDistributionTenantCustomizationsGeoRestrictions {
   *   +  ``blacklist``: The ``Location`` elements specify the countries in which you don't want CloudFront to distribute your content.
   *   +  ``whitelist``: The ``Location`` elements specify the countries in which you want CloudFront to distribute your content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#restriction_type CloudfrontDistributionTenant#restriction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#restriction_type CloudfrontDistributionTenant#restriction_type}
   */
   readonly restrictionType?: string;
 }
@@ -296,13 +296,13 @@ export interface CloudfrontDistributionTenantCustomizationsWebAcl {
   /**
   * The action for the WAF web ACL customization. You can specify ``override`` to specify a separate WAF web ACL for the distribution tenant. If you specify ``disable``, the distribution tenant won't have WAF web ACL protections and won't inherit from the multi-tenant distribution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#action CloudfrontDistributionTenant#action}
   */
   readonly action?: string;
   /**
   * The Amazon Resource Name (ARN) of the WAF web ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#arn CloudfrontDistributionTenant#arn}
   */
   readonly arn?: string;
 }
@@ -427,19 +427,19 @@ export interface CloudfrontDistributionTenantCustomizations {
   /**
   * The ACMlong (ACM) certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#certificate CloudfrontDistributionTenant#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#certificate CloudfrontDistributionTenant#certificate}
   */
   readonly certificate?: CloudfrontDistributionTenantCustomizationsCertificate;
   /**
   * The geographic restrictions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#geo_restrictions CloudfrontDistributionTenant#geo_restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#geo_restrictions CloudfrontDistributionTenant#geo_restrictions}
   */
   readonly geoRestrictions?: CloudfrontDistributionTenantCustomizationsGeoRestrictions;
   /**
   * The WAF web ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#web_acl CloudfrontDistributionTenant#web_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#web_acl CloudfrontDistributionTenant#web_acl}
   */
   readonly webAcl?: CloudfrontDistributionTenantCustomizationsWebAcl;
 }
@@ -673,13 +673,13 @@ export interface CloudfrontDistributionTenantManagedCertificateRequest {
   /**
   * You can opt out of certificate transparency logging by specifying the ``disabled`` option. Opt in by specifying ``enabled``. For more information, see [Certificate Transparency Logging](https://docs.aws.amazon.com/acm/latest/userguide/acm-concepts.html#concept-transparency) in the *User Guide*.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#certificate_transparency_logging_preference CloudfrontDistributionTenant#certificate_transparency_logging_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#certificate_transparency_logging_preference CloudfrontDistributionTenant#certificate_transparency_logging_preference}
   */
   readonly certificateTransparencyLoggingPreference?: string;
   /**
   * The primary domain name associated with the CloudFront managed ACM certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#primary_domain_name CloudfrontDistributionTenant#primary_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#primary_domain_name CloudfrontDistributionTenant#primary_domain_name}
   */
   readonly primaryDomainName?: string;
   /**
@@ -687,7 +687,7 @@ export interface CloudfrontDistributionTenantManagedCertificateRequest {
   *   +  For ``cloudfront``, CloudFront will automatically serve the validation token. Choose this mode if you can point the domain's DNS to CloudFront immediately.
   *   +  For ``self-hosted``, you serve the validation token from your existing infrastructure. Choose this mode when you need to maintain current traffic flow while your certificate is being issued. You can place the validation token at the well-known path on your existing web server, wait for ACM to validate and issue the certificate, and then update your DNS to point to CloudFront.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#validation_token_host CloudfrontDistributionTenant#validation_token_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#validation_token_host CloudfrontDistributionTenant#validation_token_host}
   */
   readonly validationTokenHost?: string;
 }
@@ -841,13 +841,13 @@ export interface CloudfrontDistributionTenantParameters {
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#name CloudfrontDistributionTenant#name}
   */
   readonly name?: string;
   /**
   * The parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
   */
   readonly value?: string;
 }
@@ -995,14 +995,14 @@ export interface CloudfrontDistributionTenantTags {
   * A string that contains ``Tag`` key.
   *  The string length should be between 1 and 128 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#key CloudfrontDistributionTenant#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#key CloudfrontDistributionTenant#key}
   */
   readonly key?: string;
   /**
   * A string that contains an optional ``Tag`` value.
   *  The string length should be between 0 and 256 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#value CloudfrontDistributionTenant#value}
   */
   readonly value?: string;
 }
@@ -1147,7 +1147,7 @@ export class CloudfrontDistributionTenantTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant awscc_cloudfront_distribution_tenant}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant awscc_cloudfront_distribution_tenant}
 */
 export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
 
@@ -1163,7 +1163,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontDistributionTenant resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontDistributionTenant to import
-  * @param importFromId The id of the existing CloudfrontDistributionTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontDistributionTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontDistributionTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1175,7 +1175,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cloudfront_distribution_tenant awscc_cloudfront_distribution_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cloudfront_distribution_tenant awscc_cloudfront_distribution_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1186,7 +1186,7 @@ export class CloudfrontDistributionTenant extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_distribution_tenant',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

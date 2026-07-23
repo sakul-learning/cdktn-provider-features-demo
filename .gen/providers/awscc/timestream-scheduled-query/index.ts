@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface TimestreamScheduledQueryConfig extends cdktn.TerraformMetaArgum
   /**
   * Using a ClientToken makes the call to CreateScheduledQuery idempotent, in other words, making the same request repeatedly will produce the same result. Making multiple identical CreateScheduledQuery requests has the same effect as making a single request. If CreateScheduledQuery is called without a ClientToken, the Query SDK generates a ClientToken on your behalf. After 8 hours, any request with the same ClientToken is treated as a new request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#client_token TimestreamScheduledQuery#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#client_token TimestreamScheduledQuery#client_token}
   */
   readonly clientToken?: string;
   /**
   * Configuration for error reporting. Error reports will be generated when a problem is encountered when writing the query results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#error_report_configuration TimestreamScheduledQuery#error_report_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#error_report_configuration TimestreamScheduledQuery#error_report_configuration}
   */
   readonly errorReportConfiguration: TimestreamScheduledQueryErrorReportConfiguration;
   /**
   * The Amazon KMS key used to encrypt the scheduled query resource, at-rest. If the Amazon KMS key is not specified, the scheduled query resource will be encrypted with a Timestream owned Amazon KMS key. To specify a KMS key, use the key ID, key ARN, alias name, or alias ARN. When using an alias name, prefix the name with alias/. If ErrorReportConfiguration uses SSE_KMS as encryption type, the same KmsKeyId is used to encrypt the error report at rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#kms_key_id TimestreamScheduledQuery#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#kms_key_id TimestreamScheduledQuery#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Notification configuration for the scheduled query. A notification is sent by Timestream when a query run finishes, when the state is updated or when you delete it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#notification_configuration TimestreamScheduledQuery#notification_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#notification_configuration TimestreamScheduledQuery#notification_configuration}
   */
   readonly notificationConfiguration: TimestreamScheduledQueryNotificationConfiguration;
   /**
   * The query string to run. Parameter names can be specified in the query string @ character followed by an identifier. The named Parameter @scheduled_runtime is reserved and can be used in the query to get the time at which the query is scheduled to run. The timestamp calculated according to the ScheduleConfiguration parameter, will be the value of @scheduled_runtime paramater for each query run. For example, consider an instance of a scheduled query executing on 2021-12-01 00:00:00. For this instance, the @scheduled_runtime parameter is initialized to the timestamp 2021-12-01 00:00:00 when invoking the query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#query_string TimestreamScheduledQuery#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#query_string TimestreamScheduledQuery#query_string}
   */
   readonly queryString: string;
   /**
   * Configuration for when the scheduled query is executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#schedule_configuration TimestreamScheduledQuery#schedule_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#schedule_configuration TimestreamScheduledQuery#schedule_configuration}
   */
   readonly scheduleConfiguration: TimestreamScheduledQueryScheduleConfiguration;
   /**
   * The ARN for the IAM role that Timestream will assume when running the scheduled query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#scheduled_query_execution_role_arn TimestreamScheduledQuery#scheduled_query_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#scheduled_query_execution_role_arn TimestreamScheduledQuery#scheduled_query_execution_role_arn}
   */
   readonly scheduledQueryExecutionRoleArn: string;
   /**
   * The name of the scheduled query. Scheduled query names must be unique within each Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#scheduled_query_name TimestreamScheduledQuery#scheduled_query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#scheduled_query_name TimestreamScheduledQuery#scheduled_query_name}
   */
   readonly scheduledQueryName?: string;
   /**
   * A list of key-value pairs to label the scheduled query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#tags TimestreamScheduledQuery#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#tags TimestreamScheduledQuery#tags}
   */
   readonly tags?: TimestreamScheduledQueryTags[] | cdktn.IResolvable;
   /**
   * Configuration of target store where scheduled query results are written to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#target_configuration TimestreamScheduledQuery#target_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#target_configuration TimestreamScheduledQuery#target_configuration}
   */
   readonly targetConfiguration?: TimestreamScheduledQueryTargetConfiguration;
 }
@@ -72,19 +72,19 @@ export interface TimestreamScheduledQueryErrorReportConfigurationS3Configuration
   /**
   * Name of the S3 bucket under which error reports will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#bucket_name TimestreamScheduledQuery#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#bucket_name TimestreamScheduledQuery#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Encryption at rest options for the error reports. If no encryption option is specified, Timestream will choose SSE_S3 as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#encryption_option TimestreamScheduledQuery#encryption_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#encryption_option TimestreamScheduledQuery#encryption_option}
   */
   readonly encryptionOption?: string;
   /**
   * Prefix for error report keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#object_key_prefix TimestreamScheduledQuery#object_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#object_key_prefix TimestreamScheduledQuery#object_key_prefix}
   */
   readonly objectKeyPrefix?: string;
 }
@@ -235,7 +235,7 @@ export interface TimestreamScheduledQueryErrorReportConfiguration {
   /**
   * Details on S3 location for error reports that result from running a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#s3_configuration TimestreamScheduledQuery#s3_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#s3_configuration TimestreamScheduledQuery#s3_configuration}
   */
   readonly s3Configuration: TimestreamScheduledQueryErrorReportConfigurationS3Configuration;
 }
@@ -328,7 +328,7 @@ export interface TimestreamScheduledQueryNotificationConfigurationSnsConfigurati
   /**
   * SNS topic ARN that the scheduled query status notifications will be sent to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#topic_arn TimestreamScheduledQuery#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#topic_arn TimestreamScheduledQuery#topic_arn}
   */
   readonly topicArn: string;
 }
@@ -421,7 +421,7 @@ export interface TimestreamScheduledQueryNotificationConfiguration {
   /**
   * SNS configuration for notification upon scheduled query execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#sns_configuration TimestreamScheduledQuery#sns_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#sns_configuration TimestreamScheduledQuery#sns_configuration}
   */
   readonly snsConfiguration: TimestreamScheduledQueryNotificationConfigurationSnsConfiguration;
 }
@@ -514,7 +514,7 @@ export interface TimestreamScheduledQueryScheduleConfiguration {
   /**
   * An expression that denotes when to trigger the scheduled query run. This can be a cron expression or a rate expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#schedule_expression TimestreamScheduledQuery#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#schedule_expression TimestreamScheduledQuery#schedule_expression}
   */
   readonly scheduleExpression: string;
 }
@@ -607,13 +607,13 @@ export interface TimestreamScheduledQueryTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#key TimestreamScheduledQuery#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#key TimestreamScheduledQuery#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#value TimestreamScheduledQuery#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#value TimestreamScheduledQuery#value}
   */
   readonly value?: string;
 }
@@ -760,13 +760,13 @@ export interface TimestreamScheduledQueryTargetConfigurationTimestreamConfigurat
   /**
   * Type for the dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#dimension_value_type TimestreamScheduledQuery#dimension_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#dimension_value_type TimestreamScheduledQuery#dimension_value_type}
   */
   readonly dimensionValueType?: string;
   /**
   * Column name from query result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#name TimestreamScheduledQuery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#name TimestreamScheduledQuery#name}
   */
   readonly name?: string;
 }
@@ -913,19 +913,19 @@ export interface TimestreamScheduledQueryTargetConfigurationTimestreamConfigurat
   /**
   * Value type of the measure value column to be read from the query result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
   */
   readonly measureValueType?: string;
   /**
   * Source measure value column in the query result where the attribute value is to be read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
   */
   readonly sourceColumn?: string;
   /**
   * Custom name to be used for attribute name in derived table. If not provided, source column name would be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
   */
   readonly targetMultiMeasureAttributeName?: string;
 }
@@ -1101,31 +1101,31 @@ export interface TimestreamScheduledQueryTargetConfigurationTimestreamConfigurat
   /**
   * Refers to the value of the measure name in a result row. This field is required if MeasureNameColumn is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#measure_name TimestreamScheduledQuery#measure_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#measure_name TimestreamScheduledQuery#measure_name}
   */
   readonly measureName?: string;
   /**
   * Type of the value that is to be read from SourceColumn. If the mapping is for MULTI, use MeasureValueType.MULTI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
   */
   readonly measureValueType?: string;
   /**
   * Required. Attribute mappings to be used for mapping query results to ingest data for multi-measure attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
   */
   readonly multiMeasureAttributeMappings?: TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappingsMultiMeasureAttributeMappings[] | cdktn.IResolvable;
   /**
   * This field refers to the source column from which the measure value is to be read for result materialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
   */
   readonly sourceColumn?: string;
   /**
   * Target measure name to be used. If not provided, the target measure name by default would be MeasureName if provided, or SourceColumn otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#target_measure_name TimestreamScheduledQuery#target_measure_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#target_measure_name TimestreamScheduledQuery#target_measure_name}
   */
   readonly targetMeasureName?: string;
 }
@@ -1359,19 +1359,19 @@ export interface TimestreamScheduledQueryTargetConfigurationTimestreamConfigurat
   /**
   * Value type of the measure value column to be read from the query result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#measure_value_type TimestreamScheduledQuery#measure_value_type}
   */
   readonly measureValueType?: string;
   /**
   * Source measure value column in the query result where the attribute value is to be read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#source_column TimestreamScheduledQuery#source_column}
   */
   readonly sourceColumn?: string;
   /**
   * Custom name to be used for attribute name in derived table. If not provided, source column name would be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#target_multi_measure_attribute_name TimestreamScheduledQuery#target_multi_measure_attribute_name}
   */
   readonly targetMultiMeasureAttributeName?: string;
 }
@@ -1547,13 +1547,13 @@ export interface TimestreamScheduledQueryTargetConfigurationTimestreamConfigurat
   /**
   * Required. Attribute mappings to be used for mapping query results to ingest data for multi-measure attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#multi_measure_attribute_mappings TimestreamScheduledQuery#multi_measure_attribute_mappings}
   */
   readonly multiMeasureAttributeMappings?: TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappings[] | cdktn.IResolvable;
   /**
   * Name of the target multi-measure in the derived table. Required if MeasureNameColumn is not provided. If MeasureNameColumn is provided then the value from that column will be used as the multi-measure name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#target_multi_measure_name TimestreamScheduledQuery#target_multi_measure_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#target_multi_measure_name TimestreamScheduledQuery#target_multi_measure_name}
   */
   readonly targetMultiMeasureName?: string;
 }
@@ -1678,43 +1678,43 @@ export interface TimestreamScheduledQueryTargetConfigurationTimestreamConfigurat
   /**
   * Name of Timestream database to which the query result will be written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#database_name TimestreamScheduledQuery#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#database_name TimestreamScheduledQuery#database_name}
   */
   readonly databaseName?: string;
   /**
   * This is to allow mapping column(s) from the query result to the dimension in the destination table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#dimension_mappings TimestreamScheduledQuery#dimension_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#dimension_mappings TimestreamScheduledQuery#dimension_mappings}
   */
   readonly dimensionMappings?: TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationDimensionMappings[] | cdktn.IResolvable;
   /**
   * Name of the measure name column from the query result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#measure_name_column TimestreamScheduledQuery#measure_name_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#measure_name_column TimestreamScheduledQuery#measure_name_column}
   */
   readonly measureNameColumn?: string;
   /**
   * Specifies how to map measures to multi-measure records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#mixed_measure_mappings TimestreamScheduledQuery#mixed_measure_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#mixed_measure_mappings TimestreamScheduledQuery#mixed_measure_mappings}
   */
   readonly mixedMeasureMappings?: TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMixedMeasureMappings[] | cdktn.IResolvable;
   /**
   * Only one of MixedMeasureMappings or MultiMeasureMappings is to be provided. MultiMeasureMappings can be used to ingest data as multi measures in the derived table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#multi_measure_mappings TimestreamScheduledQuery#multi_measure_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#multi_measure_mappings TimestreamScheduledQuery#multi_measure_mappings}
   */
   readonly multiMeasureMappings?: TimestreamScheduledQueryTargetConfigurationTimestreamConfigurationMultiMeasureMappings;
   /**
   * Name of Timestream table that the query result will be written to. The table should be within the same database that is provided in Timestream configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#table_name TimestreamScheduledQuery#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#table_name TimestreamScheduledQuery#table_name}
   */
   readonly tableName?: string;
   /**
   * Column from query result that should be used as the time column in destination table. Column type for this should be TIMESTAMP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#time_column TimestreamScheduledQuery#time_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#time_column TimestreamScheduledQuery#time_column}
   */
   readonly timeColumn?: string;
 }
@@ -1984,7 +1984,7 @@ export interface TimestreamScheduledQueryTargetConfiguration {
   /**
   * Configuration needed to write data into the Timestream database and table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#timestream_configuration TimestreamScheduledQuery#timestream_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#timestream_configuration TimestreamScheduledQuery#timestream_configuration}
   */
   readonly timestreamConfiguration?: TimestreamScheduledQueryTargetConfigurationTimestreamConfiguration;
 }
@@ -2078,7 +2078,7 @@ export class TimestreamScheduledQueryTargetConfigurationOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query}
 */
 export class TimestreamScheduledQuery extends cdktn.TerraformResource {
 
@@ -2094,7 +2094,7 @@ export class TimestreamScheduledQuery extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TimestreamScheduledQuery resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TimestreamScheduledQuery to import
-  * @param importFromId The id of the existing TimestreamScheduledQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TimestreamScheduledQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TimestreamScheduledQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2106,7 +2106,7 @@ export class TimestreamScheduledQuery extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2117,7 +2117,7 @@ export class TimestreamScheduledQuery extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_timestream_scheduled_query',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RedshiftEndpointAuthorizationConfig extends cdktn.TerraformMeta
   /**
   * The target AWS account ID to grant or revoke access for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization#account RedshiftEndpointAuthorization#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization#account RedshiftEndpointAuthorization#account}
   */
   readonly account: string;
   /**
   * The cluster identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization#cluster_identifier RedshiftEndpointAuthorization#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization#cluster_identifier RedshiftEndpointAuthorization#cluster_identifier}
   */
   readonly clusterIdentifier: string;
   /**
   *  Indicates whether to force the revoke action. If true, the Redshift-managed VPC endpoints associated with the endpoint authorization are also deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization#force RedshiftEndpointAuthorization#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization#force RedshiftEndpointAuthorization#force}
   */
   readonly force?: boolean | cdktn.IResolvable;
   /**
   * The virtual private cloud (VPC) identifiers to grant or revoke access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization#vpc_ids RedshiftEndpointAuthorization#vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization#vpc_ids RedshiftEndpointAuthorization#vpc_ids}
   */
   readonly vpcIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization awscc_redshift_endpoint_authorization}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization awscc_redshift_endpoint_authorization}
 */
 export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftEndpointAuthorization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftEndpointAuthorization to import
-  * @param importFromId The id of the existing RedshiftEndpointAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftEndpointAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftEndpointAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_authorization awscc_redshift_endpoint_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_authorization awscc_redshift_endpoint_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class RedshiftEndpointAuthorization extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_endpoint_authorization',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

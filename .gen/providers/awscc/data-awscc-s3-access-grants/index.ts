@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3_access_grants
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3_access_grants
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccS3AccessGrantsConfig extends cdktn.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3_access_grants awscc_s3_access_grants}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3_access_grants awscc_s3_access_grants}
 */
 export class DataAwsccS3AccessGrants extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccS3AccessGrants extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccS3AccessGrants resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccS3AccessGrants to import
-  * @param importFromId The id of the existing DataAwsccS3AccessGrants that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3_access_grants#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccS3AccessGrants that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3_access_grants#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccS3AccessGrants to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccS3AccessGrants extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/s3_access_grants awscc_s3_access_grants} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/s3_access_grants awscc_s3_access_grants} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccS3AccessGrants extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_s3_access_grants',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

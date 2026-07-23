@@ -12,7 +12,7 @@
   },
   "context": {},
   "languageOptions": {
-    "importExtension": ".js"
+    "importExtension": ".ts"
   },
   "projectId": "f4ab29da-7953-48d9-ad6e-4e0e39d8ed5f"
 }

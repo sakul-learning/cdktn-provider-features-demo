@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/signer_profile_permissions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/signer_profile_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccSignerProfilePermissionsConfig extends cdktn.Terraform
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/signer_profile_permissions awscc_signer_profile_permissions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/signer_profile_permissions awscc_signer_profile_permissions}
 */
 export class DataAwsccSignerProfilePermissions extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccSignerProfilePermissions extends cdktn.TerraformDataSource
   * Generates CDKTN code for importing a DataAwsccSignerProfilePermissions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccSignerProfilePermissions to import
-  * @param importFromId The id of the existing DataAwsccSignerProfilePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/signer_profile_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccSignerProfilePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/signer_profile_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccSignerProfilePermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccSignerProfilePermissions extends cdktn.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/signer_profile_permissions awscc_signer_profile_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/signer_profile_permissions awscc_signer_profile_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccSignerProfilePermissions extends cdktn.TerraformDataSource
       terraformResourceType: 'awscc_signer_profile_permissions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

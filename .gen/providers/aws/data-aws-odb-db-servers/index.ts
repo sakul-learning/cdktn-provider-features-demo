@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/odb_db_servers
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataAwsOdbDbServersConfig extends cdktn.TerraformMetaArguments 
   /**
   * The cloud exadata infrastructure ID. Mandatory field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/odb_db_servers#cloud_exadata_infrastructure_id DataAwsOdbDbServers#cloud_exadata_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_servers#cloud_exadata_infrastructure_id DataAwsOdbDbServers#cloud_exadata_infrastructure_id}
   */
   readonly cloudExadataInfrastructureId: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/odb_db_servers#region DataAwsOdbDbServers#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_servers#region DataAwsOdbDbServers#region}
   */
   readonly region?: string;
 }
@@ -283,7 +283,7 @@ export class DataAwsOdbDbServersDbServersList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/odb_db_servers aws_odb_db_servers}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_servers aws_odb_db_servers}
 */
 export class DataAwsOdbDbServers extends cdktn.TerraformDataSource {
 
@@ -299,7 +299,7 @@ export class DataAwsOdbDbServers extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsOdbDbServers resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsOdbDbServers to import
-  * @param importFromId The id of the existing DataAwsOdbDbServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/odb_db_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsOdbDbServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsOdbDbServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -311,7 +311,7 @@ export class DataAwsOdbDbServers extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_servers aws_odb_db_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,7 +322,7 @@ export class DataAwsOdbDbServers extends cdktn.TerraformDataSource {
       terraformResourceType: 'aws_odb_db_servers',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

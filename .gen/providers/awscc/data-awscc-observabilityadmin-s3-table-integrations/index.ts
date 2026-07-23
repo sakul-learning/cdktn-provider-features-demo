@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/observabilityadmin_s3_table_integrations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/observabilityadmin_s3_table_integrations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccObservabilityadminS3TableIntegrationsConfig extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/observabilityadmin_s3_table_integrations awscc_observabilityadmin_s3_table_integrations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/observabilityadmin_s3_table_integrations awscc_observabilityadmin_s3_table_integrations}
 */
 export class DataAwsccObservabilityadminS3TableIntegrations extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccObservabilityadminS3TableIntegrations extends cdktn.Terraf
   * Generates CDKTN code for importing a DataAwsccObservabilityadminS3TableIntegrations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccObservabilityadminS3TableIntegrations to import
-  * @param importFromId The id of the existing DataAwsccObservabilityadminS3TableIntegrations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/observabilityadmin_s3_table_integrations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccObservabilityadminS3TableIntegrations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/observabilityadmin_s3_table_integrations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccObservabilityadminS3TableIntegrations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccObservabilityadminS3TableIntegrations extends cdktn.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/observabilityadmin_s3_table_integrations awscc_observabilityadmin_s3_table_integrations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/observabilityadmin_s3_table_integrations awscc_observabilityadmin_s3_table_integrations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccObservabilityadminS3TableIntegrations extends cdktn.Terraf
       terraformResourceType: 'awscc_observabilityadmin_s3_table_integrations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

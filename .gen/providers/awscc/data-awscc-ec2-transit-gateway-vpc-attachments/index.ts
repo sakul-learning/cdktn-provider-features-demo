@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_vpc_attachments
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_vpc_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccEc2TransitGatewayVpcAttachmentsConfig extends cdktn.Te
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_vpc_attachments awscc_ec2_transit_gateway_vpc_attachments}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_vpc_attachments awscc_ec2_transit_gateway_vpc_attachments}
 */
 export class DataAwsccEc2TransitGatewayVpcAttachments extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccEc2TransitGatewayVpcAttachments extends cdktn.TerraformDat
   * Generates CDKTN code for importing a DataAwsccEc2TransitGatewayVpcAttachments resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2TransitGatewayVpcAttachments to import
-  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayVpcAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_vpc_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayVpcAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_vpc_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2TransitGatewayVpcAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccEc2TransitGatewayVpcAttachments extends cdktn.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/ec2_transit_gateway_vpc_attachments awscc_ec2_transit_gateway_vpc_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/ec2_transit_gateway_vpc_attachments awscc_ec2_transit_gateway_vpc_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccEc2TransitGatewayVpcAttachments extends cdktn.TerraformDat
       terraformResourceType: 'awscc_ec2_transit_gateway_vpc_attachments',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

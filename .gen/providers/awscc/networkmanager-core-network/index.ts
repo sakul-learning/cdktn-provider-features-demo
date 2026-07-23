@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NetworkmanagerCoreNetworkConfig extends cdktn.TerraformMetaArgu
   /**
   * The description of core network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network#description NetworkmanagerCoreNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network#description NetworkmanagerCoreNetwork#description}
   */
   readonly description?: string;
   /**
   * The ID of the global network that your core network is a part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network#global_network_id NetworkmanagerCoreNetwork#global_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network#global_network_id NetworkmanagerCoreNetwork#global_network_id}
   */
   readonly globalNetworkId: string;
   /**
   * Live policy document for the core network, you must provide PolicyDocument in Json Format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network#policy_document NetworkmanagerCoreNetwork#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network#policy_document NetworkmanagerCoreNetwork#policy_document}
   */
   readonly policyDocument?: string;
   /**
   * The tags for the global network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network#tags NetworkmanagerCoreNetwork#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network#tags NetworkmanagerCoreNetwork#tags}
   */
   readonly tags?: NetworkmanagerCoreNetworkTags[] | cdktn.IResolvable;
 }
@@ -351,13 +351,13 @@ export interface NetworkmanagerCoreNetworkTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network#key NetworkmanagerCoreNetwork#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network#key NetworkmanagerCoreNetwork#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network#value NetworkmanagerCoreNetwork#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network#value NetworkmanagerCoreNetwork#value}
   */
   readonly value?: string;
 }
@@ -502,7 +502,7 @@ export class NetworkmanagerCoreNetworkTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network awscc_networkmanager_core_network}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network awscc_networkmanager_core_network}
 */
 export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
 
@@ -518,7 +518,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerCoreNetwork resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerCoreNetwork to import
-  * @param importFromId The id of the existing NetworkmanagerCoreNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerCoreNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerCoreNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -530,7 +530,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/networkmanager_core_network awscc_networkmanager_core_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/networkmanager_core_network awscc_networkmanager_core_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -541,7 +541,7 @@ export class NetworkmanagerCoreNetwork extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_core_network',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

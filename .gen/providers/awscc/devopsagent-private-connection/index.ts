@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DevopsagentPrivateConnectionConfig extends cdktn.TerraformMetaA
   /**
   * Certificate for the Private Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#certificate DevopsagentPrivateConnection#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#certificate DevopsagentPrivateConnection#certificate}
   */
   readonly certificate?: string;
   /**
   * The connection configuration for the Private Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#connection_configuration DevopsagentPrivateConnection#connection_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#connection_configuration DevopsagentPrivateConnection#connection_configuration}
   */
   readonly connectionConfiguration: DevopsagentPrivateConnectionConnectionConfiguration;
   /**
   * Unique name for this Private Connection within the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#name DevopsagentPrivateConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#name DevopsagentPrivateConnection#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#tags DevopsagentPrivateConnection#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#tags DevopsagentPrivateConnection#tags}
   */
   readonly tags?: DevopsagentPrivateConnectionTags[] | cdktn.IResolvable;
 }
@@ -36,7 +36,7 @@ export interface DevopsagentPrivateConnectionConnectionConfigurationSelfManaged 
   /**
   * The ARN of the Resource Configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#resource_configuration_id DevopsagentPrivateConnection#resource_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#resource_configuration_id DevopsagentPrivateConnection#resource_configuration_id}
   */
   readonly resourceConfigurationId?: string;
 }
@@ -130,45 +130,51 @@ export class DevopsagentPrivateConnectionConnectionConfigurationSelfManagedOutpu
 }
 export interface DevopsagentPrivateConnectionConnectionConfigurationServiceManaged {
   /**
+  * DNS resolution mode for the resource gateway. Defaults to PUBLIC when not set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#dns_resolution DevopsagentPrivateConnection#dns_resolution}
+  */
+  readonly dnsResolution?: string;
+  /**
   * IP address or DNS name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#host_address DevopsagentPrivateConnection#host_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#host_address DevopsagentPrivateConnection#host_address}
   */
   readonly hostAddress?: string;
   /**
   * IP address type of the service-managed Resource Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#ip_address_type DevopsagentPrivateConnection#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#ip_address_type DevopsagentPrivateConnection#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * Number of IPv4 addresses in each ENI for the service-managed Resource Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#ipv_4_addresses_per_eni DevopsagentPrivateConnection#ipv_4_addresses_per_eni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#ipv_4_addresses_per_eni DevopsagentPrivateConnection#ipv_4_addresses_per_eni}
   */
   readonly ipv4AddressesPerEni?: number;
   /**
   * TCP port ranges that a consumer can use to access the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#port_ranges DevopsagentPrivateConnection#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#port_ranges DevopsagentPrivateConnection#port_ranges}
   */
   readonly portRanges?: string[];
   /**
   * Security groups to attach to the service-managed Resource Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#security_group_ids DevopsagentPrivateConnection#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#security_group_ids DevopsagentPrivateConnection#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Subnets that the service-managed Resource Gateway will span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#subnet_ids DevopsagentPrivateConnection#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#subnet_ids DevopsagentPrivateConnection#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * VPC to create the service-managed Resource Gateway in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#vpc_id DevopsagentPrivateConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#vpc_id DevopsagentPrivateConnection#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -179,6 +185,7 @@ export function devopsagentPrivateConnectionConnectionConfigurationServiceManage
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    dns_resolution: cdktn.stringToTerraform(struct!.dnsResolution),
     host_address: cdktn.stringToTerraform(struct!.hostAddress),
     ip_address_type: cdktn.stringToTerraform(struct!.ipAddressType),
     ipv_4_addresses_per_eni: cdktn.numberToTerraform(struct!.ipv4AddressesPerEni),
@@ -196,6 +203,12 @@ export function devopsagentPrivateConnectionConnectionConfigurationServiceManage
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    dns_resolution: {
+      value: cdktn.stringToHclTerraform(struct!.dnsResolution),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     host_address: {
       value: cdktn.stringToHclTerraform(struct!.hostAddress),
       isBlock: false,
@@ -262,6 +275,10 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._dnsResolution !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsResolution = this._dnsResolution;
+    }
     if (this._hostAddress !== undefined) {
       hasAnyValues = true;
       internalValueResult.hostAddress = this._hostAddress;
@@ -297,6 +314,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._dnsResolution = undefined;
       this._hostAddress = undefined;
       this._ipAddressType = undefined;
       this._ipv4AddressesPerEni = undefined;
@@ -312,6 +330,7 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._dnsResolution = value.dnsResolution;
       this._hostAddress = value.hostAddress;
       this._ipAddressType = value.ipAddressType;
       this._ipv4AddressesPerEni = value.ipv4AddressesPerEni;
@@ -320,6 +339,22 @@ export class DevopsagentPrivateConnectionConnectionConfigurationServiceManagedOu
       this._subnetIds = value.subnetIds;
       this._vpcId = value.vpcId;
     }
+  }
+
+  // dns_resolution - computed: true, optional: true, required: false
+  private _dnsResolution?: string; 
+  public get dnsResolution() {
+    return this.getStringAttribute('dns_resolution');
+  }
+  public set dnsResolution(value: string) {
+    this._dnsResolution = value;
+  }
+  public resetDnsResolution() {
+    this._dnsResolution = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsResolutionInput() {
+    return this._dnsResolution;
   }
 
   // host_address - computed: true, optional: true, required: false
@@ -438,13 +473,13 @@ export interface DevopsagentPrivateConnectionConnectionConfiguration {
   /**
   * Configuration for a self-managed Private Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#self_managed DevopsagentPrivateConnection#self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#self_managed DevopsagentPrivateConnection#self_managed}
   */
   readonly selfManaged?: DevopsagentPrivateConnectionConnectionConfigurationSelfManaged;
   /**
   * Configuration for a service-managed Private Connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#service_managed DevopsagentPrivateConnection#service_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#service_managed DevopsagentPrivateConnection#service_managed}
   */
   readonly serviceManaged?: DevopsagentPrivateConnectionConnectionConfigurationServiceManaged;
 }
@@ -569,13 +604,13 @@ export interface DevopsagentPrivateConnectionTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#key DevopsagentPrivateConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#key DevopsagentPrivateConnection#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#value DevopsagentPrivateConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#value DevopsagentPrivateConnection#value}
   */
   readonly value?: string;
 }
@@ -720,7 +755,7 @@ export class DevopsagentPrivateConnectionTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection awscc_devopsagent_private_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection awscc_devopsagent_private_connection}
 */
 export class DevopsagentPrivateConnection extends cdktn.TerraformResource {
 
@@ -736,7 +771,7 @@ export class DevopsagentPrivateConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevopsagentPrivateConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsagentPrivateConnection to import
-  * @param importFromId The id of the existing DevopsagentPrivateConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsagentPrivateConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsagentPrivateConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -748,7 +783,7 @@ export class DevopsagentPrivateConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/devopsagent_private_connection awscc_devopsagent_private_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/devopsagent_private_connection awscc_devopsagent_private_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -759,7 +794,7 @@ export class DevopsagentPrivateConnection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_devopsagent_private_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

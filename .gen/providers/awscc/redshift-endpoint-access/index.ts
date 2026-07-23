@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface RedshiftEndpointAccessConfig extends cdktn.TerraformMetaArgumen
   /**
   * A unique identifier for the cluster. You use this identifier to refer to the cluster for any subsequent cluster operations such as deleting or modifying. All alphabetical characters must be lower case, no hypens at the end, no two consecutive hyphens. Cluster name should be unique for all clusters within an AWS account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access#cluster_identifier RedshiftEndpointAccess#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access#cluster_identifier RedshiftEndpointAccess#cluster_identifier}
   */
   readonly clusterIdentifier: string;
   /**
   * The name of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access#endpoint_name RedshiftEndpointAccess#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access#endpoint_name RedshiftEndpointAccess#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * The AWS account ID of the owner of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access#resource_owner RedshiftEndpointAccess#resource_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access#resource_owner RedshiftEndpointAccess#resource_owner}
   */
   readonly resourceOwner?: string;
   /**
   * The subnet group name where Amazon Redshift chooses to deploy the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access#subnet_group_name RedshiftEndpointAccess#subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access#subnet_group_name RedshiftEndpointAccess#subnet_group_name}
   */
   readonly subnetGroupName: string;
   /**
   * A list of vpc security group ids to apply to the created endpoint access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access#vpc_security_group_ids RedshiftEndpointAccess#vpc_security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access#vpc_security_group_ids RedshiftEndpointAccess#vpc_security_group_ids}
   */
   readonly vpcSecurityGroupIds: string[];
 }
@@ -275,7 +275,7 @@ export class RedshiftEndpointAccessVpcSecurityGroupsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access awscc_redshift_endpoint_access}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access awscc_redshift_endpoint_access}
 */
 export class RedshiftEndpointAccess extends cdktn.TerraformResource {
 
@@ -291,7 +291,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftEndpointAccess resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftEndpointAccess to import
-  * @param importFromId The id of the existing RedshiftEndpointAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftEndpointAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftEndpointAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -303,7 +303,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/redshift_endpoint_access awscc_redshift_endpoint_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/redshift_endpoint_access awscc_redshift_endpoint_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -314,7 +314,7 @@ export class RedshiftEndpointAccess extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_endpoint_access',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/codestarconnections_connections
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/codestarconnections_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccCodestarconnectionsConnectionsConfig extends cdktn.Ter
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/codestarconnections_connections awscc_codestarconnections_connections}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/codestarconnections_connections awscc_codestarconnections_connections}
 */
 export class DataAwsccCodestarconnectionsConnections extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccCodestarconnectionsConnections extends cdktn.TerraformData
   * Generates CDKTN code for importing a DataAwsccCodestarconnectionsConnections resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCodestarconnectionsConnections to import
-  * @param importFromId The id of the existing DataAwsccCodestarconnectionsConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/codestarconnections_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCodestarconnectionsConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/codestarconnections_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCodestarconnectionsConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccCodestarconnectionsConnections extends cdktn.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/codestarconnections_connections awscc_codestarconnections_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/codestarconnections_connections awscc_codestarconnections_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccCodestarconnectionsConnections extends cdktn.TerraformData
       terraformResourceType: 'awscc_codestarconnections_connections',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface Ec2NetworkPerformanceMetricSubscriptionConfig extends cdktn.Ter
   /**
   * The target Region or Availability Zone for the metric to subscribe to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription#destination Ec2NetworkPerformanceMetricSubscription#destination}
   */
   readonly destination: string;
   /**
   * The metric type to subscribe to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription#metric Ec2NetworkPerformanceMetricSubscription#metric}
   */
   readonly metric: string;
   /**
   * The starting Region or Availability Zone for metric to subscribe to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription#source Ec2NetworkPerformanceMetricSubscription#source}
   */
   readonly source: string;
   /**
   * The statistic to subscribe to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription#statistic Ec2NetworkPerformanceMetricSubscription#statistic}
   */
   readonly statistic: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}
 */
 export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformReso
   * Generates CDKTN code for importing a Ec2NetworkPerformanceMetricSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2NetworkPerformanceMetricSubscription to import
-  * @param importFromId The id of the existing Ec2NetworkPerformanceMetricSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2NetworkPerformanceMetricSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2NetworkPerformanceMetricSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,7 +73,7 @@ export class Ec2NetworkPerformanceMetricSubscription extends cdktn.TerraformReso
       terraformResourceType: 'awscc_ec2_network_performance_metric_subscription',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

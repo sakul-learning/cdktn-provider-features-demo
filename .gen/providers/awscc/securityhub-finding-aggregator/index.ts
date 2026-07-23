@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_finding_aggregator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityhub_finding_aggregator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,20 +15,20 @@ export interface SecurityhubFindingAggregatorConfig extends cdktn.TerraformMetaA
   *   +  ``ALL_REGIONS_EXCEPT_SPECIFIED`` - Indicates to aggregate findings from all of the Regions where Security Hub is enabled, except for the Regions listed in the ``Regions`` parameter. When you choose this option, Security Hub also automatically aggregates findings from new Regions as Security Hub supports them and you opt into them. 
   *   +  ``SPECIFIED_REGIONS`` - Indicates to aggregate findings only from the Regions listed in the ``Regions`` parameter. Security Hub does not automatically aggregate findings from new Regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_finding_aggregator#region_linking_mode SecurityhubFindingAggregator#region_linking_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityhub_finding_aggregator#region_linking_mode SecurityhubFindingAggregator#region_linking_mode}
   */
   readonly regionLinkingMode: string;
   /**
   * If ``RegionLinkingMode`` is ``ALL_REGIONS_EXCEPT_SPECIFIED``, then this is a space-separated list of Regions that do not aggregate findings to the aggregation Region.
   *  If ``RegionLinkingMode`` is ``SPECIFIED_REGIONS``, then this is a space-separated list of Regions that do aggregate findings to the aggregation Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_finding_aggregator#regions SecurityhubFindingAggregator#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityhub_finding_aggregator#regions SecurityhubFindingAggregator#regions}
   */
   readonly regions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator}
 */
 export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubFindingAggregator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubFindingAggregator to import
-  * @param importFromId The id of the existing SecurityhubFindingAggregator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_finding_aggregator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubFindingAggregator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityhub_finding_aggregator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubFindingAggregator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/securityhub_finding_aggregator awscc_securityhub_finding_aggregator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,7 +67,7 @@ export class SecurityhubFindingAggregator extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_finding_aggregator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

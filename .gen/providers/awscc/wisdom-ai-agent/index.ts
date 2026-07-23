@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,37 +8,37 @@ import * as cdktn from 'cdktn';
 
 export interface WisdomAiAgentConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#assistant_id WisdomAiAgent#assistant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#assistant_id WisdomAiAgent#assistant_id}
   */
   readonly assistantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#configuration WisdomAiAgent#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#configuration WisdomAiAgent#configuration}
   */
   readonly configuration: WisdomAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#description WisdomAiAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#description WisdomAiAgent#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#name WisdomAiAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#name WisdomAiAgent#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tags WisdomAiAgent#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tags WisdomAiAgent#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#type WisdomAiAgent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#type WisdomAiAgent#type}
   */
   readonly type: string;
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -183,11 +183,11 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -332,11 +332,11 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -459,11 +459,11 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition;
 }
@@ -608,11 +608,11 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -735,15 +735,15 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
   */
   readonly orConditions?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition;
 }
@@ -895,15 +895,15 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
   */
   readonly contentTagFilter?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
   */
   readonly overrideKnowledgeBaseSearchType?: string;
 }
@@ -1055,7 +1055,7 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
   */
   readonly knowledgeBaseAssociationConfigurationData?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData;
 }
@@ -1149,15 +1149,15 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
   */
   readonly associationConfigurationData?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
   */
   readonly associationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
   */
   readonly associationType?: string;
 }
@@ -1331,27 +1331,27 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationA
 }
 export interface WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#answer_generation_ai_guardrail_id WisdomAiAgent#answer_generation_ai_guardrail_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#answer_generation_ai_guardrail_id WisdomAiAgent#answer_generation_ai_guardrail_id}
   */
   readonly answerGenerationAiGuardrailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#answer_generation_ai_prompt_id WisdomAiAgent#answer_generation_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#answer_generation_ai_prompt_id WisdomAiAgent#answer_generation_ai_prompt_id}
   */
   readonly answerGenerationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
   */
   readonly associationConfigurations?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationAssociationConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#intent_labeling_generation_ai_prompt_id WisdomAiAgent#intent_labeling_generation_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#intent_labeling_generation_ai_prompt_id WisdomAiAgent#intent_labeling_generation_ai_prompt_id}
   */
   readonly intentLabelingGenerationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#query_reformulation_ai_prompt_id WisdomAiAgent#query_reformulation_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#query_reformulation_ai_prompt_id WisdomAiAgent#query_reformulation_ai_prompt_id}
   */
   readonly queryReformulationAiPromptId?: string;
 }
@@ -1590,15 +1590,15 @@ export class WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfigurationO
 }
 export interface WisdomAiAgentConfigurationCaseSummarizationAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#case_summarization_ai_guardrail_id WisdomAiAgent#case_summarization_ai_guardrail_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#case_summarization_ai_guardrail_id WisdomAiAgent#case_summarization_ai_guardrail_id}
   */
   readonly caseSummarizationAiGuardrailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#case_summarization_ai_prompt_id WisdomAiAgent#case_summarization_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#case_summarization_ai_prompt_id WisdomAiAgent#case_summarization_ai_prompt_id}
   */
   readonly caseSummarizationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
 }
@@ -1750,11 +1750,11 @@ export class WisdomAiAgentConfigurationCaseSummarizationAiAgentConfigurationOutp
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -1899,11 +1899,11 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -2048,11 +2048,11 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -2175,11 +2175,11 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition;
 }
@@ -2324,11 +2324,11 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -2451,15 +2451,15 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
   */
   readonly orConditions?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition;
 }
@@ -2611,15 +2611,15 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
   */
   readonly contentTagFilter?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
   */
   readonly overrideKnowledgeBaseSearchType?: string;
 }
@@ -2771,7 +2771,7 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
   */
   readonly knowledgeBaseAssociationConfigurationData?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData;
 }
@@ -2865,15 +2865,15 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
   */
   readonly associationConfigurationData?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
   */
   readonly associationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
   */
   readonly associationType?: string;
 }
@@ -3047,19 +3047,19 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
   */
   readonly associationConfigurations?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfigurationAssociationConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_generative_answer_ai_prompt_id WisdomAiAgent#email_generative_answer_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_generative_answer_ai_prompt_id WisdomAiAgent#email_generative_answer_ai_prompt_id}
   */
   readonly emailGenerativeAnswerAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_query_reformulation_ai_prompt_id WisdomAiAgent#email_query_reformulation_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_query_reformulation_ai_prompt_id WisdomAiAgent#email_query_reformulation_ai_prompt_id}
   */
   readonly emailQueryReformulationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
 }
@@ -3240,11 +3240,11 @@ export class WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration
 }
 export interface WisdomAiAgentConfigurationEmailOverviewAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_overview_ai_prompt_id WisdomAiAgent#email_overview_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_overview_ai_prompt_id WisdomAiAgent#email_overview_ai_prompt_id}
   */
   readonly emailOverviewAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
 }
@@ -3367,11 +3367,11 @@ export class WisdomAiAgentConfigurationEmailOverviewAiAgentConfigurationOutputRe
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -3516,11 +3516,11 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -3665,11 +3665,11 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -3792,11 +3792,11 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition;
 }
@@ -3941,11 +3941,11 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -4068,15 +4068,15 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
   */
   readonly orConditions?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition;
 }
@@ -4228,15 +4228,15 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
   */
   readonly contentTagFilter?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
   */
   readonly overrideKnowledgeBaseSearchType?: string;
 }
@@ -4388,7 +4388,7 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
   */
   readonly knowledgeBaseAssociationConfigurationData?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData;
 }
@@ -4482,15 +4482,15 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
   */
   readonly associationConfigurationData?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
   */
   readonly associationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
   */
   readonly associationType?: string;
 }
@@ -4664,19 +4664,19 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociat
 }
 export interface WisdomAiAgentConfigurationEmailResponseAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
   */
   readonly associationConfigurations?: WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationAssociationConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_query_reformulation_ai_prompt_id WisdomAiAgent#email_query_reformulation_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_query_reformulation_ai_prompt_id WisdomAiAgent#email_query_reformulation_ai_prompt_id}
   */
   readonly emailQueryReformulationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_response_ai_prompt_id WisdomAiAgent#email_response_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_response_ai_prompt_id WisdomAiAgent#email_response_ai_prompt_id}
   */
   readonly emailResponseAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
 }
@@ -4857,11 +4857,11 @@ export class WisdomAiAgentConfigurationEmailResponseAiAgentConfigurationOutputRe
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -5006,11 +5006,11 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -5155,11 +5155,11 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -5282,11 +5282,11 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition;
 }
@@ -5431,11 +5431,11 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -5558,15 +5558,15 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
   */
   readonly orConditions?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition;
 }
@@ -5718,15 +5718,15 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
   */
   readonly contentTagFilter?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
   */
   readonly overrideKnowledgeBaseSearchType?: string;
 }
@@ -5878,7 +5878,7 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
   */
   readonly knowledgeBaseAssociationConfigurationData?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData;
 }
@@ -5972,15 +5972,15 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
   */
   readonly associationConfigurationData?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
   */
   readonly associationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
   */
   readonly associationType?: string;
 }
@@ -6154,19 +6154,19 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociati
 }
 export interface WisdomAiAgentConfigurationManualSearchAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#answer_generation_ai_guardrail_id WisdomAiAgent#answer_generation_ai_guardrail_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#answer_generation_ai_guardrail_id WisdomAiAgent#answer_generation_ai_guardrail_id}
   */
   readonly answerGenerationAiGuardrailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#answer_generation_ai_prompt_id WisdomAiAgent#answer_generation_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#answer_generation_ai_prompt_id WisdomAiAgent#answer_generation_ai_prompt_id}
   */
   readonly answerGenerationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
   */
   readonly associationConfigurations?: WisdomAiAgentConfigurationManualSearchAiAgentConfigurationAssociationConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
 }
@@ -6347,15 +6347,15 @@ export class WisdomAiAgentConfigurationManualSearchAiAgentConfigurationOutputRef
 }
 export interface WisdomAiAgentConfigurationNoteTakingAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#note_taking_ai_guardrail_id WisdomAiAgent#note_taking_ai_guardrail_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#note_taking_ai_guardrail_id WisdomAiAgent#note_taking_ai_guardrail_id}
   */
   readonly noteTakingAiGuardrailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#note_taking_ai_prompt_id WisdomAiAgent#note_taking_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#note_taking_ai_prompt_id WisdomAiAgent#note_taking_ai_prompt_id}
   */
   readonly noteTakingAiPromptId?: string;
 }
@@ -6507,11 +6507,11 @@ export class WisdomAiAgentConfigurationNoteTakingAiAgentConfigurationOutputRefer
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsInstruction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#examples WisdomAiAgent#examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#examples WisdomAiAgent#examples}
   */
   readonly examples?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#instruction WisdomAiAgent#instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#instruction WisdomAiAgent#instruction}
   */
   readonly instruction?: string;
 }
@@ -6634,11 +6634,11 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#output_variable_name_override WisdomAiAgent#output_variable_name_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#output_variable_name_override WisdomAiAgent#output_variable_name_override}
   */
   readonly outputVariableNameOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#session_data_namespace WisdomAiAgent#session_data_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#session_data_namespace WisdomAiAgent#session_data_namespace}
   */
   readonly sessionDataNamespace?: string;
 }
@@ -6761,11 +6761,11 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#json_path WisdomAiAgent#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#json_path WisdomAiAgent#json_path}
   */
   readonly jsonPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#output_configuration WisdomAiAgent#output_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#output_configuration WisdomAiAgent#output_configuration}
   */
   readonly outputConfiguration?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfiguration;
 }
@@ -6910,11 +6910,11 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueConstant {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#type WisdomAiAgent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#type WisdomAiAgent#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -7037,7 +7037,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#constant WisdomAiAgent#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#constant WisdomAiAgent#constant}
   */
   readonly constant?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValueConstant;
 }
@@ -7131,11 +7131,11 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#json_path WisdomAiAgent#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#json_path WisdomAiAgent#json_path}
   */
   readonly jsonPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValuesValue;
 }
@@ -7280,7 +7280,7 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsUserInteractionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#is_user_confirmation_required WisdomAiAgent#is_user_confirmation_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#is_user_confirmation_required WisdomAiAgent#is_user_confirmation_required}
   */
   readonly isUserConfirmationRequired?: boolean | cdktn.IResolvable;
 }
@@ -7374,51 +7374,51 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#annotations WisdomAiAgent#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#annotations WisdomAiAgent#annotations}
   */
   readonly annotations?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#description WisdomAiAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#description WisdomAiAgent#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#input_schema WisdomAiAgent#input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#input_schema WisdomAiAgent#input_schema}
   */
   readonly inputSchema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#instruction WisdomAiAgent#instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#instruction WisdomAiAgent#instruction}
   */
   readonly instruction?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsInstruction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#output_filters WisdomAiAgent#output_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#output_filters WisdomAiAgent#output_filters}
   */
   readonly outputFilters?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFilters[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#output_schema WisdomAiAgent#output_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#output_schema WisdomAiAgent#output_schema}
   */
   readonly outputSchema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#override_input_values WisdomAiAgent#override_input_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#override_input_values WisdomAiAgent#override_input_values}
   */
   readonly overrideInputValues?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOverrideInputValues[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#title WisdomAiAgent#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#title WisdomAiAgent#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tool_id WisdomAiAgent#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tool_id WisdomAiAgent#tool_id}
   */
   readonly toolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tool_name WisdomAiAgent#tool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tool_name WisdomAiAgent#tool_name}
   */
   readonly toolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tool_type WisdomAiAgent#tool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tool_type WisdomAiAgent#tool_type}
   */
   readonly toolType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#user_interaction_configuration WisdomAiAgent#user_interaction_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#user_interaction_configuration WisdomAiAgent#user_interaction_configuration}
   */
   readonly userInteractionConfiguration?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsUserInteractionConfiguration;
 }
@@ -7853,23 +7853,23 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConf
 }
 export interface WisdomAiAgentConfigurationOrchestrationAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#connect_instance_arn WisdomAiAgent#connect_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#connect_instance_arn WisdomAiAgent#connect_instance_arn}
   */
   readonly connectInstanceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}
   */
   readonly locale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#orchestration_ai_guardrail_id WisdomAiAgent#orchestration_ai_guardrail_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#orchestration_ai_guardrail_id WisdomAiAgent#orchestration_ai_guardrail_id}
   */
   readonly orchestrationAiGuardrailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#orchestration_ai_prompt_id WisdomAiAgent#orchestration_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#orchestration_ai_prompt_id WisdomAiAgent#orchestration_ai_prompt_id}
   */
   readonly orchestrationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tool_configurations WisdomAiAgent#tool_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tool_configurations WisdomAiAgent#tool_configurations}
   */
   readonly toolConfigurations?: WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurations[] | cdktn.IResolvable;
 }
@@ -8079,11 +8079,11 @@ export class WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationOutputRe
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -8228,11 +8228,11 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -8377,11 +8377,11 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -8504,11 +8504,11 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditionsTagCondition;
 }
@@ -8653,11 +8653,11 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#key WisdomAiAgent#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#value WisdomAiAgent#value}
   */
   readonly value?: string;
 }
@@ -8780,15 +8780,15 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#and_conditions WisdomAiAgent#and_conditions}
   */
   readonly andConditions?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterAndConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#or_conditions WisdomAiAgent#or_conditions}
   */
   readonly orConditions?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterOrConditions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#tag_condition WisdomAiAgent#tag_condition}
   */
   readonly tagCondition?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilterTagCondition;
 }
@@ -8940,15 +8940,15 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#content_tag_filter WisdomAiAgent#content_tag_filter}
   */
   readonly contentTagFilter?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationDataContentTagFilter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#max_results WisdomAiAgent#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#override_knowledge_base_search_type WisdomAiAgent#override_knowledge_base_search_type}
   */
   readonly overrideKnowledgeBaseSearchType?: string;
 }
@@ -9100,7 +9100,7 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#knowledge_base_association_configuration_data WisdomAiAgent#knowledge_base_association_configuration_data}
   */
   readonly knowledgeBaseAssociationConfigurationData?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationDataKnowledgeBaseAssociationConfigurationData;
 }
@@ -9194,15 +9194,15 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configuration_data WisdomAiAgent#association_configuration_data}
   */
   readonly associationConfigurationData?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurationsAssociationConfigurationData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_id WisdomAiAgent#association_id}
   */
   readonly associationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_type WisdomAiAgent#association_type}
   */
   readonly associationType?: string;
 }
@@ -9376,19 +9376,19 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociatio
 }
 export interface WisdomAiAgentConfigurationSelfServiceAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}
   */
   readonly associationConfigurations?: WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationAssociationConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#self_service_ai_guardrail_id WisdomAiAgent#self_service_ai_guardrail_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#self_service_ai_guardrail_id WisdomAiAgent#self_service_ai_guardrail_id}
   */
   readonly selfServiceAiGuardrailId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#self_service_answer_generation_ai_prompt_id WisdomAiAgent#self_service_answer_generation_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#self_service_answer_generation_ai_prompt_id WisdomAiAgent#self_service_answer_generation_ai_prompt_id}
   */
   readonly selfServiceAnswerGenerationAiPromptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#self_service_pre_processing_ai_prompt_id WisdomAiAgent#self_service_pre_processing_ai_prompt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#self_service_pre_processing_ai_prompt_id WisdomAiAgent#self_service_pre_processing_ai_prompt_id}
   */
   readonly selfServicePreProcessingAiPromptId?: string;
 }
@@ -9569,39 +9569,39 @@ export class WisdomAiAgentConfigurationSelfServiceAiAgentConfigurationOutputRefe
 }
 export interface WisdomAiAgentConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#answer_recommendation_ai_agent_configuration WisdomAiAgent#answer_recommendation_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#answer_recommendation_ai_agent_configuration WisdomAiAgent#answer_recommendation_ai_agent_configuration}
   */
   readonly answerRecommendationAiAgentConfiguration?: WisdomAiAgentConfigurationAnswerRecommendationAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#case_summarization_ai_agent_configuration WisdomAiAgent#case_summarization_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#case_summarization_ai_agent_configuration WisdomAiAgent#case_summarization_ai_agent_configuration}
   */
   readonly caseSummarizationAiAgentConfiguration?: WisdomAiAgentConfigurationCaseSummarizationAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_generative_answer_ai_agent_configuration WisdomAiAgent#email_generative_answer_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_generative_answer_ai_agent_configuration WisdomAiAgent#email_generative_answer_ai_agent_configuration}
   */
   readonly emailGenerativeAnswerAiAgentConfiguration?: WisdomAiAgentConfigurationEmailGenerativeAnswerAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_overview_ai_agent_configuration WisdomAiAgent#email_overview_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_overview_ai_agent_configuration WisdomAiAgent#email_overview_ai_agent_configuration}
   */
   readonly emailOverviewAiAgentConfiguration?: WisdomAiAgentConfigurationEmailOverviewAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#email_response_ai_agent_configuration WisdomAiAgent#email_response_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#email_response_ai_agent_configuration WisdomAiAgent#email_response_ai_agent_configuration}
   */
   readonly emailResponseAiAgentConfiguration?: WisdomAiAgentConfigurationEmailResponseAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#manual_search_ai_agent_configuration WisdomAiAgent#manual_search_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#manual_search_ai_agent_configuration WisdomAiAgent#manual_search_ai_agent_configuration}
   */
   readonly manualSearchAiAgentConfiguration?: WisdomAiAgentConfigurationManualSearchAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#note_taking_ai_agent_configuration WisdomAiAgent#note_taking_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#note_taking_ai_agent_configuration WisdomAiAgent#note_taking_ai_agent_configuration}
   */
   readonly noteTakingAiAgentConfiguration?: WisdomAiAgentConfigurationNoteTakingAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#orchestration_ai_agent_configuration WisdomAiAgent#orchestration_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#orchestration_ai_agent_configuration WisdomAiAgent#orchestration_ai_agent_configuration}
   */
   readonly orchestrationAiAgentConfiguration?: WisdomAiAgentConfigurationOrchestrationAiAgentConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#self_service_ai_agent_configuration WisdomAiAgent#self_service_ai_agent_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#self_service_ai_agent_configuration WisdomAiAgent#self_service_ai_agent_configuration}
   */
   readonly selfServiceAiAgentConfiguration?: WisdomAiAgentConfigurationSelfServiceAiAgentConfiguration;
 }
@@ -9927,7 +9927,7 @@ export class WisdomAiAgentConfigurationOutputReference extends cdktn.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent}
 */
 export class WisdomAiAgent extends cdktn.TerraformResource {
 
@@ -9943,7 +9943,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomAiAgent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomAiAgent to import
-  * @param importFromId The id of the existing WisdomAiAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomAiAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomAiAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -9955,7 +9955,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9966,7 +9966,7 @@ export class WisdomAiAgent extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_ai_agent',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

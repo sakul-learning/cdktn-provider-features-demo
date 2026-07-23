@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamDirectoryConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#certificate_based_auth_properties AppstreamDirectoryConfig#certificate_based_auth_properties}
   */
   readonly certificateBasedAuthProperties?: AppstreamDirectoryConfigCertificateBasedAuthProperties;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#directory_name AppstreamDirectoryConfig#directory_name}
   */
   readonly directoryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#organizational_unit_distinguished_names AppstreamDirectoryConfig#organizational_unit_distinguished_names}
   */
   readonly organizationalUnitDistinguishedNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#service_account_credentials AppstreamDirectoryConfig#service_account_credentials}
   */
   readonly serviceAccountCredentials: AppstreamDirectoryConfigServiceAccountCredentials;
 }
 export interface AppstreamDirectoryConfigCertificateBasedAuthProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#certificate_authority_arn AppstreamDirectoryConfig#certificate_authority_arn}
   */
   readonly certificateAuthorityArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#status AppstreamDirectoryConfig#status}
   */
   readonly status?: string;
 }
@@ -153,11 +153,11 @@ export class AppstreamDirectoryConfigCertificateBasedAuthPropertiesOutputReferen
 }
 export interface AppstreamDirectoryConfigServiceAccountCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#account_name AppstreamDirectoryConfig#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#account_name AppstreamDirectoryConfig#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#account_password AppstreamDirectoryConfig#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#account_password AppstreamDirectoryConfig#account_password}
   */
   readonly accountPassword: string;
 }
@@ -274,7 +274,7 @@ export class AppstreamDirectoryConfigServiceAccountCredentialsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config awscc_appstream_directory_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config awscc_appstream_directory_config}
 */
 export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
 
@@ -290,7 +290,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamDirectoryConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamDirectoryConfig to import
-  * @param importFromId The id of the existing AppstreamDirectoryConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamDirectoryConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamDirectoryConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -302,7 +302,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/appstream_directory_config awscc_appstream_directory_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/appstream_directory_config awscc_appstream_directory_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,7 +313,7 @@ export class AppstreamDirectoryConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_directory_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

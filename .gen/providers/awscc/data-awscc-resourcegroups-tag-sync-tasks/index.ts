@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_tag_sync_tasks
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/resourcegroups_tag_sync_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccResourcegroupsTagSyncTasksConfig extends cdktn.Terrafo
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks}
 */
 export class DataAwsccResourcegroupsTagSyncTasks extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccResourcegroupsTagSyncTasks extends cdktn.TerraformDataSour
   * Generates CDKTN code for importing a DataAwsccResourcegroupsTagSyncTasks resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccResourcegroupsTagSyncTasks to import
-  * @param importFromId The id of the existing DataAwsccResourcegroupsTagSyncTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_tag_sync_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccResourcegroupsTagSyncTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/resourcegroups_tag_sync_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccResourcegroupsTagSyncTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccResourcegroupsTagSyncTasks extends cdktn.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/resourcegroups_tag_sync_tasks awscc_resourcegroups_tag_sync_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccResourcegroupsTagSyncTasks extends cdktn.TerraformDataSour
       terraformResourceType: 'awscc_resourcegroups_tag_sync_tasks',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

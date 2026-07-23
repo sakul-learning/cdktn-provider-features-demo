@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_dnssec
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_dnssec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface Route53DnssecConfig extends cdktn.TerraformMetaArguments {
   /**
   * The unique string (ID) used to identify a hosted zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
   */
   readonly hostedZoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_dnssec awscc_route53_dnssec}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_dnssec awscc_route53_dnssec}
 */
 export class Route53Dnssec extends cdktn.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Route53Dnssec extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53Dnssec resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53Dnssec to import
-  * @param importFromId The id of the existing Route53Dnssec that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_dnssec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53Dnssec that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_dnssec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53Dnssec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Route53Dnssec extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_dnssec awscc_route53_dnssec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_dnssec awscc_route53_dnssec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,7 +55,7 @@ export class Route53Dnssec extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53_dnssec',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

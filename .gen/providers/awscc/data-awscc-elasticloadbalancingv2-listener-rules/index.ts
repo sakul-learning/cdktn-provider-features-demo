@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener_rules
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccElasticloadbalancingv2ListenerRulesConfig extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules}
 */
 export class DataAwsccElasticloadbalancingv2ListenerRules extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccElasticloadbalancingv2ListenerRules extends cdktn.Terrafor
   * Generates CDKTN code for importing a DataAwsccElasticloadbalancingv2ListenerRules resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccElasticloadbalancingv2ListenerRules to import
-  * @param importFromId The id of the existing DataAwsccElasticloadbalancingv2ListenerRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccElasticloadbalancingv2ListenerRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccElasticloadbalancingv2ListenerRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccElasticloadbalancingv2ListenerRules extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccElasticloadbalancingv2ListenerRules extends cdktn.Terrafor
       terraformResourceType: 'awscc_elasticloadbalancingv2_listener_rules',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

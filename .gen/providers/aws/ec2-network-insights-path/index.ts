@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2NetworkInsightsPathConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#destination Ec2NetworkInsightsPath#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#destination Ec2NetworkInsightsPath#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#destination_ip Ec2NetworkInsightsPath#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#destination_ip Ec2NetworkInsightsPath#destination_ip}
   */
   readonly destinationIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#destination_port Ec2NetworkInsightsPath#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#destination_port Ec2NetworkInsightsPath#destination_port}
   */
   readonly destinationPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#id Ec2NetworkInsightsPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#id Ec2NetworkInsightsPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#protocol Ec2NetworkInsightsPath#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#protocol Ec2NetworkInsightsPath#protocol}
   */
   readonly protocol: string;
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#region Ec2NetworkInsightsPath#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#region Ec2NetworkInsightsPath#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#source Ec2NetworkInsightsPath#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#source Ec2NetworkInsightsPath#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#source_ip Ec2NetworkInsightsPath#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#source_ip Ec2NetworkInsightsPath#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#tags Ec2NetworkInsightsPath#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#tags Ec2NetworkInsightsPath#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#tags_all Ec2NetworkInsightsPath#tags_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#tags_all Ec2NetworkInsightsPath#tags_all}
   */
   readonly tagsAll?: { [key: string]: string };
   /**
   * filter_at_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#filter_at_destination Ec2NetworkInsightsPath#filter_at_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#filter_at_destination Ec2NetworkInsightsPath#filter_at_destination}
   */
   readonly filterAtDestination?: Ec2NetworkInsightsPathFilterAtDestination;
   /**
   * filter_at_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#filter_at_source Ec2NetworkInsightsPath#filter_at_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#filter_at_source Ec2NetworkInsightsPath#filter_at_source}
   */
   readonly filterAtSource?: Ec2NetworkInsightsPathFilterAtSource;
 }
 export interface Ec2NetworkInsightsPathFilterAtDestinationDestinationPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
   */
   readonly toPort?: number;
 }
@@ -184,11 +184,11 @@ export class Ec2NetworkInsightsPathFilterAtDestinationDestinationPortRangeOutput
 }
 export interface Ec2NetworkInsightsPathFilterAtDestinationSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
   */
   readonly toPort?: number;
 }
@@ -301,23 +301,23 @@ export class Ec2NetworkInsightsPathFilterAtDestinationSourcePortRangeOutputRefer
 }
 export interface Ec2NetworkInsightsPathFilterAtDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#destination_address Ec2NetworkInsightsPath#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#destination_address Ec2NetworkInsightsPath#destination_address}
   */
   readonly destinationAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#source_address Ec2NetworkInsightsPath#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#source_address Ec2NetworkInsightsPath#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * destination_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#destination_port_range Ec2NetworkInsightsPath#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#destination_port_range Ec2NetworkInsightsPath#destination_port_range}
   */
   readonly destinationPortRange?: Ec2NetworkInsightsPathFilterAtDestinationDestinationPortRange;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#source_port_range Ec2NetworkInsightsPath#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#source_port_range Ec2NetworkInsightsPath#source_port_range}
   */
   readonly sourcePortRange?: Ec2NetworkInsightsPathFilterAtDestinationSourcePortRange;
 }
@@ -488,11 +488,11 @@ export class Ec2NetworkInsightsPathFilterAtDestinationOutputReference extends cd
 }
 export interface Ec2NetworkInsightsPathFilterAtSourceDestinationPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
   */
   readonly toPort?: number;
 }
@@ -605,11 +605,11 @@ export class Ec2NetworkInsightsPathFilterAtSourceDestinationPortRangeOutputRefer
 }
 export interface Ec2NetworkInsightsPathFilterAtSourceSourcePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#from_port Ec2NetworkInsightsPath#from_port}
   */
   readonly fromPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#to_port Ec2NetworkInsightsPath#to_port}
   */
   readonly toPort?: number;
 }
@@ -722,23 +722,23 @@ export class Ec2NetworkInsightsPathFilterAtSourceSourcePortRangeOutputReference 
 }
 export interface Ec2NetworkInsightsPathFilterAtSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#destination_address Ec2NetworkInsightsPath#destination_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#destination_address Ec2NetworkInsightsPath#destination_address}
   */
   readonly destinationAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#source_address Ec2NetworkInsightsPath#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#source_address Ec2NetworkInsightsPath#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * destination_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#destination_port_range Ec2NetworkInsightsPath#destination_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#destination_port_range Ec2NetworkInsightsPath#destination_port_range}
   */
   readonly destinationPortRange?: Ec2NetworkInsightsPathFilterAtSourceDestinationPortRange;
   /**
   * source_port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#source_port_range Ec2NetworkInsightsPath#source_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#source_port_range Ec2NetworkInsightsPath#source_port_range}
   */
   readonly sourcePortRange?: Ec2NetworkInsightsPathFilterAtSourceSourcePortRange;
 }
@@ -909,7 +909,7 @@ export class Ec2NetworkInsightsPathFilterAtSourceOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path}
 */
 export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
 
@@ -925,7 +925,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2NetworkInsightsPath resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2NetworkInsightsPath to import
-  * @param importFromId The id of the existing Ec2NetworkInsightsPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2NetworkInsightsPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2NetworkInsightsPath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -937,7 +937,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ec2_network_insights_path aws_ec2_network_insights_path} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -948,7 +948,7 @@ export class Ec2NetworkInsightsPath extends cdktn.TerraformResource {
       terraformResourceType: 'aws_ec2_network_insights_path',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

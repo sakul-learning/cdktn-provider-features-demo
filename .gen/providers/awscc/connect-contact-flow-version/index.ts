@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ConnectContactFlowVersionConfig extends cdktn.TerraformMetaArgu
   /**
   * The ARN of the contact flow this version is tied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_version#contact_flow_id ConnectContactFlowVersion#contact_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow_version#contact_flow_id ConnectContactFlowVersion#contact_flow_id}
   */
   readonly contactFlowId: string;
   /**
   * The description of the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_version#description ConnectContactFlowVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow_version#description ConnectContactFlowVersion#description}
   */
   readonly description?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version}
 */
 export class ConnectContactFlowVersion extends cdktn.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ConnectContactFlowVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectContactFlowVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectContactFlowVersion to import
-  * @param importFromId The id of the existing ConnectContactFlowVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectContactFlowVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectContactFlowVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ConnectContactFlowVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_contact_flow_version awscc_connect_contact_flow_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,7 +61,7 @@ export class ConnectContactFlowVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_contact_flow_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktn from 'cdktn';
 
 export interface DatazoneProjectMembershipConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership#designation DatazoneProjectMembership#designation}
   */
   readonly designation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership#domain_identifier DatazoneProjectMembership#domain_identifier}
   */
   readonly domainIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership#member DatazoneProjectMembership#member}
   */
   readonly member: DatazoneProjectMembershipMember;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership#project_identifier DatazoneProjectMembership#project_identifier}
   */
   readonly projectIdentifier: string;
 }
 export interface DatazoneProjectMembershipMember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership#group_identifier DatazoneProjectMembership#group_identifier}
   */
   readonly groupIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership#user_identifier DatazoneProjectMembership#user_identifier}
   */
   readonly userIdentifier?: string;
 }
@@ -153,7 +153,7 @@ export class DatazoneProjectMembershipMemberOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}
 */
 export class DatazoneProjectMembership extends cdktn.TerraformResource {
 
@@ -169,7 +169,7 @@ export class DatazoneProjectMembership extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatazoneProjectMembership resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatazoneProjectMembership to import
-  * @param importFromId The id of the existing DatazoneProjectMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatazoneProjectMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatazoneProjectMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -181,7 +181,7 @@ export class DatazoneProjectMembership extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,7 +192,7 @@ export class DatazoneProjectMembership extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datazone_project_membership',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

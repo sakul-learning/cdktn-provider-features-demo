@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MemorydbSubnetGroupConfig extends cdktn.TerraformMetaArguments 
   /**
   * An optional description of the subnet group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group#description MemorydbSubnetGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group#description MemorydbSubnetGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the subnet group. This value must be unique as it also serves as the subnet group identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group#subnet_group_name MemorydbSubnetGroup#subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group#subnet_group_name MemorydbSubnetGroup#subnet_group_name}
   */
   readonly subnetGroupName: string;
   /**
   * A list of VPC subnet IDs for the subnet group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group#subnet_ids MemorydbSubnetGroup#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group#subnet_ids MemorydbSubnetGroup#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * An array of key-value pairs to apply to this subnet group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group#tags MemorydbSubnetGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group#tags MemorydbSubnetGroup#tags}
   */
   readonly tags?: MemorydbSubnetGroupTags[] | cdktn.IResolvable;
 }
@@ -36,13 +36,13 @@ export interface MemorydbSubnetGroupTags {
   /**
   * The key for the tag. May not be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
   */
   readonly key?: string;
   /**
   * The tag's value. May be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
   */
   readonly value?: string;
 }
@@ -187,7 +187,7 @@ export class MemorydbSubnetGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group}
 */
 export class MemorydbSubnetGroup extends cdktn.TerraformResource {
 
@@ -203,7 +203,7 @@ export class MemorydbSubnetGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MemorydbSubnetGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MemorydbSubnetGroup to import
-  * @param importFromId The id of the existing MemorydbSubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MemorydbSubnetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MemorydbSubnetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -215,7 +215,7 @@ export class MemorydbSubnetGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/memorydb_subnet_group awscc_memorydb_subnet_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -226,7 +226,7 @@ export class MemorydbSubnetGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_memorydb_subnet_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

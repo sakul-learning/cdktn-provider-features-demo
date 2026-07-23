@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SsmcontactsPlanConfig extends cdktn.TerraformMetaArguments {
   /**
   * Contact ID for the AWS SSM Incident Manager Contact to associate the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
   */
   readonly contactId?: string;
   /**
   * Rotation Ids to associate with Oncall Contact for engagement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#rotation_ids SsmcontactsPlan#rotation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#rotation_ids SsmcontactsPlan#rotation_ids}
   */
   readonly rotationIds?: string[];
   /**
   * The stages that an escalation plan or engagement plan engages contacts and contact methods in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#stages SsmcontactsPlan#stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#stages SsmcontactsPlan#stages}
   */
   readonly stages?: SsmcontactsPlanStages[] | cdktn.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface SsmcontactsPlanStagesTargetsChannelTargetInfo {
   /**
   * The Amazon Resource Name (ARN) of the contact channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#channel_id SsmcontactsPlan#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#channel_id SsmcontactsPlan#channel_id}
   */
   readonly channelId?: string;
   /**
   * The number of minutes to wait to retry sending engagement in the case the engagement initially fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#retry_interval_in_minutes SsmcontactsPlan#retry_interval_in_minutes}
   */
   readonly retryIntervalInMinutes?: number;
 }
@@ -161,13 +161,13 @@ export interface SsmcontactsPlanStagesTargetsContactTargetInfo {
   /**
   * The Amazon Resource Name (ARN) of the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}
   */
   readonly contactId?: string;
   /**
   * A Boolean value determining if the contact's acknowledgement stops the progress of stages in the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}
   */
   readonly isEssential?: boolean | cdktn.IResolvable;
 }
@@ -292,13 +292,13 @@ export interface SsmcontactsPlanStagesTargets {
   /**
   * Information about the contact channel that SSM Incident Manager uses to engage the contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#channel_target_info SsmcontactsPlan#channel_target_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#channel_target_info SsmcontactsPlan#channel_target_info}
   */
   readonly channelTargetInfo?: SsmcontactsPlanStagesTargetsChannelTargetInfo;
   /**
   * The contact that SSM Incident Manager is engaging during an incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#contact_target_info SsmcontactsPlan#contact_target_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#contact_target_info SsmcontactsPlan#contact_target_info}
   */
   readonly contactTargetInfo?: SsmcontactsPlanStagesTargetsContactTargetInfo;
 }
@@ -445,13 +445,13 @@ export interface SsmcontactsPlanStages {
   /**
   * The time to wait until beginning the next stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
   * The contacts or contact methods that the escalation plan or engagement plan is engaging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#targets SsmcontactsPlan#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#targets SsmcontactsPlan#targets}
   */
   readonly targets?: SsmcontactsPlanStagesTargets[] | cdktn.IResolvable;
 }
@@ -596,7 +596,7 @@ export class SsmcontactsPlanStagesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan}
 */
 export class SsmcontactsPlan extends cdktn.TerraformResource {
 
@@ -612,7 +612,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmcontactsPlan resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmcontactsPlan to import
-  * @param importFromId The id of the existing SsmcontactsPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmcontactsPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmcontactsPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -624,7 +624,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,7 +635,7 @@ export class SsmcontactsPlan extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssmcontacts_plan',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

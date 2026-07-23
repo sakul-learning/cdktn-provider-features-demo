@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FrauddetectorEntityTypeConfig extends cdktn.TerraformMetaArgume
   /**
   * The entity type description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
   */
   readonly description?: string;
   /**
   * The name of the entity type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
   */
   readonly name: string;
   /**
   * Tags associated with this entity type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
   */
   readonly tags?: FrauddetectorEntityTypeTags[] | cdktn.IResolvable;
 }
 export interface FrauddetectorEntityTypeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}
   */
   readonly value?: string;
 }
@@ -177,7 +177,7 @@ export class FrauddetectorEntityTypeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type awscc_frauddetector_entity_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type awscc_frauddetector_entity_type}
 */
 export class FrauddetectorEntityType extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class FrauddetectorEntityType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a FrauddetectorEntityType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FrauddetectorEntityType to import
-  * @param importFromId The id of the existing FrauddetectorEntityType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FrauddetectorEntityType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FrauddetectorEntityType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class FrauddetectorEntityType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/frauddetector_entity_type awscc_frauddetector_entity_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/frauddetector_entity_type awscc_frauddetector_entity_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class FrauddetectorEntityType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_frauddetector_entity_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

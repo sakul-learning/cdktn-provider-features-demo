@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_load_balancers
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_load_balancers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccElasticloadbalancingv2LoadBalancersConfig extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers}
 */
 export class DataAwsccElasticloadbalancingv2LoadBalancers extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccElasticloadbalancingv2LoadBalancers extends cdktn.Terrafor
   * Generates CDKTN code for importing a DataAwsccElasticloadbalancingv2LoadBalancers resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccElasticloadbalancingv2LoadBalancers to import
-  * @param importFromId The id of the existing DataAwsccElasticloadbalancingv2LoadBalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_load_balancers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccElasticloadbalancingv2LoadBalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_load_balancers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccElasticloadbalancingv2LoadBalancers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccElasticloadbalancingv2LoadBalancers extends cdktn.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccElasticloadbalancingv2LoadBalancers extends cdktn.Terrafor
       terraformResourceType: 'awscc_elasticloadbalancingv2_load_balancers',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktn from 'cdktn';
 
 export interface ConnectDataTableRecordConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#data_table_arn ConnectDataTableRecord#data_table_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#data_table_arn ConnectDataTableRecord#data_table_arn}
   */
   readonly dataTableArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#data_table_record ConnectDataTableRecord#data_table_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#data_table_record ConnectDataTableRecord#data_table_record}
   */
   readonly dataTableRecord?: ConnectDataTableRecordDataTableRecord;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#instance_arn ConnectDataTableRecord#instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#instance_arn ConnectDataTableRecord#instance_arn}
   */
   readonly instanceArn?: string;
 }
 export interface ConnectDataTableRecordDataTableRecordPrimaryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
   */
   readonly attributeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
   */
   readonly attributeValue?: string;
 }
@@ -171,11 +171,11 @@ export class ConnectDataTableRecordDataTableRecordPrimaryValuesList extends cdkt
 }
 export interface ConnectDataTableRecordDataTableRecordValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_id ConnectDataTableRecord#attribute_id}
   */
   readonly attributeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#attribute_value ConnectDataTableRecord#attribute_value}
   */
   readonly attributeValue?: string;
 }
@@ -320,11 +320,11 @@ export class ConnectDataTableRecordDataTableRecordValuesList extends cdktn.Compl
 }
 export interface ConnectDataTableRecordDataTableRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#primary_values ConnectDataTableRecord#primary_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#primary_values ConnectDataTableRecord#primary_values}
   */
   readonly primaryValues?: ConnectDataTableRecordDataTableRecordPrimaryValues[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#values ConnectDataTableRecord#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#values ConnectDataTableRecord#values}
   */
   readonly values?: ConnectDataTableRecordDataTableRecordValues[] | cdktn.IResolvable;
 }
@@ -447,7 +447,7 @@ export class ConnectDataTableRecordDataTableRecordOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record awscc_connect_data_table_record}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record awscc_connect_data_table_record}
 */
 export class ConnectDataTableRecord extends cdktn.TerraformResource {
 
@@ -463,7 +463,7 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectDataTableRecord resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectDataTableRecord to import
-  * @param importFromId The id of the existing ConnectDataTableRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectDataTableRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectDataTableRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -475,7 +475,7 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,7 +486,7 @@ export class ConnectDataTableRecord extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_data_table_record',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

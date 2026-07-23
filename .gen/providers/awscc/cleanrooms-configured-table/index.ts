@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,47 +8,47 @@ import * as cdktn from 'cdktn';
 
 export interface CleanroomsConfiguredTableConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#allowed_columns CleanroomsConfiguredTable#allowed_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#allowed_columns CleanroomsConfiguredTable#allowed_columns}
   */
   readonly allowedColumns: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#analysis_method CleanroomsConfiguredTable#analysis_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#analysis_method CleanroomsConfiguredTable#analysis_method}
   */
   readonly analysisMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#analysis_rules CleanroomsConfiguredTable#analysis_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#analysis_rules CleanroomsConfiguredTable#analysis_rules}
   */
   readonly analysisRules?: CleanroomsConfiguredTableAnalysisRules[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#description CleanroomsConfiguredTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#description CleanroomsConfiguredTable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#name CleanroomsConfiguredTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#name CleanroomsConfiguredTable#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#selected_analysis_methods CleanroomsConfiguredTable#selected_analysis_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#selected_analysis_methods CleanroomsConfiguredTable#selected_analysis_methods}
   */
   readonly selectedAnalysisMethods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#table_reference CleanroomsConfiguredTable#table_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#table_reference CleanroomsConfiguredTable#table_reference}
   */
   readonly tableReference: CleanroomsConfiguredTableTableReference;
   /**
   * An arbitrary set of tags (key-value pairs) for this cleanrooms collaboration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#tags CleanroomsConfiguredTable#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#tags CleanroomsConfiguredTable#tags}
   */
   readonly tags?: CleanroomsConfiguredTableTags[] | cdktn.IResolvable;
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationAggregateColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#column_names CleanroomsConfiguredTable#column_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#column_names CleanroomsConfiguredTable#column_names}
   */
   readonly columnNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#function CleanroomsConfiguredTable#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#function CleanroomsConfiguredTable#function}
   */
   readonly function?: string;
 }
@@ -193,15 +193,15 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationAggregateC
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#column_name CleanroomsConfiguredTable#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#column_name CleanroomsConfiguredTable#column_name}
   */
   readonly columnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#minimum CleanroomsConfiguredTable#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#minimum CleanroomsConfiguredTable#minimum}
   */
   readonly minimum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#type CleanroomsConfiguredTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#type CleanroomsConfiguredTable#type}
   */
   readonly type?: string;
 }
@@ -375,35 +375,35 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputCons
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1Aggregation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#additional_analyses CleanroomsConfiguredTable#additional_analyses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#additional_analyses CleanroomsConfiguredTable#additional_analyses}
   */
   readonly additionalAnalyses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#aggregate_columns CleanroomsConfiguredTable#aggregate_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#aggregate_columns CleanroomsConfiguredTable#aggregate_columns}
   */
   readonly aggregateColumns?: CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationAggregateColumns[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#allowed_join_operators CleanroomsConfiguredTable#allowed_join_operators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#allowed_join_operators CleanroomsConfiguredTable#allowed_join_operators}
   */
   readonly allowedJoinOperators?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#dimension_columns CleanroomsConfiguredTable#dimension_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#dimension_columns CleanroomsConfiguredTable#dimension_columns}
   */
   readonly dimensionColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#join_columns CleanroomsConfiguredTable#join_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#join_columns CleanroomsConfiguredTable#join_columns}
   */
   readonly joinColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#join_required CleanroomsConfiguredTable#join_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#join_required CleanroomsConfiguredTable#join_required}
   */
   readonly joinRequired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#output_constraints CleanroomsConfiguredTable#output_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#output_constraints CleanroomsConfiguredTable#output_constraints}
   */
   readonly outputConstraints?: CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputConstraints[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#scalar_functions CleanroomsConfiguredTable#scalar_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#scalar_functions CleanroomsConfiguredTable#scalar_functions}
   */
   readonly scalarFunctions?: string[];
 }
@@ -700,7 +700,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1AggregationOutputRefe
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacyColumns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#name CleanroomsConfiguredTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#name CleanroomsConfiguredTable#name}
   */
   readonly name?: string;
 }
@@ -816,7 +816,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPri
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#columns CleanroomsConfiguredTable#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#columns CleanroomsConfiguredTable#columns}
   */
   readonly columns?: CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacyColumns[] | cdktn.IResolvable;
 }
@@ -910,23 +910,23 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPri
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1Custom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#additional_analyses CleanroomsConfiguredTable#additional_analyses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#additional_analyses CleanroomsConfiguredTable#additional_analyses}
   */
   readonly additionalAnalyses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#allowed_analyses CleanroomsConfiguredTable#allowed_analyses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#allowed_analyses CleanroomsConfiguredTable#allowed_analyses}
   */
   readonly allowedAnalyses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#allowed_analysis_providers CleanroomsConfiguredTable#allowed_analysis_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#allowed_analysis_providers CleanroomsConfiguredTable#allowed_analysis_providers}
   */
   readonly allowedAnalysisProviders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#differential_privacy CleanroomsConfiguredTable#differential_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#differential_privacy CleanroomsConfiguredTable#differential_privacy}
   */
   readonly differentialPrivacy?: CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#disallowed_output_columns CleanroomsConfiguredTable#disallowed_output_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#disallowed_output_columns CleanroomsConfiguredTable#disallowed_output_columns}
   */
   readonly disallowedOutputColumns?: string[];
 }
@@ -1136,19 +1136,19 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1ListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#additional_analyses CleanroomsConfiguredTable#additional_analyses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#additional_analyses CleanroomsConfiguredTable#additional_analyses}
   */
   readonly additionalAnalyses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#allowed_join_operators CleanroomsConfiguredTable#allowed_join_operators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#allowed_join_operators CleanroomsConfiguredTable#allowed_join_operators}
   */
   readonly allowedJoinOperators?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#join_columns CleanroomsConfiguredTable#join_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#join_columns CleanroomsConfiguredTable#join_columns}
   */
   readonly joinColumns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#list_columns CleanroomsConfiguredTable#list_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#list_columns CleanroomsConfiguredTable#list_columns}
   */
   readonly listColumns?: string[];
 }
@@ -1329,15 +1329,15 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1ListStructOutputRefer
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicyV1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#aggregation CleanroomsConfiguredTable#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#aggregation CleanroomsConfiguredTable#aggregation}
   */
   readonly aggregation?: CleanroomsConfiguredTableAnalysisRulesPolicyV1Aggregation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#custom CleanroomsConfiguredTable#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#custom CleanroomsConfiguredTable#custom}
   */
   readonly custom?: CleanroomsConfiguredTableAnalysisRulesPolicyV1Custom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#list CleanroomsConfiguredTable#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#list CleanroomsConfiguredTable#list}
   */
   readonly list?: CleanroomsConfiguredTableAnalysisRulesPolicyV1ListStruct;
 }
@@ -1489,7 +1489,7 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyV1OutputReference exten
 }
 export interface CleanroomsConfiguredTableAnalysisRulesPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#v1 CleanroomsConfiguredTable#v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#v1 CleanroomsConfiguredTable#v1}
   */
   readonly v1?: CleanroomsConfiguredTableAnalysisRulesPolicyV1;
 }
@@ -1583,11 +1583,11 @@ export class CleanroomsConfiguredTableAnalysisRulesPolicyOutputReference extends
 }
 export interface CleanroomsConfiguredTableAnalysisRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#policy CleanroomsConfiguredTable#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#policy CleanroomsConfiguredTable#policy}
   */
   readonly policy?: CleanroomsConfiguredTableAnalysisRulesPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#type CleanroomsConfiguredTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#type CleanroomsConfiguredTable#type}
   */
   readonly type?: string;
 }
@@ -1732,27 +1732,27 @@ export class CleanroomsConfiguredTableAnalysisRulesList extends cdktn.ComplexLis
 }
 export interface CleanroomsConfiguredTableTableReferenceAthena {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#catalog_name CleanroomsConfiguredTable#catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#catalog_name CleanroomsConfiguredTable#catalog_name}
   */
   readonly catalogName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#output_location CleanroomsConfiguredTable#output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#output_location CleanroomsConfiguredTable#output_location}
   */
   readonly outputLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#region CleanroomsConfiguredTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#region CleanroomsConfiguredTable#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}
   */
   readonly tableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#work_group CleanroomsConfiguredTable#work_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#work_group CleanroomsConfiguredTable#work_group}
   */
   readonly workGroup?: string;
 }
@@ -1991,15 +1991,15 @@ export class CleanroomsConfiguredTableTableReferenceAthenaOutputReference extend
 }
 export interface CleanroomsConfiguredTableTableReferenceGlue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#region CleanroomsConfiguredTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#region CleanroomsConfiguredTable#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}
   */
   readonly tableName?: string;
 }
@@ -2151,11 +2151,11 @@ export class CleanroomsConfiguredTableTableReferenceGlueOutputReference extends 
 }
 export interface CleanroomsConfiguredTableTableReferenceSnowflakeTableSchemaV1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#column_name CleanroomsConfiguredTable#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#column_name CleanroomsConfiguredTable#column_name}
   */
   readonly columnName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#column_type CleanroomsConfiguredTable#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#column_type CleanroomsConfiguredTable#column_type}
   */
   readonly columnType?: string;
 }
@@ -2300,7 +2300,7 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeTableSchemaV1List e
 }
 export interface CleanroomsConfiguredTableTableReferenceSnowflakeTableSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#v1 CleanroomsConfiguredTable#v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#v1 CleanroomsConfiguredTable#v1}
   */
   readonly v1?: CleanroomsConfiguredTableTableReferenceSnowflakeTableSchemaV1[] | cdktn.IResolvable;
 }
@@ -2394,27 +2394,27 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeTableSchemaOutputRe
 }
 export interface CleanroomsConfiguredTableTableReferenceSnowflake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#account_identifier CleanroomsConfiguredTable#account_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#account_identifier CleanroomsConfiguredTable#account_identifier}
   */
   readonly accountIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#database_name CleanroomsConfiguredTable#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#schema_name CleanroomsConfiguredTable#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#schema_name CleanroomsConfiguredTable#schema_name}
   */
   readonly schemaName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#secret_arn CleanroomsConfiguredTable#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#secret_arn CleanroomsConfiguredTable#secret_arn}
   */
   readonly secretArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#table_name CleanroomsConfiguredTable#table_name}
   */
   readonly tableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#table_schema CleanroomsConfiguredTable#table_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#table_schema CleanroomsConfiguredTable#table_schema}
   */
   readonly tableSchema?: CleanroomsConfiguredTableTableReferenceSnowflakeTableSchema;
 }
@@ -2653,15 +2653,15 @@ export class CleanroomsConfiguredTableTableReferenceSnowflakeOutputReference ext
 }
 export interface CleanroomsConfiguredTableTableReference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#athena CleanroomsConfiguredTable#athena}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#athena CleanroomsConfiguredTable#athena}
   */
   readonly athena?: CleanroomsConfiguredTableTableReferenceAthena;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#glue CleanroomsConfiguredTable#glue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#glue CleanroomsConfiguredTable#glue}
   */
   readonly glue?: CleanroomsConfiguredTableTableReferenceGlue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#snowflake CleanroomsConfiguredTable#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#snowflake CleanroomsConfiguredTable#snowflake}
   */
   readonly snowflake?: CleanroomsConfiguredTableTableReferenceSnowflake;
 }
@@ -2813,11 +2813,11 @@ export class CleanroomsConfiguredTableTableReferenceOutputReference extends cdkt
 }
 export interface CleanroomsConfiguredTableTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#key CleanroomsConfiguredTable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#key CleanroomsConfiguredTable#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#value CleanroomsConfiguredTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#value CleanroomsConfiguredTable#value}
   */
   readonly value?: string;
 }
@@ -2962,7 +2962,7 @@ export class CleanroomsConfiguredTableTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table awscc_cleanrooms_configured_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table awscc_cleanrooms_configured_table}
 */
 export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
 
@@ -2978,7 +2978,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CleanroomsConfiguredTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CleanroomsConfiguredTable to import
-  * @param importFromId The id of the existing CleanroomsConfiguredTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CleanroomsConfiguredTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CleanroomsConfiguredTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2990,7 +2990,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3001,7 +3001,7 @@ export class CleanroomsConfiguredTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cleanrooms_configured_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

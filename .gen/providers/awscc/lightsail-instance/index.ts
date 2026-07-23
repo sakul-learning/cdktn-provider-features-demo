@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface LightsailInstanceConfig extends cdktn.TerraformMetaArguments {
   /**
   * An array of objects representing the add-ons to enable for the new instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#add_ons LightsailInstance#add_ons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#add_ons LightsailInstance#add_ons}
   */
   readonly addOns?: LightsailInstanceAddOns[] | cdktn.IResolvable;
   /**
   * The Availability Zone in which to create your instance. Use the following format: us-east-2a (case sensitive). Be sure to add the include Availability Zones parameter to your request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#availability_zone LightsailInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#availability_zone LightsailInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The ID for a virtual private server image (e.g., app_wordpress_4_4 or app_lamp_7_0 ). Use the get blueprints operation to return a list of available images (or blueprints ).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#blueprint_id LightsailInstance#blueprint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#blueprint_id LightsailInstance#blueprint_id}
   */
   readonly blueprintId: string;
   /**
   * The bundle of specification information for your virtual private server (or instance ), including the pricing plan (e.g., micro_1_0 ).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#bundle_id LightsailInstance#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#bundle_id LightsailInstance#bundle_id}
   */
   readonly bundleId: string;
   /**
   * Hardware of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#hardware LightsailInstance#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#hardware LightsailInstance#hardware}
   */
   readonly hardware?: LightsailInstanceHardware;
   /**
   * The names to use for your new Lightsail instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#instance_name LightsailInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#instance_name LightsailInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * The name of your key pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#key_pair_name LightsailInstance#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#key_pair_name LightsailInstance#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
   * Location of a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#location LightsailInstance#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#location LightsailInstance#location}
   */
   readonly location?: LightsailInstanceLocation;
   /**
   * Networking of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#networking LightsailInstance#networking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#networking LightsailInstance#networking}
   */
   readonly networking?: LightsailInstanceNetworking;
   /**
   * Current State of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#state LightsailInstance#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#state LightsailInstance#state}
   */
   readonly state?: LightsailInstanceState;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#tags LightsailInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#tags LightsailInstance#tags}
   */
   readonly tags?: LightsailInstanceTags[] | cdktn.IResolvable;
   /**
   * A launch script you can create that configures a server with additional user data. For example, you might want to run apt-get -y update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#user_data LightsailInstance#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#user_data LightsailInstance#user_data}
   */
   readonly userData?: string;
 }
@@ -84,7 +84,7 @@ export interface LightsailInstanceAddOnsAutoSnapshotAddOnRequest {
   /**
   * The daily time when an automatic snapshot will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#snapshot_time_of_day LightsailInstance#snapshot_time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#snapshot_time_of_day LightsailInstance#snapshot_time_of_day}
   */
   readonly snapshotTimeOfDay?: string;
 }
@@ -180,19 +180,19 @@ export interface LightsailInstanceAddOns {
   /**
   * The add-on type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#add_on_type LightsailInstance#add_on_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#add_on_type LightsailInstance#add_on_type}
   */
   readonly addOnType?: string;
   /**
   * An object that represents additional parameters when enabling or modifying the automatic snapshot add-on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#auto_snapshot_add_on_request LightsailInstance#auto_snapshot_add_on_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#auto_snapshot_add_on_request LightsailInstance#auto_snapshot_add_on_request}
   */
   readonly autoSnapshotAddOnRequest?: LightsailInstanceAddOnsAutoSnapshotAddOnRequest;
   /**
   * Status of the Addon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#status LightsailInstance#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#status LightsailInstance#status}
   */
   readonly status?: string;
 }
@@ -368,43 +368,43 @@ export interface LightsailInstanceHardwareDisks {
   /**
   * Instance attached to the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#attached_to LightsailInstance#attached_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#attached_to LightsailInstance#attached_to}
   */
   readonly attachedTo?: string;
   /**
   * Attachment state of the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#attachment_state LightsailInstance#attachment_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#attachment_state LightsailInstance#attachment_state}
   */
   readonly attachmentState?: string;
   /**
   * The names to use for your new Lightsail disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#disk_name LightsailInstance#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#disk_name LightsailInstance#disk_name}
   */
   readonly diskName?: string;
   /**
   * IOPS of disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#iops LightsailInstance#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#iops LightsailInstance#iops}
   */
   readonly iops?: number;
   /**
   * Is the Attached disk is the system disk of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#is_system_disk LightsailInstance#is_system_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#is_system_disk LightsailInstance#is_system_disk}
   */
   readonly isSystemDisk?: boolean | cdktn.IResolvable;
   /**
   * Path of the disk attached to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#path LightsailInstance#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#path LightsailInstance#path}
   */
   readonly path?: string;
   /**
   * Size of the disk attached to the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#size_in_gb LightsailInstance#size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#size_in_gb LightsailInstance#size_in_gb}
   */
   readonly sizeInGb?: string;
 }
@@ -696,7 +696,7 @@ export interface LightsailInstanceHardware {
   /**
   * Disks attached to the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#disks LightsailInstance#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#disks LightsailInstance#disks}
   */
   readonly disks?: LightsailInstanceHardwareDisks[] | cdktn.IResolvable;
 }
@@ -935,61 +935,61 @@ export interface LightsailInstanceNetworkingPorts {
   /**
   * Access Direction for Protocol of the Instance(inbound/outbound).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#access_direction LightsailInstance#access_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#access_direction LightsailInstance#access_direction}
   */
   readonly accessDirection?: string;
   /**
   * Access From Protocol of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#access_from LightsailInstance#access_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#access_from LightsailInstance#access_from}
   */
   readonly accessFrom?: string;
   /**
   * Access Type Protocol of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#access_type LightsailInstance#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#access_type LightsailInstance#access_type}
   */
   readonly accessType?: string;
   /**
   * cidr List Aliases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#cidr_list_aliases LightsailInstance#cidr_list_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#cidr_list_aliases LightsailInstance#cidr_list_aliases}
   */
   readonly cidrListAliases?: string[];
   /**
   * cidrs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#cidrs LightsailInstance#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#cidrs LightsailInstance#cidrs}
   */
   readonly cidrs?: string[];
   /**
   * CommonName for Protocol of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#common_name LightsailInstance#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#common_name LightsailInstance#common_name}
   */
   readonly commonName?: string;
   /**
   * From Port of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#from_port LightsailInstance#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#from_port LightsailInstance#from_port}
   */
   readonly fromPort?: number;
   /**
   * IPv6 Cidrs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#ipv_6_cidrs LightsailInstance#ipv_6_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#ipv_6_cidrs LightsailInstance#ipv_6_cidrs}
   */
   readonly ipv6Cidrs?: string[];
   /**
   * Port Protocol of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#protocol LightsailInstance#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#protocol LightsailInstance#protocol}
   */
   readonly protocol?: string;
   /**
   * To Port of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#to_port LightsailInstance#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#to_port LightsailInstance#to_port}
   */
   readonly toPort?: number;
 }
@@ -1368,13 +1368,13 @@ export interface LightsailInstanceNetworking {
   /**
   * Monthly Transfer of the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#monthly_transfer LightsailInstance#monthly_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#monthly_transfer LightsailInstance#monthly_transfer}
   */
   readonly monthlyTransfer?: LightsailInstanceNetworkingMonthlyTransfer;
   /**
   * Ports to the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#ports LightsailInstance#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#ports LightsailInstance#ports}
   */
   readonly ports?: LightsailInstanceNetworkingPorts[] | cdktn.IResolvable;
 }
@@ -1568,13 +1568,13 @@ export interface LightsailInstanceTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#key LightsailInstance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#key LightsailInstance#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#value LightsailInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#value LightsailInstance#value}
   */
   readonly value?: string;
 }
@@ -1719,7 +1719,7 @@ export class LightsailInstanceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance awscc_lightsail_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance awscc_lightsail_instance}
 */
 export class LightsailInstance extends cdktn.TerraformResource {
 
@@ -1735,7 +1735,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LightsailInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LightsailInstance to import
-  * @param importFromId The id of the existing LightsailInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LightsailInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LightsailInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1747,7 +1747,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/lightsail_instance awscc_lightsail_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/lightsail_instance awscc_lightsail_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1758,7 +1758,7 @@ export class LightsailInstance extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lightsail_instance',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

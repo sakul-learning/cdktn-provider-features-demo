@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes
+// https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktn from 'cdktn';
 
 export interface Sesv2AccountVdmAttributesConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#id Sesv2AccountVdmAttributes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#id Sesv2AccountVdmAttributes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,29 @@ export interface Sesv2AccountVdmAttributesConfig extends cdktn.TerraformMetaArgu
   /**
   * Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#region Sesv2AccountVdmAttributes#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#region Sesv2AccountVdmAttributes#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#vdm_enabled Sesv2AccountVdmAttributes#vdm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#vdm_enabled Sesv2AccountVdmAttributes#vdm_enabled}
   */
   readonly vdmEnabled: string;
   /**
   * dashboard_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#dashboard_attributes Sesv2AccountVdmAttributes#dashboard_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#dashboard_attributes Sesv2AccountVdmAttributes#dashboard_attributes}
   */
   readonly dashboardAttributes?: Sesv2AccountVdmAttributesDashboardAttributes;
   /**
   * guardian_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#guardian_attributes Sesv2AccountVdmAttributes#guardian_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#guardian_attributes Sesv2AccountVdmAttributes#guardian_attributes}
   */
   readonly guardianAttributes?: Sesv2AccountVdmAttributesGuardianAttributes;
 }
 export interface Sesv2AccountVdmAttributesDashboardAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#engagement_metrics Sesv2AccountVdmAttributes#engagement_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#engagement_metrics Sesv2AccountVdmAttributes#engagement_metrics}
   */
   readonly engagementMetrics?: string;
 }
@@ -123,7 +123,7 @@ export class Sesv2AccountVdmAttributesDashboardAttributesOutputReference extends
 }
 export interface Sesv2AccountVdmAttributesGuardianAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#optimized_shared_delivery Sesv2AccountVdmAttributes#optimized_shared_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#optimized_shared_delivery Sesv2AccountVdmAttributes#optimized_shared_delivery}
   */
   readonly optimizedSharedDelivery?: string;
 }
@@ -207,7 +207,7 @@ export class Sesv2AccountVdmAttributesGuardianAttributesOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes}
 */
 export class Sesv2AccountVdmAttributes extends cdktn.TerraformResource {
 
@@ -223,7 +223,7 @@ export class Sesv2AccountVdmAttributes extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Sesv2AccountVdmAttributes resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sesv2AccountVdmAttributes to import
-  * @param importFromId The id of the existing Sesv2AccountVdmAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sesv2AccountVdmAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sesv2AccountVdmAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -235,7 +235,7 @@ export class Sesv2AccountVdmAttributes extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sesv2_account_vdm_attributes aws_sesv2_account_vdm_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,7 +246,7 @@ export class Sesv2AccountVdmAttributes extends cdktn.TerraformResource {
       terraformResourceType: 'aws_sesv2_account_vdm_attributes',
       terraformGeneratorMetadata: {
         providerName: 'aws',
-        providerVersion: '6.54.0'
+        providerVersion: '6.55.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

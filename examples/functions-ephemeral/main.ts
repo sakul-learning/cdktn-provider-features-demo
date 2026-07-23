@@ -1,7 +1,6 @@
 import { Construct } from "constructs";
 import { App, Fn, LocalBackend, TerraformOutput, TerraformStack, Testing } from "cdktn";
 import { AwsProvider } from "./.gen/providers/aws/provider/index.ts";
-import { AwsProviderFunctions } from "./.gen/providers/aws/provider-functions/index.ts";
 import { EphemeralAwsSecretsmanagerRandomPassword } from "./.gen/providers/aws/ephemeral-aws-secretsmanager-random-password/index.ts";
 
 /**
@@ -27,7 +26,7 @@ class AwsFunctionsAndEphemeralStack extends TerraformStack {
     // fails when the profile has no static credentials of its own.
     const profile = process.env.AWS_ACCESS_KEY_ID ? undefined : process.env.AWS_PROFILE || "tcons-hermes";
 
-    new AwsProvider(this, "aws", {
+    const awsProvider = new AwsProvider(this, "aws", {
       region,
       profile,
       skipCredentialsValidation: true,
@@ -35,7 +34,7 @@ class AwsFunctionsAndEphemeralStack extends TerraformStack {
       skipMetadataApiCheck: "true",
     });
 
-    const builtArn = AwsProviderFunctions.arnBuild(
+    const builtArn = awsProvider.functions.arnBuild(
       "aws",
       "s3",
       "",
@@ -82,7 +81,7 @@ class AwsFunctionsAndEphemeralStack extends TerraformStack {
     // the resulting User-Agent header can be inspected with TF_LOG=DEBUG.
     this.addOverride("terraform.provider_meta.aws", {
       user_agent: [
-        AwsProviderFunctions.userAgent(
+        awsProvider.functions.userAgent(
           "cdktn-provider-features-demo",
           "0.1.0",
           "cdktn-demo-verify-9f3a"

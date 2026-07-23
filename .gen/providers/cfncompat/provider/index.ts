@@ -452,6 +452,7 @@ export function cfncompatProviderEndpointsToHclTerraform(struct?: CfncompatProvi
 }
 
 
+import { CfncompatProviderFunctions } from '../provider-functions/index.ts';
 /**
 * Represents a {@link https://registry.terraform.io/providers/cdktn-io/cfncompat/0.2.0/docs cfncompat}
 */
@@ -806,6 +807,21 @@ export class CfncompatProvider extends cdktn.TerraformProvider {
   // Temporarily expose input value. Use with caution.
   public get aliasInput() {
     return this._alias;
+  }
+
+  // ==========================
+  // PROVIDER-DEFINED FUNCTIONS
+  // ==========================
+  private _functions?: CfncompatProviderFunctions;
+
+  /**
+  * Provider-defined functions of the cfncompat provider.
+  */
+  public get functions(): CfncompatProviderFunctions {
+    if (!this._functions) {
+      this._functions = new CfncompatProviderFunctions(this.terraformResourceType);
+    }
+    return this._functions;
   }
 
   // =========

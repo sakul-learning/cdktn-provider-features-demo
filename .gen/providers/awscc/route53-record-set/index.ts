@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,85 +8,85 @@ import * as cdktn from 'cdktn';
 
 export interface Route53RecordSetConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
   */
   readonly aliasTarget?: Route53RecordSetAliasTarget;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
   */
   readonly cidrRoutingConfig?: Route53RecordSetCidrRoutingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
   */
   readonly failover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
   */
   readonly geoLocation?: Route53RecordSetGeoLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#geo_proximity_location Route53RecordSet#geo_proximity_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#geo_proximity_location Route53RecordSet#geo_proximity_location}
   */
   readonly geoProximityLocation?: Route53RecordSetGeoProximityLocation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
   */
   readonly healthCheckId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
   */
   readonly hostedZoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
   */
   readonly multiValueAnswer?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#name Route53RecordSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#name Route53RecordSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#region Route53RecordSet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#region Route53RecordSet#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
   */
   readonly resourceRecords?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
   */
   readonly setIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#type Route53RecordSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#type Route53RecordSet#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
   */
   readonly weight?: number;
 }
 export interface Route53RecordSetAliasTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
   */
   readonly dnsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
   */
   readonly evaluateTargetHealth?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
 }
@@ -238,11 +238,11 @@ export class Route53RecordSetAliasTargetOutputReference extends cdktn.ComplexObj
 }
 export interface Route53RecordSetCidrRoutingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
   */
   readonly collectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
   */
   readonly locationName?: string;
 }
@@ -365,15 +365,15 @@ export class Route53RecordSetCidrRoutingConfigOutputReference extends cdktn.Comp
 }
 export interface Route53RecordSetGeoLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
   */
   readonly continentCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
   */
   readonly countryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
   */
   readonly subdivisionCode?: string;
 }
@@ -525,11 +525,11 @@ export class Route53RecordSetGeoLocationOutputReference extends cdktn.ComplexObj
 }
 export interface Route53RecordSetGeoProximityLocationCoordinates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#latitude Route53RecordSet#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#latitude Route53RecordSet#latitude}
   */
   readonly latitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#longitude Route53RecordSet#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#longitude Route53RecordSet#longitude}
   */
   readonly longitude?: string;
 }
@@ -652,19 +652,19 @@ export class Route53RecordSetGeoProximityLocationCoordinatesOutputReference exte
 }
 export interface Route53RecordSetGeoProximityLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#aws_region Route53RecordSet#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#aws_region Route53RecordSet#aws_region}
   */
   readonly awsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#bias Route53RecordSet#bias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#bias Route53RecordSet#bias}
   */
   readonly bias?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#coordinates Route53RecordSet#coordinates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#coordinates Route53RecordSet#coordinates}
   */
   readonly coordinates?: Route53RecordSetGeoProximityLocationCoordinates;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#local_zone_group Route53RecordSet#local_zone_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#local_zone_group Route53RecordSet#local_zone_group}
   */
   readonly localZoneGroup?: string;
 }
@@ -845,7 +845,7 @@ export class Route53RecordSetGeoProximityLocationOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set awscc_route53_record_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set awscc_route53_record_set}
 */
 export class Route53RecordSet extends cdktn.TerraformResource {
 
@@ -861,7 +861,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53RecordSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53RecordSet to import
-  * @param importFromId The id of the existing Route53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53RecordSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53RecordSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -873,7 +873,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/route53_record_set awscc_route53_record_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/route53_record_set awscc_route53_record_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -884,7 +884,7 @@ export class Route53RecordSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53_record_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

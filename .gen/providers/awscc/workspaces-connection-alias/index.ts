@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktn from 'cdktn';
 
 export interface WorkspacesConnectionAliasConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}
   */
   readonly connectionString: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}
   */
   readonly tags?: WorkspacesConnectionAliasTags[] | cdktn.IResolvable;
 }
@@ -108,11 +108,11 @@ export class WorkspacesConnectionAliasAssociationsList extends cdktn.ComplexList
 }
 export interface WorkspacesConnectionAliasTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias#key WorkspacesConnectionAlias#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias#value WorkspacesConnectionAlias#value}
   */
   readonly value?: string;
 }
@@ -257,7 +257,7 @@ export class WorkspacesConnectionAliasTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias}
 */
 export class WorkspacesConnectionAlias extends cdktn.TerraformResource {
 
@@ -273,7 +273,7 @@ export class WorkspacesConnectionAlias extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WorkspacesConnectionAlias resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspacesConnectionAlias to import
-  * @param importFromId The id of the existing WorkspacesConnectionAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspacesConnectionAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspacesConnectionAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -285,7 +285,7 @@ export class WorkspacesConnectionAlias extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/workspaces_connection_alias awscc_workspaces_connection_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,7 +296,7 @@ export class WorkspacesConnectionAlias extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_workspaces_connection_alias',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

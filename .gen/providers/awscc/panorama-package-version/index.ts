@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface PanoramaPackageVersionConfig extends cdktn.TerraformMetaArgumen
   /**
   * Whether to mark the new version as the latest version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version#mark_latest PanoramaPackageVersion#mark_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version#mark_latest PanoramaPackageVersion#mark_latest}
   */
   readonly markLatest?: boolean | cdktn.IResolvable;
   /**
   * An owner account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version#owner_account PanoramaPackageVersion#owner_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version#owner_account PanoramaPackageVersion#owner_account}
   */
   readonly ownerAccount?: string;
   /**
   * A package ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version#package_id PanoramaPackageVersion#package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version#package_id PanoramaPackageVersion#package_id}
   */
   readonly packageId: string;
   /**
   * A package version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version#package_version PanoramaPackageVersion#package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version#package_version PanoramaPackageVersion#package_version}
   */
   readonly packageVersion: string;
   /**
   * A patch version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version#patch_version PanoramaPackageVersion#patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version#patch_version PanoramaPackageVersion#patch_version}
   */
   readonly patchVersion: string;
   /**
   * If the version was marked latest, the new version to maker as latest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version#updated_latest_patch_version PanoramaPackageVersion#updated_latest_patch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version#updated_latest_patch_version PanoramaPackageVersion#updated_latest_patch_version}
   */
   readonly updatedLatestPatchVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version awscc_panorama_package_version}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version awscc_panorama_package_version}
 */
 export class PanoramaPackageVersion extends cdktn.TerraformResource {
 
@@ -62,7 +62,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PanoramaPackageVersion resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PanoramaPackageVersion to import
-  * @param importFromId The id of the existing PanoramaPackageVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PanoramaPackageVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PanoramaPackageVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -74,7 +74,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/panorama_package_version awscc_panorama_package_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/panorama_package_version awscc_panorama_package_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,7 +85,7 @@ export class PanoramaPackageVersion extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_panorama_package_version',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

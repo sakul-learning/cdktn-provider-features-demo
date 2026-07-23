@@ -1,14 +1,13 @@
 import { Construct } from "constructs";
 import { App, LocalBackend, TerraformOutput, TerraformStack, Testing } from "cdktn";
 import { AwsProvider } from "./.gen/providers/aws/provider/index.ts";
-import { AwsProviderFunctions } from "./.gen/providers/aws/provider-functions/index.ts";
 
 class AwsProviderFunctionsOnlyStack extends TerraformStack {
   constructor(scope: Construct, id: string) {
     super(scope, id);
     new LocalBackend(this, { path: "terraform.tfstate" });
 
-    new AwsProvider(this, "aws", {
+    const awsProvider = new AwsProvider(this, "aws", {
       region: process.env.AWS_REGION || process.env.AWS_DEFAULT_REGION || "us-east-1",
       // Only force a named profile when no direct credential env vars are present.
       // Setting `profile` alongside AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY (e.g. from
@@ -21,12 +20,12 @@ class AwsProviderFunctionsOnlyStack extends TerraformStack {
       skipMetadataApiCheck: "true",
     });
 
-    const parsed = AwsProviderFunctions.arnParse(
+    const parsed = awsProvider.functions.arnParse(
       "arn:aws:iam::123456789012:role/service-role/demo"
     );
 
     new TerraformOutput(this, "built_arn", {
-      value: AwsProviderFunctions.arnBuild(
+      value: awsProvider.functions.arnBuild(
         "aws",
         "logs",
         "us-east-1",
@@ -36,7 +35,7 @@ class AwsProviderFunctionsOnlyStack extends TerraformStack {
     });
 
     new TerraformOutput(this, "trimmed_role_path", {
-      value: AwsProviderFunctions.trimIamRolePath(
+      value: awsProvider.functions.trimIamRolePath(
         "arn:aws:iam::123456789012:role/service-role/demo"
       ),
     });
@@ -45,11 +44,12 @@ class AwsProviderFunctionsOnlyStack extends TerraformStack {
       value: parsed,
     });
 
-    // provider::aws::user_agent is namespaced to the "aws" provider, so it must be
-    // called after provider configuration exists (see README's UX notes on the
-    // provider self-reference cycle if invoked from within the AwsProvider block).
+    // provider::aws::user_agent is namespaced to the "aws" provider, so it's called
+    // through `awsProvider.functions` after `awsProvider` exists - the instance-bound
+    // `functions` getter makes this ordering a plain reference-before-declaration
+    // compile error rather than a runtime provider self-reference cycle.
     new TerraformOutput(this, "user_agent_suffix", {
-      value: AwsProviderFunctions.userAgent(
+      value: awsProvider.functions.userAgent(
         "cdktn-provider-features-demo",
         "0.1.0",
         "provider-defined-function-smoke-test"
@@ -62,7 +62,7 @@ class AwsProviderFunctionsOnlyStack extends TerraformStack {
     // uses the `addOverride` escape hatch to inject it into the stack's `terraform` block.
     this.addOverride("terraform.provider_meta.aws", {
       user_agent: [
-        AwsProviderFunctions.userAgent(
+        awsProvider.functions.userAgent(
           "cdktn-provider-features-demo",
           "0.1.0",
           "provider-meta module tagging smoke test"

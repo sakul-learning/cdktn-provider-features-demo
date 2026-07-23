@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface IottwinmakerWorkspaceConfig extends cdktn.TerraformMetaArgument
   /**
   * The description of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace#description IottwinmakerWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace#description IottwinmakerWorkspace#description}
   */
   readonly description?: string;
   /**
   * The ARN of the execution role associated with the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace#role IottwinmakerWorkspace#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace#role IottwinmakerWorkspace#role}
   */
   readonly role: string;
   /**
   * The ARN of the S3 bucket where resources associated with the workspace are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace#s3_location IottwinmakerWorkspace#s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace#s3_location IottwinmakerWorkspace#s3_location}
   */
   readonly s3Location: string;
   /**
   * A map of key-value pairs to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace#tags IottwinmakerWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace#tags IottwinmakerWorkspace#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ID of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace#workspace_id IottwinmakerWorkspace#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace#workspace_id IottwinmakerWorkspace#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace}
 */
 export class IottwinmakerWorkspace extends cdktn.TerraformResource {
 
@@ -56,7 +56,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IottwinmakerWorkspace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IottwinmakerWorkspace to import
-  * @param importFromId The id of the existing IottwinmakerWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IottwinmakerWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IottwinmakerWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -68,7 +68,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,7 +79,7 @@ export class IottwinmakerWorkspace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iottwinmaker_workspace',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

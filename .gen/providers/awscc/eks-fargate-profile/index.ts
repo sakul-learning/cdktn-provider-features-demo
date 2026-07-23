@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface EksFargateProfileConfig extends cdktn.TerraformMetaArguments {
   /**
   * Name of the Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#cluster_name EksFargateProfile#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#cluster_name EksFargateProfile#cluster_name}
   */
   readonly clusterName: string;
   /**
   * Name of FargateProfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#fargate_profile_name EksFargateProfile#fargate_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#fargate_profile_name EksFargateProfile#fargate_profile_name}
   */
   readonly fargateProfileName?: string;
   /**
   * The IAM policy arn for pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#pod_execution_role_arn EksFargateProfile#pod_execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#pod_execution_role_arn EksFargateProfile#pod_execution_role_arn}
   */
   readonly podExecutionRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#selectors EksFargateProfile#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#selectors EksFargateProfile#selectors}
   */
   readonly selectors: EksFargateProfileSelectors[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#subnets EksFargateProfile#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#subnets EksFargateProfile#subnets}
   */
   readonly subnets?: string[];
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#tags EksFargateProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#tags EksFargateProfile#tags}
   */
   readonly tags?: EksFargateProfileTags[] | cdktn.IResolvable;
 }
@@ -44,13 +44,13 @@ export interface EksFargateProfileSelectorsLabels {
   /**
   * The key name of the label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#key EksFargateProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#key EksFargateProfile#key}
   */
   readonly key?: string;
   /**
   * The value for the label. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#value EksFargateProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#value EksFargateProfile#value}
   */
   readonly value?: string;
 }
@@ -195,11 +195,11 @@ export class EksFargateProfileSelectorsLabelsList extends cdktn.ComplexList {
 }
 export interface EksFargateProfileSelectors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#labels EksFargateProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#labels EksFargateProfile#labels}
   */
   readonly labels?: EksFargateProfileSelectorsLabels[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#namespace EksFargateProfile#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#namespace EksFargateProfile#namespace}
   */
   readonly namespace: string;
 }
@@ -343,13 +343,13 @@ export interface EksFargateProfileTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#key EksFargateProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#key EksFargateProfile#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#value EksFargateProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#value EksFargateProfile#value}
   */
   readonly value?: string;
 }
@@ -494,7 +494,7 @@ export class EksFargateProfileTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile awscc_eks_fargate_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile awscc_eks_fargate_profile}
 */
 export class EksFargateProfile extends cdktn.TerraformResource {
 
@@ -510,7 +510,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EksFargateProfile resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksFargateProfile to import
-  * @param importFromId The id of the existing EksFargateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksFargateProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksFargateProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -522,7 +522,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eks_fargate_profile awscc_eks_fargate_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eks_fargate_profile awscc_eks_fargate_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -533,7 +533,7 @@ export class EksFargateProfile extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eks_fargate_profile',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

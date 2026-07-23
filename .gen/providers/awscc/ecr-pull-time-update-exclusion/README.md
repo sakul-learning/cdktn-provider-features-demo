@@ -1,3 +1,3 @@
 # `awscc_ecr_pull_time_update_exclusion`
 
-Refer to the Terraform Registry for docs: [`awscc_ecr_pull_time_update_exclusion`](https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/ecr_pull_time_update_exclusion).
+Refer to the Terraform Registry for docs: [`awscc_ecr_pull_time_update_exclusion`](https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/ecr_pull_time_update_exclusion).

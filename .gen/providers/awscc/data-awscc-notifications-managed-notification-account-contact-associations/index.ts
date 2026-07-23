@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/notifications_managed_notification_account_contact_associations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/notifications_managed_notification_account_contact_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccNotificationsManagedNotificationAccountContactAssociat
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}
 */
 export class DataAwsccNotificationsManagedNotificationAccountContactAssociations extends cdktn.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAwsccNotificationsManagedNotificationAccountContactAssociations
   * Generates CDKTN code for importing a DataAwsccNotificationsManagedNotificationAccountContactAssociations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNotificationsManagedNotificationAccountContactAssociations to import
-  * @param importFromId The id of the existing DataAwsccNotificationsManagedNotificationAccountContactAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/notifications_managed_notification_account_contact_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNotificationsManagedNotificationAccountContactAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/notifications_managed_notification_account_contact_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNotificationsManagedNotificationAccountContactAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAwsccNotificationsManagedNotificationAccountContactAssociations
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,7 +49,7 @@ export class DataAwsccNotificationsManagedNotificationAccountContactAssociations
       terraformResourceType: 'awscc_notifications_managed_notification_account_contact_associations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,14 +12,14 @@ export interface IamManagedPolicyConfig extends cdktn.TerraformMetaArguments {
   *  Typically used to store information about the permissions defined in the policy. For example, "Grants access to production DynamoDB tables."
   *  The policy description is immutable. After a value is assigned, it cannot be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#description IamManagedPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#description IamManagedPolicy#description}
   */
   readonly description?: string;
   /**
   * The name (friendly name, not ARN) of the group to attach the policy to.
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#groups IamManagedPolicy#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#groups IamManagedPolicy#groups}
   */
   readonly groups?: string[];
   /**
@@ -28,7 +28,7 @@ export interface IamManagedPolicyConfig extends cdktn.TerraformMetaArguments {
   *   If you specify a name, you must specify the ``CAPABILITY_NAMED_IAM`` value to acknowledge your template's capabilities. For more information, see [Acknowledging Resources in Templates](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-template.html#using-iam-capabilities).
   *   Naming an IAM resource can cause an unrecoverable error if you reuse the same template in multiple Regions. To prevent this, we recommend using ``Fn::Join`` and ``AWS::Region`` to create a Region-specific name, as in the following example: ``{"Fn::Join": ["", [{"Ref": "AWS::Region"}, {"Ref": "MyResourceName"}]]}``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#managed_policy_name IamManagedPolicy#managed_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#managed_policy_name IamManagedPolicy#managed_policy_name}
   */
   readonly managedPolicyName?: string;
   /**
@@ -38,7 +38,7 @@ export interface IamManagedPolicyConfig extends cdktn.TerraformMetaArguments {
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (``\u0021``) through the DEL character (``\u007F``), including most punctuation characters, digits, and upper and lowercased letters.
   *   You cannot use an asterisk (*) in the path name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#path IamManagedPolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#path IamManagedPolicy#path}
   */
   readonly path?: string;
   /**
@@ -51,7 +51,7 @@ export interface IamManagedPolicyConfig extends cdktn.TerraformMetaArguments {
   *   +  The printable characters in the Basic Latin and Latin-1 Supplement character set (through ``\u00FF``)
   *   +  The special characters tab (``\u0009``), line feed (``\u000A``), and carriage return (``\u000D``)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#policy_document IamManagedPolicy#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#policy_document IamManagedPolicy#policy_document}
   */
   readonly policyDocument: string;
   /**
@@ -59,20 +59,20 @@ export interface IamManagedPolicyConfig extends cdktn.TerraformMetaArguments {
   *  This parameter allows (per its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
   *   If an external policy (such as ``AWS::IAM::Policy`` or ``AWS::IAM::ManagedPolicy``) has a ``Ref`` to a role and if a resource (such as ``AWS::ECS::Service``) also has a ``Ref`` to the same role, add a ``DependsOn`` attribute to the resource to make the resource depend on the external policy. This dependency ensures that the role's policy is available throughout the resource's lifecycle. For example, when you delete a stack with an ``AWS::ECS::Service`` resource, the ``DependsOn`` attribute ensures that CFN deletes the ``AWS::ECS::Service`` resource before deleting its role's policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#roles IamManagedPolicy#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#roles IamManagedPolicy#roles}
   */
   readonly roles?: string[];
   /**
   * The name (friendly name, not ARN) of the IAM user to attach the policy to.
   *  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#users IamManagedPolicy#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#users IamManagedPolicy#users}
   */
   readonly users?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy awscc_iam_managed_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy awscc_iam_managed_policy}
 */
 export class IamManagedPolicy extends cdktn.TerraformResource {
 
@@ -88,7 +88,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IamManagedPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamManagedPolicy to import
-  * @param importFromId The id of the existing IamManagedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamManagedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamManagedPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -100,7 +100,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -111,7 +111,7 @@ export class IamManagedPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iam_managed_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

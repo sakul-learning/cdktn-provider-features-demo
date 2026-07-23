@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_account
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktn from 'cdktn';
 
 export interface ApigatewayAccountConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_account#cloudwatch_role_arn ApigatewayAccount#cloudwatch_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_account#cloudwatch_role_arn ApigatewayAccount#cloudwatch_role_arn}
   */
   readonly cloudwatchRoleArn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_account awscc_apigateway_account}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_account awscc_apigateway_account}
 */
 export class ApigatewayAccount extends cdktn.TerraformResource {
 
@@ -30,7 +30,7 @@ export class ApigatewayAccount extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ApigatewayAccount resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApigatewayAccount to import
-  * @param importFromId The id of the existing ApigatewayAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApigatewayAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApigatewayAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -42,7 +42,7 @@ export class ApigatewayAccount extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/apigateway_account awscc_apigateway_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/apigateway_account awscc_apigateway_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,7 +53,7 @@ export class ApigatewayAccount extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_apigateway_account',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

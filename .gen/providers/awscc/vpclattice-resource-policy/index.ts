@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktn from 'cdktn';
 
 export interface VpclatticeResourcePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_policy#policy VpclatticeResourcePolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_resource_policy#policy VpclatticeResourcePolicy#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_policy#resource_arn VpclatticeResourcePolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_resource_policy#resource_arn VpclatticeResourcePolicy#resource_arn}
   */
   readonly resourceArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy}
 */
 export class VpclatticeResourcePolicy extends cdktn.TerraformResource {
 
@@ -34,7 +34,7 @@ export class VpclatticeResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a VpclatticeResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpclatticeResourcePolicy to import
-  * @param importFromId The id of the existing VpclatticeResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpclatticeResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpclatticeResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -46,7 +46,7 @@ export class VpclatticeResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -57,7 +57,7 @@ export class VpclatticeResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_vpclattice_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

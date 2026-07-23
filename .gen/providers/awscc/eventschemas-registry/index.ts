@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface EventschemasRegistryConfig extends cdktn.TerraformMetaArguments
   /**
   * A description of the registry to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry#description EventschemasRegistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry#description EventschemasRegistry#description}
   */
   readonly description?: string;
   /**
   * The name of the schema registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry#registry_name EventschemasRegistry#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry#registry_name EventschemasRegistry#registry_name}
   */
   readonly registryName?: string;
   /**
   * Tags associated with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry#tags EventschemasRegistry#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry#tags EventschemasRegistry#tags}
   */
   readonly tags?: EventschemasRegistryTags[] | cdktn.IResolvable;
 }
 export interface EventschemasRegistryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry#key EventschemasRegistry#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry#key EventschemasRegistry#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry#value EventschemasRegistry#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry#value EventschemasRegistry#value}
   */
   readonly value?: string;
 }
@@ -177,7 +177,7 @@ export class EventschemasRegistryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry awscc_eventschemas_registry}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry awscc_eventschemas_registry}
 */
 export class EventschemasRegistry extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class EventschemasRegistry extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EventschemasRegistry resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventschemasRegistry to import
-  * @param importFromId The id of the existing EventschemasRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventschemasRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventschemasRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class EventschemasRegistry extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class EventschemasRegistry extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eventschemas_registry',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

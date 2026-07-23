@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktn from 'cdktn';
 
 export interface ManagedblockchainAccessorConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor#accessor_type ManagedblockchainAccessor#accessor_type}
   */
   readonly accessorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor#network_type ManagedblockchainAccessor#network_type}
   */
   readonly networkType?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor#tags ManagedblockchainAccessor#tags}
   */
   readonly tags?: ManagedblockchainAccessorTags[] | cdktn.IResolvable;
 }
@@ -26,13 +26,13 @@ export interface ManagedblockchainAccessorTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#key ManagedblockchainAccessor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor#key ManagedblockchainAccessor#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#value ManagedblockchainAccessor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor#value ManagedblockchainAccessor#value}
   */
   readonly value?: string;
 }
@@ -177,7 +177,7 @@ export class ManagedblockchainAccessorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}
 */
 export class ManagedblockchainAccessor extends cdktn.TerraformResource {
 
@@ -193,7 +193,7 @@ export class ManagedblockchainAccessor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ManagedblockchainAccessor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedblockchainAccessor to import
-  * @param importFromId The id of the existing ManagedblockchainAccessor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedblockchainAccessor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedblockchainAccessor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -205,7 +205,7 @@ export class ManagedblockchainAccessor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,7 +216,7 @@ export class ManagedblockchainAccessor extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_managedblockchain_accessor',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

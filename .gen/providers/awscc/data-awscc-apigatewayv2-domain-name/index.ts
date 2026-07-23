@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/apigatewayv2_domain_name
+// https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/apigatewayv2_domain_name
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAwsccApigatewayv2DomainNameConfig extends cdktn.TerraformMe
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/apigatewayv2_domain_name#id DataAwsccApigatewayv2DomainName#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/apigatewayv2_domain_name#id DataAwsccApigatewayv2DomainName#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -178,7 +178,7 @@ export class DataAwsccApigatewayv2DomainNameMutualTlsAuthenticationOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/apigatewayv2_domain_name awscc_apigatewayv2_domain_name}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/apigatewayv2_domain_name awscc_apigatewayv2_domain_name}
 */
 export class DataAwsccApigatewayv2DomainName extends cdktn.TerraformDataSource {
 
@@ -194,7 +194,7 @@ export class DataAwsccApigatewayv2DomainName extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccApigatewayv2DomainName resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccApigatewayv2DomainName to import
-  * @param importFromId The id of the existing DataAwsccApigatewayv2DomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/apigatewayv2_domain_name#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccApigatewayv2DomainName that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/apigatewayv2_domain_name#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccApigatewayv2DomainName to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -206,7 +206,7 @@ export class DataAwsccApigatewayv2DomainName extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.92.0/docs/data-sources/apigatewayv2_domain_name awscc_apigatewayv2_domain_name} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.93.0/docs/data-sources/apigatewayv2_domain_name awscc_apigatewayv2_domain_name} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,7 +217,7 @@ export class DataAwsccApigatewayv2DomainName extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_apigatewayv2_domain_name',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.92.0'
+        providerVersion: '1.93.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
