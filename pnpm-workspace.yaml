@@ -1,0 +1,9 @@
+minimumReleaseAgeExclude:
+  - cdktn@0.24.0-pre.89
+  - '@cdktn/commons@0.24.0-pre.89'
+  - '@cdktn/hcl-tools@0.24.0-pre.89'
+  - '@cdktn/hcl2cdk@0.24.0-pre.89'
+  - '@cdktn/hcl2json@0.24.0-pre.89'
+  - '@cdktn/provider-generator@0.24.0-pre.89'
+  - '@cdktn/provider-schema@0.24.0-pre.89'
+  - cdktn-cli@0.24.0-pre.89

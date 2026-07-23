@@ -1,6 +1,6 @@
-# CDK Terrain PR #296 provider-feature demo
+# CDK Terrain 0.24 provider-feature demo
 
-This repository is a small, repeatable demo harness for validating provider bindings generated from the `open-constructs/cdk-terrain` PR #296 head.
+This repository is a small, repeatable demo harness for validating provider bindings generated with the published [`cdktn@0.24.0-pre.89`](https://www.npmjs.com/package/cdktn/v/0.24.0-pre.89) and matching `cdktn-cli` prerelease. It preserves the scenarios first built for CDK Terrain PR #296, now merged and released as the 0.24 prerelease.
 
 It intentionally uses the AWS provider because its current Terraform plugin protocol schema includes several non-baseline capabilities:
 
@@ -17,19 +17,17 @@ It also includes an `examples/l2-*` set that ports real `aws-cdk-lib` L2 constru
 ## Prerequisites
 
 - `pnpm`
+- Node.js `>=22.19.0` (required by `cdktn-cli@0.24.0-pre.89`)
 - `mise` with `terraform@1.15.7` and `opentofu@1.12.3` available
-- a built cdk-terrain PR checkout, supplied via `CDKTN_REPO`; this is intentionally required so validation always targets the exact worktree under test
 - AWS credentials/profile for Terraform planning; default profile is `tcons-hermes`, override with `AWS_PROFILE=...`. If you're using `aws-vault exec <profile> --no-session -- ...` instead, see the credential-precedence note below — don't also set `AWS_PROFILE` to a profile Terraform should resolve itself.
 
 ## Quick check
 
 ```bash
-export CDKTN_REPO=/path/to/cdk-terrain-pr-head
 export AWS_PROFILE=tcons-hermes
 export TERRAFORM_BINARY_NAME=$(mise x terraform@1.15.7 -- which terraform)
 pnpm install
-pnpm run use:prhead
-pnpm run assert:prhead-deps
+pnpm run assert:published-deps
 pnpm run schema:aws
 pnpm run generate:aws
 pnpm run inspect:schema
@@ -42,9 +40,9 @@ pnpm run plan:all
 For OpenTofu schema generation / synth / plan compatibility:
 
 ```bash
-export CDKTN_REPO=/path/to/cdk-terrain-pr-head
 export AWS_PROFILE=tcons-hermes
 export TERRAFORM_BINARY_NAME=$(mise x opentofu@1.12.3 -- which tofu)
+pnpm run assert:published-deps
 pnpm run schema:aws
 pnpm run generate:aws
 pnpm run inspect:schema
@@ -54,14 +52,13 @@ pnpm run synth:all
 pnpm run plan:all
 ```
 
-`assert:prhead-deps` is intentionally part of the flow: it verifies the `cdktn` package is installed from the PR-head worktree and the `cdktn` CLI is invoked from the same PR-head checkout instead of npmjs.
+`assert:published-deps` is intentionally part of the flow: it verifies that both the library and CLI resolve to the pinned, published 0.24 prerelease rather than a local worktree.
 
 ### Planning with `aws-vault`
 
 Both examples read `AWS_ACCESS_KEY_ID` at synth time to decide whether to pass a `profile` to `AwsProvider`. Run synth *and* plan inside the same credential session so that decision is made correctly:
 
 ```bash
-export CDKTN_REPO=/path/to/cdk-terrain-pr-head
 export TERRAFORM_BINARY_NAME=$(mise x terraform@1.15.7 -- which terraform)
 aws-vault exec <profile> --no-session -- pnpm run synth:all
 aws-vault exec <profile> --no-session -- pnpm run plan:all
@@ -103,26 +100,26 @@ These are intentionally documented because they are feedback on how the new gene
 - **`CfncompatProviderFunctions.conditionIf(...)`'s generated binding silently dropped struct-typed results — fixed upstream same-day, `181864467`.** `Fn::If`/`condition_if` is documented (RFC 004 §4) as dynamically-typed — either branch can be a string *or* an object — but the generated TS wrapper (`.gen/providers/cfncompat/provider-functions/index.ts`, `conditionIf`) unconditionally forced its result through `Token.asString(...)`. That's correct for the common string-return case but wrong for a struct-typed target: `Tokenization.isResolvable()` doesn't recognize a string-wrapped token, so a struct's generated setter (e.g. `KinesisStreamStreamEncryptionOutputReference.set internalValue`) treated it as a plain object with no known keys, and the whole attribute (`stream_encryption` in `l2-kinesis-stream`) silently disappeared from the synthesized config — no warning, no error, just a missing key. Confirmed at the time: `terraform plan` showed no `stream_encryption` in the generated resource at all. Reported in [PR #296](https://github.com/open-constructs/cdk-terrain/pull/296#issuecomment-4906095165); fixed same-day in `181864467` (`fix(provider-generator): return raw resolvable for dynamic provider-function results`) — the generated wrapper for dynamically-typed functions (`condition_if`, `find_in_map`, `select`) now returns the raw `IResolvable` from `invoke()` instead of `Token.asString(...)`-wrapping it, which struct setters recognize and resolve correctly. `l2-kinesis-stream` now calls `CfncompatProviderFunctions.conditionIf(...)` directly with no workaround.
 - **`cdktn.TerraformProviderFunction.invoke(...)` silently dropped literal `null` positional arguments from any provider-function call — fixed upstream same-day, `c45da5d27`.** Its runtime validated the whole `args` array with a single `variadic(anyValue)` validator (`cdktn/lib/functions/helpers.js`, `terraformFunction`), the same validator used for genuinely variadic argument lists like `condition_and`/`condition_or`'s `conditions`. `variadic`'s underlying `listOf()` unconditionally filtered out `null`/`undefined` *entries* — correct for a variadic list, but wrong for a **fixed-arity** call like `condition_if(condition, value_if_true, value_if_false)`: passing `null` for `value_if_true` dropped it from the argument list entirely instead of preserving its positional slot, so Terraform saw only 2 arguments and rejected the call (`Error: Not enough function arguments`). Reported alongside the above; fixed same-day in `c45da5d27` (`fix(lib): render null provider-function arguments instead of dropping them`) — `invoke` now validates each argument per-position (preserving `null`/`undefined` slots), and a second, related latent defect the fix uncovered (`FunctionCall`'s `Array.prototype.join` collapsing a resolved `null` to an empty string instead of rendering the Terraform `null` keyword) was fixed in the same commit (`tfExpression.ts`). `l2-kinesis-stream` now passes a literal `null` for the "no encryption" branch, matching CloudFormation's `Aws.NO_VALUE` semantics exactly, with no workaround.
 - **A struct-typed value passed as a provider-function argument (or a `Lazy` producer result) needs to be pre-shaped with the resource's own generated `xxxToTerraform(...)` mapper — cdktn never applies it for you outside plain synth-time attribute assignment.** `l2-kinesis-stream`'s `conditionIf(...)` branch is a struct-shaped `KinesisStreamStreamEncryption` value, but it's a raw provider-function *argument*, not a typed `streamEncryption:` assignment — so it never goes through `kinesisStreamStreamEncryptionToTerraform(...)`, the mapper that normally converts cdktn's camelCase struct fields (`encryptionType`, `keyId`) to the Terraform schema's snake_case (`encryption_type`, `key_id`) when a resource is synthesized. The fix is to call that generated mapper explicitly — `kinesisStreamStreamEncryptionToTerraform({ encryptionType: "KMS", keyId: "alias/aws/kinesis" })` — rather than hand-writing the snake_case object yourself (fragile, and untyped — a raw object literal here has no compile-time check against the actual schema, while the mapper's parameter is the typed `KinesisStreamStreamEncryption` shape, so `tsc` catches typos/wrong types). This is the *identical* underlying cause as a known `Lazy.anyValue({ produce: ... })` gotcha for nested-struct properties (not specific to provider functions): a value produced via `Lazy`/a token/a provider-function call is only substituted in during whole-tree token resolution, which never invokes the destination's `xxxToTerraform` mapper — that mapper only runs at synth-time attribute collection, which only sees plain (already-resolved) literals. Currently undocumented in cdktn's own docs on either front (`concepts/constructs.mdx`'s only `Lazy` example is a flat value, never a nested struct; `concepts/functions.mdx` explicitly scopes provider-defined functions out) — filed as [open-constructs/cdk-terrain-docs#26](https://github.com/open-constructs/cdk-terrain-docs/issues/26).
-- **`pnpm install` can silently reuse a stale `file:` dependency for `cdktn`.** While diagnosing the two issues above, repointing `CDKTN_REPO` at a different local checkout (same package name/version, `cdktn@0.0.0`, different path/content) and re-running `pnpm install` after deleting `pnpm-lock.yaml` still resolved `node_modules/cdktn` from the *old* path — the lockfile's relativized `directory:` resolution didn't pick up the new source. `pnpm install --force` (bypassing pnpm's content-addressable store cache) fixed it. Not a `cdktn`/PR #296 issue, but worth calling out for anyone else iterating against multiple local `cdk-terrain` checkouts: after repointing `CDKTN_REPO`, prefer `rm -rf node_modules pnpm-lock.yaml && pnpm install --force` over just deleting the lockfile.
+- The former local-worktree `file:` dependency is intentionally gone. `pnpm install` now resolves versioned packages from npm, and `pnpm run assert:published-deps` rejects an unexpected local dependency or mismatched library/CLI version.
 
 ## Current verification results
 
-Against cdk-terrain PR #296 head `30b172423c3e96b149ca3ad56a1948f73dee82ba` (branch `feat/provider-feature-availability`):
+Validated against the published `cdktn@0.24.0-pre.89` and `cdktn-cli@0.24.0-pre.89` prerelease:
 
-- Terraform `1.15.7`: `assert:prhead-deps`, `generate:aws`, TypeScript 7 `tsc --noEmit --checkers 1`, and `synth:all` passed. This refresh did not re-run schema capture or Terraform plans.
+- Terraform `1.15.7`: `assert:published-deps`, `generate:aws`, `assert:generated-features`, TypeScript 7 `tsc --noEmit --checkers 1`, and all nine `synth:*` scenarios passed. Terraform plans were not re-run for this release-only migration.
   - AWS provider schema exposed `functions: 4`, `ephemeral_resource_schemas: 10`, `list_resource_schemas: 153`, `action_schemas: 11`, and `resource_identity_schemas: 437` — unchanged from the PR #296 head recorded previously (same AWS provider `6.53.0`).
   - Generated bindings confirmed: provider functions and ephemeral resources. The refresh changes twelve generated AWS resource bindings to use `cdktn.ProviderFeature.WRITE_ONLY_ATTRIBUTES` rather than the hard-coded `"writeOnlyAttributes"` string. No handwritten sample changes were needed because the samples do not call `registerProviderFeatureUsage(...)` directly.
   - No first-class generated directories/classes were emitted for list resources, provider actions, or resource identity schemas; keep the schema counts visible so this gap is easy to see on future PR heads.
   - `functions-only` and `functions-ephemeral` now additionally exercise `AwsProviderFunctions.userAgent(...)` and an ephemeral `lifecycle.postcondition`, respectively (see UX notes and Example projects above). `ephemeral-writeonly-secret` covers the complementary Terraform 1.11+ write-only sink pattern: an ephemeral random password flows into `secret_string_wo`, and only the `password_version` rotation knob is stored in configuration/state.
   - `mixins-s3`, `mixins-data-recovery`, and `mixins-aspect-instance` verify the `IMixin`/`construct.with(...)` primitive shipped in `cdktn@0.23.4` via the `constructs@10.6.0` bump (confirmed present in the published npm packages, not just this checkout), against the [proposed "Mixins" concept doc](https://github.com/open-constructs/cdk-terrain/tree/docs/concept-mixins): all three mixin patterns (provider-agnostic, provider-specific via `addOverride`, multi-resource-type via typed setters) and the mixin+aspect pairing all synthesize and plan correctly — see Example projects and UX notes above.
 - OpenTofu `1.12.3` compatibility was not re-verified in this pass; see the previous recorded result below as a prior data point (bindings are shared, so this should still hold, but re-run `schema:aws`/`synth:all`/`plan:all` under OpenTofu to confirm on a fresh PR head).
-  - Previously recorded: using the Terraform-generated bindings, `assert:prhead-deps`, `assert:generated-features`, `tsc --noEmit`, `synth:all`, and `plan:all` passed. A separate OpenTofu schema probe had provider functions, ephemeral resources, and resource identities, but reported `list_resource_schemas: 0` and `action_schemas: 0`.
+  - Previously recorded, using the Terraform-generated bindings: `assert:published-deps`, `assert:generated-features`, `tsc --noEmit`, `synth:all`, and `plan:all` passed. A separate OpenTofu schema probe had provider functions, ephemeral resources, and resource identities, but reported `list_resource_schemas: 0` and `action_schemas: 0`.
 - `examples/l2-*` added `hashicorp/awscc@1.91.0` and `cdktn-io/cfncompat@0.2.0` (both public-registry, no local build/mirror needed) to `terraformProviders`. `generate:aws` (despite the name, now generates all three providers listed in `cdktf.json`) regenerated `.gen/providers/awscc/` and `.gen/providers/cfncompat/` cleanly; `l2-kinesis-stream`, `l2-secretsmanager-secret`, and `l2-ec2-cidr-split` all typecheck, synth, and plan successfully (via `aws-vault exec tcons-vincent --no-session`), all now using the plain generated API with no workarounds — see Example projects above and UX notes for the two `cdktn` bugs this uncovered and their same-day fixes.
 - `pnpm exec tsc --noEmit` across the now much larger `.gen/` (awscc's CloudControl-derived surface is far larger than the classic `aws` provider) needs a bumped Node heap (`NODE_OPTIONS="--max-old-space-size=16384"`) to avoid an OOM — default Node heap (~4GB) isn't enough to typecheck the full generated tree in one pass. Not a PR #296 issue; a scale note for anyone adding more providers to this demo.
 - With that heap bump, `tsc --noEmit` across the *entire* repo (all providers, all examples) passes with **zero errors**. It briefly surfaced a third generator bug while first regenerating `awscc` bindings — `.gen/providers/awscc/data-awscc-appintegrations-data-integration/index.ts` referenced a non-existent `cdktn.StringListMapMap` class for a 3-level-nested computed map attribute (`object_configuration`) — but that was already fixed on `main` by [open-constructs/cdk-terrain#300](https://github.com/open-constructs/cdk-terrain/pull/300) (`d555b828f`, "collapse unsupported nested collections to nearest Any wrapper" — emits `cdktn.AnyMapMap` instead) before `feat/provider-feature-availability` was rebased onto it here, so the committed `.gen/` reflects the fixed output directly; no separate write-up needed.
 - Ran the upstream test suites after the two provider-function fixes landed: `@cdktn/provider-generator`'s `provider-functions` suite (2/2, 6 snapshots) and `cdktn`'s `provider-functions` suite (10/10, 2 snapshots — includes the new regression tests asserting the exact `provider::cfncompat::condition_if(true, null, {"a" = 1})` rendering for both `null` and `undefined`) both pass cleanly. The two broader suites each have one unrelated, pre-existing, network-dependent failure (a module-generator test resolving a real Terraform Registry module; a `toPlanSuccessfully` matcher test against the `docker` provider) — neither touches provider-function code and both are consistent with the transient registry timeouts seen elsewhere in this session.
 
-## Current blockers / gaps to feed back to PR #296
+## Current gaps
 
 Five blockers from previous runs have since been fixed upstream on `feat/provider-feature-availability` (landed after PR #296 review):
 
@@ -141,8 +138,7 @@ Still open:
 
 Portability notes:
 
-- This demo's `package.json` points `cdktn` at a local PR-head worktree via a `file:` dependency. `pnpm-lock.yaml` resolves `file:` deps as paths *relative to this repo's parent directory* — if you clone/move this repo, `pnpm install` will fail with an `ENOENT` on a stale relative path baked into the lockfile. Re-run `pnpm run use:prhead` with `CDKTN_REPO` set to regenerate it (delete `pnpm-lock.yaml` first if the stale entry blocks `pnpm add`'s own pre-install dependency check).
-- `scripts/cdktn.js` and `scripts/assert-prhead-deps.js` require `CDKTN_REPO`; there is deliberately no cwd-relative fallback. A `file:` dependency itself cannot interpolate an environment variable, so `pnpm run use:prhead` remains the supported command that retargets it and refreshes the lockfile.
+The demo pins `cdktn` and `cdktn-cli` to the published `0.24.0-pre.89` prerelease. `pnpm run assert:published-deps` confirms this before generation or synthesis.
 
 ## Notes
 

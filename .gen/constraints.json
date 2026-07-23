@@ -1,5 +1,5 @@
 {
-  "cdktf": "0.0.0",
+  "cdktf": "0.24.0-pre.89",
   "providers": {},
   "targetVersions": {
     "terraform": ">=1.15.0",
