@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       cdktn:
-        specifier: 0.24.0-pre.89
+        specifier: next
         version: 0.24.0-pre.89(constructs@10.6.0)
       constructs:
         specifier: 10.6.0
@@ -19,7 +19,7 @@ importers:
         specifier: 22.20.1
         version: 22.20.1
       cdktn-cli:
-        specifier: 0.24.0-pre.89
+        specifier: next
         version: 0.24.0-pre.89(cdktn@0.24.0-pre.89(constructs@10.6.0))(jsii-pacmak@1.128.0(jsii-rosetta@5.9.57))(jsii@5.9.48)
       typescript:
         specifier: 7.0.2
@@ -1120,7 +1120,7 @@ snapshots:
   '@babel/generator@7.29.1':
     dependencies:
       '@babel/parser': 7.29.7
-      '@babel/types': 7.29.0
+      '@babel/types': 7.29.7
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
       jsesc: 3.1.0
@@ -1137,7 +1137,7 @@ snapshots:
     dependencies:
       '@babel/code-frame': 7.29.7
       '@babel/parser': 7.29.7
-      '@babel/types': 7.29.0
+      '@babel/types': 7.29.7
 
   '@babel/types@7.29.0':
     dependencies:
@@ -1913,7 +1913,7 @@ snapshots:
       semver: 7.8.5
       spdx-license-list: 6.11.0
       xmlbuilder: 15.1.1
-      yargs: 17.7.2
+      yargs: 17.7.3
 
   jsii-reflect@1.139.0:
     dependencies:
