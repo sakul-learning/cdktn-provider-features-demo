@@ -8,7 +8,7 @@ It can run against any of three cdktn sources, so the same scenarios validate a 
 2. **`next`** — the published prerelease via the mutable [`@next`](https://www.npmjs.com/package/cdktn?activeTab=versions) dist-tag (`cdktn@next`, currently 0.24.0-pre.x): `pnpm run use:next` — **the committed default**
 3. **PR head** — a locally built `cdk-terrain` checkout: `CDKTN_REPO=/path/to/cdk-terrain pnpm run use:prhead`
 
-`next`/`latest` are mutable dist-tags: `package.json` records the tag (not a pinned version) and `pnpm update cdktn cdktn-cli` re-resolves it to the newest published build. `pnpm run assert:deps` verifies whichever source is selected resolves consistently.
+`next`/`latest` are mutable dist-tags: `package.json` records the tag (not a pinned version). `pnpm install` reproduces the current lockfile and does **not** advance a previously locked tag — run `pnpm run refresh:next` (or `refresh:latest`) to deliberately follow the tag to its newest published build. `pnpm run assert:deps` verifies whichever source is selected resolves consistently.
 
 It intentionally uses the AWS provider because its current Terraform plugin protocol schema includes several non-baseline capabilities:
 
@@ -155,7 +155,18 @@ Still open:
 
 Portability notes:
 
-The demo defaults `cdktn`/`cdktn-cli` to the mutable `@next` dist-tag rather than a pinned version, so the same scenarios can be re-pointed at `@latest`, `@next`, or a local PR-head build via `pnpm run use:latest`/`use:next`/`use:prhead`. `pnpm run assert:deps` confirms the selected source before generation or synthesis. The `pnpm-lock.yaml` still pins an exact resolved version per install for reproducibility; run `pnpm update cdktn cdktn-cli` to advance the tag.
+The demo defaults `cdktn`/`cdktn-cli` to the mutable `@next` dist-tag rather than a pinned version, so the same scenarios can be re-pointed at `@latest`, `@next`, or a local PR-head build via `pnpm run use:latest`/`use:next`/`use:prhead`. `pnpm run assert:deps` confirms the selected source before generation or synthesis. The `pnpm-lock.yaml` still pins an exact resolved version per install for reproducibility.
+
+To deliberately advance the harness to the current prerelease tag (npm dist-tags are mutable; published versions/tarballs are effectively immutable, so no cache clear is normally needed):
+
+```bash
+pnpm run refresh:next          # = pnpm update cdktn@next cdktn-cli@next && pnpm run assert:deps
+```
+
+Notes:
+
+- Do **not** use `pnpm update --latest` here — npm's `latest` is still 0.23.4, so `--latest` would jump off the `@next` tag instead of following it. `refresh:latest` (the `@latest` release line) is the separate, intentional way to move to `latest`.
+- `pnpm install --force` only rehydrates the already-selected lockfile resolution; if you mean to move the tag, run `pnpm run refresh:next` (the explicit `pnpm update`) — `--force` follows it, it does not replace it.
 
 ## Notes
 

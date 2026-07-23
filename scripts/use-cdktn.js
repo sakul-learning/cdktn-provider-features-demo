@@ -68,5 +68,9 @@ if (mode === 'prhead') {
   console.log('Run generate/synth with CDKTN_REPO set so scripts/cdktn.js uses the built bundle.');
 } else {
   console.log(`\nOK: cdktn/cdktn-cli set to the mutable @${mode} tag.`);
-  console.log(`Re-run \`pnpm update cdktn cdktn-cli\` to pull the newest published @${mode} build.`);
+  console.log(
+    `\`pnpm install\` only reproduces the current lockfile; it does not advance the tag.\n` +
+      `To follow @${mode} to its newest published build: pnpm run refresh:${mode}` +
+      `  (= pnpm update cdktn@${mode} cdktn-cli@${mode} && pnpm run assert:deps).`,
+  );
 }

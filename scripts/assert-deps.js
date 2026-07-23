@@ -28,13 +28,36 @@ if (repo) {
       `CDKTN_REPO is set but cdktn resolves from npm (${installedDirectory}); run pnpm run use:prhead`,
     );
   }
+  // Not enough that the library is *some* local dependency — it must resolve from
+  // THIS CDKTN_REPO checkout. Otherwise changing only CDKTN_REPO (without re-running
+  // use:prhead) makes scripts/cdktn.js run one checkout's CLI while imports still
+  // resolve cdktn from the previously installed one — a mixed build that both being
+  // local would otherwise let slip through.
+  const expectedCdktn = path.resolve(repo, 'packages/cdktn');
+  const expectedRelative = path.relative(process.cwd(), expectedCdktn).split(path.sep).join('/');
+  // pnpm relativizes a file: dep to the lockfile dir and encodes it into the store
+  // directory name (`/` -> `+`); it records the same relative path in the lockfile.
+  const expectedDepDir = `cdktn@file+${expectedRelative.replaceAll('/', '+')}`;
+  if (!installedDirectory.includes(expectedDepDir)) {
+    throw new Error(
+      `cdktn library resolves from ${installedDirectory}, not the CDKTN_REPO checkout at ${expectedCdktn}. ` +
+        'Re-run pnpm run use:prhead so the installed library and the CLI come from the same PR head.',
+    );
+  }
+  const lock = fs.readFileSync(path.join(process.cwd(), 'pnpm-lock.yaml'), 'utf8');
+  if (!lock.includes(`file:${expectedRelative}`)) {
+    throw new Error(
+      `pnpm-lock.yaml does not resolve cdktn from ${expectedRelative}; run a clean pnpm run use:prhead.`,
+    );
+  }
   const cli = path.resolve(repo, 'packages/cdktn-cli/bundle/bin/cdktn.js');
   if (!fs.existsSync(cli)) {
     throw new Error(`PR-head cdktn CLI bundle not found: ${cli}`);
   }
-  console.log(`cdktn package: ${installedDirectory} (${installedPackage.version})`);
-  console.log(`cdktn CLI: ${cli}`);
-  console.log('OK: PR-head mode — cdktn library and CLI resolve from the local cdk-terrain checkout.');
+  console.log(`cdktn library: ${installedDirectory} (${installedPackage.version})`);
+  console.log(`cdktn source:  ${expectedCdktn}`);
+  console.log(`cdktn CLI:     ${cli}`);
+  console.log('OK: PR-head mode — installed cdktn library and CLI both resolve from the CDKTN_REPO checkout.');
 } else {
   if (isLocal) {
     throw new Error(

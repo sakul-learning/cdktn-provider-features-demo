@@ -9,6 +9,8 @@
     "use:latest": "node scripts/use-cdktn.js latest",
     "use:next": "node scripts/use-cdktn.js next",
     "use:prhead": "node scripts/use-cdktn.js prhead",
+    "refresh:next": "pnpm update cdktn@next cdktn-cli@next && pnpm run assert:deps",
+    "refresh:latest": "pnpm update cdktn@latest cdktn-cli@latest && pnpm run assert:deps",
     "schema:aws": "bash scripts/capture-aws-schema.sh",
     "inspect:schema": "node scripts/inspect-aws-schema.js schema/aws-provider-schema.json",
     "assert:deps": "node scripts/assert-deps.js",
